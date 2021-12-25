@@ -1,0 +1,155 @@
+title: LioranBoard 2 Stream Deck
+tagline: LioranBoard 2 | Free and powerful Stream Deck for your Twitch and YouTube | Works with OBS
+description: Transform your ordinary stream into interactive experience for your viewers with LioranBoard Stream Deck
+name: LioranBoard 2 • Free Stream Deck 
+url: "https://lioranboard.ca"
+author:
+  twitter: christina_kral
+repository: https://github.com/LioranBoard/docs2
+logo: /assets/favicon/favicon-32x32.png
+social:
+  name: LioranBoard
+  links:
+    - https://twitter.com/lioranboard
+    - https://github.com/LioranBoard
+timezone: US/Pacific
+google_analytics_id: G-BW26WQFHV8
+google_site_verification: XXX
+twitter:
+    username: lioranboard
+    card: summary
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-toc
+  - jekyll-mentions
+  - jekyll-relative-links
+sass:
+    style: compressed
+relative_links:
+  enabled:     true
+  collections: true
+kramdown:
+  auto_ids: false
+toc:
+  min_level: 1
+  max_level: 6
+  ordered_list: false
+  no_toc_section_class: no_toc_section
+  list_id: toc
+  list_class: section-nav
+  sublist_class: ''
+  item_class: "nav-link d-flex flex-row"
+  item_prefix: toc-
+defaults:
+- scope:
+    path: docs
+    type: pages
+  values:
+    layout: post
+- scope: 
+    path: docs/commands
+  values:
+    menu: Commands
+- scope: 
+    path: docs/integrations
+  values:
+    menu: Integrations
+- scope: 
+    path: docs/faq
+  values:
+    menu: FAQ    
+- scope: 
+    path: docs/troubleshooting
+  values:
+    menu: Troubleshooting   
+sass:
+    sass_dir: _sass
+algolia:
+    application_id: T1W4YLUXZS
+    index_name:  docs # You can replace that with whatever name you want
+collections_dir: doc_posts
+collections:
+  getting-started:
+      output: true
+  about:
+      output: true
+  components:
+      output: true
+  integrations:
+      output: true
+  integrations-obs:
+      output: true
+  integrations-twitch:
+      output: true
+  youtube-general:
+      output: true
+  youtube-download:
+      output: true
+  youtube-setup:
+      output: true
+  youtube-transmitter:
+      output: true
+  youtube-commands:
+      output: true
+  youtube-triggers:
+      output: true
+  triggers:
+      output: true
+  faq-general: 
+      output: true
+  faq-receiver: 
+      output: true   
+  faq-commands: 
+      output: true    
+  troubleshooting-common:
+      output: true  
+  troubleshooting-errors:
+      output: true  
+  troubleshooting-bugs:
+      output: true  
+  commands-variable: 
+      output: true 
+  commands-number: 
+      output: true 
+  commands-string: 
+      output: true
+  commands-stack: 
+      output: true 
+  commands-statements: 
+      output: true 
+  commands-trigger: 
+      output: true       
+  commands-file: 
+      output: true
+  commands-twitch: 
+      output: true
+  commands-buffer: 
+      output: true
+  commands-button: 
+      output: true
+  commands-misc: 
+      output: true
+  commands-obs-general: 
+      output: true 
+  commands-obs-filters: 
+      output: true 
+  commands-obs-media: 
+      output: true 
+  commands-obs-outputs: 
+      output: true 
+  commands-obs-properties: 
+      output: true 
+  commands-obs-recording: 
+      output: true 
+  commands-obs-scenes: 
+      output: true 
+  commands-obs-sources: 
+      output: true 
+  commands-obs-streaming: 
+      output: true 
+  commands-obs-transitions: 
+      output: true 
+  commands-deprecated: 
+      output: true

@@ -1,0 +1,1 @@
+![svg image](data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='{{include.color}}' class='bi bi-circle-fill d-md-none me-1' viewBox='0 0 16 16'%3E%3Ccircle cx='8' cy='8' r='8'%3E%3C/circle%3E%3C/svg%3E)

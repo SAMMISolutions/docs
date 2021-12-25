@@ -1,0 +1,6 @@
+<div class="embed-responsive mb-3" ><video onclick="this.paused ? this.play() : this.pause()" controls=true class="embed-responsive-item video" width="{{ include.w }}%" src="{{ "/assets/videos/" | append: page.collection | append: "/" | append: include.src | relative_url  }}" title="{{ include.alt }}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video></div>
+{% comment %}
+src = vid file src
+alt = alternative text
+w = video width in percentage
+{% endcomment %}

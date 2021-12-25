@@ -1,0 +1,6 @@
+_site/
+*-cache/
+.jekyll-metadata
+assets/css/main copy.scss
+assets/css/content copy.scss
+_algolia_api_key

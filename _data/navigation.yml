@@ -1,0 +1,127 @@
+main:
+- name: Getting Started
+  collection: getting-started
+- name: Components
+  collection: components
+- name: Integrations
+  submenus: 
+    - name: OBS 
+      link: integrations/obs
+      collection: integrations-obs
+    - name: Twitch
+      link: integrations/twitch
+      collection: integrations-twitch
+    - name: YouTube
+      subitems:
+          - name: General
+            link: integrations/youtube/general
+            collection: youtube-general
+          - name: Download
+            link: integrations/youtube/download
+            collection: youtube-download
+          - name: Setup
+            link: integrations/youtube/setup
+            collection: youtube-setup
+          - name: Transmitter
+            link: integrations/youtube/transmitter
+            collection: youtube-transmitter
+          - name: Commands
+            link: integrations/youtube/commands
+            collection: youtube-commands
+          - name: Triggers
+            link: integrations/youtube/triggers
+            collection: youtube-triggers
+- name: Commands
+  submenus: 
+    - name: Variables
+      link: commands/variables
+      collection: commands-variable
+    - name: Number methods
+      link: commands/number
+      collection: commands-number
+    - name: String methods
+      link: commands/string
+      collection: commands-string
+    - name: Stack methods
+      link: commands/stack
+      collection: commands-stack
+    - name: Statements and Loops
+      link: commands/statements 
+      collection: commands-conditions 
+    - name: Trigger methods
+      link: commands/trigger
+      collection: commands-trigger 
+    - name: OBS
+      subitems:
+          - name: OBS General
+            link: commands/obs-general
+            collection: commands-obs-general
+          - name: OBS Scenes
+            link: commands/obs-scenes
+            collection: commands-obs-scenes
+          - name: OBS Sources
+            link: commands/obs-sources
+            collection: commands-obs-sources
+          - name: OBS Transitions
+            link: commands/obs-transitions
+            collection: commands-obs-transitions
+          - name: OBS Filters
+            link: commands/obs-filters
+            collection: commands-obs-filters
+          - name: OBS Item Properties
+            link: commands/obs-properties
+            collection: commands-obs-properties
+          - name: OBS Outputs
+            link: commands/obs-outputs
+            collection: commands-obs-outputs
+          - name: OBS Streaming
+            link: commands/obs-streaming
+            collection: commands-obs-streaming
+          - name: OBS Recording
+            link: commands/obs-recording
+            collection: commands-obs-recording
+          - name: OBS Media
+            link: commands/obs-media
+            collection: commands-obs-media
+    - name: Twitch
+      link: commands/twitch
+      collection: commands-twitch
+    - name: File manipulation
+      link: commands/file
+      collection: commands-file
+    - name: Buffers
+      link: commands/buffer
+      collection: commands-buffer
+    - name: Buttons
+      link: commands/button
+      collection: commands-button
+    - name: Miscellaneous
+      link: commands/misc
+      collection: commands-misc
+- name: Triggers
+  collection: triggers
+- name: FAQ 
+  submenus: 
+    - name: General
+      link: faq/general
+      collection: faq-general
+    - name: Receiver
+      link: faq/receiver
+      collection: faq-receiver
+    - name: Commands
+      link: faq/commands
+      collection: faq-commands
+- name: Troubleshooting
+  submenus: 
+    - name: Common Issues
+      link: troubleshooting/common
+      collection: troubleshooting-common
+    - name: Error Messages
+      link: troubleshooting/errors
+      collection: troubleshooting-errors
+    - name: Known Bugs
+      link: troubleshooting/bugs
+      collection: troubleshooting-bugs
+- name: About
+  collection: about
+

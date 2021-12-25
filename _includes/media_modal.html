@@ -1,0 +1,24 @@
+{% if include.img %}
+{% assign id = include.img | strip | split: '.' %}
+{% else %}
+{% assign id = include.vid | strip | split: '.' %}
+{% endif %}
+<!-- Button trigger modal -->
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ id }}" title="Click me to view the example">
+  {{ include.alt }}
+  </button>
+  <!-- Modal -->
+  <div class="modal fade" id="{{ id }}" tabindex="-1" aria-labelledby="{{ id }}" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-xl">
+      <div class="modal-content">
+        <div class="modal-header">
+          <p class="modal-title h5" id="{{ id }}">{{ include.alt }}</p>
+         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+            {% if include.img %}
+            {% assign img = "/assets/images/" | append: page.collection | append: "/" | append: include.img | relative_url %} {% assign id = include.img | strip | split: '.' %} <div class="mb-2"><img src="{{ img }}" class="img-fluid" alt="{{ include.alt }}"></div>{% endif %}{% if include.vid %}<div class="mb-2"><video onclick="this.paused ? this.play() : this.pause()" controls=true class="embed-responsive-item video w-{{ include.width }}" src="{{ "/assets/videos/" | append: page.collection | append: "/" | append: include.vid | relative_url  }}" title="{{ include.alt }}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video></div>{% endif %}{% if include.pastebin %}<div class="row mb-2"><b>Import JSON button <a class="bs-popover" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" title="Import JSON Button" data-bs-html="true" data-bs-content="Copy the whole JSON string below. Right click on any empty space in your deck and select <b>Import JSON</b>."><i class="fas fa-question-circle fa-lg" title="Click me!"></i></a> </b><script src="https://pastebin.com/embed_js.php?i={{ include.pastebin }}"></script></div>{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>

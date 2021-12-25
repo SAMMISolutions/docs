@@ -1,0 +1,44 @@
+        {% for item in site.data.navigation.main %}
+        <li class="mb-1">
+        <button class="btn d-inline-flex align-items-center rounded sidebar-button" data-bs-toggle="collapse" data-bs-target="#{{ item.name | remove: ' ' }}-collapse" {% if page.menu == item.name %} aria-expanded="true" aria-current="true" {% endif %}>
+          {{ item.name }}  
+        </button>
+        <br>
+        <div class="collapse {% if page.menu == item.name %} show {% endif %}" id="{{ item.name | remove: ' '}}-collapse">  
+          {% if item.submenus %}
+          <ul class="list-unstyled fw-normal pb-1 small sidebar-sidemenu ">
+            {% for submenu in item.submenus %}
+            {% if submenu.subitems %}
+            <li>
+              <button class="btn d-inline-flex align-items-center rounded sidebar-button submenu-button" data-bs-toggle="collapse" data-bs-target="#{{ submenu.name | remove: ' ' }}-collapse" {% if submenu.name == page.title or submenu.name == page.parent  %} aria-expanded="true" aria-current="true" {% endif %}>{{submenu.name}}</button>
+            </li>
+              <ul class="list-unstyled fw-normal pb-1 small collapse mx-3 {% if page.parent == submenu.name %} show {% endif %}" id="{{ submenu.name | remove: ' ' }}-collapse">
+                {% for subitem in submenu.subitems %}
+                <li class="nav-item">
+                  <a href="{{ subitem.link | relative_url }}" class="nav-link sidebar-innerbutton fs-7 {% if subitem.name == page.title %} active {% endif %}">{{ subitem.name }}</a>
+                </li>
+                {% endfor %}
+              </ul>
+             {% else %}             
+             <li><a href="{{ submenu.link | relative_url }}" class="d-inline-flex align-items-center rounded sidebar-subbutton fs-6 {% if submenu.name == page.title or submenu.name == page.parent  %} active {% endif %}">{{ submenu.name }}</a>
+             </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          {% elsif site[item.collection] %}
+          <ul class="list-unstyled fw-normal pb-1 small sidebar-sidemenu ">
+          {% assign posts = site[item.collection] | sort: "num"  %}
+          {% for post in posts %}
+          {% if post.ignore != true %}
+            <li><a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center rounded sidebar-subbutton fs-6 {% if page.title == post.title or page.parent == post.title %} active {% endif %}">{{ post.title }}</a>
+            </li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+          {% endif %}
+        </div>
+      </li>
+        {% endfor %}
+        
+        
+

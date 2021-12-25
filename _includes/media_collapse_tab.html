@@ -1,0 +1,29 @@
+<a class="img-toggle" role="button" href="#{{ include.name }}" data-bs-toggle="collapse" aria-controls="{{ include.name }}" aria-expanded="false">
+<i class="far fa-plus-square fa-2x"></i><i class="far fa-minus-square fa-2x"></i> <b>{% if include.btn != "" %}{{include.alt}} {% endif %}</b></a>
+<div class="collapse row" id="{{ include.name }}">
+{% if include.img != "" %} 
+<div><figure class="figure">
+<a href="{{ page.path_img | append: include.img | relative_url  }}" data-bs-toggle="lightbox" data-title="{{ include.alt }}" data-type="{{ include.type }}">
+<img src="{{ page.path_img | append: include.img | relative_url  }}" class="figure-img img-fluid rounded w-{{ include.img_width}}" alt="{{ include.alt }}" title="Click to enlarge">
+<figcaption class="figure-caption">{{ include.alt }}</figcaption>
+</a></figure>{% endif %}
+{% if include.video != "" %}  
+<div class="embed-responsive mb-3" ><video onclick="this.paused ? this.play() : this.pause()" controls=true class="embed-responsive-item video" width="{{include.vid_width}}%" src="{{page.path_vid | append: include.video | relative_url }}" title="{{ include.alt }}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video></div>{% endif %}
+{% if include.pastebin != "" %}<div class="row mb-2"><b>Import JSON button</b><script src="http://pastebin.com/embed_js.php?i={{ include.pastebin }}"></script></div>{% endif %}
+</div>
+</div>
+{% comment %}
+img = img file name, alt = h1 and alt text, video = vid file name
+     img_width = image width, vid_width = video width, pastebin = pastebin url fragment
+     name = unique name
+{% endcomment %} 
+
+
+
+
+
+
+
+
+
+

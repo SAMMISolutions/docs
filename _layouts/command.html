@@ -1,0 +1,22 @@
+---
+layout: default
+---
+
+<ul class="nav sticky-top justify-content-start">
+    {% assign math_commands = site.commands-numbers | sort: "num"  %}
+    {% for post in math_commands %}
+    <li class="nav-item">
+      <a class="nav-link active" aria-current="page" href="#{{ post.name }}">{{ post.title }}</a>
+    </li>
+    {% endfor %}
+  </ul>
+
+{% include commands-numbers_tab.html %}
+
+{% assign math_commands = site.commands-numbers | sort: "num"  %}
+ {% for post in math_commands %}
+ <h3 id="{{ post.name }}">{{ post.title }}
+    <a class="anchorjs-link " aria-label="Anchor" data-anchorjs-icon="#" href="#{{ post.name }}" style="padding-left: 0.375em;">#</a>
+  </h3>
+  <p>{{ post.content | markdownify }}</p> 
+  {% endfor %}

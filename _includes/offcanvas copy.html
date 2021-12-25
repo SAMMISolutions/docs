@@ -1,0 +1,20 @@
+<button class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasScrolling" aria-controls="offcanvasScrolling">{{ include.alt }}</button>
+<div class="offcanvas offcanvas-end" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasScrollingLabel">{{ include.alt }}</h5>
+      <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+    <div id="dragbar"></div>
+    {% if include.video != "" %}  
+    <div class="embed-responsive mb-3" ><video onclick="this.paused ? this.play() : this.pause()" controls=true class="embed-responsive-item video" width="{{ include.w }}%" src="{{page.path_vid | append: include.video | relative_url }}" title="{{ include.alt }}" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video></div>{% endif %}
+    {% if include.img != "" %} 
+    <div><figure class="figure">
+        <a href="{{ page.path_img | append: include.img | relative_url  }}" data-bs-toggle="lightbox" data-title="{{ include.alt }}" data-type="{{ include.type }}">
+        <img src="{{ page.path_img | append: include.img | relative_url  }}" class="figure-img img-fluid rounded w-{{ include.w }}" alt="{{ include.alt }}" title="Click to enlarge">
+        <figcaption class="figure-caption">{{ include.alt }}</figcaption>
+        </a></figure>{% endif %}
+        {% if include.pastebin != "" %}<div class="row mb-2"><b>Import JSON button</b><script src="http://pastebin.com/embed_js.php?i={{ include.pastebin }}"></script></div>{% endif %}
+    </div>
+  </div>
+</div>

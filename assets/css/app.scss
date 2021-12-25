@@ -1,0 +1,70 @@
+---
+---
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+  color: #333;
+  text-shadow: none; 
+}
+
+body {
+  background: #06112a;  
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  box-shadow: inset 0 0 5rem rgba(0, 0, 0, .5);
+}
+
+.cover-container {
+    background: #3b4a596e;
+    border-radius: 7px;
+    box-shadow: 5px 10px 18px #0a121c;
+    max-width: 65em;
+}
+
+/* youtube signin button */
+.ytButton {
+    width: 191px;
+    height: 46px;
+    border:none;
+    vertical-align:bottom;
+    background:url("/docs/assets/images/youtube-link/ytbutton_normal.png") no-repeat;
+    }
+    
+    .ytButton:hover, .ytButton:focus {
+    background:url("/docs/assets/images/youtube-link/ytbutton_focus.png") no-repeat;
+    }
+    
+    .ytButton:active {
+    background:url("/docs/assets/images/youtube-link/ytbutton_pressed.png") no-repeat;
+    }
+
+h3 {
+    color: #faa915;
+}
+
+footer {
+    color: #dddddd;
+
+}
+
+a {
+    color: #faa915;
+}
+
+a:hover {
+    color: #ff7e8b;
+}
+
+code {
+    background-color: #dbdbdb;
+    padding:1px 4px;
+    -webkit-text-size-adjust: 100%;
+    outline: 1px solid #ccc; 
+    white-space: pre-wrap;       
+    white-space: -moz-pre-wrap;  
+    white-space: -pre-wrap;      
+    white-space: -o-pre-wrap;    
+    word-wrap: break-word;  
+    margin: 5px 0px;    
+    color:rgb(1, 2, 7)
+  }
+

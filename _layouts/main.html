@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="color-scheme" content="light dark">
+<script src="{{ '/assets/js/dark-mode-switch.min.js' | relative_url }}"></script>
+ <!-- <link href="https://cdn.jsdelivr.net/npm/bootstrap-dark-5@1.1.1/dist/css/bootstrap-dark.min.css" rel="stylesheet">  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.18.3/bootstrap-table.min.css" integrity="sha512-5RNDl2gYvm6wpoVAU4J2+cMGZQeE2o4/AksK/bi355p/C31aRibC93EYxXczXq3ja2PJj60uifzcocu2Ca2FBg==" crossorigin="anonymous" referrerpolicy="no-referrer" />-->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link href="{{ 'assets/css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+<link href="{{ 'assets/css/main.css' | relative_url }}" rel="stylesheet">
+<link href="{{ 'assets/css/content.css' | relative_url }}" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" /> 
+<link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/favicon/apple-touch-icon.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon/favicon-32x32.png' | relative_url }}">
+<link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon/favicon-16x16.png' | relative_url }}">
+<link rel="manifest" href="{{ 'assets/favicon/site.webmanifest' | relative_url }}">
+{% if site.google_analytics and jekyll.environment == 'production' %}
+{% include analytics.html %}
+{% endif %}
+{% feed_meta %}
+{% seo %}
+</head>
+<body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="100">
+<header class="navbar navbar-expand-lg navbar-dark lb-navbar">
+  <nav class="container-xxl flex-wrap flex-lb-nowrap me-10" aria-label="Top Navigation">
+    <!-- brand -->
+    <a class="navbar-brand p-0 me-2" href="/" aria-label="LioranBoard">
+    <img src="{{ 'assets/favicon/lb.png' | relative_url }}" width="35" height="35">
+    </a>
+    <!-- navbar toggler -->
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#lbNavbar" aria-controls="lbNavbar" aria-expanded="false" aria-label="Toggle navigation">
+     <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+     <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+    </svg>
+    </button>
+    <!-- navbar content start -->
+    <div class="navbar-collapse collapse" id="lbNavbar">
+    <!-- menu items start -->
+    <ul class="navbar-nav flex-row flex-wrap pt-2 py-lg-0">
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 {% if page.title == 'LioranBoard Home' %} active {% endif %}" href="https://lioranboard.ca">Home</a>
+      </li>
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 active" href="https://lioranboard.ca/docs" >Documentation</a>
+      </li>
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 disabled" href="#">Examples</a>
+      </li>
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 {% if page.title == 'Extensions' or page.nav == 'Extensions' %} active {% endif %}" href="https://lioranboard.ca/extensions">Extensions</a>
+      </li>
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 {% if page.title == 'Commissions' %} active {% endif %}" href="https://lioranboard.ca/commissions">Commissions</a>
+      </li>
+      <li class="nav-item col-6 col-lg-auto">
+        <a class="nav-link p-2 {% if page.title == 'Donate' %} active {% endif %}" href="https://lioranboard.ca/donate">Donate</a>
+      </li>
+    </ul>
+    <!-- menu items end -->
+      <hr class="d-lg-none text-white-50">
+      <!-- social media start-->
+      <ul class="navbar-nav flex-row flex-wrap ms-lg-auto">
+      </ul>
+      <!-- social media end --> 
+    <!-- dark mode switch and download button --> 
+    <div class="form-check form-switch" id="darkSwitchDiv">
+      <label class="form-check-label" for="DarkModeSwitch"></label>
+    </div>
+    <!-- create dark mode switch checkbox --> 
+    <script>
+      const darkSwitch = document.createElement('input');
+      darkSwitch.setAttribute('class', 'form-check-input');
+      darkSwitch.setAttribute('id', 'DarkModeSwitch');
+      darkSwitch.setAttribute('type', 'checkbox');
+      if (window.schemeChecked) darkSwitch.checked = true;
+      if (darkSwitchDiv) darkSwitchDiv.prepend(darkSwitch);
+    </script>
+    <a class="btn btn-lb-download d-lg-inline-block my-2 my-lg-0 ms-lg-3" href="https://discord.gg/dXez8Zh">Join Discord</a>
+    <a class="btn btn-lb-download d-lg-inline-block my-2 my-lg-0 ms-lg-3" href="https://lioranboard.ca/docs/download">Download</a>
+    </div>
+   </nav>
+   <!-- navbar content end -->
+</header>
+
+
+<nav class="lb-subnavbar py-2" aria-label="Secondary navigation">
+  <div class="container-xxl d-flex align-items-center justify-content-center mb-1">
+    <!-- search bar -->
+    <button class="btn lb-sidebar-toggle d-md-none px-1 me-auto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lb-docs-nav" aria-controls="lb-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
+       </svg>
+    </button>
+    <form class="lb-search position-relative me-auto">
+      <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="form-control ds-input" id="search-input" placeholder="Search docs..." aria-label="Search docs..." autocomplete="off" data-lb-docs-version="5.0" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; left: 0px; right: auto; display: none;"><div class="ds-dataset-1"></div></span></span>
+    </form>
+  <!-- search bar end -->
+  <!-- version dropdown -->
+  <div class="dropdown ms-3 order-2">
+    <button class="btn btn-bd-light dropdown-toggle show" id="bd-versions" data-bs-toggle="dropdown" aria-expanded="true" data-bs-display="static">
+      <span class="d-none d-lg-inline">LioranBoard</span> 1.44b
+    </button>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="bd-versions" data-bs-popper="static">
+      <li><a class="dropdown-item current" aria-current="true" href="https://lioranboard.ca/docs/">1.44b</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="https://lioranboard.ca/docs2/">2.0</a></li>
+      <li><hr class="dropdown-divider"></li>
+    </ul>
+  </div>
+  <!-- version dropdown end -->
+  </div>
+</nav>
+
+
+<!-- main container start -->
+<div class="container-xxl lb-layout my-md-4">
+
+<!-- sidebar  -->
+<aside class="lb-sidebar">
+  <nav class="lb-links collapse" id="lb-docs-nav" aria-label="LB Docs Navigation">
+    <ul class="list-unstyled mb-0 py-3 pt-md-1">
+{% include navigation.html %}
+    </ul>
+  </nav>
+</aside>
+
+<!-- main div -->
+<main class="lb-main order-1">
+
+  <div class="lb-intro ps-lg-4">
+    {% if page.type == "fullpage" %}   
+      <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
+        <a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs/edit/main/doc_posts/{{ page.path }}" title="View and edit page on GitHub" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>
+        <h1 class="bd-title display-4" id="content">{{ page.title }}</h1>
+      </div>
+      {% else %}
+      <div class="d-md-flex flex-md-row align-items-center justify-content-between">
+      <h1 class="display-4">{{ page.title }}</h1>
+      </div>
+      {% endif %}
+  </div>
+<!-- toc --> 
+ {% include toc.html html=content anchor_class="nav-link d-flex flex-row" sanitize=true h_max=5 %}
+<!-- content -->
+  <div class="lb-content ps-lg-4" tabindex="0">
+    <div>
+      {{ content }}
+    </div>
+
+  </div>
+</main>
+</div>
+<!-- main container end -->
+<!-- footer -->
+<div class="footer-basic mt-auto">
+  <footer>
+    <div class="social"></a><a href="https://twitter.com/lioranboard"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 416.32" role="img"><title>Twitter</title><path fill="currentColor" d="M160.83 416.32c193.2 0 298.92-160.22 298.92-298.92 0-4.51 0-9-.2-13.52A214 214 0 0 0 512 49.38a212.93 212.93 0 0 1-60.44 16.6 105.7 105.7 0 0 0 46.3-58.19 209 209 0 0 1-66.79 25.37 105.09 105.09 0 0 0-181.73 71.91 116.12 116.12 0 0 0 2.66 24c-87.28-4.3-164.73-46.3-216.56-109.82A105.48 105.48 0 0 0 68 159.6a106.27 106.27 0 0 1-47.53-13.11v1.43a105.28 105.28 0 0 0 84.21 103.06 105.67 105.67 0 0 1-47.33 1.84 105.06 105.06 0 0 0 98.14 72.94A210.72 210.72 0 0 1 25 370.84a202.17 202.17 0 0 1-25-1.43 298.85 298.85 0 0 0 160.83 46.92"></path></svg></a><a href="https://discord.gg/dXez8Zh"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="21" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 71 55" role="img"><title>Discord</title><path xmlns="http://www.w3.org/2000/svg" d="M60.1045 4.8978C55.5792 2.8214 50.7265 1.2916 45.6527 0.41542C45.5603 0.39851 45.468 0.440769 45.4204 0.525289C44.7963 1.6353 44.105 3.0834 43.6209 4.2216C38.1637 3.4046 32.7345 3.4046 27.3892 4.2216C26.905 3.0581 26.1886 1.6353 25.5617 0.525289C25.5141 0.443589 25.4218 0.40133 25.3294 0.41542C20.2584 1.2888 15.4057 2.8186 10.8776 4.8978C10.8384 4.9147 10.8048 4.9429 10.7825 4.9795C1.57795 18.7309 -0.943561 32.1443 0.293408 45.3914C0.299005 45.4562 0.335386 45.5182 0.385761 45.5576C6.45866 50.0174 12.3413 52.7249 18.1147 54.5195C18.2071 54.5477 18.305 54.5139 18.3638 54.4378C19.7295 52.5728 20.9469 50.6063 21.9907 48.5383C22.0523 48.4172 21.9935 48.2735 21.8676 48.2256C19.9366 47.4931 18.0979 46.6 16.3292 45.5858C16.1893 45.5041 16.1781 45.304 16.3068 45.2082C16.679 44.9293 17.0513 44.6391 17.4067 44.3461C17.471 44.2926 17.5606 44.2813 17.6362 44.3151C29.2558 49.6202 41.8354 49.6202 53.3179 44.3151C53.3935 44.2785 53.4831 44.2898 53.5502 44.3433C53.9057 44.6363 54.2779 44.9293 54.6529 45.2082C54.7816 45.304 54.7732 45.5041 54.6333 45.5858C52.8646 46.6197 51.0259 47.4931 49.0921 48.2228C48.9662 48.2707 48.9102 48.4172 48.9718 48.5383C50.038 50.6034 51.2554 52.5699 52.5959 54.435C52.6519 54.5139 52.7526 54.5477 52.845 54.5195C58.6464 52.7249 64.529 50.0174 70.6019 45.5576C70.6551 45.5182 70.6887 45.459 70.6943 45.3942C72.1747 30.0791 68.2147 16.7757 60.1968 4.9823C60.1772 4.9429 60.1437 4.9147 60.1045 4.8978ZM23.7259 37.3253C20.2276 37.3253 17.3451 34.1136 17.3451 30.1693C17.3451 26.225 20.1717 23.0133 23.7259 23.0133C27.308 23.0133 30.1626 26.2532 30.1066 30.1693C30.1066 34.1136 27.28 37.3253 23.7259 37.3253ZM47.3178 37.3253C43.8196 37.3253 40.9371 34.1136 40.9371 30.1693C40.9371 26.225 43.7636 23.0133 47.3178 23.0133C50.9 23.0133 53.7545 26.2532 53.6986 30.1693C53.6986 34.1136 50.9 37.3253 47.3178 37.3253Z" fill="currentColor"/></svg></a><a href="https://github.com/LioranBoard">            <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 512 499.36" role="img"><title>GitHub</title><path fill="currentColor" fill-rule="evenodd" d="M256 0C114.64 0 0 114.61 0 256c0 113.09 73.34 209 175.08 242.9 12.8 2.35 17.47-5.56 17.47-12.34 0-6.08-.22-22.18-.35-43.54-71.2 15.49-86.2-34.34-86.2-34.34-11.64-29.57-28.42-37.45-28.42-37.45-23.27-15.84 1.73-15.55 1.73-15.55 25.69 1.81 39.21 26.38 39.21 26.38 22.84 39.12 59.92 27.82 74.5 21.27 2.33-16.54 8.94-27.82 16.25-34.22-56.84-6.43-116.6-28.43-116.6-126.49 0-27.95 10-50.8 26.35-68.69-2.63-6.48-11.42-32.5 2.51-67.75 0 0 21.49-6.88 70.4 26.24a242.65 242.65 0 0 1 128.18 0c48.87-33.13 70.33-26.24 70.33-26.24 14 35.25 5.18 61.27 2.55 67.75 16.41 17.9 26.31 40.75 26.31 68.69 0 98.35-59.85 120-116.88 126.32 9.19 7.9 17.38 23.53 17.38 47.41 0 34.22-.31 61.83-.31 70.23 0 6.85 4.61 14.81 17.6 12.31C438.72 464.97 512 369.08 512 256.02 512 114.62 397.37 0 256 0z"></path></svg></a><a href="https://www.reddit.com/r/LioranBoard/"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" class="navbar-nav-svg d-inline-block align-text-top" viewBox="0 0 24 24" role="img"><title>Reddit</title><path fill="currentColor" d="M24 11.779c0-1.459-1.192-2.645-2.657-2.645-.715 0-1.363.286-1.84.746-1.81-1.191-4.259-1.949-6.971-2.046l1.483-4.669 4.016.941-.006.058c0 1.193.975 2.163 2.174 2.163 1.198 0 2.172-.97 2.172-2.163s-.975-2.164-2.172-2.164c-.92 0-1.704.574-2.021 1.379l-4.329-1.015c-.189-.046-.381.063-.44.249l-1.654 5.207c-2.838.034-5.409.798-7.3 2.025-.474-.438-1.103-.712-1.799-.712-1.465 0-2.656 1.187-2.656 2.646 0 .97.533 1.811 1.317 2.271-.052.282-.086.567-.086.857 0 3.911 4.808 7.093 10.719 7.093s10.72-3.182 10.72-7.093c0-.274-.029-.544-.075-.81.832-.447 1.405-1.312 1.405-2.318zm-17.224 1.816c0-.868.71-1.575 1.582-1.575.872 0 1.581.707 1.581 1.575s-.709 1.574-1.581 1.574-1.582-.706-1.582-1.574zm9.061 4.669c-.797.793-2.048 1.179-3.824 1.179l-.013-.003-.013.003c-1.777 0-3.028-.386-3.824-1.179-.145-.144-.145-.379 0-.523.145-.145.381-.145.526 0 .65.647 1.729.961 3.298.961l.013.003.013-.003c1.569 0 2.648-.315 3.298-.962.145-.145.381-.144.526 0 .145.145.145.379 0 .524zm-.189-3.095c-.872 0-1.581-.706-1.581-1.574 0-.868.709-1.575 1.581-1.575s1.581.707 1.581 1.575-.709 1.574-1.581 1.574z"></path></svg></a></div>
+    <ul class="list-inline">
+        <li class="list-inline-item"><a href="https://lioranboard.ca">Home</a></li>
+        <li class="list-inline-item"><a href="https://lioranboard.ca/docs">Documentation</a></li>
+        <li class="list-inline-item"><a href="#">Examples</a></li>
+        <li class="list-inline-item"><a href="https://lioranboard.ca/extensions">Extensions</a></li>
+        <li class="list-inline-item"><a href="https://lioranboard.ca/commissions">Commissions</a></li>
+        <li class="list-inline-item"><a href="https://lioranboard.ca/donate">Donate</a></li>
+    </ul>
+    <p class="copyright">Made by <a href="https://twitter.com/christina_kral">Christina K</a> © 2021</p>
+</footer>
+</div>
+<!-- footer end -->
+</body>
+ <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha512-Y2IiVZeaBwXG1wSV7f13plqlmFOx8MdjuHyYFVoYzhyRr3nH/NMDjTBSswijzADdNzMyWNetbLMfOpIPl6Cv9g==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>-->
+ <!--<script src="https://unpkg.com/@popperjs/core@2"></script>-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.18.3/bootstrap-table.min.js" integrity="sha512-Wm00XTqNHcGqQgiDlZVpK4QIhO2MmMJfzNJfh8wwbBC9BR0FtdJwPqDhEYy8jCfKEhWWZe/LDB6FwY7YE9QhMg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+<script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.js"></script> 
+<script type="text/javascript"> docsearch({
+  apiKey: 'fd62cc7b7c84f306fdbc2302d19bf9d4',
+  indexName: 'lioranboard',
+  inputSelector: '#search-input',
+  debug: false // Set debug to true if you want to inspect the dropdown
+  });
+  </script> 
+
+<div at-magnifier-wrapper=""><div class="at-theme-light"><div class="at-base notranslate" translate="no"><div class="Z1-AJ" style="top: 0px; left: 0px;"></div></div></div></div>
+</html>
