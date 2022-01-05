@@ -10,9 +10,10 @@ It is highly recommended to use True and False. Toggle should be used only if it
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName	|String	| Source name containing the filter
-|filterName	|String	| Filter name to change the visibility
-|filterEnabled|boolean| Enable or disable filter's visibility. On/off or toggle to reverse current state.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source	|String	| Source name containing the filter
+|Filter	|String	| Filter name to change the visibility
+|Visible|checkbox| checked = visible, unchecked = not visible
 {:class='table table-primary'}
 
 

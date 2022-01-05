@@ -1,13 +1,13 @@
 ---
-title: "Stack: Clear"
-num: 9
+title: "Create Array"
+num: 0.5
 ---
 
-Deletes an entire stack.
+Creates a new array.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Stack Name	|String	| Name of the stack to delete
+|Array Name	|String	| Name of the new array
 {:class='table table-primary'}
 
 

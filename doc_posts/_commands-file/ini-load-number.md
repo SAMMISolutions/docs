@@ -1,11 +1,11 @@
 ---
-title: "File: Load String"
-num: 4
+title: "File: Load Number"
+num: 3
 ---
 
-Loads a string from .ini file. Will return 0 if it doesn't exist.
+Loads a real value (number) from .ini file. Will return 0 if it doesn't exist.
 
-{% include alert.html text="You cannot use File: Load String on a real value (number)." type="warning" %} 
+{% include alert.html text="You cannot use File: Load Value on string (text)." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

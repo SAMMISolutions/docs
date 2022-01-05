@@ -1,5 +1,5 @@
 ---
-title: "File: Save Value"
+title: "File: Save Number"
 num: 1
 ---
 
@@ -12,7 +12,7 @@ Saves a real value (number) to .ini file.
 |File Name|	String	|Name of the file. Will create one if it doesn't exist. Do not include the path.
 |Section|	String|	The section to save the key under.
 |Key	|String	|Name of the value to be saved.
-|Variable|	String|	Variable to be saved as the key value.
+|Value|	String|	Value to be saved as the key value.
 {:class='table table-primary'}
 
 

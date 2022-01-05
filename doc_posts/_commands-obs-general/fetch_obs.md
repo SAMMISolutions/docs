@@ -15,8 +15,9 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 
 | Box Name | Type | Description | 
 |-------|--------|--------
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |OBS command|	JSON String|	Works the same as the custom packet command. Do not include the `"message-id"` part.
-|Fetch Value|	String or object|	Name of a value you wish to get. <br/> For values inside another object use [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+|Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
 Variable|	String	|Name of a variable to save the data under.
 Turn to real|	boolean|	Whether you expect a real value (=number) or a string.
 {:class='table table-primary'}

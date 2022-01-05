@@ -1,6 +1,6 @@
 ---
 title: "Custom Packet"
-num: 5
+num: 4
 ---
 Sends a custom packet to the OBS websocket in JSON format.\
 All the possible requests are documented in [OBS websocket protocol reference](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md).
@@ -14,7 +14,6 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |String	|JSON String|	JSON string to send to OBS Websocket. 
 {:class='table table-primary'}
 

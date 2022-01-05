@@ -115,7 +115,7 @@ collections:
       output: true 
   commands-string: 
       output: true
-  commands-stack: 
+  commands-array: 
       output: true 
   commands-statements: 
       output: true 

@@ -1,6 +1,6 @@
 ---
-title: "Math: String to Real"
-num: 7.5
+title: "String to Number"
+num: 7.6
 ---
 
 Turns a string value into a real value (number).     
@@ -14,7 +14,7 @@ Turns a string value into a real value (number).
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Variable | String | Name of a variable to save the real value. |
-| String Variable | String | Name of a variable containing the string to convert. |
+| String Variable {% include asterisk.html%} | String | Name of a variable containing the string to convert. |
 {:class='table table-primary ' }
 
 | String Variable value | Returned real value | 

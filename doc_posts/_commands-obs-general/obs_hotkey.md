@@ -1,5 +1,5 @@
 ---
-title: "Trigger OBS Hotkey"
+title: "Trigger OBS Hotkey Name"
 num: 1
 ---
 Activates any OBS hotkey without having to manually press it.\
@@ -11,7 +11,8 @@ Once you open the file, look for `[HOTKEYS]` section which should have all your 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|hotkeyName|String|	Unique name of the hotkey
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Hotkey Name|String|	Unique name of the hotkey
 {:class='table table-primary'}
 
 

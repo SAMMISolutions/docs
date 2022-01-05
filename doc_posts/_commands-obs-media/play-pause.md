@@ -1,12 +1,13 @@
 ---
-title: "Play/Pause Media"
+title: "Media Resume/Pause"
 num: 1
 ---
-Play or pause a media or VLC source.
+Play(resume) or pause a media or VLC source.
 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName|	String|	Name of the source to play or pause |
-| playPause	|Boolean |	True to pause and False to play |
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source|	String|	Name of the source to play or pause |
+| pause	|Checkbox |	checked = pause, unchecked = resume |
 {:class='table table-primary'}

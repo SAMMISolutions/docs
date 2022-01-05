@@ -1,5 +1,5 @@
 ---
-title: "File: Save String"
+title: "File: Save Text"
 num: 2
 ---
 
@@ -11,7 +11,7 @@ Saves a string (text) to .ini file.
 |File Name|	String	|Name of the file. Will create one if it doesn't exist. Do not include the path.
 |Section|	String|	The section to save the key under.
 |Key	|String	|Name of the value to be saved.
-|Variable|	String|	Variable to be saved as the key value.
+|Text|	String|	Text to be saved as the key value.
 {:class='table table-primary'}
 
 

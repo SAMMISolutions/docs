@@ -1,5 +1,5 @@
 ---
-title: "Modify button"
+title: "Modify button/group"
 num: 1
 ---
 
@@ -9,13 +9,12 @@ If you wish to reset the button back to its default appearance, set the values t
 
 | Box Name | Type | Description 
 |-------|--------|--------
-|Button ID|	Any| Button ID to change the appearance of
-|Red {% include asterisk.html%}	|Int|	Red value, 0-255.
-|Green {% include asterisk.html%}	|Int|	Green value, 0-255.
-|Blue {% include asterisk.html%} |Int|	Blue value, 0-255.
-|Text	|String|	New button text. Leave blank or enter notext to use default value.
-|Picture|	String|	File name of a picture to use. <br/> Must be formatted as image.png and placed in Lioranboard Receiver/image folder. <br/>Do not include path. Leave empty to use default value.
-|Border Size|	Int	|Size of the button border, between 0-8. Only applies if a picture is included. <br/> Use -1 for default border size and 0 for no border.
+|Button ID|	Any| Button ID or group ID to change the appearance of
+|Text	|String| New button text. Use `-default-` to revert the button its default value.
+|Picture| String/File Select|	File name of an image to use. You can use the file explorer or manually type it.
+|Border|Int	|Size of the button border, between 0-8. <br/> Use `-1` for default border size and `0` for no border.
+|Set Color|checkbox|Whether you want to also change the button color.
+|Color|color picker|Select new color for the button.
 {:class='table table-primary'}
 
 

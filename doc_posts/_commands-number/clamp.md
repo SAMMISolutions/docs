@@ -1,5 +1,5 @@
 ---
-title: "Math: Clamp"
+title: "Clamp"
 num: 3
 ---
 
@@ -14,8 +14,8 @@ Clamps a variable between two values. Intended to use on real values (numbers) o
 | Box Name | Type | Description | 
 |-------|--------|--------
 | Variable | String | Name of the variable to clamp. |
-| Min {% include asterisk.html%} | Real (number) | Minimum value allowed.|
-| Max {% include asterisk.html%}| Real (number) | Maximum value allowed.
+| Minimum {% include asterisk.html%} | Real (number) | Minimum value allowed.|
+| Maximum {% include asterisk.html%}| Real (number) | Maximum value allowed.
 {:class='table table-primary' }
 
 | Value | Clamp Min| Clamp Max| Result |

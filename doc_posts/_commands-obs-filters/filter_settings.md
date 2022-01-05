@@ -10,9 +10,10 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName	|String	| Source name containing the filter
-|filterName	|String	| Filter name to change the visibility
-|filterEnabled|boolean| Enable or disable filter's visibility. On/off or toggle to reverse current state.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source	|String	| Source name containing the filter
+|Filter	|String	| Filter name to change the settings
+|Settings|JSON|JSON string containing the new filter settings
 {:class='table table-primary'}
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Math: Hex to Real"
+title: "Hex to Number"
 num: 7
 ---
 
@@ -10,6 +10,7 @@ Converts a hexadecimal string into a real (decimal) number.
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Variable | String | Name of a variable to save the converted value. |
+| Hex String | String | Hex string to convert. |
 {:class='table table-primary ' }
 
 | Hex string value | Returned real value | 
