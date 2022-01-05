@@ -42,8 +42,8 @@ main:
     - name: String methods
       link: commands/string
       collection: commands-string
-    - name: Stack methods
-      link: commands/stack
+    - name: Array methods
+      link: commands/array
       collection: commands-stack
     - name: Statements and Loops
       link: commands/statements 
