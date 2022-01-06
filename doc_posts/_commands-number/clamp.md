@@ -25,10 +25,6 @@ Clamps a variable between two values. Intended to use on real values (numbers) o
 |980|50|120|120
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
-{% include example_public.html src="https://i.imgur.com/2WaxEEy.jpeg" title="Add 5% volume to a source" pastebin="VQQ32eaE" %} 
-
-
-
 
 
 

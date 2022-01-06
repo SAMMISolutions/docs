@@ -1,15 +1,15 @@
 ---
-title: "Stack: Replace "
+title: "Array Replace "
 num: 2
 ---
 
-Replaces a value inside a stack, overriding the previous one. Position remains the same.
+Replaces a value inside an array, overriding the previous one. Position of all values remains the same.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Stack Name	|String	| Name of the stack
-|Position|index/top/bottom {% include asterisk.html%}|Position to replace the value at. Can be **top** {% include popover.html content="end of the stack" %}, **bottom** {% include popover.html content="beginning of the stack" %} or **index** of the position. 
-|Var./real/"string" {% include asterisk.html%}| Variable, real or string | Value you want to replace the current value with
+|Array	|String	| Name of the array
+|Position|{% include asterisk.html%}|Position to replace the value at. Can be **top** {% include popover.html content="end of the array" %}, **bottom** {% include popover.html content="beginning of the array" %} or **index** of the value.
+|Value | {% include asterisk.html%} | Value you want to replace the current value with
 {:class='table table-primary'}
 
 

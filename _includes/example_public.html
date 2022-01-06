@@ -13,7 +13,7 @@
         </div>
         <div class="modal-body">
             {% if include.desc.size > 2 %}<div class>{{ include.desc | markdownify }}</div>{% endif %}
-            <div class="mb-2"><img src="{{ include.src }}" class="img-fluid w-{{ include.size }}" alt="{{ include.title }}"></div>{% if include.pastebin %}<div class="row mb-2"><b>Import JSON button <a class="bs-popover" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" title="Import JSON Button" data-bs-html="true" data-bs-content="Copy the whole JSON string below. Right click on any empty space in your deck and select <b>Import JSON</b>."><i class="fas fa-question-circle fa-lg" title="Click me!"></i></a> </b><script src="https://pastebin.com/embed_js/{{ include.pastebin }}"></script></div>{% endif %}
+            <div class="mb-2"><img src="{{ include.src }}" class="img-fluid w-{{ include.size }}" alt="{{ include.title }}"></div>{% if include.pastebin %}<div class="row mb-2"><b>Import JSON button <a class="bs-popover" tabindex="0" data-bs-toggle="popover" data-bs-trigger="focus" title="Import JSON Button" data-bs-html="true" data-bs-content="Copy the whole JSON string below. Right click on any empty space in your deck and select <b>Import from JSON</b>."><i class="fas fa-question-circle fa-lg" title="Click me!"></i></a> </b><script src="https://pastebin.com/embed_js/{{ include.pastebin }}"></script></div>{% endif %}
         </div>
       </div>
     </div>

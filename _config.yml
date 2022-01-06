@@ -127,6 +127,8 @@ collections:
       output: true
   commands-buffer: 
       output: true
+  commands-sounds: 
+      output: true
   commands-button: 
       output: true
   commands-misc: 

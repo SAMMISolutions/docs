@@ -5,11 +5,11 @@ num: 8
 
 Shows a window popup message.\
 Useful for extension creators to be able to easily notify the user of important events.\
-Will not freeze the Receiver, but it's still recommended to use it rather sparingly.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Message|	String|	The message you want to display. <br> Use # to add a new line and \\# to display #.
+|Message|	String|	The message you want to display. Can be multiline.
+|Freeze LB| Checkbox |Choose whether you want to temporarily freeze LioranBoard (i.e. pause all commands) while showing the popup.
 {:class='table table-primary'}
 
 

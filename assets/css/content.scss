@@ -16,6 +16,11 @@
 	-webkit-font-smoothing: antialiased;
 }
 
+.fas.fa-square g g path {
+		stroke: black;
+		stroke-width: 10;
+}
+
  :hover>.anchorjs-link,
 .anchorjs-link:focus {
 	opacity: 1;

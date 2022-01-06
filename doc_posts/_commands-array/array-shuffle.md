@@ -1,13 +1,13 @@
 ---
-title: "Stack: Shuffle"
-num: 8
+title: "Array Shuffle"
+num: 7
 ---
 
-Shuffles a stack, randomizing the order of every value in it.
+Shuffles an array, randomizing the order of every value in it.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Stack Name	|String	| Name of the stack you want to shuffle
+|Array	|String	| Name of the array you want to shuffle
 {:class='table table-primary'}
 
 

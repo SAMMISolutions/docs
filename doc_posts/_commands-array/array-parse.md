@@ -1,28 +1,26 @@
 ---
-title: "Stack: Parse "
-num: 11
+title: "Parse Array/Object"
+num: 10
 ---
 
-Turns a JSON string into a stack.\
-Default JSON string format is `{"size":3, "0":"white cat", "1":"blue car", "2":8}`.
+Turns a JSON string into an array/object. Must be properly formatted (LioranBoard will give you a warning if it finds any formatting errors).\
+This way you can easily create a prepopulated object/array, as it supports nesting.\
+Read more about JSON syntax at [w3schools.com](https://www.w3schools.com/js/js_json_syntax.asp).
 
-{% include alert.html text="The JSON string must contain size value and the corresponding amount of values for the command to get properly executed." type="warning" %} 
+{% include alert.html text="Parsing an array that's directly within another array is not supported." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Stack Name	|String	| Name of the stack to save the parsed string into
-|String	|String	| Name of the string to parse. 
+|Array/Object Name	| String | Name of the variable to save the parsed array/object into
+|String Array/JSON	| JSON String | JSON string to parse
 {:class='table table-primary'}
 
-| JSON string before conversion|  New Stack|  
-|-------|--------
-| { "1": 20.000000, "size": 3.000000, "0": 5.000000, "2": 100.000000, "name": "numbers" }  |0: 5 <br/> 1: 20 <br/>2: 100|
-| { "1": "Rabbit", "size": 3.000000, "0": "Cat", "2": "Dog", "name": "animals" }|0: "Cat" <br/> 1: "Rabbit" <br/>2: "Dog"|
-| { "1": 50.000000, "3": 100.000000, "size": 4.000000, "0": "Cat", "2": "Rabbit", "name": "mixed" }|0: "Cat" <br/> 1: 50<br/>2: "Rabbit" <br/>3: 100
-{:class='table table-secondary w-auto table-hover align-middle data-toggle='table' text-break }
-
-
-
+| JSON string before conversion|  Result saved in the variable|  
+|-------|--------|
+| {% include selectAll.html text='<code>["Lioran", "Melonax", "Cyanidesugar"]</code>' %}   | {% include image_table.html w="50" src="arrInsert.png" alt="Parsed JSON string" %} |
+| {% include selectAll.html text='<code>["Hello", "Hi", {"MyObject": [1, 2, 3]}]</code>' %}   | {% include video_span.html w="50" src="arrInsert1.mp4" alt="Parsed JSON string" %} |
+| {% include selectAll.html text='<code>["Lioran", "Melonax", ["cat", "rabbit", "dog"]]</code>' %}   | The inner array does NOT get parsed. {% include image_table.html w="50" src="arrInsert2.png" alt="Parsed JSON string" %} |
+{:class='table table-secondary w-auto table-hover align-middle' }
 
 
 

@@ -9,7 +9,7 @@ This is a useful command if you want to make sure your notification alerts do no
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Overtime Duration (ms)|	Int	|The amount of time the overtime (cooldown) should last. <br\> The countdown starts as soon as the button is triggered.
+|Duration| Int {% include asterisk.html%}	|The amount of milliseconds the overtime (cooldown) should last. <br\> The countdown starts as soon as the button is triggered.
 {:class='table table-primary'}
 
 

@@ -95,6 +95,9 @@ main:
     - name: Buttons
       link: commands/button
       collection: commands-button
+    - name: Sound Effects
+      link: commands/sounds
+      collection: commands-sounds
     - name: Miscellaneous
       link: commands/misc
       collection: commands-misc

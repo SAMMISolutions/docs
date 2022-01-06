@@ -8,7 +8,7 @@ If LioranBoard is running as admin, any program you launch through this command 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|File Path|	String|	Path to the .exe file you wish to run. Can be a full or relative path to the Receiver folder.
+|File Path|	String|	Select a path to the .exe file you wish to run.
 {:class='table table-primary'}
 
 

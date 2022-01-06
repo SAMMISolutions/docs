@@ -3,20 +3,17 @@ title: "Trigger Button"
 num: 0
 ---
 
-Triggers any button of a given ID.\
+Triggers any button by its ID.\
 If the button ID does not exist, sends an extension trigger instead.
 
-{% include alert.html text="You can right click on a button to retrieve its button ID." type="info" %} 
+{% include alert.html text="You can right click on a button and left click on its ID to copy it into your clipboard." type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Button ID|	Any	|ID of a button you want to activate.
-|Hidden Delay|	Int|	This exists to make a button happen without greying it out in case the button is showing valuable info.<br/> The delay is hidden and cannot be cancelled (unless you use Reset or press Done in your Receiver).
+|Button ID|	String/Number	|ID of a button you want to activate.
+|Hidden Delay|	Int|	This exists to make a button happen without greying it out in case the button is showing valuable info.<br/> The delay is hidden and cannot be cancelled.
 |Queue-Able|	checkbox	| If checked and the button is already activated, it will wait for it to finish and trigger the button again. Will get queued as many times as you execute the command. <br/> If unchecked and the button is already activated, nothing will happen.
 {:class='table table-primary'}
-
-{% include example_public.html src="https://imgur.com/0HLJLde.jpeg" title="Timers (Auto trigger button)" pastebin="kL3HndM7" desc=description %} 
-
 
 
 

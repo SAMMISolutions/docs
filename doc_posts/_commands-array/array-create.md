@@ -3,7 +3,8 @@ title: "Create Array"
 num: 0.5
 ---
 
-Creates a new array.
+Creates a new empty array.\
+You can populate it with Array Insert command.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
