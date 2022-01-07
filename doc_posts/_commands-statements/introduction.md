@@ -22,7 +22,7 @@ Conditional statements are used to perform different actions based on different 
           Else if color == "blue" { execute block of commands }
              Else if color == "pink" { execute block of commands }
     ```
-    {% include image.html w="75" src="nested_if.png" alt="Nested If/Else Statements" %} As you can see, you would need to nest multiple If/Else statements to check for all the possible colors. This could get quite unreadable.
+    {% include image.html w="75" src="nested_if.png" alt="Nested If/Else Statements" -%} As you can see, you would need to nest multiple If/Else statements to check for all the possible colors. This could get quite unreadable.
 
 **Switch statement** is a multiple-choice selection statement. You decide what to execute for each case.  
 
@@ -34,7 +34,8 @@ Conditional statements are used to perform different actions based on different 
     Case blue { execute block of commands }
     Case pink { execute block of commands }
     ```  
-    {% include image.html w="75" src="switch.png" alt="Switch Statement" %} Using Switch statement for multiple conditions is so much easier to read! And if you have a lot of conditions to check, the execution should be also faster.
+    {% include image.html w="75" src="switch.png" alt="Switch Statement" -%}
+    Using Switch statement for multiple conditions is so much easier to read! And if you have a lot of conditions to check, the execution should be also faster.
 
 
 
