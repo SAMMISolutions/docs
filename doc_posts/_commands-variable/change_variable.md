@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "Math: Change Variable"
+title: "Set Local/Button/Global Variable"
 num: 1
 ---
 
@@ -10,8 +10,8 @@ Creates a new variable or modifies an existing one.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-| Variable | String | Name of the variable. |
-| Operator | Dropdown | Operator you wish to use on the value.|
+| Variable Name | String | Name of the variable. |
+| Operation | Dropdown | Operator you wish to use on the value.|
 | Value <i class="fas fa-asterisk" style="color:FireBrick;" title="Parameter can be a variable, real value or a string"></i>| Any | Whatever you want to set the variable value to. Can contain complex math.
 {:class='table table-primary'}
 
