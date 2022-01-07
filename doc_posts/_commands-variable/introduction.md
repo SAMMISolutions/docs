@@ -47,7 +47,7 @@ In LioranBoard, boolean is a number that is either 0 (false) or 1 (true).\
 - Array - `[2]myStack`
 - Math expression including variables and Complex Math operators. Must be wrapped in (). - `(myVariable * 10 - [2]myStack + 3)`
 
-{% include alert.html text="Press Tab in the main screen of the Receiver to view all the existing variables." type="info" %} 
+{% include alert.html text="Press Tab in the main screen of the Receiver to view a list of your existing buttons. Click on the eye icon next to a button to view the variables contained in it." type="info" %} 
 
 
 
