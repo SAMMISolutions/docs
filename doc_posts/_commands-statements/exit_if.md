@@ -3,7 +3,7 @@ title: "Exit"
 num: 6
 ---
 
-If the condition is true, it terminates all the commands and prevents them from happening until the button is pressed again.\
+If the condition is true, it terminates all the commands and prevents them from happening until the button is pressed again.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|

@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get Subscriber Count "
+title: "Get Subscriber Count "
 num: 11
 ---
 

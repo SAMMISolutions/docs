@@ -3,7 +3,7 @@ title: "Break"
 num: 7
 ---
 
-If the condition is true, this command will break out of a Repeat or Re-enable statement, cancelling every command inside of the block if it hasn't been executed yet.\
+If the condition is true, this command will break out of a Repeat or Re-enable statement, cancelling every command inside of the block if it hasn't been executed yet.
 
 {% include alert.html text="If you place Break command inside multiple repeat or re-enable statements, it will only break out of its parent statement." type="warning" %}  
 
