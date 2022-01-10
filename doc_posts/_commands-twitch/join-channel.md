@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Join Channel "
+title: "Join Channel "
 num: 2
 ---
 

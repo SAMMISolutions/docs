@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get Subscription Status "
+title: "Get Subscription Status "
 num: 10
 ---
 

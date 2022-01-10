@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Leave Channel "
+title: "Leave Channel "
 num: 3
 ---
 

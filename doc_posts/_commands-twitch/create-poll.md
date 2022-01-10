@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Create Poll "
+title: "Create Poll "
 num: 16
 ---
 

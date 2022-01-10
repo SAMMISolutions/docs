@@ -1,5 +1,5 @@
 ---
-title: "Twitch: End Poll "
+title: "End Poll "
 num: 17
 ---
 

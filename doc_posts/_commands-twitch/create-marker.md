@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Create Marker"
+title: "Create Marker"
 num: 15
 ---
 

@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Change Redemption Status "
+title: "Change Redemption Status "
 num: 14
 ---
 

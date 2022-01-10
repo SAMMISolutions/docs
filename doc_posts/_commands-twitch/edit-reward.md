@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Edit Reward"
+title: "Edit Reward"
 num: 13
 ---
 

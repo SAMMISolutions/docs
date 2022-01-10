@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get Follower Count"
+title: "Get Follower Count"
 num: 12
 ---
 

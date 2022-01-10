@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get Stream Info"
+title: "Get Stream Info"
 num: 9
 ---
 

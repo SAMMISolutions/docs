@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get User Info"
+title: "Get User Info"
 num: 6
 ---
 

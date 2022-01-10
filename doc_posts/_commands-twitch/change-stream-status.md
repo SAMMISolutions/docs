@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Change Stream Status "
+title: "Change Stream Status "
 num: 4
 ---
 

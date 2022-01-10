@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Get Game Info"
+title: "Get Game Info"
 num: 7
 ---
 

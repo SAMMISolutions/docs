@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Send Message "
+title: "Send Message "
 num: 0
 ---
 

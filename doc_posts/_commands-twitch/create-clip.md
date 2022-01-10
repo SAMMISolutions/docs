@@ -1,5 +1,5 @@
 ---
-title: "Twitch: Create Clip"
+title: "Create Clip"
 num: 5
 ---
 
