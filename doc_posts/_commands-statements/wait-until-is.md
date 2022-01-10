@@ -1,6 +1,6 @@
 ---
 title: "Wait Until Variable Is"
-num: 10
+num: 9
 ---
 
 Pauses all the button commands from executing until the variable contains a specific value.\

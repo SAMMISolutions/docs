@@ -117,6 +117,8 @@ collections:
       output: true
   commands-array: 
       output: true 
+  commands-mouse-kb:
+      output: true
   commands-statements: 
       output: true 
   commands-trigger: 

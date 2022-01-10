@@ -1,6 +1,6 @@
 ---
 title: "Wait Until Variable Exists"
-num: 9
+num: 8
 ---
 
 Pauses all the button commands from executing until the specified variable exists.\

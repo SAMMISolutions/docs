@@ -95,6 +95,9 @@ main:
     - name: Buttons
       link: commands/button
       collection: commands-button
+    - name: Mouse & Keyboard
+      link: commands/mouse-kb
+      collection: commands-mouse-kb
     - name: Sound Effects
       link: commands/sounds
       collection: commands-sounds
