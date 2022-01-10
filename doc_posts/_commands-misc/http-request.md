@@ -12,7 +12,7 @@ Extremely easy to use with *Variable Wait* commands.
 |URL|String|The web request URL
 |Method|String|Method to use, i.e. GET, POST, PUT, DELETE etc.
 |Header object (optional)|Object |Name of the object containing any required headers. If needed, you can change the header's User-Agent.
-|Body|Object|Name of the body object to send
+|Body (optional)|Object|Name of the body object to send
 |Result Save Variable|String|Variable name to save the result into
 {:class='table table-primary'}
 
