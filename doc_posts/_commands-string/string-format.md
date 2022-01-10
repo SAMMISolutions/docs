@@ -1,6 +1,7 @@
 ---
-title: "String: Format"
+title: "String Format"
 num: 9
+disabled: true
 ---
 
 Divides a string into multiple lines. The new line will be compensated with `\n`.\

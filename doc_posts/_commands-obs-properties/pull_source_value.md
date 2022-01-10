@@ -4,10 +4,11 @@ num: 0
 ---
 
 Pulls the last known value of a source. Will return 0 if the source doesn't exist.\
-Very useful command to use together with Source: Motion commands. For example, you can pull the current X and Y position of a source and then use [Source: Motion Position]({{ "commands/obs-properties#sourcemotionposition" | relative_url }}) to smoothly move it across the screen.
+Very useful command to use together with Motion commands. For example, you can pull the current X and Y position of a source and then use [Motion: Source Position]({{ "commands/obs-properties#sourcemotionposition" | relative_url }}) to smoothly move it across the screen.
 
 | Pull Type | Description | Possible values | 
 |-------|--------|--------
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |X/Y position  | returns X or Y position of the source | for example 500 
 |X/Y scale | returns scale of the source that affects its width (X) and height (Y) |  1 = 100% scale
 |Rotation | returns the degree of rotation of the source | 0-360

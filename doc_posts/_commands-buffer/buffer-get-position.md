@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Get Position"
+title: "Buffer Get Position"
 num: 9
 ---
 

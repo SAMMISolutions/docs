@@ -9,9 +9,10 @@ The center point of the rotation is based on the Positional Alignment option (so
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|scene-name|	String (optional)|	Scene name containing the source. Leave blank for current active scene.
-|item|	String|	Source name to change rotation.
-|rotation {% include asterisk.html%}|	Real	|Rotation angle to change the source to. `0` is normal, `180` is upside down, `360` is back normal
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Scene |	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source|	String|	Source name. Select from the menu or type manually. 
+|Rotation {% include asterisk.html%}|	Number	|Rotation angle to change the source to. `0` is normal, `180` is upside down, `360` is back normal
 {:class='table table-primary'}
 
 

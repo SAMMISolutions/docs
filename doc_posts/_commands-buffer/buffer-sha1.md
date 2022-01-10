@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Hash SHA1"
+title: "Buffer Hash SHA1"
 num: 11
 ---
 

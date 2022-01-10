@@ -1,6 +1,7 @@
 ---
 title: "Set T-Bar Position"
 num: 5
+disabled: true
 ---
 
 Set the Transition Bar position (in Studio Mode).\

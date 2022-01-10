@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Base64 Encode"
+title: "Buffer Base64 Encode"
 num: 12
 ---
 

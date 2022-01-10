@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Exists "
+title: "Buffer Exists "
 num: 10
 ---
 

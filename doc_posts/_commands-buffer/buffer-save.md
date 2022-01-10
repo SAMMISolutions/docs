@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Save"
+title: "Buffer Save"
 num: 4.5
 ---
 

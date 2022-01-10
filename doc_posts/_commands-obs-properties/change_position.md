@@ -9,10 +9,11 @@ Changes the position of a source.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|scene-name|	String (optional)	|Scene name containing the source. Leave blank for current active scene.
-|item|	String|	Source name
-|Field: X {% include asterisk.html%}|	Real (optional)|	X position to set the source to. Can leave blank to not modify it.
-|Field: Y {% include asterisk.html%}|	Real (optional)	|Y position to set the source to. Can leave blank to not modify it.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Scene Name|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source Name|	String|	Source name. Select from the menu or type manually. 
+|X {% include asterisk.html%}|	Number (optional)|	X position to set the source to. Can leave blank to not modify it.
+|Y {% include asterisk.html%}|	Number (optional)	|Y position to set the source to. Can leave blank to not modify it.
 {:class='table table-primary'}
 
 

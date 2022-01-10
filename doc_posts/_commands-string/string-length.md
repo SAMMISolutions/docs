@@ -1,5 +1,5 @@
 ---
-title: "String: Length"
+title: String Get Character Length
 num: 2
 ---
 
@@ -14,7 +14,7 @@ Returns the length of a string.
 
 | String | Length returned| 
 |-------|--------
-|"Hello"| 5
+|Hello| 5
 |"" | 0
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 

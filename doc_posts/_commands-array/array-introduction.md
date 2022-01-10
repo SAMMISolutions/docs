@@ -18,7 +18,7 @@ This seems quite inefficient if you happen to have a lot of names to store. The 
 If you want to retrieve a specific value(element) from an array, you can use the following formatting:\
 `arrayName[position]`\
 If we have an array `names = ["Lioran", "Neverwho", "Daryl"]`, typing `names[1]` would retrieve `'Neverwho'` (the first value of an array has position of 0).\
-Array position (also called index) can contain other variables or complex math, too.  
+Array position (also called index) can contain other variables or complex math, too.   
 
 Some command boxes allow you to use not only position, but also **top** or **bottom** for retrieving and manipulating values in an array. Selecting **top** will target a value at the END of an array (last index) and selecting **bottom** will target a value at the BEGINNING of an array (index of 0).  
 

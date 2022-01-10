@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Delete"
+title: "Buffer Delete"
 num: 5
 ---
 

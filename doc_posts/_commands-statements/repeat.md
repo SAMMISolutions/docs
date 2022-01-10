@@ -4,7 +4,7 @@ num: 5
 ---
 
 Instantly repeats all the commands inside the block for a specified number of times.\
-This is useful for instantly retrieving multiple values from File: Load Value/String or from Stack: Pull command.
+For example, this is useful for instantly retrieving multiple values from File: Load Value/String or from Array: Pull command.
 
 
 | Box Name | Type | Description | 

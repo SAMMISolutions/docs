@@ -1,5 +1,5 @@
 ---
-title: "Change Audio Monitor Type"
+title: "Source Audio Monitor Type"
 num: 5
 ---
 
@@ -8,8 +8,9 @@ Same option as in OBS-Audio Mixer-Cogwheel-Advanced Audio Properties.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName|	String|	Audio source name
-|monitorType|	dropdown |	Type of monitoring to use
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source Name|	String|	Audio source name
+|Monitor Type|	dropdown |	Type of monitoring to use
 {:class='table table-primary'}
 
 

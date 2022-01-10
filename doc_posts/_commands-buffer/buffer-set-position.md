@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Set Position "
+title: "Buffer Set Position "
 num: 7
 ---
 

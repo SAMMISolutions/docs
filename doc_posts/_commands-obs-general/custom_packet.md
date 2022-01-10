@@ -15,7 +15,7 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 | Box Name | Type | Description | 
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|String	|JSON String|	JSON string to send to OBS Websocket. 
+|Custom Packet	|JSON String|	JSON string to send to OBS Websocket. 
 {:class='table table-primary'}
 
 **Custom packet examples**

@@ -1,9 +1,9 @@
 ---
-title: "String: Digits"
+title: String Digits only
 num: 8
 ---
 
-Removes all letters and special symbols from a string.
+Removes all letters and special symbols from a string (including spaces), leaving only digits.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
@@ -13,9 +13,9 @@ Removes all letters and special symbols from a string.
 
 | Original String | Processed String| 
 |-------|--------
-|"Hello"|""|
-|"1a2b3c" |"123"
-|"$12.50" | "12.50"
+|Hello||
+|1a2b3c |123
+|$12.50 | 12.50
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
 

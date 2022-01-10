@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Base64 Decode"
+title: "Buffer Base64 Decode"
 num: 13
 ---
 

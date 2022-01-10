@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Read "
+title: "Buffer Read "
 num: 3
 ---
 

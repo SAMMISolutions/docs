@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Load "
+title: "Buffer Load "
 num: 4
 ---
 

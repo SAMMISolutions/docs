@@ -10,7 +10,8 @@ Creates a new scene in OBS.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-| SceneName | String | Unique name of the scene to create. |
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+| Scene Name | String | Unique name of the scene to create. |
 {:class='table table-primary'}
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Get Size "
+title: "Buffer Get Size "
 num: 8
 ---
 

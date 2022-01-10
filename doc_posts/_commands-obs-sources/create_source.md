@@ -12,11 +12,12 @@ The source will be added at the top of the list. To reorder it, use a Custom Pac
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName|String|Name of the new OBS source
-|sourceKind|String|Type of the new source. <br/> `ffmpeg_source ` Media Source <br/> `vlc_source` VLC media source  <br/> `image_source` Image Source  <br/>`slideshow` Image slide show  <br/>`text_ft2_source` Free Type 2 text source  <br/>`text_gdiplus` Text GDI+ source  <br/>`browser_source` Browser source  <br/>`wasapi_input_capture` Audio Input capture  <br/>`wasapi_output_capture` Audio Output Capture  <br/>`color_source` Color source  <br/>`monitor_capture` Display Capture  <br/>`window_capture` Window capture  <br/>`game_capture` Game Capture  <br/>`dshow_input` Capture device(webcam)  <br/>`dshow_input_replay`  Video Capture Device with replay buffer  <br/> For other sources and plugin sources you should look at the OBS JSON file to figure out the correct value.
-|sceneName|String|Name of the scene to add the source to.|
-|sourceSettings |	JSON |	Source settings. Same format which is used in Source Change Settings command.|
-|setVisible|	boolean	|Whether the source should be visible.|
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source Name|String|Name of the new OBS source
+|Source Type|String|Type of the new source. Use the dropdown menu. If you do not see the desired source type (for example for some plugin sources), you should look at the OBS JSON file to figure out the correct value.
+|Scene|String|Name of the scene to add the source to.|
+|Settings |	JSON |	Source settings. Same format which is used in Source Change Settings command.|
+|Visible|	Checkbox	|Whether the source should be set visible upon creation. Checked = visible, Unchecked = not visible|
 {:class='table table-primary'}
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Set Size "
+title: "Buffer Set Size "
 num: 6
 ---
 

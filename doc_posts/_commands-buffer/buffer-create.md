@@ -1,5 +1,5 @@
 ---
-title: "Buffer: Create "
+title: "Buffer Create "
 num: 1
 ---
 

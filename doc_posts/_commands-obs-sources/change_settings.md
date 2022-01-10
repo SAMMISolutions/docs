@@ -11,8 +11,9 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|sourceName|	String |	Source name to change settings.
-|sourceSettings|	JSON String|	The settings to be included. Formatted as a [JSON String](https://www.w3schools.com/js/js_json_syntax.asp). Must be enclosed in `{}`.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source|	String |	Source name to change settings.
+|Settings|	JSON String|	The settings to be included. Formatted as a [JSON String](https://www.w3schools.com/js/js_json_syntax.asp). Must be enclosed in `{}`.
 {:class='table table-primary'}
 
 {% include alert.html text="Pay special attention to the forward slashes / in the file paths, as it will not work if you use back slashes \ instead." type="warning" %} 

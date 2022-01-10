@@ -1,5 +1,5 @@
 ---
-title: "Freetype 2 Change Text"
+title: "Source Change Text (FT2)"
 num: 4
 ---
 Changes the text of a Freetype 2 text source.\
@@ -9,8 +9,9 @@ If you wish to change the text to a value saved in a variable, you need to wrap 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|sourceName	|String	| Freetype 2 source name
-|text	|String	| The new text
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Source	|String	| Text GDI+ source name
+|New Text	|String	| The new text
 {:class='table table-primary'}
 
 

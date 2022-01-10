@@ -1,18 +1,17 @@
 ---
-title: "Math: Clear Variable"
+title: "Delete Variable"
 path_vid: /assets/videos/commands/math/
 path_img: /assets/images/commands/math/
-num: 3
+num: 8
 ---
 
-Clears a single variable. It removes it from the list of variables as well (accessible from the main menu by pressing TAB).\
-Useful command to keep your variable list clean and organized.
+Deletes an existing variable.\
+You can use dot notation for deleting button variables (`buttonID.myVariable`), global variables (`global.myVariable`), object keys (`myObject.key`). 
 
-{% include alert.html text="Pressing reset button automatically clears all variables." type="info" %}  
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Name of the variable to clear. |
+| Variable | String | Name of the variable to delete. |
 {:class='table table-primary' }
 
 

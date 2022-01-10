@@ -10,8 +10,9 @@ You can retrieve your current transition settings by executing a Custom Packet c
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|TransitionName|	String|	Name of the transition to modify|
-|transitionSettings	|JSON	|JSON string containing the transition settings|
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Transition|	String|	Name of the transition to modify|
+|Settings	|JSON	|JSON string containing the transition settings|
 {:class='table table-primary'}
 
 

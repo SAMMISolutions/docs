@@ -13,9 +13,6 @@ You do not need to use this command to join your own channel as long as it's lin
 |Channel Name |	String | Twitch channel name. Must be the login name, not display name.
 {:class='table table-primary'}
 
-{% include media_modal.html img="auto-join-chat.png" btn="1" pastebin="zrnqaeA3" alt="Button which auto connects to your alternate account" %} 
-
-
 
 
 

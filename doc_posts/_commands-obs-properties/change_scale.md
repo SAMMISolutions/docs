@@ -10,8 +10,9 @@ The way the source resized is based on source's positional alignment in OBS (sou
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|scene-name	|String (optional)|	Scene name containing the source. Leave blank for current active scene.
-|item	|String |	Source name to change size.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Scene Name|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source Name|	String|	Source name. Select from the menu or type manually. 
 |X Scale {% include asterisk.html%}	|Real (optional)	|X Scaling to set the source to. Leave blank to not modify it. `1.0` is 100%.
 |Y Scale {% include asterisk.html%}	|Real (optional)|	Y Scaling to set the source at. Leave blank to not modify it. `1.0` is 100%.
 {:class='table table-primary'}

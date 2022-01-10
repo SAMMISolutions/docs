@@ -1,6 +1,6 @@
 ---
 title: "String: Wildcard Pull"
-num: 3
+num: 2
 ---
 
 Use this command with a button trigger to pull the wildcard value. 

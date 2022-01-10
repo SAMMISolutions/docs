@@ -1,6 +1,6 @@
 ---
 title: "Math: Variable Transition"
-num: 2
+num: 7
 ---
 
 Transitions a variable (number) from a starting value to a final value over a given duration.\
@@ -11,11 +11,12 @@ For example, if you set the start value to 10, final value to 0 and duration to 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-| Variable | String | Name of the variable. |
-|Start Value {% include asterisk.html%}|	Real (number)|	Starting point (where the counting starts from)|
-|Final Value {% include asterisk.html%}|	Real (number)|	Finishing point (where the counting stops at)|
-|Allow Float|	boolean|	Float=values with decimal points, int=values without decimal points (rounded down)|
-|Dur.(MS)|	Int|	Duration of the transition|
+| Variable Name | String | Name of the variable. |
+|Start Value |	Number {% include asterisk.html%}|	Starting point (where the counting starts from)|
+|End Value |	Number {% include asterisk.html%}|	Finishing point (where the counting stops at)|
+|Allow Decimal|	Checkbox|	Whether you want to allow values with decimal points|
+|Duration(ms)|	Int|	Duration of the transition|
+|Smooth|Dropdown|None = Normal, Out = Starts out fast and ends slow, In = Starts out slow and ends fast, In/Out= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary' }
 
 {% include media_modal.html img="countdown.png" w="100" btn="1" alt="Simple countdown for GDI+ Text Source in OBS" pastebin="RkjiUFWH" %} 

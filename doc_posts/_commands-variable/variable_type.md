@@ -1,24 +1,22 @@
 ---
-title: "Math: Get Variable Type"
-path_vid: /assets/videos/commands/math/
-path_img: /assets/images/commands/math/
-num: 3
+title: "Get Variable Type"
+num: 6
 ---
 
 Returns a string indicating the type of the variable: 
 - `"number"` for numbers
 - `"string"` for variables containing text 
+- `"object"` for objects
+- `"array"` for arrays
+- `"boolean"` for boolean values
 - `"undefined"` for variables that aren't defined (do not exist)
-
-{% include alert.html text="Pressing reset button automatically clears all variables." type="info" %}  
+- `"null"` for null variables (sometimes retrieved from HTTP requests, cannot be manually created)
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable Name | String | The variable to get the type of. |
-| Variable Save | String | Variable to save the result in. |
+| Variable (Save) | String | Variable to save the result in. |
+| Variable (look at) | String | The variable to get the type of. |
 {:class='table table-primary' }
-
-{% include media_modal.html img="variable_type.png" w="100" btn="1" alt="Checking for different variable types" pastebin="9HNbNCrN" %} 
 
 
 

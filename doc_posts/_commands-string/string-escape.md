@@ -1,6 +1,7 @@
 ---
-title: "String: Escape"
-num: 10
+title: "String Escape"
+num: 10.5
+disabled: true
 ---
 
 Encodes a string, ready to be used in JSON format.\

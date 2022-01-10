@@ -1,0 +1,21 @@
+String Get Trigger type - only Trigger pull
+Remove commands: String Escape, Replay commands, Stacks are Arrays, 
+
+New commands: Filter Motion settings,Buffer base64 encode/decode, button get id, File sha1, CSV, notification message, extension trigger extension,  swap red blue, change studio mode, sound play, stop, volume speed, switch, string digits letters, string letteers, string hash, string remove section, string replace/all, 
+
+Twitch change stream status
+createclip
+get user info
+get game info
+get channel info
+stream info
+get sub status
+get sub count
+get follower count
+edit reward
+change redempt status
+create stream marker
+create poll
+end poll
+
+if statement - or and under 

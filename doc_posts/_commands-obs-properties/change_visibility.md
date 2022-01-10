@@ -9,9 +9,10 @@ Changes the visibility of a source.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|scene-name | String (optional)	|Scene name containing the source. Leave blank for current active scene.
-|item	|String	| Source name
-|visible |	boolean	| `True` for visible, `False` for not visible or `Toggle` to invert current visibility status <br/>  Toggle should be used only if it's a single button command.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
+|Scene Name|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source Name|	String|	Source name. Select from the menu or type manually. 
+|Visible |	Checkbox	|Checked = visible, Unchecked  = not visible
 {:class='table table-primary'}
 
 
