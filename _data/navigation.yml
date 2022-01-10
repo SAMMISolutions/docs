@@ -45,7 +45,7 @@ main:
     - name: Array methods
       link: commands/array
       collection: commands-stack
-    - name: Statements and Loops
+    - name: Statements, Loops, Awaits
       link: commands/statements 
       collection: commands-conditions 
     - name: Trigger methods
