@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Set Voolean
+title: Set Boolean
 num: 7.5
 ---
 
