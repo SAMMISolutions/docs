@@ -3,14 +3,23 @@ title: "Get Stream Info"
 num: 9
 ---
 
-Gets information about an active stream. 
+Gets information about an active stream.
+
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/commands/statements#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters) to change the stream status of
+|Login Name|String|Channel name for the stream 
+|Save Variable|String|Variable name to save the whole response object
 {:class='table table-primary'}
 
-Response fields:
+
+You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.
+
+
+**Response fields:**
+
+<div style="height: 40vh; overflow-y: auto" markdown="1">
 
 | Field | Type| Description| 
 |-------|--------|--------
@@ -24,12 +33,13 @@ Response fields:
 |title|	string|	Stream title.
 |viewer_count|	int	|Number of viewers watching the stream at the time of the query.
 |started_at|	string|	UTC timestamp.
-|language	|string|	Stream language. A language value is either the ISO 639-1 two-letter code for a supported| stream language or “other”.
+|language	|string|	Stream language. A language value is either the ISO 639-1 two-letter code for a supported stream language or “other”.
 |thumbnail_url|	string|	Thumbnail URL of the stream. All image URLs have variable width and height. You can replace {width} and {height} with any values to get that size image
 |tag_ids|	string|	Shows tag IDs that apply to the stream.
 |is_mature	|boolean|	Indicates if the broadcaster has specified their channel contains mature content that may be inappropriate for younger audiences.
 {:class='table table-secondary w-auto table-hover' }
 
+</div>
 
 
 

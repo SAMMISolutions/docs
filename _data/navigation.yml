@@ -36,16 +36,19 @@ main:
     - name: Variables
       link: commands/variables
       collection: commands-variable
-    - name: Number methods
+    - name: Numbers
       link: commands/number
       collection: commands-number
-    - name: String methods
+    - name: Strings
       link: commands/string
       collection: commands-string
-    - name: Array methods
+    - name: Arrays
       link: commands/array
       collection: commands-stack
-    - name: Statements, Loops, Awaits
+    - name: Objects
+      link: commands/object
+      collection: commands-object
+    - name: Statements, Loops & Awaits
       link: commands/statements 
       collection: commands-conditions 
     - name: Trigger methods
@@ -53,40 +56,40 @@ main:
       collection: commands-trigger 
     - name: OBS
       subitems:
-          - name: OBS General
+          - name: General
             link: commands/obs-general
             collection: commands-obs-general
-          - name: OBS Scenes
+          - name: Scenes
             link: commands/obs-scenes
             collection: commands-obs-scenes
-          - name: OBS Sources
+          - name: Sources
             link: commands/obs-sources
             collection: commands-obs-sources
-          - name: OBS Transitions
-            link: commands/obs-transitions
-            collection: commands-obs-transitions
-          - name: OBS Filters
-            link: commands/obs-filters
-            collection: commands-obs-filters
-          - name: OBS Item Properties
+          - name: Item Properties
             link: commands/obs-properties
             collection: commands-obs-properties
-          - name: OBS Outputs
+          - name: Transitions
+            link: commands/obs-transitions
+            collection: commands-obs-transitions
+          - name: Filters
+            link: commands/obs-filters
+            collection: commands-obs-filters
+          - name: Outputs
             link: commands/obs-outputs
             collection: commands-obs-outputs
-          - name: OBS Streaming
+          - name: Streaming
             link: commands/obs-streaming
             collection: commands-obs-streaming
-          - name: OBS Recording
+          - name: Recording
             link: commands/obs-recording
             collection: commands-obs-recording
-          - name: OBS Media
+          - name: Media
             link: commands/obs-media
             collection: commands-obs-media
     - name: Twitch
       link: commands/twitch
       collection: commands-twitch
-    - name: File manipulation
+    - name: Files
       link: commands/file
       collection: commands-file
     - name: Buffers

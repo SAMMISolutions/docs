@@ -1,5 +1,5 @@
 ---
-title: "Math: Variable Transition"
+title: "Variable Transition"
 num: 7
 ---
 
@@ -19,14 +19,4 @@ For example, if you set the start value to 10, final value to 0 and duration to 
 |Smooth|Dropdown|None = Normal, Out = Starts out fast and ends slow, In = Starts out slow and ends fast, In/Out= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary' }
 
-{% include media_modal.html img="countdown.png" w="100" btn="1" alt="Simple countdown for GDI+ Text Source in OBS" pastebin="RkjiUFWH" %} 
-
-
-
-
-
-
-
-
-
-
+{% include example_public.html src="https://i.imgur.com/U4goxFg.png" size="100" title="Simple countdown for GDI+ Text Source in OBS" pastebin="Msgnudug" %}  

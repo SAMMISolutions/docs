@@ -1,14 +1,14 @@
-{% assign id = include.src | strip | remove: '.'| remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | split: 'com/' %}
+{% assign id = include.src | strip | remove: '.'| remove: ':'| remove: '/'| remove: '0' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' %}
 <!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ id[1] }}" title="Click me to view the example">
+<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#{{ id }}" title="Click me to view the example">
   {{ include.title }}
   </button>
   <!-- Modal -->
-  <div class="modal fade" id="{{ id[1] }}" tabindex="-1" aria-labelledby="{{ id[1] }}" aria-hidden="true">
+  <div class="modal fade" id="{{ id }}" tabindex="-1" aria-labelledby="{{ id }}" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered modal-xl">
       <div class="modal-content">
         <div class="modal-header">
-          <p class="modal-title h5" id="{{ id[1] }}">{{ include.title }}</p>
+          <p class="modal-title h5" id="{{ id }}">{{ include.title }}</p>
          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
