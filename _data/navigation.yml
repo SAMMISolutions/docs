@@ -65,12 +65,9 @@ main:
           - name: Sources
             link: commands/obs-sources
             collection: commands-obs-sources
-          - name: Item Properties
-            link: commands/obs-properties
-            collection: commands-obs-properties
-          - name: Transitions
-            link: commands/obs-transitions
-            collection: commands-obs-transitions
+          - name: Motion
+            link: commands/obs-motion
+            collection: commands-obs-motion
           - name: Filters
             link: commands/obs-filters
             collection: commands-obs-filters
@@ -90,8 +87,16 @@ main:
       link: commands/twitch
       collection: commands-twitch
     - name: Files
-      link: commands/file
-      collection: commands-file
+      subitems:
+          - name: General
+            link: commands/file-general
+            collection: commands-file
+          - name: CSV
+            link: commands/file-csv
+            collection: commands-file-csv
+          - name: INI
+            link: commands/file-ini
+            collection: commands-file-ini
     - name: Buffers
       link: commands/buffer
       collection: commands-buffer

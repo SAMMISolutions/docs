@@ -1,5 +1,5 @@
 ---
-title: "Source Change Rotation"
+title: "Change Rotation"
 num: 4
 ---
 Changes the rotation of a source.\

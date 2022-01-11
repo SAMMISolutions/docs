@@ -2,7 +2,7 @@
 title: "Motion: Source Volume"
 num: 10
 ---
-Changes the volume of a given source from volume A to B over a duration.\
+Gradually changes the volume of a given source from volume A to B over a duration.\
 You can use OBS Pull Source Value command to get the current volume of a source and incorporate it in this command.
 
 

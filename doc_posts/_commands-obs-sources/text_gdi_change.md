@@ -1,6 +1,6 @@
 ---
-title: "Source Change Text (GDI+)"
-num: 3
+title: "Change Text (GDI+)"
+num: 8
 ---
 Changes the text of a Text GDI+ source.\
 If you wish to change the text to a value saved in a variable, you need to wrap it: `/$variable$/`.

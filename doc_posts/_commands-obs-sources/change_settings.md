@@ -1,6 +1,6 @@
 ---
-title: "Source Change Settings"
-num: 2
+title: "Change Settings"
+num: 10
 ---
 Changes settings of a source. Not to be confused with item transform settings. \
 Requires the same formatting that is used in the OBS JSON file.\

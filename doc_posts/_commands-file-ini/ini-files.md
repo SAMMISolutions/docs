@@ -1,6 +1,6 @@
 ---
-title: Ini Files - General
-num: 0
+title: General
+num: 0.5
 ---
 
 With the following commands you can save and load data to .ini files. Unlike with variables and stacks, the data is permanently saved and can be loaded again after you close and reopen LioranBoard.\

@@ -2,7 +2,7 @@
 title: "Motion: Source Rotation"
 num: 9
 ---
-Changes the rotation of a source over a set duration.\
+Gradually changes the rotation of a source over a set duration.\
 The center point of the rotation is based on the Positional Alignment option (right click on the source in OBS-Transform-Edit Transform).\
 You can use OBS Pull Source Value command to get the current rotation of a source and incorporate it in this command.
 

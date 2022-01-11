@@ -125,7 +125,11 @@ collections:
       output: true 
   commands-trigger: 
       output: true       
-  commands-file: 
+  commands-file-general: 
+      output: true
+  commands-file-ini: 
+      output: true
+  commands-file-csv: 
       output: true
   commands-twitch: 
       output: true
@@ -145,7 +149,7 @@ collections:
       output: true 
   commands-obs-outputs: 
       output: true 
-  commands-obs-properties: 
+  commands-obs-motion: 
       output: true 
   commands-obs-recording: 
       output: true 
@@ -157,5 +161,3 @@ collections:
       output: true 
   commands-obs-transitions: 
       output: true 
-  commands-deprecated: 
-      output: true

@@ -1,6 +1,6 @@
 ---
-title: "Source Change Text (FT2)"
-num: 4
+title: "Change Text (FT2)"
+num: 9
 ---
 Changes the text of a Freetype 2 text source.\
 If you wish to change the text to a value saved in a variable, you need to wrap it: `/$variable$/`.

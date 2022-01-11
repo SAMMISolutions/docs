@@ -1,6 +1,6 @@
 ---
 title: "Get Latest Poll/Prediction ID"
-num: 16
+num: 16.5
 ---
 
 Gets the latest poll or prediction ID to use with [Get Poll/Prediction Result]({{ "#Get PollPrediction Result" | strip }}). This only works for predictions/polls initiated through LioranBoard.

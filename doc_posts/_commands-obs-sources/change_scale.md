@@ -1,5 +1,5 @@
 ---
-title: "Source Change Scale"
+title: "Change Scale"
 num: 3
 ---
 Changes the size of a source.\

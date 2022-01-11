@@ -2,7 +2,7 @@
 title: "Motion: Source Scale"
 num: 8
 ---
-Resizes a source from Size A to size B over a given duration.\
+Gradually resizes a source from Size A to size B over a given duration.\
 Due to the way the OBS source resizing work, the result might look a bit snappy sometimes.\
 The way the source is resized is based on what the source's point of origin is set to in OBS.\
 You can use negative values for a horizontal (mirror) or vertical source flip.\

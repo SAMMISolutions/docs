@@ -1,6 +1,6 @@
 ---
 title: "Copy File"
-num: 10
+num: 24
 ---
 
 Copies a file from the LioranBoard folder and pastes it in any of its subfolders.\
