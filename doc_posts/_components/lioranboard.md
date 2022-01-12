@@ -114,11 +114,14 @@ You can create a new button inside a deck by either right clicking on your empty
 If you now right click on the created button, a new button menu appears: 
 #### Edit Appearance
 Edit your button text, color, image and border size.\
-All button images will be automatically resized and copied to `lioranboard/image` folder.
+All button images will be automatically resized and copied to `lioranboard/image` folder.\
+You can press SHIFT + double click on a button to edit settings.
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
 
 #### Edit Settings
+
+You can press CTRL + double click on a button to edit settings.
 
 <div>
 
@@ -154,6 +157,7 @@ All button images will be automatically resized and copied to `lioranboard/image
 
 #### Edit Triggers
 Add various triggers to your button to get automatically executed when a specific event happens. For example, you can trigger your button every time you get a new follower or someone types `!hello` in your chat.  
+You can press CTRL + double click on a button to add a trigger.
 
 Learn more about specific triggers in our [**Triggers**]({{ "triggers/introduction" | relative_url }}) section.
 
@@ -164,8 +168,6 @@ Button commands have their own specific rules that you need to follow, read read
 
 See the list of all available commands in the **Commands** section.  
 
-{% include video.html w="75" src="new-command.mp4" alt="Adding a command to a button" %}
-
 #### Edit Release Commands
 Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your Stream Deck or hotkey**. You can add as many commands as you want.
 
@@ -175,7 +177,7 @@ Initial variables the button will have when initiated. It prevents persistent bu
 #### Copy Button
 Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one.
 
-{% include video.html w="75" src="copy-commands.mp4" alt="Copying and pasting a button" %}
+{% include video.html w="75" src="copy-button.mp4" alt="Copying and pasting a button" %}
 
 
 #### Delete Button

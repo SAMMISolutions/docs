@@ -17,29 +17,15 @@ We recommend installing the latest 4.9.X version. Please note that the upcoming 
 #### Connect LioranBoard to OBS Websocket
 Once you have downloaded and installed OBS Websocket, you can proceed with connecting it to LioranBoard in a few easy steps. 
 
-**1. In your OBS, click on Tools-Websocket Server Settings**\
-(if you do not see the option, it means OBS Websocket is not properly installed)
-- `Enable Websocket server` must be checked. Default port is 4444, which you should not need to change.
-- Decide whether you want to `Enable authentication` (password protection) for OBSWS. This means anything connecting to your OBS will have to provide the password you enter below, including LioranBoard.\
-    If you decide to use a password, note it down as we're going to need to also tell LioranBoard about it.
-- All other options can be left at default (unchecked). 
-  {% include image.html w="75" src="obsws-settings.png" alt="Example of OBSWS Settings in OBS Studio" %}
-**2. Back in your LioranBoard Receiver, click on Options.**
-- `OBSWebsocket Port` is the same port from step 1, which should be 4444 as default. You should not need to change it.
-- `OBSwebsocket Password` - fill this out if you decided to use a password in step 1. Otherwise leave it blank. 
-- `Auto connect to OBSws` - check this if you'd like LioranBoard to automatically connect to OBS as soon as you launch it.
-- Hit Accept!
+1. In your OBS go to Tools-Websocket Server Settings. Uncheck 'Enable authorization' (for easy setup, you can change it later) and press OK. 
+	  
+	{% include image.html w="100" src="obsws_settings.png" alt="OBS Websocket Settings" type="image" %}
 
-  {% include image.html w="75" src="obsws-settings-lb.png" alt="Example of OBSWS Settings in LioranBoard" %}
-**3. Still in LioranBoard Receiver, click on Connect to OBS.**\
-You should see the following yellow notification messages:
-- *Connected to websocket*
-- *Fetching OBS data, may take a few seconds.*
-- *OBS Studio Version: X, OBS Websocket Version: X*
-- *ALL OBS data have been fetched.*
-  
-  {% include image.html w="75" src="obsws-message.png" alt="OBSWS Connection Message in LB" %}
-  If you happen to NOT receive all the messages, please refer to our Troubleshooting section.
+{:start="2"}
+2. In your LioranBoard click on **OBS Connections** at the bottom menu. Unless you changed your port in OBS-Tools-Websocket Server Settings or set up a password, you can leave everything at default and press Connect.\
+You should see a yellow notification message `OBS [Main Connected]` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
+
+  {% include image.html w="75" src="obs-connected.png" alt="OBS is connected" %}
 
 #### Control OBS from LioranBoard
 You can now remotely control your OBS Studio with [LioranBoard OBS commands]({{ "commands/obs-general" | relative_url }}).   

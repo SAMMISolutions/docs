@@ -58,7 +58,7 @@ Fit your new dock somewhere in your OBS screen as you see fit.
 #### 6. Connect Transmitter to LioranBoard
 In your **LioranBoard-Settings** menu, check `Allow Stream Deck and Transmitter` to allow Transmitter to connect.\
 In your **Transmitter-status** tab (in our OBS dock), you can now modify your connection settings.\
-Default IP address for Lioranboard is always `127.0.0.1` and port is always `9425`. Unless you changed port in your LioranBoard-settings, you can leave it at its default value.\
+Default IP address for Lioranboard is always `127.0.0.1` and port is always `9425`. Unless you changed port in your LioranBoard-Settings, you can leave it at its default value.\
 You must fill out the password if you decided to use one in LioranBoard-Settings menu.\
 Note that you only need to do this once, as your Transmitter will remember the previous settings and will attempt to auto connect next time.
 
@@ -121,10 +121,10 @@ You can follow the text instructions or click on <i class="far fa-plus-square fa
     <li>{% include video_collapse.html w="80" src="open-streamdeck.mp4" alt="Open Stream Deck" %} Back in your main LioranBoard menu, press <strong>Stream Deck</strong> to open it. This is your Stream Deck where you can manually press buttons you create in your LioranBoard.<br>
       <br>
       {% include alert.html text="LioranBoard only acts as an editor. You can press your buttons in Stream Deck." type="warning" %}
-      <p>Once launched, you will see connection settings. As we are just keeping everything at default in this tutorial, you can press <b>Connect</b>. Selected deck should be <b>Deck 1</b>. Press <b>Load Deck</b> and you should see your newly created button that we named <code>Chat message</code>.</p>
+      <p>Once launched, you will see connection settings. As we are just keeping everything at default in this tutorial, you can press <b>Connect</b>. Selected deck should be <b>Deck 1</b>. Press <b>Load Deck</b> and you should see your newly created button that we named <code>Send message</code>.</p>
     </li>
     <li>{% include video_collapse.html w="100" src="trigger_button.mp4" name="button_manual" alt="Press your newly created button" %} While looking at your Twitch chat, click on the button in your Stream Deck. It should send a <code>Hello World</code> message to your chat!<br>
-    <b>Important:</b> Your LioranBoard must be running, connected to Transmitter and connected to Twitch.</li>
+    <b>Important:</b> Your LioranBoard must be running and connected to Twitch Chat (LioranBoard-Twitch Connections-Connect Twitch Chat).</li>
   </ol><br>
   <h5>Trigger the button via your Twitch chat</h5>
   <p>Do you still remember the Twitch chat trigger you configured for your button? If you followed the tutorial, it should be <code>!test</code>.</p>

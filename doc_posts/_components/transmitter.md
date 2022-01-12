@@ -33,7 +33,7 @@ This might be needed for some extensions or debugging purposes.
 {% include alert.html text="You can have only one Transmitter open at the same time. If you see an error 'Second Transmitter tried to connect', locate the other Transmitter and close it." type="danger" %} 
 
 #### Connection Settings
-**In your LioranBoard-Settings menu, to check `Allow Stream Deck and Transmitter` to allow Transmitter to connect.**\
+**In your LioranBoard-Settings menu, check `Allow Stream Deck and Transmitter` to allow Transmitter to connect.**\
 In your Transmitter-status tab, you can modify your connection settings.\
 Default IP address for Lioranboard is always `127.0.0.1` and port is always `9425`. Unless you changed port in your LioranBoard-settings, you can leave it at its default value.\
 You must fill out the password if you decided to use one in LioranBoard-Settings menu.\
