@@ -108,6 +108,8 @@ collections:
   troubleshooting-errors:
       output: true  
   troubleshooting-bugs:
+      output: true 
+  commands-introduction: 
       output: true  
   commands-variable: 
       output: true 
@@ -122,6 +124,8 @@ collections:
   commands-mouse-kb:
       output: true
   commands-statements: 
+      output: true 
+  commands-wait: 
       output: true 
   commands-trigger: 
       output: true       

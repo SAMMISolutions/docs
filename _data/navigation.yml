@@ -33,6 +33,9 @@ main:
             collection: youtube-triggers
 - name: Commands
   submenus: 
+    - name: Introduction
+      link: commands/introduction
+      collection: commands-introduction
     - name: Variables
       link: commands/variables
       collection: commands-variable
@@ -48,9 +51,12 @@ main:
     - name: Objects
       link: commands/object
       collection: commands-object
-    - name: Statements, Loops & Awaits
+    - name: Statements & Loops
       link: commands/statements 
-      collection: commands-conditions 
+      collection: commands-statements
+    - name: Wait For/Until
+      link: commands/wait
+      collection: commands-wait 
     - name: Trigger methods
       link: commands/trigger
       collection: commands-trigger 

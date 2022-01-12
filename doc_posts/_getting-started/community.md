@@ -32,10 +32,10 @@ If you're looking for support for LioranBoard, you have these options:
 
 {:class='mt-2 anchor-header'}
 ## Ways to contribute 
-Interested in contributing to LioranBoard documentation or building an extension? We’d love your help! 
+Interested in contributing to LioranBoard 2 documentation or building an extension? We’d love your help! 
 
 ### Edit a page
-1. Read through the documentation, and click the {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs/edit/main/doc_posts/_getting-started/community.md" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button if you see anything confusing or have any **suggestions** for something to be improved. 
+1. Read through the documentation, and click the {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs2/edit/main/doc_posts/_getting-started/community.md" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button if you see anything confusing or have any **suggestions** for something to be improved. 
 2. If this is your first time editing this website, you must click on <button type="button" class="btn btn-success btn-sm">**Fork the repository**</button>
 3. Make your changes! 
 4. Scroll down, create a meaningful title (and optionally description) and press <button type="button" class="btn btn-success  btn-sm">**Propose changes**</button>
@@ -48,11 +48,11 @@ Interested in contributing to LioranBoard documentation or building an extension
 ### Add your own button example
 Want to **add your own button example** to any of the commands in the [Commands]({{ "commands/variables" | relative_url }}) section? Each command can have up to 3 different button examples!
 1. First you will need a screenshot of the button uploaded to Imgur and [pastebin](https://pastebin.com/) with the button's [imported JSON]({{ "faq/receiver#shareabutton" | relative_url }}).
-2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs/edit/main/doc_posts/_commands-number/variable_transition.md" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Math: Random]({{ "commands/number#mathrandom" | relative_url }}) command?
+2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs2/edit/main/doc_posts/_commands-number/variable_transition.md" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Math: Random]({{ "commands/number#mathrandom" | relative_url }}) command?
 3. If this is your first time editing this website, you must click on <button type="button" class="btn btn-success btn-sm">**Fork the repository**</button>
-4. Use this [very simple template](https://github.com/LioranBoard/docs/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="https://i.imgur.com/zsxdHym.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
+4. Use this [very simple template](https://github.com/LioranBoard/docs2/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="https://i.imgur.com/zsxdHym.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
 {:start="4"}
-5. (optional) Like to experiment? Check out the [advanced template](https://github.com/LioranBoard/docs/edit/main/templates/example_command.md) instead which will produce this button:&nbsp;{% include example_public.html src="https://i.imgur.com/jydvLf6.jpeg" size="50" title="Advanced button" pastebin="9HNbNCrN" desc=description %} 
+5. (optional) Like to experiment? Check out the [advanced template](https://github.com/LioranBoard/docs2/edit/main/templates/example_command.md) instead which will produce this button:&nbsp;{% include example_public.html src="https://i.imgur.com/jydvLf6.jpeg" size="50" title="Advanced button" pastebin="9HNbNCrN" desc=description %} 
 
 {:start="5"}
 6. Add the code snippet from the template to the very end of the command you're editing on Github!
