@@ -14,7 +14,7 @@ It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resourc
 
 You can easily create buttons for the most basic things, such as automatic scene switching and custom alerts. However, once you get more familiar with the software, whole new possibilites will open up for you. 
 
-LioranBoard itself works like a simple programming language. It has variables, operators, arrays, string and number methods, array operarations, IF and ELSE statements, loops, async/await commands and much more.
+LioranBoard itself works like a simple programming language. It has variables, operators, arrays, objects, string and number methods, If and Else statements, loops, async/await commands and much more.
 
 #### Connection to Twitch
 
