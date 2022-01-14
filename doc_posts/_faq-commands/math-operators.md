@@ -1,10 +1,10 @@
 ---
-title: "Math: Change Variable operators"
-num: 3
+title: "Variable operators"
+num: 9
 ---
 
-{% include alert.html text='All strings need to be wrapped in double quotes, such as <code>"Hello World"</code>.' type="warning" %} 
-
+There's a significant difference between [White and Yellow box](/commands/introduction#inputboxes).\
+ The following examples show the usage in **yellow boxes**.
 
 | Operator | Description |	Example |
 |-------|--------|--------

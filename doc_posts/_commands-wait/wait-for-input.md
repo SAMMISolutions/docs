@@ -1,18 +1,18 @@
 ---
-title: Wait For Keyboard Button Status
-num: 11
+title: Wait For User Input
+num: 13
 ---
 
-Pauses a button execution and waits until a specific button is pressed/unpressed to continue with the rest of the commands.
+Pauses a button execution and a pop up message appears for the user asking for their input. Once the user presses OK, it resumes the button execution and continues with the rest of the commands.
 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Button|Dropdown|Which button to wait for
-|Press|Checkbox|Checked = wait until the button is pressed, Unchecked = wait until the button is not pressed 
-|Timeout|Number {% include asterisk.html%}|How long to wait until resuming normal command flow
+|Show Message| String | Popup message to show the user
+|Default Value | String | Default value prefilled in the input field 
+|Save Variable | String | Variable name to save the result
 {:class='table table-primary'}
-{% include asterisk.html%}
+
 
 
 

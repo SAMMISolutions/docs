@@ -83,17 +83,7 @@ collections:
       output: true
   integrations-twitch:
       output: true
-  youtube-general:
-      output: true
-  youtube-download:
-      output: true
-  youtube-setup:
-      output: true
-  youtube-transmitter:
-      output: true
-  youtube-commands:
-      output: true
-  youtube-triggers:
+  integrations-youtube:
       output: true
   triggers:
       output: true

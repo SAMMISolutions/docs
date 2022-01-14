@@ -1,13 +1,14 @@
 ---
 title: Complex Math
-num: 4
+num: 11
 ---
 
-You can execute complex math operations in every parameter box, using a mix of variables and real values.
-- Each time you want LB to execute any kind of math, you need to wrap the whole sequence in parentheses: `(some math operation)`, for example `(variable+3*5+round(variable2))` or `(variable+10)`.
-- If you just want to insert a stack or variable name, it still needs to be wrapped in `( )`, for example `(variable)`.
-- For stacks you can use `([x]stackname)` where x is  the position of the stack value.
-- There is a maximum of 256 characters per input box. 
+You can execute complex math operations in every parameter box, using a mix of variables and real values.  
+Note that there's a significant difference between [White and Yellow box](/commands/introduction#inputboxes).  
+
+Each time you want LioranBoard to execute any kind of math, you need to wrap the whole sequence in parentheses: `(some math operation)`, for example `(variable+3*5+round(variable2))` or `(variable+10)` (applies for yellow boxes, as you must use `/$$/` in white boxes).  
+
+The following examples show the usage in **yellow boxes**.
 
 |Operator	|Name|	Example (without parentheses) |
 |-------|--------|--------|

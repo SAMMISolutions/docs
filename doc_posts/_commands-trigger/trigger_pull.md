@@ -4,7 +4,7 @@ num: 1
 ---
 
 Used in combination with any triggers you set up for the button.\
-For example, if you set up a button with a Twitch Subs trigger, you can use this command to get the subscriber's name once the button is triggered.\
+For example, if you set up a button with a Twitch Subs trigger, you can use this command to get the subscriber's name once the button is triggered.
  
 Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to learn more about triggers and their pull values. 
 

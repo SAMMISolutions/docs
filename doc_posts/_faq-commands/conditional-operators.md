@@ -1,6 +1,6 @@
 ---
 title: Conditional operators
-num: 5
+num: 10
 ---
 
 Applies to all Statement commands.

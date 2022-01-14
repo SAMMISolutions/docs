@@ -58,19 +58,12 @@ Allows you to set up your OBS connection. Multiple connections and multiple OBSW
 
 {% include image.html w="50" src="lb-obs-settings.png" alt="OBS Connections" %}
 
-- Name - will be always Main for the first/default OBS connection 
-- Protocol - select whether you're using OBSWS 4.x or OBSWS 5.x in your OBS
-- IP - unless you're connected to an OBS outside your computer, it will be `127.0.0.1` 
-- Port - port you selected in your OBS-Tools-Websocket Server Settings. Default is `4444`. 
-- Password (optional) - if you checked *Enable Authentication* in your OBS-Tools-Websocket Server Settings, you must fill out the password so LioranBoard can authorize with the websocket
-- Auto Connect - automatically connects to your OBS every time LioranBoard is launched
-- Non-Blocking - leave at default unless you're having difficulties connecting to OBS
-- Fetch OBS Data - whether you want LioranBoard to retrieve all OBS data upon connection, leave checked unless you have multiple OBS connections
+Learn more about setting up an OBS connection in our [Integrations-OBS](/integrations/obs) section.
 
 ### Twitch Connections
 Allows you to connect LioranBoard to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
 {% include image.html w="50" src="twitch-connections.png" alt="Twitch Connections" %}
-Find more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
+Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
 
 ### Variable Viewer
 In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
@@ -78,7 +71,7 @@ In this menu you can see all global variables (marked red) and all button IDs wi
 
 If you click on the eye icon, you can see all current variables for the selected button ID.\
 Use search function to search for a specific button ID.\
-Learn more about variables in your [Commands-Variables](commands/variables#introduction) section.
+Learn more about variables in our [Commands-Variables](commands/variables#introduction) section.
 
 ### Active Buttons
 All currently running buttons will be displayed in this window.\

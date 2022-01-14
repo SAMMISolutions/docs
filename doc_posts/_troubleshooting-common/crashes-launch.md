@@ -4,7 +4,7 @@ num: 1
 ---
 
 **Antivirus/Firewall**
-Try allowing the app through your firewall and/or deleting `gmfile.dll` in your LioranBoard Receiver folder.
+Try allowing the app through your firewall/antivirus.
 
 **Voicemeeter**
 If you are running Voicemeeter, you need to launch it AFTER LioranBoard.\

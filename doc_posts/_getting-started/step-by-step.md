@@ -82,7 +82,7 @@ Linking your Twitch account to LioranBoard is a necessary step if you want to be
 5. You can now optionally check which events to listen for and whether you want to Join Chat Channel for this particular Twitch channel. You want to also check `Auto connect to Twitch Chat`, else you will need to always press the **Connect Twitch Chat** button when you open LioranBoard to be able to receive and send chat messages from LioranBoard.
 6. Press **Connect Twitch Chat** to connect to Twitch chat.
 
-  {% include image.html w="75" src="link-twitch.png" alt="Active Twitch Connection" %}
+  {% include image.html w="100" src="link-twitch.png" alt="Active Twitch Connection" %}
 
 {:start="7"}
 7. Now that your Twitch account is linked in LioranBoard, Pubsub status in your Transmitter should change to **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %}.\
