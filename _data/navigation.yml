@@ -5,13 +5,13 @@ main:
   collection: components
 - name: Integrations
   submenus: 
-    - name: OBS 
+    - name: OBS Studio
       link: integrations/obs
       collection: integrations-obs
     - name: Twitch
       link: integrations/twitch
       collection: integrations-twitch
-    - name: YouTube
+    - name: YouTube Live
       link: integrations/youtube
       collection: integrations-youtube
 - name: Commands
