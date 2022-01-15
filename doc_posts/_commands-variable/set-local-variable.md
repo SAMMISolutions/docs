@@ -22,7 +22,7 @@ Global variables: Use `Global.` prefix, since they're all stored in an object ca
 Button variables: Use `buttonID.` prefix, since they're all stored in an object named after the button ID.\
 Array Values: Use `myArray[index]` to change a value inside an array.\
 Object Keys: Use `myObject.key` to change a key inside an object.\
-You can access nested objects and arrays by using dot notation, it works the same just like in JavaScript. Bracket notation does not work, you must use *Set/Get Object Variable* command for keys containing spaces or dashes.
+You can access nested objects and arrays by using dot notation, it works the same just like in JavaScript. Bracket notation does not work, you must use *Set/Get Object Variable* command for keys containing spaces or dashes. 
 
 
 
