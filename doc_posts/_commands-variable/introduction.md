@@ -83,7 +83,7 @@ It's extremely important to know the difference as you need to **format your inp
 |Using a combination of strings and variables | You can insert a variable into text by wrapping it in */$$/*. <br/> `Hello world, this is my /$myVariable$/, isn't it cool?` | You must wrap any string in double/single quotes and use `+` to combine them with other variables. The whole value must be enclosed in parentheses. <br/> `( "Hello World, this is my " + myVariable + ", isn't this cool?" )`
 |Math Operations| All math operations must be enclosed in */$$/* and parentheses.<br/> `Hello world, do you know what's 3+7? It's /$(3+7)$/!` | All math operations must be enclosed in parentheses.<br/> `( "Hello world, do you know what's 2+7? It's " + (2 + 7) + "!" )`
 {:class='table table-secondary w-auto table-hover text-break' }
-
+ 
 
 
 
