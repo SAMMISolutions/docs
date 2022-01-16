@@ -7,8 +7,10 @@ With the following commands you can save and load data to .ini files. Unlike wit
 
 **Rules for saving and loading ini files:**
 
-1. Each file needs to have a specific structure for LioranBoard to read it, containing [section] and key="value".<br>
-   {% include image.html w="75" src="ini_structure.png" alt="Ini file structure" %}
+1. Each file needs to have a specific structure for LioranBoard to read it, containing [section] and key="value".  
+
+   {% include image.html w="75" src="ini_structure.png" alt="Ini file structure" %}  
+   
 {:start="2"}
 2. You can only save and load .ini files placed in your LioranBoard folder or one of its inner folders.
 3. Make sure to use the right command for loading and saving data. There are different commands for strings and different commands for real values (numbers). 
