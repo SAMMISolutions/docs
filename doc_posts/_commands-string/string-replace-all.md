@@ -19,7 +19,7 @@ Searches a string for a specified value and replaces it with another specified s
 |-------|--------|--------|--------
 |l|/|Hello|He//o
 | |-|Hello World and Hello World|Hello-World-and-Hello-World
-|hello and hello and hello|goodbye|goodbye and goodbye and goodbye
+|hello|goodbye|hello and hello and hello|goodbye and goodbye and goodbye
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
 
