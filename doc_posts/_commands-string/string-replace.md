@@ -17,9 +17,9 @@ Searches a string for a specified value and replaces it with another specified s
 
 | Value to search for | Value to replace it with| String| Result |
 |-------|--------|--------|--------
-|l|/|Hello|He//o
+|l|/|Hello|He/lo
 | |-|Hello World and Hello World|Hello-World and Hello World
-|hello and hello and hello|goodbye|goodbye and hello and hello
+|hello|goodbye|hello and hello and hello|goodbye and hello and hello
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
 
