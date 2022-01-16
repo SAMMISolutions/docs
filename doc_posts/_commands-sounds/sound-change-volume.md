@@ -10,4 +10,4 @@ Temporarily changes volume of your currently playing sound effect. Provide its I
 |Sound ID|String|Sound Effect ID
 |Volume|Number {% include asterisk.html%}|Volume % to change to
 |Duration (ms)|Number|{% include asterisk.html%}| For how long to change the volume until it returns to the default volume
-{:class='table table-primary ' }} 
+{:class='table table-primary' }

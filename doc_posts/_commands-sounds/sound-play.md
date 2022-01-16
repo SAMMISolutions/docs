@@ -10,7 +10,7 @@ Plays a selected sound file. Only .ogg files are supported.
 |Sound File Path|	String|	Select the file to play.
 |Volume Level|Number|Set the volume level in %
 |Save Sound ID|String|Sound Effect ID (you can select any name, it's used for other sound effect commands)
-{:class='table table-primary ' }} 
+{:class='table table-primary ' }
 
 
 

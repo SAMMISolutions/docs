@@ -8,5 +8,5 @@ Changes speed of your currently playing sound effect. Provide its ID that you se
 | Box Name | Type | Description | 
 |-------|--------|--------|
 |Sound ID|String|Sound Effect ID
-|Speed|Number {% include asterisk.html%}|Speed % to change to
-{:class='table table-primary ' }} 
+|Speed|Number {% include asterisk.html %}|Speed % to change to
+{:class='table table-primary'} 
