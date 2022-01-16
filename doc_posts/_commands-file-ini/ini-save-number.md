@@ -3,9 +3,9 @@ title: "File: Save Number"
 num: 1
 ---
 
-Saves a real value (number) to .ini file.
+Saves a number to .ini file.
 
-{% include alert.html text="You cannot use File: Save Value on a string." type="warning" %} 
+{% include alert.html text="You cannot use File: Save Number on text (string)." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

@@ -3,8 +3,8 @@ title: "File: Save Text"
 num: 2
 ---
 
-Saves a string (text) to .ini file.
-{% include alert.html text="You cannot use File: Save String on a real value (number)." type="warning" %} 
+Saves text (string) to .ini file.
+{% include alert.html text="You cannot use File: Save Text on number (real value)." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

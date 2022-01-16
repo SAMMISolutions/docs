@@ -3,9 +3,9 @@ title: "File: Load Text"
 num: 4
 ---
 
-Loads a string (text) from .ini file. Will return 0 if it doesn't exist.
+Loads text (string) from .ini file. Will return 0 if it doesn't exist.
 
-{% include alert.html text="You cannot use File: Load String on a real value (number)." type="warning" %} 
+{% include alert.html text="You cannot use File: Load Text on number (real value)." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
