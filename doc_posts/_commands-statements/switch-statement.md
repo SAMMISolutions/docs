@@ -19,7 +19,7 @@ Switch statement is used to select one of many blocks of commands to be executed
 3. Under each Case Statement, decide what commands you want to execute.\
 *For example, under Case Statement for Lioran, you want to play a specific sound effect. And under the Case Statement for Melonax, you want to play a different sound effect.*
 4. (Optional) Add a default case to execute a block of commands if no Case Statement matches the expression.\
-*For example, if the viewer's name isn'*'t Lioran, Melonax, Sebas or Cyanidesugar, play a default sound effect.*
+*For example, if the viewer's name isn't Lioran, Melonax, Sebas or Cyanidesugar, play a default sound effect.*
 5. Now every time the button is pressed, it will check the name of the viewer and execute one Case Statement command block matching their name (or execute the default block).  
 
 
