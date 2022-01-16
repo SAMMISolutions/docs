@@ -60,9 +60,6 @@ main:
           - name: Filters
             link: commands/obs-filters
             collection: commands-obs-filters
-          - name: Outputs
-            link: commands/obs-outputs
-            collection: commands-obs-outputs
           - name: Streaming
             link: commands/obs-streaming
             collection: commands-obs-streaming

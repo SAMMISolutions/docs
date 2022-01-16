@@ -141,8 +141,6 @@ collections:
       output: true 
   commands-obs-media: 
       output: true 
-  commands-obs-outputs: 
-      output: true 
   commands-obs-motion: 
       output: true 
   commands-obs-recording: 
