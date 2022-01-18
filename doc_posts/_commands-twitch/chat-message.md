@@ -1,5 +1,5 @@
 ---
-title: "Send Message "
+title: "Send Chat Message "
 num: 0
 ---
 
