@@ -3,7 +3,7 @@ layout: default
 title: Privacy Policy
 permalink: /privacy-policy
 menu: About
-num: 0
+num: 1
 type: fullpage
 ---
 
