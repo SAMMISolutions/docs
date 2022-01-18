@@ -46,7 +46,7 @@ You should see a yellow notification message `OBS [Main Connected]` and the stat
 
 #### 5. Add Transmitter to your OBS Dock
 
-In your OBS menu navigate to **View - Docks - Custom Browser Docks**. Your new dock name can be `Transmitter` and the URL will be the path to the `transmitter.html` file located in your `lioranboard/transmitter` folder.\
+In your OBS menu navigate to **View - Docks - Custom Browser Docks**. Your new dock name can be `Transmitter` and the URL will be the path to the `transmitter.html` file located in your `lioranboard/transmitter` folder.
 
 {% include image.html w="100" src="transmitter_dock.png" alt="OBS Dock Settings" type="image" %}
 
@@ -64,7 +64,7 @@ Note that you only need to do this once, as your Transmitter will remember the p
 
 {% include image.html w="75" src="transmitter-connection.png" alt="Transmitter Connection Settings" %}
 
-{% include alert.html text="Transmitter must be running at all times for your Twitch conneciton and extensions to work properly." type="danger" %} 
+{% include alert.html text="Transmitter must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
 
 In your Transmitter you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to LioranBoard. This means it is connected to your LioranBoard and listening for messages. 
 
