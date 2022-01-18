@@ -1,6 +1,6 @@
 ---
 layout: default
-title: LioranBoard Privacy Policy
+title: Privacy Policy
 permalink: /privacy-policy
 menu: About
 num: 0
