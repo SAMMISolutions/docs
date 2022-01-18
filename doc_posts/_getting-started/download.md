@@ -13,7 +13,7 @@ Comes with LioranBoard Receiver, Transmitter and Stream Deck for PC. You can als
 LioranBoard is fully supported on Windows, support for other platforms is coming!\
 You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality at this time.
 
-<a href="https://github.com/LioranWaters/Lioranboard2Update/blob/main/README.md"><button type="button" class="btn btn-primary">Download LioranBoard</button></a>
+<a href="https://github.com/LioranWaters/Lioranboard2Update/blob/main/README.md#downloads"><button type="button" class="btn btn-primary">Download LioranBoard</button></a>
 
 *You can check our **[Discord's](https://discord.gg/dXez8Zh)** Announcements channel for unreleased and beta versions.* 
 
