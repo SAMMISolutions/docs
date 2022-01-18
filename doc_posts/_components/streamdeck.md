@@ -31,17 +31,5 @@ Check this if you wish to auto connect each time you open Stream Deck.
 ### Android Version
 You can download Stream Deck for Android separately on the LioranBoard [download page](https://github.com/LioranWaters/Lioranboard2Update/blob/main/README.md).
 
-#### Privacy Policy
-
-**Lioranboard Privacy Policy**  
-
-Lioranboard Streamdeck, Receiver, or website does not collect any data from its users.  
-
-
-Note that, Lioranboard is hosted on 3rd party websites to facilitate our distribution such as the Google Play Store and Github. These 3rd parties may or may not collect information and we do not have access to that information. Please refer to their privacy policy to know their policies when using their services.  
-
-
-Our privacy policy is subject to change at any time without notice.
-
 
 
