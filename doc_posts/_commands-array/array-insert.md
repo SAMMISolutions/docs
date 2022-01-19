@@ -13,11 +13,11 @@ Inserts a value into an array in a specific index (position), shifting other val
 
   {% include image.html w="50" src="push.png" alt="Add a value to the end of the stack" %}
 
-- bottom - adds a value to the beginning of the array (same as `Array unshift` in Javascript)
+- 0 - adds a value to the beginning of the array (same as `Array unshift` in Javascript)
 
   {% include image.html w="50" src="unshift.png" alt="Add a value to the beginning of the stack" %}
 
-- index of the position to insert the value to (similar to `Array splice` in JavaScript)
+- index (position) to insert the value to (similar to `Array splice` in JavaScript)
 
   {% include image.html w="75" src="array-insert.png" alt="Visual representation of inserting a value into an array by index" %}
 
@@ -26,7 +26,7 @@ Inserts a value into an array in a specific index (position), shifting other val
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Array |String	| Name of the array
-|Position|{% include asterisk.html%}|Position to add the value to. Can be **top** {% include popover.html content="beginning of the array" %}, **bottom** {% include popover.html content="end of the array" %} or **index** of the value.  
+|Position|{% include asterisk.html%}|Position to add the value to. Can be **top** {% include popover.html content="last element of the array" %}, **0** {% include popover.html content="first element of the array" %} or **index** (position) of the value.  
 |Value | {% include asterisk.html%} | Value you want to add to the array
 {:class='table table-primary'}
 
