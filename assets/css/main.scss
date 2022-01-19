@@ -34,6 +34,12 @@ a:hover {
 	text-decoration: underline
 }
 
+div.highlight {
+    padding: 1rem;
+    margin-bottom: 1rem;
+    background-color: #f2f6f9;
+}
+
 
 /*disabled links*/
 
@@ -408,6 +414,11 @@ a.tooltip {
 	color: #d4d4d4;
 	code {
 		color: #88b8ff;
+	}
+	div.highlight {
+		padding: 1rem;
+		margin-bottom: 1rem;
+		background-color: #f8f9fa17;
 	}
 	.container-xxl.lb-layout {
 		background-color: #1b1b1b;

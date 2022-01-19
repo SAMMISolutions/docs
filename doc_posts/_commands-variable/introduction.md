@@ -28,7 +28,30 @@ If you uncheck the box, the variables will be accessible only when the button is
 
 #### Init Variables
 If you right click on a button, you can edit its INIT variables.\
-These exist to prevent crashes if you have enabled persistent variables.
+These exist to prevent crashes if you have enabled persistent variables.\
+The window uses a simple JSON format to initialize your variables.\
+For example, if you want your variable `name` to have a value of `LioranBoard` and your variable `number` to have a value of 5 on initilization, you can do:
+```
+{
+	"name": "Lioran",
+	"number": 5,
+}
+```
+
+{% include alert.html text='Strings must be enclosed in <code>"</code>, but numbers (real values) must be without <code>"</code> (else they will be also regarded as strings).' type='warning' %} 
+
+You can also initiliaze complex variables, such as arrays or objects:
+```
+{
+	"namesArray": ["Lioran", "Melonax", "Cyanidesugar"],
+	"colorObject": {
+		"Lioran": "blue",
+		"Melonax": "purple",
+		"Cyanidesugar": "red "
+	}
+
+}
+```
 
 
 #### Variable types
