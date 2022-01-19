@@ -26,7 +26,7 @@ Inserts a value into an array in a specific index (position), shifting other val
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Array |String	| Name of the array
-|Position|{% include asterisk.html%}|Position to add the value to. Can be **top** {% include popover.html content="last element of the array" %}, 0 {% include popover.html content="first element of the array" %} or **index** (position) of the value.  
+|Position|{% include asterisk.html%}|Position to add the value to. Can be **top** {% include popover.html content="last element of the array" %}, **0** {% include popover.html content="first element of the array" %} or **index** (position) of the value.  
 |Value | {% include asterisk.html%} | Value you want to add to the array
 {:class='table table-primary'}
 
