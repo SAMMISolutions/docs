@@ -1,6 +1,6 @@
 ---
 title: "Set Transition"
-num: 3
+num: 4
 ---
 
 Set the duration of the currently selected transition if supported.

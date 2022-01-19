@@ -1,6 +1,6 @@
 ---
 title: "Motion: Alpha Filter"
-num: 7
+num: 6
 ---
 Gradually changes the transparency of a source over a set duration.\
 Requires a Color Correction filter to be added to your source.\

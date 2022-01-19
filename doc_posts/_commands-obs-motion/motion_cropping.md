@@ -1,6 +1,6 @@
 ---
 title: "Motion: Change Cropping"
-num: 7
+num: 5
 ---
 
 Gradually changes the crop settings of a source over a set duration.

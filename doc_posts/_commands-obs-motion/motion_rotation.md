@@ -1,6 +1,6 @@
 ---
 title: "Motion: Source Rotation"
-num: 9
+num: 3
 ---
 Gradually changes the rotation of a source over a set duration.\
 The center point of the rotation is based on the Positional Alignment option (right click on the source in OBS-Transform-Edit Transform).\

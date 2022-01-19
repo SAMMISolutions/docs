@@ -1,6 +1,6 @@
 ---
 title: "Motion: Position Curve"
-num: 7
+num: 1
 ---
 Gradually moves a Source from point A to point B over a given duration and curves it in a circle pattern.\
 You can make a source complete a half circle or have a slight curve in its transition.\

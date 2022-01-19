@@ -1,6 +1,6 @@
 ---
 title: "Exit"
-num: 6
+num: 7
 ---
 
 If the condition is true, it terminates all the commands and prevents them from happening until the button is pressed again.

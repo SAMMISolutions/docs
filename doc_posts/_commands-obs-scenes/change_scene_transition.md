@@ -1,6 +1,6 @@
 ---
 title: "Change Scene Transition"
-num: 1
+num: 2
 ---
 
 Temporarily changes the transition of a scene. Lasts until you use Remove Scene Transition command.

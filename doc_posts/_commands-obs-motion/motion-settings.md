@@ -1,6 +1,6 @@
 ---
 title: "Motion: Filter Settings"
-num: 6
+num: 7
 ---
 Gradually transitions specified filter settings over a set duration.
 

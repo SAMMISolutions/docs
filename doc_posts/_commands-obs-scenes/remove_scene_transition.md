@@ -1,6 +1,6 @@
 ---
 title: "Remove Scene Transition"
-num: 2
+num: 3
 ---
 
 Remove temporary changed transition of a scene (from executing Change Scene Transition command).

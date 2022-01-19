@@ -1,7 +1,7 @@
 ---
 layout: default
 title: Set Boolean
-num: 7.5
+num: 3.5
 ---
 
 Allows you to set a boolean variable.\

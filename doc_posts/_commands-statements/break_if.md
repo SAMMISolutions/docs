@@ -1,6 +1,6 @@
 ---
 title: "Break"
-num: 7
+num: 6
 ---
 
 If the condition is true, this command will break out of a Repeat or Re-enable statement, cancelling every command inside of the block if it hasn't been executed yet.

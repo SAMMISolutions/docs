@@ -1,6 +1,6 @@
 ---
 title: "Change Studio Mode"
-num: 2.5
+num: 2
 ---
 
 Enables or disables studio mode in your OBS. 

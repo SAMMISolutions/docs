@@ -1,6 +1,6 @@
 ---
 title: "Trigger OBS Hotkey Name"
-num: 1
+num: 3
 ---
 Activates any OBS hotkey without having to manually press it.\
 You can find the unique name of a hotkey in one of these two locations: 

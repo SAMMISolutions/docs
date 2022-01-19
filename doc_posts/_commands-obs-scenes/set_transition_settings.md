@@ -1,6 +1,6 @@
 ---
 title: "Set Transition Settings"
-num: 3
+num: 5
 ---
 
 Changes the current settings of a transition. Same as going to your OBS and clicking on 'Properties' in your Scene Transitions.\

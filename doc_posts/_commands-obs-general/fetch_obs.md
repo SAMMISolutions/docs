@@ -1,6 +1,6 @@
 ---
 title: "Fetch OBS Data"
-num: 3
+num: 1
 ---
 Allows you to request data from OBS websocket and save it in a variable.\
 All the possible requests are documented in [OBS websocket protocol reference](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md).\

@@ -1,6 +1,6 @@
 ---
 title: "Trigger OBS Hotkey Sequence"
-num: 2
+num: 4
 ---
 Executes hotkey routine.\
 Does not actually perform the key presses, it simply activates any hotkey action you've set. 

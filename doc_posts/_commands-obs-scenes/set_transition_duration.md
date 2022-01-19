@@ -1,6 +1,6 @@
 ---
 title: "Set Transition Duration"
-num: 3
+num: 6
 ---
 
 Changes the duration of a specified transition.

@@ -1,6 +1,6 @@
 ---
 title: String Count
-num: 3
+num: 2.5
 ---
 
 Returns the number of occurrences of a character/string within a string. Case sensitive.

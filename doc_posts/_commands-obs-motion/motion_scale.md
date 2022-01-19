@@ -1,6 +1,6 @@
 ---
 title: "Motion: Source Scale"
-num: 8
+num: 2
 ---
 Gradually resizes a source from Size A to size B over a given duration.\
 Due to the way the OBS source resizing work, the result might look a bit snappy sometimes.\
