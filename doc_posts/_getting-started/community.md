@@ -47,8 +47,8 @@ Interested in contributing to LioranBoard 2 documentation or building an extensi
 
 ### Add your own button example
 Want to **add your own button example** to any of the commands in the [Commands]({{ "commands/variables" | relative_url }}) section? Each command can have up to 3 different button examples!
-1. First you will need a screenshot of the button uploaded to Imgur and [pastebin](https://pastebin.com/) with the button's [imported JSON]({{ "faq/receiver#shareabutton" | relative_url }}).
-2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/LioranBoard/docs2/edit/main/doc_posts/_commands-number/variable_transition.md" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Math: Random]({{ "commands/number#mathrandom" | relative_url }}) command?
+1. First you will need a screenshot of the button uploaded to Imgur and [pastebin](https://pastebin.com/) with the button's [imported JSON]({{ "faq/commands#shareabutton" | relative_url }}).
+2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://lioranboard.ca/docs2/commands/variables#variabletransition" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Variable Transition]({{ "commands/variables#variabletransition" | relative_url }}) command?
 3. If this is your first time editing this website, you must click on <button type="button" class="btn btn-success btn-sm">**Fork the repository**</button>
 4. Use this [very simple template](https://github.com/LioranBoard/docs2/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="https://i.imgur.com/zsxdHym.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
 {:start="4"}
