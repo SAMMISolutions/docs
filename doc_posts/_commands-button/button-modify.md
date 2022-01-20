@@ -17,7 +17,7 @@ If you wish to reset the button back to its default appearance, set the values t
 |Color|color picker|Select new color for the button.
 {:class='table table-primary'}
 
-
+{% include example_public.html src="https://i.imgur.com/t5MJmm8.gif" size="100" title="Modify colour and text of a button" pastebin="pRqfUXF8" %}
 
 
 
