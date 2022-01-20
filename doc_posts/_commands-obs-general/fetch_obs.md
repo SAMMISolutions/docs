@@ -35,7 +35,7 @@ Turn to real|	boolean|	Whether you expect a real value (=number) or a string.
 |<code class="user-select-all">"sceneItems":["sourceName":"Browser",...},{"sourceName":"Text GDI",...}]</code>|First source name in a specified scene|<code class="user-select-all">{"request-type":"GetSceneItemList","sceneName":"YOURSCENENAME"}</code>|sceneItems[0].sourceName|
 {:class='table table-secondary w-auto table-responsive table-hover text-break' }
 
-{% include example_public.html src="https://i.imgur.com/GGZnfza.jpeg" title="Add 1 to Text GDI+ Source" pastebin="V8eRgmWk" desc=description %} 
+{% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source" pastebin="ccUwx1GE" %}   
 
 
 
