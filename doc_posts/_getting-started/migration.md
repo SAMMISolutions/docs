@@ -8,11 +8,14 @@ type: fullpage
 ---
 
 Migrating all buttons and extensions from LioranBoard 1 to LioranBoard 2 must be done **manually**.  
-LioranBoard 2 is too different from LioranBoard 1 (especially when it comes to how variables are handled) and therefore it's not possible to create a migration tool.\
+LioranBoard 2 is too different from LioranBoard 1 (especially when it comes to how variables are handled) and therefore it's not possible to create a migration tool.  
 
-LioranBoard 2 is created in Game Maker Studio 2 and offers both x64 and x86 version.\
 
-You can run LioranBoard 1 and LioranBoard 2 **at the same time** without any issues.\
+LioranBoard 2 is created in Game Maker Studio 2 and offers both x64 and x86 version.  
+
+
+You can run LioranBoard 1 and LioranBoard 2 **at the same time** without any issues.  
+
 
 ##### Variables
 LioranBoard 1's variables are all global, which means every button can create and access any variable.  
