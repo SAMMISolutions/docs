@@ -76,6 +76,7 @@ If you're an extension developer, you will need to rewrite some of your code to 
 - added more [String](https://lioranboard.ca/docs2/commands/string) commands, such as Remove Section, String Hash etc.
 - added [Button Get Own ID command](https://lioranboard.ca/docs2/commands/button#buttongetownid)
 - added more [Twitch commands](/commands/twitch): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
+- added [Trigger Extension Trigger](/commands/trigger#triggerextensiontriggers) command which is the same as triggering an extension from a Transmitter. This way you can pass parameters from one button to another and make it behave similar to functions in programming
 - [Fetch OBS Data](/commands/obs-general#fetchobsdata) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
 - [Comments](/commands/misc#comment) can now contain nested commands, super useful for organizing your commands
 - Removed Statement: And and Or commands, you can now add them directly in the If Statement command by pressing the command's **+** button
