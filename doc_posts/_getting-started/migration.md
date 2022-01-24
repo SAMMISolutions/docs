@@ -19,16 +19,16 @@ LioranBoard 1's variables are all global, which means every button can create an
 
 In LioranBoard 2 we have something called **global variables** (these work the same as regular variables in LioranBoard 1), **button variables** and **local variables**. We can also set our buttons to be **persistent** vs. **non peristent**, which means all button variables will be automatically cleared once the button is over.  
 
-LioranBoard 1 automatically converts all undefined variables to `0`. In LioranBoard 2 you must **check for undefined variables** (you can do it with an if statement by leaving the value to compared it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables](https://lioranboard.ca/docs2/commands/variables#initvariables) for this reason.   
+LioranBoard 1 automatically converts all undefined variables to `0`. In LioranBoard 2 you must **check for undefined variables** (you can do it with an if statement by leaving the value to compared it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables]({{ "/commands/variables#initvariables" | relative_url }}) for this reason.  
 
 Variables can now be **white** (for text and /$variables$/, originally marked with * in LioranBoard 1) or **yellow** boxes (for numbers and direct variables).
 
-You can read more about variables in our [Commands-Variables](/commands/variables#introduction) section. 
+You can read more about variables in our [Commands-Variables]({{ "/commands/variables#introduction" | relative_url }}) section. 
 
 ##### Stacks -> Arrays 
 Stacks have been deprecated and replaced with arrays. The functionality is very similar, however the structure of an array is a little bit different from a stack.  
 There is no `bottom` when pulling a value from an array anymore. Use either `top` (= last item in the array) or `0` (= first item in the array, which is the original `bottom` in a stack). 
-If you have stringified stacks saved in ini files from LioranBoard 1, you can easily convert them to arrays by using this automated [Stack to Array tool](/commands/array#convertstackssavedininifilesfromlbtoarraysinlb).
+If you have stringified stacks saved in ini files from LioranBoard 1, you can easily convert them to arrays by using this automated [Stack to Array tool]({{ "/commands/array#convertstackssavedininifilesfromlbtoarraysinlb" | relative_url }}).
 
 ##### Objects
 LioranBoard 2 can newly create and manipulate [objects](https://www.w3schools.com/js/js_objects.asp).
@@ -37,13 +37,13 @@ LioranBoard 2 can newly create and manipulate [objects](https://www.w3schools.co
 LioranBoard 2 can manipulate CSV files. 
 
 ##### HTTP Request
-[Get HTTP Request](/commands/misc#gethttprequest) command replaces Web Request extension. You can call an API and receive its response directly in LioranBoard now.\
+[Get HTTP Request]({{ "/commands/misc#gethttprequest" | relative_url }}) command replaces Web Request extension. You can call an API and receive its response directly in LioranBoard now.\
 As an example, the whole Spotify extension is now fully contained in LioranBoard and does not require Transmitter to run anymore.
 
 ##### More Twitch control
-New native [Twitch triggers](/triggers/twitch) for f**ollowers, polls, predictions and hype train**.  
+New native [Twitch triggers]({{ "/triggers/twitch" | relative_url }}) for f**ollowers, polls, predictions and hype train**.  
 
-Added tremendous amount of [Twitch commands](/commands/twitch), such as creating a clip, getting channel info, creating a poll/prediction etc.  
+Added tremendous amount of [Twitch commands]({{ "/commands/twitch" | relative_url }}), such as creating a clip, getting channel info, creating a poll/prediction etc.  
 
 Added user friendly UI to **create and modify your Channel Points** directly from LioranBoard-Twitch Connections menu.
 
@@ -72,23 +72,23 @@ If you're an extension developer, you will need to rewrite some of your code to 
 ##### Commands Changes
 - added Release Commands - they will execute on button release (only from Stream Deck or Trigger Button command
 - you can disable a command 
-- [sounds](/commands/sounds) are now their own commands 
-- Math: Change variable command was replaced with new [Set Variable](https://lioranboard.ca/docs2/commands/variables) commands
-- added [Mouse and Keyboard](/commands/mouse-kb) commands
-- added [Wait](/commands/wait#introduction) commands - your button can wait until a specific action occurs (such as when your variable changes) before proceeding with the rest of the commands
-- added [Switch Statement](/commands/statements#switchstatement), which is similar to If statement, but works for multiple conditions without having to chain If statements
-- added more [String](https://lioranboard.ca/docs2/commands/string) commands, such as Remove Section, String Hash etc.
-- added [Button Get Own ID command](https://lioranboard.ca/docs2/commands/button#buttongetownid)
-- added more [Twitch commands](/commands/twitch): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
-- added [Trigger Extension Trigger](/commands/trigger#triggerextensiontriggers) command which is the same as triggering an extension from a Transmitter. This way you can pass parameters from one button to another and make it behave similar to functions in programming
-- [Fetch OBS Data](/commands/obs-general#fetchobsdata) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
-- [Comments](/commands/misc#comment) can now contain nested commands, super useful for organizing your commands
+- [sounds]({{ "/commands/sounds" | relative_url }}) are now their own commands 
+- Math: Change variable command was replaced with new [Set Variable]({{ "/commands/variables" | relative_url }}) commands
+- added [Mouse and Keyboard]({{ "/commands/mouse-kb" | relative_url }}) commands
+- added [Wait]({{ "/commands/wait#introduction" | relative_url }}) commands - your button can wait until a specific action occurs (such as when your variable changes) before proceeding with the rest of the commands
+- added [Switch Statement]({{ "/commands/statements#switchstatement" | relative_url }}), which is similar to If statement, but works for multiple conditions without having to chain If statements
+- added more [String]({{ "/commands/string" | relative_url }}) commands, such as Remove Section, String Hash etc.
+- added [Button Get Own ID command]({{ "/commands/button#buttongetownid" | relative_url }})
+- added more [Twitch commands]({{ "/commands/twitch" | relative_url }}): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
+- added [Trigger Extension Trigger]({{ "/commands/trigger#triggerextensiontriggers" | relative_url }}) command which is the same as triggering an extension from a Transmitter. This way you can pass parameters from one button to another and make it behave similar to functions in programming
+- [Fetch OBS Data]({{ "/commands/obs-general#fetchobsdata" | relative_url }}) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
+- [Comments]({{ "/commands/misc#comment" | relative_url }}) can now contain nested commands, super useful for organizing your commands
 - Removed Statement: And and Or commands, you can now add them directly in the If Statement command by pressing the command's **+** button
-- String: Get Trigger Type command is gone, you can get the trigger type from [Trigger Pull Data](/commands/trigger#triggerpulldata) command instead
+- String: Get Trigger Type command is gone, you can get the trigger type from [Trigger Pull Data]({{ "/commands/trigger#triggerpulldata" | relative_url }}) command instead
 - you can check for an undefined variable in an If statement by leaving the compare value empty
-- you can clear all button variables by using [Delete Variable](/commands/variables#deletevariable) and putting your buttonID as the Variable.
-- you can [prompt the user](/commands/wait#waitforuserchoice) for an input in a popup window. The result will be saved in a variable. Useful for making extensions. 
-- still no variables in the delay fields, but you can now use [Wait for Timeout](/commands/wait#waitfortimeout) command to add variable delays between your commands
+- you can clear all button variables by using [Delete Variable]({{ "/commands/variables#deletevariable" | relative_url }}) and putting your buttonID as the Variable.
+- you can [prompt the user]({{ "/commands/wait#waitforuserchoice" | relative_url }}) for an input in a popup window. The result will be saved in a variable. Useful for making extensions. 
+- still no variables in the delay fields, but you can now use [Wait for Timeout]({{ "/commands/wait#waitfortimeout" | relative_url }}) command to add variable delays between your commands
 
 ##### Other Changes
 - LioranBoard can automatically update Receiver, Stream Deck and Transmitter for you when there's a new version available. Just click on Settings-Check for updates.
@@ -106,7 +106,7 @@ If you're an extension developer, you will need to rewrite some of your code to 
 - as an extension maker, you can encrypt your deck and choose which buttons to lock (users will not be able to copy them or open closed command blocks, but they can still modify or delete them).
 
 
-
+ 
 
 
 
