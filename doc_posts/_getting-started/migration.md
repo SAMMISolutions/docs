@@ -73,7 +73,7 @@ If you're an extension developer, you will need to rewrite some of your code to 
 - added [Mouse and Keyboard](/commands/mouse-kb) commands
 - added [Wait](/commands/wait#introduction) commands - your button can wait until a specific action occurs (such as when your variable changes) before proceeding with the rest of the commands
 - added [Switch Statement](/commands/statements#switchstatement), which is similar to If statement, but works for multiple conditions without having to chain If statements
-- added [String](https://lioranboard.ca/docs2/commands/string) commands, such as Remove Section, String Hash and more
+- added more [String](https://lioranboard.ca/docs2/commands/string) commands, such as Remove Section, String Hash etc.
 - added [Button Get Own ID command](https://lioranboard.ca/docs2/commands/button#buttongetownid)
 - added more [Twitch commands](/commands/twitch): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
 - [Fetch OBS Data](/commands/obs-general#fetchobsdata) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
