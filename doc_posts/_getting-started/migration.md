@@ -3,7 +3,7 @@ layout: default
 title: Migrating from LB1
 menu: Getting Started
 num: 5
-permalink: /getting-started/data-backup
+permalink: /getting-started/migrating
 type: fullpage
 ---
 
