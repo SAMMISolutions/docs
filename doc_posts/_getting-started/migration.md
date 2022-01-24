@@ -23,7 +23,7 @@ You can read more about variables in our [Commands-Variables](/commands/variable
 
 ##### Stacks -> Arrays 
 Stacks have been deprecated and replaced with arrays. The functionality is very similar, however the structure of an array is a little bit different from a stack.  
-There is no `bottom` when pulling a value from an array anymore. Use either `top` (for the last item in the array) or `0` ( = first item in the array, which is the original `bottom` in a stack). 
+There is no `bottom` when pulling a value from an array anymore. Use either `top` (= last item in the array) or `0` (= first item in the array, which is the original `bottom` in a stack). 
 If you have stringified stacks saved in ini files from LioranBoard 1, you can easily convert them to arrays by using this automated [Stack to Array tool](/commands/array#convertstackssavedininifilesfromlbtoarraysinlb).
 
 ##### Objects
