@@ -77,10 +77,10 @@ main:
           - name: General
             link: commands/file-general
             collection: commands-file
-          - name: CSV
+          - name: CSV Files
             link: commands/file-csv
             collection: commands-file-csv
-          - name: INI
+          - name: INI Files
             link: commands/file-ini
             collection: commands-file-ini
     - name: Buffers
