@@ -3,7 +3,13 @@ title: "Switch Statement"
 num: 1
 ---
 
-Switch statement is used to select one of many blocks of commands to be executed based on single condition. 
+Switch statement is used to select one of many blocks of commands to be executed based on single condition.   
+
+Add one Switch statement and then nest Case Statement commands inside for each case.   
+
+Use the **+** button in the Case Statement command to add more than one condition to the same Switch Statement.  
+
+Use 'default' as a Case Statement text if you want to execute an action when no other cases meet the conditions.
 
 {% include alert.html text="If you have a lot of different conditions to check for, it is faster and more readable to use Switch Statement instead of multiple nested If Statements." type="info" %} 
 
@@ -12,6 +18,7 @@ Switch statement is used to select one of many blocks of commands to be executed
 | Value| {% include asterisk.html%}	 | Expression to evaluate. Its result will be matched against each case you add.
 {:class='table table-primary' }
 
+1. Add a new Switch Statement command
 1. Decide what expression you want to evaluate.\
 *For example, you would like to check the name of the viewer.*
 2. Add a Case Statement for each choice.\
