@@ -17,7 +17,7 @@ In LioranBoard 2 we have something called **global variables** (these work the s
 
 LioranBoard 1 automatically converts all undefined variables to `0`. In LioranBoard 2 you must **check for undefined variables** (you can do it with an if statement by leaving the value to compared it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables](https://lioranboard.ca/docs2/commands/variables#initvariables) for this reason.   
 
-Variables can now be **white** (for text and /$variables$/, originally marked with * in LioranBoard 1) or yellow boxes (for numbers and direct variables).
+Variables can now be **white** (for text and /$variables$/, originally marked with * in LioranBoard 1) or **yellow** boxes (for numbers and direct variables).
 
 You can read more about variables in our [Commands-Variables](/commands/variables#introduction) section. 
 
