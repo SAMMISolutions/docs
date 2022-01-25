@@ -15,7 +15,7 @@ Changes the visibility of a source.
 |Visible |	Checkbox	|Checked = visible, Unchecked  = not visible
 {:class='table table-primary'}
 
-
+{% include example_public.html src="https://i.imgur.com/FV2rq3Z.png" size="100" title="Toggle source visibility" pastebin="bhbqhRuy" %}  
 
 
 
