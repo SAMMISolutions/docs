@@ -73,6 +73,9 @@ If you're an extension developer, you will need to rewrite some of your code to 
 
 - hooks still work the same, however now you can [listen to these events directly](https://github.com/LioranBoard/LioranBoard-2-Transmitter#listening-to-extension-data-received-from-lioranboard)
 
+##### Extensions
+As stated just above, LioranBoard 1 extensions do not work in LioranBoard 2. Some will have to be updated and others are not needed anymore (like Get Profile Picture extension, as now you can get the pic with the [Get User Info Command]({{ "/commands/twitch#getuserinfo" | relative_url }})
+
 ##### Commands Changes
 - added Release Commands - they will execute on button release (only from Stream Deck or Trigger Button command
 - you can disable a command 
