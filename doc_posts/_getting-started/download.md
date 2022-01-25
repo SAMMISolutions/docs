@@ -9,7 +9,7 @@ type: fullpage
 
 ### LioranBoard
 Latest stable version. Recommended for most users.\
-Comes with LioranBoard Receiver, Transmitter and Stream Deck for PC. You can also download **Stream Deck for Android** from the same download link below.\
+Comes with LioranBoard Receiver, Transmitter and Stream Deck for PC. You can download Android Stream Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).\
 LioranBoard is fully supported on Windows, support for other platforms is coming!\
 You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality at this time.
 
