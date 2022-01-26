@@ -29,7 +29,7 @@ Check this if you wish your Stream Deck to auto reconnect after LioranBoard has 
 Check this if you wish to auto connect each time you open Stream Deck.
 
 ### Android Version
-You can download Stream Deck for Android separately on the LioranBoard [download page](https://github.com/LioranWaters/Lioranboard2Update/blob/main/README.md).
+You can download Stream Deck for Android from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
 
 
 
