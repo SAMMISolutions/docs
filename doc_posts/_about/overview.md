@@ -29,10 +29,10 @@ LioranBoard 2 development started in summer 2021. Lioran recreated it mainly fro
 - LioranBoard 2.0 and Stream Deck: [Lioran](https://twitter.com/FromMyBike_)
 - Transmitter 2: [Lioran](https://twitter.com/FromMyBike_) & [Christina K](https://github.com/christinna9031)
 - Docs (you're reading it now!): [Christina K](https://github.com/christinna9031)
-- Docs Contributors: Cyanidesugar, [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349)
+- Docs Contributors: [Cyanidesugar](https://twitter.com/cyanidesugar_), [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349)
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), Flipstream, [Sebas](https://github.com/SebasF1349) and more!
 - Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Nutty](https://www.youtube.com/channel/UCI5t_ve3cr5a1_3rrmbp6jQ), 
-- Discord mods: [Lioran](https://twitter.com/FromMyBike_), [Christina K](https://github.com/christinna9031), Daryl, [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349), [Silverlink](https://github.com/XSilverlink) and more!
+- Discord mods: [Lioran](https://twitter.com/FromMyBike_), [Christina K](https://github.com/christinna9031), [Cyanidesugar]](https://twitter.com/cyanidesugar_), [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349), [Silverlink](https://github.com/XSilverlink) and more!
 
 **LioranBoard would not be where it is today without you!**
 
