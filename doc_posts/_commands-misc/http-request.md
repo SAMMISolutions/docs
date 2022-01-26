@@ -16,7 +16,7 @@ Extremely easy to use with *Variable Wait* commands.
 |Result Save Variable|String|Variable name to save the result into
 {:class='table table-primary'}
 
-{% include example_public.html src="https://i.imgur.com/ktWyYcu.png" size="100" title="Using HTTP Request to get dad jokes" pastebin="au3VGGCv" %}  
+{% include example_public.html src="https://i.imgur.com/SfekTtI.png" size="100" title="Using HTTP Request to get dad jokes" pastebin="Sk1qXeV8" %}  
 
 
 
