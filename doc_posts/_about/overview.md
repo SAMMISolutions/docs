@@ -18,7 +18,9 @@ The main application (LioranBoard) was developed in 09/2019 in GameMaker Studio 
     </figcaption>
   </figure>
 
-Lioran started adding more features and commands every update, essentially inventing his own programming language and making LioranBoard user friendly and available for everyone to benefit from.
+Lioran started adding more features and commands every update, essentially inventing his own programming language and making LioranBoard user friendly and available for everyone to benefit from.   
+
+
 LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many functions and commands were added that were not possible in GMS 1.
 
 
