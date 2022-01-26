@@ -16,7 +16,7 @@ Similar to async/await in JavaScript. Very useful command to use together with *
 | Timeout| Number {% include asterisk.html%} | The maximum amount of time in milliseconds to wait before unpausing the commands even if the variable doesn't equal the specified value |
 {:class='table table-primary' }
 
-
+{% include example_public.html src="https://i.imgur.com/pS8Ahwf.gif" size="100" title="Using HTTP Request to get dad jokes" pastebin="M9xtJJha" %}
 
 
 
