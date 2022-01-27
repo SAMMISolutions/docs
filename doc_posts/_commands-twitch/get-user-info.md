@@ -34,7 +34,7 @@ You can access the response object fields by using [Get Object Variable]({{ "com
 |created_at|	string|	Date when the user was created.
 {:class='table table-secondary w-auto table-hover' }
 
-
+{% include example_public.html src="https://i.imgur.com/1wykfcB.png" size="100" title="Get a follower's profile picture" pastebin="FcaArEdc" %}  
 
 
 
