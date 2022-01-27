@@ -3,7 +3,7 @@ title: "Variable operators"
 num: 9
 ---
 
-There's a significant difference between [White and Yellow box](/commands/introduction#inputboxes).\
+There's a significant difference between [White and Yellow box](commands/introduction#inputboxes).\
  The following examples show the usage in **yellow boxes**.
 
 | Operator | Description |	Example |

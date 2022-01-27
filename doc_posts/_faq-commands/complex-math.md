@@ -4,7 +4,7 @@ num: 11
 ---
 
 You can execute complex math operations in every parameter box, using a mix of variables and real values.  
-Note that there's a significant difference between [White and Yellow box](/commands/introduction#inputboxes).  
+Note that there's a significant difference between [White and Yellow box](commands/introduction#inputboxes).  
 
 Each time you want LioranBoard to execute any kind of math, you need to wrap the whole sequence in parentheses: `(some math operation)`, for example `(variable+3*5+round(variable2))` or `(variable+10)` (applies for yellow boxes, as you must use `/$$/` in white boxes).  
 
