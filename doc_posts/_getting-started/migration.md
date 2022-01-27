@@ -20,7 +20,7 @@ You can run LioranBoard 1 and LioranBoard 2 **at the same time** without any iss
 ##### Variables
 LioranBoard 1's variables are all global, which means every button can create and access any variable.  
 
-In LioranBoard 2 we have something called **global variables** (these work the same as regular variables in LioranBoard 1), **button variables** and **local variables**. We can also set our buttons to be **persistent** vs. **non peristent**, which means all button variables will be automatically cleared once the button is over.  
+In LioranBoard 2 we have something called **global variables** (these work the same as regular variables in LioranBoard 1), **button variables** and **local variables**. We can also set our buttons to be **persistent** vs. **non persistent**, which means all button variables will be automatically cleared once the button is over.  
 
 LioranBoard 1 automatically converts all undefined variables to `0`. In LioranBoard 2 you must **check for undefined variables** (you can do it with an if statement by leaving the value to compared it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables]({{ "/commands/variables#initvariables" | relative_url }}) for this reason.  
 
