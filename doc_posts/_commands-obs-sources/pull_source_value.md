@@ -25,7 +25,7 @@ Very useful command to use together with Motion commands. For example, you can p
 |Current X/Y Size | Returns current size of the source (applies scaling, crop etc.)) | For example 600
 |Crop Left/Top/Right/Bottom | Returns current crop values of the source | For example 50
 |Rotation | Returns the degree of rotation of the source | 0-360
-|Volume | Returns the volume percentage of the source | 0-100
+|Volume | Returns the volume percentage of the source | 0-1
 |Muted | Returns boolean value whether the source is muted or not | 0 for unmuted and 1 for muted
 |Visible | Returns boolean value whether the source is visible or not | 0 for not visible and 1 for visible
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
