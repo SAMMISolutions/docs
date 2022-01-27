@@ -11,7 +11,7 @@ Changes the volume of a source.
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |Source|	String|	Source name. Select from the menu or type manually. 
-|Volume % {% include asterisk.html%}|	Number|	Percentage to set the volume to, between 0 and 100.
+|Volume % {% include asterisk.html%}|	Number|	Percentage to set the volume to, between 0 and 1.
 {:class='table table-primary'}
 
 
