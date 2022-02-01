@@ -11,7 +11,7 @@ Saves your CSV file to a file path of your choice. The file path has to be the f
 |File Path|String|File path to save to.
 {:class='table table-primary'}
 
-{% include example_public.html src="Save CSV file to default directory" size="100" title="" pastebin="mCDFXQJG" %}  
+{% include example_public.html src="https://i.imgur.com/pqisayY.png" size="100" title="Save CSV file to default category" pastebin="mCDFXQJG" %} 
 
 
 
