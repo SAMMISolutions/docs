@@ -9,7 +9,7 @@ Searches a string for a specified value and replaces it with another specified s
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Variable|	String	|Variable name containing the original string.
+|Variable|	String	|Variable name to save the string.
 |String	|String	|String to look into
 | Replace this|	String|	The value to search for to be replaced
 | With this | String | The value to replace the search value with. Can be empty to completely remove it.
