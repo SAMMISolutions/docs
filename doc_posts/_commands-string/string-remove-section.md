@@ -8,7 +8,7 @@ You need to specify the starting position and amount of characters to remove.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Variable|	String|	Variable name containing the string to clamp
+|Variable|	String|	Variable name to save the clamped string.
 |String| String| String to clamp
 |Start Position|	Int {% include asterisk.html%}|	Where to start the clamp
 |Amount|	Int {% include asterisk.html%}|	Amount of characters to remove
