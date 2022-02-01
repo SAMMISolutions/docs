@@ -7,7 +7,7 @@ Converts a string to uppercase letters.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Variable|	String	|Variable name containing a string to convert to uppercase letters
+|Variable|	String	|Variable name to save the converted string.
 |String| String | String to convert to upper case letters
 {:class='table table-primary' }
 
