@@ -35,5 +35,5 @@ Extension developers can choose to protect their extension decks and their butto
 #### Create an extension
 Lioranboard communicates with all its extensions via transmitter.html and its own websocket.\
 Information about how to make your own extension can be found in `LioranBoard/extension/how to make extensions.txt` file.\
-We encourage you to go over a few premade extensions to understand the process.\
+Knowledge of JavaScript programming and LioranBoard variable handling is a requirement to program extensions.  We encourage you to go over some existing extensions to understand the process.\
 Once you have an extension working, you can submit it in *#development* channel in the official [LioranBoard Discord server](https://discord.gg/dXez8Zh). You will need one of the mods to approve it before it can be officially released. 
