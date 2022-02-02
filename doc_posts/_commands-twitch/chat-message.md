@@ -13,7 +13,7 @@ Whispers might not natively work. Make sure your linked Twitch account contains 
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Message|String | The message to be sent over the chat.|
-|Channel Name |	String	| Channel to send the message to. Leave blank unless you have multiple accounts connected to LB.
+|Channel Name |	String	| Channel to send the message to. Leave blank unless you have multiple accounts connected to LB (all lowercase).
 {:class='table table-primary'}
 
 | Chat Message Example | Description |  
