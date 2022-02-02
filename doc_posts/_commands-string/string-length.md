@@ -8,7 +8,7 @@ Returns the length of a string.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name. |
+| Variable | String | Variable name to save returned value. |
 | String Variable | String | Variable name containing the string. |
 {:class='table table-primary ' }
 
