@@ -8,7 +8,7 @@ Returns the number of occurrences of a character/string within a string. Case se
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name |
+| Variable | String | Variable name to save result. |
 | String | String | String to look at |
 |Count|String or Number|Specify a character or a string you want to count inside the specified string
 {:class='table table-primary ' }
