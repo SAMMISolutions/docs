@@ -25,8 +25,8 @@ If you select **Trigger Type** in the dropdown menu, you can check what kind of 
 |4|Twitch Raid|
 |5|Twitch Bits|
 |6|Twitch Follower|
-|7|Hotkey|
-|8|Timer|
+|7||
+|8||
 |9|OBS Trigger|
 |10|LioranBoard Trigger|
 |11|Twitch Moderation|
