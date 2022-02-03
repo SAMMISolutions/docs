@@ -3,7 +3,7 @@ title: "Edit Reward"
 num: 13
 ---
 
-Updates a Custom Reward created on your channel.
+Updates a Custom Reward created on your channel. This means that the reward must show that it is 'Owned' by LioranBoard in the Twitch Connections > Edit Channel Points window. 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
