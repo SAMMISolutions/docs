@@ -13,7 +13,7 @@ Similar to async/await in JavaScript. Very useful command to use together with *
 | Variable | String | Variable name to wait for |
 | Compare | Dropdown | Compare operator you wish to compare the variable to the value.|
 | Value | Any {% include asterisk.html%} | Whatever value you want to compare the variable to
-| Timeout| Number {% include asterisk.html%} | The maximum amount of time in milliseconds to wait before unpausing the commands even if the variable doesn't equal the specified value |
+| Timeout| Number {% include asterisk.html%} | The maximum amount of time in milliseconds to wait before unpausing the commands even if the variable doesn't equal the specified value (0 will wait forever)|
 {:class='table table-primary' }
 
 {% include example_public.html src="https://i.imgur.com/pS8Ahwf.gif" size="100" title="Modify button when a variable is 0" pastebin="M9xtJJha" %}
