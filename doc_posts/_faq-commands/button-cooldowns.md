@@ -4,7 +4,7 @@ num: 4
 ---
 
 **Adding a cooldown for a single button**\
-Use the [Overtime](commands/misc#overtime) command, which artificially increases the duration of the button and prevents it from getting triggered again.
+Use the [Overtime]({{ "commands/misc#overtime" | relative_url }}) command, which artificially increases the duration of the button and prevents it from getting triggered again.
 
 **Adding a cooldown for a group of buttons**\
 If you want to put a group of buttons on cooldown as soon as one of them is triggered, you can follow these steps: 
