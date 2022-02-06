@@ -9,9 +9,7 @@ permalink: /integrations/youtube
 
 #### Introduction
 
-{% include colored_text.html color="red" text="**CURRENTLY WORK IN PROGRESS**" %}
-
-YouTube Live is a completely new and free LioranBoard integration made by [Christina K](https://github.com/christinna9031?tab=repositories) and later reworked for LioranBoard 2 by Lioran himself.\
+YouTube Live is a completely free LioranBoard integration made by [Christina K](https://github.com/christinna9031?tab=repositories) and reworked for LioranBoard 2 by Lioran himself.\
 It allows you to listen to all chat events, send chat messages, ban users and other commands straight from LioranBoard while streaming on YouTube Live.  
 
 Unlike Twitch, YouTube API is very limited and cannot be freely used without going through a long approval process. It has taken several months for YouTube to approve the integration and provide me with additional quota to be able to release it for everyone.
@@ -20,9 +18,15 @@ Please consider [donating](https://lioranboard.ca/donate) or supporting me on [P
 
 #### Link your account
 
-You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow LioranBoard access to your YouTube Live account and to retrieve your refresh token. Please follow all the instructions in the link provided.
+You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow LioranBoard access to your YouTube Live account and to retrieve your refresh token. 
 
 {% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href='https://lioranboard.ca/docs/integrations/youtube#linkyouraccount'>authorize it</a> again." type="warning" %} 
+
+1. Retrieve your refresh token from the link provided above
+2. In your LioranBoard, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
+3. Press **Link**.
+
+{% include video.html w="75" src="youtube_auth.mp4" alt="YouTube Linking an account" %}
 
 
 #### Quotas
@@ -42,30 +46,14 @@ Find the quota cost table below. YouTube Live API does not provide this informat
 |Get chat messages|  5 units | N/A | Chat messages are polled based on the amount of viewers or whatever YouTube API dictates. They can cost anywhere from 30-150 units/minute.|
 |Send a chat message| 20 units | 23 | Group up your chat messages or show them on screen instead to save your quota.
 |Ban a user |200 units| 2 | This is a very expensive endpoint. It's recommended to ban users manually if you need to go through a lot of names.| 
-|Update broadcast |50 units| 9 | 
-|List Categories| 1 unit | N/A | Categories are retrieved once every streaming session.|
-|Get Channel Stats |1 unit | N/A | Your channel stats are retrieved once every streaming session. |
-|Get Broadcast Stats |1 unit | 1 | Get Broadcast Stats is automatically polled every minute by the integration. Using the LB command does not increase the cost.|
+|Change Status |50 units| 9 | 
+|Channel Stats |1 unit | N/A | Your channel stats are retrieved once every streaming session. |
+|Get Live Stats |1 unit | 1 | Get Broadcast Stats is automatically polled every minute by the integration. Using the LB command does not increase the cost.|
 |Get Subscribers|1 unit | 470 | Checking for new subscribers is done once per minute. Using the `Check Subscriber Status` command will cost you an additional 1 unit.
 |Get Member Info |2 units|235|
 {:class='table table-primary w-auto table-hover data-toggle='table'} 
 
 If you run out of your individual quota, you will get an alert message `You have exceeded your user quota. Slow down!` in LioranBoard and will not be able to listen to new events or use any commands for 1 minute before your quota is replenished. You might need to reload the Transmitter as well. 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #### Terms of Service 
 By using the LioranBoard Youtube Live (“Service) integration created by Christina K. ( “We”, “Us”, “Our" ), you are agreeing to be bound by the following terms and conditions ("Terms of Service").<br/>

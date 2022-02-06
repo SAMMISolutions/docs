@@ -127,6 +127,8 @@ collections:
       output: true
   commands-twitch: 
       output: true
+  commands-youtube: 
+      output: true
   commands-buffer: 
       output: true
   commands-sounds: 

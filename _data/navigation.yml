@@ -72,6 +72,9 @@ main:
     - name: Twitch
       link: commands/twitch
       collection: commands-twitch
+    - name: YouTube
+      link: commands/youtube
+      collection: commands-youtube
     - name: Files
       subitems:
           - name: General
