@@ -5,7 +5,7 @@ num: 6
 
 Retrieves information about a Twitch user. Provide either their username or user ID (leave the other one empty).
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/commands/statements#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs2/commands/statements#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
