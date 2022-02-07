@@ -6,27 +6,17 @@ permalink: integrations/youtube/auth
 
 <div id="authLink">
     <h4> Step 1: Authorize the integration</h4>
-    Please <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=777753337212-ijh2ablbkkcn3tpg2fqoq4ap5cs56bgq.apps.googleusercontent.com&redirect_uri=https://lioranboard.ca/docs/integrations/youtube/auth&response_type=code&scope=https://www.googleapis.com/auth/youtube&access_type=offline&prompt=consent"><button class="ytButton" type="button"></button></a> and authorize LioranBoard to access your YouTube account. Wait until you're redirected back to this page.<br>
-    By authorizing the integration you're agreeing to our <a href="https://lioranboard.ca/docs/integrations/youtube#privacypolicy">Privacy Policy</a>.
+    Please <a href="https://accounts.google.com/o/oauth2/v2/auth?client_id=777753337212-ijh2ablbkkcn3tpg2fqoq4ap5cs56bgq.apps.googleusercontent.com&redirect_uri=https://lioranboard.ca/docs/integrations/youtube/auth&response_type=code&scope=https://www.googleapis.com/auth/youtube&access_type=offline&prompt=consent"><button class="ytButton" type="button"></button></a> and authorize LioranBoard to access your YouTube account (make sure you actually selected your YouTube account). Wait until you're redirected back to this page.<br>
+    By authorizing the integration you're agreeing to our <a href="https://lioranboard.ca/docs2/integrations/youtube#privacypolicy">Privacy Policy</a>.
 
 </div>
 <div id="setRefreshToken" class="my-2">
 <h4> Step 2: Save your refresh token</h4>
-<div id="tokenDiv"><span>Your Refresh token: </span><span id="token"></span></div>
+<div id="tokenDiv"><span>Your Refresh token: </span>
+<input type="password" class="form-control" id="token"> <button class='btn btn-success mx-2 my-2' id='copyCred'>Copy to Clipboard</button></div>
 <div id="tokenError">
 </div>
 <div id="info"><p>
-    <ol>
-    <li>In your Receiver, go to the <strong>YouTube Live premade deck</strong> which was created when you installed the extension. </li>
-    <li>Make sure your Transmitter is running and you can see the YouTube Live tab in your Transmitter.</li>
-    <li>Right click on the red <strong>PARAMS INIT button</strong> - edit commands. </li>
-    <li>Scroll down to <strong>Send to Extension</strong> command and fill out the following field: 
-        <ul>
-        <li><strong>refresh_token</strong> = your refresh token you just obtained</li>
-        </ul>
-    <li>Press <strong>Done and again Done</strong> until you're in the main LioranBoard Receiver menu.</li>
-    <li>Follow the rest of the <a href="https://lioranboard.ca/docs/integrations/youtube/setup#checkyourconnection">instructions</a>.</li>
-   </ol></p>
   </div>
 </div>
 
@@ -60,7 +50,7 @@ function Update(success, response) {
   displayContent('setRefreshToken');
   if (success) {
     hideContent('authLink')
-    document.getElementById('token').innerHTML = `<code>${response.refresh_token}</code> <button class='btn btn-success mx-2 my-2' id='copyCred'>Copy to Clipboard</button><br>`;
+    document.getElementById('token').value = response.refresh_token;
     document.getElementById('copyCred').addEventListener('click', () => {
       CopyToClipboard(response.refresh_token, 'copyCred');
     });
