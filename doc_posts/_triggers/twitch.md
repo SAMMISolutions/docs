@@ -55,7 +55,7 @@ Message | Chat message to listen to. Must be an exact match. Can include **[Wild
 <hr>
 
 ##### Whispers
-Triggers for any new received whisper messages. Must use [Twitch Open Whispers](/commands/twitch#openwhispers) command to enable whisper messages.
+Triggers for any new received whisper messages. Must use [Twitch Open Whispers]({{ "commands/twitch#openwhispers" | relative_url }}) command to enable whisper messages.
 
 | Condition | Explanation | 
 |-------|--------|
