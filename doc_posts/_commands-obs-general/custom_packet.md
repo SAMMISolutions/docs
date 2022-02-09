@@ -8,7 +8,7 @@ All the possible requests are documented in [OBS websocket protocol reference](h
 If the value you're requesting is inside an object, you have to provide the whole object. For example, to set the scale for a scene item in `SetSceneItemProperties` request, you need to do: `"scale":{"x":NEW SCALE X, "y":NEW SCALE Y }`, just `scale.x : NEW SCALE X` is not gonna work as it's not a valid JSON format.\
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
 
-{% include alert.html text="This command doesn't return anything, so requests like GetSourceSettings doesn't work. Use [Fetch OBS Data]({{ "commands/obs-general#fetchobsdata" | relative_url }}) to do that." type="warning" %} 
+{% include alert.html text="This command doesn't return anything, so requests like GetSourceSettings doesn't work. Use <a href='#fetchobsdata'>Fetch OBS Data</a> to do that." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
