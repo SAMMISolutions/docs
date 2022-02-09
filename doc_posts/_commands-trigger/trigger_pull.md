@@ -31,6 +31,8 @@ If you select **Trigger Type** in the dropdown menu, you can check what kind of 
 |10|LioranBoard Trigger|
 |11|Twitch Moderation|
 |12|Extension Trigger|
+|13|Twitch Whispers|
+|14|Twitch Host|
 {:class='table table-secondary w-auto table-hover text-break' }
 
 
