@@ -37,7 +37,7 @@ You can select a key and attach a modifier (or multiple modifier).
 ##### Repeat Interval
 Repeat interval allows you to continously trigger a button on a timer.\
 **Repeat interval is started as soon as LioranBoard starts up (or resets) and cannot be freely enabled or disabled with a command.**\
-You can use **[Block Button/Group](/commands/button#blockbuttongroup)** command to block a button on a timer from executing.
+You can use **[Block Button/Group]({{ "commands/button#blockbuttongroup" | relative_url }})** command to block a button on a timer from executing.
 
 | Condition | Explanation | 
 |-------|--------|
@@ -75,4 +75,4 @@ These triggers allows you to listen to LioranBoard state and connection changes.
 
 ##### Extension Trigger
 
-Extension triggers can come from Transmitter extensions or from [Trigger Extension Trigger](/commands/trigger#triggerextensiontriggers) command.
+Extension triggers can come from Transmitter extensions or from [Trigger Extension Trigger]({{ "commands/trigger#triggerextensiontriggers" | relative_url }}) command.
