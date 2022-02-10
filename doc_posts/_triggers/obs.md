@@ -19,5 +19,5 @@ LioranBoard can listen to all OBS events provided by OBS Websocket.
 #### Retrieve OBS trigger event values
 1. In your button commands, use [Trigger Pull Data]({{ "commands/trigger#triggerpulldata" | relative_url }}) command with an **empty pull value** to retrieve the whole object with all the provided data from OBS Websocket.
 2. Find the specified event in the [OBS Websocket documentation](https://github.com/obsproject/obs-websocket/blob/4.x-current/docs/generated/protocol.md#events) and check its response items. 
-3. Use **[Get Object Variable](/commands/object#setobjectvariable)** command to retrieve the specific response item provided by OBS Websocket.
+3. Use **[Get Object Variable]({{ "commands/object#setobjectvariable" | relative_url }})** command to retrieve the specific response item provided by OBS Websocket.
 
