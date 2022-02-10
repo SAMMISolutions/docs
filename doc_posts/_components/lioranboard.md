@@ -11,7 +11,7 @@ LioranBoard is the main component. You can change all the settings, add and modi
 
 {% include image.html w="auto" src="lioranboard.png" alt="LioranBoard" %}
 
-{% include alert.html text="LioranBOard is only an editor. Use Stream Deck to press your buttons." type="warning" %} 
+{% include alert.html text="LioranBoard is only an editor. Use Stream Deck to press your buttons." type="warning" %} 
 
 ### Deck Menu 
 - Edit Deck - allows you to edit currently selected deck, same as double clicking on the deck
@@ -23,7 +23,7 @@ LioranBoard is the main component. You can change all the settings, add and modi
 
 ### Stream Deck 
 {% include image.html w="75" src="lb-streamdeck.png" alt="Stream Deck Icon" %}
-Press the button to open your [Stream Deck](components/streamdeck), that allows you to press buttons in your decks.
+Press the button to open your [Stream Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
 
 ### Transmitter
 {% include image.html w="auto" src="transmitter_lb.png" alt="Transmitter settings" %}
@@ -58,7 +58,7 @@ Allows you to set up your OBS connection. Multiple connections and multiple OBSW
 
 {% include image.html w="50" src="lb-obs-settings.png" alt="OBS Connections" %}
 
-Learn more about setting up an OBS connection in our [Integrations-OBS](/integrations/obs) section.
+Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
 Allows you to connect LioranBoard to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
