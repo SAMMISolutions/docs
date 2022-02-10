@@ -68,7 +68,7 @@ Note that you only need to do this once, as your Transmitter will remember the p
 
 In your Transmitter you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to LioranBoard. This means it is connected to your LioranBoard and listening for messages. 
 
-#### 6. Link your Twitch account
+#### 7. Link your Twitch account
 
 Linking your Twitch account to LioranBoard is a necessary step if you want to be able to listen to alerts and control your Twitch via LioranBoard.\
 *You can link multiple Twitch accounts, however in this tutorial we will focus on connecting your main account.*
