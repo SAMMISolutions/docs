@@ -3,9 +3,9 @@ title: "Get Poll/Prediction Result"
 num: 16.6
 ---
 
-Gets the result of a poll or prediction. Must provide its ID which can be retrieved by listening to Twitch Poll/Prediction triggers or from [Get Latest Poll/Prediction ID]({{ "#Get Latest Poll/Prediction ID" | strip }}) command.
+Gets the result of a poll or prediction. Must provide its ID which can be retrieved by listening to Twitch Poll/Prediction triggers or from [Get Latest Poll/Prediction ID]({{ "#getlatestpollpredictionid" | strip }}) command.
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/commands/statements#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs2/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
