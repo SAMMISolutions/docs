@@ -37,7 +37,7 @@ Read more about JSON syntax at [w3schools.com](https://www.w3schools.com/js/js_j
                </code>
             </span>
          </td>
-         <td><img src="/assets/images/commands-object/object-parse2.png" class="img-fluid rounded w-100" alt="Parsed JSON string"></td>
+         <td><img src="/docs2/assets/images/commands-object/object-parse2.png" class="img-fluid rounded w-100" alt="Parsed JSON string"></td>
       </tr>
       <tr>
          <td>
@@ -62,7 +62,7 @@ Read more about JSON syntax at [w3schools.com](https://www.w3schools.com/js/js_j
          </td>
          <td>
             <span class="embed-responsive mb-3">
-               <video onclick="this.paused ? this.play() : this.pause()" controls="true" class="embed-responsive-item video" width="100%" src="/assets/videos/commands-object/object-parse.mp4" title="Parsed JSON string" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></video>
+               <video onclick="this.paused ? this.play() : this.pause()" controls="true" class="embed-responsive-item video" width="100%" src="/docs2/assets/videos/commands-object/object-parse.mp4" title="Parsed JSON string" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></video>
             </span>
          </td>
       </tr>
