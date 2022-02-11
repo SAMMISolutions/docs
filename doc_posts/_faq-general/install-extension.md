@@ -7,7 +7,7 @@ Extensions are meant to add new functionality to LioranBoard. They're made by th
 
 {% include alert.html text="Some extensions live in your Transmitter. Your Transmitter must be running for them to work." type="warning" %} 
 
-**We recommend installing only [officially released extensions]() that have been verified to be safe to use.**
+**We recommend installing only [officially released extensions](/extensions) that have been verified to be safe to use.**
 
 #### Install an extension:
 
