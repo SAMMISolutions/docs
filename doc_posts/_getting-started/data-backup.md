@@ -7,5 +7,5 @@ permalink: /getting-started/data-backup
 type: fullpage
 ---
 
-To do.
+You do this.
 
