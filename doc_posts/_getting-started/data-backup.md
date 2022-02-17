@@ -8,7 +8,7 @@ type: fullpage
 ---
 
 #### Auto Update LioranBoard
-LioranBoard 2 comes with an auto-updater that allows you to update or verify the Receiver, Stream Deck and Transmitter. While LioranBoard is running, right-click on the LioranBoard 2 icon in your taskbar and select 'Check for Updates'. 
+LioranBoard 2 comes with an auto-updater that allows you to update or verify the Receiver, Stream Deck and Transmitter. While LioranBoard is running, right-click on the LioranBoard 2 icon in your system tray and select 'Check for Updates'. 
 
 If there are updates available, you will be able to update or verify the LioranBoard 2 components to make sure you are on the latest version. 
 
