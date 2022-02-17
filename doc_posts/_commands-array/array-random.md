@@ -17,7 +17,7 @@ The randomization will happen with an equal chance for each value.
 | Variable (position) |	String (optional) |	You can enter another variable name if you wish to get the index(position) of the random value in the array
 {:class='table table-primary'}
 
-{% include example_public.html src="https://i.imgur.com/j8KycqT.png" w="100" btn="1" alt="Getting random array value based on different chances" pastebin="nR5kphiF"  %} 
+{% include example_public.html src="https://i.imgur.com/j8KycqT.png" size="100" title="Getting random array value based on different chances" pastebin="nR5kphiF" %} 
 
 
 
