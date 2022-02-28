@@ -9,5 +9,5 @@ Temporarily changes volume of your currently playing sound effect. Provide its I
 |-------|--------|--------|
 |Sound ID|String|Sound Effect ID
 |Volume|Number {% include asterisk.html%}|Volume % to change to
-|Duration (ms)|Number|{% include asterisk.html%}| For how long to change the volume until it returns to the default volume
+|Duration (ms)|Number|{% include asterisk.html%}| How long the command will take to change the volume (0 is instant)
 {:class='table table-primary' }
