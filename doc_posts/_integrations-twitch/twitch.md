@@ -57,7 +57,7 @@ LioranBoard will automatically listen to all selected events and chat (if Join C
 {% include alert.html text="LioranBoard doesn't have a way to tell where your Twitch triggers come from, be it your main or one of your alternate accounts." type="warning" %} 
 
 **Remember to specify channel name when using Twitch: Chat message command**\
-If you've linked more than more Twitch account to your LioranBoard, you must specify the channel name in your [Twitch: Send Message]({{ "commands/twitch#sendchatmessage" | relative_url }}) command. Otherwise the message will be sent to your primary LioranBoard account's channel (the one with `Join chat under this name` selected).
+If you've linked more than more Twitch account to your LioranBoard, you must specify the channel name in your [Twitch: Send Message]({{ "commands/twitch#sendchatmessage" | relative_url }}) command. Otherwise the message will be sent to your primary LioranBoard account's channel (the one with `Join chat under this name` selected). NOTE: The channel name must be in all lowercase. Otherwise the message will not appear in chat until user refreshes their chat.
 
 #### Listen to Twitch Events
 
