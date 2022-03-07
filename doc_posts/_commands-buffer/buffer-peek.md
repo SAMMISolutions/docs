@@ -1,5 +1,5 @@
 ---
-title: "Buffer Peak"
+title: "Buffer Peek"
 num: 3
 ---
 
