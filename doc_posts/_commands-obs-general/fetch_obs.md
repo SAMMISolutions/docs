@@ -26,10 +26,10 @@ Turn to real|	boolean|	Whether you expect a real value (=number) or a string.
 
 |Object Snippet (if present)|What to retrieve|OBS Command|Fetch Value|
 |-------|--------|--------|--------|
-|<code class="user-select-all">"stats":{"cpu-usage":0.75013036185501325,...}</code>|current CPU usage| {"request-type":"GetStats"} | stats.cpu-usage|
+|<code class="user-select-all">"stats":{"cpu-usage":0.75013036185501325,...}</code>|current CPU usage| `{"request-type":"GetStats"}` | stats.cpu-usage|
 |N/A|Time elapsed since streaming started |<code class="user-select-all">{"request-type":"GetStreamingStatus"}</code>|stream-timecode|
-|N/A|Current width of a source|<code class="user-select-all">{"scene-name":"YOURSCENENAME","item":"YOURSOURCENAME","request-type":"GetSceneItemProperties"}</code>|width|
-|<code class="user-select-all">"crop":{"left":0,...}</code>|Current left crop of a source|<code class="user-select-all">{"scene-name":"YOURSCENENAME","item":"YOURSOURCENAME","request-type":"GetSceneItemProperties"}</code>|crop.left|
+|N/A|Current width of a source|<code class="user-select-all">{"request-type":"GetSceneItemProperties","scene-name":"YOURSCENENAME","item":"YOURSOURCENAME"}</code>|width|
+|<code class="user-select-all">"crop":{"left":0,...}</code>|Current left crop of a source|<code class="user-select-all">{"request-type":"GetSceneItemProperties""scene-name":"YOURSCENENAME","item":"YOURSOURCENAME"}</code>|crop.left|
 |N/A|Current text in a GDI source|<code class="user-select-all">{"request-type":"GetTextGDIPlusProperties","source":"YOURSOURCENAME"}</code>|text|
 |<code class="user-select-all">"settings":{"brightness":-0.5,...}</code> |Color Correction Brightness Value|<code class="user-select-all">{"request-type":"GetSourceFilterInfo","sourceName":"YOURSOURCENAME","filterName":"Color Correction"}</code>|settings.brightness|
 |<code class="user-select-all">"sceneItems":["sourceName":"Browser",...},{"sourceName":"Text GDI",...}]</code>|First source name in a specified scene|<code class="user-select-all">{"request-type":"GetSceneItemList","sceneName":"YOURSCENENAME"}</code>|sceneItems[0].sourceName|

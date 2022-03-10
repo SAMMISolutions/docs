@@ -36,7 +36,7 @@ For example, you want your user to type a color in your chat. Instead of creatin
 
 A wild card <i class="fas fa-star-of-life fa-sm"></i> refers to a character that can be substituted for zero or more characters in a string. They are used to search for partial matches instead of exact ones.\
 Wild cards can be used for **Twitch Chat**, **Twitch Whispers**, **Twitch Channel Points Messages** and **Extension** triggers.\
-You can pull their value by using the [Pull Wildcard](/commands/trigger#pullwildcard) command.
+You can pull their value by using the [Pull Wildcard]({{ "commands/trigger#pullwildcard" | relative_url }}) command.
 
 **Wild Card Rules:**
 - They need to match exactly, including the position in the text and spaces
@@ -59,6 +59,6 @@ If you want to allow a single word for your trigger, no matter where it is place
 Please note this assumes there's a space before and after `word`.
 
 Want to capture only a single word after a specific keyword and ignore the rest of the text? Use these two triggers: `keyword * *` and `keyword *` (order matters!).\
-Now if you make your [Pull Wildcard](/commands/trigger#pullwildcard) command pull the first (0) wildcard, it will always pull whatever word comes after `keyword` and ignore any additional text afterwards.
+Now if you make your [Pull Wildcard]({{ "commands/trigger#pullwildcard" | relative_url }}) command pull the first (0) wildcard, it will always pull whatever word comes after `keyword` and ignore any additional text afterwards.
 
 {% include alert.html text='A single <i class="fas fa-star-of-life fa-sm"></i> in your Channel Points Message Trigger field allows for any message to trigger your button, but does not function as an actual wild card. Use <b>Trigger Pull Data</b> command to pull the whole message.' type="warning" %} 

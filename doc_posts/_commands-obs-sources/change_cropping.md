@@ -5,7 +5,7 @@ num: 7
 
 Changes the crop settings of a source.
 
-{% include alert.html text="Use <a href=''>Motion: Change Cropping</a> command instead to change the cropping gradually." type="info" %} 
+{% include alert.html text="Use <a href='/docs2/commands/obs-motion#motionchangecropping'>Motion: Change Cropping</a> command instead to change the cropping gradually." type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

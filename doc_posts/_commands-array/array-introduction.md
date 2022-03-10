@@ -23,7 +23,7 @@ Array position (also called index) can contain other variables or complex math, 
 Some command boxes allow you to use not only position, but also **top** for retrieving and manipulating values in an array. Selecting **top** will target a value at the END of an array (last index). **0** will target a value at the BEGINNING of an array (index of 0).  
 
 
-Array is cleared every time you close or reset Receiver. If you wish to save it, you can use [Array Stringify]({{ "commands/array#arraystringify" | relative_url }}) and [File: Save String]({{ "commands/file#filesavestring" | relative_url }}) commands.
+Array is cleared every time you close or reset Receiver. If you wish to save it, you can use [Array Stringify]({{ "commands/array#arraystringify" | relative_url }}) and [File: Save String]({{ "commands/file-ini#filesavetext" | relative_url }}) commands.
 
 #### Convert stacks saved in .ini files from LB1 to arrays in LB2
 If you're using the same .ini files from LioranBoard 1, you will notice that your stringified stacks don't get properly parsed when loaded back into LioranBoard 2 (they end up being objects instead of arrays).  
