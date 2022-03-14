@@ -30,11 +30,11 @@ If you uncheck the box, the variables will be accessible only when the button is
 If you right click on a button, you can edit its INIT variables.\
 These exist to prevent crashes if you have enabled persistent variables.\
 The window uses a simple JSON format to initialize your variables.\
-For example, if you want your variable `name` to have a value of `LioranBoard` and your variable `number` to have a value of 5 on initilization, you can do:
+For example, if you want your variable `name` to have a value of `LioranBoard` and your variable `age` to have a value of 18 on initilization, you can do:
 ```
 {
-	"name": "Lioran",
-	"number": 5,
+	"name": "LioranBoard",
+	"age": 18,
 }
 ```
 
