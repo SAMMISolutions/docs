@@ -11,7 +11,7 @@ Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to lear
 | Box Name | Type | Description | 
 |-------|--------|--------|
 |Variable | String | Variable name to save the pulled value into. |
-|Pull Value|Dropdown| Value you wish to pull from the trigger.
+|Pull Value|Dropdown| Value you wish to pull from the trigger. Click on the hamburguer icon on the right to choose the correct value.
 {:class='table table-primary' }
 
 If you select **Trigger Type** in the dropdown menu, you can check what kind of event triggered the button (this replaces String: Get Trigger Type command from LB1). It will return a different numerical value for each type.
