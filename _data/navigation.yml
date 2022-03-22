@@ -113,6 +113,9 @@ main:
       collection: faq-commands
 - name: Troubleshooting
   submenus: 
+    - name: Buttons & Commands
+      link: troubleshooting/buttons
+      collection: troubleshooting-buttons
     - name: Common Issues
       link: troubleshooting/common
       collection: troubleshooting-common
@@ -124,4 +127,3 @@ main:
       collection: troubleshooting-bugs
 - name: About
   collection: about
-

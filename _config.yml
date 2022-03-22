@@ -99,6 +99,8 @@ collections:
       output: true  
   troubleshooting-bugs:
       output: true 
+  troubleshooting-buttons:
+      output: true 
   commands-introduction: 
       output: true  
   commands-variable: 
