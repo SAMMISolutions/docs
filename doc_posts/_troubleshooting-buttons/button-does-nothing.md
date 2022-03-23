@@ -26,6 +26,7 @@ Your button not triggering at all could have three causes: either your button tr
 |Chat | Make sure you’re typing the exact same trigger in chat. If your trigger is “!command”, then typing “!command hello” will not work. You would have to use a [wildcard]({{ "triggers/introduction#wildcards" | relative_url }}) for that. |
 |Channel Points | Make sure the ‘User Input Required’ checkbox matches with the setting on Twitch. |
 |Gift Subscription | Twitch sends two events when someone gifts multiple subs (aka ‘community gifts’). If you want to receive a single trigger when someone gifts 5 subs, add a Twitch Community Gift Subs trigger. If you want to receive 5 triggers when someone gifts 5 subs, add a Twitch Subscription trigger and allow community gifts. |
+{:class='table table-primary'}
 
 *Check whether LioranBoard is receiving the trigger*
 
@@ -39,6 +40,7 @@ Your button not triggering at all could have three causes: either your button tr
 |-------|--------|
 |Channel Points | If you see a yellow message about ‘scopes’ in the receiver when redeeming, go to Twitch Connections → Edit Scopes and add the required scopes. You will need to relink your Twitch account after doing so. |
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
+{:class='table table-primary' }
 
 {% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and Liraonboard" type="image" external="true" %}
 
