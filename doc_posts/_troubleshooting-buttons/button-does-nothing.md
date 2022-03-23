@@ -42,7 +42,7 @@ Your button not triggering at all could have three causes: either your button tr
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
 {:class='table table-primary' }
 
-{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and Liraonboard" type="image" external="true" %}
+{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and Lioranboard" type="image" external="true" %}
 
 *Check whether the button is being blocked*
 
