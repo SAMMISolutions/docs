@@ -2,7 +2,10 @@
 title: "Fetch OBS Data"
 num: 1
 ---
-Allows you to request data from OBS websocket and save it in a variable.\
+Allows you to request data from OBS websocket and save it in a variable.
+
+This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow the data to be sent to LioranBoard.
+
 All the possible requests are documented in [OBS websocket protocol reference](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md).\
 The requested value will not be saved immediately, you must give you other commands a delay of 100-500ms to process the request.  
 
