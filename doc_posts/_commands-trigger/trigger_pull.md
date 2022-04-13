@@ -16,6 +16,8 @@ Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to lear
 
 If you select **Trigger Type** in the dropdown menu, you can check what kind of event triggered the button (this replaces String: Get Trigger Type command from LB1). It will return a different numerical value for each type.
 
+There is also an array that lists all Trigger Types in the Global Variables section of the Variable Viewer in LioranBoard.
+
 | Numerical Value | Trigger Type | 
 |-------|--------|--------
 |0|Twitch Chat|
