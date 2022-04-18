@@ -25,7 +25,7 @@ We recommend selecting **64bits release**.
 
 Unpack the zip file and place the folder anywhere in your computer, preferably in your non windows drive.
 
-{% include alert.html text="Do not place lioranboard folder in your Program files, as it sometimes can cause issues." type="danger" %} 
+{% include alert.html text="Do not place lioranboard folder in your Program Files or any network drives (Google Drive, OneDrive, Dropbox), as it sometimes can cause issues." type="danger" %} 
 
 #### 3. Launch LioranBoard
 
