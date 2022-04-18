@@ -10,7 +10,9 @@ type: fullpage
 LioranBoard communicates with OBS via OBS Websocket (OBSWS), which allows you to remotely control and listen to OBS Studio events. 
 
 #### Install OBS Websocket
-We recommend installing the latest 4.9.X version. Please note that the upcoming OBS Websocket 5.0 and above is not compatible with LioranBoard. 
+We recommend installing the latest 4.9.1 version. 
+
+{% include alert.html text="While LioranBoard can connect to OBSWS 5.0 now, it's generally discouraged to be using it unless it's for testing and developing purposes. Some extensions are NOT compatible and will need to be migrated." type="warning" %} 
 
 <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
 
