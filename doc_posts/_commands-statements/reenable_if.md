@@ -6,6 +6,8 @@ num: 4
 Commands inside the Re-enable block will be repeated for X number of times with X milliseconds of delay between each repeat.\
 You can use Break command to break (stop) the loop if certain conditions are met.\
 You can create some really cool effects with this command.
+
+Delays that are entered into the `Delay` field for commands within a Re-enable block will only work on the first loop. Delays will not work on any subsequent loops.
   
 | Box Name | Type | Description | 
 |-------|--------|--------|
