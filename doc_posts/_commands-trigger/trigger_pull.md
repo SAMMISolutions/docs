@@ -28,7 +28,7 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |5|Twitch Bits|
 |6|Twitch Follower|
 |7|Hotkey|
-|8||
+|8|Interval Trigger|
 |9|OBS Trigger|
 |10|LioranBoard Trigger|
 |11|Twitch Moderation|
