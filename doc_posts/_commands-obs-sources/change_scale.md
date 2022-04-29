@@ -6,6 +6,8 @@ Changes the size of a source.\
 Use negative values for a horizontal (mirror) or vertical source flip.\
 The way the source resized is based on source's positional alignment in OBS (source-Transform-Edit Transform).
 
+The scale factor is relative to a percentage. For example, setting a source to a factor of 2, means it will scale up by 200%.
+
 {% include alert.html text="Use Source Motion: Scale command instead to change the size gradually." type="info" %} 
 
 | Box Name | Type | Description | 
