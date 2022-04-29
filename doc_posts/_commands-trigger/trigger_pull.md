@@ -35,6 +35,18 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |12|Extension Trigger|
 |13|Twitch Whispers|
 |14|Twitch Host|
+|15|Twitch Prediction|
+|16|Twitch Poll|
+|17|Twitch Hype Train|
+|18|Youtube Chat|
+|19|Youtube Subscriber|
+|20|Youtube Superchat|
+|21|Youtube Superchat|
+|22|Youtube Supersticker|
+|23|Youtube Member|
+|24|Stream Deck Button Press|
+|25|Trigger Button|
+|26|Trigger Button with Delay|
 {:class='table table-secondary w-auto table-hover text-break' }
 
 
