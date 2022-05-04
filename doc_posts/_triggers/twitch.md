@@ -99,6 +99,8 @@ Triggers for all new channel followers.
 ##### Subscription 
 Listens to all new subscribers in your channel. 
 
+{% include alert.html text="This trigger will send individual alerts for gifted subs. If you receive 5 gifted subs, 5 individual alerts will be sent by this trigger. If you want one single alert for gifted subs, see Community Gift Subs below." type="warning" %} 
+
 | Condition | Explanation | 
 |-------|--------|
 | Tier 1 | Triggers for tier 1 subscriptions. |
@@ -130,7 +132,9 @@ Listens to all new subscribers in your channel.
 <hr>
 
 ##### Community Gift Subs
-Trigers for all community gift subscriptions. 
+Triggers for all community gift subscriptions. 
+
+{% include alert.html text="This will not send the names of who the subs were gifted to. If you want to retrieve all the names of the gifted subs, you need to also use Subscriber trigger" type="warning" %} 
 
 | Condition | Explanation | 
 |-------|--------|
@@ -140,8 +144,6 @@ Trigers for all community gift subscriptions.
 | Minimum | Specify the minimum amount of gifted subs to trigger the button. |
 | Maximum | Specify the maximum amount of gifted subscribers to trigger the button.
 {:class='table table-primary' }
-
-{% include alert.html text="If you want to retrieve all the names of the gifted subs, you need to also use Subscriber trigger" type="warning" %} 
 
 | Pull Data Value | Explanation | 
 |-------|--------|
@@ -194,7 +196,7 @@ Listens to all raid events in your stream.
 <hr>
 
 ##### Host
-Listens to all host events in your stream. 
+Listens to all host events in your stream. Twitch does not send alerts for host events with less than three viewers. 
 
 | Condition | Explanation | 
 |-------|--------|
@@ -211,7 +213,9 @@ Listens to all host events in your stream.
 <hr>
 
 ##### Channel Points
-Listens to all custom channel points redeems.
+Listens to all custom channel points redeems. 
+
+In order for LioranBoard to listen to Channel Point triggers, make sure the scope to listen to Channel Points has been enabled in LioranBoard. Twitch and the Transmitter also has to be connected. 
 
 | Condition | Explanation | 
 |-------|--------|
@@ -298,7 +302,7 @@ Triggers for all new hype train events.
 <hr>
 
 ##### Moderation
-Triggers for any of the selected moderation events.
+Triggers for any of the selected moderation events. Due to some back-end changes from Twitch, listening to some moderation events currently do not work. 
 
 | Condition | Explanation | 
 |-------|--------|
