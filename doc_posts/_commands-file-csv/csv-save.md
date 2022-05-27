@@ -7,6 +7,8 @@ Saves your CSV file to a file path of your choice. The file path has to be the f
 
 When a CSV file is saved, an extra row appears at the bottom of the file that is used to save your default values. Modifying this extra row in another program may result in your default values not being read properly by LioranBoard. 
 
+Note that the file path uses a forward slash instead of the Windows default back slash.
+
 | Box Name | Type | Description | 
 |-------|--------|--------
 |CSV Name|String|Name of your CSV.
