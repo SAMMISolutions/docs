@@ -41,12 +41,11 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |18|Youtube Chat|
 |19|Youtube Subscriber|
 |20|Youtube Superchat|
-|21|Youtube Superchat|
-|22|Youtube Supersticker|
-|23|Youtube Member|
-|24|Stream Deck Button Press|
-|25|Trigger Button|
-|26|Trigger Button with Delay|
+|21|Youtube Supersticker|
+|22|Youtube Member|
+|23|Stream Deck Button Press|
+|24|Trigger Button|
+|25|Trigger Button with Delay|
 {:class='table table-secondary w-auto table-hover text-break' }
 
 
