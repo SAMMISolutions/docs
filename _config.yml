@@ -67,8 +67,8 @@ defaults:
 sass:
     sass_dir: _sass
 algolia:
-    application_id: BH4D9OD16A
-    index_name:  docs # You can replace that with whatever name you want
+  application_id: 'I48YE43FLX'
+  index_name: 'lioranboard'
 collections_dir: doc_posts
 collections:
   getting-started:
