@@ -9,4 +9,4 @@ Praying Mantis\
 Goliaths\
 Ants\
 Centipedes\
-Beetles\
+Beetles
