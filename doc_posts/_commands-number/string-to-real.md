@@ -1,6 +1,6 @@
 ---
 title: "String to Number"
-num: 7.6
+num: 5
 ---
 
 Turns a string value into a real value (number).     

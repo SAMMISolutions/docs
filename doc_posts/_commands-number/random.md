@@ -1,6 +1,6 @@
 ---
 title: "Random"
-num: 4
+num: 2
 ---
 
 Returns a variable with a random value (number) between minimum and maximum possible value.\

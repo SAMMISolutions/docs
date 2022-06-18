@@ -1,6 +1,6 @@
 ---
 title: "Swap Red & Blue"
-num: 8
+num: 6
 ---
 
 Swaps red and blue value for a color in HEX/DEC format and returns its DEC value. Useful for converting HTML colors to LioranBoard or OBS colors (as they use BGR instead of RGB).

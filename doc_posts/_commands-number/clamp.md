@@ -1,6 +1,6 @@
 ---
 title: "Clamp"
-num: 3
+num: 1
 ---
 
 Clamps a variable between two values. Intended to use on real values (numbers) only.

@@ -1,6 +1,6 @@
 ---
 title: "Hex to Number"
-num: 7
+num: 3
 ---
 
 Converts a hexadecimal string into a real (decimal) number. 
