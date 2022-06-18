@@ -21,18 +21,31 @@ The main application (LioranBoard) was developed in 09/2019 in GameMaker Studio 
 Lioran started adding more features and commands every update, essentially inventing his own programming language and making LioranBoard user friendly and available for everyone to benefit from.   
 
 
-LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many functions and commands were added that were not possible in GMS 1.
+LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many new features and commands were added. 
 
+Starting June 2022, LioranBoard 2 Dev team is building upon the original code by Lioran. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
 
-**Ever since we've had a lot of great contributors putting lots of free time into maintaning and growing LioranBoard:**
+**LioranBoard 2 Dev Team** (in no particular order)
 
-- LioranBoard 2.0 and Stream Deck: [Lioran](https://twitter.com/FromMyBike_)
-- Transmitter 2: [Lioran](https://twitter.com/FromMyBike_) & [Christina K](https://github.com/christinna9031)
+- [Christinna](https://twitter.com/christina_kral)
+- [RoadieGamer](https://twitter.com/roadiegamer)
+- [wolbee](https://twitter.com/justwolb)
+- [cyanidesugar](https://twitter.com/cyanidesugar_)
+- [Sebas](https://github.com/SebasF1349) 
+- [Silverlink](https://github.com/XSilverlink)
+
+You can read more about our team members and support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
+
+**Current Contributors**
+
+- LioranBoard Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
+- LioranBoard Stream Deck: Lioran
+- Transmitter 2: [Christina K](https://github.com/christinna9031)
 - LioranBoard.ca website: [Christina K](https://github.com/christinna9031)
-- Docs Contributors: [Cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349)
-- Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), Flipstream, [Sebas](https://github.com/SebasF1349) and more!
-- Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Nutty](https://www.youtube.com/channel/UCI5t_ve3cr5a1_3rrmbp6jQ), 
-- Discord mods: [Lioran](https://twitter.com/FromMyBike_), [Christina K](https://github.com/christinna9031), [Cyanidesugar](https://twitter.com/cyanidesugar_), [Melonax](https://twitter.com/melonaxx), [Sebas](https://github.com/SebasF1349), [Silverlink](https://github.com/XSilverlink) and more!
+- Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
+- Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
+- Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Falinere](https://www.youtube.com/channel/UCDf53fZZjoMIq-T0yOxEAIA), [MisterK](https://www.youtube.com/user/Kamelot781), [wolbee](https://www.youtube.com/c/wolbee) and more!
+- Discord moderators: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true), [MisterK](https://www.youtube.com/user/Kamelot781), [Chrizzz](https://github.com/Chrizzz-1508), [Mr. Rubber Ducky](https://twitter.com/OGMrRubberDucky), LBot
 
 **LioranBoard would not be where it is today without you!**
 
