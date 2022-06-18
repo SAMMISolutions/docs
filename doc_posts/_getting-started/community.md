@@ -26,9 +26,9 @@ Written purely in `markdown`, *yay*!
 
 ## Where to get support
 If you're looking for support for LioranBoard, you have these options: 
-1. Read this documentation. You can use the search function to find any relevant topics for your question. 
-2. Become a member of our [subreddit](http://reddit.com/r/lioranboard). It's still pretty new, help us get it going! 
-3. Join the official [LioranBoard Discord server](https://discord.gg/dXez8Zh). The latest news are always posted in the #announcements channel. 
+1. Read this documentation. You can use the search bar to find any relevant topics for your question. 
+2. Join the official [LioranBoard Discord server](https://discord.gg/dXez8Zh). We've got lots of very knowledgeable members that will be able to help you!
+3. Become a member of our [subreddit](http://reddit.com/r/lioranboard). It's still pretty new, help us get it going! 
 
 {:class='mt-2 anchor-header'}
 ## Ways to contribute 
