@@ -1,5 +1,5 @@
 ---
-title: Get HTTP Request
+title: HTTP Request
 num: 9
 ---
 
