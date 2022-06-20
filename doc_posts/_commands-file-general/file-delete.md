@@ -3,7 +3,7 @@ title: "File Delete"
 num: 3
 ---
 
-Deletes a file from a specified file path. The file path must begin with a lowercase drive letter, for example, c:\ instead of C:\.
+Deletes a file from a specified file path. The file path must begin with a lowercase drive letter, for example, c:\ instead of C:\ .
 
 | Box Name | Type | Description | 
 |-------|--------|--------
