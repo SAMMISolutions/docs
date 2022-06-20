@@ -9,7 +9,7 @@ Sorts the values in a specified column of your CSV file. Values can be sorted al
 |-------|--------|--------
 |CSV Name|String|Name of your CSV
 |Column Name/Number|String|Column that requires sorting
-|Ascending|Checkbox|Tick to sort values in an acsending order
+|Ascending|Checkbox|Tick to sort values in an ascending order
 |Sort As Numbers|Checkbox|Tick to sort values as numbers
 {:class='table table-primary'}
 
