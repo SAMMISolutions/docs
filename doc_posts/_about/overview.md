@@ -7,7 +7,9 @@ num: 0
 type: fullpage
 ---
 
-LioranBoard 2 is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks.\
+LioranBoard 2 is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks.
+
+
 The main application (LioranBoard) was developed in 09/2019 in GameMaker Studio 1 by Lioran, but it was very different from LioranBoard 2 that we know now.
 <figure>
     <blockquote class="blockquote">
@@ -23,7 +25,7 @@ Lioran started adding more features and commands every update, essentially inven
 
 LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many new features and commands were added. 
 
-Starting June 2022, LioranBoard 2 Dev team is building upon the original code by Lioran. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
+From June 2022, the LioranBoard 2 Dev team started building upon the original code by Lioran. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
 
 **LioranBoard 2 Dev Team** (in no particular order)
 
