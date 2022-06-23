@@ -20,7 +20,7 @@ Change the port of OBS websocket (both in OBS and LioranBoard) to a new one, for
 - **Try Non Blocking Connection**\
 In your LioranBoard, go to OBS Connections and check/uncheck non blocking connection.
 - **Change IP connection**\
-Normally you use 127.0.0.1 to connect to OBS, but you can try local IP as well.\
+Normally you use 127.0.0.1 to connect to OBS, but you can try local IP as well.
 1. Launch command line (cmd.exe) and run `ipconfig` command.
 2. Note down your IPv4 address (it will start with `192.168`).
 3. Go to LioranBoard-OBS Connection and change the IP address.
