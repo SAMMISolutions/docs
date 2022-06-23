@@ -17,7 +17,7 @@ LioranBoard can trigger your buttons based on specific events (such as new Twitc
 ##### Get trigger data once button is triggered
 Once your button is triggered via a trigger, you can use [Trigger Pull Data]({{ "/commands/trigger#triggerpulldata" | relative_url }}) command to retrieve all the provided information from the trigger event (such as viewer's name, their message, emotes, badge etc.).  
 
-##### Queable vs. non queable buttons
+##### Queueable vs. non-queueable buttons
 If you right click on a button - **Edit Settings** and check `Add to Request Queue`, all triggers that come in while the button is still active (for example if you get two subscribers at the same time) will be put in a queue and the button will be reactivated as soon as it's ready again.\
 If you do not check `Add to Request Queue`, the button will ignore any triggers that come in while the button is active and discard them.
 
