@@ -1,5 +1,5 @@
 ---
-title: "Array C;ear"
+title: "Array Clear"
 num: 9.2
 ---
 

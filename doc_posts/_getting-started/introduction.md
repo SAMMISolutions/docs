@@ -10,7 +10,7 @@ type: fullpage
 
 <p class="lb-lead">LioranBoard 2 is a fully customizable Stream Deck that lets your <b>Twitch</b> and <b>YouTube Live</b> audience control and interact with your stream. </p>
 
-It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) which can remotly control your [OBS Studio](https://obsproject.com/).
+It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) which can remotely control your [OBS Studio](https://obsproject.com/).
 
 You can easily create buttons for the most basic things, such as automatic scene switching and custom alerts. However, once you get more familiar with the software, whole new possibilites will open up for you. 
 
