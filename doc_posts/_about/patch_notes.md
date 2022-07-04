@@ -9,13 +9,13 @@ type: fullpage
 
 #### LioranBoard 2 2022.3.2 CE
 
-### New Features
+###### New Features
 - Added the option to disable Enhanced Protection Mode, allowing LioranBoard to modify/delete any file. [Christina]
 
-### Improvements
+###### Improvements
 - Removed the ability to see your Stream Deck password as plaintext if you disabled the Stream Deck. [Christina]
 
-### UI Changes
+###### UI Changes
 - Updates to the Update Viewer Window [wolbee]
   - Download button now shows if a component is missing
   - Buttons now show "Revert", and Column header shows "Previous", if Latest Version is not ticked
@@ -24,7 +24,7 @@ type: fullpage
 	- yellow means update/revert available
 	- red means missing
 
-### Bug Fixes:
+###### Bug Fixes:
 - Fixed a bug where the Release Commands warning was cowering behind the Open Docs button. [wolbee]
 - Fixed a bug where Revoke Token needed to be clicked twice in order to work. [Christina]
 
