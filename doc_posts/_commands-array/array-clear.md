@@ -1,6 +1,6 @@
 ---
 title: "Array Clear"
-num: 9.2
+num: 20
 ---
 
 Clears all the contents of an array, leaving it empty. Does not delete the array itself, you must use [Delete Variable]({{ "commands/variables#deletevariable" | relative_url }}) command for that instead.
