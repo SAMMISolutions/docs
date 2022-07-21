@@ -7,29 +7,29 @@ permalink: /download
 type: fullpage
 ---
 
-### LioranBoard
+### SAMMI
 Latest stable version. Recommended for most users.\
-Comes with LioranBoard Receiver, Transmitter and Stream Deck for PC. You can download Android Stream Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).\
-LioranBoard is fully supported on Windows, support for other platforms is coming!\
+Comes with SAMMI Receiver, Transmitter and Stream Deck for PC. You can download Android Stream Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).\
+SAMMI is fully supported on Windows, support for other platforms is coming!\
 You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time.
 
-<a href="https://github.com/LioranBoard/LioranBoard-2-Official/releases"><button type="button" class="btn btn-primary">Download LioranBoard</button></a>
+<a href="https://github.com/LioranBoard/LioranBoard-2-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
 
 *You can check our **[Discord's](https://discord.gg/dXez8Zh)** Announcements channel for unreleased and beta versions.* 
 
 ### Dependencies
 
 **OBS Studio**     
-LioranBoard is compatible with OBS Studio. Other streaming software, such as Streamlabs OBS, is not currently supported.  
+SAMMI is compatible with OBS Studio. Other streaming software, such as Streamlabs OBS, is not currently supported.  
 
 <a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Download OBS Studio</button></a>
   
 **OBS Websocket**       
-This is how LioranBoard communicates with OBS Studio. We recommend always installing the latest 4.X version.\
-LioranBoard will be also compatible with OBSWS 5.0 and up once a **stable** version is released.
+This is how SAMMI communicates with OBS Studio. We recommend installing the latest 4.X version (currently 4.9.1).\
+SAMMI will be also compatible with OBSWS 5.0 and up once a **stable** version is released.
 
 <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
 
 
 ### Extensions
-Extensions can be found in our [Extensions](https://lioranboard.ca/extensions) section or #releases channel in our **[Discord](https://discord.gg/dXez8Zh)** server!
+Extensions can be found in our [Extensions](https://sammi.solutions/extensions) section or #releases channel in our **[Discord](https://discord.gg/dXez8Zh)** server!
