@@ -1,23 +1,23 @@
-title: LioranBoard 2 Stream Deck
-tagline: LioranBoard 2 | Free and powerful Stream Deck for your Twitch and YouTube | Works with OBS
-description: Transform your ordinary stream into interactive experience for your viewers with LioranBoard Stream Deck
-name: LioranBoard 2 • Free Stream Deck 
+title: SAMMI
+tagline: SAMMI | Free and powerful Stream Deck for your Twitch and YouTube | Works with OBS
+description: Transform your ordinary stream into interactive experience for your viewers with SAMMI
+name: SAMMI • Free Stream Deck 
 stableVersion: 202232
-url: "https://lioranboard.ca"
+url: "https://sammi.solutions"
 author:
-  twitter: christina_kral
-repository: https://github.com/LioranBoard/docs2
+  twitter: SAMMISolutions
+repository: https://github.com/SAMMISolutions/docs
 logo: /assets/favicon/favicon-32x32.png
 social:
-  name: LioranBoard
+  name: SAMMI
   links:
-    - https://twitter.com/lioranboard
-    - https://github.com/LioranBoard
+    - https://twitter.com/SAMMISolutions
+    - https://github.com/SAMMISolutions
 timezone: US/Pacific
 google_analytics_id: G-BW26WQFHV8
 google_site_verification: XXX
 twitter:
-    username: lioranboard
+    username: SAMMISolutions
     card: summary
 plugins:
   - jekyll-feed

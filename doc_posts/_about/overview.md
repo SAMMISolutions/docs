@@ -7,7 +7,7 @@ num: 0
 type: fullpage
 ---
 
-LioranBoard 2 is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks.
+SAMMI is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks.
 
 
 The main application (LioranBoard) was developed in 09/2019 in GameMaker Studio 1 by Lioran, but it was very different from LioranBoard 2 that we know now.
@@ -25,9 +25,9 @@ Lioran started adding more features and commands every update, essentially inven
 
 LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many new features and commands were added. 
 
-From June 2022, the LioranBoard 2 Dev team started building upon the original code by Lioran. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
+From June 2022, the LioranBoard 2 Dev team started building upon the original code by Lioran. The app was rebranded and renamed to SAMMI. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
 
-**LioranBoard 2 Dev Team** (in no particular order)
+**SAMMI Dev Team** (in no particular order)
 
 - [Christinna](https://twitter.com/christina_kral)
 - [RoadieGamer](https://twitter.com/roadiegamer)
@@ -40,15 +40,15 @@ You can read more about our team members and support us on our [Patreon](https:/
 
 **Current Contributors**
 
-- LioranBoard Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
-- LioranBoard Stream Deck: Lioran
-- Transmitter 2: [Christina K](https://github.com/christinna9031)
-- LioranBoard.ca website: [Christina K](https://github.com/christinna9031)
+- SAMMI Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
+- SAMMI Stream Deck: Lioran
+- SAMMI Bridge: [Christina K](https://github.com/christinna9031)
+- sammi.solutions website: [Christina K](https://github.com/christinna9031)
 - Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
 - Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Falinere](https://www.youtube.com/channel/UCDf53fZZjoMIq-T0yOxEAIA), [MisterK](https://www.youtube.com/user/Kamelot781), [wolbee](https://www.youtube.com/c/wolbee) and more!
 - Discord moderators: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true), [MisterK](https://www.youtube.com/user/Kamelot781), [Chrizzz](https://github.com/Chrizzz-1508), [Mr. Rubber Ducky](https://twitter.com/OGMrRubberDucky), LBot
 
-**LioranBoard would not be where it is today without you!**
+**SAMMI would not be where it is today without you!**
 
   
