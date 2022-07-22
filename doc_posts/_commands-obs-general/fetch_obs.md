@@ -4,19 +4,19 @@ num: 1
 ---
 Allows you to request data from OBS websocket and save it in a variable.
 
-This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow the data to be sent to LioranBoard.
+This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow the data to be sent to SAMMI.
 
 All the possible requests are documented in [OBS websocket protocol reference](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md).\
-The requested value will not be saved immediately, you must give you other commands a delay of 100-500ms to process the request.  
+The requested value will not be saved immediately, you must give you other commands a delay of 100-500ms to process the request.
 
 If the requested value is inside another object already, you can access it with a simple dot-notation.\
-For example, if you want to retrieve Brightness value from Color Correction Filter, you will notice that it is inside an object called settings. `{"settings": {"brightness": 0.78}, "status": "ok", "type": "color_filter"}</code>. In this case, the Fetch Value will be `settings.brightness`.  
+For example, if you want to retrieve Brightness value from Color Correction Filter, you will notice that it is inside an object called settings. `{"settings": {"brightness": 0.78}, "status": "ok", "type": "color_filter"}</code>. In this case, the Fetch Value will be `settings.brightness`.
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
 
-{% include alert.html text="If the name of the fetched value contains dots, it needs to be wrapped in parentheses like this: <code>(Filter.Transform.Rotation.X)</code>." type="warning" %} 
+{% include alert.html text="If the name of the fetched value contains dots, it needs to be wrapped in parentheses like this: <code>(Filter.Transform.Rotation.X)</code>." type="warning" %}
 
-| Box Name | Type | Description | 
+| Box Name | Type | Description |
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |OBS command|	JSON String|	Works the same as the custom packet command. Do not include the `"message-id"` part.
@@ -38,7 +38,7 @@ Turn to real|	boolean|	Whether you expect a real value (=number) or a string.
 |<code class="user-select-all">"sceneItems":["sourceName":"Browser",...},{"sourceName":"Text GDI",...}]</code>|First source name in a specified scene|<code class="user-select-all">{"request-type":"GetSceneItemList","sceneName":"YOURSCENENAME"}</code>|sceneItems[0].sourceName|
 {:class='table table-secondary w-auto table-responsive table-hover text-break' }
 
-{% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source" pastebin="ccUwx1GE" %}   
+{% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source" pastebin="ccUwx1GE" %}
 
 
 

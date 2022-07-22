@@ -8,14 +8,14 @@ A buffer is basically a space within the system memory that is used to store sma
 
 {% include image.html w="75" src="Buffer_Memory.png" alt="Buffer within memory" %}
 
-You can save and load *ANY* file into a buffer in LioranBoard, which is the best part about having buffer commands!\
-For example, LioranBoard does not natively support text files, but that's okay, because you can simply load, read and save any text file using buffers instead!
+You can save and load *ANY* file into a buffer in SAMMI, which is the best part about having buffer commands!\
+For example, SAMMI does not natively support text files, but that's okay, because you can simply load, read and save any text file using buffers instead!
 
-{% include alert.html text="A buffer will exist until you either manually delete it or restart LioranBoard." type="warning" %} 
+{% include alert.html text="A buffer will exist until you either manually delete it or restart SAMMI." type="warning" %}
 
-**Data Types** 
+**Data Types**
 
-| Buffer Type | Description | 
+| Buffer Type | Description |
 |-------|--------
 | Unsigned 8bits | A single byte value. This is a positive value from 0 to 255.
 | Signed 8bits | A single byte value. This can be a positive or negative value from -128 to 127 (0 is classed as positive).

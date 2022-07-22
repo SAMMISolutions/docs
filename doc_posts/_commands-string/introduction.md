@@ -9,7 +9,7 @@ Strings can contain numbers, however you must realize that `"5"` doesn’t have 
 You cannot add strings either, i.e. `"12" + "34"` isn’t `"46"`, it’s `"1234"`. `12 + 34` is `46`.\
 If you wish to convert a string to a number, you can use [String to Number]({{ "commands/number#stringtonumber" | relative_url }}) command.
 
-{% include alert.html text='In LioranBoard, use strings <b>without double</b> quotes in  <b>white</b> input boxes, and enclose them in  <b>double quotes</b> if the input box is  <b>yellow</b>.Otherwise LioranBoard will read them as real values and convert them to 0. ' type="warning" %} 
+{% include alert.html text='In SAMMI, use strings <b>without double</b> quotes in  <b>white</b> input boxes, and enclose them in  <b>double quotes</b> if the input box is  <b>yellow</b>.Otherwise SAMMI will read them as real values and convert them to 0. ' type="warning" %}
 
 
 
