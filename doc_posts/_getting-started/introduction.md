@@ -8,26 +8,26 @@ notoc: true
 type: fullpage
 ---
 
-<p class="lb-lead">LioranBoard 2 is a fully customizable Stream Deck that lets your <b>Twitch</b> and <b>YouTube Live</b> audience control and interact with your stream. </p>
+<p class="lb-lead">The SAMMI Suite is a fully customizable Stream Deck that lets your <b>Twitch</b> and <b>YouTube Live</b> audience control and interact with your stream. </p>
 
 It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) which can remotely control your [OBS Studio](https://obsproject.com/).
 
 You can easily create buttons for the most basic things, such as automatic scene switching and custom alerts. However, once you get more familiar with the software, whole new possibilites will open up for you. 
 
-LioranBoard itself works like a simple programming language. It has variables, operators, arrays, objects, string and number methods, If and Else statements, loops, async/await commands and much more.
+SAMMI:Core itself works like a simple programming language. It has variables, operators, arrays, objects, string and number methods, If and Else statements, loops, async/await commands and much more.
 
 #### Connection to Twitch
 
-LioranBoard can listen to Twitch alerts and chat messages, send chat messages and fully control your Twitch stream via Twitch API. 
+SAMMI:Core can listen to Twitch alerts and chat messages, send chat messages and fully control your Twitch stream via Twitch API. 
 
 #### Connection to YouTube Live
 
-LioranBoard can listen to YouTube Live events and control your live stream! Find out more in [Integrations-YouTube](https://lioranboard.ca/docs/integrations/youtube/general). 
+SAMMI:Core can listen to YouTube Live events and control your live stream! Find out more in [Integrations-YouTube](https://lioranboard.ca/docs/integrations/youtube/general). 
 
 #### Connection to OBS Studio
 
-LioranBoard can directly connect to OBS Websocket to control your OBS Studio. You can start/stop streaming, switch scenes, change source stetings, control media, animate your sources, toggle filters and much more. 
+SAMMI:Core can directly connect to OBS Websocket to control your OBS Studio. You can start/stop streaming, switch scenes, change source stetings, control media, animate your sources, toggle filters and much more. 
 
 #### Extensions
 
-If all of the above is not enough for your needs, LioranBoard also supports community made JavaScript extensions, which can greatly extend its functionality, such as controlling other apps and services directly from your stream. 
+If all of the above is not enough for your needs, SAMMI:Core also supports community made JavaScript extensions, which can greatly extend its functionality, such as controlling other apps and services directly from your stream. 
