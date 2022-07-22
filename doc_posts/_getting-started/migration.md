@@ -7,22 +7,22 @@ permalink: /getting-started/migrating
 type: fullpage
 ---
 
-Migrating all buttons and extensions from LioranBoard 1 to LioranBoard 2 must be done **manually**.  
-LioranBoard 2 is too different from LioranBoard 1 (especially when it comes to how variables are handled) and therefore it's not possible to create a migration tool.  
+Migrating all buttons and extensions from LioranBoard 1 to SAMMI must be done **manually**.  
+SAMMI is too different from LioranBoard 1 (especially when it comes to how variables are handled) and therefore it's not possible to create a migration tool.  
 
 
-LioranBoard 2 is created in Game Maker Studio 2 and offers both x64 and x86 version.  
+SAMMI is created in Game Maker Studio 2 and offers both x64 and x86 version.  
 
 
-You can run LioranBoard 1 and LioranBoard 2 **at the same time** without any issues.  
+You can run LioranBoard 1 and SAMMI **at the same time** without any issues.  
 
 
 ##### Variables
 LioranBoard 1's variables are all global, which means every button can create and access any variable.  
 
-In LioranBoard 2 we have something called **global variables** (these work the same as regular variables in LioranBoard 1), **button variables** and **local variables**. We can also set our buttons to be **persistent** vs. **non persistent**, which means all button variables will be automatically cleared once the button is over.  
+In SAMMI we have something called **global variables** (these work the same as regular variables in LioranBoard 1), **button variables** and **local variables**. We can also set our buttons to be **persistent** vs. **non persistent**, which means all button variables will be automatically cleared once the button is over.  
 
-LioranBoard 1 automatically converts all undefined variables to `0`. In LioranBoard 2 you must **check for undefined variables** (you can do it with an if statement by leaving the value to compare it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables]({{ "/commands/variables#initvariables" | relative_url }}) for this reason.  
+LioranBoard 1 automatically converts all undefined variables to `0`. In SAMMI you must **check for undefined variables** (you can do it with an if statement by leaving the value to compare it to completely empty) to prevent crashes. You should also make the use of [Button Init Variables]({{ "/commands/variables#initvariables" | relative_url }}) for this reason.  
 
 Variables can now be **white** (for text and /$variables$/, originally marked with * in LioranBoard 1) or **yellow** boxes (for numbers and direct variables).
 
@@ -35,26 +35,26 @@ There is no `bottom` when pulling a value from an array anymore. Use either `top
 If you have stringified stacks saved in ini files from LioranBoard 1, you can easily convert them to arrays by using this automated [Stack to Array tool]({{ "/commands/array#convertstackssavedininifilesfromlbtoarraysinlb" | relative_url }}).
 
 ##### Objects
-LioranBoard 2 can newly create and manipulate [objects](https://www.w3schools.com/js/js_objects.asp).
+SAMMI can newly create and manipulate [objects](https://www.w3schools.com/js/js_objects.asp).
 
 ##### CSV Files
-LioranBoard 2 can manipulate CSV files. 
+SAMMI can manipulate CSV files. 
 
 ##### HTTP Request
-[Get HTTP Request]({{ "/commands/misc#gethttprequest" | relative_url }}) command replaces Web Request extension. You can call an API and receive its response directly in LioranBoard now.\
-As an example, the whole Spotify extension is now fully contained in LioranBoard and does not require Transmitter to run anymore.
+[Get HTTP Request]({{ "/commands/misc#gethttprequest" | relative_url }}) command replaces Web Request extension. You can call an API and receive its response directly in SAMMI now.\
+As an example, the whole Spotify extension is now fully contained in SAMMI and does not require Transmitter to run anymore.
 
 ##### More Twitch control
 New native [Twitch triggers]({{ "/triggers/twitch" | relative_url }}) for f**ollowers, polls, predictions and hype train**.  
 
 Added tremendous amount of [Twitch commands]({{ "/commands/twitch" | relative_url }}), such as creating a clip, getting channel info, creating a poll/prediction etc.  
 
-Added user friendly UI to **create and modify your Channel Points** directly from LioranBoard-Twitch Connections menu.
+Added user friendly UI to **create and modify your Channel Points** directly from SAMMI-Twitch Connections menu.
 
 ##### Transmitter
-Transmitter is mostly similar for users, however you **do not need to manually reinstall extensions** when you update your Transmitter to a newer version. This is all automatically handled by LioranBoard for you.   
+Transmitter is mostly similar for users, however you **do not need to manually reinstall extensions** when you update your Transmitter to a newer version. This is all automatically handled by SAMMI for you.   
 
-If you're an extension developer, you will need to rewrite some of your code to work with LioranBoard 2: 
+If you're an extension developer, you will need to rewrite some of your code to work with SAMMI: 
 
 - extension files now have .lb2 extension
 - added `[extension_info]` section which must be included after `[extension_name]`  
@@ -69,12 +69,12 @@ If you're an extension developer, you will need to rewrite some of your code to 
 [insert_script]
 [insert_over]
 ```
-- there are [new helper functions](https://github.com/LioranBoard/LioranBoard-2-Transmitter#lb-transmitter) in the Transmitter for everything you want to send to LioranBoard. 
+- there are [new helper functions](https://github.com/LioranBoard/LioranBoard-2-Transmitter#lb-transmitter) in the Transmitter for everything you want to send to SAMMI. 
 
 - hooks still work the same, however now you can [listen to these events directly](https://github.com/LioranBoard/LioranBoard-2-Transmitter#listening-to-extension-data-received-from-lioranboard)
 
 ##### Extensions
-As stated just above, LioranBoard 1 extensions do not work in LioranBoard 2. Some will have to be updated and others are not needed anymore (like Get Profile Picture extension, as now you can get the pic with the [Get User Info Command]({{ "/commands/twitch#getuserinfo" | relative_url }})
+As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will have to be updated and others are not needed anymore (like Get Profile Picture extension, as now you can get the pic with the [Get User Info Command]({{ "/commands/twitch#getuserinfo" | relative_url }})
 
 ##### Commands Changes
 - added Release Commands - they will execute on button release (only from Stream Deck or Trigger Button command
@@ -98,10 +98,10 @@ As stated just above, LioranBoard 1 extensions do not work in LioranBoard 2. Som
 - still no variables in the delay fields, but you can now use [Wait for Timeout]({{ "/commands/wait#waitfortimeout" | relative_url }}) command to add variable delays between your commands
 
 ##### Other Changes
-- LioranBoard can automatically update Receiver, Stream Deck and Transmitter for you when there's a new version available. Just click on Settings-Check for updates.
+- SAMMI can automatically update Receiver, Stream Deck and Transmitter for you when there's a new version available. Just click on Settings-Check for updates.
 - added support for **multiple OBS connections** (you can select a specific OBS to use for your commands or triggers)
-- you can minimize LioranBoard to tray
-- ability to scale the LioranBoard's UI
+- you can minimize SAMMI to tray
+- ability to scale the SAMMI's UI
 - you can disable an entire deck
 - your deck can have a background image
 - buttons can be freely resized to any dimension and placed outside of the grid 
