@@ -7,31 +7,31 @@ type: fullpage
 permalink: /triggers/introduction
 ---
 
-LioranBoard can trigger your buttons based on specific events (such as new Twitch subscriber, whenever you change scenes in OBS, when you start LioranBoard etc.). 
+SAMMI can trigger your buttons based on specific events (such as new Twitch subscriber, whenever you change scenes in OBS, when you start SAMMI etc.).
 
 ##### Add a new trigger to a button
-1. Right click on a button in your LioranBoard - **Edit Triggers** (or CTRL + double click). 
-2. Click on the **+** button and select the trigger type. 
+1. Right click on a button in SAMMI - **Edit Triggers** (or CTRL + double click).
+2. Click on the **+** button and select the trigger type.
 3. Fill out the fields and options for the selected trigger and press Save.
 
 ##### Get trigger data once button is triggered
-Once your button is triggered via a trigger, you can use [Trigger Pull Data]({{ "/commands/trigger#triggerpulldata" | relative_url }}) command to retrieve all the provided information from the trigger event (such as viewer's name, their message, emotes, badge etc.).  
+Once your button is triggered via a trigger, you can use [Trigger Pull Data]({{ "/commands/trigger#triggerpulldata" | relative_url }}) command to retrieve all the provided information from the trigger event (such as viewer's name, their message, emotes, badge etc.).
 
 ##### Queueable vs. non-queueable buttons
 If you right click on a button - **Edit Settings** and check `Add to Request Queue`, all triggers that come in while the button is still active (for example if you get two subscribers at the same time) will be put in a queue and the button will be reactivated as soon as it's ready again.\
 If you do not check `Add to Request Queue`, the button will ignore any triggers that come in while the button is active and discard them.
 
-{% include alert.html text="Does not apply if button overlap is enabled" type="warning" %} 
+{% include alert.html text="Does not apply if button overlap is enabled" type="warning" %}
 
 ##### Overlappable buttons
-If you right click on a button - **Edit Settings** and check `Allow Button Overlap`, multiple instances of the same button can be triggered at the same time (even if the previous button is still active).  
+If you right click on a button - **Edit Settings** and check `Allow Button Overlap`, multiple instances of the same button can be triggered at the same time (even if the previous button is still active).
 
 
-This is not something you want to enable for certain triggers attached to buttons controlling your OBS animations (for example, you probably don't want two subscriber animations to happen at the same time on your screen), but it can be useful for other events (for example for `!enter giveaway` chat trigger where a lot of users enter at the same time and you want to collect their names as quickly as possible without any queue). 
+This is not something you want to enable for certain triggers attached to buttons controlling your OBS animations (for example, you probably don't want two subscriber animations to happen at the same time on your screen), but it can be useful for other events (for example for `!enter giveaway` chat trigger where a lot of users enter at the same time and you want to collect their names as quickly as possible without any queue).
 
-##### Wild Cards 
+##### Wild Cards
 **Some trigger fields (such as Twitch chat messags trigger) accept wild cards.**\
-For example, you want your user to type a color in your chat. Instead of creating separate triggers for ALL possible colors, you can create one trigger that will accept a wild card in place of the specific color.  
+For example, you want your user to type a color in your chat. Instead of creating separate triggers for ALL possible colors, you can create one trigger that will accept a wild card in place of the specific color.
 
 
 A wild card <i class="fas fa-star-of-life fa-sm"></i> refers to a character that can be substituted for zero or more characters in a string. They are used to search for partial matches instead of exact ones.\
@@ -61,4 +61,4 @@ Please note this assumes there's a space before and after `word`.
 Want to capture only a single word after a specific keyword and ignore the rest of the text? Use these two triggers: `keyword * *` and `keyword *` (order matters!).\
 Now if you make your [Pull Wildcard]({{ "commands/trigger#pullwildcard" | relative_url }}) command pull the first (0) wildcard, it will always pull whatever word comes after `keyword` and ignore any additional text afterwards.
 
-{% include alert.html text='A single <i class="fas fa-star-of-life fa-sm"></i> in your Channel Points Message Trigger field allows for any message to trigger your button, but does not function as an actual wild card. Use <b>Trigger Pull Data</b> command to pull the whole message.' type="warning" %} 
+{% include alert.html text='A single <i class="fas fa-star-of-life fa-sm"></i> in your Channel Points Message Trigger field allows for any message to trigger your button, but does not function as an actual wild card. Use <b>Trigger Pull Data</b> command to pull the whole message.' type="warning" %}

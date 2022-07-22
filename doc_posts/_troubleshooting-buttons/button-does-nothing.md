@@ -10,7 +10,7 @@ Unless you’re triggering the button by pressing it on the stream deck, it’s 
 - Click ‘Active Buttons’ in the receiver main window to see whether the button ID pops up there. If the button doesn’t have any delays or wait commands this will be a quick flash, but you should still be able to see it.
 
 #### Possibility A: The button did not trigger
-Your button not triggering at all could have three causes: either your button trigger is set up incorrectly, the button is being blocked somehow, or SAMMI is not receiving the trigger at all.
+Your button not triggering at all could have three causes: either your button's trigger is set up incorrectly, the button is being blocked somehow, or SAMMI is not receiving the trigger at all.
 
 *Check whether your trigger is correct*
 
@@ -42,7 +42,7 @@ Your button not triggering at all could have three causes: either your button tr
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
 {:class='table table-primary' }
 
-{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Communication between Twitch and LioranBoard 2 (now called SAMMI)" type="image" external="true" %}
+{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and SAMMI" type="image" external="true" %}
 
 *Check whether the button is being blocked*
 
@@ -57,4 +57,3 @@ If you can’t figure out why the button is blocked, try restarting SAMMI. That 
 #### Possibility B: The button did trigger
 
 If your button triggered when it should have but nothing happened, that means something is wrong with your commands. Check the ‘Button doesn’t do what you want’ section below.
-
