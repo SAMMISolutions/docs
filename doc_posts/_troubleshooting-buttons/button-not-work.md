@@ -20,7 +20,7 @@ If you see the word ‘undefined’ (in error messages, crashes, text sources, c
 
 #### Variables
 
-Variables, arrays and objects are a fundamental part of LioranBoard. You need to know how to use them to unlock the full potential of LB. Please read the variable introduction about how to use them and how to use the [White and Yellow Boxes]({{ "commands/variables#whitevsyellowboxforparameters" | relative_url }}). if you are not sure.
+Variables, arrays and objects are a fundamental part of SAMMI. You need to know how to use them to unlock the full potential of LB. Please read the variable introduction about how to use them and how to use the [White and Yellow Boxes]({{ "commands/variables#whitevsyellowboxforparameters" | relative_url }}). if you are not sure.
 
 #### Showing previous information, results only work after the second press or actions are being made in the incorrect order (or at the same time).
 
@@ -28,7 +28,7 @@ There is probably a problem with your delays (or wait commands, see Common Error
 
 #### Issues with Filters and Sources
 
-Check whether you are connected to OBS. Check Common Issues in Troubleshooting. If the source is inside a group, try taking it out to see if that makes a difference. The OBS websocket has a lot of issues working with groups, so if you use groups and LioranBoard cannot find them or work correctly with them, consider using nested scenes instead.
+Check whether you are connected to OBS. Check Common Issues in Troubleshooting. If the source is inside a group, try taking it out to see if that makes a difference. The OBS websocket has a lot of issues working with groups, so if you use groups and SAMMI cannot find them or work correctly with them, consider using nested scenes instead.
 
 #### Errors with Commands
 
@@ -44,5 +44,5 @@ Check whether you are connected to OBS. Check Common Issues in Troubleshooting. 
 |Source Change Volume/Motion: Source Volume|You need to add a number between 0 and 1. This number does NOT match with the numbers in LB1. You can figure out what number you need by going into OBS, clicking any cog in your audio mixer and selecting Advanced Audio Properties. Check the box above the Volume % column, and read the % from there. If it says 50%, you need to enter 0.5|
 |Trigger OBS Hotkey Sequence|You shouldn’t write the exact key you want to press, but the OBS name for that key. Check the documentation.|
 |Trigger Button|If you are auto-triggering the button, turn the queue on (in the button and in the command). The ‘hidden delay’ field cannot be left blank. |
-|Sound Effects|LioranBoard sound goes through the default output device of your pc when LB is opened. If you want to change where you want to hear LioranBoard (or use an audio cable), change to that device before launching LioranBoard. Once opened, you can change the default output device (back) to whatever you want and it will not affect LioranBoard.|
+|Sound Effects|SAMMI sound goes through the default output device of your pc when LB is opened. If you want to change where you want to hear SAMMI (or use an audio cable), change to that device before launching SAMMI. Once opened, you can change the default output device (back) to whatever you want and it will not affect SAMMI.|
 {:class='table table-primary' }

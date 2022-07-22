@@ -4,9 +4,9 @@ num: 0
 ---
 
 Variables are containers for storing data values (including numbers and strings), that can be reused over and over again.\
-Variable names are case sensitive, meaning that "Variable" and "variable" are not going to have the same value. Variable name must always start with a letter and must only contain letters, numbers and `_`. 
+Variable names are case sensitive, meaning that "Variable" and "variable" are not going to have the same value. Variable name must always start with a letter and must only contain letters, numbers and `_`.
 
-{% include alert.html text="You can view all existing variables by pressing Variable Viewer at the bottom menu of your LioranBoard" type="info" %}
+{% include alert.html text="You can view all existing variables by pressing Variable Viewer at the bottom menu of SAMMI" type="info" %}
 
 #### Global Variables
 All global variables are stored inside `global` variables object and are accessible from any button at all times. Some of these variables are permanent.\
@@ -30,15 +30,15 @@ If you uncheck the box, the variables will be accessible only when the button is
 If you right click on a button, you can edit its INIT variables.\
 These exist to prevent crashes if you have enabled persistent variables.\
 The window uses a simple JSON format to initialize your variables.\
-For example, if you want your variable `name` to have a value of `LioranBoard` and your variable `age` to have a value of 18 on initilization, you can do:
+For example, if you want your variable `name` to have a value of `SAMMI` and your variable `age` to have a value of 18 on initilization, you can do:
 ```
 {
-	"name": "LioranBoard",
+	"name": "SAMMI",
 	"age": 18,
 }
 ```
 
-{% include alert.html text='Strings must be enclosed in <code>"</code>, but numbers (real values) must be without <code>"</code> (else they will be also regarded as strings).' type='warning' %} 
+{% include alert.html text='Strings must be enclosed in <code>"</code>, but numbers (real values) must be without <code>"</code> (else they will be also regarded as strings).' type='warning' %}
 
 You can also initiliaze complex variables, such as arrays or objects:
 ```
@@ -56,7 +56,7 @@ You can also initiliaze complex variables, such as arrays or objects:
 
 #### Variable types
 
-| Variable Type | Example | Color in variable window | 
+| Variable Type | Example | Color in variable window |
 |-------|--------|--------|
 |Real value (number) | `50` | green|
 |String (text) | `"My Cat"` or `'My Cat'` | blue|
@@ -67,37 +67,37 @@ You can also initiliaze complex variables, such as arrays or objects:
 |Null | Variable with empty or non existent reference | red|
 {:class='table table-secondary w-auto table-responsive table-hover'}
 
-**Real value (number)**  
+**Real value (number)**
 
 Variable containing numbers only. Negative values, decimal points and Euler's numbers are allowed.\
 Examples: `50`, `1.25`, `-15`, `10e+2`
 
-**String (text)**  
+**String (text)**
 
 Variable that contains not just numbers, but also other characters (possibly mixed with numbers).\
 If you are inserting a string into a YELLOW variable box, you must wrap it in double or single quotes.\
 Note that a string containing only numbers is not regarded as a number and cannot be used as such. You must use 'String to Number' command to convert to number first.\
 Examples: `"Hello world!"`, `'This is cool'`, `"The tickets cost $50"`, `'50'` (still regarded as a string!)
 
-**Boolean**  
+**Boolean**
 
-In LioranBoard, boolean is a number that is either 0 (false) or 1 (true).\
-{% include alert.html text="In some languages comparing <code>2</code> or non empty string returns true, however in LioranBoard it will always return false. The only value that returns true is <code>1</code>. " type="warning" %} 
+In SAMMI, boolean is a number that is either 0 (false) or 1 (true).\
+{% include alert.html text="In some languages comparing <code>2</code> or non empty string returns true, however in SAMMI it will always return false. The only value that returns true is <code>1</code>. " type="warning" %}
 
-**Array**  
+**Array**
 
 Array is a special variable which can hold more than one value at a time. Learn more about arrays in our [Array Introduction section]({{ "commands/array#introduction" | relative_url }}).
 
-**Object**  
+**Object**
 
 Object is another special variables which can hold more than one value at a time. Unlike arrays, objects have named values, key-value pairs. Learn more about objects in our [Object Introduction section]({{ "commands/object#introduction" | relative_url }}).
 
 #### White vs. Yellow Box for parameters
-When you start using commands in LioranBoard, you will notice that some parameter boxes have yellow color and some have white color.
+When you start using commands in SAMMI, you will notice that some parameter boxes have yellow color and some have white color.
 {% include image.html w="100" src="variable_box.png" alt="Different parameter box colors" %}
 It's extremely important to know the difference as you need to **format your input according to the color of the box**.
 
-| Operation | White Box| Yellow Box| 
+| Operation | White Box| Yellow Box|
 |-------|--------|--------
 |Inserting another variable | You must wrap other variables in */$$/*. <br/> `/$myVariable$/` | You can directly type another variable.<br/> `myVariable`
 |Inserting array value | You must wrap them in */$$/*. <br/> `/$myArray[0]$/` | You can directly insert them. <br/> `myArray[0]`
