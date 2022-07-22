@@ -3,10 +3,10 @@ title: Complex Math
 num: 11
 ---
 
-You can execute complex math operations in every parameter box, using a mix of variables and real values.  
-Note that there's a significant difference between [White and Yellow box]({{ "commands/introduction#inputboxes" | relative_url }}).  
+You can execute complex math operations in every parameter box, using a mix of variables and real values.
+Note that there's a significant difference between [White and Yellow box]({{ "commands/introduction#inputboxes" | relative_url }}).
 
-Each time you want LioranBoard to execute any kind of math, you need to wrap the whole sequence in parentheses: `(some math operation)`, for example `(variable+3*5+round(variable2))` or `(variable+10)` (applies for yellow boxes, as you must use `/$$/` in white boxes).  
+Each time you want SAMMI to execute any kind of math, you need to wrap the whole sequence in parentheses: `(some math operation)`, for example `(variable+3*5+round(variable2))` or `(variable+10)` (applies for yellow boxes, as you must use `/$$/` in white boxes).
 
 The following examples show the usage in **yellow boxes**.
 
@@ -27,4 +27,3 @@ The following examples show the usage in **yellow boxes**.
 |div|	Divide (no decimals). Space required before and after div.|	`7 div 3` = 2 or `(7+3) div (2+4)` = 1
 {:class='table table-primary table-hover' }
 
- 

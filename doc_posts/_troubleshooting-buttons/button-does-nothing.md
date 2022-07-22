@@ -10,7 +10,7 @@ Unless you’re triggering the button by pressing it on the stream deck, it’s 
 - Click ‘Active Buttons’ in the receiver main window to see whether the button ID pops up there. If the button doesn’t have any delays or wait commands this will be a quick flash, but you should still be able to see it.
 
 #### Possibility A: The button did not trigger
-Your button not triggering at all could have three causes: either your button trigger is incorrect, the button is being blocked somehow, or LioranBoard doesn’t receive the trigger at all.
+Your button not triggering at all could have three causes: either your button trigger is incorrect, the button is being blocked somehow, or SAMMI doesn’t receive the trigger at all.
 
 *Check whether your trigger is correct*
 
@@ -28,10 +28,10 @@ Your button not triggering at all could have three causes: either your button tr
 |Gift Subscription | Twitch sends two events when someone gifts multiple subs (aka ‘community gifts’). If you want to receive a single trigger when someone gifts 5 subs, add a Twitch Community Gift Subs trigger. If you want to receive 5 triggers when someone gifts 5 subs, add a Twitch Subscription trigger and allow community gifts. |
 {:class='table table-primary'}
 
-*Check whether LioranBoard is receiving the trigger*
+*Check whether SAMMI is receiving the trigger*
 
 - You cannot test via a third party such as StreamLabs or StreamElements. You should test via the test buttons in the transmitter or via Twitch.
-- Make sure whatever is sending your trigger is connected to LioranBoard. You can see this in the bottom left of the receiver main window. Twitch Subs, Channel Points etc. arrive via the transmitter! 
+- Make sure whatever is sending your trigger is connected to SAMMI. You can see this in the bottom left of the receiver main window. Twitch Subs, Channel Points etc. arrive via the transmitter!
 - Make sure you’re listening for the triggers in the Twitch Connections window.
 
 ##### Common issues with specific triggers:
@@ -42,19 +42,18 @@ Your button not triggering at all could have three causes: either your button tr
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
 {:class='table table-primary' }
 
-{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and Lioranboard" type="image" external="true" %}
+{% include image.html w="100" src="https://i.imgur.com/gdSzRl1.png" alt="Comunication between Twitch and SAMMI" type="image" external="true" %}
 
 *Check whether the button is being blocked*
 
-If you’re sure LioranBoard is receiving the trigger and the trigger on your button is set up correctly, your button may be blocked. A button could be blocked for three reasons:
+If you’re sure SAMMI is receiving the trigger and the trigger on your button is set up correctly, your button may be blocked. A button could be blocked for three reasons:
 
 - It is still active, for example because of a ‘Wait’ command. You can manually clear active buttons via the ‘Active Buttons’ window, or change the button settings to allow queues or overlap.
 - It has a group ID and another button in that group is still active. Same as above applies.
 - You used the Block Button/Group command on its ID. Make sure to unblock it first.
 
-If you can’t figure out why the button is blocked, try restarting LioranBoard. That should allow you to start fresh.
+If you can’t figure out why the button is blocked, try restarting SAMMI. That should allow you to start fresh.
 
 #### Possibility B: The button did trigger
 
 If your button triggered when it should have but nothing happened, that means something is wrong with your commands. Check the ‘Button doesn’t do what you want’ section below.
-

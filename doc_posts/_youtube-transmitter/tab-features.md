@@ -18,4 +18,4 @@ Shows all available broadcast categories.
 {% include image.html w="75" src="yt-tsl-categories.png"  %}
 
 #### Test events
-You can use the test buttons to send fake events to LioranBoard. They will mimic the real events YouTube sends. Some buttons have options you can fill out as well.
+You can use the test buttons to send fake events to SAMMI. They will mimic the real events YouTube sends. Some buttons have options you can fill out as well.
