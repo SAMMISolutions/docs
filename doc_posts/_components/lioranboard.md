@@ -7,7 +7,7 @@ type: fullpage
 permalink: /lioranboard
 ---
 
-SAMMI:Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc. 
+SAMMI:Core (Formerly known as the receiver) is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc. 
 
 {% include image.html w="auto" src="lioranboard.png" alt="SAMMI:Core" %}
 
