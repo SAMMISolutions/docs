@@ -5,10 +5,10 @@ num: 1
 
 Used in combination with any triggers you set up for the button.\
 For example, if you set up a button with a Twitch Subs trigger, you can use this command to get the subscriber's name once the button is triggered.
- 
-Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to learn more about triggers and their pull values. 
 
-| Box Name | Type | Description | 
+Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to learn more about triggers and their pull values.
+
+| Box Name | Type | Description |
 |-------|--------|--------|
 |Variable | String | Variable name to save the pulled value into. |
 |Pull Value|Dropdown| Value you wish to pull from the trigger. Click on the hamburguer icon on the right to choose the correct value.
@@ -16,9 +16,9 @@ Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to lear
 
 If you select **Trigger Type** in the dropdown menu, you can check what kind of event triggered the button (this replaces String: Get Trigger Type command from LB1). It will return a different numerical value for each type.
 
-There is also an array that lists all Trigger Types in the Global Variables section of the Variable Viewer in LioranBoard.
+There is also an array that lists all Trigger Types in the Global Variables section of the Variable Viewer in SAMMI.
 
-| Numerical Value | Trigger Type | 
+| Numerical Value | Trigger Type |
 |-------|--------|--------
 |0|Twitch Chat|
 |1|Twitch Subscriber|
@@ -30,7 +30,7 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |7|Hotkey|
 |8|Interval Trigger|
 |9|OBS Trigger|
-|10|LioranBoard Trigger|
+|10|SAMMI Trigger|
 |11|Twitch Moderation|
 |12|Extension Trigger|
 |13|Twitch Whispers|
@@ -47,17 +47,3 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |24|Trigger Button|
 |25|Trigger Button with Delay|
 {:class='table table-secondary w-auto table-hover text-break' }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,10 +3,10 @@ title: "Trigger Extension Triggers"
 num: 3
 ---
 
-This is the same command Transmitter uses to send Extension triggers to LioranBoard.\
-Extremely useful as you can pass parameters from one button to another button (especially if it's an overlappable button with non persistent variables) and make it behave like a function in programming. 
+This is the same command Transmitter uses to send Extension triggers to SAMMI.\
+Extremely useful as you can pass parameters from one button to another button (especially if it's an overlappable button with non persistent variables) and make it behave like a function in programming.
 
-| Box Name | Type | Description | 
+| Box Name | Type | Description |
 |-------|--------|--------|
 |Extension Trigger|String|The name of the extension trigger to send
 |Trigger Data Object|Object|Same payload as sending data from the Transmitter. Populate the object with your desired parameters (simple values, arrays, other objects) you wish to be pulled in the receiving button.

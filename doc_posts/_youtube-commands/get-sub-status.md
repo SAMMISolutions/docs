@@ -7,9 +7,9 @@ num: 9
 Checks whether your viewer is subscribed to (follows) your channel. Connection status must be `ready`.\
 Provide either their [channel ID](https://commentpicker.com/youtube-channel-id.php) or chat display name.\
 
-{% include alert.html text="If the member does not talk during your stream, there is no way for LioranBoard to associate their display name with their channel ID. In that case you must provide their channel ID." type="warning" %} 
+{% include alert.html text="If the member does not talk during your stream, there is no way for SAMMI to associate their display name with their channel ID. In that case you must provide their channel ID." type="warning" %}
 
-| Box Name | Type | Description | 
+| Box Name | Type | Description |
 |-------|--------|--------
 |displayName|String|Viewer's chat display name. Do not provide channel id if you already provided a display name.|
 |channelid | string | Viewer's [channel ID](https://commentpicker.com/youtube-channel-id.php). Do not provide a display name if you already provided a channel ID.

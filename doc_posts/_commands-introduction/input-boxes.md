@@ -3,12 +3,12 @@ title: Input Boxes
 num: 2
 ---
 
-When you start using commands in LioranBoard, you will notice that some parameter boxes have yellow color and some have white color.
+When you start using commands in SAMMI, you will notice that some parameter boxes have yellow color and some have white color.
 {% include image.html w="100" src="variable_box.png" alt="Different parameter box colors" %}
 
 It's extremely important to know the difference as you need to **format your input according to the color of the box**.
 
-| Operation | White Box| Yellow Box| 
+| Operation | White Box| Yellow Box|
 |-------|--------|--------
 |Inserting another variable | You must wrap other variables in */$$/*. <br/> `/$myVariable$/` | You can directly type another variable.<br/> `myVariable`
 |Inserting array value | You must wrap them in */$$/*. <br/> `/$myArray[0]$/` | You can directly insert them. <br/> `myArray[0]`

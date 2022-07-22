@@ -12,7 +12,7 @@ Try completely reinstalling the plugin. Make sure you have the latest version.\
 You can check whether WebSockets is currently installed by going to OBS > Tools > WebSockets Server Settings.\
 If your OBS's Tools menu does not have WebSockets Server Settings, then WebSockets is not properly installed.
 - **Run as administrator**\
-Try running SAMMI as administrator. Right-click on the SAMMI icon and select `Run as administrator`.
+Try running SAMMI as an administrator. Right click on the SAMMI launch file and select `Run as administrator`.
 - **Check your firewall and antivirus**\
 Make sure your firewall is not blocking SAMMI.\
 You can try [temporarily disabling your antivirus/firewall](https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960) or [adding an exception](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26) to allow the app through.
