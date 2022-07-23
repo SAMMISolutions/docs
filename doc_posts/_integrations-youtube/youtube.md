@@ -20,7 +20,7 @@ Please consider [donating](https://lioranboard.ca/donate) or supporting me on [P
 
 You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow LioranBoard access to your YouTube Live account and to retrieve your refresh token. 
 
-{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href='https://lioranboard.ca/docs/integrations/youtube#linkyouraccount'>authorize it</a> again." type="warning" %} 
+{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href={{ 'integrations/youtube/auth' | relative_url }}>authorize it</a> again." type="warning" %} 
 
 1. Retrieve your refresh token from the link provided above
 2. In your LioranBoard, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
