@@ -3,9 +3,9 @@ title: "Create Reward"
 num: 13.1
 ---
 
-Creates a Channel Point Reward on Twitch that will be owned by LioranBoard. Make sure you use a 'Wait until Timeout' command after this command, before adding any other commands after it.
+Creates a Channel Point Reward on Twitch that will be owned by SAMMI. Make sure you use a 'Wait until Timeout' command after this command, before adding any other commands after it.
 
-| Box Name | Type | Description | 
+| Box Name | Type | Description |
 |-------|--------|--------
 |Login Name|String|Your Twitch login name (all lowercase characters)
 |Title|String|What you want to name your new reward.

@@ -3,11 +3,11 @@ title: "General"
 num: 1
 ---
 
-Once your status changes to `Listening`, LioranBoard will automatically start listening to all the following events. (No events are delivered if the stream is offline and status is `Ready`.)\
+Once your status changes to `Listening`, SAMMI will automatically start listening to all the following events. (No events are delivered if the stream is offline and status is `Ready`.)\
 The events are polled every X seconds. The frequency depends on how many current viewers your stream has. 10 seconds for less than 3 viewers, 5 seconds for less than 10 viewers and 2 seconds (or whatever YouTube API dictates) for 10+ viewers.
 
 **Sending test events**
-You can test all available events via Transmitter in your YouTube Live tab. The test buttons will mimic real events that YouTube API sends. There are some options you can fill out as well. 
+You can test all available events via Transmitter in your YouTube Live tab. The test buttons will mimic real events that YouTube API sends. There are some options you can fill out as well.
 
 **Replaying events**
 You can enable Event Replays via Transmitter in your YouTube Live tab. All new recent events (max 15) will be logged and available from the dropdown menu to either replay them or view the raw payload YouTube sends.
