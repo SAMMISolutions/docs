@@ -141,5 +141,4 @@ You can follow the text instructions or click on <i class="far fa-plus-square fa
 
 Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation. 
 
-{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Transmitter or Twitch chat? Please refer to our <a href='https://lioranboard.ca/docs2/troubleshooting/common'>Troubleshooting </a>section!" type="info" %}
-
+{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Transmitter or Twitch chat? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %}

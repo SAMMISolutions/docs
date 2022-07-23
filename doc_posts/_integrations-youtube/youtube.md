@@ -14,13 +14,15 @@ It allows you to listen to all chat events, send chat messages, ban users and ot
 
 Unlike Twitch, YouTube API is very limited and cannot be freely used without going through a long approval process. It has taken several months for YouTube to approve the integration and provide me with additional quota to be able to release it for everyone.
 
-Please consider [donating](https://lioranboard.ca/donate) or supporting me on [Patreon](https://www.patreon.com/Christinna?fan_landing=true), so I can keep further developing and maintaining the integration. Thank you!  
+Please consider [donating](https://sammi.solutions/donate) or supporting me on [Patreon](https://www.patreon.com/Christinna?fan_landing=true), so I can keep further developing and maintaining the integration. Thank you!  
+
+
 
 #### Link your account
 
 You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow LioranBoard access to your YouTube Live account and to retrieve your refresh token. 
 
-{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href={{ 'integrations/youtube/auth' | relative_url }}>authorize it</a> again." type="warning" %} 
+{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href='/integrations/youtube/auth'>authorize it</a> again." type="warning" %} 
 
 1. Retrieve your refresh token from the link provided above
 2. In your LioranBoard, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
@@ -80,7 +82,7 @@ The failure to exercise or enforce any right or provision of the Terms of Servic
 
 
 #### Privacy Policy
-LioranBoard and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://lioranboard.ca/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
+LioranBoard and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
 LioranBoard does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer in LioranBoard in order to use the integration.\
 Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Transmitter, which is a local HTML file that relays the data via a local websocket connection to LioranBoard, which also only ever runs locally.\
 Please see [Google Privacy Policy](https://policies.google.com/privacy), which services LioranBoard uses.

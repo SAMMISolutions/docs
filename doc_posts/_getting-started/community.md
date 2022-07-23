@@ -48,7 +48,7 @@ Interested in contributing to LioranBoard 2 documentation or building an extensi
 ### Add your own button example
 Want to **add your own button example** to any of the commands in the [Commands]({{ "commands/variables" | relative_url }}) section? Each command can have up to 3 different button examples!
 1. First you will need a screenshot of the button uploaded to Imgur and [pastebin](https://pastebin.com/) with the button's [imported JSON]({{ "faq/commands#shareabutton" | relative_url }}).
-2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://lioranboard.ca/docs2/commands/variables#variabletransition" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Variable Transition]({{ "commands/variables#variabletransition" | relative_url }}) command?
+2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://sammi.solutions/docs/commands/variables#variabletransition" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Variable Transition]({{ "commands/variables#variabletransition" | relative_url }}) command?
 3. If this is your first time editing this website, you must click on <button type="button" class="btn btn-success btn-sm">**Fork the repository**</button>
 4. Use this [very simple template](https://github.com/LioranBoard/docs2/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="https://i.imgur.com/zsxdHym.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
 {:start="4"}
@@ -64,7 +64,7 @@ Want to **add your own button example** to any of the commands in the [Commands]
 
 {:class='mt-2 anchor-header'}
 ### Submit your own extension 
-Have you made your own extension and would like to share it with the rest of the community? You can now [submit it](https://lioranboard.ca/extensions/submit) directly from this website! 
+Have you made your own extension and would like to share it with the rest of the community? You can now [submit it](https://sammi.solutions/extensions/submit) directly from this website! 
 
 ### Report a bug <span class="badge bg-warning text-dark">Under construction</span>
 Found a bug? Fill out a bug report either in our Discord channel or in the bug report section on this website! Please follow the guidelines to make it as easy as possible for us to track down the issue. 
