@@ -9,8 +9,8 @@ permalink: /integrations/youtube
 
 #### Introduction
 
-YouTube Live is a completely free LioranBoard integration made by [Christina K](https://github.com/christinna9031?tab=repositories) and reworked for LioranBoard 2 by Lioran himself.\
-It allows you to listen to all chat events, send chat messages, ban users and other commands straight from LioranBoard while streaming on YouTube Live.  
+YouTube Live is a completely free SAMMI integration made by [Christina K](https://github.com/christinna9031?tab=repositories) and reworked for SAMMI by Lioran himself.\
+It allows you to listen to all chat events, send chat messages, ban users and other commands straight from SAMMI while streaming on YouTube Live.  
 
 Unlike Twitch, YouTube API is very limited and cannot be freely used without going through a long approval process. It has taken several months for YouTube to approve the integration and provide me with additional quota to be able to release it for everyone.
 
@@ -20,12 +20,12 @@ Please consider [donating](https://sammi.solutions/donate) or supporting me on [
 
 #### Link your account
 
-You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow LioranBoard access to your YouTube Live account and to retrieve your refresh token. 
+You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow SAMMI access to your YouTube Live account and to retrieve your refresh token. 
 
-{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke LioranBoard's access</a> in your Google account and <a href='/integrations/youtube/auth'>authorize it</a> again." type="warning" %} 
+{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke SAMMI's access</a> in your Google account and <a href='/integrations/youtube/auth'>authorize it</a> again." type="warning" %} 
 
 1. Retrieve your refresh token from the link provided above
-2. In your LioranBoard, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
+2. In your SAMMI, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
 3. Press **Link**.
 
 {% include video.html w="75" src="youtube_auth.mp4" alt="YouTube Linking an account" %}
@@ -34,7 +34,7 @@ You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_u
 #### Quotas
 
 YouTube Live API uses a quota system to ensure that developers use the service as intended and do not create API clients that unfairly reduce service quality or limit access for others.\
-LioranBoard has been given a global quota of 8000000 units/day. This is quota for all users combined using the integration.\
+SAMMI has been given a global quota of 8000000 units/day. This is quota for all users combined using the integration.\
 Individual users have a **max quota of 500 units/minute**. **This in no way means you should use up all your quota every minute**, it's rather a hard limit to prevent spam. It might be a subject to change later depending on how many users use the integration and if we can get a higher quota approved by YouTube.  
 
 
@@ -55,19 +55,19 @@ Find the quota cost table below. YouTube Live API does not provide this informat
 |Get Member Info |2 units|235|
 {:class='table table-primary w-auto table-hover data-toggle='table'} 
 
-If you run out of your individual quota, you will get an alert message `You have exceeded your user quota. Slow down!` in LioranBoard and will not be able to listen to new events or use any commands for 1 minute before your quota is replenished. You might need to reload the Transmitter as well. 
+If you run out of your individual quota, you will get an alert message `You have exceeded your user quota. Slow down!` in SAMMI and will not be able to listen to new events or use any commands for 1 minute before your quota is replenished. You might need to reload the Transmitter as well. 
 
 #### Terms of Service 
-By using the LioranBoard Youtube Live (“Service) integration created by Christina K. ( “We”, “Us”, “Our" ), you are agreeing to be bound by the following terms and conditions ("Terms of Service").<br/>
+By using the SAMMI Youtube Live (“Service) integration created by Christina K. ( “We”, “Us”, “Our" ), you are agreeing to be bound by the following terms and conditions ("Terms of Service").<br/>
 
-If the owner makes material changes to these Terms, we will post a notice in the official LioranBoard Discord server and on our site before the changes are effective. Any new features that augment or enhance the current Service shall be subject to the Terms of Service. Continued use of the Service after any such changes shall constitute your consent to such changes.<br/>
+If the owner makes material changes to these Terms, we will post a notice in the official SAMMI Discord server and on our site before the changes are effective. Any new features that augment or enhance the current Service shall be subject to the Terms of Service. Continued use of the Service after any such changes shall constitute your consent to such changes.<br/>
 
 Violation of any of the terms below will result in the termination of your Account. You agree to use the Service at your own risk.
 
 1. You must be 13 years or older to use this Service.
 2. You are responsible for maintaining the security of your account and specifically your refresh token. We cannot and will not be liable for any loss or damage from your failure to comply with this security obligation.<br/>
 
-Users may access the integration via LioranBoard. Any use of the integration is bound by these Terms of Service, [Youtube’s Terms of service](https://www.youtube.com/t/terms), plus the following specific terms:
+Users may access the integration via SAMMI. Any use of the integration is bound by these Terms of Service, [Youtube’s Terms of service](https://www.youtube.com/t/terms), plus the following specific terms:
 
 1. You expressly understand and agree that we shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses, resulting from your use of the integration.
 2. Abuse or excessively frequent requests to Youtube Live API by modifying the integration code for your own use may result in the temporary or permanent suspension of your account's access to the integration.
@@ -82,8 +82,8 @@ The failure to exercise or enforce any right or provision of the Terms of Servic
 
 
 #### Privacy Policy
-LioranBoard and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
-LioranBoard does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer in LioranBoard in order to use the integration.\
-Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Transmitter, which is a local HTML file that relays the data via a local websocket connection to LioranBoard, which also only ever runs locally.\
-Please see [Google Privacy Policy](https://policies.google.com/privacy), which services LioranBoard uses.
+SAMMI and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
+SAMMI does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer in SAMMI in order to use the integration.\
+Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Transmitter, which is a local HTML file that relays the data via a local websocket connection to SAMMI, which also only ever runs locally.\
+Please see [Google Privacy Policy](https://policies.google.com/privacy), which services SAMMI uses.
 
