@@ -3,7 +3,7 @@ title: "Copy File"
 num: 1
 ---
 
-Copies a file from the LioranBoard folder and pastes it in any of its subfolders.\
+Copies a file from the SAMMI folder and pastes it in any of its subfolders.\
 Will not replace the file if one with the same name is already present.\
 
 | Box Name | Type | Description |
