@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Transmitter
+title: Bridge
 menu: Components
 num: 2
 type: fullpage
-permalink: /transmitter
+permalink: /bridge
 ---
 Transmitter is the <code>transmitter.html</code> file in your lioranboard/transmitter folder. 
 Transmitter connects to your LioranBoard to receive and send messages from extensions. It also allows you to listen to Twitch events, such as new subscribers, raids etc.

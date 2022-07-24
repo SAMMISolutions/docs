@@ -1,10 +1,10 @@
 ---
 layout: default
-title: Stream Deck
+title: SAMMI Deck
 menu: Components
 num: 3
 type: fullpage
-permalink: /streamdeck
+permalink: /deck
 ---
 Stream Deck is where you load your decks containing buttons that you previously created in LioranBoard. With how much customization LioranBoard offers, you can create extremely complex great looking decks!  
 

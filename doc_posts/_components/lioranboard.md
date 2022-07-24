@@ -1,10 +1,10 @@
 ---
 layout: default
-title: SAMMI:Core
+title: SAMMI Core
 menu: Components
 num: 1
 type: fullpage
-permalink: /lioranboard
+permalink: /core
 ---
 
 SAMMI:Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
