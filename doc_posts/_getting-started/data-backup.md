@@ -8,7 +8,7 @@ type: fullpage
 ---
 
 #### Auto Update SAMMI Core
-SAMMI comes with an auto-updater that allows you to update or verify the Receiver, Stream Deck and Transmitter. While SAMMI is running, right-click on the SAMMI icon in your system tray and select `Check for Updates`. 
+SAMMI comes with an auto-updater that allows you to update or verify the Receiver, SAMMI Deck and Bridge. While SAMMI is running, right-click on the SAMMI icon in your system tray and select `Check for Updates`. 
 
 If there are updates available, you will be able to update or verify the SAMMI components to make sure you are on the latest version. 
 

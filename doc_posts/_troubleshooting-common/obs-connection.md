@@ -21,7 +21,7 @@ The password you enter in OBS > Tools > WebSockets Server Settings must match th
 - **Verify ports settings**\
 The port entered in OBS > Tools > WebSockets Server Settings must match the port in SAMMI > OBS Connections.\
 The default port for WebSockets 4.x.x is 4444. The default for WebSockets 5.x.x is 4455.\
-Note that this port MUST be different from the port number used in your Transmitter settings.
+Note that this port MUST be different from the port number used in your Bridge settings.
 - **Try Non-Blocking Connection**\
 In SAMMI, go to OBS Connections and check/uncheck "Non-Blocking".
 - **Change IP connection**\

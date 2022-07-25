@@ -215,7 +215,7 @@ Listens to all host events in your stream. Twitch does not send alerts for host 
 ##### Channel Points
 Listens to all custom channel points redeems.
 
-In order for SAMMI to listen to Channel Point triggers, make sure the scope to listen to Channel Points has been enabled in SAMMI. Twitch and the Transmitter also has to be connected.
+In order for SAMMI to listen to Channel Point triggers, make sure the scope to listen to Channel Points has been enabled in SAMMI. Twitch and the Bridge also has to be connected.
 
 | Condition | Explanation |
 |-------|--------|

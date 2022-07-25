@@ -66,8 +66,8 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |OBS Disconnected|Every time SAMMI disconnects from OBS.
 |Twitch Connected | Every time SAMMI connects to Twitch.
 |Twitch Disconnected |Every time SAMMI disconnects from Twitch.
-|Streamdeck/Transmitter Connected| Every time Stream Deck or Transmitter connects to SAMMI.
-|Streamdeck/Transmitter Disconnected| Every time Stream Deck or Transmitter disconnects from SAMMI.
+|SAMMI Deck/Bridge Connected| Every time SAMMI Deck or Bridge connects to SAMMI.
+|SAMMI Deck/Bridge Disconnected| Every time SAMMI Deck or Bridge disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -75,4 +75,4 @@ These triggers allows you to listen to SAMMI state and connection changes.
 
 ##### Extension Trigger
 
-Extension triggers can come from Transmitter extensions or from [Trigger Extension Trigger]({{ "commands/trigger#triggerextensiontriggers" | relative_url }}) command.
+Extension triggers can come from Bridge extensions or from [Trigger Extension Trigger]({{ "commands/trigger#triggerextensiontriggers" | relative_url }}) command.

@@ -17,7 +17,7 @@ There are several premade permanent global variables that might be useful for yo
 
 | Variable | Explanation|  
 |-------|--------|--------
-{% include selectAll.html text="transmitter_connected" %}| true if connected, false if not connected
+{% include selectAll.html text="bridge_connected" %}| true if connected, false if not connected
 {% include selectAll.html text="twitch_chat_connected" %}| true if connected, false if not connected
 {% include selectAll.html text="twitch_client_id" %}| LioranBoard Twitch Client ID, used in Twitch API calls
 {% include selectAll.html text="main_directory" %}| Main directory where LioranBoard folder resides. Useful for extension makers to be able to easily copy files. 

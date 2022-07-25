@@ -7,12 +7,12 @@ type: fullpage
 permalink: /core
 ---
 
-SAMMI:Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
-{% include alert.html text="SAMMI:Core is formerly known as the LioranBoard Receiver" type="primary" %} 
+SAMMI Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
+{% include alert.html text="SAMMI Core is formerly known as the LioranBoard Receiver" type="primary" %} 
 
-{% include image.html w="auto" src="lioranboard.png" alt="SAMMI:Core" %}
+{% include image.html w="auto" src="lioranboard.png" alt="SAMMI Core" %}
 
-{% include alert.html text="SAMMI:Core is only an editor. Use Stream Deck to press your buttons." type="warning" %} 
+{% include alert.html text="SAMMI Core is only an editor. Use SAMMI Deck to press your buttons." type="warning" %} 
 
 ### Deck Menu 
 - Edit Deck - allows you to edit currently selected deck, same as double clicking on the deck
@@ -22,37 +22,37 @@ SAMMI:Core is the main component. You can change all the settings, add and modif
 - Copy Deck - exports the entire deck to your clipboard in JSON format to share with others, can include all deck button images as well
 - Paste Deck - imports the entire deck from your clipboard, must be in JSON format
 
-### Stream Deck 
-{% include image.html w="75" src="lb-streamdeck.png" alt="Stream Deck Icon" %}
-Press the button to open your [Stream Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+### SAMMI Deck 
+{% include image.html w="75" src="lb-streamdeck.png" alt="SAMMI Deck Icon" %}
+Press the button to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
 
-### Transmitter
-{% include image.html w="auto" src="transmitter_lb.png" alt="Transmitter settings" %}
-- Select a Transmitter - allows you to select your default Transmitter file where all your extensions will be installed/uninstalled from
-- Install an Extension - installs an extension from .lb2 file to your default Transmitter file
-- Uninstall an Extension - uninstalls a selected extension from your default Transmitter file
-- Reinstall all Extensions - reinstalls all extensions in your default Transmitter
-- Open in a browser - opens your default Transmitter in a browser
+### Bridge
+{% include image.html w="auto" src="transmitter_lb.png" alt="Bridge settings" %}
+- Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+- Install an Extension - installs an extension from .lb2 file to your default Bridge file
+- Uninstall an Extension - uninstalls a selected extension from your default Bridge file
+- Reinstall all Extensions - reinstalls all extensions in your default Bridge
+- Open in a browser - opens your default Bridge in a browser
 
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
-- Main OBS - indicates whether SAMMI:Core is connected to your main OBSWS 
-- Twitch Chat - indicates whether SAMMI:Core is connected to Twitch Chat for listening to and sending new messages
-- Transmitter - indicates whether SAMMI:Core is connected to Transmitter, required for Twitch Alerts and some extensions
+- Main OBS - indicates whether SAMMI Core is connected to your main OBSWS 
+- Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new messages
+- Bridge - indicates whether SAMMI Core is connected to Bridge, required for Twitch Alerts and some extensions
 
 ### Settings
 Allows you to adjust UI settings and external connection settings.
 
 {% include image.html w="50" src="lb-settings.png" alt="Settings" %}
 
-- Allow Stream Deck and Transmitter - check this box to allow Stream Deck and Transmitter to connect to SAMMI:Core, fill out the port and optionally password for any incoming connection
-- Minimize to Tray - when checked, SAMMI:Core will minimize to tray instead of closing when you press X 
-- FPS - SAMMI:Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
+- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the port and optionally password for any incoming connection
+- Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
+- FPS - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
 - Interface Size - change scaling if you're using a non standard resolution
 - Reset LioranBoard - clears all running buttons and variables and reloads all decks
-- Check for Updates - checks for new updates, allows you to update SAMMI:Core and view patch noes
+- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch noes
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
@@ -62,7 +62,7 @@ Allows you to set up your OBS connection. Multiple connections and multiple OBSW
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
-Allows you to connect SAMMI:Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
+Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
 {% include image.html w="50" src="twitch-connections.png" alt="Twitch Connections" %}
 Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
 
@@ -82,8 +82,8 @@ You can choose to interrupt (clear) all, ongoing or queued buttons.
 
 ### Deck
 
-If you press `Add new Deck` button, a new empty deck will be added to SAMMI:Core. Double click on the deck to open it.\
-Every deck is active at all times (unless manually disabled) in SAMMI:Core. It does not matter if your Stream Deck is currently connected to a different deck.\
+If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core. Double click on the deck to open it.\
+Every deck is active at all times (unless manually disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
 You can check `Disable Deck` in your main menu to deactivate your deck and all its buttons.
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
@@ -163,7 +163,7 @@ Button commands have their own specific rules that you need to follow, read read
 See the list of all available commands in the **Commands** section.  
 
 #### Edit Release Commands
-Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your Stream Deck or hotkey**. You can add as many commands as you want.
+Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your SAMMI Deck or hotkey**. You can add as many commands as you want.
 
 #### Edit Init Variables
 Initial variables the button will have when initiated. It prevents persistent buttons from crashing. Must be in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).

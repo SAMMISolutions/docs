@@ -42,7 +42,7 @@ SAMMI can manipulate CSV files.
 
 ##### HTTP Request
 [Get HTTP Request]({{ "/commands/misc#gethttprequest" | relative_url }}) command replaces Web Request extension. You can call an API and receive its response directly in SAMMI now.\
-As an example, the whole Spotify extension is now fully contained in SAMMI and does not require Transmitter to run anymore.
+As an example, the whole Spotify extension is now fully contained in SAMMI and does not require Bridge to run anymore.
 
 ##### More Twitch control
 New native [Twitch triggers]({{ "/triggers/twitch" | relative_url }}) for f**ollowers, polls, predictions and hype train**.  
@@ -51,8 +51,8 @@ Added tremendous amount of [Twitch commands]({{ "/commands/twitch" | relative_ur
 
 Added user friendly UI to **create and modify your Channel Points** directly from SAMMI-Twitch Connections menu.
 
-##### Transmitter
-Transmitter is mostly similar for users, however you **do not need to manually reinstall extensions** when you update your Transmitter to a newer version. This is all automatically handled by SAMMI for you.   
+##### Bridge
+Bridge is mostly similar for users, however you **do not need to manually reinstall extensions** when you update your Bridge to a newer version. This is all automatically handled by SAMMI for you.   
 
 If you're an extension developer, you will need to rewrite some of your code to work with SAMMI: 
 
@@ -69,15 +69,15 @@ If you're an extension developer, you will need to rewrite some of your code to 
 [insert_script]
 [insert_over]
 ```
-- there are [new helper functions](https://github.com/LioranBoard/LioranBoard-2-Transmitter#lb-transmitter) in the Transmitter for everything you want to send to SAMMI. 
+- there are [new helper functions](https://github.com/SAMMISolutions/SAMMI-Bridge#lb-transmitter) in the Bridge for everything you want to send to SAMMI. 
 
-- hooks still work the same, however now you can [listen to these events directly](https://github.com/LioranBoard/LioranBoard-2-Transmitter#listening-to-extension-data-received-from-lioranboard)
+- hooks still work the same, however now you can [listen to these events directly](https://github.com/SAMMISolutions/SAMMI-Bridge#listening-to-extension-data-received-from-lioranboard)
 
 ##### Extensions
 As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will have to be updated and others are not needed anymore (like Get Profile Picture extension, as now you can get the pic with the [Get User Info Command]({{ "/commands/twitch#getuserinfo" | relative_url }})
 
 ##### Commands Changes
-- added Release Commands - they will execute on button release (only from Stream Deck or Trigger Button command
+- added Release Commands - they will execute on button release (only from SAMMI Deck or Trigger Button command
 - you can disable a command 
 - [sounds]({{ "/commands/sounds" | relative_url }}) are now their own commands 
 - Math: Change variable command was replaced with new [Set Variable]({{ "/commands/variables" | relative_url }}) commands
@@ -87,7 +87,7 @@ As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will h
 - added more [String]({{ "/commands/string" | relative_url }}) commands, such as Remove Section, String Hash etc.
 - added [Button Get Own ID command]({{ "/commands/button#buttongetownid" | relative_url }})
 - added more [Twitch commands]({{ "/commands/twitch" | relative_url }}): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
-- added [Trigger Extension Trigger]({{ "/commands/trigger#triggerextensiontriggers" | relative_url }}) command which is the same as triggering an extension from a Transmitter. This way you can pass parameters from one button to another and make it behave similar to functions in programming
+- added [Trigger Extension Trigger]({{ "/commands/trigger#triggerextensiontriggers" | relative_url }}) command which is the same as triggering an extension from a Bridge. This way you can pass parameters from one button to another and make it behave similar to functions in programming
 - [Fetch OBS Data]({{ "/commands/obs-general#fetchobsdata" | relative_url }}) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
 - [Comments]({{ "/commands/misc#comment" | relative_url }}) can now contain nested commands, super useful for organizing your commands
 - Removed Statement: And and Or commands, you can now add them directly in the If Statement command by pressing the command's **+** button
@@ -98,7 +98,7 @@ As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will h
 - still no variables in the delay fields, but you can now use [Wait for Timeout]({{ "/commands/wait#waitfortimeout" | relative_url }}) command to add variable delays between your commands
 
 ##### Other Changes
-- SAMMI can automatically update Receiver, Stream Deck and Transmitter for you when there's a new version available. Just click on Settings-Check for updates.
+- SAMMI can automatically update Receiver, SAMMI Deck and Bridge for you when there's a new version available. Just click on Settings-Check for updates.
 - added support for **multiple OBS connections** (you can select a specific OBS to use for your commands or triggers)
 - you can minimize SAMMI to tray
 - ability to scale the SAMMI's UI

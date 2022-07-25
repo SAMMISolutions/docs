@@ -4,9 +4,9 @@ num: 1
 ---
 
 #### Check whether the button is triggering
-Unless you’re triggering the button by pressing it on the stream deck, it’s possible that your button didn’t work because it isn’t triggering properly. There are two ways to check whether your button triggered:
+Unless you’re triggering the button by pressing it on the SAMMI Deck, it’s possible that your button didn’t work because it isn’t triggering properly. There are two ways to check whether your button triggered:
 
-- Look at the stream deck to see whether the button shows an animation
+- Look at the SAMMI Deck to see whether the button shows an animation
 - Click ‘Active Buttons’ in the receiver main window to see whether the button ID pops up there. If the button doesn’t have any delays or wait commands this will be a quick flash, but you should still be able to see it.
 
 #### Possibility A: The button did not trigger
@@ -30,8 +30,8 @@ Your button not triggering at all could have three causes: either your button's 
 
 *Check whether SAMMI is receiving the trigger*
 
-- You cannot test via a third party app such as StreamLabs or StreamElements. Only test with the test buttons in the Transmitter, or via Twitch.
-- Make sure whatever is sending your trigger is connected to SAMMI. You can see this in the bottom left of the main window. Twitch Subs, Channel Points, etc. arrive via the Transmitter! 
+- You cannot test via a third party app such as StreamLabs or StreamElements. Only test with the test buttons in the Bridge, or via Twitch.
+- Make sure whatever is sending your trigger is connected to SAMMI. You can see this in the bottom left of the main window. Twitch Subs, Channel Points, etc. arrive via the Bridge! 
 - Make sure you’re listening for the triggers in the Twitch Connections window.
 
 ##### Common issues with specific triggers:

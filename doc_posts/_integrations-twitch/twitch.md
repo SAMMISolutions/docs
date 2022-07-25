@@ -9,7 +9,7 @@ type: fullpage
 
 SAMMI can connect to your Twitch account, remotely control it and listen to events in your stream.
 
-{% include alert.html text="Your Transmitter must be running at all times for Twitch to stay connected." type="warning" %}
+{% include alert.html text="Your Bridge must be running at all times for Twitch to stay connected." type="warning" %}
 
 #### Link a single Twitch account
 We need to authorize SAMMI to interact with your Twitch account.

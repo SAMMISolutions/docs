@@ -44,29 +44,29 @@ You should see a yellow notification message `OBS [Main] Connected` and the stat
 
   {% include image.html w="75" src="obs-connected.png" alt="OBS is connected" %}
 
-#### 5. Add Transmitter to your OBS Dock
+#### 5. Add Bridge to your OBS Dock
 
-In your OBS menu navigate to **View - Docks - Custom Browser Docks**. Your new dock name can be `Transmitter` and the URL will be the path to the `transmitter.html` file located in your `lioranboard/transmitter` folder.
+In your OBS menu navigate to **View - Docks - Custom Browser Docks**. Your new dock name can be `Bridge` and the URL will be the path to the `bridge.html` file located in your `SAMMI/bridge` folder.
 
 {% include image.html w="100" src="transmitter_dock.png" alt="OBS Dock Settings" type="image" %}
 
-Press **apply** and you should see your new dock. If it does not pop up for some reason, you can always go to View - Docks - Transmitter.   
+Press **apply** and you should see your new dock. If it does not pop up for some reason, you can always go to View - Docks - Bridge.   
 Fit your new dock somewhere in your OBS screen as you see fit. 
 
-{% include image.html w="75" src="transmitter_dock2.png" alt="Transmitter in a dock in OBS" %}
+{% include image.html w="75" src="transmitter_dock2.png" alt="Bridge in a dock in OBS" %}
 
-#### 6. Connect Transmitter to SAMMI
-In your **LioranBoard-Settings** menu, check `Allow Stream Deck and Transmitter` to allow Transmitter to connect.\
-In your **Transmitter-status** tab (in our OBS dock), you can now modify your connection settings.\
+#### 6. Connect Bridge to SAMMI
+In your **LioranBoard-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
+In your **Bridge-status** tab (in our OBS dock), you can now modify your connection settings.\
 Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Unless you changed port in your LioranBoard-Settings, you can leave it at its default value.\
 You must fill out the password if you decided to use one in LioranBoard-Settings menu.\
-Note that you only need to do this once, as your Transmitter will remember the previous settings and will attempt to auto connect next time.
+Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
-{% include image.html w="75" src="transmitter-connection.png" alt="Transmitter Connection Settings" %}
+{% include image.html w="75" src="transmitter-connection.png" alt="Bridge Connection Settings" %}
 
-{% include alert.html text="Transmitter must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
+{% include alert.html text="Bridge must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
 
-In your Transmitter you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to LioranBoard. This means it is connected to your SAMMI and listening for messages. 
+In your Bridge you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to LioranBoard. This means it is connected to your SAMMI and listening for messages. 
 
 #### 7. Link your Twitch account
 
@@ -85,8 +85,8 @@ Linking your Twitch account to SAMMI is a necessary step if you want to be able 
   {% include image.html w="100" src="link-twitch.png" alt="Active Twitch Connection" %}
 
 {:start="7"}
-7. Now that your Twitch account is linked in SAMMI, Pubsub status in your Transmitter should change to **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %}.\
-**Remember you Transmitter must be running at all times to be able to listen to Twitch events.**
+7. Now that your Twitch account is linked in SAMMI, Pubsub status in your Bridge should change to **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %}.\
+**Remember you Bridge must be running at all times to be able to listen to Twitch events.**
 
   {% include image.html w="75" src="pubsub-connected.png" alt="Pubsub connected" %}
   
@@ -116,23 +116,23 @@ You can follow the text instructions or click on <i class="far fa-plus-square fa
     </ol>
   </li><br>
   <li>Once you're back at your main deck view, press <strong>Save</strong>.</li>We have now created a button that will send a chat message <code>Hello World</code> anytime it's triggered. We have also created a Twitch chat trigger which will execute the button any time someone types <code>!test</code> in your Twitch chat.<br><br>
-  <h5>Trigger the button manually from Stream Deck</h5>
+  <h5>Trigger the button manually from SAMMI Deck</h5>
   <ol>
-    <li>{% include video_collapse.html w="80" src="open-streamdeck.mp4" alt="Open Stream Deck" %} Back in your main SAMMI menu, press <strong>Stream Deck</strong> to open it. This is your Stream Deck where you can manually press buttons you create in your SAMMI.<br>
+    <li>{% include video_collapse.html w="80" src="open-streamdeck.mp4" alt="Open SAMMI Deck" %} Back in your main SAMMI menu, press <strong>SAMMI Deck</strong> to open it. This is your SAMMI Deck where you can manually press buttons you create in your SAMMI.<br>
       <br>
-      {% include alert.html text="sammi only acts as an editor. You can press your buttons in Stream Deck." type="warning" %}
+      {% include alert.html text="sammi only acts as an editor. You can press your buttons in SAMMI Deck." type="warning" %}
       <p>Once launched, you will see connection settings. As we are just keeping everything at default in this tutorial, you can press <b>Connect</b>. Selected deck should be <b>Deck 1</b>. Press <b>Load Deck</b> and you should see your newly created button that we named <code>Send message</code>.</p>
     </li>
-    <li>{% include video_collapse.html w="100" src="trigger_button.mp4" name="button_manual" alt="Press your newly created button" %} While looking at your Twitch chat, click on the button in your Stream Deck. It should send a <code>Hello World</code> message to your chat!<br>
+    <li>{% include video_collapse.html w="100" src="trigger_button.mp4" name="button_manual" alt="Press your newly created button" %} While looking at your Twitch chat, click on the button in your SAMMI Deck. It should send a <code>Hello World</code> message to your chat!<br>
     <b>Important:</b> Your SAMMI must be running and connected to Twitch Chat (SAMMI-Twitch Connections-Connect Twitch Chat).</li>
   </ol><br>
   <h5>Trigger the button via your Twitch chat</h5>
   <p>Do you still remember the Twitch chat trigger you configured for your button? If you followed the tutorial, it should be <code>!test</code>.</p>
   <ol>
-    <li>{% include video_collapse.html w="80" src="trigger_button_chat.mp4" name="button_trigger_twitch" alt="Trigger your button from Twitch chat" %} Try typing <code>!test</code> (or anything else you chose to be your trigger) in your Twitch chat while looking both at your chat and Stream Deck.<br>
+    <li>{% include video_collapse.html w="80" src="trigger_button_chat.mp4" name="button_trigger_twitch" alt="Trigger your button from Twitch chat" %} Try typing <code>!test</code> (or anything else you chose to be your trigger) in your Twitch chat while looking both at your chat and SAMMI Deck.<br>
       Two things should happen:
       <ul>
-        <li>You will see the button in your Stream Deck blink, just like when you manually pressed it with your mouse.</li>
+        <li>You will see the button in your SAMMI Deck blink, just like when you manually pressed it with your mouse.</li>
         <li>LioranBoard will respond back with <code>Hello World</code> in your Twitch chat.</li>
       </ul>
     </li><br>
@@ -141,4 +141,4 @@ You can follow the text instructions or click on <i class="far fa-plus-square fa
 
 Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation. 
 
-{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Transmitter or Twitch chat? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %}
+{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge or Twitch chat? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %}

@@ -13,6 +13,6 @@ Make a backup of your `decks_data.json` file, then rename `decks_data_old.json` 
 **Faulty sound drivers**\
 You can try [reinstalling your sound drivers](https://support.microsoft.com/en-us/windows/fix-sound-problems-in-windows-10-73025246-b61c-40fb-671a-2535c7cd56c8).
 
-**Incompatible versions between SAMMI:Core and Stream Deck**\
-You may have a newer version of the Stream Deck compared to the receiver. Close all connections to SAMMI (OBS, Stream Deck) and restart SAMMI, then update it to the latest version.\
+**Incompatible versions between SAMMI Core and SAMMI Deck**\
+You may have a newer version of the SAMMI Deck compared to the receiver. Close all connections to SAMMI (OBS, SAMMI Deck) and restart SAMMI, then update it to the latest version.\
 If the crash persists, you can also save the 'json' folder in your SAMMI folder to a different location, then delete the folder. Restart (or download a new copy of) SAMMI, then update your receiver to the latest version. After doing so and verifying that it no longer crashes, copy the json back into your SAMMI folder. 

@@ -43,7 +43,7 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |20|Youtube Superchat|
 |21|Youtube Supersticker|
 |22|Youtube Member|
-|23|Stream Deck Button Press|
+|23|SAMMI Deck Button Press|
 |24|Trigger Button|
 |25|Trigger Button with Delay|
 {:class='table table-secondary w-auto table-hover text-break' }

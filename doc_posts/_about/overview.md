@@ -41,7 +41,7 @@ You can read more about our team members and support us on our [Patreon](https:/
 **Current Contributors**
 
 - SAMMI Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
-- SAMMI Stream Deck: Lioran
+- SAMMI Deck: Lioran
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
 - sammi.solutions website: [Christina K](https://github.com/christinna9031)
 - Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!

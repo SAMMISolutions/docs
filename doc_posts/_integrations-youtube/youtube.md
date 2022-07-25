@@ -55,7 +55,7 @@ Find the quota cost table below. YouTube Live API does not provide this informat
 |Get Member Info |2 units|235|
 {:class='table table-primary w-auto table-hover data-toggle='table'} 
 
-If you run out of your individual quota, you will get an alert message `You have exceeded your user quota. Slow down!` in SAMMI and will not be able to listen to new events or use any commands for 1 minute before your quota is replenished. You might need to reload the Transmitter as well. 
+If you run out of your individual quota, you will get an alert message `You have exceeded your user quota. Slow down!` in SAMMI and will not be able to listen to new events or use any commands for 1 minute before your quota is replenished. You might need to reload the Bridge as well. 
 
 #### Terms of Service 
 By using the SAMMI Youtube Live (“Service) integration created by Christina K. ( “We”, “Us”, “Our" ), you are agreeing to be bound by the following terms and conditions ("Terms of Service").<br/>
@@ -84,6 +84,6 @@ The failure to exercise or enforce any right or provision of the Terms of Servic
 #### Privacy Policy
 SAMMI and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
 SAMMI does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer in SAMMI in order to use the integration.\
-Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Transmitter, which is a local HTML file that relays the data via a local websocket connection to SAMMI, which also only ever runs locally.\
+Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Bridge, which is a local HTML file that relays the data via a local websocket connection to SAMMI, which also only ever runs locally.\
 Please see [Google Privacy Policy](https://policies.google.com/privacy), which services SAMMI uses.
 
