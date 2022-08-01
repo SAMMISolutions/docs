@@ -8,7 +8,7 @@ permalink: /core
 ---
 
 SAMMI Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
-{% include alert.html text="SAMMI Core is formerly known as the LioranBoard Receiver" type="primary" %} 
+{% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
 {% include image.html w="auto" src="lioranboard.png" alt="SAMMI Core" %}
 
@@ -21,24 +21,40 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 - Move Left/Right - repositions the deck
 - Copy Deck - exports the entire deck to your clipboard in JSON format to share with others, can include all deck button images as well
 - Paste Deck - imports the entire deck from your clipboard, must be in JSON format
+- Duplicate Deck - creates a copy of the entire deck inside SAMMI
 
 ### SAMMI Deck 
 {% include image.html w="75" src="lb-streamdeck.png" alt="SAMMI Deck Icon" %}
-Press the button to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+- Open SAMMI Deck - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+- Get LAN IP (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
+- Android Version - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
 
 ### Bridge
 {% include image.html w="auto" src="transmitter_lb.png" alt="Bridge settings" %}
 - Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+- Open in a browser - opens your default Bridge in a browser
+- Reveal in File Explorer - opens your Bridge file's location in File Explorer
+- Copy Full Path - places the file path to the Bridge in your clipboard
 - Install an Extension - installs an extension from .lb2 file to your default Bridge file
 - Uninstall an Extension - uninstalls a selected extension from your default Bridge file
+- Install all Extensions from folder - installs all extensions in a selected folder to the Bridge at once
 - Reinstall all Extensions - reinstalls all extensions in your default Bridge
-- Open in a browser - opens your default Bridge in a browser
+
+### Backup
+//{% include image.html w="auto" src="" alt="Backup options" %}
+- Save SAMMI Backup - saves a backup of stuffs
+- Load SAMMI Backup - loads a previously created backup
+
+### About
+//{% include image.html w="auto" src="" alt="About" %}
+Press to open the About page, with info about the developers, and Patreon supporters
 
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
 - Main OBS - indicates whether SAMMI Core is connected to your main OBSWS 
+- Twitch Pubsub - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as follows, subs, etc.
 - Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new messages
 - Bridge - indicates whether SAMMI Core is connected to Bridge, required for Twitch Alerts and some extensions
 
@@ -47,12 +63,19 @@ Allows you to adjust UI settings and external connection settings.
 
 {% include image.html w="50" src="lb-settings.png" alt="Settings" %}
 
-- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the port and optionally password for any incoming connection
+- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the optional password for any incoming connection (port not editable in non-Dev mode)
 - Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
+- Auto restart SAMMI after crash - when checked, SAMMI will re-open itself after a crash
+- Automatically check for updates - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
+- Automatically close variable wrapping - when checked, SAMMI will automatically write the "$/" when you type "/$" with nothing to the right of the cursor
+- Enable enhanced protection mode - when checked, SAMMI will not be allowed to modify or delete files outside of the main SAMMI directory, nor any critical files inside the directory.
 - FPS - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
+- Language dropdown - change the language of SAMMI
 - Interface Size - change scaling if you're using a non standard resolution
-- Reset LioranBoard - clears all running buttons and variables and reloads all decks
-- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch noes
+- Reset SAMMI - clears all running buttons and variables and reloads all decks
+- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch notes
+- Cancel - closes the window without saving any changes
+- Save - saves any changes
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
@@ -108,7 +131,7 @@ You can create a new button inside a deck by either right clicking on your empty
 If you now right click on the created button, a new button menu appears: 
 #### Edit Appearance
 Edit your button text, color, image and border size.\
-All button images will be automatically resized and copied to `lioranboard/image` folder.\
+All button images will be automatically resized and copied to `SAMMI/image` folder.\
 You can press SHIFT + double click on a button to edit settings.
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
