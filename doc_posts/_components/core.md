@@ -136,6 +136,17 @@ You can create a new button inside a deck by either right clicking on your empty
 
 {% include video.html w="75" src="create-button.mp4" alt="Create a new button" %}
 
+There are also several keyboard shortcuts you can use:
+
+| Shortcut | Function |
+| ----- | ----- |
+| Ctrl+C | Copies a selected button.|
+| Ctrl+V | Pastes a copied button in a selected empty slot.|
+| Delete | Deletes a selected button.|
+| Ctrl+Z | Undoes the last action.|
+| Ctrl+Y\nCtrl+Shift+Z | Redoes a previous undone action.|
+| Ctrl+S | Saves the deck and closes the Deck view.|
+
 {% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
 
 If you now right click on the created button, a new button menu appears: 
@@ -192,6 +203,9 @@ Learn more about specific triggers in our [**Triggers**]({{ "triggers/introducti
 When you right click-Edit commands or double click on your button and press **+**, you can start adding commands to execute when the button is pressed.  
 
 Button commands have their own specific rules that you need to follow, read read more about them in our [Commands-Introduction]({{ "commands/introduction" | relative_url }})  section. 
+   
+Once you're done with adding commands, you can now run the button directly from the commands window - no more having to save back to the main screen and testing via a chat command or pressing the button on the deck!
+{% include alert.html text="Please be aware that any commands that involve wildcards or pulling info from the trigger may not work as intended if tested this way - for best results, test the same way you intend for it to be used." type="info" %} 
 
 See the list of all available commands in the **Commands** section.  
 
@@ -202,13 +216,13 @@ Program your button to perform specific actions when released. **The release act
 Initial variables the button will have when initiated. It prevents persistent buttons from crashing. Must be in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).
 
 #### Copy Button
-Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one.
+Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one. Can also be done by selecting the button and pressing Ctrl+C, with Ctrl+V to paste it in a selected empty spot.
 
 {% include video.html w="75" src="copy-button.mp4" alt="Copying and pasting a button" %}
 
 
 #### Delete Button
-Delete a whole button.
+Delete a whole button. Can also be done by selecting a button and pressing the Delete key.
 
 #### Export JSON
 Exports a button by copying its contents to your clipboard. 
