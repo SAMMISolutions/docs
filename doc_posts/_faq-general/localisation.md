@@ -7,4 +7,4 @@ SAMMI now has the abliity to be translated into your local language. Currently, 
 - Spanish
 - German
 
-If you'd like to contribute to the localisation efforts,  <a href='sammi.solutions@gmail.com;'>please let us know!</a>
+If you'd like to contribute to the localisation efforts, [please let us know!](mailto:sammi.solutions@gmail.com)
