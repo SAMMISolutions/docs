@@ -39,7 +39,7 @@ From June 2022, the LioranBoard 2 Dev team started building upon the original co
 
 You can read more about our team members and support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
 
-** Contributors**
+**Contributors**
 
 - SAMMI Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
 - SAMMI Deck: Lioran
