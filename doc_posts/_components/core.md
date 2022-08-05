@@ -10,7 +10,7 @@ permalink: /core
 SAMMI Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
 {% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
-{% include image.html w="auto" src="lioranboard.png" alt="SAMMI Core" %}
+{% include image.html w="auto" src="SAMMI.png" alt="SAMMI Core" %}
 
 {% include alert.html text="SAMMI Core is only an editor. Use SAMMI Deck to press your buttons." type="warning" %} 
 
@@ -24,13 +24,13 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 - Duplicate Deck - creates a copy of the entire deck inside SAMMI
 
 ### SAMMI Deck 
-{% include image.html w="75" src="lb-streamdeck.png" alt="SAMMI Deck Icon" %}
+{% include image.html w="75" src="deck_menu.png" alt="SAMMI Deck Icon" %}
 - Open SAMMI Deck - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
 - Get LAN IP (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
 - Android Version - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
 
 ### Bridge
-{% include image.html w="auto" src="transmitter_lb.png" alt="Bridge settings" %}
+{% include image.html w="auto" src="bridge.png" alt="Bridge settings" %}
 - Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
 - Open in a browser - opens your default Bridge in a browser
 - Reveal in File Explorer - opens your Bridge file's location in File Explorer
@@ -41,12 +41,12 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 - Reinstall all Extensions - reinstalls all extensions in your default Bridge
 
 ### Backup
-//{% include image.html w="auto" src="" alt="Backup options" %}
+{% include image.html w="auto" src="backup.png" alt="Backup options" %}
 - Save SAMMI Backup - saves a backup of stuffs
 - Load SAMMI Backup - loads a previously created backup
 
 ### About
-//{% include image.html w="auto" src="" alt="About" %}
+{% include image.html w="auto" src="about.png" alt="About" %}
 Press to open the About page, with info about the developers, and Patreon supporters
 
 ### Connection Status Indicators
@@ -61,7 +61,7 @@ Press to open the About page, with info about the developers, and Patreon suppor
 ### Settings
 Allows you to adjust UI settings and external connection settings.
 
-{% include image.html w="50" src="lb-settings.png" alt="Settings" %}
+{% include image.html w="50" src="settings.png" alt="Settings" %}
 
 - Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the optional password for any incoming connection (port not editable in non-Dev mode)
 - Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
@@ -80,20 +80,24 @@ Allows you to adjust UI settings and external connection settings.
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
 
-{% include image.html w="50" src="lb-obs-settings.png" alt="OBS Connections" %}
+{% include image.html w="50" src="obs_settings.png" alt="OBS Connections" %}
 
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
-Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
-{% include image.html w="50" src="twitch-connections.png" alt="Twitch Connections" %}
+Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.
+{% include image.html w="50" src="twitch_settings.png" alt="Twitch Connections" %}
 Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
+
+### YouTube Connection
+Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.
+{% include image.html w="50" src="youtube_settings.png" alt="YouTube Connection" %}
 
 ### Variable Viewer
 The variable viewer can be accessed from the Deck Editor, or the Commands Editor. You can also use the Ctrl+Tab key as a shortcut.
 
 In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
-{% include video.html w="75" src="var-window.mp4" alt="Variable window showing button ID variables" %}
+{% include image.html w="75" src="var_viewer.gif" alt="Variable window showing button ID variables" %}
 
 If you click on the eye icon, you can see all current variables for the selected button ID.
 
@@ -107,7 +111,7 @@ Learn more about variables in our [Commands-Variables](commands/variables#introd
 All currently running buttons will be displayed in this window.\
 You can choose to interrupt (clear) all, ongoing or queued buttons. 
 
-{% include video.html w="75" src="ongoing-buttons.mp4" alt="Interrupting an active button" %}
+{% include image.html w="75" src="active_buttons.gif" alt="Interrupting an active button" %}
 
 ### Deck
 
