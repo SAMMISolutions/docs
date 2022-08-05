@@ -25,4 +25,5 @@ The following premade/permanent global variables are accessible from all the but
 {% include selectAll.html text="Main.previous_scene" %}| Previous scene in your main OBS
 {% include selectAll.html text="administrator_mode" %}| True if running in Administrator mode
 {% include selectAll.html text="trigger_type" %}| Array that lists all available trigger types
+{% include selectAll.html text="deck_connected" %}| Returns True of SAMMI deck is connected, false if not.
 {:class='table table-secondary w-auto table-hover text-break' }
