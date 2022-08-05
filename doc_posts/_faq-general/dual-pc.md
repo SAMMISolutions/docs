@@ -3,7 +3,7 @@ title: Dual PC Setup
 num: 2
 ---
 
-LioranBoard can connect to your OBS from another PC, as long as they are both sharing the same network.\
+SAMMI can connect to your OBS from another PC, as long as they are both sharing the same network.\
 
 **Streaming PC**
 1. Run your OBS as normal.
