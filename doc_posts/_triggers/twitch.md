@@ -50,6 +50,7 @@ Message | Chat message to listen to. Must be an exact match. Can include **[Wild
 | Channel | Channel Name where the message originated from. Will return `w` if it's a whisper. |
 | Name Color | Chat name color in hexadecimal format. |
 | First Time | Whether it's user's first chat message. 0 = not first, 1 = first |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -91,6 +92,7 @@ Triggers for all new channel followers.
 | User Name | Viewer's username (all lowercase characters). |
 | Display Name | Viewer's display name (can contain uppercase characters). |
 | User ID | Viewer's user ID. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 
@@ -127,6 +129,7 @@ Listens to all new subscribers in your channel.
 | Message | Viewer's message |
 | Month | Amount of months the viewer has been subscribed |
 | Community Gift | Whether it's a community gift. Boolean value. Returns `0` or `1`. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -152,6 +155,7 @@ Triggers for all community gift subscriptions.
 | User ID | Gifter's user ID. |
 | Amount | Amount of subs gifted. |
 | Tier | Sub Tier. Returns `Tier 1`, `Tier 2`, `Tier 3` or `Prime` |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -172,6 +176,7 @@ Listens to all bit events in your stream.
 | Amount | Amount of bits donated. |
 | Total Amount | Amount of total bits donated. |
 | Message | Viewer's message. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -191,6 +196,7 @@ Listens to all raid events in your stream.
 | Display Name | Raider's or host's display name. |
 | User ID | Raider's user ID. |
 | Amount | Amount of raiders or host's viewers. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -201,13 +207,14 @@ Listens to all host events in your stream. Twitch does not send alerts for host 
 | Condition | Explanation |
 |-------|--------|
 | Minimum | Specify the minimum amount of host's viewers to trigger the button. |
-| Maximum | Specify the maximum amount of host's viewers to trigger the button.
+| Maximum | Specify the maximum amount of host's viewers to trigger the button. |
 {:class='table table-primary' }
 
 | Pull Data Value | Explanation |
 |-------|--------|
 | Display Name | Host's display name. |
 | Amount | Amount of host's viewers. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -237,6 +244,7 @@ In order for SAMMI to listen to Channel Point triggers, make sure the scope to l
 | Image | Reward's image URL. Returns default crystal ball if there's no image. |
 | Reward ID | Reward's general ID. |
 | Redeem ID | Redeem's specific ID. Can be used to fulfill or cancel the redemption with Channel Points extension. |
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -258,7 +266,9 @@ Triggers for all prediction events.
 |Vote Total|Total prediction votes
 |Outcome 1 Info|An object containing prediction's outcome 1 information
 |Outcome 2 Info|An object containing prediction's outcome 2 information
+|Outcome x Info| An object containing prediction's outcome x information, up to 10
 |Winning Outcome|Winning outcome
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
@@ -287,6 +297,7 @@ Triggers for all poll events.
 |Choice 3 Info|An object containing poll's choice 3 information
 |Choice 4 Info|An object containing poll's choice 4 information
 |Choice 5 Info|An object containing poll's choice 5 information
+| From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
 <hr>
