@@ -144,7 +144,7 @@ There are also several keyboard shortcuts you can use:
 | Ctrl+V | Pastes a copied button in a selected empty slot.|
 | Delete | Deletes a selected button.|
 | Ctrl+Z | Undoes the last action.|
-| Ctrl+Y\nCtrl+Shift+Z | Redoes a previous undone action.|
+| Ctrl+Y</br>Ctrl+Shift+Z | Redoes a previous undone action.|
 | Ctrl+S | Saves the deck and closes the Deck view.|
 
 {% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
