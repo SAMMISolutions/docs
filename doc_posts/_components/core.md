@@ -90,11 +90,17 @@ Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) t
 Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
 
 ### Variable Viewer
+The variable viewer can be accessed from the Deck Editor, or the Commands Editor. You can also use the Ctrl+Tab key as a shortcut.
+
 In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
 {% include video.html w="75" src="var-window.mp4" alt="Variable window showing button ID variables" %}
 
-If you click on the eye icon, you can see all current variables for the selected button ID.\
-Use search function to search for a specific button ID.\
+If you click on the eye icon, you can see all current variables for the selected button ID.
+
+The variable viewer can now be sorted alphabetically, or by type. 
+
+Use search function to search for a specific button ID.
+
 Learn more about variables in our [Commands-Variables](commands/variables#introduction) section.
 
 ### Active Buttons
