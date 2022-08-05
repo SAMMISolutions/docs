@@ -35,10 +35,11 @@ From June 2022, the LioranBoard 2 Dev team started building upon the original co
 - [cyanidesugar](https://twitter.com/cyanidesugar_)
 - [Sebas](https://github.com/SebasF1349) 
 - [Silverlink](https://github.com/XSilverlink)
+- [Chrizzz](https://twitter.com/chrizzz1508)
 
 You can read more about our team members and support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
 
-**Current Contributors**
+** Contributors**
 
 - SAMMI Receiver: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
 - SAMMI Deck: Lioran
@@ -47,7 +48,10 @@ You can read more about our team members and support us on our [Patreon](https:/
 - Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
 - Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Falinere](https://www.youtube.com/channel/UCDf53fZZjoMIq-T0yOxEAIA), [MisterK](https://www.youtube.com/user/Kamelot781), [wolbee](https://www.youtube.com/c/wolbee) and more!
-- Discord moderators: [LB2 Dev Team](https://www.patreon.com/lb2devs?fan_landing=true), [MisterK](https://www.youtube.com/user/Kamelot781), [Chrizzz](https://github.com/Chrizzz-1508), [Mr. Rubber Ducky](https://twitter.com/OGMrRubberDucky), LBot
+
+**License Information**
+
+All components of SAMMI are licensed under the terms of the GNU GPLv3.0 license. For more details, please see [here](https://github.com/SAMMISolutions/SAMMI-Official/tree/main/Licenses).
 
 **SAMMI would not be where it is today without you!**
 
