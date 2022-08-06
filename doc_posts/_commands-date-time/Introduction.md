@@ -21,7 +21,7 @@ Tokens are used to denote different parts of a datetime string.<br />They are ca
 ||MMMM|January, February, ... November, December|Full month name|
 |Day of the month|D|1, 2, ... 30, 31|Without leading zero|
 ||Do|1st, 2nd, ... 30th, 31st|With ordinals
-||DD|01, 02, ... 30, 31|With leading zeor|
+||DD|01, 02, ... 30, 31|With leading zero|
 |Day of the week|d|0, 1, ... 5, 6|0 for Sunday, 1 for Monday, etc|
 ||do|0th, 1st, ... 5th, 6th|With ordinals|
 ||dd|Su, Mo, ... Fr, Sa|2 letters|
