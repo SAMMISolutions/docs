@@ -34,7 +34,7 @@ Tokens are used to denote different parts of a datetime string.<br />They are ca
 |Minute|m|0, 1, ... 58, 59|Without leading zero|
 ||mm|00, 01, ... 58, 59|With leading zero|
 |Second|s|0, 1, ... 58, 59|Without leading zero|
-||ss|00, 01, ... 58, 59|Wit leading zero|
+||ss|00, 01, ... 58, 59|With leading zero|
 |AM/PM|A|AM, PM|Uppercase|
 ||a|am, pm|Lowercase|
 |Time Zone|Z|-12:00, -11:00, ... +11:00, +12:00|With separator|
