@@ -5,10 +5,10 @@ num: 1
 
 #### Tokens
 Tokens are used to denote different parts of a datetime string.<br />They are case-sensitive, and each token must be wrapped in {} to use:<br />
-{YYYY MM Do} <span class="fas fa-times" sytle="color: red" /><br />
-{YYYY} {MM} {Do} <span class="fas fa-check" sytle="color: green" /><br />
-{hh:mm} <span class="fas fa-times" sytle="color: red" /><br />
-{hh}:{mm} <span class="fas fa-check" sytle="color: green" />
+{YYYY MM Do} ❌<br />
+{YYYY} {MM} {Do} ✔<br />
+{hh:mm} ❌<br />
+{hh}:{mm} ✔
 
 || Token | Output | Description | 
 |-------|-------|--------|--------
