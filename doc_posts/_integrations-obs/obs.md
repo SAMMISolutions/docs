@@ -15,7 +15,7 @@ SAMMI is now compatible with OBS websocket 5.0. As this version is still very ne
 
 To ensure the 4.x version protocol is still supported, you can download the 4.9.1-compat plugin available at the link below.
 
-{% include alert.html text="We are aware that version 28.0 of OBS Studio will haave native websocket 5.0 support and will no longer require a separate plugin downloaded. While this version is still in Beta, we generally discourage updating to it until the public release is finalised." type="warning" %} 
+{% include alert.html text="We are aware that version 28.0 of OBS Studio will have native websocket 5.0 support and will no longer require a separate plugin downloaded. While this version is still in Beta, we generally discourage updating to it until the public release is finalised." type="warning" %} 
 
 <a href="https://github.com/obsproject/obs-websocket/releases"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
 
