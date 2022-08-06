@@ -60,7 +60,7 @@ Format keywords are case-sensitive if they have a <span class="fas fa-star-of-li
 |lll|Jan 23, 2004 1:23 PM|
 |LLLL|Friday, January 23, 2004 1:23 PM|
 |llll|Fri, Jan 23, 2004 1:23 PM|
-|ISO 8601<br />ISO8601<br />RFC 3339<br />RFC3339<br />Twitch|2004-01-23T13:23:45+00:00|
+|ISO 8601/ISO8601/RFC 3339/RFC3339/Twitch|2004-01-23T13:23:45+00:00|
 
 **Dates**
 + yesterday
