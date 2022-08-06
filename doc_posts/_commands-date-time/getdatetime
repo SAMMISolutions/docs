@@ -1,0 +1,12 @@
+---
+title: "Get Date/Time"
+num: 2
+---
+
+Returns the current Date/Time, in the format provided.
+
+|Box Name|Type|Description|
+|-----|-----|-----
+|Format|String|String including date/time tokens|
+|Variable Name|String|Variable to save the string in|
+{:class="table table-primary"}
