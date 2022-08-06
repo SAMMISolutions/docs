@@ -4,7 +4,7 @@ num: 1
 ---
 
 #### Tokens
-Tokens are used to denote different parts of a datetime string.<br />They are case-sensitive, and must be wrapped in {} to use:<br />
+Tokens are used to denote different parts of a datetime string.<br />They are case-sensitive, and each token must be wrapped in {} to use:<br />
 {hh:mm} <span class="fas fa-times" sytle="color: red" /><br />
 {hh}:{mm} <span class="fas fa-check" sytle="color: green" />
 
