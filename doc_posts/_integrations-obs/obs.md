@@ -10,11 +10,16 @@ type: fullpage
 SAMMI communicates with OBS via OBS Websocket (OBSWS), which allows you to remotely control and listen to OBS Studio events. 
 
 #### Install OBS Websocket
-We recommend installing the latest 4.9.1 version. 
 
-{% include alert.html text="While SAMMI can connect to OBSWS 5.0 now, it's generally discouraged to be using it unless it's for testing and developing purposes. Some extensions are NOT compatible and will need to be migrated." type="warning" %} 
+SAMMI is now compatible with OBS websocket 5.0. As this version is still very new, please note that some of your extensions might now work with it until they have been updated. 
 
-<a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
+To ensure the 4.x version protocol is still supported, you can download the 4.9.1-compat plugin available at the link below.
+
+{% include alert.html text="We are aware that as of versoin 28.0 of OBS Studio will haave native websocket 5.0 support and will no longer require a separate plugin downloaded. While this version is still in Beta, we generally discourage updating to it until the public release is finalised." type="warning" %} 
+
+<a href="https://github.com/obsproject/obs-websocket/releases"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
+
+<a href="https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"><button type="button" class="btn btn-outline-secondary">OBS Websocket 5.0 Protocol</button></a>
 
 <hr>
 
