@@ -13,7 +13,7 @@ Searches a string for a specified value and replaces it with another specified s
 |String	|String	|String to look into
 | Replace this|	String|	The value to search for to be replaced
 | With this | String | The value to replace the search value with. Can be empty to completely remove it.
-| Case Insensitive | Checkbox | If this is checked, it will replace the first value, regardless of case.
+| Case Insensitive | Checkbox | If this is checked, it will replace the first matching value, regardless of case.
 {:class='table table-primary' }
 
 | Value to search for | Value to replace it with| String| Case Insensitive| Result |
