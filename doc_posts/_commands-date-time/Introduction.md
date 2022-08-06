@@ -45,9 +45,10 @@ Tokens are used to denote different parts of a datetime string.<br />They are ca
 #### Keywords
 These are specific values that can be used instead of tokens for specific inputs/outputs.<br />
 Some can be used instead of a Format, while others can be used instead of a Date.<br />
-Format keywords are case-sensitive if they have a <span class="fas fa-star-of-life fa-sm" /> next to them.
+Format keywords are case-sensitive unless they have a <span class="fas fa-star-of-life fa-sm" /> next to them.
 
 **Formats**
+
 |Keyword|Example|
 |--------|--------|
 |LT|1:23 PM|
@@ -60,7 +61,7 @@ Format keywords are case-sensitive if they have a <span class="fas fa-star-of-li
 |lll|Jan 23, 2004 1:23 PM|
 |LLLL|Friday, January 23, 2004 1:23 PM|
 |llll|Fri, Jan 23, 2004 1:23 PM|
-|ISO 8601/ISO8601/RFC 3339/RFC3339/Twitch|2004-01-23T13:23:45+00:00|
+|ISO 8601<span class="fas fa-star-of-life fa-sm" /><br />ISO8601<span class="fas fa-star-of-life fa-sm" /><br />RFC 3339<span class="fas fa-star-of-life fa-sm" /><br />RFC3339<span class="fas fa-star-of-life fa-sm" /><br />Twitch<span class="fas fa-star-of-life fa-sm" />|2004-01-23T13:23:45+00:00|
 
 **Dates**
 + yesterday
