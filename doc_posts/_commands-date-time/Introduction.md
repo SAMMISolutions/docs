@@ -50,16 +50,16 @@ Format keywords are case-sensitive if they have a <span class="fas fa-star-of-li
 **Formats**
 |Keyword|Example|
 |-----|-----
-|LT<span class="fas fa-star-of-life fa-sm" />|1:23 PM|
-|LTS<span class="fas fa-star-of-life fa-sm" />|1:23:45 PM|
-|L<span class="fas fa-star-of-life fa-sm" />|01/23/2004|
-|l<span class="fas fa-star-of-life fa-sm" />|1/23/2004|
-|LL<span class="fas fa-star-of-life fa-sm" />|January 23, 2004|
-|ll<span class="fas fa-star-of-life fa-sm" />|Jan 23, 2004|
-|LLL<span class="fas fa-star-of-life fa-sm" />|January 23, 2004 1:23 PM|
-|lll<span class="fas fa-star-of-life fa-sm" />|Jan 23, 2004 1:23 PM|
-|LLLL<span class="fas fa-star-of-life fa-sm" />|Friday, January 23, 2004 1:23 PM|
-|llll<span class="fas fa-star-of-life fa-sm" />|Fri, Jan 23, 2004 1:23 PM|
+|LT{% include asterisk.html%}|1:23 PM|
+|LTS{% include asterisk.html%}|1:23:45 PM|
+|L{% include asterisk.html%}|01/23/2004|
+|l{% include asterisk.html%}|1/23/2004|
+|LL{% include asterisk.html%}|January 23, 2004|
+|ll{% include asterisk.html%}|Jan 23, 2004|
+|LLL{% include asterisk.html%}|January 23, 2004 1:23 PM|
+|lll{% include asterisk.html%}|Jan 23, 2004 1:23 PM|
+|LLLL{% include asterisk.html%}|Friday, January 23, 2004 1:23 PM|
+|llll{% include asterisk.html%}|Fri, Jan 23, 2004 1:23 PM|
 |ISO 8601<br />ISO8601<br />RFC 3339<br />RFC3339<br />Twitch|2004-01-23T13:23:45+00:00|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
