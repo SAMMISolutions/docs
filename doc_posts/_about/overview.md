@@ -7,25 +7,11 @@ num: 0
 type: fullpage
 ---
 
-SAMMI is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks.
+SAMMI is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks. The app is based on a build of LioranBoard 2, developed by Lioran Waters. 
 
+The Dev Team for LioranBoard 2 started building upon the original LioranBoard 2 code in June 2022, adding features and bug fixes that had been requested from the LioranBoard 2 for a long time. 
 
-The main application (LioranBoard) was developed in 09/2019 in GameMaker Studio 1 by Lioran, but it was very different from LioranBoard 2 that we know now.
-<figure>
-    <blockquote class="blockquote">
-      <q>LioranBoard was never planned. It was just a bunch of code for myself that triggered sound effect based on numpad presses.</q>
-    </blockquote>
-    <figcaption class="blockquote-footer">
-      Lioran
-    </figcaption>
-  </figure>
-
-Lioran started adding more features and commands every update, essentially inventing his own programming language and making LioranBoard user friendly and available for everyone to benefit from.   
-
-
-LioranBoard 2 development started in summer 2021. Lioran recreated it mainly from scratch using Gamemaker Studio 2, which was a significant upgrade from its predecessor. The UI was completely reworked and many new features and commands were added. 
-
-From June 2022, the LioranBoard 2 Dev team started building upon the original code by Lioran. The app was rebranded and renamed to SAMMI. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
+In August 2022, it was rebranded and renamed to SAMMI. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
 
 **SAMMI Dev Team** (in no particular order)
 
