@@ -39,6 +39,13 @@ From June 2022, the LioranBoard 2 Dev team started building upon the original co
 
 You can read more about our team members and support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
 
+**Patrons**
+
+We would like to acknowledge the wonderful support of our Patrons below:
+- Purple Emperor: TheBurge
+- Red Admirals: a_bat, Brady
+- Green Hairstreak: Fizbanoide, SeijiSoldier
+
 **Contributors**
 
 - SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
