@@ -8,9 +8,9 @@ permalink: /core
 ---
 
 SAMMI Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
-{% include alert.html text="SAMMI Core is formerly known as the LioranBoard Receiver" type="primary" %} 
+{% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
-{% include image.html w="auto" src="lioranboard.png" alt="SAMMI Core" %}
+{% include image.html w="auto" src="SAMMI.png" alt="SAMMI Core" %}
 
 {% include alert.html text="SAMMI Core is only an editor. Use SAMMI Deck to press your buttons." type="warning" %} 
 
@@ -21,64 +21,97 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 - Move Left/Right - repositions the deck
 - Copy Deck - exports the entire deck to your clipboard in JSON format to share with others, can include all deck button images as well
 - Paste Deck - imports the entire deck from your clipboard, must be in JSON format
+- Duplicate Deck - creates a copy of the entire deck inside SAMMI
 
 ### SAMMI Deck 
-{% include image.html w="75" src="lb-streamdeck.png" alt="SAMMI Deck Icon" %}
-Press the button to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+{% include image.html w="75" src="deck_menu.png" alt="SAMMI Deck Icon" %}
+- Open SAMMI Deck - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+- Get LAN IP (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
+- Android Version - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
 
 ### Bridge
-{% include image.html w="auto" src="transmitter_lb.png" alt="Bridge settings" %}
+{% include image.html w="auto" src="bridge.png" alt="Bridge settings" %}
 - Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+- Open in a browser - opens your default Bridge in a browser
+- Reveal in File Explorer - opens your Bridge file's location in File Explorer
+- Copy Full Path - places the file path to the Bridge in your clipboard
 - Install an Extension - installs an extension from .lb2 file to your default Bridge file
 - Uninstall an Extension - uninstalls a selected extension from your default Bridge file
+- Install all Extensions from folder - installs all extensions in a selected folder to the Bridge at once
 - Reinstall all Extensions - reinstalls all extensions in your default Bridge
-- Open in a browser - opens your default Bridge in a browser
+
+### Backup
+{% include image.html w="auto" src="backup.png" alt="Backup options" %}
+- Save SAMMI Backup - saves a backup of stuffs
+- Load SAMMI Backup - loads a previously created backup
+
+### About
+{% include image.html w="auto" src="about.png" alt="About" %}
+Press to open the About page, with info about the developers, and Patreon supporters
 
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
 - Main OBS - indicates whether SAMMI Core is connected to your main OBSWS 
+- Twitch Pubsub - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as follows, subs, etc.
 - Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new messages
 - Bridge - indicates whether SAMMI Core is connected to Bridge, required for Twitch Alerts and some extensions
 
 ### Settings
 Allows you to adjust UI settings and external connection settings.
 
-{% include image.html w="50" src="lb-settings.png" alt="Settings" %}
+{% include image.html w="50" src="settings.png" alt="Settings" %}
 
-- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the port and optionally password for any incoming connection
+- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the optional password for any incoming connection (port not editable in non-Dev mode)
 - Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
+- Auto restart SAMMI after crash - when checked, SAMMI will re-open itself after a crash
+- Automatically check for updates - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
+- Automatically close variable wrapping - when checked, SAMMI will automatically write the "$/" when you type "/$" with nothing to the right of the cursor
+- Enable enhanced protection mode - when checked, SAMMI will not be allowed to modify or delete files outside of the main SAMMI directory, nor any critical files inside the directory.
 - FPS - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
+- Language dropdown - change the language of SAMMI
 - Interface Size - change scaling if you're using a non standard resolution
-- Reset LioranBoard - clears all running buttons and variables and reloads all decks
-- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch noes
+- Reset SAMMI - clears all running buttons and variables and reloads all decks
+- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch notes
+- Cancel - closes the window without saving any changes
+- Save - saves any changes
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
 
-{% include image.html w="50" src="lb-obs-settings.png" alt="OBS Connections" %}
+{% include image.html w="50" src="obs_settings.png" alt="OBS Connections" %}
 
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
-Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages and use other Twitch commands.
-{% include image.html w="50" src="twitch-connections.png" alt="Twitch Connections" %}
+Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.
+{% include image.html w="50" src="twitch_settings.png" alt="Twitch Connections" %}
 Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
 
-### Variable Viewer
-In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
-{% include video.html w="75" src="var-window.mp4" alt="Variable window showing button ID variables" %}
+### YouTube Connection
+Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.
+{% include image.html w="50" src="youtube_settings.png" alt="YouTube Connection" %}
 
-If you click on the eye icon, you can see all current variables for the selected button ID.\
-Use search function to search for a specific button ID.\
+### Variable Viewer
+The variable viewer can be accessed from the Deck Editor, or the Commands Editor. You can also use the Ctrl+Tab key as a shortcut.
+
+In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
+{% include image.html w="75" src="var_viewer.gif" alt="Variable window showing button ID variables" %}
+
+If you click on the eye icon, you can see all current variables for the selected button ID.
+
+The variable viewer can now be sorted alphabetically, or by type. 
+
+Use search function to search for a specific button ID.
+
 Learn more about variables in our [Commands-Variables](commands/variables#introduction) section.
 
 ### Active Buttons
 All currently running buttons will be displayed in this window.\
 You can choose to interrupt (clear) all, ongoing or queued buttons. 
 
-{% include video.html w="75" src="ongoing-buttons.mp4" alt="Interrupting an active button" %}
+{% include image.html w="75" src="active_buttons.gif" alt="Interrupting an active button" %}
 
 ### Deck
 
@@ -103,12 +136,24 @@ You can create a new button inside a deck by either right clicking on your empty
 
 {% include video.html w="75" src="create-button.mp4" alt="Create a new button" %}
 
+There are also several keyboard shortcuts you can use:
+
+| Shortcut | Function |
+| ----- | ----- |
+| Ctrl+C | Copies a selected button.|
+| Ctrl+V | Pastes a copied button in a selected empty slot.|
+| Delete | Deletes a selected button.|
+| Ctrl+Z | Undoes the last action.|
+| Ctrl+Y<br/>Ctrl+Shift+Z | Redoes a previous undone action.|
+| Ctrl+S | Saves the deck and closes the Deck view.|
+{:class='table table-secondary w-auto table-responsive table-hover'}
+
 {% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
 
 If you now right click on the created button, a new button menu appears: 
 #### Edit Appearance
 Edit your button text, color, image and border size.\
-All button images will be automatically resized and copied to `lioranboard/image` folder.\
+All button images will be automatically resized and copied to `SAMMI/image` folder.\
 You can press SHIFT + double click on a button to edit settings.
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
@@ -159,6 +204,9 @@ Learn more about specific triggers in our [**Triggers**]({{ "triggers/introducti
 When you right click-Edit commands or double click on your button and press **+**, you can start adding commands to execute when the button is pressed.  
 
 Button commands have their own specific rules that you need to follow, read read more about them in our [Commands-Introduction]({{ "commands/introduction" | relative_url }})  section. 
+   
+Once you're done with adding commands, you can now run the button directly from the commands window - no more having to save back to the main screen and testing via a chat command or pressing the button on the deck!
+{% include alert.html text="Please be aware that any commands that involve wildcards or pulling info from the trigger may not work as intended if tested this way - for best results, test the same way you intend for it to be used." type="info" %} 
 
 See the list of all available commands in the **Commands** section.  
 
@@ -169,13 +217,13 @@ Program your button to perform specific actions when released. **The release act
 Initial variables the button will have when initiated. It prevents persistent buttons from crashing. Must be in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).
 
 #### Copy Button
-Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one.
+Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one. Can also be done by selecting the button and pressing Ctrl+C, with Ctrl+V to paste it in a selected empty spot.
 
 {% include video.html w="75" src="copy-button.mp4" alt="Copying and pasting a button" %}
 
 
 #### Delete Button
-Delete a whole button.
+Delete a whole button. Can also be done by selecting a button and pressing the Delete key.
 
 #### Export JSON
 Exports a button by copying its contents to your clipboard. 
