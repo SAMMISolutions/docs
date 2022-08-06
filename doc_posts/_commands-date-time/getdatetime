@@ -7,6 +7,6 @@ Returns the current Date/Time, in the format provided.
 
 |Box Name|Type|Description|
 |-----|-----|-----
-|Format|String|String including date/time tokens|
+|Format|String|String including date/time [tokens]({{ "commands/date-time#tokens" | relative_url }})|
 |Variable Name|String|Variable to save the string in|
 {:class="table table-primary"}
