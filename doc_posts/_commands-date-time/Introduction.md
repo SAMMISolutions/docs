@@ -60,7 +60,7 @@ Format keywords are case-sensitive if they have a <span class="fas fa-star-of-li
 |lll<span class="fas fa-star-of-life fa-sm" />|Jan 23, 2004 1:23 PM|
 |LLLL<span class="fas fa-star-of-life fa-sm" />|Friday, January 23, 2004 1:23 PM|
 |llll<span class="fas fa-star-of-life fa-sm" />|Fri, Jan 23, 2004 1:23 PM|
-|IAO 8601<br />ISO8601<br />RFC 3339<br />RFC3339<br />Twitch|2004-01-23T13:23:45+00:00|
+|ISO 8601<br />ISO8601<br />RFC 3339<br />RFC3339<br />Twitch|2004-01-23T13:23:45+00:00|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
 **Dates**
