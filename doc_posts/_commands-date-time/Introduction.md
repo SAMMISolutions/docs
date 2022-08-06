@@ -49,7 +49,7 @@ Format keywords are case-sensitive if they have a <span class="fas fa-star-of-li
 
 **Formats**
 |Keyword|Example|
-|--------|--------
+|--------|--------|
 |LT|1:23 PM|
 |LTS|1:23:45 PM|
 |L|01/23/2004|
