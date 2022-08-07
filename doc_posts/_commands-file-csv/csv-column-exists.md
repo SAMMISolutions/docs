@@ -10,4 +10,4 @@ Checks to see if a column in a CSV file exists. SAMMI will return -1 if it doesn
 |CSV Name|String|Name of your CSV.
 |Column Name|String|Name of the column in your CSV.
 |Variable Name|String|Variable to save the result.
-{:class='table table-primary' }
+{:class='table table-primary'}
