@@ -8,13 +8,14 @@ There's a significant difference between [White and Yellow box]({{ "commands/int
 
 | Operator | Description |	Example |
 |-------|--------|--------
-| = |	Equal. Real values or strings. Strings need to be wrapped in double quotes. `x = y` |`x = 7` , `x = "Hello World"`
-|+=	 |Addition. Real values or strings. Strings need to be wrapped in double quote. Same as `x = x + y` |	`7 += 2` = 9 <br/>  `"Hello" += "World"` = "Hello World"
-| -= |	Subtraction. Real values only. Same as `x = x - y`|	`7 -= 2` = 5|
-|Multiply|	Multiplication *=. Real values only. Same as `x = x * y`|	`7 *= 2` = 14
-|Divide|	Division /=. Real values only. Same as `x = x / y`	|`7 /= 2` = 3.5
-|DIV|	Integer division. Real values only. Same as division, but the remainder is discarded.	|`7 DIV 2` = 3
+| = |Assignment. Real values or strings. Strings need to be wrapped in double quotes. Asigns the value on the right to the variable on the right. `x = y` |`x = 7` , `x = "Hello World"`
+|+=	 |Addition. Real values or strings. Strings need to be wrapped in double quote. Same as `x = x + y` |	`7 += 2` = 9 <br/>  `"Hello" += " World"` = "Hello World"
+| -= |	Subtraction. Real values only. Same as `x = x - y`|	`7 -= 2` = 5
+|*=|	Multiplication. Real values only. Same as `x = x * y`|	`7 *= 2` = 14
+|/=|	Division. Real values only. Same as `x = x / y`	|`7 /= 2` = 3.5
 |MOD|	Modulus. Real values only. Returns the remainder of division.	|`7 MOD 2` = 1
+|DIV|	Integer division. Real values only. Same as division, but the remainder is discarded.	|`7 DIV 2` = 3
+|CONCAT|	Concatenation. Real values or strings. Returns a string with the two values one after the other.	|`7 CONCAT 2` = "72"<br/>`"Hello" CONCAT " World"` = "Hello World"<br/>`"Player " CONCAT 1` = "Player 1"
 |&=	|Bitwise AND. Real values only. Same as `x = x & y`	|`7 &= 2` = 2
 |^=|	Bitwise XOR. Real values only. Same as  `x = x ^ y`|`7 ^= 2` = 5
 |\|=|	Bitwise OR. Real values only. Same as `x = x \| y` |	<code>7 \|= 2</code> = 7
