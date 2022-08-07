@@ -11,7 +11,43 @@ Converts an INI file into an Object. The Object will have each key as the sectio
 |File Path|String|File to save into the object. Can use relative or absolute path.
 {:class='table table-primary'}
 
-| File | Object Returned| 
-|-------|--------
-|[names]<br />follower1="Christinna"<br />follower2="Roadie"<br />[Points]<br />follower1="20.000000"<br />follower2="12.000000"| {<br />  names: {<br />    follower1:"Christinna",<br />    follower2:"Roadie"<br />},<br />  Points: {<br />    follower1:20,<br />    follower2:12<br />}<br />}
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+<table class="table table-secondary w-auto table-hover align-middle">
+   <thead>
+      <tr>
+         <th>File</th>
+         <th>Object Returned</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <td>
+            <code>
+               <pre>
+[names]
+follower1="Christinna"
+follower2="Roadie"
+[Points]
+follower1="20.000000"
+follower2="12.000000"
+       </pre>
+            </code>
+         </td>
+         <td>
+            <code>
+               <pre>
+{
+  names: {
+    follower1:"Christinna",
+    follower2:"Roadie"
+  },
+  Points: {
+    follower1:20,
+    follower2:12
+  }
+}
+       </pre>
+            </code>
+         </td>
+      </tr>
+   </tbody>
+</table>
