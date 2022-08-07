@@ -1,6 +1,6 @@
 ---
 title: "Object to Array"
-num: 8
+num: 9
 ---
 
 Converts the keys or values of an object into an array.
