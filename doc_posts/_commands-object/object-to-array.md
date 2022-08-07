@@ -5,7 +5,7 @@ num: 9
 
 Converts the keys or values of an object into an array.
 
-{% include alert.html text="The "values array" will not work properly with object values." type="warning" %}
+{% include alert.html text="The values array will not work properly with object values." type="warning" %}
 
 | Box Name | Type | Description |
 |-------|--------|--------
