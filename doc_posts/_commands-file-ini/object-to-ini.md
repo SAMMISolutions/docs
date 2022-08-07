@@ -11,7 +11,7 @@ Converts a properly formatted Object into an INI file. The Object needs to be a 
 |File Path|String|File to save the object content. Can use relative or absolute path.
 {:class='table table-primary'}
 
-{% include alert.html text="The only way to create a nested object is with the command [Parse Array/Object] or with [File: INI to File](#fileinitoobject)." type="warning" %} 
+{% include alert.html text="The only way to create a nested object is with the command [Parse Array/Object]({{ "commands/object#objecttoarray" | relative_url }}) or with [File: INI to File](#fileinitoobject)." type="warning" %} 
 
 <table class="table table-secondary w-auto table-hover align-middle">
    <thead>
