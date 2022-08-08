@@ -27,7 +27,7 @@ SAMMI Core can listen to YouTube Live events and control your live stream! Find 
 
 #### Connection to OBS Studio
 
-SAMMI Core can directly connect to OBS Websocket to control your OBS Studio. You can start/stop streaming, switch scenes, change source stetings, control media, animate your sources, toggle filters and much more. 
+SAMMI Core can directly connect to OBS Websocket to control your OBS Studio. You can start/stop streaming, switch scenes, change source settings, control media, animate your sources, toggle filters and much more. 
 
 #### Extensions
 
