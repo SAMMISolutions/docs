@@ -15,3 +15,5 @@ Returns a Date/Time, in the format specified, after adding or subtracting an amo
 |Unit|Dropdown|Seconds, Minutes, Hours, Days, Months, or Years.|
 |Output Format|String|String including date/time tokens. It's equal to Input Format if it's left empty.|
 {:class="table table-primary"}
+
+{% include alert.html text="TIP: You can use this command with an empty Number/Variable to just change the format of a date/time." type="info" %}
