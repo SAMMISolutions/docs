@@ -62,12 +62,15 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |SAMMI Shutdown | Before SAMMI shut down. Does not work if SAMMI crashes.
 |SAMMI Deck Reload| Decks are reloaded (when you press Save button)
 |SAMMI Reset | You use the reset button.
+|SAMMI Crash | Every time SAMMI crashes.
 |OBS Connected | Every time SAMMI connects to OBS.
 |OBS Disconnected|Every time SAMMI disconnects from OBS.
 |Twitch Connected | Every time SAMMI connects to Twitch.
 |Twitch Disconnected |Every time SAMMI disconnects from Twitch.
 |SAMMI Deck/Bridge Connected| Every time SAMMI Deck or Bridge connects to SAMMI.
+|Third Party Connected| Third party application connects to SAMMI.
 |SAMMI Deck/Bridge Disconnected| Every time SAMMI Deck or Bridge disconnects from SAMMI.
+|Third Party Disonnected| Third party application disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
 
 <hr>
