@@ -38,6 +38,7 @@ We would like to acknowledge the wonderful support of our Patrons below:
 - SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
 - SAMMI Deck: Lioran
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
+- SAMMI Icon: [Silverlink](https://github.com/XSilverlink), heavily inspired by [arny69gamer's](https:/twitch.tv/retromilitia) design.
 - sammi.solutions website: [Christina K](https://github.com/christinna9031)
 - Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
