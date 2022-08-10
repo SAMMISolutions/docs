@@ -30,7 +30,8 @@ You can read more about our team members and support us on our [Patreon](https:/
 We would like to acknowledge the wonderful support of our Patrons below:
 - Purple Emperor: TheBurge
 - Red Admirals: a_bat, Brady
-- Green Hairstreak: Fizbanoide, SeijiSoldier, bunnicheeky
+- Green Hairstreak: Fizbanoide, SeijiSoldier, bunnicheeky, Mo Falk, DataForge, Kayla Marie Healy
+- Brown Argus: ShaolinSherlock
 
 **Contributors**
 
