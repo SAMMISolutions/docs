@@ -11,7 +11,7 @@ Extensions are meant to add new functionality to LioranBoard. They're made by th
 
 #### Install an extension:
 
-1. Download the .lb2 extension file
+1. Download the .sef extension file
    - If you're downloading the extension from **Github**, please refer to the screenshot below.
    {% include image.html w="75" src="extension_github.png" alt="Correct way to download an extension file from Github" %}
 {:start="2"}
