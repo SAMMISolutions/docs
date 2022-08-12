@@ -16,8 +16,8 @@ Converts a properly formatted Object into an INI file. The Object needs to be a 
 <table class="table table-secondary w-auto table-hover align-middle">
    <thead>
       <tr>
-         <th>File</th>
-         <th>Object Returned</th>
+         <th>Object</th>
+         <th>File Returned</th>
       </tr>
    </thead>
    <tbody>
