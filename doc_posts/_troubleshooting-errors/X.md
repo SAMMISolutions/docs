@@ -9,7 +9,8 @@ For non-button errors, you will be asked if you want to send the error message d
 
 An example of the error log that is sent to the Discord is below:
 
-```Unknown Error at 1659755042
+```
+Unknown Error at 1659755042
 Error: Illegal Buffer Index -1
 Script Name: gml_Script_scr_backup_load
 Line Number: 0
@@ -32,9 +33,9 @@ os_windows, 655360
 Developer Mode Enabled
 0
 Twitch Chat Connected
-0
+1
 Pubsub Connected
-undefined
+1
 Bridge Connected
 0
 User Comment
