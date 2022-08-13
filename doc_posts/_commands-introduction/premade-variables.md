@@ -12,7 +12,7 @@ The following premade/permanent global variables are accessible from all the but
 {% include selectAll.html text="bridge_connected" %}| True if connected, false if not connected
 {% include selectAll.html text="twitch_chat_connected" %}| True if connected, false if not connected
 {% include selectAll.html text="twitch_client_id" %}| SAMMI Twitch Client ID, used in Twitch API calls
-{% include selectAll.html text="main_directory" %}| Main directory where LioranBoard folder resides. Useful for extension makers to be able to easily copy files.
+{% include selectAll.html text="main_directory" %}| Main directory where SAMMI folder resides. Useful for extension makers to be able to easily copy files.
 {% include selectAll.html text="Architecture" %}| Type of architecture you're on. x64 or x86.
 {% include selectAll.html text="elapsed_time" %}| Elapsed time in seconds since you last started SAMMI
 {% include selectAll.html text="since_2020" %}| Elapsed time in seconds since January 1st, 2020.

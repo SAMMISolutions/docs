@@ -6,7 +6,7 @@ num: 4
 Loads any file as a buffer into SAMMI.\
  Read/Write head position will be set to 0 (beginning of the file).
 
-{% include alert.html text="The file you're loading must be in your LioranBoard Receiver folder or in one of its inner folders." type="warning
+{% include alert.html text="The file you're loading must be in your SAMMI folder or in one of its inner folders." type="warning
 " %} 
 
 | Box Name | Type | Description | 

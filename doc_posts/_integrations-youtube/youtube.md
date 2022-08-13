@@ -9,7 +9,7 @@ permalink: /integrations/youtube
 
 #### Introduction
 
-YouTube Live is a completely free SAMMI integration made by [Christina K](https://github.com/christinna9031?tab=repositories) and reworked for SAMMI by Lioran himself.\
+YouTube Live is a completely free SAMMI integration made by [Christina K](https://github.com/christinna9031?tab=repositories).\
 It allows you to listen to all chat events, send chat messages, ban users and other commands straight from SAMMI while streaming on YouTube Live.  
 
 Unlike Twitch, YouTube API is very limited and cannot be freely used without going through a long approval process. It has taken several months for YouTube to approve the integration and provide me with additional quota to be able to release it for everyone.
@@ -74,7 +74,7 @@ Users may access the integration via SAMMI. Any use of the integration is bound 
 3. We reserve the right at any time to modify or discontinue, temporarily or permanently, your access to the integration (or any part thereof) with or without notice.
 4. You may not duplicate, copy, or reuse any portion of the integration code or concepts without express written permission from us.
 Your use of the Service is at your sole risk. The service is provided on an "as is" and "as available" basis.
-5. If your quota usage significantly exceeds the average quota usage (as determined solely by us) of other LioranBoard users, we reserve the right to throttle your API requests until you can reduce your quota consumption.
+5. If your quota usage significantly exceeds the average quota usage (as determined solely by us) of other SAMMI users, we reserve the right to throttle your API requests until you can reduce your quota consumption.
 6. We do not warrant that (i) the service will meet your specific requirements, (ii) the service will be uninterrupted, timely, secure, or error-free, (iii) the results that may be obtained from the use of the service will be accurate or reliable, (iv) the quality of any products, services, information, or other material purchased or obtained by you through the service will meet your expectations, and (v) any errors in the Service will be corrected.
 7. You expressly understand and agree that we shall not be liable for any direct, indirect, incidental, special, consequential or exemplary damages, including but not limited to, damages for loss of profits, goodwill, use, data or other intangible losses.
 The failure to exercise or enforce any right or provision of the Terms of Service shall not constitute a waiver of such right or provision.

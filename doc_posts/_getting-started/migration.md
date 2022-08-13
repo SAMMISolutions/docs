@@ -69,9 +69,9 @@ If you're an extension developer, you will need to rewrite some of your code to 
 [insert_script]
 [insert_over]
 ```
-- there are [new helper functions](https://github.com/SAMMISolutions/SAMMI-Bridge#lb-transmitter) in the Bridge for everything you want to send to SAMMI. 
+- there are [new helper functions](https://github.com/SAMMISolutions/SAMMI-Bridge#sammi-bridge) in the Bridge for everything you want to send to SAMMI. 
 
-- hooks still work the same, however now you can [listen to these events directly](https://github.com/SAMMISolutions/SAMMI-Bridge#listening-to-extension-data-received-from-lioranboard)
+- hooks still work the same, however now you can [listen to these events directly](https://github.com/SAMMISolutions/SAMMI-Bridge#listening-to-extension-data-received-from-sammi)
 
 ##### Extensions
 As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will have to be updated and others are not needed anymore (like Get Profile Picture extension, as now you can get the pic with the [Get User Info Command]({{ "/commands/twitch#getuserinfo" | relative_url }})

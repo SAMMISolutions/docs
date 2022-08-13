@@ -22,11 +22,11 @@ Use 'default' as a Case Statement text if you want to execute an action when no 
 1. Decide what expression you want to evaluate.\
 *For example, you would like to check the name of the viewer.*
 2. Add a Case Statement for each choice.\
-*For example, add a Case Statement for Lioran, Melonax, Sebas and Cyanidesugar.*
+*For example, add a Case Statement for wolbee, Melonax, Sebas and Cyanidesugar.*
 3. Under each Case Statement, decide what commands you want to execute.\
-*For example, under Case Statement for Lioran, you want to play a specific sound effect. And under the Case Statement for Melonax, you want to play a different sound effect.*
+*For example, under Case Statement for wolbee, you want to play a specific sound effect. And under the Case Statement for Melonax, you want to play a different sound effect.*
 4. (Optional) Add a default case to execute a block of commands if no Case Statement matches the expression.\
-*For example, if the viewer's name isn't Lioran, Melonax, Sebas or Cyanidesugar, play a default sound effect.*
+*For example, if the viewer's name isn't wolbee, Melonax, Sebas or Cyanidesugar, play a default sound effect.*
 5. Now every time the button is pressed, it will check the name of the viewer and execute one Case Statement command block matching their name (or execute the default block).  
 
 

@@ -21,7 +21,7 @@ We will walk you through a step by step tutorial on how to set up SAMMI, and con
 
 We recommend selecting **64bits release**.
 
-<a href="https://github.com/LioranBoard/LioranBoard-2-Official/releases"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
+<a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
 
 Unpack the zip file and place the folder anywhere in your computer, preferably in your non windows drive.
 
@@ -29,7 +29,7 @@ Unpack the zip file and place the folder anywhere in your computer, preferably i
 
 #### 3. Launch SAMMI
 
-Navigate to the unpacked folder and launch LioranBoard 2.0.exe.    
+Navigate to the unpacked folder and launch SAMMI Core.exe.    
 Allow the app through the firewall if there's a prompt and you're ready to start!
 
 #### 4. Connect SAMMI to your OBS
@@ -56,17 +56,17 @@ Fit your new dock somewhere in your OBS screen as you see fit.
 {% include image.html w="75" src="transmitter_dock2.png" alt="Bridge in a dock in OBS" %}
 
 #### 6. Connect Bridge to SAMMI
-In your **LioranBoard-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
+In your **SAMMI-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
 In your **Bridge-status** tab (in our OBS dock), you can now modify your connection settings.\
-Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Unless you changed port in your LioranBoard-Settings, you can leave it at its default value.\
-You must fill out the password if you decided to use one in LioranBoard-Settings menu.\
+Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Unless you changed port in your SAMMI-Settings, you can leave it at its default value.\
+You must fill out the password if you decided to use one in SAMMI-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
 {% include image.html w="75" src="transmitter-connection.png" alt="Bridge Connection Settings" %}
 
 {% include alert.html text="Bridge must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
 
-In your Bridge you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to LioranBoard. This means it is connected to your SAMMI and listening for messages. 
+In your Bridge you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to SAMMI. This means it is connected to your SAMMI and listening for messages. 
 
 #### 7. Link your Twitch account
 
@@ -133,7 +133,7 @@ You can follow the text instructions or click on <i class="far fa-plus-square fa
       Two things should happen:
       <ul>
         <li>You will see the button in your SAMMI Deck blink, just like when you manually pressed it with your mouse.</li>
-        <li>LioranBoard will respond back with <code>Hello World</code> in your Twitch chat.</li>
+        <li>SAMMI will respond back with <code>Hello World</code> in your Twitch chat.</li>
       </ul>
     </li><br>
 	  </ol>

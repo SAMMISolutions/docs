@@ -19,6 +19,6 @@ You can try [temporarily disabling your antivirus/firewall](https://support.micr
 - **Wrong or corrupted deck files**\
 Sometimes SAMMI Deck files can get corrupted and start crashing SAMMI Deck on launch. Deleting and downloading a new SAMMI Deck will not help, as its files are stored in your AppData folder. Instead,
 1. Completely close your SAMMI Deck.
-2. Navigate to `C:/user/%username/appdata/local/LioranBoard_Stream_Deck`
+2. Navigate to `C:/user/%username/appdata/local/SAMMI_DECK`
 3. Delete everything in the folder. Don't worry, these contain only your deck metadata and your SAMMI Deck will automatically generate them again!
 4. Relaunch your SAMMI Deck.

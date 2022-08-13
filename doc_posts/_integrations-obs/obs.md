@@ -52,7 +52,7 @@ You will need to manually select your OBS Name for all your OBS commands (if not
 
 <hr>
 
-#### Control OBS from LioranBoard
+#### Control OBS from SAMMI
 You can remotely control your OBS Studio with [SAMMI OBS commands]({{ "commands/obs-general" | relative_url }}).   
 
 
@@ -69,7 +69,7 @@ You can remotely control your OBS Studio with [SAMMI OBS commands]({{ "commands/
 {% include alert.html text="You can combine your OBS commands with all other SAMMI commands to create complex logic." type="info" %} 
 
 **4. Click Save in your edit button screen and then Save again in your deck. This is an important step to save your button!**\
-**5. Press the button in your SAMMI StreamDeck while connected to OBS to execute the command(s).**
+**5. Press the button in your SAMMI Deck while connected to OBS to execute the command(s).**
 
   {% include video.html w="75" src="obs-control.mp4" alt="Controlling OBS remotely from SAMMI" %}
 

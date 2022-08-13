@@ -6,18 +6,18 @@ num: 0
 #### What's an array?
 Array is a special variable which can hold more than one value at a time.\
 If you have a list of items (for example viewer names), storing them in single variables would look like this:
-- var name1 = "Lioran"
-- var name2 = "Neverwho"
-- var name3 = "Daryl"
+- var name1 = "wolbee"
+- var name2 = "Silverlink"
+- var name3 = "Sebas"
 
-This seems quite inefficient if you happen to have a lot of names to store. The answer is to store them all in an array, which can hold many values under a single name: `names = ["Lioran", "Neverwho", "Daryl"]`.
+This seems quite inefficient if you happen to have a lot of names to store. The answer is to store them all in an array, which can hold many values under a single name: `names = ["wolbee", "Silverlink", "Sebas"]`.
 
 {% include image.html w="75" src="array.png" alt="Representation of an array" %}
 
 #### Array manipulation
 If you want to retrieve a specific value(element) from an array, you can use the following formatting:\
 `arrayName[position]`\
-If we have an array `names = ["Lioran", "Neverwho", "Daryl"]`, typing `names[1]` would retrieve `'Neverwho'` (the first value of an array has position of 0).\
+If we have an array `names = ["wolbee", "Silverlink", "Sebas"]`, typing `names[1]` would retrieve `'wolbee'` (the first value of an array has position of 0).\
 Array position (also called index) can contain other variables or complex math, too.   
 
 Some command boxes allow you to use not only position, but also **top** for retrieving and manipulating values in an array. Selecting **top** will target a value at the END of an array (last index). **0** will target a value at the BEGINNING of an array (index of 0).  

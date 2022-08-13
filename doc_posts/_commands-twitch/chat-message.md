@@ -22,7 +22,7 @@ Whispers might not natively work. Make sure your linked Twitch account contains 
 |/emoteonly|Sets chat to emote only mode
 |/clear|Clears the chat|
 |/w commanderroot|Sends a whisper to commanderroot|
-|/ban lioran| Bans Lioran|
+|/ban silverlink| Bans Silverlink|
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
 

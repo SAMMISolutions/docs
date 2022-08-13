@@ -43,9 +43,9 @@ For example, if you want your variable `name` to have a value of `SAMMI` and you
 You can also initiliaze complex variables, such as arrays or objects:
 ```
 {
-	"namesArray": ["Lioran", "Melonax", "Cyanidesugar"],
+	"namesArray": ["Silverlink", "Melonax", "Cyanidesugar"],
 	"colorObject": {
-		"Lioran": "blue",
+		"Silverlink": "blue",
 		"Melonax": "purple",
 		"Cyanidesugar": "red "
 	}
