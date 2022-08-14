@@ -13,7 +13,7 @@ Comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download Android SA
 SAMMI Core is fully supported on Windows, support for other platforms is coming!\
 You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time.
 
-<a href="https://github.com/LioranBoard/LioranBoard-2-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
+<a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
 
 *You can check our **[Discord's](https://discord.gg/dXez8Zh)** Announcements channel for unreleased and beta versions.* 
 

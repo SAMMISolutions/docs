@@ -2,7 +2,7 @@
 layout: default
 title: Community
 menu: Getting Started
-num: 6
+num: 7
 permalink: /getting-started/community
 type: fullpage
 ---
