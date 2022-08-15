@@ -3,7 +3,7 @@ layout: default
 title: Assets
 permalink: /assets
 menu: Assets
-num: 4
+num: 1
 type: fullpage
 ---
 
