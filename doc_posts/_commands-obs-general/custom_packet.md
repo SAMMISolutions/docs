@@ -2,6 +2,7 @@
 title: "Custom Packet"
 num: 5
 ---
+{% include alert.html text="This command is only available in Dev Mode for advanced users." type="warning" %} 
 Sends a custom packet to the OBS websocket in JSON format.\
 All the possible requests are documented in [OBS websocket protocol reference](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md).
 
