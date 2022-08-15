@@ -6,7 +6,7 @@ num: 0
 Variables are containers for storing data values (including numbers and strings), that can be reused over and over again.\
 Variable names are case sensitive, meaning that "Variable" and "variable" are not going to have the same value. Variable name must always start with a letter and must only contain letters, numbers and `_`.
 
-{% include alert.html text="You can view all existing variables by pressing Variable Viewer at the bottom menu of SAMMI" type="info" %}
+{% include alert.html text="You can view all existing variables by pressing Variable Viewer at the bottom menu of SAMMI or using CTRL + Tab on your keyboard" type="info" %}
 
 #### Global Variables
 All global variables are stored inside `global` variables object and are accessible from any button at all times. Some of these variables are permanent.\
