@@ -62,7 +62,7 @@ Read more about JSON syntax at [w3schools.com](https://www.w3schools.com/js/js_j
          </td>
          <td>
             <span class="embed-responsive mb-3">
-               <video onclick="this.paused ? this.play() : this.pause()" controls="true" class="embed-responsive-item video" width="100%" src="/docs2/assets/videos/commands-object/object-parse.mp4" title="Parsed JSON string" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></video>
+               <video onclick="this.paused ? this.play() : this.pause()" controls="true" class="embed-responsive-item video" width="100%" src="/docs/assets/videos/commands-object/object-parse.mp4" title="Parsed JSON string" frameborder="0" allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></video>
             </span>
          </td>
       </tr>
