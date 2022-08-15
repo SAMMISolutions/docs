@@ -10,8 +10,8 @@ Variable names are case sensitive, meaning that "Variable" and "variable" are no
 
 #### Global Variables
 All global variables are stored inside `global` variables object and are accessible from any button at all times. Some of these variables are permanent.\
-Use **Get Global Variable** command to get a global variable and **Set Global Variable** command to set a new or update an existing global variable.\
-Do not pollute global namespace unless you absolutely have to. It's almost always better to use either local or button variables.
+Use **Get Global Variable** command to get a global variable.\
+Do not pollute the global namespace unless you absolutely have to. It is always better to use either local or button variables.
 
 #### Button Variables
 Button variables are stored inside every button object. They can be accessed from any other button (if their own button is set to persistent) by using **Get Button Variable** command and created or updated by using **Set Button Variable** command.
