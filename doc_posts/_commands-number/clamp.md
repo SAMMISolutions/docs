@@ -9,7 +9,7 @@ Clamps a variable between two values. Intended to use on real values (numbers) o
 2. If value of the variable > maximum allowed value, returns maximum allowed value.
 3. If value of the variable is within the allowed range, returns the original value.
 <br/><br/>
-{% include alert.html text="Do not use Math: Clamp on strings, as this will result in a syntax error and LB crashing." type="danger" %}  
+{% include alert.html text="Do not use Math: Clamp on strings, as this will result in a syntax error and SAMMI crashing." type="danger" %}  
 
 | Box Name | Type | Description | 
 |-------|--------|--------
