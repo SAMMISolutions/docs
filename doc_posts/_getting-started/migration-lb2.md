@@ -51,3 +51,8 @@ Updating to SAMMI and the new Twitch Token means that SAMMI no longer 'owns' the
 4. You can dupe as many rewards as you want at the same time, provided you are under the 50 rewards limit imposed by Twitch.
 5. Once you have duped all the rewards you want, hit 'Done', and 'Done' again in the next screen. A pop-up will appear to remind you about changing the reward IDs in your commands. Select 'Yes'. 
 6. SAMMI will now have changed all your old reward IDs to new reward IDs automatically. Your buttons will work again, but in order to make sure your triggers remain working, **remember to rename your 'channelpointnameCOPY' to 'channelpointname' as the triggers only work if the reward names are exactly the same.**
+
+##### YouTube Integration
+Due to YouTube only allowing one app to be connected via one credential, the rebranding from LioranBoard CE to SAMMI means that only SAMMI will be able to be integrated with YouTube. 
+
+There will no longer be any YouTube integration to any other app (LioranBoard 2 or LioranBoard 2 CE). **If you want to continue to stream on YouTube you will have to update to SAMMI.** 
