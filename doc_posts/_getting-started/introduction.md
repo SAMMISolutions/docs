@@ -31,4 +31,4 @@ SAMMI Core can directly connect to OBS Websocket to control your OBS Studio. You
 
 #### Extensions
 
-If all of the above is not enough for your needs, SAMMI Core also supports community made JavaScript extensions through the SAMMI:Bridge, which can greatly extend its functionality, such as controlling other apps and services directly from your stream.
+If all of the above is not enough for your needs, SAMMI Core also supports community made JavaScript extensions through the SAMMI Bridge, which can greatly extend its functionality, such as controlling other apps and services directly from your stream.
