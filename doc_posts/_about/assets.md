@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Privacy Policy
+title: Assets
 permalink: /assets
 menu: Assets
-num: 1
+num: 4
 type: fullpage
 ---
 
