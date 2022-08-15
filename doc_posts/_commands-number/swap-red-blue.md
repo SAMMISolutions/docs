@@ -7,7 +7,7 @@ Swaps red and blue value for a color in HEX/DEC format and returns its DEC value
 
 | Box Name | Type | Description |
 |-------|--------|--------
-| Variable | String | Name of the variable containing the color value to swap red and blue. |
+| Save Variable As | String | Name of the variable containing the color value to swap red and blue. |
 {:class='table table-primary' }
 
 
