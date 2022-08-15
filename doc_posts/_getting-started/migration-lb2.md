@@ -19,21 +19,21 @@ If you are currently on a LioranBoard 2 version that does NOT have the CE suffix
 
 1. Go to the [SAMMI Solutions GitHub](https://github.com/SAMMISolutions/SAMMI-Official/releases) page and download the entire SAMMI archive. Unzip the archive and extract the files somewhere on your PC. 
 2. Pick either the x64 or x86 folder depending on your PC system specifications and copy these three files:
-- SAMMI.exe
+- SAMMI Core.exe
 - data.win
 - DLLExtension.dll
 3. Navigate back to your main LioranBoard 2 folder and paste these three files into your main folder. Choose 'Yes' when the prompt asks you if you want to overwrite your existing files. 
-4. Run SAMMI.exe and you should see your existing decks and buttons from LioranBoard 2. Go to the settings page and click 'Check for Updates'. SAMMI Core should have been updated to the current version of SAMMI. SAMMI versions are identified by versions 2022.4.0 and above.
-5. Once you have successfully updated the LioranBoard 2 receiver to SAMMI Core, you can proceed to updating the Transmitter (now called Bridge) and the Stream Deck (now called SAMMI Deck).
+4. Run SAMMI Core.exe and you should see your existing decks and buttons from LioranBoard 2. Go to the settings page and click 'Check for Updates'. SAMMI Core should have been updated to the current version of SAMMI. SAMMI versions are identified by versions 2022.4.0 and above.
+5. Once you have successfully updated the LioranBoard 2 Receiver to SAMMI Core, you can proceed to updating the Transmitter (now called Bridge) and the Stream Deck (now called SAMMI Deck).
 
 ##### SAMMI Bridge
-The LioranBoard transmitter is now called the SAMMI Bridge. When you update to SAMMI, a folder called bridge would have been created in your main folder. Your installed extensions should have automatically been re-installed onto the Bridge.html found in that folder. 
+The LioranBoard Transmitter is now called the SAMMI Bridge. When you update to SAMMI, a folder called bridge would have been created in your main folder. Your installed extensions should have automatically been re-installed onto the `bridge.html` file found in that folder. 
 
 The Bridge will need to be open either in an OBS dock or your browser for some extensions to work. 
 
-If you use an OBS dock for your transmitter, you will have to replace that transmitter with the URL for the Bridge.html file instead. 
+If you use an OBS dock for your Transmitter, you will have to replace that Transmitter with the URL for the `bridge.html` file instead. 
 
-{% include alert.html text="It is important to note that the LioranBoard transmitter will not work with SAMMI and the SAMMI Bridge will not work with LioranBoard 2." type="warning" %} 
+{% include alert.html text="It is important to note that the LioranBoard Transmitter will not work with SAMMI and the SAMMI Bridge will not work with LioranBoard 2." type="warning" %} 
 
 ##### SAMMI Deck
 Functionality of the SAMMI Deck remains exactly the same as the Stream Deck. The update for the Deck will update your taskbar icon. 
