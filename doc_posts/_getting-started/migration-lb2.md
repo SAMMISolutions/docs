@@ -56,3 +56,14 @@ Updating to SAMMI and the new Twitch Token means that SAMMI no longer 'owns' the
 Due to YouTube only allowing one app to be connected via one credential, the rebranding from LioranBoard 2 CE to SAMMI means that only SAMMI will be able to be integrated with YouTube. 
 
 There will no longer be any YouTube integration to any other app (LioranBoard 2 or LioranBoard 2 CE). **If you want to continue to stream on YouTube you will have to update to SAMMI.** 
+
+##### Deleting LioranBoard Files and Folders
+{% include alert.html text="You should only proceed with file deletion once you are sure everything in SAMMI is working!" type="warning" %}
+
+Eensure all your SAMMI components (Core, Bridge and Deck) are updated to the latest versions and are functioning properly before deleting any old LioranBoard 2 files. Make sure all your extensions that were installed in your transmitter.html have been successfully transferred to the bridge.html and are working as expected. 
+
+Once you have made sure they are all in working order, you can delete the following files and folders:
+- Stream Deck folder
+- transmitter folder
+- Lioranboard 2.0.exe
+
