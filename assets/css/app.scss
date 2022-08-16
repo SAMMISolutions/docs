@@ -26,15 +26,15 @@ body {
     height: 46px;
     border:none;
     vertical-align:bottom;
-    background:url("/assets/images/youtube-link/ytbutton_normal.png") no-repeat;
+    background:url("../../assets/images/youtube-link/ytbutton_normal.png") no-repeat;
     }
     
     .ytButton:hover, .ytButton:focus {
-    background:url("/assets/images/youtube-link/ytbutton_focus.png") no-repeat;
+    background:url("../../assets/images/youtube-link/ytbutton_focus.png") no-repeat;
     }
     
     .ytButton:active {
-    background:url("/assets/images/youtube-link/ytbutton_pressed.png") no-repeat;
+    background:url("../../assets/images/youtube-link/ytbutton_pressed.png") no-repeat;
     }
 
 h3 {

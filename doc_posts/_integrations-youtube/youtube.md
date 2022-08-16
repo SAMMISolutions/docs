@@ -22,7 +22,7 @@ Please consider [donating](https://sammi.solutions/donate) or supporting me on [
 
 You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow SAMMI access to your YouTube Live account and to retrieve your refresh token. 
 
-{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke SAMMI's access</a> in your Google account and <a href='/integrations/youtube/auth'>authorize it</a> again." type="warning" %} 
+{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke SAMMI's access</a> in your Google account and authorize it again." type="warning" %} 
 
 1. Retrieve your refresh token from the link provided above
 2. In your SAMMI, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
