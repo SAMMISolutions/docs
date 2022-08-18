@@ -9,9 +9,11 @@ type: fullpage
 
 ### SAMMI Core
 Latest stable version. Recommended for most users.\
-Comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download Android SAMMI Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).\
-SAMMI Core is fully supported on Windows, support for other platforms is coming!\
-You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time.
+Comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download Android SAMMI Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
+
+SAMMI Core is only fully supported on Windows 10 and above, support for other platforms is coming!
+
+You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time. If you do use Wine, it will also need to be running Windows 10 ond above.
 
 <a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
 
