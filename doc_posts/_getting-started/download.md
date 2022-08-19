@@ -7,9 +7,11 @@ permalink: /download
 type: fullpage
 ---
 
-### SAMMI Core
-Latest stable version. Recommended for most users.\
-Comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download Android SAMMI Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
+### SAMMI Core, Bridge and Deck
+
+When you download SAMMI, it comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download an Android Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
+
+{% include alert.html text="Please note that the Android Deck was not made by the SAMMI Devs, and is utilising program code written and developed by Lioran for LioranBoard." %} 
 
 SAMMI Core is only fully supported on Windows 10 and above, support for other platforms is coming!
 
