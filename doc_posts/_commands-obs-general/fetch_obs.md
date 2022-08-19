@@ -6,7 +6,7 @@ Allows you to request data from OBS websocket and save it in a variable.
 
 This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow the data to be sent to SAMMI.
 
-All the possible requests are documented in [here](https://github.com/Palakis/obs-websocket/blob/4.x-current/docs/generated/protocol.md) for version 4.9.1 and [here](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md) for version 5.0.
+All the possible requests are documented in [here](https://github.com/Palakis/obs-websocket/blob/4.x-compat/docs/generated/protocol.md) for version 4.9.1 and [here](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md) for version 5.0.
 
 The requested value will not be saved immediately, you must give you other commands a delay of 100-500ms to process the request.
 
