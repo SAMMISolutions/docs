@@ -9,7 +9,7 @@ Turns a string value into a real value (number).
 - converting a value that's already real returns 0
 - removes any leading zeroes and rounds the number to 2 decimal points
 - string X beginning with a `.` will be converted to 0.X
-- accepts strings containing Euler's number
+- accepts strings with scientific notation
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
