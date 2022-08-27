@@ -3,7 +3,7 @@ title: "CSV Exists"
 num: 5
 ---
 
-Checks to see if a CSV file exists. SAMMI will return -1 if it doesn't exist.
+Checks to see if a CSV file exists, and returns `true` or `false`.
 
 | Box Name | Type | Description |
 |-------|--------|--------|
