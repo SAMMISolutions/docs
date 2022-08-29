@@ -6,6 +6,34 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2022.4.2
+
+Improvements:
+- Made it so that Patrons are only loaded once at the start of SAMMI instead each time you opened the about page [Silverlink]
+- Made the requests section of HTTP Request have a dropdown for the most common types of request [wolbee]
+  - Other request types can be manually written in, if needed, and all previous commands should still work without any changes needed.
+- Change default timeout to 1000 in wait commands [Sebas]
+
+UI Changes:
+- Fixed the weird background on the copy / delete buttons in the variable viewer [Silverlink]
+- Changed SAMMI Core font in about page to Nunito [Silverlink]
+- Gave some buttons some more room for text [Sebas]
+- Added translations to the about window [Sebas + translators]
+
+Bug Fixes:
+- Fixed Right-Click -> Delete button not working [Sebas]
+- Rewrote obsws5_event to address a multitude of crashes [Roadie]
+- Fixed visibility toggle crash on data_behavior [Roadie]
+- Fixed crash with missing requestId on ws5 [Roadie]
+- Fixed the whole "patch notes not deleting, verify update loop" thing [Roadie]
+- Fixed a few instances of "missing text" [Sebas + translators]
+- Fixed a few commands sharing an error message [Sebas]
+- Stopped you being able to name a button Global [wolbee]
+- Fixed a crash on start when SAMMI is scaled [Sebas]
+- Fixed a bug with menus [Sebas]
+- Fixed a crash when command is incorrectly saved [Sebas]
+- Fixed a crash on start when SAMMI was already running [Sebas]
+- Fixed a visual bug that didn't update copy and delete button when running a button from edit button window [Sebas]
 
 #### SAMMI 2022.4.1
 
