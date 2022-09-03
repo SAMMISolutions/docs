@@ -30,8 +30,8 @@ You can read more about our team members and support us on our [Patreon](https:/
 We would like to acknowledge the wonderful support of our Patrons below:
 - Purple Emperor: TheBurge
 - Red Admirals: a_bat, Brady
-- Green Hairstreak: Fizbanoide, SeijiSoldier, bunnicheeky, Mo Falk, DataForge, Kayla Marie Healy, erniequintero
-- Brown Argus: ShaolinSherlock
+- Green Hairstreak: Fizbanoide, SeijiSoldier, bunnicheeky, Mo Falk, DataForge, Kayla Marie Healy, erniequintero, LosPigeon
+- Brown Argus: ShaolinSherlock, Cihroplut, MPthreeJ Sark
 
 **Contributors**
 
@@ -43,6 +43,7 @@ We would like to acknowledge the wonderful support of our Patrons below:
 - Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
 - Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Falinere](https://www.youtube.com/channel/UCDf53fZZjoMIq-T0yOxEAIA), [MisterK](https://www.youtube.com/user/Kamelot781), [wolbee](https://www.youtube.com/c/wolbee) and more!
+- SAMMI Core Translators: Sebas, wolbee, Chrizzz
 
 **License Information**
 

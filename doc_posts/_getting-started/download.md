@@ -7,11 +7,15 @@ permalink: /download
 type: fullpage
 ---
 
-### SAMMI Core
-Latest stable version. Recommended for most users.\
-Comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download Android SAMMI Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).\
-SAMMI Core is fully supported on Windows, support for other platforms is coming!\
-You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time.
+### SAMMI Core, Bridge and Deck
+
+When you download SAMMI, it comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download an Android Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
+
+{% include alert.html text="Please note that the Android Deck was not made by the SAMMI Devs, and is utilising program code written and developed by Lioran for LioranBoard." %} 
+
+SAMMI Core is only fully supported on Windows 10 and above, support for other platforms is coming!
+
+You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time. If you do use Wine, it will also need to be running Windows 10 ond above.
 
 <a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
 
@@ -25,8 +29,11 @@ SAMMI Core is compatible with OBS Studio. Other streaming software, such as Stre
 <a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Download OBS Studio</button></a>
   
 **OBS Websocket**       
-This is how SAMMI Core communicates with OBS Studio. We recommend installing the latest 4.X version (currently 4.9.1).\
-SAMMI Core will be also compatible with OBSWS 5.0 and up once a **stable** version is released.
+This is how SAMMI Core communicates with OBS Studio. OBS Websocket 5.0 has been released publicly very recently and SAMMI is compatible with this version. However, as it is a recent release, some extensions that formerly worked on OBS Websocket 4.9.1 will not work if you switch to OBS Websocket 5.0.
+
+You can download OBS Websocket 5.0 **along with** the OBS Websocket 4.9-compat in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. 
+
+For the time being, until you are sure your extensions have been fully updated to use OBS Websocket 5.0, we suggest staying on 4.9.1.
 
 <a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
 

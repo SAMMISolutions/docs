@@ -19,6 +19,8 @@ To ensure the 4.x version protocol is still supported, you can download the 4.9.
 
 <a href="https://github.com/obsproject/obs-websocket/releases"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
 
+<a href="https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#events"><button type="button" class="btn btn-outline-secondary">OBS Websocket 4.9.1 Protocol</button></a>
+
 <a href="https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"><button type="button" class="btn btn-outline-secondary">OBS Websocket 5.0 Protocol</button></a>
 
 <hr>

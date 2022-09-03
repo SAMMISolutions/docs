@@ -31,7 +31,7 @@ The LioranBoard Transmitter is now called the SAMMI Bridge. When you update to S
 
 The Bridge will need to be open either in an OBS dock or your browser for some extensions to work. 
 
-If you use an OBS dock for your Transmitter, you will have to replace that Transmitter with the URL for the `bridge.html` file instead. 
+If you use an OBS dock for your Transmitter, you will have to replace that Transmitter with the URL for the `bridge.html` file instead. If this step is not done, you will get 'Transmiter is not supported' errors.  
 
 {% include alert.html text="It is important to note that the LioranBoard Transmitter will not work with SAMMI and the SAMMI Bridge will not work with LioranBoard 2." type="warning" %} 
 

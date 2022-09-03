@@ -6,6 +6,80 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2022.4.2
+
+Improvements:
+- Made it so that Patrons are only loaded once at the start of SAMMI instead each time you opened the about page [Silverlink]
+- Made the requests section of HTTP Request have a dropdown for the most common types of request [wolbee]
+  - Other request types can be manually written in, if needed, and all previous commands should still work without any changes needed.
+- Change default timeout to 1000 in wait commands [Sebas]
+
+UI Changes:
+- Fixed the weird background on the copy / delete buttons in the variable viewer [Silverlink]
+- Changed SAMMI Core font in about page to Nunito [Silverlink]
+- Gave some buttons some more room for text [Sebas]
+- Added translations to the about window [Sebas + translators]
+
+Bug Fixes:
+- Fixed Right-Click -> Delete button not working [Sebas]
+- Rewrote obsws5_event to address a multitude of crashes [Roadie]
+- Fixed visibility toggle crash on data_behavior [Roadie]
+- Fixed crash with missing requestId on ws5 [Roadie]
+- Fixed the whole "patch notes not deleting, verify update loop" thing [Roadie]
+- Fixed a few instances of "missing text" [Sebas + translators]
+- Fixed a few commands sharing an error message [Sebas]
+- Stopped you being able to name a button Global [wolbee]
+- Fixed a crash on start when SAMMI is scaled [Sebas]
+- Fixed a bug with menus [Sebas]
+- Fixed a crash when command is incorrectly saved [Sebas]
+- Fixed a crash on start when SAMMI was already running [Sebas]
+- Fixed a visual bug that didn't update copy and delete button when running a button from edit button window [Sebas]
+
+#### SAMMI 2022.4.1
+
+Important note for users who had Pubsub connection issues:
+- This update includes a temporary workaround until a "more elegant solution" can be found. If you had Pubsub connection issues, please make yourself known in the Discord, and one of the dev team will instruct you on how to fix it.
+
+New Features
+- About page, featuring information on the developers, Patrons, and more. [Dev team]
+
+Improvements:
+- Error logs now contain an identifier to help distinguish between repeated reports from the same person or from different people. [Christinna]
+  - No personally identifiable information is sent in the report, so reports cannot be linked back to a specific user.
+- Shortened the version matching alert. [Sebas]
+- Updates to language files. [Translators]
+
+UI Changes:
+- Changed SAMMI Background color to #122c52 matching the rest. [Silverlink]
+- Changed Bridge Icon. [Christinna]
+- The copy buttons in the Variable Viewer now share a background. [wolbee]
+
+Bug Fixes:
+- Fixed a double pop-up when updating languages for SAMMI Core. [Christinna]
+- Fixed a bug that reloaded decks from within the edit button screen. [Christinna]
+- Array Filter and CSV Math should no longer crash when used with strings. [Sebas]
+- Revoking your Twitch token should no longer crash. [Roadie]
+- Fixed a crash when creating a reward after duping another with Reward ID swap enabled. [Sebas]
+- Checking the version should no longer freeze clicking. [Christinna]
+- Fixed the Verify update loop. [Christinna]
+- Fixed a bug when trying to install an extension when no files are found. [Christinna]
+- Fixed a bug when trying to load a backup if no file was selected. [Christinna]
+- Fixed a Pubsub crash on moderator action trigger. [Christinna]
+- Fixed a crash on InputVolumeChange OBS trigger. [Roadie]
+- Fixed a bug when saving decks. [Christinna]
+- Fixed a crash on Source Filter name changes. [Roadie]
+- Fixed a bug where the SourceID Menu wasn't working as intended. [Roadie and Sebas]
+- Fixed a crash on Source Scale change. [Roadie]
+- Fixed an bug when copying variables returned undefined. [Christinna]
+- Fixed Ctrl + Z and Ctrl + Shift + Z not always working in deck view. [Christinna]
+- Fixed Pubsub connection issue (see note at top). [Christinna]
+- Fixed a crash when deck size was left blank. [Christinna]
+
+Known Bugs: 
+- Button menu option to 'Delete Button' doesn't work currently. Use the keyboard 'Delete' key instead.
+- Extension commands for filter boxes do not correctly show source filters.
+
+
 
 #### SAMMI 2022.4.0
 
