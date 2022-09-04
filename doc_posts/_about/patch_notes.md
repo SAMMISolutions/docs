@@ -6,6 +6,55 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2022.4.3
+
+New Features:
+- Added Reload Bridge button to the Bridge menu [Christina]
+- Added a super secret early-access feature - our Patrons can request access [Christina]
+- New Language: French [MisterK]
+
+Improvements:
+- Significantly improved how error logs are sent to us and processed - please fill out the comment describing what you were doing when SAMMI crashed as it really helps us narrow it down [Christina]
+- Bridge Verify button label in the Update Window changed to Reinstall if Bridge versions match, since in this case it just downloads a clean version of Bridge and reinstalls all extensions [Christina]
+- New translations added [Sebas + translators]
+
+Removed Features:
+- Twitch Connected/Disconnected Triggers [Christina]
+
+UI Changes:
+- Fixed YouTube Connections layout [Sebas]
+- Remade many buttons and text layout to allow French translation [Sebas]
+
+Bug Fixes:
+- lots of ws5-related bugs have been fixed in this update [various]
+  - SceneItemRemoved crash
+  - SceneItemCreated crash
+  - "obsws5_event line 71"
+  - "obsws5_event line 355"
+  - OBS Pull Source Value now works again for ws5 users
+- Fixed SAMMI Core crashing when it's resized sometimes [Christina]
+- Fixed a bug where the most recent Patch Notes wouldn't show [Christina]
+- Fixed Twitch token revoke crash [Christina]
+- Fixed Pubsub connection issues - it no longer freezes for users with higher ping and the connection is made asynchronously now instead [Christina]
+  - pubsub_timeout in settings.ini can be deleted if you previously set it up
+- Fixed YouTube Test Triggers for Chat in Bridge having is_member and is_verified pull values swapped [Christina]
+- Fixed encrypted decks not saving enabled/disabled state [Christina]
+  - if you're toggling this on an encrypted deck, it might slighly lag as it needs to decrypt and encrypt it again
+- Fixed crash that sometimes occured on Edit Channel Points command (untested) [Christina]
+- Fixed a crash after an OBS Connection was renamed and not found in some cases (untested) [Christina]
+- Fixed a crash when version window was closed while an update was downloading [Christina]
+- Fixed an occasional crash when SAMMI fails to connect to OBS [Christina]
+- Fixed a bug where Source Toggle Mute would cause ws5 connection to drop [wolbee]
+- Fixed an occasional crash when opening a menu [Sebas]
+- Fixed an occasional crash when opening a dropdown [Sebas]
+- Fixed a crash when updating from LB2CE to SAMMI [Sebas]
+- Fixed a crash when opening the About window and the language package was not updated [Sebas]
+- Fixed incorrect value when using X token as an input format in Date/Time Math [Sebas]
+- You can now submit your extensions at sammi.solutions/extensions again [Christina]
+
+Known Bugs:
+- For Date/Time commands, using the X token for the input format doesn't take into account Daylight Savings Time
+
 #### SAMMI 2022.4.2
 
 Improvements:
