@@ -51,6 +51,8 @@ Bug Fixes:
 - Fixed a crash when opening the About window and the language package was not updated [Sebas]
 - Fixed incorrect value when using X token as an input format in Date/Time Math [Sebas]
 - You can now submit your extensions at sammi.solutions/extensions again [Christina]
+- Fixed OBSWS connection freeze [Christina]
+- Fixed a high ping crash for Pubsub [Christina] 
 
 Known Bugs:
 - For Date/Time commands, using the X token for the input format doesn't take into account Daylight Savings Time
