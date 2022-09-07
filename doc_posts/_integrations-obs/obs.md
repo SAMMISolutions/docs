@@ -13,11 +13,11 @@ SAMMI communicates with OBS via OBS Websocket (OBSWS), which allows you to remot
 
 SAMMI is now compatible with OBS websocket 5.0. As this version is still very new, please note that some of your extensions might not work with it until they have been updated. 
 
-To ensure the 4.x version protocol is still supported, you can download the 4.9.1-compat plugin available at the link below.
+OBS Studio 28 comes bundled with OBS Websocket 5.0. There is no need to download a separate plugin for it. 
 
-{% include alert.html text="We are aware that version 28.0 of OBS Studio will have native websocket 5.0 support and will no longer require a separate plugin downloaded. While this version is still in Beta, we generally discourage updating to it until the public release is finalised." type="warning" %} 
+To ensure the 4.x version protocol is still supported, you can download the 4.9.1-compat plugin for OBS Studio 28 available at the link below.
 
-<a href="https://github.com/obsproject/obs-websocket/releases"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
+<a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket 4.9.1 for OBS 28</button></a>
 
 <a href="https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#events"><button type="button" class="btn btn-outline-secondary">OBS Websocket 4.9.1 Protocol</button></a>
 
