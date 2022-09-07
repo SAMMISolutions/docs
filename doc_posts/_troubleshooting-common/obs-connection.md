@@ -3,12 +3,15 @@ title: OBS Connection
 num: 0
 ---
 
-To connect to and control OBS, SAMMI uses a free plugin for OBS called OBS WebSockets.\
-You can find a link to the latest compatible version of WebSockets in the [Step-by-step Tutorial](https://sammi.solutions/docs/getting-started/step-by-step).\
+To connect to and control OBS, SAMMI uses an add-on called the OBS WebSocket.
+
+You can find a link to the latest compatible version of the WebSocket in the [Step-by-step Tutorial](https://sammi.solutions/docs/getting-started/step-by-step).
+
 Try these steps to troubleshoot the connection between SAMMI and OBS WebSockets:
 
 - **OBS Studio 28 and OBS Websockets**\
 If you have just downloaded OBS Studio 28, it comes bundled with OBS Websocket 5.0. This means that if you are running SAMMI using the OBS Websocket 4.9.1 protocol, you will not be able to connect to OBS. 
+
 Instead, you will either have to: 
 1. Switch to the OBS Websocket 5.0 protocol in SAMMI and make the necessary changes to your Fetch OBS Data, Custom Packet and Send OBS Requests to reflect the correct OBS Websocket 5.0 protocol syntax, OR 
 2. Download the OBS Websocket 4.9.1-compat plugin [HERE](https://github.com/obsproject/obs-websocket/releases), and create a new OBS instance in SAMMI to run the OBS Websocket 4.9.1 protocol. All your commands will have to specify which OBS Websocket protocol you want SAMMI to use.
