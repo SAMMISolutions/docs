@@ -6,6 +6,66 @@ menu: About
 num: 1
 type: fullpage
 ---
+
+#### SAMMI 2022.4.4
+
+New Features:
+- Added JSON checker for when Send OBS Request Command is executed. [Christina]
+  - If the JSON is not formatted correctly, you now get an alert, and the request is not sent.
+- Added more variables to OBS global variables.
+  - port and type [Christina]
+  - ip [Chrizzz]
+- Added client_language as a global variable [Chrizzz]
+
+Improvements:
+- Added 2 new Twitch Scopes (No commands yet, but can be done via HTTP Requests) [Silverlink]
+  - Charity Scope
+  - Goals Scope
+- Optimized Bridge to send default parameters to SAMMI when executing SAMMI methods with empty parameters to prevent SAMMI crashing [Christina]
+- When exporting or importing a deck, the lb_version key is now replaced with sammi_version key [Christina]
+- SAMMI now automatically fetches data for all OBS connections. [Christinna]
+  - the Fetch OBS Data checkbox has been removed from OBS Connections, which should fix several OBS-related crashes.
+
+Removed Features:
+- Removed 2 Twitch Scopes [Silverlink]
+  - Twitch Stream Key (SAMMI does not need the Twitch Stream Key to operate so we removed this)
+  - Edit Follows (This is deprecated by Twitch and does nothing anymore)
+
+UI Changes:
+
+Bug Fixes:
+- AM and PM now work correctly in Date/Time commands [Sebas]
+- MMM and MMMM tokens now work again [Sebas]
+- Daylight Savings Time is now correctly calculated in Date/Time commands [Sebas]
+- Fixed "Divide by Zero" crash when minimizing SAMMI window in some cases [Silverlink]
+- Fixed "Can't create a surface with either a width or height with a value less than or equal to zero" error [Silverlink]
+- Fixed Twitch connection not getting properly removed when token is alread expired [Christina]
+- Fixed crashes when users try to access non existing structure in OBS Request response or save the response into non existing objects/arrays. [Christina]
+  - It will now show yellow alert messages instead.
+- Fixed OBS Set Scene Transition Settings command crash [Christina]
+- Fixed several OBSws5 related bugs, including: [Roadie]
+  - Source Delte crashes
+  - Source Filter removed crashes
+  - New scenes and sources not being added to Pull Source Value list, and crashing if the list was open when the scene was made
+  - Opening the source dropdown menu after creating/moving sources
+- Fixed a crash when Undo was used in some cases in OBS [Christina]
+- Fixed a crash when user tried to insert or delete a value in global array from Bridge [Christina]
+- Fixed duplicate messages for OBS Connected/Disconnected alerts [Christina]
+- Fixed a crash where SAMMI would try to auto-connect to OBS when there were no OBS connections [Sebas]
+- Fixed Send OBS Request command having the default wrong JSON payload in some cases [Christina]
+- Fixed Send OBS Request command crash when OBS returns no data in its response due to incorrect user input [Christina]
+- Fixed a crash when decks are being dragged around while alt tabbing at the same time [Christina]
+- Fixed a crash when user attempts to open About Page without being connected to internet [Christina]
+- Fixed a crash when trying to uninstall an extension without a bridge connected [Sebas]
+- Fixed crashes when Twitch, OBS and YouTube json settings files are either empty or corrupted. [Christina]
+  - It now creates default settings and properly alerts the user instead.
+- Fixed a bug where, after deleting an OBS connection, the global variable would not be deleted [Christina]
+- Fixed SAMMI displaying moderator as 'Unknown' in some Pubsub moderation alerts [Christina]
+- Fixed an ocassional crash when saving a deck [Sebas]
+- Fixed a crash when an extension sends incorrect data to trigger [Sebas]
+- Fixed a crash when a button was incorrectly saved in previous version [Sebas]
+- Fixed an About Window Tags bug [Silverlink]
+
 #### SAMMI 2022.4.3
 
 New Features:
