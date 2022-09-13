@@ -2,7 +2,7 @@
 layout: default
 title: Assets
 permalink: /assets
-menu: Assets
+menu: About
 num: 1
 type: fullpage
 ---
