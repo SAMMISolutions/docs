@@ -17,7 +17,7 @@ SAMMI Core is only fully supported on Windows 10 and above, support for other pl
 
 You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time. If you do use Wine, it will also need to be running Windows 10 ond above.
 
-<a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary">Download SAMMI</button></a>
+<iframe frameborder="0" src="https://itch.io/embed/1701438?dark=true" width="552" height="167"><a href="https://sammisolutions.itch.io/sammi">SAMMI by SAMMI</a></iframe>
 
 *You can check our **[Discord's](https://discord.gg/dXez8Zh)** Announcements channel for unreleased and beta versions.* 
 
