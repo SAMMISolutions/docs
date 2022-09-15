@@ -5,7 +5,7 @@ LioranBoard 2 Receiver -> SAMMI Core
 LioranBoard 2 Transmtiter -> SAMMI Bridge
 LioranBoard 2 Stream Deck -> SAMMI Deck
 
-Maintained by [Sammi Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
+Maintained by [Sammi Dev Team](https://www.patreon.com/sammidevs?fan_landing=true)
 
 
 
