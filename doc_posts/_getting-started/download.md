@@ -33,7 +33,7 @@ SAMMI Core is compatible with OBS Studio. Other streaming software, such as Stre
 **OBS Websocket**       
 This is how SAMMI Core communicates with OBS Studio. OBS Websocket 5.0 has been released publicly very recently and SAMMI is compatible with this version. However, as it is a recent release, some extensions that formerly worked on OBS Websocket 4.9.1 will not work if you switch to OBS Websocket 5.0.
 
-You can download OBS Websocket 5.0 **along with** the OBS Websocket 4.9-compat in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. 
+You can download OBS Websocket 5.0 **along with** the [OBS Websocket 4.9-compat](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat) in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. 
 
 For the time being, until you are sure your extensions have been fully updated to use OBS Websocket 5.0, we suggest staying on 4.9.1.
 
