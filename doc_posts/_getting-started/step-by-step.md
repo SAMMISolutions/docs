@@ -15,7 +15,7 @@ We will walk you through a step by step tutorial on how to set up SAMMI, and con
 
 #### 1. Install all dependencies
 - Download and install **[OBS Studio](https://obsproject.com/)**. As of now, SAMMI does not support other streaming software.
-- Download and install **[OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)** This is how SAMMI communicates with OBS Studio. SAMMI is fully compatible with OBSWS 4.9 and 5.0, although lots of extensions have not yet been migrated to OBSWS 5.0 - we recommend either waiting with updating to OBS 28 or installing [OBSWS 4.9 Compat version](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat) on top of OBSWS 5.0, which allows you to connect to both versions. 
+- Download and install **[OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)** This is how SAMMI communicates with OBS Studio. You can download OBS Websocket 5.0 along with the [OBS Websocket 4.9-compat](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat) in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. For the time being, until you are sure your extensions have been fully updated to use OBS Websocket 5.0, we suggest staying on 4.9.1.
 
 #### 2. Download SAMMI
 
