@@ -21,7 +21,7 @@ We will walk you through a step by step tutorial on how to set up SAMMI, and con
 
 We recommend selecting **64bits release**.
 
-<a href="https://github.com/SAMMISolutions/SAMMI-Official/releases"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
+<a href="https://sammisolutions.itch.io/sammi"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
 
 Unpack the zip file and place the folder anywhere in your computer, preferably in your non windows drive.
 
