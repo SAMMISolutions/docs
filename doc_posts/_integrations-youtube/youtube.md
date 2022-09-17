@@ -50,7 +50,7 @@ Find the quota cost table below. YouTube Live API does not provide this informat
 |Ban a user |200 units| 2 | This is a very expensive endpoint. It's recommended to ban users manually if you need to go through a lot of names.| 
 |Change Status |50 units| 9 | 
 |Channel Stats |1 unit | N/A | Your channel stats are retrieved once every streaming session. |
-|Get Live Stats |1 unit | 1 | Get Broadcast Stats is automatically polled every minute by the integration. Using the LB command does not increase the cost.|
+|Get Live Stats |1 unit | 1 | Get Broadcast Stats is automatically polled every minute by the integration. Using the SAMMI command does not increase the cost.|
 |Get Subscribers|1 unit | 470 | Checking for new subscribers is done once per minute. Using the `Check Subscriber Status` command will cost you an additional 1 unit.
 |Get Member Info |2 units|235|
 {:class='table table-primary w-auto table-hover data-toggle='table'} 
