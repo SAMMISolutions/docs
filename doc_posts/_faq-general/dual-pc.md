@@ -5,14 +5,16 @@ num: 2
 
 SAMMI can connect to your OBS from another PC, as long as they are both sharing the same network.
 
-**Streaming PC**
+**PC running OBS**
 1. Run your OBS as normal.
-2. Open your command line and type `ipconfig`. Note down your IPv4 address. It should start with `192.168`.
+2. Open your command line (Windows + R, `cmd.exe`) and type `ipconfig`. Note down your IPv4 address. It probably starts with `192.168.`, but could start with `10.` instead.
 
-**Gaming PC**
-1. Go to your SAMMI folder and open `connect.ini`. Under `[connection]` section, add a new entry: `websocket_ip="YOUR STREAMING PC IPv4"`.
-2. Save the file, open SAMMI and try connecting to the OBS websocket on your streaming PC.
+**PC running SAMMI**
+1. Open SAMMI Core, and open OBS Connections.
+2. Enter your other PC's IPv4 address in the IP box.
+3. Make sure your Port and Password match, as shown in the [instructions to set up an OBS connection]({{ "//getting-started/step-by-step#connectsammitoyourobs" | relative_url }}).
+4. Click Connect.
 
-It should work as long as nothing (antivirus, firewall) is blocking connection to your streaming PC.  
+As long as nothing is blocking the connection to your streaming PC (like your anti-virus or firewall), SAMMI should now be linked to your other PC's OBS.
 
    {% include image.html w="50" src="obs-another-pc.png" alt="Modified connect.ini" %}
