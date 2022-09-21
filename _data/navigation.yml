@@ -125,6 +125,9 @@ main:
     - name: Error Messages
       link: troubleshooting/errors
       collection: troubleshooting-errors
+    - name: Recording Outputs
+      link: troubleshooting/outputs
+      collection: troubleshooting-outputs
     - name: Known Bugs
       link: troubleshooting/bugs
       collection: troubleshooting-bugs
