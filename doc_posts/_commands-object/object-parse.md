@@ -37,7 +37,7 @@ Read more about JSON syntax at [w3schools.com](https://www.w3schools.com/js/js_j
                </code>
             </span>
          </td>
-         <td><img src="/docs2/assets/images/commands-object/object-parse2.png" class="img-fluid rounded w-100" alt="Parsed JSON string"></td>
+         <td><img src="/docs/assets/images/commands-object/object-parse2.png" class="img-fluid rounded w-100" alt="Parsed JSON string"></td>
       </tr>
       <tr>
          <td>
