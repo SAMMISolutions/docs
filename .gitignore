@@ -4,3 +4,4 @@ _site/
 assets/css/main copy.scss
 assets/css/content copy.scss
 _algolia_api_key
+Gemfile.lock
