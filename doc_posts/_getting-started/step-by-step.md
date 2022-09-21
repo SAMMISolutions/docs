@@ -62,9 +62,9 @@ Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Un
 You must fill out the password if you decided to use one in SAMMI-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
-{% include image.html w="75" src="bridge-connection.png" alt="Bridge Connection Settings" %}
+{% include alert.html text="Bridge Port and Password must match what's in the Settings window, not the OBS Connections window." type="danger" %} 
 
-{% include alert.html text="Bridge must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
+{% include image.html w="75" src="bridge-connection.png" alt="Bridge Connection Settings" %}
 
 In your Bridge you should now see **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %} next to SAMMI. This means it is connected to your SAMMI and listening for messages. 
 
