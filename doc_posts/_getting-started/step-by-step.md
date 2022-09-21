@@ -48,12 +48,12 @@ You should see a yellow notification message `OBS [Main] Connected` and the stat
 
 In your OBS menu navigate to **View - Docks - Custom Browser Docks**. Your new dock name can be `Bridge` and the URL will be the path to the `bridge.html` file located in your `SAMMI/bridge` folder.
 
-{% include image.html w="100" src="transmitter_dock.png" alt="OBS Dock Settings" type="image" %}
+{% include image.html w="100" src="bridge_dock.png" alt="OBS Dock Settings" type="image" %}
 
 Press **apply** and you should see your new dock. If it does not pop up for some reason, you can always go to View - Docks - Bridge.   
 Fit your new dock somewhere in your OBS screen as you see fit. 
 
-{% include image.html w="75" src="transmitter_dock2.png" alt="Bridge in a dock in OBS" %}
+{% include image.html w="75" src="bridge_dock2.png" alt="Bridge in a dock in OBS" %}
 
 #### 6. Connect Bridge to SAMMI
 In your **SAMMI-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
@@ -62,7 +62,7 @@ Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Un
 You must fill out the password if you decided to use one in SAMMI-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
-{% include image.html w="75" src="transmitter-connection.png" alt="Bridge Connection Settings" %}
+{% include image.html w="75" src="bridge-connection.png" alt="Bridge Connection Settings" %}
 
 {% include alert.html text="Bridge must be running at all times for your Twitch connection and extensions to work properly." type="danger" %} 
 
