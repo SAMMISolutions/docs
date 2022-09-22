@@ -16,5 +16,5 @@ SAMMI can connect to your OBS from another PC, as long as they are both sharing 
 4. Click Connect.
 
 As long as nothing is blocking the connection to your streaming PC (like your anti-virus or firewall), SAMMI should now be linked to your other PC's OBS.
+{% include image.html w="50" src="obs-another-pc.png" alt="Modified &quot;OBS Connections&quot; to use OBS PC&prime;s IPv4 Address" %}
 
-   {% include image.html w="50" src="obs-another-pc.png" alt="Modified connect.ini" %}
