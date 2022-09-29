@@ -1,5 +1,5 @@
 ---
-title: "Array Stringify"
+title: "Stringify Array"
 num: 9
 ---
 
