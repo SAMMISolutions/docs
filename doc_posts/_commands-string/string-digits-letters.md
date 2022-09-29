@@ -1,5 +1,5 @@
 ---
-title: "String Letters & Digits"
+title: "String Letters & Digits Only"
 num: 8
 ---
 
