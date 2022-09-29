@@ -1,5 +1,5 @@
 ---
-title: String Letters only
+title: String Letters Only
 num: 8
 ---
 
