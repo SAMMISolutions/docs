@@ -1,5 +1,5 @@
 ---
-title: KeyBoard Simulate Press
+title: Keyboard Simulate Press
 num: 1
 ---
 
