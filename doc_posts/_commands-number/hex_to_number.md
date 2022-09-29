@@ -1,11 +1,9 @@
 ---
-title: "Hex to Number"
+title: "Hex String to Number"
 num: 3
 ---
 
 Converts a hexadecimal string into a real (decimal) number. 
-
-{% include alert.html text="Pressing reset button automatically clears all variables." type="info" %}  
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
