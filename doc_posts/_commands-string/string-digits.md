@@ -1,5 +1,5 @@
 ---
-title: String Digits only
+title: String Digits Only
 num: 8
 ---
 
