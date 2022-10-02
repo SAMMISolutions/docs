@@ -307,7 +307,13 @@ Triggers for all new hype train events.
 
 | Condition | Explanation |
 |-------|--------|
-|Type | Dropdown | Type of the hype train event to trigger the button <br/> Approaching = when a new hype train is about to begin <br/>  **Started** = when a new hype train has started, <br/> **Conductor Update** = when a hype train receives new points (for example if someone subscribes while it's ongoing), <br/> **Level up** = when a hype train levels up <br/> **Ended** = when a hype train has ended,<br/>  **Cooldown expired** = when a previous hype train's cooldown has expired and a new hype train can begin <br/> **Progressed** = when events add to the hype train level progression
+|Approaching| Triggers when a hype train is approaching
+|Started| Triggers when a hype train has started
+|Conductor Update|Triggers when a hype train conductor is assigned
+|Level Up|Triggers when the hype train levels up
+|Ended|Triggers when a hype train has ended
+|Cooldown expired| Triggers when a previous hype train's cooldown has expired
+|Progressed| Triggers when an event progresses the hype train level|
 {:class='table table-primary' }
 
 <hr>
