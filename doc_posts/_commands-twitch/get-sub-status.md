@@ -6,7 +6,7 @@ num: 10
 Checks if a specific user is subscribed to your channel.\
 Returns an empty object if the user is not subscribed.
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs2/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
