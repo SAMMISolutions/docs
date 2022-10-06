@@ -23,7 +23,7 @@ SAMMI Core can listen to Twitch alerts and chat messages, send chat messages and
 #### Connection to YouTube Live
 
 SAMMI Core can listen to YouTube Live events and control your live stream! Find out more in
-[Integrations - YouTube]({{ "integrations/youtube/" | relative_url }})
+[Integrations - YouTube]({{ "integrations/youtube" | relative_url }})
 
 #### Connection to OBS Studio
 
