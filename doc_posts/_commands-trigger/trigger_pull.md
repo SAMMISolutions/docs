@@ -11,7 +11,7 @@ Refer to our [Triggers]({{ "/triggers/twitch" | relative_url }}) section to lear
 | Box Name | Type | Description |
 |-------|--------|--------|
 |Variable | String | Variable name to save the pulled value into. |
-|Pull Value|Dropdown| Value you wish to pull from the trigger. Click on the hamburguer icon on the right to choose the correct value.
+|Pull Value|Dropdown| Value you wish to pull from the trigger. Click the dropdown triangle icon on the right to choose a desired value. Leave empty to pull ALL available data.
 {:class='table table-primary' }
 
 [Parse Array/Object]({{ "/commands/object#parsearrayobject" | relative_url }})
