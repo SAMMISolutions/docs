@@ -27,13 +27,13 @@ Save Variable As|	String	|Name of a variable to save the data under.
 
 |What to retrieve|OBS Command|Fetch Value|
 |--------|--------|--------|
-|current CPU usage|<code class="user-select-all">{"requestType":"GetStats",<br />"requestData":{}}</code>|responseData.cpuUsage|
-|Time elapsed since streaming started |<code class="user-select-all">{"requestType":"GetStreamStatus",<br />"requestData":{}}</code>|responseData.outputTimecode|
-|Scene Item ID of a source|<code class="user-select-all">{"requestType":"GetSceneItemId",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sourceName":"YOUR SOURCE NAME"}}</code>|responseData.sceneItemId|
-|Current width of a source|<code class="user-select-all">{"requestType":"GetSceneItemTransform",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sceneItemId":"YOUR SCENE ITEM ID"}}</code>|responseData.sceneItemTransform.width|
-|Current text in a GDI source|<code class="user-select-all">{"requestType":"GetInputSettings",<br />"requestData":{"inputName":"YOUR SOURCE NAME"}}</code>|responseData.inputSettings.text|
-|Brightness value of a Colour Correction filter|<code class="user-select-all">{"requestType":"GetSourceFilter",<br />"requestData":{"sourceName":"YOUR SOURCE NAME","filterName":"YOUR FILTER NAME"}}</code>|responseData.filterSettings.brightness|
-|First source name in a specified scene|<code class="user-select-all">{"requestType":"GetSceneItemList",<br />"requestData":{"sceneName":"YOUR SCENE NAME"}}</code>|responseData.sceneItems[0].sourceName|
+|current CPU usage|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetStats",<br />"requestData":{}<br />}}</code>|responseData.cpuUsage|
+|Time elapsed since streaming started |<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetStreamStatus",<br />"requestData":{}<br />}}</code>|responseData.outputTimecode|
+|Scene Item ID of a source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemId",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sourceName":"YOUR SOURCE NAME"}<br />}}</code>|responseData.sceneItemId|
+|Current width of a source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemTransform",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sceneItemId":"YOUR SCENE ITEM ID"}<br />}}</code>|responseData.sceneItemTransform.width|
+|Current text in a GDI source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetInputSettings",<br />"requestData":{"inputName":"YOUR SOURCE NAME"}<br />}}</code>|responseData.inputSettings.text|
+|Brightness value of a Colour Correction filter|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSourceFilter",<br />"requestData":{"sourceName":"YOUR SOURCE NAME","filterName":"YOUR FILTER NAME"}<br />}}</code>|responseData.filterSettings.brightness|
+|First source name in a specified scene|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemList",<br />"requestData":{"sceneName":"YOUR SCENE NAME"}<br />}}</code>|responseData.sceneItems[0].sourceName|
 {:class='table table-secondary w-auto table-responsive table-hover text-break' }
 
 {% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source" pastebin="ccUwx1GE" %}
