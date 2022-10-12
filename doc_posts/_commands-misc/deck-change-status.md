@@ -1,6 +1,6 @@
 ---
 title: "Deck: Change Status"
-num: 10
+num: 13
 ---
 
 Set a specific deck's status to enabled, disabled, or allow it to toggle between statuses.
