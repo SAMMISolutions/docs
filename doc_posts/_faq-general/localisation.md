@@ -7,5 +7,6 @@ SAMMI now has the abliity to be translated into your local language. Currently, 
 - Spanish
 - German
 - French
+- Italian
 
 If you'd like to contribute to the localisation efforts, [please let us know!](mailto:sammi.solutions@gmail.com)
