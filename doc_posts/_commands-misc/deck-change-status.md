@@ -1,5 +1,5 @@
 ---
-title: Deck: Change Status
+title: "Deck: Change Status"
 num: 10
 ---
 
