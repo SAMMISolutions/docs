@@ -325,3 +325,19 @@ Triggers for any of the selected moderation events. Due to some back-end changes
 |-------|--------|
 Type | Dropdown | Type of the event to trigger the button
 {:class='table table-primary' }
+
+##### Shoutout
+Triggers when the /shoutout command is used. The channel must be live and streaming for this to work. 
+
+| Pull Data Value | Explanation |
+|-------|--------|
+|User Name|User name of the person being shouted out.
+|Display Name|Display name of the person being shouted out.
+|User ID|User ID of the person being shouted out.
+|Picture URL|URL of the profile picture of the person being shouted out.
+|ID|Shoutout ID
+|Name Color|Hex code colour of the name of the person being shouted out.
+|Recent Categories|Recent categories streamed by the person being shouted out.
+|From Channel ID|Channel ID of the channel making the shoutout.
+
+{:class='table table-secondary table-hover' }
