@@ -1,6 +1,6 @@
 ---
-title: HTTP Request
-num: 9
+title: Deck: Change Status
+num: 10
 ---
 
 Set a specific deck's status to enabled, disabled, or allow it to toggle between statuses.
