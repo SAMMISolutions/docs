@@ -326,6 +326,8 @@ Triggers for any of the selected moderation events. Due to some back-end changes
 Type | Dropdown | Type of the event to trigger the button
 {:class='table table-primary' }
 
+<hr>
+
 ##### Shoutout
 Triggers when the /shoutout command is used. The channel must be live and streaming for this to work. 
 
