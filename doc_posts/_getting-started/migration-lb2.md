@@ -10,8 +10,12 @@ type: fullpage
 {% include alert.html text="Always back up your files and folders before running updates!" type="warning" %} 
 
 #### Updating SAMMI (either from LioranBoard 2, LioranBoard 2 CE, or SAMMI)
-Temporarily, the only way to update to the latest version of SAMMI is to visit our [itch.io page](https://sammisolutions.itch.io/sammi) and download the files for free from there. There's a SAMMI Updater.exe file that you can open, select your LB/SAMMI exe file, and let the updater do all the work for you - it might take longer than it used to, but this is just a temporary measure.
+You can use the automatic built-in updater within SAMMI Core to update all components of SAMMI. You do not need to update your Bridge files if the button says 'Redownload'. Re-donwloading the Bridge files will download a fresh copy of your Bridge.html and reinstall all extensions. 
 
+Alternatively, you can also follow the instructions in the 'Updating to SAMMI from other versions of Lioranboard 2' section to update your files manually.
+
+Always make sure you are on the latest version of SAMMI to ensure you do not encounter any critical bugs! 
+ 
 <!-- ##### Updating to SAMMI from LioranBoard 2 CE
 If you are currently on the Community Edition of LioranBoard 2, updating to SAMMI is easy! From your LioranBoard settings page, click 'Check for Updates' and an update to SAMMI will be available for you to download. SAMMI versions are identified by versions 2022.4.0 and above. 
 
