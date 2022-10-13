@@ -1,6 +1,6 @@
 ---
 title: "Read All"
-num: 1.3
+num: 1.4
 ---
 
 Reads a single line of file of your choice and saves it into a variable.
