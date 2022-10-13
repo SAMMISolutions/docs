@@ -26,13 +26,13 @@ To ensure the 4.x version protocol is still supported, you can download the 4.9.
 <hr>
 
 #### Connect SAMMI to OBS Websocket
-Once you have downloaded and installed OBS Websocket, you can proceed with connecting it to SAMMI in a few easy steps.  
+Please note that there is no need to download OBS Websocket 5.0 if you are running OBS version 28 as it is bundled with the OBS install. You will only need to download the OBS 4.9.1-compat plugin if you wish to run OBS Websocket 4. 
 
 In your SAMMI click on **OBS Connections** at the bottom menu:
 - `Name`: Name of your OBS. The first OBS will always be Main and cannot be changed. 
-- `Protocol`: Choose the protocol your OBS Websocket is using. 
+- `Protocol`: Choose the protocol your OBS Websocket is using. Choose obsws4 or obsws5 accordingly. 
 - `IP`: IP Address of the OBS Websocket. Unless you're connecting to an OBS on another computer, it will be always `127.0.0.1`.
-- `Port`: Port of the OBS Websocket. Must match the port in your OBS-Tools-Websocket Server Settings.
+- `Port`: Port of the OBS Websocket. Must match the port in your OBS-Tools-Websocket Server Settings. By default, 4444 is the port for obsws4 and 4455 is the port for obsws5.
 - `Password`: Password to authorize with OBS Websocket. Leave empty, unless you checked Enable Authorization in OBS-Tools-Websocket Server Settings. In that case the passwords must match. 
 - `Auto Connect`: Whether you want SAMMI to automatically connect to OBS Websocket on launch
 - `Non-Blocking`: Leave unchecked unless you have difficulties connecting to OBS Websocket. 
@@ -47,7 +47,8 @@ Once you press **connect**, you should see a yellow notification message `OBS [M
 <hr>
 
 #### Connect SAMMI to multiple OBS Websockets
-You can connect SAMMI to multiple OBS Websockets, just add another connection in your OBS Connections settings.\
+You can connect SAMMI to multiple OBS Websockets, just add another connection in your OBS Connections settings.
+
 You will need to manually select your OBS Name for all your OBS commands (if not using Main OBS connection), so SAMMI knows which OBS to send them to. OBS Name accepts variables as inserts as well.
 
 {% include image.html w="75" src="obs-manual-select.png" alt="Manually select OBS name for OBS commands" %}
