@@ -9,7 +9,7 @@ Trims blank spaces or specific characters from your string.
 |-------|--------|--------|
 |Save Variable As|String|Variable name to save the trimmed string.|
 |String (text)|String|String to be trimmed.|
-|Strings to Delete|String|If left blank, will delete all spaces before and after the string. If specific characters like `@, #` or `!` are to be trimmed, use the `\|` delimiter. 
+|Strings to Delete|String|If left blank, will delete all spaces before and after the string. If specific characters like `@, #` or `!` are to be trimmed, use the \| delimiter. 
 {:class='table table-primary ' }
 
 | Original string |String to delete|Result| 
