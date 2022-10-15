@@ -1,6 +1,7 @@
 ---
 title: "String Trim"
 num: 3.6
+version: 202250
 ---
 
 Trims blank spaces or specific characters from your string. 

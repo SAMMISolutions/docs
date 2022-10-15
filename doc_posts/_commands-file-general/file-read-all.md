@@ -1,6 +1,7 @@
 ---
 title: "Read All"
 num: 1.4
+version: 202250
 ---
 
 Reads a single line of file of your choice and saves it into a variable.

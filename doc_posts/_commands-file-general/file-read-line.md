@@ -1,6 +1,7 @@
 ---
 title: "Read Line"
 num: 1.1
+version: 202250
 ---
 
 Reads a single line of file of your choice and saves it into a variable.

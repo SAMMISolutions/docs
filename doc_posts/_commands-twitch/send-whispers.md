@@ -1,6 +1,7 @@
 ---
 title: "Send Whispers "
 num: 1.1
+version: 202250
 ---
 
 This command will send a whisper over the Twitch API. The whisper will be sent via the account that is connected to chat.

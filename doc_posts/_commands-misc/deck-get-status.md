@@ -1,6 +1,7 @@
 ---
 title: "Deck: Get Status"
 num: 13.1
+version: 202250
 ---
 
 Retrieve a specified deck's status

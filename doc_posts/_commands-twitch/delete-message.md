@@ -1,6 +1,7 @@
 ---
 title: "Delete Chat Message"
-num: 19
+num: 0.5
+version: 202250
 ---
 
 Deletes a chat message.

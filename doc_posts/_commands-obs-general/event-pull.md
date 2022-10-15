@@ -1,6 +1,7 @@
 ---
 title: "Event Pull"
 num: 1.1
+version: 202250
 ---
 
 Similar to 'Trigger Pull Data' command, but for OBS Websocket 5 Events. This command will return a response from the OBS Event Trigger that was used. More information about all possible OBS events 
