@@ -10,7 +10,7 @@ Converts a number to a hex string.
 | Save Variable As | String | Name of a variable to save the hex value |
 | Variable/Number | String | Variable or Number you want to covert to hex |
 | Byte Count | String | Byte count of the hex string |
-{:class='table table-primary ' }}
+{:class='table table-primary' }
 
 
 

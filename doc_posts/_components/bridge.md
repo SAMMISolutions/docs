@@ -24,7 +24,7 @@ If you want to get another clean copy of a Bridge (for example if you want to ex
 - As a dock in OBS    
 This is the simplest and most effective way. You can create a dock by clicking on View-Docks-Custom Browser Docks and fill in the path to the file. Click on apply and place the dock wherever it suits you in OBS. **You will need to keep the dock open at all times.**
 
-   {% include image.html w="75" src="transmitter_dock.png" alt="Bridge Dock in OBS" %}
+   {% include image.html w="75" src="bridge-dock.png" alt="Bridge Dock in OBS" %}
 - As a browser source in OBS.    
 This is highly discouraged as it is easy to lose track of it and accidentally get two Bridges running at the same time. 
 - In your browser (such as Chrome) outside of OBS.
@@ -39,7 +39,7 @@ Default IP address for SAMMI is `127.0.0.1` and default port is `9425`. Make sur
 You must fill out the password if you decided to use one in SAMMI Core-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
-{% include image.html w="75" src="transmitter-connection.png" alt="Bridge Connection Settings" %}
+{% include image.html w="75" src="bridge-connection.png" alt="Bridge Connection Settings" %}
 
 #### Connection Status
 You can see whether you're connected to SAMMI and Twitch Pubsub within your Bridge. Green text 'Connected' or a green dot means the connection is alive.

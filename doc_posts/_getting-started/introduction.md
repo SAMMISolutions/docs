@@ -23,7 +23,7 @@ SAMMI Core can listen to Twitch alerts and chat messages, send chat messages and
 #### Connection to YouTube Live
 
 SAMMI Core can listen to YouTube Live events and control your live stream! Find out more in
-[Integrations - YouTube]({{ "integrations/youtube/" | relative_url }})
+[Integrations - YouTube]({{ "integrations/youtube" | relative_url }})
 
 #### Connection to OBS Studio
 
@@ -31,4 +31,15 @@ SAMMI Core can directly connect to OBS Websocket to control your OBS Studio. You
 
 #### Extensions
 
-If all of the above is not enough for your needs, SAMMI Core also supports community made JavaScript extensions through the SAMMI Bridge, which can greatly extend its functionality, such as controlling other apps and services directly from your stream.
+If all of the above is not enough for your needs, SAMMI Core also supports community made JavaScript extensions through the SAMMI Bridge, which can greatly extend its functionality, such as controlling other apps and services directly from your stream. Some of our extensions allow for direct SAMMI interaction with:
+- Ko-Fi
+- Twitter
+- Spotify
+- LIFX
+- IFTTT
+- foobar
+- Discord
+- Heat Map Twitch extension
+- and many more! 
+
+A full list of SAMMI extensions can be found [here](https://sammi.solutions/extensions) and in our Discord! 

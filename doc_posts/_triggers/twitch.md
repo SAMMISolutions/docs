@@ -307,7 +307,13 @@ Triggers for all new hype train events.
 
 | Condition | Explanation |
 |-------|--------|
-|Type | Dropdown | Type of the hype train event to trigger the button <br/> Approaching = when a new hype train is about to begin <br/>  **Started** = when a new hype train has started, <br/> **Conductor Update** = when a hype train receives new points (for example if someone subscribes while it's ongoing), <br/> **Level up** - when a hype train levels up <br/> **Ended** - when a hype train has ended,<br/>  **Cooldown expired** - when a previous hype train's cooldown has expired and a new hype train can begin
+|Approaching| Triggers when a hype train is approaching
+|Started| Triggers when a hype train has started
+|Conductor Update|Triggers when a hype train conductor is assigned
+|Level Up|Triggers when the hype train levels up
+|Ended|Triggers when a hype train has ended
+|Cooldown expired| Triggers when a previous hype train's cooldown has expired
+|Progressed| Triggers when an event progresses the hype train level|
 {:class='table table-primary' }
 
 <hr>
@@ -319,3 +325,21 @@ Triggers for any of the selected moderation events. Due to some back-end changes
 |-------|--------|
 Type | Dropdown | Type of the event to trigger the button
 {:class='table table-primary' }
+
+<hr>
+
+##### Shoutout
+Triggers when the /shoutout command is used. The channel must be live and streaming for this to work. 
+
+| Pull Data Value | Explanation |
+|-------|--------|
+|User Name|User name of the person being shouted out.
+|Display Name|Display name of the person being shouted out.
+|User ID|User ID of the person being shouted out.
+|Picture URL|URL of the profile picture of the person being shouted out.
+|ID|Shoutout ID
+|Name Color|Hex code colour of the name of the person being shouted out.
+|Recent Categories|Recent categories streamed by the person being shouted out.
+|From Channel ID|Channel ID of the channel making the shoutout.
+
+{:class='table table-secondary table-hover' }

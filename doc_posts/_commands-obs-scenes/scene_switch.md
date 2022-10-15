@@ -1,5 +1,5 @@
 ---
-title: "Scene Switch"
+title: "Switch Scene"
 num: 1
 ---
 

@@ -6,12 +6,10 @@ Allows you to request data from OBS websocket and save it in a variable.
 
 This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow the data to be sent to SAMMI.
 
-All the possible requests are documented in [here](https://github.com/Palakis/obs-websocket/blob/4.x-compat/docs/generated/protocol.md) for version 4.9.1 and [here](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md) for version 5.0.
+All the possible requests are documented [here](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md#requests) for version 5.0, and [here](https://github.com/Palakis/obs-websocket/blob/4.x-compat/docs/generated/protocol.md) for version 4.9.1 (and version 4.x-compat).
 
-The requested value will not be saved immediately, you must give you other commands a delay of 100-500ms to process the request.
-
-If the requested value is inside another object already, you can access it with a simple dot-notation.\
-For example, if you want to retrieve Brightness value from Color Correction Filter, you will notice that it is inside an object called settings. `{"settings": {"brightness": 0.78}, "status": "ok", "type": "color_filter"}</code>. In this case, the Fetch Value will be `settings.brightness`.
+The requested value will always be inside an object called `responseData`, but may be inside a second object. You can access it with [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/).\
+For example, if you want to retrieve the Brightness value from a Colour Correction filter, you will notice that it is inside an object called filterSettings. `{ "filterEnabled": true, "filterKind": "color_filter_v2", "filterSettings": { "brightness": 0.078 }, "filterIndex": 0.0 }`. In this case, the Fetch Value will be `responseData.filterSettings.brightness`.
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
 
@@ -19,24 +17,23 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|OBS command|	JSON String|	Works the same as the custom packet command. Do not include the `"message-id"` part.
-|Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
-Variable|	String	|Name of a variable to save the data under.
-Turn to real|	boolean|	Whether you expect a real value (=number) or a string.
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS connections).|
+|OBS Command (JSON)|	JSON String|	JSON String to send to OBS Websocket. Will default to OBSws5 syntax:<br /><code class="user-select-all">{"op":6,"d":{"requestType":"","requestData":{}}}</code>
+|Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+Save Variable As|	String	|Name of a variable to save the data under.
 {:class='table table-primary'}
 
-**Fetch OBS Data Examples**
+**Send OBS Request Examples**
 
-|Object Snippet (if present)|What to retrieve|OBS Command|Fetch Value|
-|-------|--------|--------|--------|
-|<code class="user-select-all">"stats":{"cpu-usage":0.75013036185501325,...}</code>|current CPU usage| `{"request-type":"GetStats"}` | stats.cpu-usage|
-|N/A|Time elapsed since streaming started |<code class="user-select-all">{"request-type":"GetStreamingStatus"}</code>|stream-timecode|
-|N/A|Current width of a source|<code class="user-select-all">{"request-type":"GetSceneItemProperties","scene-name":"YOURSCENENAME","item":"YOURSOURCENAME"}</code>|width|
-|<code class="user-select-all">"crop":{"left":0,...}</code>|Current left crop of a source|<code class="user-select-all">{"request-type":"GetSceneItemProperties""scene-name":"YOURSCENENAME","item":"YOURSOURCENAME"}</code>|crop.left|
-|N/A|Current text in a GDI source|<code class="user-select-all">{"request-type":"GetTextGDIPlusProperties","source":"YOURSOURCENAME"}</code>|text|
-|<code class="user-select-all">"settings":{"brightness":-0.5,...}</code> |Color Correction Brightness Value|<code class="user-select-all">{"request-type":"GetSourceFilterInfo","sourceName":"YOURSOURCENAME","filterName":"Color Correction"}</code>|settings.brightness|
-|<code class="user-select-all">"sceneItems":["sourceName":"Browser",...},{"sourceName":"Text GDI",...}]</code>|First source name in a specified scene|<code class="user-select-all">{"request-type":"GetSceneItemList","sceneName":"YOURSCENENAME"}</code>|sceneItems[0].sourceName|
+|What to retrieve|OBS Command|Fetch Value|
+|--------|--------|--------|
+|current CPU usage|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetStats",<br />"requestData":{}<br />}}</code>|responseData.cpuUsage|
+|Time elapsed since streaming started |<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetStreamStatus",<br />"requestData":{}<br />}}</code>|responseData.outputTimecode|
+|Scene Item ID of a source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemId",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sourceName":"YOUR SOURCE NAME"}<br />}}</code>|responseData.sceneItemId|
+|Current width of a source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemTransform",<br />"requestData":{"sceneName":"YOUR SCENE NAME","sceneItemId":"YOUR SCENE ITEM ID"}<br />}}</code>|responseData.sceneItemTransform.width|
+|Current text in a GDI source|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetInputSettings",<br />"requestData":{"inputName":"YOUR SOURCE NAME"}<br />}}</code>|responseData.inputSettings.text|
+|Brightness value of a Colour Correction filter|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSourceFilter",<br />"requestData":{"sourceName":"YOUR SOURCE NAME","filterName":"YOUR FILTER NAME"}<br />}}</code>|responseData.filterSettings.brightness|
+|First source name in a specified scene|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemList",<br />"requestData":{"sceneName":"YOUR SCENE NAME"}<br />}}</code>|responseData.sceneItems[0].sourceName|
 {:class='table table-secondary w-auto table-responsive table-hover text-break' }
 
 {% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source" pastebin="ccUwx1GE" %}

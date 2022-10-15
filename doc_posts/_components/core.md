@@ -42,7 +42,7 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 
 ### Backup
 {% include image.html w="auto" src="backup.png" alt="Backup options" %}
-- Save SAMMI Backup - saves a backup of stuffs
+- Save SAMMI Backup - saves a backup of your SAMMI configuration
 - Load SAMMI Backup - loads a previously created backup
 
 ### About

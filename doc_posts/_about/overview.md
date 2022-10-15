@@ -19,7 +19,7 @@ In August 2022, it was rebranded and renamed to SAMMI. The team is continuing th
 - [RoadieGamer](https://twitter.com/roadiegamer)
 - [wolbee](https://twitter.com/justwolb)
 - [cyanidesugar](https://twitter.com/cyanidesugar_)
-- [Sebas](https://github.com/SebasF1349) 
+- [Sebas](https://twitter.com/SebasCoding) 
 - [Silverlink](https://github.com/XSilverlink)
 - [Chrizzz](https://twitter.com/chrizzz1508)
 
@@ -35,19 +35,19 @@ We would like to acknowledge the wonderful support of our Patrons below:
 
 **Contributors**
 
-- SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/lb2devs?fan_landing=true)
+- SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/sammidevs)
 - SAMMI Deck: Lioran
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
 - SAMMI Icon: [Silverlink](https://github.com/XSilverlink), heavily inspired by [arny69gamer's](https://twitch.tv/retromilitia) design.
 - sammi.solutions website: [Christina K](https://github.com/christinna9031)
-- Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://github.com/SebasF1349), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
+- Docs Contributors: [cyanidesugar](https://twitter.com/cyanidesugar_), [RoadieGamer](https://twitter.com/roadiegamer), [Sebas](https://twitter.com/SebasCoding), [wolbee](https://twitter.com/justwolb), [Melonax](https://twitter.com/melonaxx),  and more!
 - Extension Devs: [Christina K](https://github.com/christinna9031), [Silverlink](https://github.com/XSilverlink) & [Andilippi](https://www.youtube.com/c/Andilippi/videos) & [MrWaldo](https://github.com/WaldoAndFriends) from [StreamUp](https://streamup.tips/), [Sebas](https://github.com/SebasF1349), [Chrizzz](https://github.com/Chrizzz-1508), [Flipstream](https://flipstream.org/), [RoadieGamer](https://twitter.com/roadiegamer), [Phat32](https://twitter.com/ThePhat32), [Falinere](https://twitter.com/Falinere) and more!
 - Content Creators: [Andilippi](https://www.youtube.com/c/Andilippi/videos), [Falinere](https://www.youtube.com/channel/UCDf53fZZjoMIq-T0yOxEAIA), [MisterK](https://www.youtube.com/user/Kamelot781), [wolbee](https://www.youtube.com/c/wolbee) and more!
 - SAMMI Core Translators: Sebas, wolbee, Chrizzz
 
 **License Information**
 
-All components of SAMMI are licensed under the terms of the GNU GPLv3.0 license. 
+All components of SAMMI are licensed under the terms of the Apache 2.0 license. 
 
 For more details, and third party license information, please see [here](https://github.com/SAMMISolutions/SAMMI-License).
 
