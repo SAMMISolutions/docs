@@ -1,5 +1,5 @@
 ---
-title: "Read All"
+title: "Array Get Value"
 num: 13.1
 ---
 
