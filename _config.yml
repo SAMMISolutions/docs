@@ -58,6 +58,10 @@ defaults:
   values:
     menu: Integrations
 - scope: 
+    path: docs/local api
+  values:
+    menu: Local API      
+- scope: 
     path: docs/faq
   values:
     menu: FAQ    
@@ -88,6 +92,12 @@ collections:
       output: true
   triggers:
       output: true
+  api-overview:
+      output: true
+  api-reference:
+      output: true
+  api-webhooks:
+      output: true            
   faq-general: 
       output: true
   faq-receiver: 

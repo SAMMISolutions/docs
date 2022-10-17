@@ -106,6 +106,17 @@ main:
       collection: commands-misc
 - name: Triggers
   collection: triggers
+- name: Local API
+  submenus: 
+    - name: Overview
+      link: api/overview
+      collection: api-overview
+    - name: API Reference
+      link: api/reference
+      collection: api-reference 
+    - name: Webhooks
+      link: api/webhooks
+      collection: api-webhooks       
 - name: FAQ 
   submenus: 
     - name: General
