@@ -29,9 +29,9 @@ You can read more about our team members and support us on our [Patreon](https:/
 
 We would like to acknowledge the wonderful support of our Patrons below:
 - Purple Emperor: TheBurge
-- Red Admirals: a_bat, Brady
-- Green Hairstreak: Fizbanoide, SeijiSoldier, bunnicheeky, Mo Falk, DataForge, Kayla Marie Healy, erniequintero, LosPigeon
-- Brown Argus: ShaolinSherlock, Cihroplut, MPthreeJ Sark
+- Red Admirals: a_bat, Brady, awesomelego123
+- Green Hairstreak:SeijiSoldier, bunnicheeky, Mo Falk, DataForge, Kayla Marie Healy, erniequintero, LosPigeon
+- Brown Argus: MPthreeJ Sark
 
 **Contributors**
 
