@@ -4,7 +4,7 @@ num: 10
 ---
 Changes settings of a source. Not to be confused with item transform settings. \
 Requires the same formatting that is used in the OBS JSON file.\
-Easy way to see your current source's settings is to use a Fetch OBS Data command: {% include selectAll.html text='<code>{"request-type":"GetSourceSettings","sourceName":"YOURSOURCENAME","message-id":"6666"}</code>' %}. Execute it and you will get back a JSON string of the source's settings. Paste it into a document and extract the particular value you want to use.
+Easy way to see your current source's settings is to use a Send OBS Request command: {% include selectAll.html text='<code>{"request-type":"GetSourceSettings","sourceName":"YOURSOURCENAME"}</code>' %}. Execute it and you will get back a JSON string of the source's settings. Paste it into a document and extract the particular value you want to use.
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
 

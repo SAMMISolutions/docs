@@ -88,7 +88,7 @@ As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will h
 - added [Button Get Own ID command]({{ "/commands/button#buttongetownid" | relative_url }})
 - added more [Twitch commands]({{ "/commands/twitch" | relative_url }}): Create Clip, Get Channel Info, Get Stream Info, Create Marker, Create Poll, Create Prediction and more
 - added [Trigger Extension Trigger]({{ "/commands/trigger#triggerextensiontriggers" | relative_url }}) command which is the same as triggering an extension from a Bridge. This way you can pass parameters from one button to another and make it behave similar to functions in programming
-- [Fetch OBS Data]({{ "/commands/obs-general#fetchobsdata" | relative_url }}) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
+- [Send OBS Request]({{ "/commands/obs-general#sendobsrequest" | relative_url }}) command now retrieves the whole response object from OBSWS if Fetch Value is empty. Same applies for HTTP Request as well.
 - [Comments]({{ "/commands/misc#comment" | relative_url }}) can now contain nested commands, super useful for organizing your commands
 - Removed Statement: And and Or commands, you can now add them directly in the If Statement command by pressing the command's **+** button
 - String: Get Trigger Type command is gone, you can get the trigger type from [Trigger Pull Data]({{ "/commands/trigger#triggerpulldata" | relative_url }}) command instead

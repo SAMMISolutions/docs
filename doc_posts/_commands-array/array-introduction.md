@@ -15,9 +15,9 @@ This seems quite inefficient if you happen to have a lot of names to store. The 
 {% include image.html w="75" src="array.png" alt="Representation of an array" %}
 
 #### Array manipulation
-If you want to retrieve a specific value(element) from an array, you can use the following formatting:\
+If you want to retrieve a specific value (element) from an array, you can use the following formatting:\
 `arrayName[position]`\
-If we have an array `names = ["wolbee", "Silverlink", "Sebas"]`, typing `names[1]` would retrieve `'wolbee'` (the first value of an array has position of 0).\
+If we have an array `names = ["wolbee", "Silverlink", "Sebas"]`, typing `names[1]` would retrieve `'Silverlink'` (the first value of an array has position of 0).\
 Array position (also called index) can contain other variables or complex math, too.   
 
 Some command boxes allow you to use not only position, but also **top** for retrieving and manipulating values in an array. Selecting **top** will target a value at the END of an array (last index). **0** will target a value at the BEGINNING of an array (index of 0).  
