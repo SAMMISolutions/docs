@@ -3,7 +3,7 @@ title: Enabling API
 num: 2
 ---
 
-{% include alert.html text="API is only available in SAMMI 2022.5.0^ that's currently in closed beta. Become our Patron to gain access to this feature." type="info" %} 
+{% include alert.html text="API is only available in SAMMI 2022.5.0^" type="info" %} 
 
 You can enable SAMMI's API by navigating to the Settings Menu in SAMMI Core and checking 'Open Local API Server'. This will open its server every time SAMMI runs and exposes it to local API calls and webhooks.\
 Optionally you can choose a password which every call to the API will need to pass when communicating with SAMMI.
