@@ -13,7 +13,7 @@ SAMMI can connect to your Twitch account, remotely control it and listen to even
 We need to authorize SAMMI to interact with your Twitch account.
 
 1. In SAMMI click on **Twitch Connections** button.
-2. Click on **Open URL** which should open a new browser window and redirect you to Twitch to authorize SAMMI.
+2. Click on **Link Streamer Account** which should open a new browser window and redirect you to Twitch to authorize SAMMI.
 3. Press **Authorize** and wait to be redirected again to see `All good, you can go back to SAMMI now` message in your browser.
 4. Back in SAMMI you should now see your Twitch account in the list!
 
@@ -39,12 +39,12 @@ We need to authorize SAMMI to interact with your Twitch account.
 - `Connect/Disconnect Twitch Chat` - connect to Twitch chat to be able to receive and send chat messages
 - `Auto connect to Twitch Chat` - check this if you want SAMMI to automatically connect to Twitch chat once launched, otherwise you will have to press Connect Twitch Chat button every time.
 - `Copy URL` - if you would rather copy the URL instead of opening it in your default browser to link your account, you can use this option instead
-- `Edit Scopes` - allows you to edit scopes, i.e. what information SAMMI can access on your Twitch account. For example, if you want to be able to listen to poll events, you must check View & Edit Polls scope. **If you edit any scopes, you must relink your account (revoke token and link it again) for it to take effect.**
 - `Done` - click Done to save the settings
 
 
 #### Link multiple Twitch accounts
-You can link multiple Twitch accounts to SAMMI by following the same steps in [Link a single Twitch account](#linkasingletwitchaccount) section.\
+You can link multiple Twitch accounts to SAMMI by following the same steps in [Link a single Twitch account](#linkasingletwitchaccount) section, but you will need to click 'Link Bot Account' instead of 'Link Streamer Account'.
+
 This is useful if you want to use a different Twitch account to send Twitch chat messages from. It makes it easier for your viewers to tell the difference between you personally interacting with them and any automated messages you have set up in SAMMI.
 
 {% include alert.html text="All Twitch chat messages will be sent from your Twitch account that is marked as <strong>Join chat under this name</strong> in the <code>Twitch Connections</code> menu. You can freely switch to a different account your messages will be sent from." type="danger" %}
@@ -53,6 +53,18 @@ This is useful if you want to use a different Twitch account to send Twitch chat
 SAMMI will automatically listen to all selected events and chat (if Join Channel is checked) from all your Twitch accounts.
 
 {% include alert.html text="SAMMI doesn't have a way to tell where your Twitch triggers come from, be it your main or one of your alternate accounts." type="warning" %}
+
+**Differences between Streamer Account and Bot Account options**\
+The main differences between a Streamer Account and a Bot Account is the scopes that are automatically enabled for the respective accounts. Streamer accounts will have all scopes enabled by default, excluding 'Get Stream Key'. Bot accounts will have the follwing scopes:
+- channel:moderate
+- chat:edit
+- chat:read
+- whispers:edit
+- whispers:read
+
+Enabling custom scopes for your Streamer account is possible while you're in Dev Mode. In Dev Mode, click 'Advanced Scopes' and tick the scopes that you want to enable for the account. Note that this list in Advanced Scopes does NOT reflect what scopes you already have enabled. 
+
+All changes to scopes require you to revoke your token, relinking and reauthorising your Twitch account. 
 
 **Remember to specify channel name when using Twitch: Chat message command**\
 If you've linked more than more Twitch account to SAMMI, you must specify the channel name in your [Twitch: Send Message]({{ "commands/twitch#sendchatmessage" | relative_url }}) command. Otherwise the message will be sent to your primary SAMMI account's channel (the one with `Join chat under this name` selected). NOTE: The channel name must be in all lowercase. Otherwise the message will not appear in chat until user refreshes their chat.
