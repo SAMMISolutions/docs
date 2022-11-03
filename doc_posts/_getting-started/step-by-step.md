@@ -34,12 +34,13 @@ Navigate to the unpacked folder and launch SAMMI Core.exe. Allow the app through
 
 #### 4. Connect SAMMI to your OBS
 
-1. In your OBS go to Tools-Websocket Server Settings. Uncheck 'Enable authorization' (for easy setup, you can change it later) and press OK. 
+1. In your OBS go to Tools-Websocket Server Settings. You can check 'Enable Authentication' to input a password for your OBS connection, and this password will be used in SAMMI. Alternatively, uncheck 'Enable Authentication' for easy setup (you can change this later) and click 'Apply' then 'OK'.
 	  
 	{% include image.html w="100" src="obsws_settings.png" alt="OBS Websocket Settings" type="image" %}
 
 {:start="2"}
-2. In your SAMMI, click on **OBS Connections** at the bottom menu. Leave all input settings as the default values. Click Connect. You should see a yellow notification message `OBS [Main] Connected` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
+2. In your SAMMI, click on **OBS Connections** at the bottom menu. Leave all input settings as the default values. If you used a password for OBS in the step above, make sure the passwords match. 
+3. Click Connect. You should see a yellow notification message `OBS [Main] Connected` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
 
   {% include image.html w="75" src="obs-connected.png" alt="OBS is connected" %}
 
