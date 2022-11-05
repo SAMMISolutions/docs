@@ -13,11 +13,11 @@ For example, if you want to retrieve the Brightness value from a Colour Correcti
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.    
 Be mindful of any trailing commas in your request that will cause OBS to disconnect, such as: 
-```
+```json
 {
   "op": 6,
   "d": {
-    "requestType": "GetVersion",
+    "requestType": "GetVersion",  // this trailing commma must be removed
   }
 }
 ```
