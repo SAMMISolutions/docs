@@ -7,6 +7,52 @@ num: 1
 type: fullpage
 ---
 
+#### SAMMI 2022.5.1 
+
+New Features:
+- When creating an extension command from Bridge, extension boxes can now be also decks, passwords and other types. [Christina]
+- Added the "sqrt" operation to commands like Set Local Variable to get the square root of a number [wolbee]
+
+Improvements:
+- When creating an extension command from Bridge, you can now choose whether you want it to send its data to Bridge (which is how it normally works) 
+or send it as an extension trigger within SAMMI instead (without going through Bridge) when the user uses the Extension command.  [Christina]
+  - Extremely helpful if you have one central button acting as a function and want to provide your users with a friendly interface to trigger it from within SAMMI.   
+  - Works the same as Send Extension Triggers, except you can use custom boxes.
+- When checking for updates, you will no longer get a yellow alert that your Bridge file doesn't match its cloud counterpart, 
+as this is expected as soon as any extensions are installed. [Christina]
+ 
+UI Changes:
+- "Search" label is not shown anymore in Hotkey Trigger dropdown. [Sebas]
+- Send OBS Request command now has a button to open the OBS websocket docs page [wolbee]
+  - it works off the protocol for the OBS Connection specified in the command.
+  - if the OBS Connection box contains a variable, it will default to ws5 docs.
+
+Removed Features:
+- Removed some more unnecessary alerts for regular non error disconnections for Bridge, SAMMI Deck etc. [Christina]
+- Removed a check for email scope when a Twitch: Get User Info command is run. [Silverlink]
+
+Bug Fixes:
+- Fixed a crash when you pressed Add New Deck menu button [Christina]
+- Fixed a crash that sometimes happened on save/run button [Christina]
+- Fixed a crash that sometimes happened when saving a deck while the button was already running [Christina]
+- Fixed a crash for File Read Line command when a variable was used inside the Line box [Christina]
+- Fixed runtime errors. It will still crash, but will display a proper error message now [Christina]
+- Fixed a bug where the wrong user ID was being pulled for Twitch Chat message if the message was a reply to another message [Christina]
+- Fixed a bug when Pubsub would not connect at all for any other accounts if the first account in the Twitch Connections list was listening to 0 topics [Christina]
+- Fixed a bug where some Twitch commands crashed when used with an account linked as a bot or without the required scopes [Christina]
+- Fixed a crash that happens when the parent object/array is deleted while using a wait until variable exists/is command [Christina]
+- Improved internal WS5 stability [Roadie]
+- Fixed a bug that sometimes would incorrectly assign timezones in Date/Time commands and make some commands to crash [Sebas]
+- Fixed a visual bug that will shown incorrect hotkeys in Hotkey Triggers [Sebas]
+- Fixed a bug where using sin/cos/tan/log10 on an array would overwrite the array [wolbee]
+
+Known Bugs:
+- DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until we fix it.
+- Some Twitch commands are using Bot Scopes instead of Streamer Scopes, so we've disabled Bot Scopes temporarily.
+  - Meanwhile, please revoke your Bot token and use Streamer Scopes for all accounts.
+
+
+
 #### SAMMI 2022.5.0
 
 New Features:
