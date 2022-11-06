@@ -11,7 +11,16 @@ All the possible requests are documented [here](https://github.com/obsproject/ob
 The requested value will always be inside an object called `responseData`, but may be inside a second object. You can access it with [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/).\
 For example, if you want to retrieve the Brightness value from a Colour Correction filter, you will notice that it is inside an object called filterSettings. `{ "filterEnabled": true, "filterKind": "color_filter_v2", "filterSettings": { "brightness": 0.078 }, "filterIndex": 0.0 }`. In this case, the Fetch Value will be `responseData.filterSettings.brightness`.
 
-Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
+Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.    
+Be mindful of any trailing commas in your request that will cause OBS to disconnect, such as: 
+```json
+{
+  "op": 6,
+  "d": {
+    "requestType": "GetVersion",  // this trailing commma must be removed
+  }
+}
+```
 
 {% include alert.html text="If the name of the fetched value contains dots, it needs to be wrapped in parentheses like this: <code>(Filter.Transform.Rotation.X)</code>." type="warning" %}
 

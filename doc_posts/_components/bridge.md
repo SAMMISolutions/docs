@@ -18,7 +18,7 @@ You can automatically update your Bridge to the latest version by going to **SAM
 In the Update menu, you can see whether you're on the latest Bridge version and update it if you wish. All your extensions will be automatically transferred over if you update your Bridge this way.  
 
 
-If you want to get another clean copy of a Bridge (for example if you want to experiment with creating extensions), you can find the latest version at our [Github repository](https://github.com/SAMMISolutions/SAMMI-Bridge/releases).
+If you want to get another clean copy of a Bridge (for example if you want to experiment with creating extensions), you can find the latest version at our [itch.io page](https://sammisolutions.itch.io/sammi).
 
 #### How to run Bridge
 - As a dock in OBS    
@@ -33,7 +33,6 @@ This might be needed for some extensions or debugging purposes.
 {% include alert.html text="You can have only one Bridge open at the same time. If you see an error 'Second Bridge tried to connect', locate the other Bridge and close it." type="danger" %} 
 
 #### Connection Settings
-**In your SAMMI Core-Settings menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.**\
 In your Bridge-status tab, you can modify your connection settings.\
 Default IP address for SAMMI is `127.0.0.1` and default port is `9425`. Make sure this matches what's in SAMMI Core-Settings.\
 You must fill out the password if you decided to use one in SAMMI Core-Settings menu.\

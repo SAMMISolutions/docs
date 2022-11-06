@@ -63,7 +63,6 @@ Allows you to adjust UI settings and external connection settings.
 
 {% include image.html w="50" src="settings.png" alt="Settings" %}
 
-- Allow SAMMI Deck and Bridge - check this box to allow SAMMI Deck and Bridge to connect to SAMMI Core, fill out the optional password for any incoming connection (port not editable in non-Dev mode)
 - Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
 - Auto restart SAMMI after crash - when checked, SAMMI will re-open itself after a crash
 - Automatically check for updates - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
@@ -151,6 +150,7 @@ There are also several keyboard shortcuts you can use:
 {% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
 
 If you now right click on the created button, a new button menu appears: 
+
 #### Edit Appearance
 Edit your button text, color, image and border size.\
 All button images will be automatically resized and copied to `SAMMI/image` folder.\

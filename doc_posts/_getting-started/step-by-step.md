@@ -7,40 +7,40 @@ permalink: /getting-started/step-by-step
 type: fullpage
 ---
 
-So you have discovered SAMMI... I can only say: Welcome to the world of endless possibilities!
+Welcome to SAMMI and the world of endless possibilities!
 
-We will walk you through a step by step tutorial on how to set up SAMMI, and connect it to OBS and your Twitch account. You will also learn how to create your first button, add a command and trigger it via Twitch chat. 
+On this page, will walk you through a step by step tutorial on how to set up SAMMI, and connect it to OBS and your Twitch account. You will also learn how to create your first button, add a command and trigger it via Twitch chat. 
 
 {% include alert.html text="SAMMI is a closed source application made for Windows (other platforms will be fully supported later as well). Our tutorial covers its usage in Windows only." type="warning" %} 
 
 #### 1. Install all dependencies
 - Download and install **[OBS Studio](https://obsproject.com/)**. As of now, SAMMI does not support other streaming software.
-- Download and install **[OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)** This is how SAMMI communicates with OBS Studio. You can download OBS Websocket 5.0 along with the [OBS Websocket 4.9-compat](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat) in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. For the time being, until you are sure your extensions have been fully updated to use OBS Websocket 5.0, we suggest staying on 4.9.1.
+- As of OBS Studio v28, there is no need to download a separate OBS Websocket plugin as it already has OBS Websocket 5.0 built into it. This is how SAMMI communicates with OBS Studio. If you are running OBS Studio version 27, you will need to download and install **[OBS Websocket 4.9.1](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)**
+- If you are on OBS v28, and you want to use extensions and plugins that are NOT compatible with OBS Websocket 5.0, then you can download the **[OBS Websocket 4.9-compat](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat)** for backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. 
 
 #### 2. Download SAMMI
 
-We recommend selecting **64bits release**.
+We recommend selecting **64bits release**. SAMMI 2022.5.0 will be the final release that has 32-bit (x86) support.
 
 <a href="https://sammisolutions.itch.io/sammi"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
 
-Unpack the zip file and place the folder anywhere in your computer, preferably in your non windows drive.
+Unpack the zip file and unpack it to a folder on your PC.
 
-{% include alert.html text="Do not place SAMMI folder in your Program Files or any network drives (Google Drive, OneDrive, Dropbox), as it sometimes can cause issues." type="danger" %} 
+{% include alert.html text="Do not place SAMMI folder in your Program Files or any network drives (Google Drive, OneDrive, Dropbox), as it sometimes can cause issues. Do not put SAMMI in your OBS folder, or your obs-plugins folder." type="danger" %} 
 
 #### 3. Launch SAMMI
 
-Navigate to the unpacked folder and launch SAMMI Core.exe.    
-Allow the app through the firewall if there's a prompt and you're ready to start!
+Navigate to the unpacked folder and launch SAMMI Core.exe. Allow the app through the firewall if there's a prompt and you're ready to start!
 
 #### 4. Connect SAMMI to your OBS
 
-1. In your OBS go to Tools-Websocket Server Settings. Uncheck 'Enable authorization' (for easy setup, you can change it later) and press OK. 
+1. In your OBS go to Tools-Websocket Server Settings. You can check 'Enable Authentication' to input a password for your OBS connection, and this password will be used in SAMMI. Alternatively, uncheck 'Enable Authentication' for easy setup (you can change this later) and click 'Apply' then 'OK'.
 	  
 	{% include image.html w="100" src="obsws_settings.png" alt="OBS Websocket Settings" type="image" %}
 
 {:start="2"}
-2. In your SAMMI, click on **OBS Connections** at the bottom menu. Unless you changed your port in OBS-Tools-Websocket Server Settings or set up a password, you can leave everything at default and press Connect.\
-You should see a yellow notification message `OBS [Main] Connected` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
+2. In your SAMMI, click on **OBS Connections** at the bottom menu. Leave all input settings as the default values. If you used a password for OBS in the step above, make sure the passwords match. 
+3. Click Connect. You should see a yellow notification message `OBS [Main] Connected` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
 
   {% include image.html w="75" src="obs-connected.png" alt="OBS is connected" %}
 
@@ -58,7 +58,7 @@ Fit your new dock somewhere in your OBS screen as you see fit.
 #### 6. Connect Bridge to SAMMI
 In your **SAMMI-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
 In your **Bridge-status** tab (in our OBS dock), you can now modify your connection settings.\
-Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Unless you changed port in your SAMMI-Settings, you can leave it at its default value.\
+Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Leave all values as the default values.\
 You must fill out the password if you decided to use one in SAMMI-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
@@ -79,14 +79,14 @@ Linking your Twitch account to SAMMI is a necessary step if you want to be able 
 2. Click on **Open URL** which should open a new browser window and redirect you to Twitch to authorize SAMMI.  
 3. Press **Authorize** and wait to be redirected again to see `All good, you can go back to SAMMI now` message in your browser.
 4. Back in SAMMI you should now see your Twitch account in the list! 
-5. You can now optionally check which events to listen for and whether you want to Join Chat Channel for this particular Twitch channel. You want to also check `Auto connect to Twitch Chat`, else you will need to always press the **Connect Twitch Chat** button when you open SAMMI to be able to receive and send chat messages from SAMMI.
-6. Press **Connect Twitch Chat** to connect to Twitch chat.
+5. You can now optionally check which events to listen for and whether you want to Join Chat Channel for this particular Twitch channel.
+6. You want to also check `Auto connect to Twitch Chat`, else you will need to always press the **Connect Twitch Chat** button every time you open SAMMI to be able to receive and send chat messages from SAMMI.
+7. Press **Connect Twitch Chat** to connect to Twitch chat.
 
   {% include image.html w="100" src="link-twitch.png" alt="Active Twitch Connection" %}
 
 {:start="7"}
 7. Now that your Twitch account is linked in SAMMI, Pubsub status in your Bridge should change to **{% include colored_text.html color="green" text="Connected" %}** or {% include svg_dot.md color="green" %}.\
-**Remember you Bridge must be running at all times to be able to listen to Twitch events.**
 
   {% include image.html w="75" src="pubsub-connected.png" alt="Pubsub connected" %}
   

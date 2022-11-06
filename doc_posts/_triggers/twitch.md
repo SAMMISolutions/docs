@@ -341,5 +341,4 @@ Triggers when the /shoutout command is used. The channel must be live and stream
 |Name Color|Hex code colour of the name of the person being shouted out.
 |Recent Categories|Recent categories streamed by the person being shouted out.
 |From Channel ID|Channel ID of the channel making the shoutout.
-
 {:class='table table-secondary table-hover' }
