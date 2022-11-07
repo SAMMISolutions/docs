@@ -4,7 +4,8 @@ num: 20
 version: 202250
 ---
 
-Retrieves a list of chatter names from the a channel. This is a command that requires a 'Wait for Timeout', or 'Wait for Variable Exists' command after it as it will take some time for the request to be made.
+Retrieves a list of all users connected to the chat channel.  
+This is a command that requires a 'Wait for Timeout', or 'Wait for Variable Exists' command after it as it will take some time for the request to be made.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
