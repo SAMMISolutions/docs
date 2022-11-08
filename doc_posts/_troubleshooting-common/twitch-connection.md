@@ -39,9 +39,6 @@ If you send too many messages in a short period of time, Twitch might temporaril
 
 #### Twitch Chat Whispers do not work
 
-**Check you're using the right formatting**\
-You can send a whisper by using Twitch: Send Message command and putting `/w username` in the message field.
-
-**Request Verified Bot Status**\
-Sometimes Twitch will block your account from sending whispers from 3rd party applications (such as SAMMI).\
-You can try filling out the [IRC Command and Message Rate form](https://dev.twitch.tv/limit-increase) to verify your bot.
+**Using `/w username` in a Send Chat Message command**\
+This method for sending whispers is unreliable, as Twitch can prevent accounts from sending whispers using this method without warning or any visible indication it has.\
+Instead, try the [Send Whispers]({{ "commands/twitch#sendwhispers" | relative_url }}) command.
