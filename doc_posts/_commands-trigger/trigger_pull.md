@@ -48,4 +48,7 @@ There is also an array that lists all Trigger Types in the Global Variables sect
 |23|SAMMI Deck Button Press|
 |24|Trigger Button|
 |25|Trigger Button with Delay|
+|26|Webhook Trigger|
+|27|Twitch Low Trust Users|
+|28|Twitch Shoutout|
 {:class='table table-secondary w-auto table-hover text-break' }
