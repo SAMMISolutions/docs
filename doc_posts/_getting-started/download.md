@@ -21,7 +21,7 @@ You should be able to run it on Linux and MacOs using [Wine](https://www.winehq.
 *You can check our **[Discord's](https://discord.gg/dXez8Zh)** Announcements channel for unreleased and beta versions.* 
 
 ### Updating
-Updating directly in SAMMI is temporarily unavailable. You can download the `SAMMI Updater.exe` on our [SAMMI Itch Page](https://sammisolutions.itch.io/sammi) and run it to update instead. This serves as a temporary updater while we deal with a malicious DMCA strike against our in-app updating GitHub repo. 
+Updating SAMMI can be done via the in-app updater. Click 'Settings' and then 'Check for Updates'. Alternatively, you can download latest version of the entire SAMMI package from our [SAMMI Itch Page](https://sammisolutions.itch.io/sammi) and replace the SAMMI Core.exe, DLLExtension.dll, settings.ini and data.win files in your SAMMI folder.
 
 ### Dependencies
 
