@@ -7,6 +7,37 @@ num: 1
 type: fullpage
 ---
 
+#### SAMMI 2022.5.2 
+
+New Features:
+
+Improvements:
+- Added alerts in Object to INI command when it fails. [Sebas]
+- The settings.ini file is now protected and can't be edited with commands to avoid malicious commands in shared buttons/decks. [Sebas]
+- Improved how the erros are detected whenever your decks in SAMMI are loaded [Christina]
+  - If SAMMI detects your deck file has been corrupted, it will now create a new 'decks_data_corrupted.json' file to prevent it
+    from being overridden, and allows you to manually repair it or share it with our dev team, while continuing to work in SAMMI. 
+ 
+UI Changes:
+
+Removed Features:
+
+Bug Fixes:
+- Fixed a crash when using INI to Object in an empty INI file. [Sebas]
+- Fixed a bug that won't delete keys and sections when using Object to INI. [Sebas]
+- General WS5 stability [Roadie]
+- Fixed the color for the "Save Variable As" box in the "CSV: Get Size Command" [Chrizzz]
+- Fixed a bug where disabling Enhanced Protection Mode in Settings would not stick [Christina]
+- Fixed a crash when selecting non existing image for deck background [Christina]
+- Fixed a crash when a custom Bridge code supplies an incorrect extension type when communicating with SAMMI [Christina]
+- Fixed a crash when a local API request tries to access a variable in a non existing object or array [Christina]
+
+Known Bugs:
+- DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until it's fixed.
+- Some Twitch commands are using Bot Scopes instead of Streamer Scopes, so we've disabled Bot Scopes temporarily.
+  - Meanwhile, please revoke your Bot token and use Streamer Scopes for all accounts.
+
+
 #### SAMMI 2022.5.1 
 
 New Features:
