@@ -41,7 +41,7 @@ Tokens are used to denote different parts of a datetime string.<br />They are ca
 ||a|am, pm|Lowercase|
 |Time Zone|Z|-12:00, -11:00, ... +11:00, +12:00|With separator|
 ||ZZ|-1200, -1100, ... 1100, 1200|Without separator|
-|Uniz Timestamp|X|(really long number)|Number of seconds since Jan 1 1970 00:00 UTC|
+|Unix Timestamp|X|(really long number)|Number of seconds since Jan 1 1970 00:00 UTC|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
 #### Keywords
