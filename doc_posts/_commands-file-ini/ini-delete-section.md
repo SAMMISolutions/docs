@@ -1,5 +1,5 @@
 ---
-title: "File: Delete Section"
+title: "INI: Delete Section"
 num: 6
 ---
 
