@@ -1,5 +1,5 @@
 ---
-title: "File: Save Number"
+title: "INI: Save Number"
 num: 1
 ---
 
