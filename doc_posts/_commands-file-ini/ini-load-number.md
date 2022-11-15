@@ -1,5 +1,5 @@
 ---
-title: "File: Load Number"
+title: "INI: Load Number"
 num: 3
 ---
 
