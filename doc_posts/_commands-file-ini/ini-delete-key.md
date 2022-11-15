@@ -1,5 +1,5 @@
 ---
-title: "File: Delete Key"
+title: "INI: Delete Key"
 num: 5
 ---
 
