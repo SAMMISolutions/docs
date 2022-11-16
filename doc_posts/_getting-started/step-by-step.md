@@ -56,8 +56,7 @@ Fit your new dock somewhere in your OBS screen as you see fit.
 {% include image.html w="75" src="bridge-dock2.png" alt="Bridge in a dock in OBS" %}
 
 #### 6. Connect Bridge to SAMMI
-In your **SAMMI-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
-In your **Bridge-status** tab (in our OBS dock), you can now modify your connection settings.\
+In your **Bridge-status** tab (in our OBS dock), you modify your connection settings.\
 Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Leave all values as the default values.\
 You must fill out the password if you decided to use one in SAMMI-Settings menu.\
 Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
