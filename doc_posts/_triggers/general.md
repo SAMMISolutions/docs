@@ -65,11 +65,11 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |SAMMI Crash | Every time SAMMI crashes.
 |OBS Connected | Every time SAMMI connects to OBS.
 |OBS Disconnected|Every time SAMMI disconnects from OBS.
-|Twitch Connected | Every time SAMMI connects to Twitch.
-|Twitch Disconnected |Every time SAMMI disconnects from Twitch.
-|SAMMI Deck/Bridge Connected| Every time SAMMI Deck or Bridge connects to SAMMI.
+|SAMMI Bridge Connected| Every time SAMMI Bridge connects to SAMMI.
+|SAMMI Bridge Disconnected| Every time SAMMI Bridge disconnects from SAMMI.
+|SAMMI Deck Connected| Every time SAMMI Deck connects to SAMMI.
+|SAMMI Deck Disconnected| Every time SAMMI Deck disconnects from SAMMI.
 |Third Party Connected| Third party application connects to SAMMI.
-|SAMMI Deck/Bridge Disconnected| Every time SAMMI Deck or Bridge disconnects from SAMMI.
 |Third Party Disonnected| Third party application disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
 
