@@ -14,14 +14,14 @@ If you decide to send us the error log, you will be prompted to add a comment ex
 
 <figure>
   <blockquote class="blockquote">
-    <p>With a proper comment, it may take us less than 10 minutes to fix a bug. Without a proper comment, we can spend a week trying to recreate a crash with no luck.</p>
+    <p>With a proper comment, it may take us less than 10 minutes to fix a bug. Without one, we can spend a week trying to recreate a crash with no luck.</p>
   </blockquote>
   <figcaption class="blockquote-footer">
     Christina from <cite title="SAMMI Devs">SAMMI Devs</cite>
   </figcaption>
 </figure>
 
-An example of the error log that was sent to us with a proper comment explaining what led to the crash:
+An example of the error log that was sent to us with a detailed comment explaining what led to the crash:
 
 ```jsx
 Type: Internal Error
