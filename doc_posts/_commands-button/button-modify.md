@@ -4,7 +4,7 @@ num: 1
 ---
 
 Changes the appearance of a button or group (color, text, image and border).\
-All changes are temporary, the button will return to its original state if you reset or close and reopen Receiver.\
+All changes are temporary, the button will return to its original state if you reset or close and reopen SAMMI.\
 If you wish to reset the button back to its default appearance, set the values to `buttond_id, -1, -1, -1, notext, leave empty, -1`.
 
 | Box Name | Type | Description 

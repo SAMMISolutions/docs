@@ -36,9 +36,9 @@ We need to authorize SAMMI to interact with your Twitch account.
 
 {% include image.html w="75" src="account-settings2.png" alt="Active Twitch Connection" %}
 
-- `Connect/Disconnect Twitch Chat` - connect to Twitch chat to be able to receive and send chat messages
-- `Auto connect to Twitch Chat` - check this if you want SAMMI to automatically connect to Twitch chat once launched, otherwise you will have to press Connect Twitch Chat button every time.
-- `Copy URL` - if you would rather copy the URL instead of opening it in your default browser to link your account, you can use this option instead
+- `Connect/Disconnect Twitch` - connect to Twitch to be able to receive and send chat messages, and listen to events
+- `Auto connect to Twitch` - check this if you want SAMMI to automatically connect to Twitch once launched, otherwise you will have to press Connect Twitch button every time.
+- `Copy Streamer URL` - if you would rather copy the URL instead of opening it in your default browser to link your account, you can use this option instead
 - `Done` - click Done to save the settings
 
 
@@ -62,7 +62,7 @@ The main differences between a Streamer Account and a Bot Account is the scopes 
 - whispers:edit
 - whispers:read
 
-Enabling custom scopes for your Streamer account is possible while you're in Dev Mode. In Dev Mode, click 'Advanced Scopes' and tick the scopes that you want to enable for the account. Note that this list in Advanced Scopes does NOT reflect what scopes you already have enabled. 
+Enabling **custom scopes** for your Streamer account is possible while you're in Dev Mode. In Dev Mode, click 'Advanced Scopes' and tick the scopes that you want to enable for the account. Note that this list in Advanced Scopes does NOT reflect what scopes you already have enabled. 
 
 All changes to scopes require you to revoke your token, relinking and reauthorising your Twitch account. 
 
@@ -71,7 +71,7 @@ If you've linked more than more Twitch account to SAMMI, you must specify the ch
 
 #### Listen to Twitch Events
 
-Once you link your account(s), SAMMI automatically connects to Twitch PubSub and Twitch Chat IRC (if you pressed Connect Twitch Chat button) to listen to all selected Twitch events and Twitch chat.\
+Once you link your account(s), SAMMI automatically connects to Twitch PubSub and Twitch Chat (if you pressed Connect Twitch button) to listen to all selected Twitch events and Twitch chat.\
 Learn more about all Twitch event triggers in our [Triggers-Twitch]({{ "triggers/twitch" | relative_url }}) section.
 
 

@@ -5,7 +5,7 @@ num: 6
 
 Retrieves information about a Twitch user. Provide either their username or user ID (leave the other one empty).
 
-If your receiver crashes with an error log relating to this command, make sure you have enabled the `View email address` scope in your Twitch connection settings. The command will not work without this scope enabled.
+If your SAMMI crashes with an error log relating to this command, make sure you have enabled the `View email address` scope in your Twitch connection settings. The command will not work without this scope enabled.
 
 {% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
 

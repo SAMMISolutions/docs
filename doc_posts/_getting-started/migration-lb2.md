@@ -18,19 +18,19 @@ type: fullpage
 
 2. Paste them into your existing Lioranboard folder. When it asks you to overwrite the files, click Yes. 
 
-3. Run SAMMI Core.exe and you should see your existing decks and buttons from LioranBoard 2. Go to the settings page and click 'Check for Updates'. SAMMI Core should have been updated to the current version of SAMMI. SAMMI versions are identified by versions 2022.4.0 and above.
+3. Run `SAMMI Core.exe` and you should see your existing decks and buttons from LioranBoard 2. Go to the settings page and click 'Check for Updates'. SAMMI Core should have been updated to the current version of SAMMI. SAMMI versions are identified by versions 2022.4.0 and above.
 
 4. Once you have successfully updated the LioranBoard 2 Receiver to SAMMI Core, you can proceed to updating the Transmitter (now called Bridge) and the Stream Deck (now called SAMMI Deck). Continue reading below for some important steps you need to take after updating to SAMMI.
 
 #### Updating from Lioranboard 2 CE
-You can use the automatic built-in updater within SAMMI Core to update all components of SAMMI. You do not need to update your Bridge files if the button says 'Redownload'. Re-donwloading the Bridge files will download a fresh copy of your Bridge.html and reinstall all extensions. 
+You can use the automatic built-in updater within SAMMI Core to update all components of SAMMI. You do not need to update your Bridge files if the button says 'Redownload'. Re-donwloading the Bridge files will download a fresh copy of your `bridge.html` file and reinstall all extensions. 
 
-Alternatively, you can also follow the instructions in the 'Updating to SAMMI fromLioranboard 2' section to update your files manually.
+Alternatively, you can also follow the instructions in the 'Updating to SAMMI from Lioranboard 2' section to update your files manually.
 
 Always make sure you are on the latest version of SAMMI to ensure you do not encounter any critical bugs! 
  
 ##### SAMMI Bridge
-The LioranBoard Transmitter is now called the SAMMI Bridge. When you update to SAMMI, a folder called bridge would have been created in your main folder. Your installed extensions should have automatically been re-installed onto the `bridge.html` file found in that folder. 
+The LioranBoard Transmitter is now called the SAMMI Bridge. When you update to SAMMI, a folder called `bridge` would have been created in your main folder. Your installed extensions should have automatically been re-installed onto the `bridge.html` file found in that folder. 
 
 The Bridge will need to be open either in an OBS dock or your browser for some extensions to work. 
 

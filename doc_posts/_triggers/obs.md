@@ -17,10 +17,9 @@ SAMMI can listen to all OBS events provided by OBS Websocket.
 <br>
 
 #### Retrieve OBS trigger event values
-1. In your button commands, use [Trigger Pull Data]({{ "commands/trigger#triggerpulldata" | relative_url }}) command with an **empty pull value** to retrieve the whole object with all the provided data from OBS Websocket.
-2. Find the specified event in the appropriate OBS Websocket Documenation: 
+1. In your button commands, use [OBS Event Pull]({{ "commands/obs-general#eventpull" | relative_url }}) command and select what you wish to retrieve from the Pull Value dropdown menu, depending on what trigger you attached. 
+2. Optionally, you can leave the Pull Value field empty or `all` and retrieve the whole response object. Find the specified event in the appropriate OBS Websocket Documenation: 
     - [Version 4.9.1](https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#events)
     - [Version 5.0](https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md)\
    and check its response items.
-4. Use **[Get Object Variable]({{ "commands/object#setobjectvariable" | relative_url }})** command to retrieve the specific response item provided by OBS Websocket.
 

@@ -11,11 +11,11 @@ SAMMI communicates with OBS via OBS Websocket (OBSWS), which allows you to remot
 
 #### Install OBS Websocket
 
-SAMMI is now compatible with OBS websocket 5.0. As this version is still very new, please note that some of your extensions might not work with it until they have been updated. 
+SAMMI is compatible with both OBS websocket 5.0 and 4.9. As OBSWS 5 is still very new, please note that some of your extensions might not work with it until they have been updated. 
 
 OBS Studio 28 comes bundled with OBS Websocket 5.0. There is no need to download a separate plugin for it. 
 
-To ensure the 4.x version protocol is still supported, you can download the 4.9.1-compat plugin for OBS Studio 28 available at the link below.
+To ensure the 4.9 version protocol is still supported, you can download the 4.9.1-compat plugin for OBS Studio 28 available at the link below.
 
 <a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket 4.9.1 for OBS 28</button></a>
 
@@ -26,23 +26,21 @@ To ensure the 4.x version protocol is still supported, you can download the 4.9.
 <hr>
 
 #### Connect SAMMI to OBS Websocket
-Please note that there is no need to download OBS Websocket 5.0 if you are running OBS version 28 as it is bundled with the OBS install. You will only need to download the OBS 4.9.1-compat plugin if you wish to run OBS Websocket 4. 
+You do not need to download OBS Websocket 5.0 if you are running OBS version 28 as it is bundled with the OBS install. You will only need to download the OBS 4.9.1-compat plugin if you wish to run OBS Websocket 4.9 which some extensions might still need. 
 
 In your SAMMI click on **OBS Connections** at the bottom menu:
 - `Name`: Name of your OBS. The first OBS will always be Main and cannot be changed. 
-- `Protocol`: Choose the protocol your OBS Websocket is using. Choose obsws4 or obsws5 accordingly. 
+- `Protocol`: Choose the protocol your OBS Websocket is using. Choose OBSws4 or OBSws5 accordingly. 
 - `IP`: IP Address of the OBS Websocket. Unless you're connecting to an OBS on another computer, it will be always `127.0.0.1`.
-- `Port`: Port of the OBS Websocket. Must match the port in your OBS-Tools-Websocket Server Settings. By default, 4444 is the port for obsws4 and 4455 is the port for obsws5.
-- `Password`: Password to authorize with OBS Websocket. Leave empty, unless you checked Enable Authorization in OBS-Tools-Websocket Server Settings. In that case the passwords must match. 
+- `Port`: Port of the OBS Websocket. Must match the port in your OBS-Tools-Websocket Server Settings. Default port for OBSws5 is `4455` and for OBSws4 `4444`. We do not recommend changing the default port. 
+- `Password`: Password to authorize with OBS Websocket. Leave empty, unless you checked Enable Authorization in OBS-Tools-OBS Websocket Settings. In that case the passwords must match. 
 - `Auto Connect`: Whether you want SAMMI to automatically connect to OBS Websocket on launch
 - `Non-Blocking`: Leave unchecked unless you have difficulties connecting to OBS Websocket. 
 - `Fetch OBS Data`: Whether you want to fetch OBS Data (such as current scenes and their items) from this particular OBS Websocket connection.
 
-  {% include image.html w="75" src="obs-settings.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
+  {% include image.html w="75" src="obs_connection.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
 
-Once you press **connect**, you should see a yellow notification message `OBS [Main Connected]` and the status indicator for `Main OBS` in the left bottom corner should change from red to green. 
-
-  {% include image.html w="75" src="obs-connected.png" alt="OBS is connected" %}
+Once you press **connect**, you should see the `OBS Main` light indicator turn from red to green in your SAMMI.
 
 <hr>
 
@@ -81,11 +79,18 @@ Once you're connected to OBS Websocket, SAMMI provides you with some useful perm
 All OBS variables are saved in `global.[obsName]` object.\
 **If you're using only one single OBS connection**, your variables will be always saved in `global.Main`, for example `global.Main.connected`.
 
+{% include image.html w="75" src="obs_variables.png" alt="Variable window showing permanent OBS variables" %}
+
 | Variable | Explanation| 
 |-------|--------|--------
 {% include selectAll.html text="<code>global.[obsName].connected</code>" %} | Whether you're connected to your selected OBS Name, 1 = connected, 0 = not connected
 {% include selectAll.html text="<code>global.[obsName].current_scene</code>" %} | Your selected OBS current scene
 {% include selectAll.html text="<code>global.[obsName].previous_scene</code>" %} | Your selected OBS previous scene
+{% include selectAll.html text="<code>global.[obsName].type</code>" %} | OBSws selected type in OBS Connections, either `OBSws4`, `OBSws5` or `Auto`
+{% include selectAll.html text="<code>global.[obsName].ip</code>" %} | The IP address of the OBS connection
+{% include selectAll.html text="<code>global.[obsName].port</code>" %} | The port of the OBS connection
+{% include selectAll.html text="<code>global.[obsName].obs_studio_version</code>" %} | Current OBS studio version the OBSws is connected to
+{% include selectAll.html text="<code>global.[obsName].obs_websocket_version</code>" %} |  Current OBS Websocket version the OBSws is connected to
 {:class='table table-secondary w-auto table-hover text-break' }
 
 <hr>

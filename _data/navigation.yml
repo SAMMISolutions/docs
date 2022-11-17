@@ -133,7 +133,7 @@ main:
     - name: Common Issues
       link: troubleshooting/common
       collection: troubleshooting-common
-    - name: Error Messages
+    - name: Error Messages on Crash
       link: troubleshooting/errors
       collection: troubleshooting-errors
     - name: Recording Outputs

@@ -3,7 +3,7 @@ title: Premade Variables
 num: 3
 ---
 
-The following premade/permanent global variables are accessible from all the buttons and their commands at all times. These global variables can be viewed in the Variable Viewer in your receiver. You can retrieve/access them by using the `Get Global Variable` command, or reference them with `global.variablename` in a command.
+The following premade/permanent global variables are accessible from all the buttons and their commands at all times. These global variables can be viewed in the Variable Viewer in your SAMMI. You can retrieve/access them by using the `Get Global Variable` command, or reference them with `global.variablename` in a command.
 
 
 

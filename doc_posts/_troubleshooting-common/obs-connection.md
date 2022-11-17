@@ -26,10 +26,10 @@ Make sure your firewall is not blocking SAMMI.\
 You can try [temporarily disabling your antivirus/firewall](https://support.microsoft.com/en-us/windows/turn-off-defender-antivirus-protection-in-windows-security-99e6004f-c54c-8509-773c-a4d776b77960) or [adding an exception](https://support.microsoft.com/en-us/windows/add-an-exclusion-to-windows-security-811816c0-4dfd-af4a-47e4-c301afe13b26) to allow the app through.
 
 - **Verify password settings**\
-The password you enter in OBS > Tools > WebSockets Server Settings must match the password you enter in SAMMI > OBS Connections. If you do not use a password, uncheck Enable authentication.
+The password you enter in OBS > Tools > OBS Websocket Settings must match the password you enter in SAMMI > OBS Connections. If you do not use a password, uncheck Enable authentication.
 
 - **Verify ports settings**\
-The port entered in OBS > Tools > WebSockets Server Settings must match the port in SAMMI > OBS Connections.\
+The port entered in OBS > Tools > OBS Websocket Settings must match the port in SAMMI > OBS Connections.\
 The default port for WebSockets 4.x.x is 4444. The default for WebSockets 5.x.x is 4455.\
 Note that this port MUST be different from the port number used in your Bridge settings.
 

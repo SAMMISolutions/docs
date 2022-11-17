@@ -6,7 +6,7 @@ Gradually moves a Source from point A to point B over a given duration and curve
 You can make a source complete a half circle or have a slight curve in its transition.\
 If you want to move a source from its current position, you can use the command OBS Pull Source Value Value to find current source's X and Y position and incorporate it into this command.
 
-{% include alert.html text="The higher your Receiver's FPS (max 60) the smoother the animation is going to be." type="info" %} 
+{% include alert.html text="The higher your SAMMI's FPS (max 60) the smoother the animation is going to be." type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

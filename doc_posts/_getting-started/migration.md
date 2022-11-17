@@ -10,10 +10,6 @@ type: fullpage
 Migrating all buttons and extensions from LioranBoard 1 to SAMMI must be done **manually**.  
 SAMMI is too different from LioranBoard 1 (especially when it comes to how variables are handled) and therefore it's not possible to create a migration tool.  
 
-
-SAMMI is created in Game Maker Studio 2 and offers both x64 and x86 version.  
-
-
 You can run LioranBoard 1 and SAMMI **at the same time** without any issues.  
 
 
@@ -37,8 +33,8 @@ If you have stringified stacks saved in ini files from LioranBoard 1, you can ea
 ##### Objects
 SAMMI can newly create and manipulate [objects](https://www.w3schools.com/js/js_objects.asp).
 
-##### CSV Files
-SAMMI can manipulate CSV files. 
+##### CSV and Text Files
+SAMMI can manipulate CSV and regular `.txt` files. 
 
 ##### HTTP Request
 [Get HTTP Request]({{ "/commands/misc#gethttprequest" | relative_url }}) command replaces Web Request extension. You can call an API and receive its response directly in SAMMI now.\
@@ -56,13 +52,14 @@ Bridge is mostly similar for users, however you **do not need to manually reinst
 
 If you're an extension developer, you will need to rewrite some of your code to work with SAMMI: 
 
-- extension files now have .lb2 extension
-- added `[extension_info]` section which must be included after `[extension_name]`  
+- extension files now have .sef extension
+- added `[extension_info]` and `[extension_version]` sections which must be included after `[extension_name]`  
 
   **new extension file structure:** 
 ```
 [extension_name]
 [extension_info]
+[extension_version]
 [insert_external]
 [insert_command]
 [insert_hook]
@@ -98,18 +95,15 @@ As stated just above, LioranBoard 1 extensions do not work in SAMMI. Some will h
 - still no variables in the delay fields, but you can now use [Wait for Timeout]({{ "/commands/wait#waitfortimeout" | relative_url }}) command to add variable delays between your commands
 
 ##### Other Changes
-- SAMMI can automatically update Receiver, SAMMI Deck and Bridge for you when there's a new version available. Just click on Settings-Check for updates.
+- SAMMI can automatically update SAMMI Core, SAMMI Deck and Bridge for you when there's a new version available. Just click on Settings-Check for updates.
+- you can trigger buttons directly from command edit screen
 - added support for **multiple OBS connections** (you can select a specific OBS to use for your commands or triggers)
 - you can minimize SAMMI to tray
 - ability to scale the SAMMI's UI
 - you can disable an entire deck
 - your deck can have a background image
 - buttons can be freely resized to any dimension and placed outside of the grid 
-- added quick shortcuts for buttons:
-    - double tap on a button to open the command window
-    - Shift + double tap brings up Button Appearance menu
-    - CTRL + double tap brings up Triggers menu
-    - ALT + double tap brings up Button Settings menu
+- added lots of new shortcuts for buttons and commands
 - as an extension maker, you can encrypt your deck and choose which buttons to lock (users will not be able to copy them or open closed command blocks, but they can still modify or delete them).
 
 

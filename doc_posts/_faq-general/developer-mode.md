@@ -3,4 +3,6 @@ title: Developer Mode
 num: 9
 ---
 
-For advanced users who would like the ability to encrypt and lock your buttons and decks, developer mode can be unlocked by pressing the Reset button 10 times.
+Only meant for advanced users. Allows you to use developer only commands, encrypt and lock your decks (intended for extension makers) and change some settings that's normally greyed out.  
+
+Developer mode can be unlocked by pressing the Reset button 10 times.

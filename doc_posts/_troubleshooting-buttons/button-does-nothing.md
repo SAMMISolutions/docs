@@ -7,7 +7,7 @@ num: 1
 Unless you’re triggering the button by pressing it on the SAMMI Deck, it’s possible that your button didn’t work because it isn’t triggering properly. There are two ways to check whether your button triggered:
 
 - Look at the SAMMI Deck to see whether the button shows an animation
-- Click ‘Active Buttons’ in the receiver main window to see whether the button ID pops up there. If the button doesn’t have any delays or wait commands this will be a quick flash, but you should still be able to see it.
+- Click ‘Active Buttons’ in SAMMI to see whether the button ID pops up there. If the button doesn’t have any delays or wait commands this will be a quick flash, but you should still be able to see it.
 
 #### Possibility A: The button did not trigger
 Your button not triggering at all could have three causes: either your button's trigger is set up incorrectly, the button is being blocked somehow, or SAMMI is not receiving the trigger at all.
@@ -15,7 +15,7 @@ Your button not triggering at all could have three causes: either your button's 
 *Check whether your trigger is correct*
 
 - Make sure the trigger is added on the correct button.
-- Whenever you need to enter text, check for typo’s or extra spaces.
+- Whenever you need to enter text, check for typos or extra spaces.
 - Make sure you set up the trigger correctly [according to the documentation]({{ "triggers/introduction" | relative_url }}).
 
 ##### Common issues with specific triggers:
@@ -31,18 +31,18 @@ Your button not triggering at all could have three causes: either your button's 
 *Check whether SAMMI is receiving the trigger*
 
 - You cannot test via a third party app such as StreamLabs or StreamElements. Only test with the test buttons in the Bridge, or via Twitch.
-- Make sure whatever is sending your trigger is connected to SAMMI. You can see this in the bottom left of the main window. Twitch Subs, Channel Points, etc. arrive via the Bridge! 
+- Make sure whatever is sending your trigger is connected to SAMMI. You can see this in the bottom left of the main window. Twitch Subs, Channel Points, etc. arrive via Pubsub
 - Make sure you’re listening for the triggers in the Twitch Connections window.
 
 ##### Common issues with specific triggers:
 
 | Trigger | Common Issue |
 |-------|--------|
-|Channel Points | If you see a yellow message about ‘scopes’ in the receiver when redeeming, go to Twitch Connections → Edit Scopes and add the required scopes. You will need to relink your Twitch account after doing so. |
+|Channel Points | If you see a yellow message about ‘scopes’ in SAMMI when redeeming, go to Twitch Connections → Edit Scopes and add the required scopes. You will need to relink your Twitch account after doing so. |
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
 {:class='table table-primary' }
 
-{% include image.html w="100" src="https://i.imgur.com/X8pE68j.png" alt="Comunication between Twitch and SAMMI" type="image" external="true" %}
+{% include image.html w="100" src="https://i.imgur.com/X8pE68j.png" alt="Communication between Twitch and SAMMI" type="image" external="true" %}
 
 *Check whether the button is being blocked*
 

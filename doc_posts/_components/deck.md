@@ -22,10 +22,12 @@ Once you select a deck to connect to, you can interact with it by pressing its b
 
 {% include alert.html text="To quickly change decks in your SAMMI Deck, press Backspace button on your keyboard to load a different deck!" type="info" %} 
 
-**Auto Reconnect**
+**Auto Reconnect**  
+
 Check this if you wish your SAMMI Deck to auto reconnect after SAMMI has been closed and the connection has been lost. 
 
-**Auto Connect**
+**Auto Connect**  
+
 Check this if you wish to auto connect each time you open SAMMI Deck.
 
 ### Android Version

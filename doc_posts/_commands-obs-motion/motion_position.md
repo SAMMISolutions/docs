@@ -5,7 +5,7 @@ num: 0
 Gradually moves a source from point A to point B over a given duration.\
 If you want to move a source from its current position, you can use the command OBS Pull Source Value to find the current source's X and Y position and incorporate it into this command.
 
-{% include alert.html text="The higher your Receiver's FPS (max 60) the smoother the animation is going to be." type="info" %} 
+{% include alert.html text="The higher your SAMMI's FPS (max 60) the smoother the animation is going to be." type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

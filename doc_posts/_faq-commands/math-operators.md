@@ -24,4 +24,6 @@ There's a significant difference between [White and Yellow box]({{ "commands/int
 |Cos	|Returns a numeric value between -1 and 1, which represents the cosine of the angle given in radians.	|`Cos 90` = -0.45
 |Sin|	Returns a numeric value between -1 and 1, which represents the sine of the angle given in radians	|`Sin 90` = 0.89
 |Tan|	Returns a numeric value that represents the tangent of the angle. Tan = Sin/Cos.|	`Tan 90` = -2.00
+|log10|	Returns the common logarithm of the value.|	`log 100` = 2
+|sqrt|	Returns a square root of the value.|`sqrt 16` = 4
 {:class='table table-primary table-hover' }

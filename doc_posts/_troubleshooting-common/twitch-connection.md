@@ -7,13 +7,14 @@ num: 0
 
 Your auth token probably expired. 
 1. In SAMMI Core, go to Twitch Connections. Click "Revoke Token" for the problem account.
-2. Link your Twitch account again by pressing Open URL.
+2. Link your Twitch account again by pressing `Link Streamer Account` or `Link Bot Account` button.
 
 #### Twitch Alerts don't work
 
-**Check your Bridge connection**\
-Make sure your Bridge is running and connected to SAMMI (the status should be green for Bridge in the left bottom corner of SAMMI Core).
-In your Bridge it must say <strong>Pubsub: {% include colored_text.html color="green" text="Connected" %}<strong>.  
+**Check your Twitch Pubsub/Chat connection**\
+Make sure your Twitch Pubsub and Chat is connected (the light indicator must be green for both) and you're listening to the right topics (you can check them under Twitch Connections).
+
+{% include image.html w="75" src="twitch_connected.png" alt="Twitch Connected" %}
 
 **Try triggering a test alert from your Bridge**
 In your Bridge, go to Twitch Triggers tab and press any of the test buttons.\
@@ -31,7 +32,7 @@ In SAMMI > Twitch Connections, press "Connect Twitch Chat", then enable `Auto co
 **Check you're sending the message to the right channel**
 - If you have only a single Twitch account linked, leave the channel name empty.\
   {% include image.html w="75" src="chat-message.png" alt="Chat Message command with single Twitch account linked" %}
-- If you have multiple Twitch accounts linked, correctly fill the field with your Twitch channel name (all lowercase characters)\
+- If you have multiple Twitch accounts linked, correctly fill out the field with your Twitch channel name (all lowercase characters)\
   {% include image.html w="75" src="chat-message2.png" alt="Chat Message command with multiple Twitch accounts linked" %}
 
 **Check you're not sending too many messages**\

@@ -9,7 +9,7 @@ Useful for extension creators to be able to easily notify the user of important 
 | Box Name | Type | Description |
 |-------|--------|--------
 |Message|	String|	The message you want to display. Can be multiline.
-|Freeze LB| Checkbox |Choose whether you want to temporarily freeze SAMMI (i.e. pause all commands) while showing the popup.
+|Pause Button Execution| Checkbox |Choose whether you want to temporarily freeze SAMMI (i.e. pause all commands) while showing the popup.
 {:class='table table-primary'}
 
 

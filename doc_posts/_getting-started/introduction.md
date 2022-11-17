@@ -12,13 +12,15 @@ type: fullpage
 
 It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) which can remotely control your [OBS Studio](https://obsproject.com/).
 
+{% include alert.html text="OBS Websocket is natively integrated in OBS 28 or later versions" type="success" %} 
+
 You can easily create buttons for the most basic things, such as automatic scene switching and custom alerts. However, once you get more familiar with the software, whole new possibilites will open up for you. 
 
 SAMMI Core itself works like a simple programming language. It has variables, operators, arrays, objects, string and number methods, If and Else statements, loops, async/await commands and much more.
 
 #### Connection to Twitch
 
-SAMMI Core can listen to Twitch alerts and chat messages, send chat messages and fully control your Twitch stream via Twitch API. 
+SAMMI Core can listen to Twitch alerts and chat messages, send chat messages, edit your channel point rewards and fully control your Twitch Stream via Twitch API. 
 
 #### Connection to YouTube Live
 
@@ -42,4 +44,4 @@ If all of the above is not enough for your needs, SAMMI Core also supports commu
 - Heat Map Twitch extension
 - and many more! 
 
-A full list of SAMMI extensions can be found [here](https://sammi.solutions/extensions) and in our Discord! 
+A full list of SAMMI extensions can be found in [Extensions](https://sammi.solutions/extensions) and in our [Discord Server](https://discord.gg/dXez8Zh)! 

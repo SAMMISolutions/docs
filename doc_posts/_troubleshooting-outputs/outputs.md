@@ -6,15 +6,15 @@ num: 0
 When troubleshooting problems, especially via the Discord server, you may be asked to record an output from SAMMI.\
 To do so, you need to close SAMMI if it's open, head to your main SAMMI folder, open `Settings.ini`, and add one of the following to the `[settings]` section (not the `[last_crash_data]` section):
 
-`record_pubsub="1.000000"`\
-`record_bridge="1.000000"`\
-`record_twitchchat="1.000000"`\
-`record_http="1.000000"`\
-`record_obs="1.000000"`
+`record_pubsub="1"`\
+`record_bridge="1"`\
+`record_twitchchat="1"`\
+`record_http="1"`\
+`record_obs="1"`
 
 After saving the settings.ini file, and relaunching SAMMI, a new text file will be created in your main SAMMI folder, named `record_(something).txt` (depending on what setting you added).
 
-{% include alert.html text="Leaving any of these settings on may cause SAMMI to lag. Once you have finished your troubleshooting, remember to turn them off (by changing `1.000000` to `0.000000`, or by deleting that line, then saving the file)." type="warning" %} 
+{% include alert.html text='Leaving any of these settings on may cause SAMMI to lag. Once you have finished your troubleshooting, remember to turn them off (by changing `"1"` to `"0"`, or by deleting that line, then saving the file).' type="warning" %} 
 
 #### Record PubSub
 

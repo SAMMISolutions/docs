@@ -7,38 +7,37 @@ type: fullpage
 permalink: /core
 ---
 
-SAMMI Core is the main component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers etc.
+SAMMI Core is the main SAMMI component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers and much more.
 {% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
 {% include image.html w="auto" src="SAMMI.png" alt="SAMMI Core" %}
 
-{% include alert.html text="SAMMI Core is only an editor. Use SAMMI Deck to press your buttons." type="warning" %} 
-
 ### Deck Menu 
 - Edit Deck - allows you to edit currently selected deck, same as double clicking on the deck
-- Add New Deck - adds a new empty deck
+- Add New Deck - adds a new empty deck, you can also use `CTRL+N` keyboard shortcut
 - Delete Deck - delete the currently selected deck, cannot be undone
 - Move Left/Right - repositions the deck
-- Copy Deck - exports the entire deck to your clipboard in JSON format to share with others, can include all deck button images as well
+- Copy Deck - exports the entire deck to your clipboard in JSON format to share with other users, you can include all deck button images as well
 - Paste Deck - imports the entire deck from your clipboard, must be in JSON format
 - Duplicate Deck - creates a copy of the entire deck inside SAMMI
 
-### SAMMI Deck 
+### SAMMI Deck Menu
 {% include image.html w="75" src="deck_menu.png" alt="SAMMI Deck Icon" %}
 - Open SAMMI Deck - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
 - Get LAN IP (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
 - Android Version - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
 
-### Bridge
-{% include image.html w="auto" src="bridge.png" alt="Bridge settings" %}
+### Bridge Menu
+{% include image.html w="auto" src="bridge menu.png" alt="Bridge Menu" %}
 - Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+- Reload a Bridge - refreshes your Bridge, same as you going into your Bridge file and pressing reload manually
 - Open in a browser - opens your default Bridge in a browser
 - Reveal in File Explorer - opens your Bridge file's location in File Explorer
 - Copy Full Path - places the file path to the Bridge in your clipboard
 - Install an Extension - installs an extension from .lb2 file to your default Bridge file
 - Uninstall an Extension - uninstalls a selected extension from your default Bridge file
-- Install all Extensions from folder - installs all extensions in a selected folder to the Bridge at once
-- Reinstall all Extensions - reinstalls all extensions in your default Bridge
+- Install all Extensions from folder - installs all extensions in a selected folder to the Bridge at once, simply select the first file in the folder
+- Reinstall all Extensions - reinstalls all currently installed extensions in your default Bridge
 
 ### Backup
 {% include image.html w="auto" src="backup.png" alt="Backup options" %}
@@ -47,60 +46,62 @@ SAMMI Core is the main component. You can change all the settings, add and modif
 
 ### About
 {% include image.html w="auto" src="about.png" alt="About" %}
-Press to open the About page, with info about the developers, and Patreon supporters
+Press to open the About page, with info about the developers, and Patreon supporters.
 
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
 - Main OBS - indicates whether SAMMI Core is connected to your main OBSWS 
-- Twitch Pubsub - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as follows, subs, etc.
-- Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new messages
-- Bridge - indicates whether SAMMI Core is connected to Bridge, required for Twitch Alerts and some extensions
+- Twitch Pubsub - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as new followers, subscribers, channel point redeems etc.
+- Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new Twitch Chat messages
+- Bridge - indicates whether SAMMI Core is connected to Bridge, required for some extensions and for testing Twitch/YouTube triggers
 
 ### Settings
-Allows you to adjust UI settings and external connection settings.
+Allows you to adjust general SAMMI settings. 
 
 {% include image.html w="50" src="settings.png" alt="Settings" %}
 
-- Minimize to Tray - when checked, SAMMI Core will minimize to tray instead of closing when you press X 
-- Auto restart SAMMI after crash - when checked, SAMMI will re-open itself after a crash
-- Automatically check for updates - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
-- Automatically close variable wrapping - when checked, SAMMI will automatically write the "$/" when you type "/$" with nothing to the right of the cursor
-- Enable enhanced protection mode - when checked, SAMMI will not be allowed to modify or delete files outside of the main SAMMI directory, nor any critical files inside the directory.
-- FPS - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
-- Language dropdown - change the language of SAMMI
-- Interface Size - change scaling if you're using a non standard resolution
-- Reset SAMMI - clears all running buttons and variables and reloads all decks
-- Check for Updates - checks for new updates, allows you to update SAMMI Core and view patch notes
-- Cancel - closes the window without saving any changes
-- Save - saves any changes
+- **Deck and Bridge settings** - modify connection settings for Bridge
+- **Minimize to Tray** - when checked, SAMMI Core will minimize to tray instead of closing when you press X
+- **Auto restart SAMMI after crash** - when checked, SAMMI will re-open itself after a crash
+- **Automatically check for new updates** - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
+- **Automatically close variable wrapping** - when checked, SAMMI will automatically write the `$/` when you type `/$` with nothing to the right of the cursor
+- **Enable enhanced protection mode** - when checked, SAMMI will not be allowed to modify or delete files outside of the main SAMMI directory, nor any critical files inside its own directory.
+- **Open Local API Server** - whether you wish to open SAMMI's [Local API server]({{ "api/overview" | relative_url }})
+- **FPS** - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
+- **Language** - dropdown to change the language of SAMMI
+- **Interface Size** - change scaling if you're using a non standard resolution
+- **Reset SAMMI** - clears all running buttons and variables and reloads all decks
+- **Check for Updates** - checks for new updates, allows you to update SAMMI and view patch notes
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
 
-{% include image.html w="50" src="obs_settings.png" alt="OBS Connections" %}
+{% include image.html w="50" src="obs_connection.png" alt="OBS Connections" %}
 
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
 Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.
-{% include image.html w="50" src="twitch_settings.png" alt="Twitch Connections" %}
-Find out more about Twitch connection in our [Integrations-Twitch](integrations/twitch) section.
+{% include image.html w="75" src="twitch_connection.png" alt="Twitch Connections" %}
+Find out more about Twitch connection in our [Integrations-Twitch]({{ "integrations/twitch" | relative_url }})section.
 
 ### YouTube Connection
 Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.
-{% include image.html w="50" src="youtube_settings.png" alt="YouTube Connection" %}
+Find out more about Twitch connection in our [Integrations-Youtube]({{ "integrations/youtube" | relative_url }}) section.
+
+{% include image.html w="50" src="youtube_connection.png" alt="YouTube Connection" %}
 
 ### Variable Viewer
-The variable viewer can be accessed from the Deck Editor, or the Commands Editor. You can also use the Ctrl+Tab key as a shortcut.
+The variable viewer can be accessed from the Main Menu, Deck Editor, or the Commands Editor. You can also press `Ctrl+Tab` key as a shortcut.
 
 In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
 {% include image.html w="75" src="var_viewer.gif" alt="Variable window showing button ID variables" %}
 
 If you click on the eye icon, you can see all current variables for the selected button ID.
 
-The variable viewer can now be sorted alphabetically, or by type. 
+The variable viewer can be sorted alphabetically, or by type. 
 
 Use search function to search for a specific button ID.
 
@@ -115,7 +116,7 @@ You can choose to interrupt (clear) all, ongoing or queued buttons.
 ### Deck
 
 If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core. Double click on the deck to open it.\
-Every deck is active at all times (unless manually disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
+Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
 You can check `Disable Deck` in your main menu to deactivate your deck and all its buttons.
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
@@ -130,17 +131,24 @@ Inside your deck you will see an empty canvas grid, where you can add and modify
 - Background Image - choose either a color or background image for your deck
 - Undo & Redo - allows you to undo/redo any deck action
 
+#### Disable a deck
+You can disable a deck by either checking the `Disable` checkbox in SAMMI or by using [Check Deck Status]({{ "commands/misc#deckchangestatus" | relative_url }}) command. This allows you to have only specific decks active during your stream.  
+Buttons in disabled decks do not trigger and their variables are not accsesible.
+
+{% include video.html w="75" src="disable_decks.mp4" alt="Disabling and enabling decks" %}
+
+
 ### Button
-You can create a new button inside a deck by either right clicking on your empty canvas and selecting **Create Button** or by just simply double clicking on any empty space. You can move it around, resize it etc.
+You can create a new button inside a deck by either right clicking on your empty canvas and selecting **Create Button** or by just simply double clicking on any empty space. You can change its appearance, move it around, resize it etc. 
 
 {% include video.html w="75" src="create-button.mp4" alt="Create a new button" %}
 
-There are also several keyboard shortcuts you can use:
+There are several keyboard shortcuts you can use:
 
 | Shortcut | Function |
 | ----- | ----- |
 | Ctrl+C | Copies a selected button.|
-| Ctrl+V | Pastes a copied button in a selected empty slot.|
+| Ctrl+V | Pastes a copied button in the selected empty slot.|
 | Delete | Deletes a selected button.|
 | Ctrl+Z | Undoes the last action.|
 | Ctrl+Y<br/>Ctrl+Shift+Z | Redoes a previous undone action.|
@@ -154,13 +162,13 @@ If you now right click on the created button, a new button menu appears:
 #### Edit Appearance
 Edit your button text, color, image and border size.\
 All button images will be automatically resized and copied to `SAMMI/image` folder.\
-You can press SHIFT + double click on a button to edit settings.
+You can press SHIFT + double click on a button to edit its appearance.
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
 
 #### Edit Settings
 
-You can press CTRL + double click on a button to edit settings.
+You can press `CTRL + double click` on a button to edit settings.
 
 <div>
 
@@ -203,7 +211,7 @@ Learn more about specific triggers in our [**Triggers**]({{ "triggers/introducti
 #### Edit Commands
 When you right click-Edit commands or double click on your button and press **+**, you can start adding commands to execute when the button is pressed.  
 
-Button commands have their own specific rules that you need to follow, read read more about them in our [Commands-Introduction]({{ "commands/introduction" | relative_url }})  section. 
+Button commands have their own specific rules that you need to follow, read more about them in our [Commands-Introduction]({{ "commands/introduction" | relative_url }})  section. 
    
 Once you're done with adding commands, you can now run the button directly from the commands window - no more having to save back to the main screen and testing via a chat command or pressing the button on the deck!
 {% include alert.html text="Please be aware that any commands that involve wildcards or pulling info from the trigger may not work as intended if tested this way - for best results, test the same way you intend for it to be used." type="info" %} 

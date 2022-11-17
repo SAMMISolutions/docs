@@ -8,10 +8,10 @@ There are almost infinite ways a button can go wrong, so it’s impossible to be
 #### Tips to troubleshoot
 
 - **Use the Variable Viewer**. It’s a powerful tool that shows you the variables, arrays and objects in each button, as well as what value they are currently set to. That way you can see if a variable is being populated, if it has the correct value, whether it’s the correct type (it’s a number, a string or an array?) or if it even exists at all.
-- **Check for error messages**. Some errors are shown in the receiver as yellow messages at the bottom. If you have any of those, they would be a good indicator of what’s going wrong.
+- **Check for error messages**. Some errors are shown in SAMMI as yellow messages at the bottom. If you have any of those, they would be a good indicator of what’s going wrong.
 - **Isolate the problem**. If you have many commands in a button, it can be difficult to find the one that’s not doing what it’s supposed to do. Try to divide the button into smaller pieces and test them one by one. You can turn off a command with the ‘Off’ tick on the right side of each command.
 - **Troubleshooting a command**: If you find the command that’s not working (or the button has only one command) go to the documentation of that command and try to figure out what you are doing wrong. For some common issues, check the ‘Common Errors with Commands’ section below.
-- **Check for misspellings, extra spaces and typo’s**. We have all misspelled a source, a setting or a variable. It happens. Go over every box to find out.
+- **Check for misspellings, extra spaces and typo’s**. We have all misspelled a source name, a setting or a variable. It happens. Go over every box to find out.
 - **TEST!** The only way to know if a button works is by testing. Try different triggers. Try different values. If it uses a wildcard pull, try adding a set variable command to override it and trigger the button with the SAMMI Deck. If a filter doesn't work, try with another filter or source. If a command with a variable doesn’t work, change the variable for the actual value so you know if it’s the command that’s wrong or it’s the variable. Play, change things, so you know better how it is working, what's wrong and what’s right.
 
 #### Undefined
@@ -20,7 +20,7 @@ If you see the word ‘undefined’ (in error messages, crashes, text sources, c
 
 #### Variables
 
-Variables, arrays and objects are a fundamental part of SAMMI. You need to know how to use them to unlock the full potential of LB. Please read the variable introduction about how to use them and how to use the [White and Yellow Boxes]({{ "commands/variables#whitevsyellowboxforparameters" | relative_url }}). if you are not sure.
+Variables, arrays and objects are a fundamental part of SAMMI. You need to know how to use them to unlock the full potential of SAMMI. Please read the variable introduction about how to use them and how to use the [White and Yellow Boxes]({{ "commands/variables#whitevsyellowboxforparameters" | relative_url }}). if you are not sure.
 
 #### Showing previous information, results only work after the second press or actions are being made in the incorrect order (or at the same time).
 
@@ -44,5 +44,5 @@ Check whether you are connected to OBS. Check Common Issues in Troubleshooting. 
 |Source Change Volume/Motion: Source Volume|You need to add a number between 0 and 1. This number does NOT match with the numbers in LB1. You can figure out what number you need by going into OBS, clicking any cog in your audio mixer and selecting Advanced Audio Properties. Check the box above the Volume % column, and read the % from there. If it says 50%, you need to enter 0.5|
 |Trigger OBS Hotkey Sequence|You shouldn’t write the exact key you want to press, but the OBS name for that key. Check the documentation.|
 |Trigger Button|If you are auto-triggering the button, turn the queue on (in the button and in the command). The ‘hidden delay’ field cannot be left blank. |
-|Sound Effects|SAMMI sound goes through the default output device of your pc when LB is opened. If you want to change where you want to hear SAMMI (or use an audio cable), change to that device before launching SAMMI. Once opened, you can change the default output device (back) to whatever you want and it will not affect SAMMI.|
+|Sound Effects|SAMMI sound goes through the default output device of your pc when SAMMI is opened. If you want to change where you want to hear SAMMI (or use an audio cable), change to that device before launching SAMMI. Once opened, you can change the default output device (back) to whatever you want and it will not affect SAMMI.|
 {:class='table table-primary' }

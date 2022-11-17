@@ -8,7 +8,7 @@ The way the source is resized is based on what the source's point of origin is s
 You can use negative values for a horizontal (mirror) or vertical source flip.\
 You can use OBS Pull Source Value command to find current source's X and Y size and incorporate it into this command.
 
-{% include alert.html text="The higher your Receiver's FPS (max 60) the smoother the animation is going to be." type="info" %} 
+{% include alert.html text="The higher your SAMMI's FPS (max 60) the smoother the animation is going to be." type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
