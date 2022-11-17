@@ -140,7 +140,7 @@ There are several ways how you can trigger a button. One of them is triggering i
 
 {% include alert.html text="Your SAMMI must be connected to Twitch Chat to be able to send chat messages." type="warning" %} 
 
-##### Trigger the new button manually from Edit Button Window
+##### Trigger the new button manually from Edit Command Window
 If you're just putting together a new button, it's often easier to trigger it directly from your SAMMI, as this allows you to keep modifying the button commands without all the extra steps of saving the button and then pressing it in your SAMMI Deck. 
 
 1. Navigate to your button's commands inside SAMMI. 
