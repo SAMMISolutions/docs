@@ -59,14 +59,11 @@ Fit your new dock somewhere in your OBS screen as you see fit.
 
 
 #### 6. Connect Bridge to SAMMI
-Your Bridge should automatically connect to SAMMI. The SAMMI Core indicator inside Bridge and the Bridge indicator inside SAMMI should be both green. This means it is connected to your SAMMI and listening for any test triggers or extension traffic.
-
-{% include image.html w="75" src="bridge-connected.png" alt="Bridge Connected" %}
-
-If you wish to set a password for your Bridge, you can do so from SAMMI-Settings menu under Dock and Bridge settings. You must then also fill out the password in your Bridge dock in OBS.\
-We strongly discourage you from modifying the Port. 
-
-{% include image.html w="75" src="bridge-settings.png" alt="Bridge Settings" %}
+In your **SAMMI-Settings** menu, check `Allow SAMMI Deck and Bridge` to allow Bridge to connect.\
+In your **Bridge-status** tab (in our OBS dock), you can now modify your connection settings.\
+Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Leave all values as the default values.\
+You must fill out the password if you decided to use one in SAMMI-Settings menu.\
+Note that you only need to do this once, as your Bridge will remember the previous settings and will attempt to auto connect next time.
 
 {% include alert.html text="Bridge Port and Password must match what's in the Settings window, not the OBS Connections window." type="danger" %} 
 
