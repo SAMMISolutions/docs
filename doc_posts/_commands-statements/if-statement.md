@@ -3,8 +3,8 @@ title: "If Statement"
 num: 1
 ---
 
-IF statement is used to specify a block of commands to be executed if a condition (or multiple conditions) is true.\
-Commands under ELSE statement are executed instead if a condition is false.\
+If statement is used to specify a block of commands to be executed if a condition (or multiple conditions) is true.\
+Commands under Else statement are executed instead if a condition is false.\
 You can think of it as `If something is true, then do something, otherwise do something else.`  
 
 By pressing the **+** button, you can add:
@@ -16,7 +16,7 @@ By pressing the **+** button, you can add:
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Value| {% include asterisk.html%}	 | Left side of the comparison you want to evaluate. 
-|Compare Type |	Dropdown menu |	Operator you wish to use to compare left and right side.
+|Compare |	Dropdown menu |	Operator you wish to use to compare left and right side.
 |Value  |	{% include asterisk.html%}|	Whatever value you want to compare the left side with.
 {:class='table table-primary' }
 

@@ -1,5 +1,5 @@
 ---
-title: "CSV Add Row"
+title: "CSV: Add Row"
 num: 14
 ---
 
@@ -8,7 +8,7 @@ Adds a new row to an existing CSV file. New row values (names) must be unique an
 | Box Name | Type | Description | 
 |-------|--------|--------
 |CSV Name|String|Name of your CSV
-|First Box Value(Name)|String|Value to be filled in the first box in the row
+|First Box Value (Name)|String|Value to be filled in the first box in the row
 {:class='table table-primary'}
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Leave Channel "
+title: "Leave Channel"
 num: 3
 ---
 

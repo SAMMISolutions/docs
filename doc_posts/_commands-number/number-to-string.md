@@ -8,7 +8,7 @@ Turns a real value (number) into a string value.
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Save Variable As | String | Name of a variable to save the string value. |
-| Value | Number {% include asterisk.html%} | Number to convert. |
+| Number/Variable | Number {% include asterisk.html%} | Number to convert. |
 {:class='table table-primary ' }
 
 

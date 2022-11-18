@@ -1,15 +1,15 @@
 ---
-title: String Get Character Length
+title: "String Get Length"
 num: 2
 ---
 
-Returns the length of a string.
+Returns the length (the amount of characters) of a string.
 
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name to save returned value. |
-| String Variable | String | Variable name containing the string. |
+| Save Variable As | String | Variable name to save returned value. |
+| String (text) | String | String to get the length of. |
 {:class='table table-primary ' }
 
 | String | Length returned| 

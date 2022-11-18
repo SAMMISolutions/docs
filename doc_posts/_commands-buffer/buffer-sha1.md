@@ -1,5 +1,5 @@
 ---
-title: "Buffer Hash SHA1"
+title: "Buffer: Hash SHA1"
 num: 11
 ---
 
@@ -10,7 +10,7 @@ Very useful command to periodically detect for any file changes.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer
-|Variable|String|Variable to save the SHA1 string in.
+|Variable|String|Variable to save the SHA1 string in
 {:class='table table-primary'}
 
 

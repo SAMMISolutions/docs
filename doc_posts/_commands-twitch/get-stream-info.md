@@ -9,8 +9,8 @@ Gets information about an active stream.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Channel name for the stream 
-|Save Variable|String|Variable name to save the whole response object
+|Channel Name|String|Channel name for the stream 
+|Save Variable As|String|Variable name to save the whole response object
 {:class='table table-primary'}
 
 

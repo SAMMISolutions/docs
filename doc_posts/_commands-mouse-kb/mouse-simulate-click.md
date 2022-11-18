@@ -9,7 +9,7 @@ Simulates a mouse click. Might not work in games that have anti-cheat protection
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Mouse Button|Dropdown|Which mouse button to click
-|Duration|Number {% include asterisk.html%}|Duration of the click
+|Duration (ms)|Number {% include asterisk.html%}|Duration of the click in milliseconds
 {:class='table table-primary'}
 
 

@@ -7,8 +7,8 @@ Converts a string to lowercase letters.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Variable|	String	|Variable name to save the converted string.
-|String| String | String to convert to lower case letters
+|Save Variable As|	String	|Variable name to save the converted string.
+| String (text) | String to convert to lower case letters
 {:class='table table-primary' }
 
 | Original String | Returned String| 

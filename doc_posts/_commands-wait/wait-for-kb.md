@@ -8,9 +8,9 @@ Pauses a button execution and waits until a specific button is pressed/unpressed
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Button|Dropdown|Which button to wait for
+|Button|Dropdown|Which keyboard button to wait for
 |Press|Checkbox|Checked = wait until the button is pressed, Unchecked = wait until the button is not pressed 
-|Timeout|Number {% include asterisk.html%}|How long to wait until resuming normal command flow (0 will wait forever)
+|Timeout After (ms)|Number {% include asterisk.html%}|How long to wait in milliseconds until resuming normal command flow (`0` will wait indefinitely)
 {:class='table table-primary'}
 
 

@@ -11,12 +11,11 @@ This way you can gradually fade out a source before turning its visibility compl
 | Box Name | Type | Description | 
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|Source Name |	String	Source name to change the transparency of.
-|Filter	|String	| Filter name to change the visibility
-|Color Correction	| String|	Color Correction filter name.
+|Source Name |	String	Source name to change the transparency of. Select from dropdown or input manually.
+|Color Correction	| String|	Color Correction filter name. Select from dropdown or input manually.
 |Alpha Start |	Real{% include asterisk.html%}|	Starting transparency percentage. 0-100 or 0-1 depending on the filter's version.
 |Alpha End |	Real{% include asterisk.html%}|	Final transparency percentage. 0-100 or 0-1 depending on the filter's version.
-|Duration(ms) |	Int {% include asterisk.html%}|	Transition duration in milliseconds
+|Duration (ms) |	Int {% include asterisk.html%}|	Transition duration in milliseconds
 {:class='table table-primary'}
 
 

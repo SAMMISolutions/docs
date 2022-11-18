@@ -8,7 +8,7 @@ Unlike in some other languages, object keys are not sorted and their order is no
 
 | Box Name | Type | Description |
 |-------|--------|--------|
-|Object|String|Name of the object you want to access
-|Save Variable|String|Variable name to save the retrieved key into
+|Object Name|String|Name of the object you want to access
+|Save Variable As|String|Variable name to save the retrieved key into
 {:class='table table-primary' }
 

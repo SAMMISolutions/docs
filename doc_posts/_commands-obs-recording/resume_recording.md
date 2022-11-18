@@ -3,7 +3,7 @@ title: "Resume Recording"
 num: 5
 ---
 
-Resume current recording (if paused].
+Resumes current recording (if paused].
 
 | Box Name | Type | Description | 
 |-------|--------|--------

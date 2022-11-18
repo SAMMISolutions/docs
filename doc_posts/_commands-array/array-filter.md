@@ -9,8 +9,8 @@ Saves in an array all the number values (of the original array) matching the spe
 |-------|--------|--------
 New Array Name | String | Name of the array to save the matching values.
 Array Name | String | Name of the array to filter.
-Compare Type | Dropdown menu | Operator you wish to use to compare the array values with.
-Variable/Number | Variable/Number | Number to compare the array values with.
+Compare | Dropdown menu | Operator you wish to use to compare the array values with.
+Variable/Number | {% include asterisk.html%} | Number to compare the array values with.
 {:class='table table-primary'}
 
 | Array | Compare Type | Number |  Returned Array | 

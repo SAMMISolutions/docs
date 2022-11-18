@@ -11,9 +11,9 @@ If you wish to have more power over randomizing values (like adding weights), it
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-| Variable | String | Name of the variable to save the random value. |
-| Minimum  | Number {% include asterisk.html%} | Minimum value possible.|
-| Maximum | Number {% include asterisk.html%}| Maximum value possible.
+| Variable Name | String | Name of the variable to save the random value. |
+| Minimum Value Allowed | Number {% include asterisk.html%} | Minimum value possible.|
+| Maximum Value Allowed| Number {% include asterisk.html%}| Maximum value possible.
 |Allow Float| checkbox| checked = random value returned can never be the maximum or minimum value itself <br/> unchecked = random value returned can be anything including maximum and minimum possible value <br/> *Any float value in minimum or maximum value is omitted if Float is set to False.*|
 {:class='table table-primary' }
 

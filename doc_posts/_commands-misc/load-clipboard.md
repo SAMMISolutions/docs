@@ -7,7 +7,7 @@ Loads the contents of your clipboard (after using CTRL+C) into a variable.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Variable|	String	|Variable name to save the string into.
+|Variable Name|	String	|Variable name to save the clipboard contents into.
 {:class='table table-primary'}
 
 

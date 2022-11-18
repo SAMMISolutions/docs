@@ -13,9 +13,9 @@ Clamps a variable between two values. Intended to use on real values (numbers) o
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-| Variable | String | Name of the variable to clamp. |
-| Minimum {% include asterisk.html%} | Real (number) | Minimum value allowed.|
-| Maximum {% include asterisk.html%}| Real (number) | Maximum value allowed.
+| Variable Name | String | Name of the variable to clamp. |
+| Minimum Value Allowed | Number {% include asterisk.html%}  | Minimum value allowed.|
+| Maximum Value Allowed| Number {% include asterisk.html%} | Maximum value allowed.
 {:class='table table-primary' }
 
 | Value | Clamp Min| Clamp Max| Result |

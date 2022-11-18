@@ -11,8 +11,8 @@ Delays that are entered into the `Delay` field for commands within a Re-enable b
   
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Reactivate every (ms)|	Int|	Delay between each re-enable. If set to 0, it will repeat indefinitely.
-|Amount|	Int	|How many times you want to re-enable the commands. Set to -1 for unlimited amount.
+|Repeat Interval (ms)|	Int {% include asterisk.html%}|	Delay between each re-enable. If set to 0, it will repeat indefinitely.
+|Amount|	Int {% include asterisk.html%}	|How many times you want to re-enable the commands. Set to -1 for unlimited amount.
 {:class='table table-primary' }
 
 

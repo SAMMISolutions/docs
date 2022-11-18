@@ -9,9 +9,9 @@ You cannot set other objects or arrays as object keys.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Object|String|Name of the object you want to access
+|Object Name|String|Name of the object you want to access
 |Key|String|The name of the new or existing key
-|Value|Any {% include asterisk.html%}|Value to associate with the key
+|Variable/Number/String|{% include asterisk.html%}|Value to associate with the key
 {:class='table table-primary' }
 
 

@@ -12,7 +12,7 @@ Both arrays must already exist.
 | Box Name | Type | Description | 
 |-------|--------|--------
 Array Name | String | The array to append to|
-Array to transfer | String| The array to append at the end of the first array|
+Array To Transfer | String| The array to append at the end of the first array|
 {:class='table table-primary'}
 
 

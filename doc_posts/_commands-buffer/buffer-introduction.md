@@ -11,7 +11,7 @@ A buffer is basically a space within the system memory that is used to store sma
 You can save and load *ANY* file into a buffer in SAMMI, which is the best part about having buffer commands!\
 For example, SAMMI does not natively support text files, but that's okay, because you can simply load, read and save any text file using buffers instead!
 
-{% include alert.html text="A buffer will exist until you either manually delete it or restart SAMMI." type="warning" %}
+{% include alert.html text="A buffer will exist until you either manually delete it or restart SAMMI." type="info" %}
 
 **Data Types**
 

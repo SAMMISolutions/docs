@@ -1,5 +1,5 @@
 ---
-title: "CSV Column Find Value"
+title: "CSV: Column Find Value"
 num: 19
 ---
 
@@ -9,9 +9,9 @@ SAMMI will return a value of -1 if no match is found in the column.
 | Box Name | Type | Description |
 |-------|--------|--------
 |CSV Name|String|Name of your CSV
-|Column Name/Number|String|Name of the column to search in
+|Column Name/Number|{% include asterisk.html %}|Name of the column to search in
 |Find|String|Value that you are searching for
-|Save variable|String|Variable name to save the position of the value
+|Save Variable As|String|Variable name to save the position of the value
 {:class='table table-primary'}
 
 

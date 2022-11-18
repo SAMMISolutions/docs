@@ -10,7 +10,7 @@ Gets specified channel information.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |User ID|Number|ID of the channel
-|Save Variable|String|Variable to save the response
+|Save Variable As|String|Variable to save the response
 {:class='table table-primary'}
 
 You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.

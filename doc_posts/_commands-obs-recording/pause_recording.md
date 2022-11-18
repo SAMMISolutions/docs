@@ -3,7 +3,7 @@ title: "Pause Recording"
 num: 4
 ---
 
-Pause current recording.
+Pauses current recording.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

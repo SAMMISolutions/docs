@@ -11,8 +11,8 @@ In SAMMI, boolean is a number that is either 0 (false) or 1 (true).
 
 | Box Name | Type | Description |
 |-------|--------|--------
-| Variable Name | String | Name of the variable to save the boolean value. |
-|Boolean|Boolean {% include asterisk.html%}|Boolean value you want to set the variable to. Will be converted to true or false.
+| Save Variable As | String | Name of the variable to save the boolean value. |
+|Boolean Value|Boolean {% include asterisk.html%}|Boolean value you want to set the variable to. Will be converted to `true` or `false`.
 {:class='table table-primary'}
 
 

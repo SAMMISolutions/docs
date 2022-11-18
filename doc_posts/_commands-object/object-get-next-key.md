@@ -8,9 +8,9 @@ Unlike in some other languages, object keys are not sorted and their order is no
 
 | Box Name | Type | Description |
 |-------|--------|--------|
-|Object|String|Name of the object you want to access
+|Object Name|String|Name of the object you want to access
 |Key|String|Object key to continue to iterate from
-|Save Variable|String|Variable name to save the retrieved key into
+|Save Variable As|String|Variable name to save the retrieved key into
 {:class='table table-primary' }
 
 {% include media_modal.html img="get-next-key.png" w="100" btn="1" alt="Get a random object key and its value" pastebin="1Lir8tVC" %}

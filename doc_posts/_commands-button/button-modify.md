@@ -9,7 +9,7 @@ If you wish to reset the button back to its default appearance, set the values t
 
 | Box Name | Type | Description 
 |-------|--------|--------
-|Button ID|	Any| Button ID or group ID to change the appearance of
+|Button/Group ID|	Any| Button ID or group ID to change the appearance of
 |Text	|String| New button text. Use `-default-` to revert the button to its default value.
 |Picture| String/File Select|	File name of an image to use. You can use the file explorer or manually type it.
 |Border|Int	|Size of the button border, between 0-8. <br/> Use `-1` for default border size and `0` for no border.

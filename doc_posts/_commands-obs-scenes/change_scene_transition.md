@@ -8,9 +8,9 @@ Temporarily changes the transition of a scene. Lasts until you use Remove Scene 
 | Box Name | Type | Description | 
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|Scene|	String	|Transition scene name
+|Scene Name|	String	|Transition scene name. Select from dropdown or input manually.
 |Transition Name	|String	|Name of the transition
-|Duration	|Int|	Duration of the transition in milliseconds
+|Duration (ms)	|Int {% include asterisk.html%}|	Duration of the transition in milliseconds
 {:class='table table-primary'}
 
 

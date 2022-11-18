@@ -8,7 +8,7 @@ If SAMMI is running as admin, any program you launch through this command will a
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|File Path|	String|	Select a path to the .exe file you wish to run.
+|File Path|	String|	Select or manually input a path to the .exe file you wish to run.
 {:class='table table-primary'}
 
 

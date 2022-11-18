@@ -8,7 +8,7 @@ You can use this command together with File: Save String command to save the who
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Variable	|String	| Variable to save the JSON string of the array into
+|Save Variable As	|String	| Variable to save the JSON string of the array into
 |Array Name|String|Name of the array to stringify
 {:class='table table-primary'}
 

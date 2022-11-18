@@ -35,8 +35,7 @@ In your SAMMI click on **OBS Connections** at the bottom menu:
 - `Port`: Port of the OBS Websocket. Must match the port in your OBS-Tools-Websocket Server Settings. Default port for OBSws5 is `4455` and for OBSws4 `4444`. We do not recommend changing the default port. 
 - `Password`: Password to authorize with OBS Websocket. Leave empty, unless you checked Enable Authorization in OBS-Tools-OBS Websocket Settings. In that case the passwords must match. 
 - `Auto Connect`: Whether you want SAMMI to automatically connect to OBS Websocket on launch
-- `Non-Blocking`: Leave unchecked unless you have difficulties connecting to OBS Websocket. 
-- `Fetch OBS Data`: Whether you want to fetch OBS Data (such as current scenes and their items) from this particular OBS Websocket connection.
+- `Non-Blocking`: Leave checked unless you have difficulties connecting to OBS Websocket. 
 
   {% include image.html w="75" src="obs_connection.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
 
@@ -74,7 +73,7 @@ You can remotely control your OBS Studio with [SAMMI OBS commands]({{ "commands/
 
   {% include video.html w="75" src="obs-control.mp4" alt="Controlling OBS remotely from SAMMI" %}
 
-**Permanent Variables**\
+#### Permanent Variables
 Once you're connected to OBS Websocket, SAMMI provides you with some useful permanent variables that you can use in your commands.\
 All OBS variables are saved in `global.[obsName]` object.\
 **If you're using only one single OBS connection**, your variables will be always saved in `global.Main`, for example `global.Main.connected`.

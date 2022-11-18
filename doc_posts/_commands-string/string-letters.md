@@ -7,8 +7,8 @@ Removes all digits and special symbols from a string (including spaces), leaving
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name to save the converted string. |
-| String Variable | String | Variable name containing the string. |
+| Save Variable As | String | Variable name to save the converted string. |
+| String (text) | String | String to remove all digits and symbols from.|
 {:class='table table-primary ' }
 
 | Original String | Processed String| 

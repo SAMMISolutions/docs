@@ -7,8 +7,8 @@ Removes all symbols from a string (including spaces), leaving only letters and d
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name to save the converted string. |
-| String Variable | String | Variable name containing the string. |
+| Save Variable As | String | Variable name to save the converted string. |
+| String (text) | String | The string (text) to remove the symbols from. |
 {:class='table table-primary ' }
 
 | Original String | Processed String| 

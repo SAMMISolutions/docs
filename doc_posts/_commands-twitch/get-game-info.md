@@ -10,7 +10,7 @@ Gets game information by game name.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Game Name|String|Game name. The name must be an exact match. For example, “Pokemon” will not return a list of Pokemon games; instead, query any specific Pokemon games in which you are interested. At most 100 name values can be specified.
-|Save Variable|String|Variable name to save the response 
+|Save Variable As|String|Variable name to save the response 
 {:class='table table-primary'}
 
 You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.

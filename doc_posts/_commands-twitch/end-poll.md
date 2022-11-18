@@ -1,5 +1,5 @@
 ---
-title: "End Poll "
+title: "End Poll"
 num: 17
 ---
 

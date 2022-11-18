@@ -1,5 +1,5 @@
 ---
-title: "Get File SHA1 Hash"
+title: "File: Get SHA1 Hash"
 num: 25
 ---
 
@@ -10,7 +10,7 @@ Very useful command to periodically detect any file changes.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Variable|String|Variable to save the SHA1 string in.
-|File Path|	string|	Full path including the file name you wish to get SHA1 hash of.|
+|File Path|	string|	File name you wish to get SHA1 hash of. Accepts both relative and absolute path.|
 {:class='table table-primary'}
 
 

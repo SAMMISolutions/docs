@@ -8,7 +8,7 @@ Converts a hexadecimal string into a real (decimal) number.
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Save Variable As | String | Name of a variable to save the converted value. |
-| Hex String | String | Hex string to convert. |
+| Hex String Variable | {% include asterisk.html%} | Hex string variable to convert. |
 {:class='table table-primary ' }
 
 | Hex string value | Returned real value | 

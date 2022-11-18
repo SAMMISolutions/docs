@@ -11,7 +11,7 @@ Returns -1 if value was not found.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Array Name	|String	| Name of the array to search for the value
-|Save Array Slot| String| Name of the variable to save the index(position) of the found value|
+|Save Array Position As| String| Name of the variable to save the index(position) of the found value|
 |Find value | {% include asterisk.html%} | The value to find in the array
 {:class='table table-primary'}
 

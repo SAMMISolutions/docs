@@ -8,7 +8,7 @@ If you have a mix of real and string values in your array, it will sort it based
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Array |String	| Name of the array you want to sort
+|Array Name|String	| Name of the array you want to sort
 |Ascending|Checkbox|Checked = sort in ascending order, unchecked = sort in descending order
 {:class='table table-primary'}
 

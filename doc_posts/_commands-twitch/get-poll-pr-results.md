@@ -12,7 +12,7 @@ Gets the result of a poll or prediction. Must provide its ID which can be retrie
 |Login Name|String|Your Twitch login name (all lowercase characters)
 |Poll/Prediction ID | The ID of your poll or prediction | 
 |Get|Dropdown |Whether it's a poll or prediction
-|Save Variable|String|Variable name to save the response
+|Save Variable As|String|Variable name to save the response
 {:class='table table-primary'}
 
 You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.

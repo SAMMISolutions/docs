@@ -1,10 +1,9 @@
 ---
-title: "Buffer Exists "
+title: "Buffer: Exists "
 num: 10
 ---
 
-Check if a buffer exists and save the result in a variable.\
-Use this command before using Buffer: Delete command, as it will crash SAMMI if you try to delete a non existing buffer.
+Checks if a buffer exists and saves the result in a variable.\
 
 **Result:**
 - 0 - Buffer doesn't exist
@@ -14,7 +13,7 @@ Use this command before using Buffer: Delete command, as it will crash SAMMI if 
 | Box Name | Type | Description |
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer
-|Variable|String|Variable to save the result in.
+|Save Variable As|String|Variable to save the result in.
 {:class='table table-primary'}
 
 

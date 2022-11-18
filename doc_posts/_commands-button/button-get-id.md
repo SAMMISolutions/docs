@@ -8,7 +8,7 @@ Returns an ID of the button that executed this command.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Save Variable|String|Variable name to save the button ID
+|Save Variable As|String|Variable name to save the button ID
 {:class='table table-primary'}
 
 

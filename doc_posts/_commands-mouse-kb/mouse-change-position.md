@@ -11,8 +11,8 @@ You can retrieve your current mouse coordinates by using permanent global variab
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Screen X position | New X position for your mouse
-|Screen Y position | New Y position for your mouse
+|Screen X position | Number {% include asterisk.html%} |New X position for your mouse
+|Screen Y position | Number {% include asterisk.html%} |New Y position for your mouse
 {:class='table table-primary'}
 
 

@@ -11,7 +11,7 @@ Gets another button's variable. The button must have persistent variables enable
 |-------|--------|--------
 |Button ID | String | The button you want to set the variable for.
 | Get Variable | String | Name of the variable to get. |
-| Save Variable | String | New local variable name to save the button variable.|
+| Save Variable As | String | New local variable name to save the button variable.|
 {:class='table table-primary'}
 
 

@@ -1,11 +1,9 @@
 ---
-title: "Buffer Peek"
+title: "Buffer: Peek"
 num: 3
 ---
 
 Reads data from a buffer at the specified position.
-
-{% include alert.html text="If you try to read data from a position larger than the current buffer size, you will get an error <code>Attempting to read from outside the buffer, returning 0.</code>" type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

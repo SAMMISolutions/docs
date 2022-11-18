@@ -11,8 +11,8 @@ If the button ID does not exist, sends an extension trigger instead.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Button ID|	String/Number	|ID of a button you want to activate.
-|Hidden Delay|	Int|	This exists to make a button happen without greying it out in case the button is showing valuable info.<br/> The delay is hidden and cannot be cancelled.
-|Queue-Able|	checkbox	| If checked and the button is already activated, it will wait for it to finish and trigger the button again. Will get queued as many times as you execute the command. <br/> If unchecked and the button is already activated, nothing will happen.
+|Delay Activation|	Int|	This exists to make a button happen without greying it out in case the button is showing valuable info.<br/> The delay is hidden and cannot be cancelled.
+|Queueable|	checkbox	| If checked and the button is already activated, it will wait for it to finish and trigger the button again. Will get queued as many times as you execute the command. <br/> If unchecked and the button is already activated, nothing will happen.
 {:class='table table-primary'}
 
 {% include example_public.html src="https://i.imgur.com/5DoZWxU.png" size="100" title="Auto-trigger a button to send messages in chat" pastebin="rJrMeWFs" %}

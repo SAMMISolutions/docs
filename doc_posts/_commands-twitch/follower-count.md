@@ -10,7 +10,7 @@ Returns the amount of followers your channel currently has.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Login Name|String|Your Twitch login name (all lowercase characters)
-|Save Variable|String|Variable name to save the follower count
+|Save Variable As|String|Variable name to save the follower count
 {:class='table table-primary'}
 
 

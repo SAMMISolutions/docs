@@ -67,5 +67,5 @@ Go to your SAMMI-Bridge-Select a Bridge if you wish to use a different Bridge fi
 {% include image.html w="75" src="bridge menu.png" alt="Bridge Menu" %}
 
 #### Extensions
-Extensions live in your Bridge. Learn more about them in our Extensions section.
+Extensions live in your Bridge. Learn more about them in our [Extensions](https://sammi.solutions/extensions) section.
 

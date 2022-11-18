@@ -1,5 +1,5 @@
 ---
-title: "Buffer Create "
+title: "Buffer: Create"
 num: 1
 ---
 
@@ -21,7 +21,7 @@ When creating a buffer, you should always try to create it to a size that is app
 | Box Name | Type | Description |
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer to create
-|Byte Size | Size of the buffer in bytes. |
+|Byte Size | Size of the buffer in bytes. Default is 64. |
 |Type |dropdown menu| Fixed, Expand With Grow or Wrap
 {:class='table table-primary'}
 

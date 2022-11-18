@@ -3,17 +3,17 @@ title: String Replace All
 num: 4
 ---
 
-Searches a string for a specified value and replaces it with another specified string.
+Searches a string for a specified value and replaces it with another specified string.\
 **All occurrences will be replaced.**
 
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-|Variable|	String	|Variable name to save the string.
-|String	|String	|String to look into
-| Replace this|	String|	The value to search for to be replaced
-| With this | String | The value to replace the search value with. Can be empty to completely remove it.
-| Case Insensitive | Checkbox | If this is checked, it will replace the first matching value, regardless of case.
+|Save Variable As|	String	|Variable name to save the string.
+| String (text) 	|String	|String to look into
+| Replace This|	String|	The value to search for to be replaced
+| With This | String | The value to replace the search value with. Can be empty to completely remove it.
+| Case Insensitive | Checkbox | If this is checked, it will replace all the matching values, regardless of case
 {:class='table table-primary' }
 
 | Value to search for | Value to replace it with| String| Case Insensitive| Result |

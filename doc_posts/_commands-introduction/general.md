@@ -3,7 +3,7 @@ title: General
 num: 0
 ---
 
-When you right click-Edit commands or double click on your button in your deck, you can press **+** to start adding commands to execute when the button is pressed.  
+When you right click-Edit commands or double click on your button in your deck, you can press **+** or use `CTRL+N` keyboard shortcut to start adding commands to execute when the button is pressed.  
 
 {% include video.html w="75" src="new-command.mp4" alt="Adding a command to a button" %}
 

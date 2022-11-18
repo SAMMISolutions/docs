@@ -1,5 +1,5 @@
 ---
-title: "CSV Get Box"
+title: "CSV: Get Box"
 num: 17
 ---
 
@@ -12,9 +12,9 @@ When you use column/row numbers, keep in mind the numbers begin with 0,0. The le
 | Box Name | Type | Description | 
 |-------|--------|--------
 |CSV Name|String|Name of your CSV
-|Column Name/Number|String|Name or number of the column
-|Row Name/Number|String|Name or number of the row
-|Save Variable|String|The variable to save the box value as
+|Column Name/Number|{% include asterisk.html %}|Name or number of the column
+|Row Name/Number|{% include asterisk.html %}|Name or number of the row
+|Save Variable As|String|The variable to save the box value as
 {:class='table table-primary'}
 
 

@@ -17,7 +17,7 @@ Extensions are meant to add new functionality to SAMMI. They're made by the SAMM
 {:start="2"}
 2. (optional) If you want to select a different Bridge than the one you're currently using, click on **Bridge - Select a Bridge** and select a new Bridge file to install your extension to.
 2. Click on **Bridge - Install an Extension** in your SAMMI
-3. Select the .lb2 extension file you downloaded
+3. Select the `.sef` or `.lb2` extension file you downloaded
 4. If the extension requries Bridge to be running, your Bridge will automatically refresh and a new extension tab will be added. You should also see it added in at the bottom list of all the extensions.
 6. Most extensions include a premade deck with buttons. If you do not see one, create a new button, press **+** - **Extension Commands** - **Your Bridge** and select the extension name. If you do NOT see this menu, it means the extension either does not require Bridge or you did not properly install it.
 

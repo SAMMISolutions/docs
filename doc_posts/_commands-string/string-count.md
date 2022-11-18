@@ -3,15 +3,15 @@ title: String Count
 num: 2.5
 ---
 
-Returns the number of occurrences of a character/string within a string. Case sensitive.
+Returns the number of occurrences of a character/string within a string.
 
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Variable name to save result. |
-| String | String | String to look at |
-|Count|String or Number|Specify a character or a string you want to count inside the specified string
-| Case Insensitive | Checkbox | If this is checked, it will replace the first matching value, regardless of case.
+| Save Variable As | String | Variable name to save result. |
+| String (text)| String | String to look at |
+|Character/String To Count|String|Specify a single character or a string you want to count inside the specified string
+| Case Insensitive | Checkbox | If this is checked, it will count all characters regardless of case
 {:class='table table-primary ' }
 
 | Value to search for | String| Case Insensitive| Result| 

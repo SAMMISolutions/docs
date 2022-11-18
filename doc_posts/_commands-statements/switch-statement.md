@@ -1,6 +1,6 @@
 ---
 title: "Switch Statement"
-num: 1
+num: 2
 ---
 
 Switch statement is used to select one of many blocks of commands to be executed based on single condition.   

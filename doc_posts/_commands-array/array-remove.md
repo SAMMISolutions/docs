@@ -12,7 +12,7 @@ This is similar to `Array splice()` method in JavaScript.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Array	|String	| Name of the array
+|Array Name	|String	| Name of the array
 |Delete Position|{% include asterisk.html%}|Position to delete the value at. Can be **top** {% include popover.html content="last element of the array" %}, **0** {% include popover.html content="first element of the array" %} or **index** (position) of the value.  
 {:class='table table-primary'}
 

@@ -1,5 +1,5 @@
 ---
-title: "Open Whispers "
+title: "Open Whispers"
 num: 1
 ---
 

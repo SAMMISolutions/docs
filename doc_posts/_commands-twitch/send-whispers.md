@@ -1,5 +1,5 @@
 ---
-title: "Send Whispers "
+title: "Send Whisper"
 num: 1.1
 version: 202250
 ---

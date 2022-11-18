@@ -20,4 +20,4 @@ Converts the keys or values of an object into an array.
 |Values| {"name":"SAMMI", "likes":20000} | [20000,"SAMMI"]
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
-{% include alert.html text="Remember that objects are not ordered, so the array will not always have the same order as in the object." type="warning" %}
+{% include alert.html text="Objects are not ordered, the array elements will not always have the same order as the object keys." type="warning" %}

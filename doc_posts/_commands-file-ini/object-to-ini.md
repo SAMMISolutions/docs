@@ -8,7 +8,7 @@ Converts a properly formatted Object into an INI file. The Object needs to be a 
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Object Name|String|Nested object to convert into the INI file.
-|File Path|String|File to save the object content. Can use relative or absolute path.
+|File Path|String|File to save the object content. Accepts both relative and absolute path.
 {:class='table table-primary'}
 
 {% include alert.html text="The only way to create a nested object is with the command Parse Array/Object or with File: INI to File." type="warning" %} 

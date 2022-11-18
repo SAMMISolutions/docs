@@ -1,5 +1,5 @@
 ---
-title: "Get Subscription Status "
+title: "Get Subscription Status"
 num: 10
 ---
 
@@ -12,7 +12,7 @@ Returns an empty object if the user is not subscribed.
 |-------|--------|--------
 |Login Name|String|Your Twitch channel login name (all lowercase characters)
 |User ID|Number|User ID to check for active subscription
-|Save Variable|String|Variable name to save the response
+|Save Variable As|String|Variable name to save the response
 {:class='table table-primary'}
 
 You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.

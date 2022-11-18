@@ -3,7 +3,7 @@ title: "Stop Button/Group"
 num: 2
 ---
 
-Stop the given button/group ID or all the buttons (in all decks) from running. You can choose to stop ongoing and queued buttons, too.\
+Stops the given button/group ID or all the buttons (in all decks) from running. You can choose to stop ongoing and queued buttons, too.\
 If you stop all buttons, you can specify whether you want to stop the button performing this command as well.
 
 | Box Name | Type | Description | 

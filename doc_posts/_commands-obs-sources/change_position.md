@@ -12,8 +12,8 @@ Changes the position of a source.
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |Scene Name|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
 |Source Name|	String|	Source name. Select from the menu or type manually. 
-|X {% include asterisk.html%}|	Number (optional)|	X position to set the source to. Can leave blank to not modify it.
-|Y {% include asterisk.html%}|	Number (optional)	|Y position to set the source to. Can leave blank to not modify it.
+|X|	Number (optional)  {% include asterisk.html%}|	X position to set the source to. Can leave blank to not modify it.
+|Y |	Number (optional) {% include asterisk.html%}	|Y position to set the source to. Can leave blank to not modify it.
 {:class='table table-primary'}
 
 

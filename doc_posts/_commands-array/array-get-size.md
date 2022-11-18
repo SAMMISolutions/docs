@@ -9,7 +9,7 @@ Returns 0 if the array is empty.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Array Name	|String	| Name of the array
-|Variable|String|Variable name to save the size of the array
+|Save Variable As|String|Variable name to save the size of the array
 {:class='table table-primary'}
 
 

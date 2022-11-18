@@ -10,7 +10,7 @@ Gets the latest poll or prediction ID to use with [Get Poll/Prediction Result]({
 |-------|--------|--------
 |Login Name|String|Your Twitch login name (all lowercase characters)
 |Get|Dropdown |Whether it's a poll or prediction ID
-|Save Variable|String|Variable name to save the ID
+|Save Variable As|String|Variable name to save the ID
 {:class='table table-primary'}
 
 

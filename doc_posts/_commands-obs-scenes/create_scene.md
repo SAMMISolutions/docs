@@ -3,10 +3,9 @@ title: "Create Scene"
 num: 7
 ---
 
-
 Creates a new scene in OBS. 
 
-{% include alert.html text="You must restart OBS before creating a scene with the same name as the scene you just deleted." type="warning" %} 
+{% include alert.html text="If using OBS 27 or older, you must restart OBS before creating a scene with the same name as the scene you just deleted." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

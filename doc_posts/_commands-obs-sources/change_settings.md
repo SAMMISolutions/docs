@@ -2,9 +2,8 @@
 title: "Change Settings"
 num: 10
 ---
-Changes settings of a source. Not to be confused with item transform settings. \
-Requires the same formatting that is used in the OBS JSON file.\
-Easy way to see your current source's settings is to use a Send OBS Request command: {% include selectAll.html text='<code>{"request-type":"GetSourceSettings","sourceName":"YOURSOURCENAME"}</code>' %}. Execute it and you will get back a JSON string of the source's settings. Paste it into a document and extract the particular value you want to use.
+Changes settings of a source. Not to be confused with item transform settings.\
+Easy way to see your current source's settings is to use the **Check Settings button** - after filling out the Source Name box, you will get a pop-up showing the source's settings, excluding any still at default values.
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.
 
@@ -12,7 +11,7 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 | Box Name | Type | Description | 
 |-------|--------|--------|
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|Source|	String |	Source name to change settings.
+|Source Name|	String |	Source name to change settings. Select from dropdown or input manually.
 |Settings|	JSON String|	The settings to be included. Formatted as a [JSON String](https://www.w3schools.com/js/js_json_syntax.asp). Must be enclosed in `{}`.
 {:class='table table-primary'}
 

@@ -3,7 +3,8 @@ title: Send UDP Packet
 num: 9.5
 ---
 
-This command allows a one-way unencrypted "push" of buffer data to a specified IPv4 address and port number as a UDP/IP encapsulated packet.  Useful for communicating information or sending commands to server endpoints or hardware devices that accept UDP connections.
+This command allows a one-way unencrypted "push" of buffer data to a specified IPv4 address and port number as a UDP/IP encapsulated packet.\
+Useful for communicating information or sending commands to server endpoints or hardware devices that accept UDP connections.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

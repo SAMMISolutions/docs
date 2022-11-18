@@ -12,7 +12,7 @@ If you want to create a prediction with more than 2 outcomes, you can use [Creat
 |Prediction Name|String|Question displayed for the prediction. Maximum: 60 characters.
 |Choice 1|String|Text displayed for the choice. Maximum: 25 characters.
 |Choice 2|String|Text displayed for the choice. Maximum: 25 characters.
-|Duration|Number {% include asterisk.html%}|Total duration for the prediction (in seconds).
+|Dur.(s)|Number {% include asterisk.html%}|Total duration for the prediction in seconds.
 {:class='table table-primary'}
 
 

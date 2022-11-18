@@ -18,9 +18,3 @@ Verifies whether the user is your subscriber or not.\
 
 
 
-
-
-
-
-
-

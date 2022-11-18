@@ -14,8 +14,8 @@ Returns a string indicating the type of the variable:
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable (Save) | String | Variable to save the result in. |
-| Variable (look at) | String | The variable to get the type of. |
+| Save Variable As| String | Variable to save the result in. |
+| Variable to Check | String | The variable to get the type of. |
 {:class='table table-primary' }
 
 

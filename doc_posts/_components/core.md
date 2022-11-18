@@ -13,36 +13,36 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
 {% include image.html w="auto" src="SAMMI.png" alt="SAMMI Core" %}
 
 ### Deck Menu 
-- Edit Deck - allows you to edit currently selected deck, same as double clicking on the deck
-- Add New Deck - adds a new empty deck, you can also use `CTRL+N` keyboard shortcut
-- Delete Deck - delete the currently selected deck, cannot be undone
-- Move Left/Right - repositions the deck
-- Copy Deck - exports the entire deck to your clipboard in JSON format to share with other users, you can include all deck button images as well
-- Paste Deck - imports the entire deck from your clipboard, must be in JSON format
-- Duplicate Deck - creates a copy of the entire deck inside SAMMI
+- **Edit Deck** - allows you to edit currently selected deck, same as double clicking on the deck
+- **Add New Deck** - adds a new empty deck, you can also use `CTRL+N` keyboard shortcut
+- **Delete Deck** - delete the currently selected deck, cannot be undone
+- **Move Left/Right** - repositions the deck
+- **Copy Deck** - exports the entire deck to your clipboard in JSON format to share with other users, you can include all deck button images as well
+- **Paste Deck** - imports the entire deck from your clipboard, must be in JSON format
+- **Duplicate Deck** - creates a copy of the entire deck inside SAMMI
 
 ### SAMMI Deck Menu
 {% include image.html w="75" src="deck_menu.png" alt="SAMMI Deck Icon" %}
-- Open SAMMI Deck - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
-- Get LAN IP (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
-- Android Version - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
+- **Open SAMMI Deck** - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
+- **Get LAN IP** (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
+- **Android Version** - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
 
 ### Bridge Menu
 {% include image.html w="auto" src="bridge menu.png" alt="Bridge Menu" %}
-- Select a Bridge - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
-- Reload a Bridge - refreshes your Bridge, same as you going into your Bridge file and pressing reload manually
-- Open in a browser - opens your default Bridge in a browser
-- Reveal in File Explorer - opens your Bridge file's location in File Explorer
-- Copy Full Path - places the file path to the Bridge in your clipboard
-- Install an Extension - installs an extension from .lb2 file to your default Bridge file
-- Uninstall an Extension - uninstalls a selected extension from your default Bridge file
-- Install all Extensions from folder - installs all extensions in a selected folder to the Bridge at once, simply select the first file in the folder
-- Reinstall all Extensions - reinstalls all currently installed extensions in your default Bridge
+- **Select a Bridge** - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+- **Reload a Bridge** - refreshes your Bridge, same as you going into your Bridge file and pressing reload manually
+- **Open in a browser** - opens your default Bridge in a browser
+- **Reveal in File Explorer** - opens your Bridge file's location in File Explorer
+- **Copy Full Path** - places the file path to the Bridge in your clipboard
+- **Install an Extension** - installs an extension from `.sef` or `.lb2` file to your default Bridge file
+- **Uninstall an Extension** - uninstalls a selected extension from your default Bridge file
+- **Install all Extensions from folder** - installs all extensions in a selected folder to the Bridge at once, simply select the first file in the folder
+- **Reinstall all Extensions** - reinstalls all currently installed extensions in your default Bridge
 
 ### Backup
 {% include image.html w="auto" src="backup.png" alt="Backup options" %}
-- Save SAMMI Backup - saves a backup of your SAMMI configuration
-- Load SAMMI Backup - loads a previously created backup
+- **Save SAMMI Backup** - saves a backup of your SAMMI configuration
+- **Load SAMMI Backup** - loads a previously created backup
 
 ### About
 {% include image.html w="auto" src="about.png" alt="About" %}
@@ -52,10 +52,10 @@ Press to open the About page, with info about the developers, and Patreon suppor
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
-- Main OBS - indicates whether SAMMI Core is connected to your main OBSWS 
-- Twitch Pubsub - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as new followers, subscribers, channel point redeems etc.
-- Twitch Chat - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new Twitch Chat messages
-- Bridge - indicates whether SAMMI Core is connected to Bridge, required for some extensions and for testing Twitch/YouTube triggers
+- **Main OBS** - indicates whether SAMMI Core is connected to your main OBSWS 
+- **Twitch Pubsub** - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as new followers, subscribers, channel point redeems etc.
+- **Twitch Chat** - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new Twitch Chat messages
+- **Bridge** - indicates whether SAMMI Core is connected to Bridge, required for some extensions and for testing Twitch/YouTube triggers
 
 ### Settings
 Allows you to adjust general SAMMI settings. 
@@ -76,19 +76,20 @@ Allows you to adjust general SAMMI settings.
 - **Check for Updates** - checks for new updates, allows you to update SAMMI and view patch notes
 
 ### OBS Connections
-Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported. 
+Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported.\
+Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 {% include image.html w="50" src="obs_connection.png" alt="OBS Connections" %}
 
-Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 ### Twitch Connections
-Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.
+Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.\
+Find out more about Twitch connection in our [Integrations-Twitch]({{ "integrations/twitch" | relative_url }}) section.
 {% include image.html w="75" src="twitch_connection.png" alt="Twitch Connections" %}
-Find out more about Twitch connection in our [Integrations-Twitch]({{ "integrations/twitch" | relative_url }})section.
+
 
 ### YouTube Connection
-Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.
+Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.\
 Find out more about Twitch connection in our [Integrations-Youtube]({{ "integrations/youtube" | relative_url }}) section.
 
 {% include image.html w="50" src="youtube_connection.png" alt="YouTube Connection" %}
@@ -117,7 +118,6 @@ You can choose to interrupt (clear) all, ongoing or queued buttons.
 
 If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core. Double click on the deck to open it.\
 Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
-You can check `Disable Deck` in your main menu to deactivate your deck and all its buttons.
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
 
@@ -132,7 +132,7 @@ Inside your deck you will see an empty canvas grid, where you can add and modify
 - Undo & Redo - allows you to undo/redo any deck action
 
 #### Disable a deck
-You can disable a deck by either checking the `Disable` checkbox in SAMMI or by using [Check Deck Status]({{ "commands/misc#deckchangestatus" | relative_url }}) command. This allows you to have only specific decks active during your stream.  
+You can disable a deck by either checking the `Disable` checkbox in SAMMI or by using [Deck: Change Status]({{ "commands/misc#deckchangestatus" | relative_url }}) command. This allows you to have only specific decks active during your stream.  
 Buttons in disabled decks do not trigger and their variables are not accsesible.
 
 {% include video.html w="75" src="disable_decks.mp4" alt="Disabling and enabling decks" %}
@@ -157,18 +157,15 @@ There are several keyboard shortcuts you can use:
 
 {% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
 
-If you now right click on the created button, a new button menu appears: 
-
 #### Edit Appearance
+You can right click on a button or press `SHIFT + double click` to edit its appearance.
 Edit your button text, color, image and border size.\
 All button images will be automatically resized and copied to `SAMMI/image` folder.\
-You can press SHIFT + double click on a button to edit its appearance.
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
 
 #### Edit Settings
-
-You can press `CTRL + double click` on a button to edit settings.
+You can right on a button or press `CTRL + double click` to edit settings.
 
 <div>
 
@@ -203,8 +200,8 @@ You can press `CTRL + double click` on a button to edit settings.
 <div markdown="1">
 
 #### Edit Triggers
+You can right click on a button or press `CTRL + double click` to add a trigger.
 Add various triggers to your button to get automatically executed when a specific event happens. For example, you can trigger your button every time you get a new follower or someone types `!hello` in your chat.  
-You can press CTRL + double click on a button to add a trigger.
 
 Learn more about specific triggers in our [**Triggers**]({{ "triggers/introduction" | relative_url }}) section.
 
@@ -233,7 +230,7 @@ Copy a button and insert it elsewhere in your decks. All buttons have unique IDs
 #### Delete Button
 Delete a whole button. Can also be done by selecting a button and pressing the Delete key.
 
-#### Export JSON
+#### Export Button JSON
 Exports a button by copying its contents to your clipboard. 
 
 {% include video.html w="75" src="export-json.mp4" alt="Exporting a button" %}
@@ -244,7 +241,7 @@ Displays Group ID (if any exists), click on it to copy it to your clipboard
 #### Button ID
 Displays button ID, click on it to copy it to your clipboard
 
-#### Import a button
+#### Import Button JSON
 You can import a button by right clicking anywhere on an empty space in your deck and selecting Import from JSON.
 
 {% include video.html w="75" src="import-json.mp4" alt="Importing a button" %}

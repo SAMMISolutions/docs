@@ -1,5 +1,5 @@
 ---
-title: "Buffer Base64 Decode"
+title: "Buffer: Base64 Decode"
 num: 13
 ---
 
@@ -10,7 +10,7 @@ Creates a new buffer from a base64 string.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer
-Base64 String | String | A base64 string to decode and turn into a buffer. |
+String (text) | String | A base64 string to decode and turn into a buffer. |
 {:class='table table-primary'}
 
 

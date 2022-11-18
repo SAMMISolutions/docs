@@ -3,12 +3,12 @@ title: "INI: INI to Object"
 num: 9
 ---
 
-Converts an INI file into an Object. The Object will have each key as the section name and each value as an object will the keys from the INI file.
+Converts an INI file into an Object. The Object will have each key as the section name and each value as an object with the keys from the INI file.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Object Name|String|Object to save the INI content.
-|File Path|String|File to save into the object. Can use relative or absolute path.
+|File Path|String|File to save into the object. Accepts both relative and absolute path.
 {:class='table table-primary'}
 
 <table class="table table-secondary w-auto table-hover align-middle">

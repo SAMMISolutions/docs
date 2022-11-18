@@ -8,10 +8,10 @@ Returns 1 if the key exists and 0 if it does not exist.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|File Name|	String	|Name of the file. Will create one if it doesn't exist. Do not include the path.
+|File Name|	String	|Name of the file. Will create one if it doesn't exist. Accepts both relative and absolute path.
 |Section|	String|	The section to look inside of.
 |Key	|String	|Name of the key you wish to check.
-|Variable|	String|	Variable to save the result in.
+|Save Variable As|	String|	Variable to save the result in.
 {:class='table table-primary'}
 
 

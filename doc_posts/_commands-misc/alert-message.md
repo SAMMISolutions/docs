@@ -3,8 +3,7 @@ title: Alert Message
 num: 7
 ---
 
-Shows a small yellow alert message at the bottom of SAMMI.
-
+Shows a small yellow alert message at the bottom of SAMMI Core.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

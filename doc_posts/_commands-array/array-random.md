@@ -12,9 +12,9 @@ The randomization will happen with an equal chance for each value.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Array	|String	| Name of the stack
-| Variable (value) | String | Variable name to save the random value into|
-| Variable (position) |	String (optional) |	You can enter another variable name if you wish to get the index(position) of the random value in the array
+|Array Name	|String	| Name of the stack
+| Save Variable As | String | Variable name to save the random value into|
+| Save Variable As (position) |	String (optional) |	You can enter another variable name if you wish to get the index(position) of the random value in the array
 {:class='table table-primary'}
 
 {% include example_public.html src="https://i.imgur.com/j8KycqT.png" size="100" title="Getting random array value based on different chances" pastebin="nR5kphiF" %} 

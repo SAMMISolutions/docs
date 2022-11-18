@@ -5,7 +5,7 @@ num: 1
 ---
 
 Creates a new local variable containing text.\
-Checking `relative` will cause it to do string addition. I.e. if a variable `myVariable` already exists and contains `Hello` and you enter `World` in the Text field, `myVariable` will be now `Hello World`. 
+Checking `relative` will cause it to do string addition. I.e. if a variable `myVariable` already exists and contains `Hello` and you enter `World` in the Text field, `myVariable` will be now `HelloWorld`. 
 
 
 {% include alert.html text="Variable names can contain numbers, letters and _, but cannot start with a number itself. " type="warning" %} 

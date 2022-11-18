@@ -3,7 +3,9 @@ title: "Exit"
 num: 7
 ---
 
-If the condition is true, it terminates all the commands and prevents them from happening until the button is pressed again.
+If the condition is true, it terminates all the next button commands and prevents them from happening until the button is pressed again.
+
+{% include alert.html text="Leave both values empty to exit every time" type="info" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------|

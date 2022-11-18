@@ -1,15 +1,15 @@
 ---
-title: "Copy File"
+title: "File: Copy File"
 num: 1
 ---
 
-Copies a file from the SAMMI folder and pastes it in any of its subfolders.\
-Will not replace the file if one with the same name is already present.\
+Copies a specified file to a new destination.\
+Will not replace the file if one with the same name is already present.
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|File Path|String|Full path including the file name you wish to copy.|
-|Copy to|String|Where you want to copy the file. <br/> You can use `sound\` for sound folder and `image\` for image folder.
+|File Path to Copy From|String|The file you wish to copy. Accepts both relative and absolute path.|
+|File Path to Copy to|String|Where to copy the file. Accepts both relative and absolute path.|
 {:class='table table-primary'}
 
 

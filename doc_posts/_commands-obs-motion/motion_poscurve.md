@@ -11,14 +11,14 @@ If you want to move a source from its current position, you can use the command 
 | Box Name | Type | Description | 
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|Scene |	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
-|Source|	String|	Source name. Select from the menu or type manually. 
+|Scene Name |	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source Name|	String|	Source name. Select from dropdown or input manually.
 |X Start  |	Number{% include asterisk.html%}|	Starting X position
 |Y Start  |	Number{% include asterisk.html%}|	Starting Y position
 |X End |	Number{% include asterisk.html%}|	Final X position
 |Y End |	Number{% include asterisk.html%}|	Final Y position
 |Curve % |	Number{% include asterisk.html%}|	The amplitude of the curve. Can be negative or over 100. <br/> **100%** = perfect half circle, **0%** = straight line with a slower start and slower finish. <br/> **-200%** elongated half circle on the opposite side.
-|Duration |	Int {% include asterisk.html%}|	Duration of the transition in milliseconds
+|Duration (ms) |	Int {% include asterisk.html%}|	Duration of the transition in milliseconds
 |Smooth|	Dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 

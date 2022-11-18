@@ -8,7 +8,7 @@ You can use this command together with File: Save String command to save the who
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Variable	|String	| Variable to save the JSON string of the object into
+|Save Variable As|String	| Variable to save the JSON string of the object into
 |Object Name|String|Name of the object to stringify
 {:class='table table-primary'}
 

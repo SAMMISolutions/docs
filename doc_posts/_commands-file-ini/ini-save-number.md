@@ -9,10 +9,10 @@ Saves a number to .ini file.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|File Name|	String	|Name of the file. Will create one if it doesn't exist. Do not include the path.
+|File Name|	String	|Name of the file. Will create one if it doesn't exist. Accepts both relative and absolute path.
 |Section|	String|	The section to save the key under.
 |Key	|String	|Name of the value to be saved.
-|Value|	String|	Value to be saved as the key value.
+|Number/Variable|	{% include asterisk.html%}|	Value to be saved as the key value.
 {:class='table table-primary'}
 
 

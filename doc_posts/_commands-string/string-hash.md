@@ -12,7 +12,7 @@ You can read more about hashing in this [article](https://www.csoonline.com/arti
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Text | String | String to hash|
-|Variable|String|Variable to save the result
+|Save Variable As|String|Variable to save the result
 |Type|Dropdown menu|Select which algorithm to use to hash
 {:class='table table-primary ' }
 

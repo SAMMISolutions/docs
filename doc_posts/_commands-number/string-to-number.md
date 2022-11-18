@@ -4,17 +4,17 @@ num: 5
 ---
 
 Turns a string value into a real value (number).     
-- returns 0 if the string does not start with a number or `.` 
+- returns `0` if the string does not start with a number or `.` 
 - stops the conversion if it encounters any non number in the string and returns the current converted value 
-- converting a value that's already real returns 0
+- converting a value that's already real returns `0`
 - removes any leading zeroes and rounds the number to 2 decimal points
-- string X beginning with a `.` will be converted to 0.X
+- string X beginning with a `.` will be converted to `0.X`
 - accepts strings with scientific notation
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Variable | String | Name of a variable to save the real value. |
-| String Variable {% include asterisk.html%} | String | Name of a variable containing the string to convert. |
+| Save Variable As | String | Name of a variable to save the real value. |
+| String Variable | String {% include asterisk.html%} | Name of a variable containing the string to convert. |
 {:class='table table-primary ' }
 
 | String Variable value | Returned real value | 

@@ -10,8 +10,8 @@ Changes the crop settings of a source.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
-|Scene|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
-|Source|	String|	Source name. Select from the menu or type manually. 
+|Scene Name|	String	|Scene name containing the source. Select from the menu or type manually. Leave blank for current active scene.
+|Source Name|	String|	Source name. Select from the menu or type manually. 
 |Left|Number {% include asterisk.html%}|Left crop settings.
 |Top|Number {% include asterisk.html%}|Top crop settings.
 |Right|Number {% include asterisk.html%}|Right crop settings.
