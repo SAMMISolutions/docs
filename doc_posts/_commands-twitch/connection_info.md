@@ -1,5 +1,5 @@
 ---
-title: "Get Twitch Connection Info"
+title: "Get Connection Info"
 num: 4
 ---
 
