@@ -7,6 +7,43 @@ num: 1
 type: fullpage
 ---
 
+#### SAMMI 2022.5.3:
+
+New Features:
+- Added YouTube Ad Break command [Christina]
+  - allows you to insert a cuepoint into a live broadcast which might trigger an ad break
+- Added Username to Twitch Chat and Twitch Channel Points triggers [Christina]
+  - You can now trigger a button only when a specified user sends a chat message or redeems a channel point reward
+  - Leave blank or * to accept all users
+  - Must be an exact match, but is case insensitive
+  - Does not accept partial names with wildcards, such as w* for any names beginning with w
+- New Language: Dutch [Marble127]
+
+Improvements:
+- Added more characters for the Nunito font to SAMMI, including Cyrillic. [Silverlink]
+- Added Triggering Button ID to "Trigger Pull Data" when triggering a button from another button. [Silverlink]
+- Added Extra information when linking twitch account depending on what button you have pressed. [Silverlink]
+  - SAMMI will now save if you have pressed Streamer, Bot or Custom scopes button.
+- Keyboard keys detection has been reworked so now it correctly assigns special symbols in Keyboard commands and Hoykey Trigger. If you previously used any special characters (comma, quotes, brackets, etc.) in one of the mentioned commands/trigger, they will have to be readded after updating. [Sebas]
+  - Special symbols are not shown in the dropdown until they are used the first time, but they still work if you press the key in your keyboard.
+  - These keys shouldn't be used if you plan to share your button, as they can change in a different keyboard.
+ 
+UI Changes:
+- Re-enabled Bot scopes buttons for when linking your twitch account(s)
+  - For now they have the same scopes as streamer scopes (This will be changed in the future)
+
+Removed Features:
+
+Bug Fixes:
+- Buffer: Hash SHA1 command now functions properly [Christina]
+- Send OBS request now parses true/false correctly [Roadie]
+- Improper usage of buffer commands no longer causes SAMMI to crash [Christina]
+  - instead you will get a yellow alert (i.e. "Buffer does not exist", "Trying to read outside the buffer", etc.)
+
+Known Bugs:
+- DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until it's fixed.
+
+
 #### SAMMI 2022.5.2 
 
 New Features:
