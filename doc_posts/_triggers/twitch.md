@@ -33,6 +33,7 @@ The message field comes with a prefilled `*`, which means it will allow ALL chat
 | VIP | Triggers only if a VIP viewer sends the message. |
 | Founder | Triggers only if the viewer has founders badge. |
 Message | Chat message to listen to. Must be an exact match. Can include **[Wild Cards](introduction#wildcards)**. |
+| Username | Triggers only if the viewer's username who sent the chat message matches the one in the box. Must be an exact match. Does NOT accept wild cards. Case insensitive. |
 | Case Sensitive | If the user message trigger should be case sensitive
 {:class='table table-primary' }
 
@@ -227,6 +228,7 @@ In order for SAMMI to listen to Channel Point triggers, make sure the scope to l
 | Condition | Explanation |
 |-------|--------|
 | Redemption Name | Select the name of the redemption from the list or type in manually. A single `*` allows all redeems to trigger the button (does not act as a wildcard). |
+| Username | Triggers only if the viewer's username who redeemed it matches the one in the box. Must be an exact match. Does NOT accept wild cards. Case insensitive. |
 | User Input Required | Whether the particular redemption requires viewers to enter text when redeemed
 | Case Sensitive | If the user message trigger should be case sensitive
 |User Input | User input if the redemption requires requires viewers to enter text when redeemed (use `*` to accept all user messages). Can include **[Wild Cards](introduction#wildcards)**.
