@@ -9,7 +9,7 @@ Use it together with [Wait For/Until]({{ "commands/wait" | relative_url }}) comm
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|URL|String|The web request URL
+|URL|String|The web request URL, must start with `http` or `https`
 |Method|Dropdown|Method to use. Select from dropdown menu or manually input
 |Header Object Name (optional)|Object |Name of the object containing any required headers
 |Body Object JSON (optional)|JSON|Body JSON string to send
