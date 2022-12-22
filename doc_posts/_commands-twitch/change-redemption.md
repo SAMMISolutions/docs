@@ -5,6 +5,8 @@ num: 14
 
 Updates the status of custom reward redemption that has UNFULFILLED status.
 
+{% include alert.html text="You can only update rewards that were previously created with SAMMI (you can verify it says 'Owned' in Twitch Connections - Edit Rewards window, and dupe it if needed)" type="warning" %} 
+
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Login Name|String|Your Twitch login name (all lowercase characters)
