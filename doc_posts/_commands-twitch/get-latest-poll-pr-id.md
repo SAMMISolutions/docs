@@ -3,7 +3,7 @@ title: "Get Latest Poll/Prediction ID"
 num: 16.5
 ---
 
-Gets the latest poll or prediction ID to use with [Get Poll/Prediction Result]({{ "#getpollpredictionresult" | strip }}). This only works for predictions/polls initiated through SAMMI.
+Gets the latest poll ID, prediction ID, or outcome ID to use with [Get Poll/Prediction Result]({{ "#getpollpredictionresult" | strip }}) or [End Prediction]({{ "#endprediction" | strip }}). This only works for predictions/polls initiated through SAMMI.
 
 
 | Box Name | Type | Description |
