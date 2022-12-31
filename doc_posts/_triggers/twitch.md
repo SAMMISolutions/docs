@@ -293,12 +293,12 @@ Triggers for all poll events.
 |Vote Total Base|Total base poll votes (no bits or points used)
 |Vote Total Bits|Total bits poll votes
 |Vote Total Points|Total channel points poll votes
-|Top Vote List|Top vote user list
-|Choice 1 Info|An object containing poll's choice 1 information
-|Choice 2 Info|An object containing poll's choice 2 information
-|Choice 3 Info|An object containing poll's choice 3 information
-|Choice 4 Info|An object containing poll's choice 4 information
-|Choice 5 Info|An object containing poll's choice 5 information
+|Top Vote List|Array of the current poll's choice rankings
+|Choice 1 Info|An object containing poll's Choice 1 information
+|Choice 2 Info|An object containing poll's Choice 2 information
+|Choice 3 Info|An object containing poll's Choice 3 information
+|Choice 4 Info|An object containing poll's Choice 4 information
+|Choice 5 Info|An object containing poll's Choice 5 information
 | From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
