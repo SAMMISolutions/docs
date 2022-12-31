@@ -293,7 +293,7 @@ Triggers for all poll events.
 |Vote Total Base|Total base poll votes (no bits or points used)
 |Vote Total Bits|Total bits poll votes
 |Vote Total Points|Total channel points poll votes
-|Top Vote List|Array of the current poll's choice rankings
+|Top Vote List|Array of the poll's current choice rankings
 |Choice 1 Info|An object containing poll's Choice 1 information
 |Choice 2 Info|An object containing poll's Choice 2 information
 |Choice 3 Info|An object containing poll's Choice 3 information
