@@ -49,7 +49,7 @@ We would like to acknowledge the wonderful support of our Patrons below:
 
 All components of SAMMI are licensed under the terms of the Apache 2.0 license. 
 
-For more details, and third party license information, please see [here](https://github.com/SAMMISolutions/SAMMI-License).
+For more details, and third party license information, please see [here](https://github.com/SAMMISolutions/SAMMI-Official/tree/main/Licenses).
 
 **SAMMI would not be where it is today without you!**
 
