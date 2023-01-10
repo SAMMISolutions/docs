@@ -12,6 +12,7 @@ SAMMI Deck is where you load your decks containing buttons that you previously c
 
 ### PC Version
 Desktop version of SAMMI Deck can be found at `SAMMI/SAMMI Deck` folder. You can also open it by pressing SAMMI Deck button in the main menu in SAMMI.\
+If you do not have SAMMI Deck, navigate to SAMMI Core - Settings - Check for Updates and press Download. You can manually download it from our Itch page as well: [https://sammisolutions.itch.io/sammi](https://sammisolutions.itch.io/sammi).\
 Once launched, you will see connection settings. Default IP address for SAMMI is always `127.0.0.1` and port is always `9425`. Unless you changed port in your SAMMI-settings, you can leave it at its default value.\
 **You must fill out the password if you decided to use one in SAMMI-Settings menu.**\
 Note that you only need to do this once, as your SAMMI Deck will remember the previous settings.

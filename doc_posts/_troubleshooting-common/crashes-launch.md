@@ -20,6 +20,7 @@ If the crash persists, you can also save the 'json' folder in your SAMMI folder 
 **Run SAMMI Core in Compatibility Mode**\
 You can try right-clicking the `Sammi Core.exe` file and selecting 'Troubleshoot'. You can also select the option to run `SAMMI Core.exe` in Windows 8 Compatibilty mode. 
 
-{% include image.html w="75" src="comp_mode" alt="Running SAMMI in compatibility mode" %}
+**Unplug USB controllers**\
+Some USB controllers (GameCube controller via a USB adapter) may cause driver related conflicts. Unplug them, and then restart SAMMI. You should be able to plug the controller back in once SAMMI has started. 
 
 
