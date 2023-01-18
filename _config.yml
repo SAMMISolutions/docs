@@ -142,8 +142,18 @@ collections:
       output: true
   commands-file-csv: 
       output: true
-  commands-twitch: 
+  commands-twitch-info: 
       output: true
+  commands-twitch-chat: 
+      output: true 
+  commands-twitch-chpr: 
+      output: true
+  commands-twitch-polls: 
+      output: true
+  commands-twitch-moderation: 
+      output: true
+  commands-twitch-misc: 
+      output: true             
   commands-youtube: 
       output: true
   commands-buffer: 

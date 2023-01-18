@@ -73,8 +73,25 @@ main:
             link: commands/obs-media
             collection: commands-obs-media
     - name: Twitch
-      link: commands/twitch
-      collection: commands-twitch
+      subitems:
+          - name: Information
+            link: commands/twitch-info
+            collection: commands-twitch-info   
+          - name: Chat and Messages
+            link: commands/twitch-chat
+            collection: commands-twitch-chat 
+          - name: Channel Point Rewards
+            link: commands/twitch-chpr
+            collection: commands-twitch-chpr
+          - name: Polls and Predictions
+            link: commands/twitch-polls
+            collection: commands-twitch-polls 
+          - name: Moderation
+            link: commands/twitch-moderation
+            collection: commands-twitch-moderation    
+          - name: Miscellaneous
+            link: commands/twitch-misc
+            collection: commands-twitch-misc                                                            
     - name: YouTube
       link: commands/youtube
       collection: commands-youtube
