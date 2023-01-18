@@ -3,7 +3,7 @@ title: "Extra Edit Reward"
 num: 13.6
 ---
 
-Updates a Custom Reward created on your channel, allowing you to change additional settings that are not accessible from the regular [Edit Reward](twitch#editreward) command.
+Updates a Custom Channel Points Reward created on your channel, allowing you to change additional settings that are not accessible from the regular [Edit Reward](twitch#editreward) command.
 
 {% include alert.html text="You can only edit rewards that were previously created with SAMMI (you can verify it says 'Owned' in Twitch Connections - Edit Rewards window, and dupe it if needed)" type="warning" %} 
 
