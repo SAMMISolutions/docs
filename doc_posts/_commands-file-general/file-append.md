@@ -4,7 +4,7 @@ num: 1
 version: 202250
 ---
 
-Appends text to a file of your choice.
+Appends text to a file of your choice. Creates the file if it doesn't exist yet.
 
 | Box Name | Type | Description |
 |-------|--------|--------
