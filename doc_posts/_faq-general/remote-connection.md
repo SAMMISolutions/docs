@@ -10,7 +10,7 @@ There are multiple ways to accomplish this. This documentation covers the easies
 2. Log in to your account and retrieve your authtoken.
 3. Go to the downloaded file, unzip it and run ngrok.exe. You should see a command line open.
 4. Type `ngrok authtoken YOURAUTHTOKEN` and press enter. You should see a message `Authtoken saved to configuration file: C:\Users\...`. This step is necessary to prevent your session from timing out.
-5. To start the tunnel, type `ngrok tcp 9423` and hit enter. <br/> The default region is US. You can change it by adding `-region=REGION` flag. Available regions: us, eu, ap, au, sa, jp, in. Example: `ngrok tcp -region=eu 9423`.
+5. To start the tunnel, type `ngrok tcp 9425` and hit enter. <br/> The default region is US. You can change it by adding `-region=REGION` flag. Available regions: us, eu, ap, au, sa, jp, in. Example: `ngrok tcp -region=eu 9425`.
 6. You should see your session started. Go to your SAMMI Deck and paste the new IP and port from the Forwarding line (make sure to omit the `tcp://` part). As long as your tunnel is active, you can connect to your SAMMI from anywhere in the world now! :)
    {% include image.html w="50" src="ngrok.png" alt="Creating a new tunnel via ngrok" %}
 
