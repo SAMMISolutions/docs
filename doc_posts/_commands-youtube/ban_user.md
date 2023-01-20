@@ -11,7 +11,7 @@ You can remove a timeout from a user by timing them out again with 0 seconds dur
 |Channel|Dropdown|Select your YouTube channel from the drop down menu
 | User Name or ID| String | Username or channel ID of the viewer you wish to ban
 |Type|Dropdown|Ban type. Temporary means the user will be only timed out. 
-|Duration (s)|Number|(only if you selected temporary ban) Duration of timeout in seconds.
+|Duration (s)|number|(only if you selected temporary ban) Duration of timeout in seconds.
 |Save Ban ID Variable As| String | Save the Ban ID into a Variable so you can later use it in [Unban User](#unbanuser) command.
 {:class='table table-primary' }
 

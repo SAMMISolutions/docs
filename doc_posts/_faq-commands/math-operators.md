@@ -14,7 +14,7 @@ There's a significant difference between [White and Yellow box]({{ "commands/int
 |*=|	Multiplication. Real values only. Same as `x = x * y`|	`7 *= 2` = 14
 |/=|	Division. Real values only. Same as `x = x / y`	|`7 /= 2` = 3.5
 |mod|	Modulus. Real values only. Returns the remainder of division.	|`7 mod 2` = 1
-|div|	Integer division. Real values only. Same as division, but the remainder is discarded.	|`7 div 2` = 3
+|div|	number division. Real values only. Same as division, but the remainder is discarded.	|`7 div 2` = 3
 |concat|	Concatenation. Real values or strings. Returns a string with the two values one after the other.	|`7 concat 2` = "72"<br/>`"Hello" concat " World"` = "Hello World"<br/>`"Player " concat 1` = "Player 1"
 |&=	|Bitwise AND. Real values only. Same as `x = x & y`	|`7 &= 2` = 2
 |^=|	Bitwise XOR. Real values only. Same as  `x = x ^ y`|`7 ^= 2` = 5

@@ -1,6 +1,6 @@
 ---
 title: "Set Emote Mode"
-num: 
+num: 6.3
 version: 202310
 ---
 

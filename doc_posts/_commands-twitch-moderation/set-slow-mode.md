@@ -1,6 +1,6 @@
 ---
 title: "Set Slow Mode"
-num: 
+num: 6
 version: 202310
 ---
 

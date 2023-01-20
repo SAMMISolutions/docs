@@ -7,7 +7,7 @@ Creates a new prediction for your channel with 2-10 outcomes. Must be at least a
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Prediction Name|String|Question displayed for the prediction. Maximum: 60 characters.
 |Choice Array Name|String|Name of the array containing all your outcome names (min 2, max 10)
 |Dur.(s)|Number {% include asterisk.html%}|Total duration for the prediction in seconds.

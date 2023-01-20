@@ -1,6 +1,6 @@
 ---
 title: "Modify Channel Information"
-num: 
+num: 8
 version: 202310
 ---
 

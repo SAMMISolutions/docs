@@ -1,6 +1,6 @@
 ---
 title: "Set Follower Mode"
-num: 
+num: 6.1
 version: 202310
 ---
 
