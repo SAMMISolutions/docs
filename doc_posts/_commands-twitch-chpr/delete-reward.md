@@ -9,7 +9,7 @@ Deletes your previously created reward.
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Reward (ID required)|Dropdown|ID of the custom reward to delete.
 {:class='table table-primary'}
 

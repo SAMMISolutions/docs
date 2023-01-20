@@ -1,6 +1,6 @@
 ---
 title: "Get Channel Info"
-num: 8
+num: 1.3
 ---
 
 Gets specified channel information.
@@ -9,16 +9,16 @@ Gets specified channel information.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|User ID|Number|ID of the channel
+|User ID|number|ID of the channel
 |Save Variable As|String|Variable to save the response
 {:class='table table-primary'}
 
-You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.
+You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command.
 
 
-**Response fields:**
+**Response Data:**
 
-| Field | Type| Description| 
+| Variable Name | Type | Description | 
 |-------|--------|--------
 |broadcaster_id|	string	|Twitch User ID of this channel owner
 |broadcaster_name|	string|	Twitch user display name of this channel owner
@@ -26,8 +26,8 @@ You can access the response object fields by using [Get Object Variable]({{ "com
 |game_id|	string|	Current game ID being played on the channel
 |broadcaster_language|	string|	Language of the channel. A language value is either the ISO 639-1 two-letter code for a supported stream language or "other".
 |title|	string|	Title of the stream
-|delay	|integer|	Stream delay in seconds
-{:class='table table-secondary w-auto table-hover' }
+|delay	|number|	Stream delay in seconds
+{:class='table table-secondary table-hover' }
 
 
 

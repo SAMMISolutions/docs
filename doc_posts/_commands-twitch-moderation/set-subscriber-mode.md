@@ -1,6 +1,6 @@
 ---
 title: "Set Subscriber Mode"
-num: 
+num: 6.2
 version: 202310
 ---
 

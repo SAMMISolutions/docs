@@ -9,9 +9,9 @@ Updates *all* custom channel point rewards on your channel.
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
-||Enabled|Checkbox|If the rewards are currently enabled or not. If not enabled, the rewards won’t show up to viewers.
-|Pause|Checkbox|If the rewards are currently paused. If paused, viewers cannot redeem them.
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
+|Enabled|Dropdown|If the rewards are currently enabled or not. If not enabled, the rewards won’t show up to viewers.
+|Pause|Dropdown|If the rewards are currently paused. If paused, viewers cannot redeem them.
 {:class='table table-primary'}
 
 

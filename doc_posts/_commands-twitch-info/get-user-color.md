@@ -1,14 +1,16 @@
 ---
 title: "Get User Color"
-num: 
+num: 5.3
 version: 202310
 ---
 
 Gets the colour of the specified user's name in chat rooms.
 
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+
 | Box Name | Type | Description | 
 |-------|--------|--------
-Login Name|String|The name of the channel to use for authentication in the API Header
+Login Name | Dropdown |The name of the channel to use for authentication in the API Header
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 

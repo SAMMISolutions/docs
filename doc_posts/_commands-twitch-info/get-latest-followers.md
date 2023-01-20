@@ -1,10 +1,12 @@
 ---
 title: "Get Latest Followers"
-num: 
+num: 4
 version: 202310
 ---
 
 Gets a list of the 100 most recent users that have followed the specified broadcaster.
+
+{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -12,12 +14,15 @@ Channel|String|Channel name to get chatters of
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
-| Chat Message Example | Description |
-|-------|--------|--------
-data|Object array|Array of objects containing the following info
-&nbsp;&nbsp;&nbsp;&nbsp;user_id|String|The user's ID
-&nbsp;&nbsp;&nbsp;&nbsp;user_login|String|The user's login name
-&nbsp;&nbsp;&nbsp;&nbsp;user_name|String|The user's display name
-&nbsp;&nbsp;&nbsp;&nbsp;followed_at|String|The UTC date and time, in RFC3339 format, of when the user followed
-total|Integer|The total number of users
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+**Response Data:**
+
+| Variable Name | Type | Description |
+|-------|--------|--------|
+total|number|The total number of users
+data|Object|Array of objects for each recent follower, with the most recent follower first
+data[`0-?`]|Object|Object containing specific user's info
+data[`0-?`].user_id|String|The user's ID
+data[`0-?`].user_login|String|The user's login name
+data[`0-?`].user_name|String|The user's display name
+data[`0-?`].followed_at|String|The UTC date and time, in RFC3339 format, of when the user followed
+{:class='table table-secondary table-hover data-toggle='table' text-break }

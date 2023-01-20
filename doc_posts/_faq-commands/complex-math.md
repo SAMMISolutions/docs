@@ -20,7 +20,7 @@ The following examples show the usage in **yellow boxes**.
 | \|	| OR	|<code>3|2</code> = 3
 | &	 |AND	|`3&2` = 2
 | $ |	Hexadecimal	|`$FFF` = 4095
-| round() |	Round to nearest integer|	`round(3.4)` = 3
+| round() |	Round to nearest number|	`round(3.4)` = 3
 | ceil() |	Ceil (Round up)	|`ceil(3.4)` = 4
 | floor() |	Floor (Round down)	|`floor(3.8)` = 3
 | mod |	Modulus (division remainder). Space required before and after mod.|	`7 mod 3` = 1 or `(7+3) mod (2+4)` = 4

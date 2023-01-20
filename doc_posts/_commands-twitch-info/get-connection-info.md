@@ -1,6 +1,6 @@
 ---
 title: "Get Connection Info"
-num: 4
+num: 1
 ---
 
 Get connection information for the selected Twitch account, such as your User ID or OAuth Token. 

@@ -8,7 +8,7 @@ Gets the latest poll ID, prediction ID, or outcome ID to use with [Get Poll/Pred
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Get|Dropdown |Whether it's a poll or prediction ID
 |Save Variable As|String|Variable name to save the ID
 {:class='table table-primary'}

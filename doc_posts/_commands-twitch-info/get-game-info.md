@@ -1,6 +1,6 @@
 ---
 title: "Get Game Info"
-num: 7
+num: 1.4
 ---
 
 Gets game information by game name.
@@ -13,13 +13,13 @@ Gets game information by game name.
 |Save Variable As|String|Variable name to save the response 
 {:class='table table-primary'}
 
-You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.
+You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
 
-**Response fields:**
+**Response Data:**
 
 
-| Field | Type| Description| 
+| Variable Name | Type | Description | 
 |-------|--------|--------
 box_art_url | Object	| Template URL for the game’s box art.
 id	| string |	Game ID.

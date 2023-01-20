@@ -9,10 +9,10 @@ Updates a Custom Channel Points Reward created on your channel, allowing you to 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name|Dropdown|Your Twitch login name (all lowercase characters)
 |Reward (ID required)|Dropdown|ID of the custom reward to update. 
 |Description|String|Description of the reward.
-|Color|Dropdown|Display colour of the reward on Twitch.
+|Color|Color Picker|Display colour of the reward on Twitch.
 |User Input|Checkbox|If enabled, requires a viewer's input.
 |Skip Queue|Checkbox|If enabled, allows the redemption to skip the queue.
 |Cooldown (s)|Number {% include asterisk.html%}|Amount of seconds the reward will be on a cooldown.

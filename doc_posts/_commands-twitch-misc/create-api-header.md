@@ -10,7 +10,7 @@ Can be used in conjunction with the [HTTP Request]({{ "commands/misc#httprequest
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Login Name|String|The name of the channel to use for authentication in the API Header
+Login Name | Dropdown |The name of the channel to use for authentication in the API Header
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 

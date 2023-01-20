@@ -9,7 +9,7 @@ Updates a Custom Channel Points Reward created on your channel.
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Reward (ID required)|Dropdown|ID of the custom reward to update. You can select it from the dropdown menu or type manually.
 |Name|String|The title of the reward
 |Cost|Number {% include asterisk.html%}|The cost of the reward

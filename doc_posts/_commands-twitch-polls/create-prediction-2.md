@@ -8,7 +8,7 @@ If you want to create a prediction with more than 2 outcomes, you can use [Creat
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Prediction Name|String|Question displayed for the prediction. Maximum: 60 characters.
 |Choice 1|String|Text displayed for the choice. Maximum: 25 characters.
 |Choice 2|String|Text displayed for the choice. Maximum: 25 characters.

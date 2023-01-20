@@ -7,7 +7,7 @@ Creates a Channel Point Reward on Twitch that will be owned by SAMMI. Only rewar
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Title|String|What you want to name your new reward.
 |Cost|Number {% include asterisk.html%}|How much you want the reward to cost. You can use variables.
 |Color|Dropdown|Display colour of the reward on Twitch.

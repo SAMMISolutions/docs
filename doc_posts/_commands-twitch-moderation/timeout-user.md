@@ -1,6 +1,6 @@
 ---
-title: "Ban User"
-num: 
+title: "Timeout User"
+num: 4.1
 version: 202310
 ---
 
@@ -9,8 +9,8 @@ To remove the timeout, use the [Unban User]({{ "commands/twitch-moderation#unban
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|The channel to ban the specified user in
-User Name|String|The username of the person to be banned
+Channel|String|The channel to timeout the specified user in
+User Name|String|The username of the person to be timed out
 Duration|Number{% include asterisk.html%}|How long to timeout the user, in seconds. If left blank, defaults to 5 minutes (300 seconds).
-Reason|String|(optional) The reason why you are banning them
+Reason|String|(optional) The reason why you are timing them out
 {:class='table table-primary'}
