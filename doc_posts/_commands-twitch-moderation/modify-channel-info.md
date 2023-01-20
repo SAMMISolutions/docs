@@ -5,7 +5,7 @@ version: 202310
 ---
 
 Updates a channel's information, such as title, language, tags.
-Leave a box blank to not update that information. Requires at least 1 field to update (Language as "Don't change" does not count).
+Leave a box blank to not update that information. Requires at least 1 field to update.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
