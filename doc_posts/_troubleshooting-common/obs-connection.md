@@ -16,7 +16,7 @@ Instead, you will either have to:
 1. Switch to the OBS Websocket 5.0 protocol in SAMMI and make the necessary changes to your Fetch OBS Data, Custom Packet and Send OBS Requests to reflect the correct OBS Websocket 5.0 protocol syntax and change your OBS Triggers, OR 
 2. Download the OBS Websocket 4.9.1-compat plugin [HERE](https://github.com/obsproject/obs-websocket/releases), and create a new OBS instance in SAMMI to run the OBS Websocket 4.9.1 protocol. All your commands will have to specify which OBS Websocket protocol you want SAMMI to use.
 
-It is important to check in Tools > Websocket Settings that the OBS Websocket server is currently running with the correct ports. 
+{% include alert.html text="It is important to check in `Tools` > `Websocket Server Settings` that the OBS Websocket server is Enabled, and is running with the correct ports." type="warning" %} 
 
 - **Run as administrator**\
 Try running SAMMI as an administrator. Right click on the SAMMI launch file and select `Run as administrator`.
