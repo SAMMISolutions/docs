@@ -7,6 +7,73 @@ num: 1
 type: fullpage
 ---
 
+#### SAMMI 2023.1.0
+
+New Features:
+- Added new Twitch API commands (some of them will need you to relink your Twitch Account), they will automatically use your default chat account if the channel box name is left empty:
+	- Twitch: Add Moderator - Adds a new moderator to the channel [Chrizzz]
+	- Twitch: Add VIP - Adds a new VIP to the channel [Chrizzz]
+	- Twitch: Ban User - Bans a user from the channel [Chrizzz]
+	- Twitch: Cancel Raid - Cancels the current raid [Chrizzz]
+	- Twitch: Get Banned Users - Get a list of the last 100 banned users from a channel [Chrizzz]
+	- Twitch: Get Channel Point Rewards - Get a list of the existing channel point rewards of a channel [Chrizzz]
+	- Twitch: Get Chat Settings - Gets the current chat settings of a channel, for example Emote Mode, Subscriber Mode, Follower Mode, ... [Chrizzz]
+	- Twitch: Get Emotes - Gets the custom emotes from a specific channel [Chrizzz]
+	- Twitch: Get Latest Followers - Get a list of the last 100 followers from a channel [Chrizzz]
+	- Twitch: Get Mods - Get a list of the mods for a channel [Chrizzz]
+	- Twitch: Get User Color - Get the hexcolor code for a specific user color [Chrizzz]
+	- Twitch: Get VIPs - Get a list of the VIPs of a channel [Chrizzz]
+	- Twitch: Modify Channel Information - Updates the channel info for a channel, for example the stream title, tags, game, ... [Chrizzz]
+	- Twitch: Remove Moderator - Removes a moderator from the channel [Chrizzz]
+	- Twitch: Remove VIP - Removes a VIP from the channel [Chrizzz]
+	- Twitch: Set Emote Mode - Enables the emote only mode for a channel [Chrizzz]
+	- Twitch: Set Follower Mode - Enables the follower only mode for a channel [Chrizzz]
+	- Twitch: Set Slow Mode - Enables the slow mode for a channel [Chrizzz]
+	- Twitch: Set Subscriber Mode - Enables the subscriber only mode for a channel [Chrizzz]
+	- Twitch: Set User Color - Changes the color of the user in chat [Chrizzz]
+	- Twitch: Shoutout - Does a shoutout to a specific user, currently in beta on Twitch, so changes might be made in the future. Also works with /shoutout in the chat [Chrizzz]
+	- Twitch: Start Raid - Starts a raid [Chrizzz]
+	- Twitch: Timeout User - Timeouts a user for a specific time [Chrizzz]
+	- Twitch: Unban User - Unbans / Untimeouts a user [Chrizzz]
+- The following Twitch Chat slash commands are now automatically converted to use the new Twitch API commands instead [Christina]: 
+	- /announce, /w, /timeout, /untimeout, /vip, /unvip, /ban, /unban, /mod, /unmod, /slow, /slowoff, /followers, /followersoff, /subscribers, /subscribersoff, /emoteonly, /emoteonlyoff, /raid, /unraid, /clear.
+	- You don't have to change your existing Twitch Chat commands that use them inside SAMMI, as they will still work even after Twitch officially deprecates them. If you're using any other slash commands in your Twitch Chat commands NOT listed above, you need to migrate them to use the new Twitch API commands before February 18, 2023. 
+- Added a new command Reinitialize Button Variables, which works the same as right clicking on the button - Edit Init Variables and pressing Reinitialize button. [Christina]
+
+Improvements:
+- Added 3 new Twitch scopes (Manage Raids, Manage Bans and Manage Shoutouts) [Chrizzz]
+- Twitch: Send Chat Message will now automatically split messages that are longer than 500 characters into multiple messages (if possible it will split it on a space character after 480 characters) [Chrizzz]
+- Modified the following commands:
+	- Twitch: API Call - Now automatically uses the default chat account if the channel box is left empty [Chrizzz]
+	- Twitch: Create API Header - Now automatically uses the default chat account if the channel box is left empty [Chrizzz] 
+	- Twitch: Get Chatters - Now automatically uses the default chat account if the channel box is left empty and also works for non linked channels [Chrizzz] 
+	- Twitch: Run Ad (Commercial) - Now automatically uses the default chat account if the channel box is left empty [Chrizzz]
+	- Twitch: Set Shield mode - Now automatically uses the default chat account if the channel box is left empty [Chrizzz]
+- Added automatic wrapping to Patch Notes Text [Christina]
+- OBS Websocket 5 is now default connection in the OBS Connection dropdown menu [Christina]
+- You will get an alert now when trying to execute a button from Edit Commands Window in a disabled deck [Christina] 
+- You will get an alert now when trying to send a YouTube message that exceeds the maximum length of 200 characters [Christina] 
+- Updated languages:
+	- Dutch [Marble127]
+	- German [Chrizzz]
+
+UI Changes:
+- Scope Window has now 3 columns instead of 2 [Chrizzz]
+
+Removed Features:
+
+Bug Fixes:
+- Fixed a bug where the Twitch: Send Whisper command would not work correctly [Chrizzz]
+- Fixed a bug where the File: Read command would stop reading a file after encountering an empty line [Chrizzz]
+- Twitch Shoutout trigger now correctly pulls the user picture URL [Christina]
+- Fixed button pasting off the grid [Christina]
+- Fixed a crash when using CTRL+V to paste a button without clicking anywhere in the deck first [Christina]
+- Fixed more OBS Websocket 5 related crashes and bugs, such as when a scene item is removed [Christina]
+- Fixed a crash and possible button corruption that happened when Save/Run button was pressed while the mouse pointer was inside the command delay box [Christina]
+- Fixed incorrect Twitch keyword in Date/Time commands [Sebas]
+- Fixed a crash when you tried to copy a variable with null value from the variable viewer [Christina]
+
+
 #### SAMMI 2022.5.4
 
 New Features:
