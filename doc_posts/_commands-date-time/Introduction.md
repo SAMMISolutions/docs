@@ -63,7 +63,8 @@ Format keywords are case-sensitive unless they have a <span class="fas fa-star-o
 |lll|Jan 23, 2004 1:23 PM|
 |LLLL|Friday, January 23, 2004 1:23 PM|
 |llll|Fri, Jan 23, 2004 1:23 PM|
-|ISO 8601 <span class="fas fa-star-of-life fa-sm" /><br />ISO8601 <span class="fas fa-star-of-life fa-sm" /><br />RFC 3339 <span class="fas fa-star-of-life fa-sm" /><br />RFC3339 <span class="fas fa-star-of-life fa-sm" /><br />Twitch <span class="fas fa-star-of-life fa-sm" />|<br /><br />2004-01-23T13:23:45+00:00|
+|ISO 8601 <span class="fas fa-star-of-life fa-sm" /><br />ISO8601 <span class="fas fa-star-of-life fa-sm" /><br />RFC 3339 <span class="fas fa-star-of-life fa-sm" /><br />RFC3339 <span class="fas fa-star-of-life fa-sm" />|2004-01-23T13:23:45+00:00|
+|Twitch|2004-01-23T13:23:45Z|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
 **Dates**
