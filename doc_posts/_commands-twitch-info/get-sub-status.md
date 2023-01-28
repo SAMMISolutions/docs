@@ -1,6 +1,6 @@
 ---
 title: "Get Subscription Status"
-num: 10
+num: 3
 ---
 
 Checks if a specific user is subscribed to your channel.\
@@ -10,17 +10,17 @@ Returns an empty object if the user is not subscribed.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch channel login name (all lowercase characters)
-|User ID|Number|User ID to check for active subscription
+|Login Name | Dropdown |Your Twitch channel login name (all lowercase characters)
+|User ID|number|User ID to check for active subscription
 |Save Variable As|String|Variable name to save the response
 {:class='table table-primary'}
 
-You can access the response object fields by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. The object is the Save Variable and key is one of the response fields.
+You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
 
-**Response fields:**
+**Response Data:**
 
-| Field | Type| Description| 
+| Variable Name | Type | Description | 
 |-------|--------|--------
 |broadcaster_id	|string|	User ID of the broadcaster.
 |broadcaster_login|	string|	Login of the broadcaster.

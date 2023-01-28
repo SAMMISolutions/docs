@@ -12,7 +12,7 @@ Returns 0 if it doesn't find any match.
 |Save Variable As|	String|	Variable name to save the position
 | String (text) |	String|	String to search inside of
 |String To Search For|	String|	Value to search for
-|Search From Position|Number|What position in the string to start the search at, default is 0
+|Search From Position|number|What position in the string to start the search at, default is 0
 |Case Insensitive | Checkbox | If this is checked, it will return the first matching value, regardless of case.
 {:class='table table-primary' }
 

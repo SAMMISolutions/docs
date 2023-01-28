@@ -3,7 +3,7 @@ title: "Send Chat Message"
 num: 0
 ---
 
-Sends a new chat message to your YouTube live chat. 
+Sends a new chat message to your <a style="text-decoration: none; color: inherit; cursor: inherit;" href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">YouTube</a> live chat. 
 
 | Box Name | Type | Description | 
 |-------|--------|--------|

@@ -7,7 +7,7 @@ Creates a new poll for your channel. Must be at least affiliate. Minimum amount 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Poll Name|String|Question displayed for the poll. Maximum: 60 characters.
 |Choice 1-5|String|Text displayed for the choice. Maximum: 25 characters.
 |Dur.(s)|Number {% include asterisk.html%}|Total duration for the poll in seconds.

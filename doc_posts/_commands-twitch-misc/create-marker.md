@@ -9,7 +9,7 @@ The marker is created at the current timestamp in the live broadcast when the re
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|String|Your Twitch login name (all lowercase characters)
+|Login Name | Dropdown |Your Twitch login name (all lowercase characters)
 |Description|String|Description of or comments on the marker. Max length is 140 characters.
 {:class='table table-primary'}
 
