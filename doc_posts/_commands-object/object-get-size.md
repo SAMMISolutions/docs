@@ -1,6 +1,8 @@
 ---
 title: Object Get Size
 num: 6
+redirect_from:
+  - commands/194
 ---
 
 Gets a size of an object, i.e. how many keys the object contains.

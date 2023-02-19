@@ -1,6 +1,8 @@
 ---
 title: "INI: Load Text"
 num: 4
+redirect_from:
+  - commands/127
 ---
 
 Loads text (string) from .ini file. Will return 0 if it doesn't exist.

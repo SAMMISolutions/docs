@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Exists "
 num: 10
+redirect_from:
+  - commands/116
 ---
 
 Checks if a buffer exists and saves the result in a variable.\

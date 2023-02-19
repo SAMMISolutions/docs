@@ -1,6 +1,8 @@
 ---
 title: "Get Variable Type"
 num: 6
+redirect_from:
+  - commands/81
 ---
 
 Returns a string indicating the type of the variable: 

@@ -1,6 +1,8 @@
 ---
 title: Wait For User Input
 num: 13
+redirect_from:
+  - commands/214
 ---
 
 Pauses a button execution and a pop up message appears for the user asking for their input. Once the user presses OK, it resumes the button execution and continues with the rest of the commands.

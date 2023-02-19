@@ -1,6 +1,8 @@
 ---
 title: "Button Get Own ID"
 num: 4
+redirect_from:
+  - commands/197
 ---
 
 Returns an ID of the button that executed this command.

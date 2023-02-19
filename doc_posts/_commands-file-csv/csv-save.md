@@ -1,6 +1,8 @@
 ---
 title: "CSV: Save"
 num: 2
+redirect_from:
+  - commands/201
 ---
 
 Saves your CSV file to a file path of your choice. The file path has to be the full file path of the file, ending with .csv, and currently works best if drive letters are in lowercase. Alternatively, you can use the `/$global.main_directory$/` variable to save your CSV to the default directory.  

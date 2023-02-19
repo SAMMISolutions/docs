@@ -1,6 +1,8 @@
 ---
 title: String Letters Only
 num: 8
+redirect_from:
+  - commands/85
 ---
 
 Removes all digits and special symbols from a string (including spaces), leaving only letters.

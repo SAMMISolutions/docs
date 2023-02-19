@@ -1,6 +1,8 @@
 ---
 title: "Parse Array/Object"
 num: 10
+redirect_from:
+  - commands/168
 ---
 
 Turns a JSON string into an array/object. Must be properly formatted (SAMMI will give you a warning if it finds any formatting errors).\

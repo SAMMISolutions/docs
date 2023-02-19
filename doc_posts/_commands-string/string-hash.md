@@ -1,6 +1,8 @@
 ---
 title: "String Hash"
 num: 10
+redirect_from:
+  - commands/159
 ---
 
 Hashes a string using one of the selected algorithms. 

@@ -1,6 +1,8 @@
 ---
 title: String Lower Case
 num: 5
+redirect_from:
+  - commands/90
 ---
 
 Converts a string to lowercase letters.

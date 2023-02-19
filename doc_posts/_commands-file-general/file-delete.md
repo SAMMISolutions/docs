@@ -1,6 +1,8 @@
 ---
 title: "File: Delete File"
 num: 3
+redirect_from:
+  - commands/227
 ---
 
 Deletes a file from a specified file path. The file path must begin with a lowercase drive letter, for example, `c:\` instead of `C:\`.

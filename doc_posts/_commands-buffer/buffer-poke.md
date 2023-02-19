@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Poke"
 num: 2
+redirect_from:
+  - commands/121
 ---
 
 Writes data to a buffer at the specified position.\

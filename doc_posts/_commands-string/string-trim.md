@@ -2,6 +2,8 @@
 title: "String Trim"
 num: 3.6
 version: 202250
+redirect_from:
+  - commands/253
 ---
 
 Trims blank spaces or specific characters from your string. 

@@ -1,6 +1,8 @@
 ---
 title: "CSV: Sort"
 num: 21
+redirect_from:
+  - commands/205
 ---
 
 Sorts the values in a specified column of your CSV file. Values can be sorted alphabetically or numerically, and in ascending or descending format. 

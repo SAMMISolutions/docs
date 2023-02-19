@@ -1,6 +1,8 @@
 ---
 title: "CSV: Math"
 num: 24
+redirect_from:
+  - commands/246
 ---
 
 Execute math on columns/rows in your CSV.

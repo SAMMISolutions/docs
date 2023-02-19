@@ -1,6 +1,8 @@
 ---
 title: Mouse Change Position
 num: 5
+redirect_from:
+  - commands/154
 ---
 
 Changes the position of your mouse according to your screen.\

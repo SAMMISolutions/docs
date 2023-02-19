@@ -1,6 +1,8 @@
 ---
 title: Popup Message
 num: 8
+redirect_from:
+  - commands/141
 ---
 
 Shows a window popup message.\

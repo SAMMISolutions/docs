@@ -1,6 +1,8 @@
 ---
 title: "Modify Button/Group From Object"
 num: 1.1
+redirect_from:
+  - commands/219
 ---
 
 Changes the appearance of a button or group (color, text, image and border) based on a provided object.\

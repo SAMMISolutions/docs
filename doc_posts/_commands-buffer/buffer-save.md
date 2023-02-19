@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Save"
 num: 4.5
+redirect_from:
+  - commands/111
 ---
 
 With this command you can save the contents (raw data) of a buffer to a file, ready to be read back into memory using the Buffer: Load command.

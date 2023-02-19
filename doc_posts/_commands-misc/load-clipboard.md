@@ -1,6 +1,8 @@
 ---
 title: Load Clipboard
 num: 2
+redirect_from:
+  - commands/107
 ---
 
 Loads the contents of your clipboard (after using CTRL+C) into a variable.

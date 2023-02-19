@@ -1,6 +1,8 @@
 ---
 title: String Count
 num: 2.5
+redirect_from:
+  - commands/92
 ---
 
 Returns the number of occurrences of a character/string within a string.

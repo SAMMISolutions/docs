@@ -1,6 +1,8 @@
 ---
 title: "String to Number"
 num: 5
+redirect_from:
+  - commands/79
 ---
 
 Turns a string value into a real value (number).     

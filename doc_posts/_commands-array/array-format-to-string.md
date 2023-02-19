@@ -1,6 +1,8 @@
 ---
 title: "Array Format to String"
 num: 11
+redirect_from:
+  - commands/218
 ---
 
 Creates and returns a new string by concatenating all of the elements in an array, separated by a specified separator string.

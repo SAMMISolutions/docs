@@ -2,6 +2,8 @@
 title: "File: Read Line"
 num: 1.1
 version: 202250
+redirect_from:
+  - commands/257
 ---
 
 Reads a single line of file of your choice and saves it into a variable.

@@ -1,6 +1,8 @@
 ---
 title: "String Get Length"
 num: 2
+redirect_from:
+  - commands/83
 ---
 
 Returns the length (the amount of characters) of a string.

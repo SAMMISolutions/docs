@@ -1,6 +1,8 @@
 ---
 title: Send UDP Packet
 num: 9.5
+redirect_from:
+  - commands/228
 ---
 
 This command allows a one-way unencrypted "push" of buffer data to a specified IPv4 address and port number as a UDP/IP encapsulated packet.\

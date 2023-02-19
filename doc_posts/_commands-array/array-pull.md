@@ -1,6 +1,8 @@
 ---
 title: "Array Pull"
 num: 3
+redirect_from:
+  - commands/98
 ---
 
 Pulls a value from an array by removing it from the array and saving it inside the selected variable. All remaining array value will be shifted by one.

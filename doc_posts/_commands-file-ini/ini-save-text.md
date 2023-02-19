@@ -1,6 +1,8 @@
 ---
 title: "INI: Save Text"
 num: 2
+redirect_from:
+  - commands/126
 ---
 
 Saves text (string) to .ini file.

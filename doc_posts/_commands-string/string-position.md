@@ -1,6 +1,8 @@
 ---
 title: String Position
 num: 1
+redirect_from:
+  - commands/91
 ---
 
 Returns the position of the **first** occurrence of a specified value in a string.\

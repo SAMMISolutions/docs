@@ -1,6 +1,8 @@
 ---
 title: "CSV: Row Find Value"
 num: 20
+redirect_from:
+  - commands/212
 ---
 
 Finds a value in a specified row. The left-most box in a row will return a position of `0`, and the numbers will increase as you go right along the row.\

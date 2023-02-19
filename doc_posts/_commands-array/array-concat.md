@@ -1,6 +1,8 @@
 ---
 title: "Array Concat"
 num: 8.5
+redirect_from:
+  - commands/104
 ---
 
 Joins two arrays together. Appends another array at the end of first array.\

@@ -2,6 +2,8 @@
 layout: default
 title: "Get Button Variable"
 num: 4
+redirect_from:
+  - commands/162
 ---
 
 Gets another button's variable. The button must have persistent variables enabled, else no other button can access them even if the button is running.

@@ -1,6 +1,8 @@
 ---
 title: Wait For Keyboard Button Status
 num: 3
+redirect_from:
+  - commands/157
 ---
 
 Pauses a button execution and waits until a specific button is pressed/unpressed to continue with the rest of the commands.

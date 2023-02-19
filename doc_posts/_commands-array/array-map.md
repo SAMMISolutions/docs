@@ -1,6 +1,8 @@
 ---
 title: "Array Map"
 num: 13
+redirect_from:
+  - commands/242
 ---
 
 Saves in an array the result of doing math with every value of the original array.

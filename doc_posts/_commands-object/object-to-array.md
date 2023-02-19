@@ -1,6 +1,8 @@
 ---
 title: "Object to Array"
 num: 9
+redirect_from:
+  - commands/244
 ---
 
 Converts the keys or values of an object into an array.

@@ -1,6 +1,8 @@
 ---
 title: "File: Copy File"
 num: 1
+redirect_from:
+  - commands/140
 ---
 
 Copies a specified file to a new destination.\

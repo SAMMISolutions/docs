@@ -1,6 +1,8 @@
 ---
-title: "Array Random "
+title: "Array Random"
 num: 5
+redirect_from:
+  - commands/101
 ---
 
 Returns a random value inside an array.\

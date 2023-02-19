@@ -2,6 +2,8 @@
 layout: default
 title: "Get Global Variable"
 num: 5
+redirect_from:
+  - commands/163
 ---
 
 Gets global variable. 

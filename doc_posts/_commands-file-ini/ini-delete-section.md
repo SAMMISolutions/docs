@@ -1,6 +1,8 @@
 ---
 title: "INI: Delete Section"
 num: 6
+redirect_from:
+  - commands/128
 ---
 
 Deletes a whole section of a .ini file, along with all its keys inside of it.

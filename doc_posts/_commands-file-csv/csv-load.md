@@ -1,6 +1,8 @@
 ---
 title: "CSV: Load"
 num: 3
+redirect_from:
+  - commands/202
 ---
 
 Loads a previously created CSV file. 

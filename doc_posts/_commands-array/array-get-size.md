@@ -1,6 +1,8 @@
 ---
 title: "Array Get Size "
 num: 8
+redirect_from:
+  - commands/100
 ---
 
 Returns the size of the array (= how many items it holds) and saves it into the given variable.\

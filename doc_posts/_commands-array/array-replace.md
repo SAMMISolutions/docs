@@ -1,6 +1,8 @@
 ---
-title: "Array Replace "
+title: "Array Replace"
 num: 2
+redirect_from:
+  - commands/99
 ---
 
 Replaces a value inside an array, overriding the previous one. Position of all values remains the same.

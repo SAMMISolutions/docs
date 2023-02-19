@@ -1,6 +1,8 @@
 ---
 title: "INI: Object to INI"
 num: 10
+redirect_from:
+  - commands/250
 ---
 
 Converts a properly formatted Object into an INI file. The Object needs to be a nested object, with each object inside being a section of the INI file.

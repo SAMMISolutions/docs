@@ -1,6 +1,8 @@
 ---
 title: "Repeat"
 num: 5
+redirect_from:
+  - commands/9
 ---
 
 Instantly repeats all the commands inside the block for a specified number of times.\

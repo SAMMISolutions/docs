@@ -2,6 +2,8 @@
 title: "Deck: Change Status"
 num: 13
 version: 202250
+redirect_from:
+  - commands/261
 ---
 
 Set a specific deck's status to enabled, disabled, or allow it to toggle between statuses.

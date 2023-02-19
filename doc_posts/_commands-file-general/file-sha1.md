@@ -1,6 +1,8 @@
 ---
 title: "File: Get SHA1 Hash"
 num: 25
+redirect_from:
+  - commands/139
 ---
 
 Returns the SHA1 hash of a file.\

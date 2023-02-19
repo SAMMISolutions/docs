@@ -1,6 +1,8 @@
 ---
 title: "INI: INI to Object"
 num: 9
+redirect_from:
+  - commands/251
 ---
 
 Converts an INI file into an Object. The Object will have each key as the section name and each value as an object with the keys from the INI file.

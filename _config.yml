@@ -26,6 +26,7 @@ plugins:
   - jekyll-toc
   - jekyll-mentions
   - jekyll-relative-links
+  - jekyll-redirect-from
 sass:
     style: compressed
 relative_links:
@@ -52,6 +53,144 @@ defaults:
 - scope: 
     path: docs/commands
   values:
+    menu: Commands
+- scope: 
+    path: doc_posts/_commands-array
+  values: 
+    parent: Arrays     
+- scope: 
+    path: doc_posts/_commands-buffer
+  values: 
+    parent: Buffers   
+- scope: 
+    path: doc_posts/_commands-button
+  values: 
+    parent: Buttons     
+- scope: 
+    path: doc_posts/_commands-date-time
+  values: 
+    parent: Date and Time   
+- scope: 
+    path: doc_posts/_commands-file-csv
+  values: 
+    parent: CSV Files     
+- scope: 
+    path: doc_posts/_commands-file-general
+  values: 
+    parent: General   
+- scope: 
+    path: doc_posts/_commands-file-ini
+  values: 
+    parent: INI Files     
+- scope: 
+    path: doc_posts/_commands-misc
+  values: 
+    parent: Miscellaneous   
+- scope: 
+    path: doc_posts/_commands-mouse-kb
+  values: 
+    parent: Mouse & Keyboard  
+- scope: 
+    path: doc_posts/_commands-number
+  values: 
+    parent: Numbers   
+- scope: 
+    path: doc_posts/_commands-object
+  values: 
+    parent: Objects     
+- scope: 
+    path: doc_posts/_commands-obs-filters
+  values: 
+    parent: OBS   
+- scope: 
+    path: doc_posts/_commands-obs-general
+  values: 
+    parent: OBS  
+- scope: 
+    path: doc_posts/_commands-obs-media
+  values: 
+    parent: OBS   
+- scope: 
+    path: doc_posts/_commands-obs-motion
+  values: 
+    parent: OBS     
+- scope: 
+    path: doc_posts/_commands-obs-recording
+  values: 
+    parent: OBS   
+- scope: 
+    path: doc_posts/_commands-obs-scenes
+  values: 
+    parent: OBS   
+- scope: 
+    path: doc_posts/_commands-obs-sources
+  values: 
+    parent: OBS   
+- scope: 
+    path: doc_posts/_commands-obs-streaming
+  values: 
+    parent: OBS       
+- scope: 
+    path: doc_posts/_commands-sounds
+  values: 
+    parent: Sound Effects   
+- scope: 
+    path: doc_posts/_commands-statements
+  values: 
+    parent: Statements & Loops  
+- scope: 
+    path: doc_posts/_commands-string
+  values: 
+    parent: Strings   
+- scope: 
+    path: doc_posts/_commands-trigger
+  values: 
+    parent: Trigger methods  
+- scope: 
+    path: doc_posts/_commands-twitch
+  values: 
+    parent: Twitch   
+- scope: 
+    path: doc_posts/_commands-twitch-chat
+  values: 
+    parent: Twitch      
+- scope: 
+    path: doc_posts/_commands-twitch-chpr
+  values: 
+    parent: Twitch   
+- scope: 
+    path: doc_posts/_commands-twitch-info
+  values: 
+    parent: Twitch  
+- scope: 
+    path: doc_posts/_commands-twitch-misc
+  values: 
+    parent: Twitch   
+- scope: 
+    path: doc_posts/_commands-twitch-moderation
+  values: 
+    parent: Twitch   
+- scope: 
+    path: doc_posts/_commands-twitch-polls
+  values: 
+    parent: Twitch  
+- scope: 
+    path: doc_posts/_commands-variable
+  values: 
+    parent: Variables   
+- scope: 
+    path: doc_posts/_commands-wait
+  values: 
+    parent: Wait For/Until    
+- scope: 
+    path: doc_posts/_commands-youtube
+  values: 
+    parent: YouTube                
+- scope: 
+    path: doc_posts/_commands-*
+  values:
+    layout: default    
+    permalink: commands/:name
     menu: Commands
 - scope: 
     path: docs/integrations

@@ -1,6 +1,8 @@
 ---
 title: "CSV: Move Row"
 num: 23
+redirect_from:
+  - commands/203
 ---
 
 Swaps the position of one row with another. 

@@ -1,6 +1,8 @@
 ---
 title: "Wait Until Variable Exists"
 num: 8
+redirect_from:
+  - commands/153
 ---
 
 Pauses all the button commands from executing until the specified variable exists.\

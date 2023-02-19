@@ -1,6 +1,8 @@
 ---
 title: "CSV: Create"
 num: 1
+redirect_from:
+  - commands/198
 ---
 
 Creates a CSV file. Note that the file isn't saved until the 'CSV Save' command is also used. 

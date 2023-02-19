@@ -2,6 +2,8 @@
 layout: default
 title: "Set String Variable"
 num: 1
+redirect_from:
+  - commands/20
 ---
 
 Creates a new local variable containing text.\

@@ -1,6 +1,8 @@
 ---
 title: "Modify Button/Group"
 num: 1
+redirect_from:
+  - commands/28
 ---
 
 Changes the appearance of a button or group (color, text, image and border).\

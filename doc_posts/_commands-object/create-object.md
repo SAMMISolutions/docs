@@ -1,6 +1,8 @@
 ---
 title: Create Object
 num: 1
+redirect_from:
+  - commands/16
 ---
 
 Creates a new empty object. Does nothing if the object already exists. 

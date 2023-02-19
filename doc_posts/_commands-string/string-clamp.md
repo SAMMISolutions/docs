@@ -1,6 +1,8 @@
 ---
 title: "String Clamp"
 num: 3
+redirect_from:
+  - commands/93
 ---
 
 Extracts a part of a string and returns the extracted part.\

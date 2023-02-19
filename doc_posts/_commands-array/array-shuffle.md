@@ -1,6 +1,8 @@
 ---
 title: "Array Shuffle"
 num: 7
+redirect_from:
+  - commands/102
 ---
 
 Shuffles an array, randomizing the order of every value in it.

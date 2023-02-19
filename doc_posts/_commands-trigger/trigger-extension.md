@@ -1,6 +1,8 @@
 ---
 title: "Trigger Extension Triggers"
 num: 3
+redirect_from:
+  - commands/193
 ---
 
 This is the same command Bridge uses to send Extension triggers to SAMMI.\

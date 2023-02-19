@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Set Position"
 num: 7
+redirect_from:
+  - commands/114
 ---
 
 Sets the position of the read/write head of a buffer.\

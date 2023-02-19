@@ -1,6 +1,8 @@
 ---
 title: "INI: Section Exists"
 num: 8
+redirect_from:
+  - commands/130
 ---
 
 Checks if a section exists within the specified .ini file.\

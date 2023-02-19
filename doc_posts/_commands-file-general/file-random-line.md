@@ -2,6 +2,8 @@
 title: "File: Random Line"
 num: 1.2
 version: 202250
+redirect_from:
+  - commands/258
 ---
 
 Reads a random line from a file of your choice and saves it into a variable.

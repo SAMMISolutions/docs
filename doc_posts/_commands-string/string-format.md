@@ -1,6 +1,8 @@
 ---
 title: "String Format"
 num: 9
+redirect_from:
+  - commands/215
 ---
 
 Divides a string into multiple lines.\

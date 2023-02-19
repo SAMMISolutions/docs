@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Read"
 num: 3
+redirect_from:
+  - commands/120
 ---
 
 Reads data from a buffer at the position of the read/write head.\

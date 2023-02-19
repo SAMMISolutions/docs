@@ -1,6 +1,8 @@
 ---
 title: HTTP Request
 num: 9
+redirect_from:
+  - commands/169
 ---
 
 This command lets you send a web request, i.e. call an API and receive its response.\

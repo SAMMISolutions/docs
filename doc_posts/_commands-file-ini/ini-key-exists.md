@@ -1,6 +1,8 @@
 ---
 title: "INI: Key Exists"
 num: 7
+redirect_from:
+  - commands/131
 ---
 
 Check if a key exists within a given section of a .ini file.\

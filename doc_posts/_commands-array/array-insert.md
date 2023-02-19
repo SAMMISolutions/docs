@@ -1,6 +1,8 @@
 ---
 title: "Array Insert"
 num: 1
+redirect_from:
+  - commands/96
 ---
 
 Inserts a value into an array in a specific index (position), shifting other values to the right.

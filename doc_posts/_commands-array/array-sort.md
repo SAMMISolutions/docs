@@ -1,6 +1,8 @@
 ---
 title: "Array Sort"
 num: 6
+redirect_from:
+  - commands/103
 ---
 
 Sorts an array alphabetically or numerically (depending on its values) in an ascending/descending order.\

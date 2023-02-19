@@ -1,6 +1,8 @@
 ---
 title: String Replace All
 num: 4
+redirect_from:
+  - commands/88
 ---
 
 Searches a string for a specified value and replaces it with another specified string.\

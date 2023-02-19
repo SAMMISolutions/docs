@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Write"
 num: 2
+redirect_from:
+  - commands/119
 ---
 
 Writes data to a buffer at the position of the read/write head.

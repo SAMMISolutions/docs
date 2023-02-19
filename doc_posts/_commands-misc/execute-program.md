@@ -1,6 +1,8 @@
 ---
 title: Execute Program
 num: 4
+redirect_from:
+  - commands/134
 ---
 
 Launches any program from your PC.\

@@ -1,6 +1,8 @@
 ---
 title: "Stringify Object"
 num: 7
+redirect_from:
+  - commands/18
 ---
 
 Returns a [JSON string](https://www.w3schools.com/js/js_json_intro.asp) of the whole object.\

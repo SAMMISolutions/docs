@@ -1,6 +1,8 @@
 ---
 title: Get Object Variable
 num: 3
+redirect_from:
+  - commands/164
 ---
 
 Retrievs a value associated with the specified object key.

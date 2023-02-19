@@ -1,6 +1,8 @@
 ---
 title: "CSV: Add Columns"
 num: 13
+redirect_from:
+  - commands/199
 ---
 
 Adds a column to a pre-existing CSV file. 

@@ -1,6 +1,8 @@
 ---
 title: "CSV: Move Column"
 num: 22
+redirect_from:
+  - commands/204
 ---
 
 Swaps the position of one column with another. Please note that the left-most column in any CSV (column 0) cannot be moved. 

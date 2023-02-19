@@ -1,6 +1,8 @@
 ---
 title: "Array Remove"
 num: 3.2
+redirect_from:
+  - commands/97
 ---
 
 Removes a value from an array from a specified index (position), shifting other values to the right.\

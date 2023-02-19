@@ -1,6 +1,8 @@
 ---
 title: Alert Message
 num: 7
+redirect_from:
+  - commands/142
 ---
 
 Shows a small yellow alert message at the bottom of SAMMI Core.

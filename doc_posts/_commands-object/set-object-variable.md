@@ -1,6 +1,8 @@
 ---
 title: Set Object Variable
 num: 2
+redirect_from:
+  - commands/165
 ---
 
 Create a new object key or change a value inside an existing key.\

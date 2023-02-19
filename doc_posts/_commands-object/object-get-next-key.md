@@ -1,6 +1,8 @@
 ---
 title: Object Get Next Key
 num: 5
+redirect_from:
+  - commands/196
 ---
 
 Retrieves the next object key. You can use this command together with [Object Get First Key](#objectgetfirstkey) to iterate over all object keys.\

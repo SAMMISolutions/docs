@@ -1,6 +1,8 @@
 ---
 title: "CSV: Column Exists"
 num: 5.5
+redirect_from:
+  - commands/245
 ---
 
 Checks to see if a column in a CSV file exists. SAMMI will return -1 if it doesn't exists or the column number.

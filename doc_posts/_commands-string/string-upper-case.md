@@ -1,6 +1,8 @@
 ---
 title: String Upper Case
 num: 6
+redirect_from:
+  - commands/89
 ---
 
 Converts a string to uppercase letters.

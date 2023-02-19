@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Get Size"
 num: 8
+redirect_from:
+  - commands/113
 ---
 
 Returns the size of a buffer.

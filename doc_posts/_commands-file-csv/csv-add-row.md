@@ -1,6 +1,8 @@
 ---
 title: "CSV: Add Row"
 num: 14
+redirect_from:
+  - commands/200
 ---
 
 Adds a new row to an existing CSV file. New row values (names) must be unique and cannot be duplicated. 

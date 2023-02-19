@@ -1,6 +1,8 @@
 ---
 title: "Array Filter"
 num: 12
+redirect_from:
+  - commands/243
 ---
 
 Saves in an array all the number values (of the original array) matching the specified criteria.

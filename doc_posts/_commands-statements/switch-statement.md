@@ -1,6 +1,8 @@
 ---
 title: "Switch Statement"
 num: 2
+redirect_from:
+  - commands/24
 ---
 
 Switch statement is used to select one of many blocks of commands to be executed based on single condition.   

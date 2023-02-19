@@ -1,6 +1,8 @@
 ---
 title: "INI: Save Number"
 num: 1
+redirect_from:
+  - commands/124
 ---
 
 Saves a number to .ini file.

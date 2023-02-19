@@ -1,6 +1,8 @@
 ---
 title: "Number to Hex String"
 num: 4
+redirect_from:
+  - commands/236
 ---
 
 Converts a number to a hex string.

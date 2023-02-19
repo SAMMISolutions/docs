@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Hash SHA1"
 num: 11
+redirect_from:
+  - commands/123
 ---
 
 Returns the SHA1 hash from a buffer. The data will be analyzed from 0 to the size of the buffer.\

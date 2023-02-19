@@ -1,6 +1,8 @@
 ---
 title: "CSV: Set Box"
 num: 18
+redirect_from:
+  - commands/207
 ---
 
 Sets a value in a box. Functions the same way as 'Set Local Variable'. 

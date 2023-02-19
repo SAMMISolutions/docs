@@ -1,6 +1,8 @@
 ---
 title: Overtime
 num: 9
+redirect_from:
+  - commands/137
 ---
 
 This command lets you add a cooldown to a button, artificially increasing the duration of the button and preventing it from triggering again.\

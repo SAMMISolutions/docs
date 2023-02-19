@@ -1,6 +1,8 @@
 ---
 title: "CSV: Get Size"
 num: 6
+redirect_from:
+  - commands/216
 ---
 
 Gets the size of either rows or columns in a specified CSV. SAMMI returns the size as a real number.

@@ -1,6 +1,8 @@
 ---
 title: "Block Button/Group"
 num: 3
+redirect_from:
+  - commands/189
 ---
 
 Blocks or unblocks a button/group by its ID.\

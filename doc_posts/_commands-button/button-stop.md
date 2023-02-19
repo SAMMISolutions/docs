@@ -1,6 +1,8 @@
 ---
 title: "Stop Button/Group"
 num: 2
+redirect_from:
+  - commands/133
 ---
 
 Stops the given button/group ID or all the buttons (in all decks) from running. You can choose to stop ongoing and queued buttons, too.\

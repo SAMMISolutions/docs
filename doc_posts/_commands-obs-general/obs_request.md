@@ -1,6 +1,8 @@
 ---
 title: "Send OBS Request"
 num: 1
+redirect_from:
+  - commands/65
 ---
 Allows you to request data from OBS websocket and save it in a variable.
 

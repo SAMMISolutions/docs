@@ -1,6 +1,8 @@
 ---
 title: Command Line
 num: 5
+redirect_from:
+  - commands/135
 ---
 
 Execute a command line command just like you do in Command Prompt. Only one line of code.\

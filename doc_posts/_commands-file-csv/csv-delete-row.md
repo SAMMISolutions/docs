@@ -1,6 +1,8 @@
 ---
 title: "CSV: Delete Row"
 num: 16
+redirect_from:
+  - commands/209
 ---
 
 Deletes a row from an existing CSV file. 

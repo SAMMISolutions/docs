@@ -1,6 +1,8 @@
 ---
 title: "Case Statement"
 num: 3
+redirect_from:
+  - commands/26
 ---
 
 Case Statement command can be only used inside Switch Statement.\

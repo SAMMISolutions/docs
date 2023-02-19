@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Base64 Encode"
 num: 12
+redirect_from:
+  - commands/117
 ---
 
 Turns a whole buffer into a base64 string.

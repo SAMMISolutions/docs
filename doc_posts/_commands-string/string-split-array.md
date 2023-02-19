@@ -1,6 +1,8 @@
 ---
 title: "String Split to Array"
 num: 12
+redirect_from:
+  - commands/217
 ---
 
 Splits a string value into an array.

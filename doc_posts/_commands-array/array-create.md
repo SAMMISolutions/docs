@@ -1,6 +1,8 @@
 ---
 title: "Create Array"
 num: 0.5
+redirect_from:
+  - commands/17
 ---
 
 Creates a new empty array.\

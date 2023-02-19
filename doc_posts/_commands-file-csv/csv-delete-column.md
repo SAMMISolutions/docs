@@ -1,6 +1,8 @@
 ---
 title: "CSV: Delete Column"
 num: 15
+redirect_from:
+  - commands/210
 ---
 
 Deletes a column from an existing CSV file. 

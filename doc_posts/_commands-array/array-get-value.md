@@ -2,6 +2,8 @@
 title: "Array Get Value"
 num: 13.1
 version: 202250
+redirect_from:
+  - commands/259
 ---
 
 Similar to 'Array Pull' but without removing the value from the array. 

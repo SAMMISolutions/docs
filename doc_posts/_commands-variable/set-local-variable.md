@@ -2,6 +2,8 @@
 layout: default
 title: "Set Local Variable"
 num: 1
+redirect_from:
+  - commands/15
 ---
 
 Creates a new local variable or modifies an existing one.\

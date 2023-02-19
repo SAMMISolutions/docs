@@ -1,6 +1,8 @@
 ---
 title: "INI: Load Number"
 num: 3
+redirect_from:
+  - commands/125
 ---
 
 Loads a number (real value) from .ini file. Will return 0 if it doesn't exist.

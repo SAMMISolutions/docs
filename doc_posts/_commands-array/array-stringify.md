@@ -1,6 +1,8 @@
 ---
 title: "Stringify Array"
 num: 9
+redirect_from:
+  - commands/167
 ---
 
 Returns a [JSON string](https://www.w3schools.com/js/js_json_intro.asp) of the whole array.\

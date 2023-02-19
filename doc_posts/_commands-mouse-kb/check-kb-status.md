@@ -1,6 +1,8 @@
 ---
 title: Check Keyboard Button Status
 num: 2
+redirect_from:
+  - commands/152
 ---
 
 Checks if a specific button is currently pressed. 

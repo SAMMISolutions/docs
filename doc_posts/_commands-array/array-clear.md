@@ -1,6 +1,8 @@
 ---
 title: "Array Clear"
 num: 20
+redirect_from:
+  - commands/234
 ---
 
 Clears all the contents of an array, leaving it empty. Does not delete the array itself, you must use [Delete Variable]({{ "commands/variables#deletevariable" | relative_url }}) command for that instead.

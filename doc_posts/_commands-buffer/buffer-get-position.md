@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Get Position"
 num: 9
+redirect_from:
+  - commands/115
 ---
 
 Returns the position of a buffer's read/write head.

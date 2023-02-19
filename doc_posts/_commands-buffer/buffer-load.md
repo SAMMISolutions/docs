@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Load"
 num: 4
+redirect_from:
+  - commands/110
 ---
 
 Loads any file as a buffer into SAMMI.\

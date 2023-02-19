@@ -1,6 +1,8 @@
 ---
 title: Mouse Simulate Click
 num: 4
+redirect_from:
+  - commands/155
 ---
 
 Simulates a mouse click. Might not work in games that have anti-cheat protection.

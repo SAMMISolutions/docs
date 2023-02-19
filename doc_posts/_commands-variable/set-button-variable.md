@@ -2,6 +2,8 @@
 layout: default
 title: "Set Button Variable"
 num: 2
+redirect_from:
+  - commands/160
 ---
 
 Creates a new button variable or modifies an existing one.\

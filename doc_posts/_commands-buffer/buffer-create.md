@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Create"
 num: 1
+redirect_from:
+  - commands/108
 ---
 
 Creates a new buffer with the given name.

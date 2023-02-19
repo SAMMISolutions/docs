@@ -1,6 +1,8 @@
 ---
 title: "Wait Until Variable Is"
 num: 9
+redirect_from:
+  - commands/156
 ---
 
 Pauses all the button commands from executing until the variable contains a specific value.\

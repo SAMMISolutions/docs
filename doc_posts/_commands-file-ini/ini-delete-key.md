@@ -1,6 +1,8 @@
 ---
 title: "INI: Delete Key"
 num: 5
+redirect_from:
+  - commands/129
 ---
 
 Deletes a key within the specified section in a .ini file.

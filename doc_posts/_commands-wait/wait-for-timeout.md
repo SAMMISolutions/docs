@@ -1,6 +1,8 @@
 ---
 title: "Wait For Timeout"
 num: 10
+redirect_from:
+  - commands/190
 ---
 
 Pauses all the button commands from executing until the specified timer reaches 0.\

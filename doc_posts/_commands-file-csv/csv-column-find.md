@@ -1,6 +1,8 @@
 ---
 title: "CSV: Column Find Value"
 num: 19
+redirect_from:
+  - commands/208
 ---
 
 Finds a value in a specified column. The first box underneath the column title will return a position of '0', and the numbers will increase as you go down the column.

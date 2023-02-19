@@ -1,6 +1,8 @@
 ---
 title: Set Clipboard
 num: 1
+redirect_from:
+  - commands/106
 ---
 
 Changes the contents of your clipboard to whatever is in the Text box.\

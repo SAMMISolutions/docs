@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Base64 Decode"
 num: 13
+redirect_from:
+  - commands/118
 ---
 
 Creates a new buffer from a base64 string.

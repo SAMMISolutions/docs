@@ -1,6 +1,8 @@
 ---
 title: "Array Find Value"
 num: 4
+redirect_from:
+  - commands/166
 ---
 
 Finds the first instance of a given value inside the array and returns its index(position) in the array.\

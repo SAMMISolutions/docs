@@ -1,6 +1,8 @@
 ---
 title: "Buffer: Peek"
 num: 3
+redirect_from:
+  - commands/122
 ---
 
 Reads data from a buffer at the specified position.

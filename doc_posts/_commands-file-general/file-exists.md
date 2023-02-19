@@ -1,6 +1,8 @@
 ---
 title: "File: File Exists"
 num: 2
+redirect_from:
+  - commands/220
 ---
 
 Checks if a file already exists in a specified path. SAMMI will return `true` if the file exists, and `false` if it doesn't.

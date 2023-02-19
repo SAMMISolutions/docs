@@ -1,6 +1,8 @@
 ---
 title: "CSV: Unload"
 num: 4
+redirect_from:
+  - commands/211
 ---
 
 Unloads a CSV file that was previously loaded. This does NOT delete the CSV file from where it is saved to, it merely unloads the CSV data from the buffer space withn SAMMI.\

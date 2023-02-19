@@ -1,6 +1,8 @@
 ---
 title: "Hex String to Number"
 num: 3
+redirect_from:
+  - commands/80
 ---
 
 Converts a hexadecimal string into a real (decimal) number. 

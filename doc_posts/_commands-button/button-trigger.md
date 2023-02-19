@@ -1,6 +1,8 @@
 ---
 title: "Trigger Button"
 num: 0
+redirect_from:
+  - commands/132
 ---
 
 Triggers any button by its ID.\
