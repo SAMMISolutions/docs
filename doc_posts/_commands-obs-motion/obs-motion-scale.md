@@ -5,6 +5,7 @@ redirect_from:
   - commands/38
 ---
 Gradually resizes a source from Size A to size B over a given duration.\
+Scale refers to how many times bigger/smaller you want the source in relation to its original size - `2.0` is 2x original size.\
 Due to the way the OBS source resizing work, the result might look a bit snappy sometimes.\
 The way the source is resized is based on what the source's point of origin is set to in OBS.\
 You can use negative values for a horizontal (mirror) or vertical source flip.\
