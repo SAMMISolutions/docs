@@ -57,139 +57,178 @@ defaults:
 - scope: 
     path: doc_posts/_commands-array
   values: 
-    parent: Arrays     
+    parent: Arrays
+    backlink: array     
 - scope: 
     path: doc_posts/_commands-buffer
   values: 
     parent: Buffers   
+    backlink: buffer
 - scope: 
     path: doc_posts/_commands-button
   values: 
-    parent: Buttons     
+    parent: Buttons   
+    backlink: button  
 - scope: 
     path: doc_posts/_commands-date-time
   values: 
-    parent: Date and Time   
+    parent: Date and Time  
+    backlink: date-time
 - scope: 
     path: doc_posts/_commands-file-csv
   values: 
-    parent: CSV Files     
+    parent: Files   
+    subparent: CSV Files
+    backlink: file-csv
 - scope: 
     path: doc_posts/_commands-file-general
   values: 
-    parent: General   
+    parent: Files
+    subparent: General
+    backlink: file-general
 - scope: 
     path: doc_posts/_commands-file-ini
   values: 
-    parent: INI Files     
+    parent: Files  
+    subparent: INI Files
+    backlink: file-ini
 - scope: 
     path: doc_posts/_commands-misc
   values: 
-    parent: Miscellaneous   
+    parent: Miscellaneous
+    backlink: misc
 - scope: 
     path: doc_posts/_commands-mouse-kb
   values: 
-    parent: Mouse & Keyboard  
+    parent: Mouse & Keyboard
+    backlink: mouse-kb
 - scope: 
     path: doc_posts/_commands-number
   values: 
-    parent: Numbers   
+    parent: Numbers  
+    backlink: number 
 - scope: 
     path: doc_posts/_commands-object
   values: 
-    parent: Objects     
+    parent: Objects
+    backlink: object   
 - scope: 
-    path: doc_posts/_commands-obs-filters
-  values: 
-    parent: OBS   
-- scope: 
-    path: doc_posts/_commands-obs-general
-  values: 
-    parent: OBS  
-- scope: 
-    path: doc_posts/_commands-obs-media
-  values: 
-    parent: OBS   
-- scope: 
-    path: doc_posts/_commands-obs-motion
-  values: 
-    parent: OBS     
-- scope: 
-    path: doc_posts/_commands-obs-recording
-  values: 
-    parent: OBS   
-- scope: 
-    path: doc_posts/_commands-obs-scenes
-  values: 
-    parent: OBS   
-- scope: 
-    path: doc_posts/_commands-obs-sources
-  values: 
-    parent: OBS   
-- scope: 
-    path: doc_posts/_commands-obs-streaming
+    path: doc_posts/_commands-obs-*
   values: 
     parent: OBS       
 - scope: 
+    path: doc_posts/_commands-obs-filters
+  values: 
+    subparent: Filters  
+    backlink: obs-filters  
+- scope: 
+    path: doc_posts/_commands-obs-general
+  values: 
+    subparent: General
+    backlink: obs-general  
+- scope: 
+    path: doc_posts/_commands-obs-media
+  values:   
+    subparent: Media   
+    backlink: obs-media
+- scope: 
+    path: doc_posts/_commands-obs-motion
+  values: 
+    subparent: Motion  
+    backlink: obs-motion   
+- scope: 
+    path: doc_posts/_commands-obs-recording
+  values: 
+    subparent: Recording 
+    backlink: obs-recording  
+- scope: 
+    path: doc_posts/_commands-obs-scenes
+  values: 
+    subparent: Scenes 
+    backlink: obs-scenes  
+- scope: 
+    path: doc_posts/_commands-obs-sources
+  values: 
+    subparent: Sources  
+    backlink: obs-sources 
+- scope: 
+    path: doc_posts/_commands-obs-streaming
+  values:  
+    subparent: Streaming 
+    backlink: obs-streaming       
+- scope: 
     path: doc_posts/_commands-sounds
   values: 
-    parent: Sound Effects   
+    parent: Sound Effects  
+    backlink: sounds 
 - scope: 
     path: doc_posts/_commands-statements
   values: 
     parent: Statements & Loops  
+    backlink: statements
 - scope: 
     path: doc_posts/_commands-string
   values: 
     parent: Strings   
+    backlink: string
 - scope: 
     path: doc_posts/_commands-trigger
   values: 
     parent: Trigger methods  
+    backlink: trigger
 - scope: 
-    path: doc_posts/_commands-twitch
+    path: doc_posts/_commands-twitch-*
   values: 
     parent: Twitch   
 - scope: 
     path: doc_posts/_commands-twitch-chat
-  values: 
-    parent: Twitch      
+  values:  
+    subparent: Chat and Messages   
+    backlink: twitch-chat   
 - scope: 
     path: doc_posts/_commands-twitch-chpr
   values: 
-    parent: Twitch   
+    subparent: Channel Point Rewards   
+    backlink: twitch-chpr
 - scope: 
     path: doc_posts/_commands-twitch-info
   values: 
-    parent: Twitch  
+    subparent: Information  
+    backlink: twitch-info
 - scope: 
     path: doc_posts/_commands-twitch-misc
   values: 
-    parent: Twitch   
+    subparent: Miscellaneous   
+    backlink: twitch-misc
 - scope: 
     path: doc_posts/_commands-twitch-moderation
   values: 
-    parent: Twitch   
+    subparent: Moderation  
+    backlink: twitch-moderation 
 - scope: 
     path: doc_posts/_commands-twitch-polls
   values: 
-    parent: Twitch  
+    subparent: Polls and Predictions
+    backlink: twitch-polls  
 - scope: 
     path: doc_posts/_commands-variable
   values: 
     parent: Variables   
+    backlink: variable
 - scope: 
     path: doc_posts/_commands-wait
   values: 
-    parent: Wait For/Until    
+    parent: Wait For/Until  
+    backlink: wait  
 - scope: 
     path: doc_posts/_commands-youtube
   values: 
-    parent: YouTube                
+    parent: YouTube       
+    backlink: youtube         
 - scope: 
     path: doc_posts/_commands-*
   values:
-    layout: default    
+    layout: default_post
     permalink: commands/:name
     menu: Commands
 - scope: 

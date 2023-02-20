@@ -103,7 +103,11 @@
         {% assign html_id = false %}
       {% endif %}
     {% endif %}
+	{% if page.title != "Patch Notes" %}
     {% assign html_id = html_id | remove: ' '  | remove: '-'| remove: ':' | remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8'| remove: '9' | remove: '0' %}
+	{% else %}
+	{% assign html_id = html_id | remove: ' '  | remove: '-'| remove: ':' | remove: '.' %}
+	{% endif %}
     {% capture headerAttrs %}{{ headerAttrs }} id="%html_id%"{% endcapture %}
 
     <!-- Build the anchor to inject for our heading -->

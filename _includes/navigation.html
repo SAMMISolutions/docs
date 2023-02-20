@@ -15,7 +15,7 @@
               <ul class="list-unstyled fw-normal pb-1 small collapse mx-3 {% if page.parent == submenu.name %} show {% endif %}" id="{{ submenu.name | remove: ' ' }}-collapse">
                 {% for subitem in submenu.subitems %}
                 <li class="nav-item">
-                  <a href="{{ subitem.link | relative_url }}" class="nav-link sidebar-innerbutton fs-7 {% if subitem.name == page.title %} active {% endif %}">{{ subitem.name }}</a>
+                  <a href="{{ subitem.link | relative_url }}" class="nav-link sidebar-innerbutton fs-7 {% if subitem.name == page.title or subitem.name == page.subparent %} active {% endif %}">{{ subitem.name }}</a>
                 </li>
                 {% endfor %}
               </ul>
