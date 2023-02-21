@@ -10,7 +10,6 @@ Gets global variable.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Button ID | String | The button you want to set the variable for.
 | Get Variable | String | Name of the global variable to get. |
 | Save Variable As | String | New local variable name to save the global variable.|
 {:class='table table-primary'}
