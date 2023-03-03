@@ -8,7 +8,7 @@ You must pass an `Authorization` header supplying the password if it's enabled i
 
 | Parameter | Required | Type | Description
 |-------|--------|--------
-| request | yes | string | request name matching the webhook trigger `message` field attached to a button
+| trigger | yes | string | trigger name matching the webhook trigger `message` field attached to a button
 | any | no | any | Any custom data you wish to pass to SAMMI
 {:class='table table-primary' }
 
