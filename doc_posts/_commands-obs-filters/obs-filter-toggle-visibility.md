@@ -6,7 +6,7 @@ redirect_from:
 ---
 Toggles the visibility of a filter. If the filter is visible it’s turn off and vice versa.
 
-{% include alert.html text="If you want to turn a filter on or off you should use Source Change Visibility command" type="warning" %} 
+{% include alert.html text="If you want to turn a filter on or off you should use Filter Change Visibility command" type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
