@@ -8,6 +8,7 @@ SAMMI now has the abliity to be translated into your local language. Currently, 
 - German
 - French
 - Italian
+- Dutch
 
 You can change your language by going to Settings and selecting it from the Language dropdown menu.
 
