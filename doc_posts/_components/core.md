@@ -64,6 +64,7 @@ Allows you to adjust general SAMMI settings.
 
 - **Deck and Bridge settings** - modify connection settings for Bridge
 - **Minimize to Tray** - when checked, SAMMI Core will minimize to tray instead of closing when you press X
+- **Remember window size and position** - when checked, SAMMI will automatically remember its window position and size between restarts
 - **Auto restart SAMMI after crash** - when checked, SAMMI will re-open itself after a crash
 - **Automatically check for new updates** - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
 - **Automatically send non crash error logs** - when checked, SAMMI will automatically submit any errors that occur while it is running that would normally lead to SAMMI crashing. Instead you get a yellow alert and can continue using SAMMI as normal. This is an experimental feature being currently used in some of SAMMI scripts. 

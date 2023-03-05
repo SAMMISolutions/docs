@@ -8,6 +8,11 @@ When you right click-Edit commands or double click on your button in your deck, 
 {% include video.html w="75" src="new-command.mp4" alt="Adding a command to a button" %}
 
 - Once a button is triggered, all enabled commands are executed
+
+- You can hover over a command name and press F1 on your keyboard to open Documentation in your default browser for the given command
+
+  {% include video.html w="75" src="f1-commands.mp4" alt="Opening documentation by pressing F1" %}
+
 - You can **disable a command** (and prevent it from executing) by checking **Off** on the very right side of the command. Disabled commands have a red color.  
 
   {% include image.html w="auto" src="disable-command.png" alt="Disabled command" %}
@@ -16,7 +21,7 @@ When you right click-Edit commands or double click on your button in your deck, 
 
   {% include video.html w="75" src="copy-commands.mp4" alt="Copying and pasting a button" %}
 
-- You can freely rearrange your commands by pressing the ball icon (very left side) and dragging them to a different position. Select multiple commands to drag all of them at the same time. You can also use up  and down arrows for the same effect.  
+- You can freely rearrange your commands by pressing the ball icon (very left side) and dragging them to a different position. Select multiple commands to drag all of them at the same time. You can also use up and down arrows for the same effect.  
 
   {% include video.html w="75" src="move-commands.mp4" alt="Rearranging commands inside a button" %}
 
