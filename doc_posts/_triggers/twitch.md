@@ -126,7 +126,7 @@ Listens to all new subscribers in your channel.
 | Gifted Display Name | Recipient's display name if the sub was gifted. |
 | Gifted User ID | Recipient's user ID if the sub was gifted.  |
 | Tier | Sub Tier. Returns `Tier 1`, `Tier 2`, `Tier 3` or `Prime` |
-| Context | Sub Type. Returns `sub`, `resub`, `subgift` or `anonsubgift` |
+| Context | Sub Type. Returns `sub`, `resub`, `resubgift`, `subgift` or `anonsubgift` |
 | Message | Viewer's message |
 | Month | Amount of months the viewer has been subscribed |
 | Community Gift | Whether it's a community gift. Boolean value. Returns `0` or `1`. |
