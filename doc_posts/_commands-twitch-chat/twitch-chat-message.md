@@ -6,7 +6,7 @@ redirect_from:
 ---
 
 Sends a message to your Twitch chat from your default account that is connected to SAMMI.\
-For whispers use [Twitch: Send Whispe](twitch#sendwhispers) command.\
+For whispers use [Twitch: Send Whisper](twitch#sendwhispers) command.\
 For other chat slash commands use their corresponding SAMMI commands. Although many slash commands are still functional for backwards compatibility reasons, we highly recommend that you start using SAMMI commands instead. 
 
 {% include alert.html text="If you have linked more than one Twitch account to SAMMI, you must specify the channel name, otherwise the message is sent to your Twitch account's channel that has <code>Join Channel</code> checked in your Twitch Connections menu" type="warning" %}
