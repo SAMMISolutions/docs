@@ -40,7 +40,7 @@ See below which SAMMI command corresponds to which chat slash command.
 |/slow and /slowoff|Twitch: Set Slow Mode|
 |/subscribers and /subscribersoff|Twitch: Set Subscriber Mode|
 |/uniquechat and /uniquechatoff|Twitch: API Call|
-|/vip and /unvip|Twitch: Add VIP|
+|/vip|Twitch: Add VIP|
 |/unvip|Twitch: Remove VIP|
 |/vips |Twitch: Get VIPs|
 |/w |Twitch: Send Whisper|
