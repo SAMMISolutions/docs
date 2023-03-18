@@ -19,7 +19,7 @@ For other chat slash commands use their corresponding SAMMI commands. Although m
 
 See below which SAMMI command corresponds to which chat slash command.
 
-| Twitch Slash Command | SAMMI Command to use instead |
+| Chat Slash Command | SAMMI Command to use instead |
 |-------|--------|
 |/announce| Twitch: Send Announcement|
 |/ban|Twitch: Ban User||
