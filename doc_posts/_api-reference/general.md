@@ -7,6 +7,8 @@ The default URI is `localhost:9450/api` for all `GET` and `POST` requests.\
 You must pass an `Authorization` header supplying the password if it's enabled in the SAMMI Settings.\
 For `GET` requests supply parameters in the URL query, for `POST` requests supply parameters in the request body.
 
+{% include alert.html text="Using C#? <code>System.Net.ServicePointManager.Expect100Continue</code> must be set to <code>false</code> to stop the header “Expect: 100-Continue” from being sent with the request as SAMMI will not handle it properly." type="warning" %} 
+
 #### Available requests
 
 | Request | Method | Description
