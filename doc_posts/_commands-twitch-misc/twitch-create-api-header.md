@@ -17,6 +17,7 @@ Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
 Returned object contains the following variables:
+
 | Variable | Type | Contents |
 |-------|--------|--------
 Authorization|String|"Bearer (your OAuth token)"
