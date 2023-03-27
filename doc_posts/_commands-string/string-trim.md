@@ -6,7 +6,10 @@ redirect_from:
   - commands/253
 ---
 
-Trims blank spaces or specific characters from your string. 
+Trims blank spaces or specific characters from your string.  
+
+{% include alert.html text='Trimming a backwards slash <code>\\</code> must be escaped by another slash: <code>\\\\</code>' type="warning" %} 
+
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
@@ -20,4 +23,5 @@ Trims blank spaces or specific characters from your string.
 |!shoutout @Sebas| !\|@ | shoutout Sebas|
 |!shoutout @Sebas| !\|@seb | shoutout @Sebas|
 |!shoutout @Sebas| !\|@Seb | shoutout as
+|!shoutout \Sebas| !\|\\\ | shoutout Sebas
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
