@@ -3,7 +3,7 @@ title: "Set Unique Chat"
 num: 8.2
 version: 202320
 redirect_from:
-  - commands/changethis
+  - commands/301
 ---
 
 Enabling this setting prevents users from posting non-unique messages to the channel.\
