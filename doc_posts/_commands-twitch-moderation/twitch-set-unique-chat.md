@@ -2,8 +2,7 @@
 title: "Set Unique Chat"
 num: 8.2
 redirect_from:
-  - commands/172
-version: 202320
+  - commands/changethis
 ---
 
 The unique chat command prevents users from posting non-unique messages to the channel. It can be used to combat spam so that users cannot send the same things in chat multiple times.
