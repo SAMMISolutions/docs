@@ -29,13 +29,15 @@
           <ul class="list-unstyled fw-normal pb-1 small sidebar-sidemenu ">
           {% assign posts = site[item.collection] | sort: "num"  %}
           {% for post in posts %}
-          {% if post.ignore != true %}
-            <li><a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center rounded sidebar-subbutton fs-6 {% if page.title == post.title or page.parent == post.title %} active {% endif %}">{{ post.title }}</a>
-            </li>
-            {% endif %}
-            {% endfor %}
+              {% if post.ignore != true  %}
+                  {% if post.version <= site.stableVersion or post.version == nil %}
+                  <li><a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center rounded sidebar-subbutton fs-6 {% if page.title == post.title or page.parent == post.title %} active {% endif %}">{{ post.title }}</a>
+                  </li>
+                  {% endif %}
+              {% endif %}
+          {% endfor %}
           </ul>
-          {% endif %}
+        {% endif %}
         </div>
       </li>
         {% endfor %}
