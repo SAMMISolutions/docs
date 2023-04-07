@@ -42,7 +42,7 @@ Create a button in SAMMI Core, setting the trigger as a 'SAMMI Voice' trigger. E
 
 {% include image.html w="75" src="https://i.imgur.com/MEbWdic.png" alt="Creating a voice activated button" external="true" %}
 
-This button will now be triggered when you say `Testing` and a for this example, a pop up window will show up with the phrase 'Testing is a success!'
+This button will now be triggered when you say `Testing` and for this example, a pop up window will show up with the phrase 'Testing is a success!'
 
 {% include video.html w="75" src="Vid 070423 174551.mp4" alt="SAMMI Voice Example" %}
 
