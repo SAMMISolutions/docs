@@ -27,9 +27,9 @@ The port number should not be altered, except in some very small cases. SAMMI Vo
 
 The password for SAMMI Voice is optional. If you do want to set a password, ensure that you set it so it matches the `Password` field in your SAMMI Core settings for your local API. 
 
-If you want SAMMI Voice to immediately start listening when you open SAMMI Voice, tick the 'Listen on Startup' checkbox.  
+{% include image.html w="75" src="https://i.imgur.com/c9gBzay.png" alt="Local API settings in SAMMI Core" external="true" %}
 
-{% include image.html w="75" src="https://i.imgur.com/RabHuYa.png" alt="Local API settings in SAMMI Core" external="true" %}
+If you want SAMMI Voice to immediately start listening when you open SAMMI Voice, tick the 'Listen on Startup' checkbox.  
 
 ### Triggers
 The Triggers tab for SAMMI Voice is where you list all the triggers you want to use to trigger your SAMMI buttons. Each line represents a different trigger that can be used on your buttons.
