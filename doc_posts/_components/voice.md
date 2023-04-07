@@ -35,8 +35,11 @@ If you want SAMMI Voice to immediately start listening when you open SAMMI Voice
 The Triggers tab for SAMMI Voice is where you list all the triggers you want to use to trigger your SAMMI buttons. Each line represents a different trigger that can be used on your buttons.
 
 ## Creating a voice activated button on SAMMI Core
+
 #### Add a trigger to SAMMI Voice and a SAMMI Core button
-In SAMMI Voice, in the triggers tab, type the word or phrase that you want to use to trigger a button. In this example, we will use the trigger `Testing`. Triggers can only be added when SAMMI Voice is not listening. If you are listening, click 'Stop Listening' before adding a new trigger. Once you are done adding your trigger, you can click 'Start Listening'. 
+In SAMMI Voice, in the triggers tab, type the word or phrase that you want to use to trigger a button. In this example, we will use the trigger `Testing`. 
+
+Triggers can only be added when SAMMI Voice is not listening. If you are listening, click 'Stop Listening' before adding a new trigger. Once you are done adding your trigger, you can click 'Start Listening'. 
 
 Create a button in SAMMI Core, setting the trigger as a 'SAMMI Voice' trigger. Enter `Testing` as the trigger. 
 
