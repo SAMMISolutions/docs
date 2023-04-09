@@ -13,5 +13,4 @@ It can be used to combat spam so that users cannot send the same things in chat 
 |-------|--------|--------
 |Channel | Dropdown |The Twitch channel the command will be used for.
 |Enabled|Choice|Enabled: Turns the setting on. Disabled: Turns the setting off.
-
 {:class='table table-primary'}
