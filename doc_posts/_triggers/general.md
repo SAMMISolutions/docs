@@ -67,8 +67,9 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |OBS Disconnected|Every time SAMMI disconnects from OBS.
 |SAMMI Bridge Connected| Every time SAMMI Bridge connects to SAMMI.
 |SAMMI Bridge Disconnected| Every time SAMMI Bridge disconnects from SAMMI.
-|SAMMI Deck Connected| Every time SAMMI Deck connects to SAMMI.
-|SAMMI Deck Disconnected| Every time SAMMI Deck disconnects from SAMMI.
+|SAMMI Panel Connected| Every time SAMMI Panel connects to SAMMI.
+|SAMMI Panel Disconnected| Every time SAMMI Panel disconnects from SAMMI.
+|Deck Enabled/Disabled|Triggers if a deck is enabled/disabled.
 |Third Party Connected| Third party application connects to SAMMI.
 |Third Party Disonnected| Third party application disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
