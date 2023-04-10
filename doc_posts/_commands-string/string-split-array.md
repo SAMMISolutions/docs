@@ -5,7 +5,7 @@ redirect_from:
   - commands/217
 ---
 
-Splits a string value into an array.
+Splits a string value into an array. If an array does not already exist, a new array will be created.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
