@@ -23,9 +23,9 @@ Default IP address for SAMMI if you are using it on the same PC as SAMMI Core is
 If you are accessing the SAMMI Panel via another device (either the desktop app or the web browser version), you will need to use the IP address of the PC that is running SAMMI Core.
 
 **You must fill out the password if you decided to use one in SAMMI-Settings menu.**\
-Note that you only need to do this once, as your SAMMI Deck will remember the previous settings.
+Note that you only need to do this once, as your SAMMI Panel will remember the previous settings.
 
-{% include image.html w="75" src="https://i.imgur.com/dKmaY26.png" alt="SAMMI Deck Connection Settings" external="true" %}
+{% include image.html w="75" src="https://i.imgur.com/dKmaY26.png" alt="SAMMI Panel Connection Settings" external="true" %}
 
 Select a deck to connect to from the dropdown, and click Connect'. Now you can interact with it by pressing its buttons!
 
