@@ -69,7 +69,7 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |SAMMI Bridge Disconnected| Every time SAMMI Bridge disconnects from SAMMI.
 |SAMMI Panel Connected| Every time SAMMI Panel connects to SAMMI.
 |SAMMI Panel Disconnected| Every time SAMMI Panel disconnects from SAMMI.
-|Deck Enabled/Disabled|Triggers if a deck is enabled/disabled.
+|Deck Enabled/Disabled|Triggers every time a deck is enabled/disabled.
 |Third Party Connected| Third party application connects to SAMMI.
 |Third Party Disonnected| Third party application disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
