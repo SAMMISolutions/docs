@@ -14,7 +14,7 @@ Available status types:
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Channel|Dropdown|Twitch channel to get videos from. This can be left empty.
+|Channel|Dropdown|Twitch channel to get a user's status for. This can be left empty.
 |User Name|String|User Name of the user to get the status for.
 |Type|Dropdown|Name of the variable to save the response as.
 |Save Variable As|String|Name of the variable to save the response as.
