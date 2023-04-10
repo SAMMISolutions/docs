@@ -1,0 +1,15 @@
+---
+title: "Panel: Switch Deck"
+num: 13.2
+version: 202320
+redirect_from:
+  - commands/
+---
+
+Switches to a different deck in your SAMMI Panel
+
+| Box Name | Type | Description | 
+|-------|--------|--------
+|Panel Name|String|Nickname of your SAMMI Panel (in your Panel settings).
+|Select Deck/Enter ID|Dropdown|Dropdown of available decks to switch to. 
+{:class='table table-primary'}
