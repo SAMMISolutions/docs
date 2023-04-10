@@ -9,8 +9,8 @@ You can find a link to the latest compatible version of the WebSocket in the [St
 
 Try these steps to troubleshoot the connection between SAMMI and OBS WebSockets:
 
-- **OBS Studio 28 and OBS Websockets**\
-If you have just downloaded OBS Studio 28, it comes bundled with OBS Websocket 5.0. This means that if you are running SAMMI using the OBS Websocket 4.9.1 protocol, you will not be able to connect to OBS. 
+- **OBS Studio 28 (and up) and OBS Websockets**\
+If you have just downloaded OBS Studio 28, it comes bundled with OBS Websocket 5.0. This means that if you are running SAMMI using the OBS Websocket 4.9.1 protocol (on OBS versions 27 and below), you will not be able to connect to OBS. 
 
 Instead, you will either have to: 
 1. Switch to the OBS Websocket 5.0 protocol in SAMMI and make the necessary changes to your Fetch OBS Data, Custom Packet and Send OBS Requests to reflect the correct OBS Websocket 5.0 protocol syntax and change your OBS Triggers, OR 
