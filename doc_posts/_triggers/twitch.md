@@ -202,24 +202,6 @@ Listens to all raid events in your stream.
 
 <hr>
 
-##### Host
-Listens to all host events in your stream. Twitch does not send alerts for host events with less than three viewers.
-
-| Condition | Explanation |
-|-------|--------|
-| Minimum | Specify the minimum amount of host's viewers to trigger the button. |
-| Maximum | Specify the maximum amount of host's viewers to trigger the button. |
-{:class='table table-primary' }
-
-| Pull Data Value | Explanation |
-|-------|--------|
-| Display Name | Host's display name. |
-| Amount | Amount of host's viewers. |
-| From Channel ID | Which channel the trigger came from. |
-{:class='table table-secondary table-hover' }
-
-<hr>
-
 ##### Channel Points
 Listens to all custom channel points redeems.
 
