@@ -18,8 +18,8 @@ As SAMMI Voice uses Microsoft Speech Recognition, first you will have to ensure 
 
 Once you have Microsoft Speech Recognition set up and trained, open up SAMMI Core and click on SAMMI Voice on the left side of the window.
 
-### Settings
-{% include image.html w="75" src="https://i.imgur.com/RabHuYa.png" alt="Settings window for SAMMI Voice" external="true" %}
+### SAMMI Connection and Settings
+{% include image.html w="75" src="https://i.imgur.com/dk6Uw1O.png" alt="Settings window for SAMMI Voice" external="true" %}
 
 If SAMMI Voice is running on the same system as SAMMI Core, you will not need to change the default IP address of `127.0.0.1`. If it is on a different system, use the IP address of the PC where your SAMMI Core is running from.
 
@@ -29,7 +29,11 @@ The password for SAMMI Voice is optional. If you do want to set a password, ensu
 
 {% include image.html w="75" src="https://i.imgur.com/c9gBzay.png" alt="Local API settings in SAMMI Core" external="true" %}
 
-If you want SAMMI Voice to immediately start listening when you open SAMMI Voice, tick the 'Listen on Startup' checkbox.  
+If you want SAMMI Voice to immediately start listening when you open SAMMI Voice, tick the 'Listen on Startup' checkbox.
+
+If you want SAMMI Voice to minimise to the System Tray when you close the window, tick the 'Minimize only to SysTray checkbox. 
+
+If you want SAMMI Voice to show a confirmatin dialog box when you close the window, tick the 'Closing Confirmation' checkbox.
 
 ### Triggers
 The Triggers tab for SAMMI Voice is where you list all the triggers you want to use to trigger your SAMMI buttons. Each line represents a different trigger that can be used on your buttons.
