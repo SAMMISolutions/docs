@@ -6,25 +6,6 @@ menu: About
 num: 1
 type: fullpage
 ---
-#### SAMMI 2023.2.0
-
-New Features:
-
-Improvements:
-- Test 
-
-UI Changes:
-- More tests
-
-Removed Features:
-- No tests
-
-Bug Fixes:
-
-Known Bugs:
-- Definitely no tests
-
-
 #### SAMMI 2023.1.1
 
 New Features:
