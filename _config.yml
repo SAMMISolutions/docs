@@ -2,8 +2,8 @@ title: SAMMI
 tagline: SAMMI | Stream Automation, Management, Monitoring and Innovation | Works with Twitch, YouTube, OBS
 description: Transform your ordinary stream into interactive experience for your viewers with SAMMI
 name: SAMMI • Free Streamer Tool
-stableVersion: 202311
-url: "https://sammi.solutions"
+stableVersion: 202310
+url: https://sammi.solutions
 author:
   twitter: SAMMISolutions
 repository: https://github.com/SAMMISolutions/docs
@@ -11,25 +11,25 @@ logo: /assets/favicon/favicon-32x32.png
 social:
   name: SAMMI
   links:
-    - https://twitter.com/SAMMISolutions
-    - https://github.com/SAMMISolutions
+  - https://twitter.com/SAMMISolutions
+  - https://github.com/SAMMISolutions
 timezone: US/Pacific
 google_analytics: G-Q3ZGBDKL0V
 twitter:
-    username: SAMMISolutions
-    card: summary
+  username: SAMMISolutions
+  card: summary
 plugins:
-  - jekyll-feed
-  - jekyll-sitemap
-  - jekyll-seo-tag
-  - jekyll-toc
-  - jekyll-mentions
-  - jekyll-relative-links
-  - jekyll-redirect-from
+- jekyll-feed
+- jekyll-sitemap
+- jekyll-seo-tag
+- jekyll-toc
+- jekyll-mentions
+- jekyll-relative-links
+- jekyll-redirect-from
 sass:
-    style: compressed
+  sass_dir: _sass
 relative_links:
-  enabled:     true
+  enabled: true
   collections: true
 kramdown:
   auto_ids: false
@@ -41,7 +41,7 @@ toc:
   list_id: toc
   list_class: section-nav
   sublist_class: ''
-  item_class: "nav-link d-flex flex-row"
+  item_class: nav-link d-flex flex-row
   item_prefix: toc-
 defaults:
 - scope:
@@ -49,313 +49,311 @@ defaults:
     type: pages
   values:
     layout: post
-- scope: 
+- scope:
     path: docs/commands
   values:
     menu: Commands
-- scope: 
+- scope:
     path: doc_posts/_commands-array
-  values: 
+  values:
     parent: Arrays
-    backlink: array     
-- scope: 
+    backlink: array
+- scope:
     path: doc_posts/_commands-buffer
-  values: 
-    parent: Buffers   
+  values:
+    parent: Buffers
     backlink: buffer
-- scope: 
+- scope:
     path: doc_posts/_commands-button
-  values: 
-    parent: Buttons   
-    backlink: button  
-- scope: 
+  values:
+    parent: Buttons
+    backlink: button
+- scope:
     path: doc_posts/_commands-date-time
-  values: 
-    parent: Date and Time  
+  values:
+    parent: Date and Time
     backlink: date-time
-- scope: 
+- scope:
     path: doc_posts/_commands-file-csv
-  values: 
-    parent: Files   
+  values:
+    parent: Files
     subparent: CSV Files
     backlink: file-csv
-- scope: 
+- scope:
     path: doc_posts/_commands-file-general
-  values: 
+  values:
     parent: Files
     subparent: General
     backlink: file-general
-- scope: 
+- scope:
     path: doc_posts/_commands-file-ini
-  values: 
-    parent: Files  
+  values:
+    parent: Files
     subparent: INI Files
     backlink: file-ini
-- scope: 
+- scope:
     path: doc_posts/_commands-misc
-  values: 
+  values:
     parent: Miscellaneous
     backlink: misc
-- scope: 
+- scope:
     path: doc_posts/_commands-mouse-kb
-  values: 
+  values:
     parent: Mouse & Keyboard
     backlink: mouse-kb
-- scope: 
+- scope:
     path: doc_posts/_commands-number
-  values: 
-    parent: Numbers  
-    backlink: number 
-- scope: 
+  values:
+    parent: Numbers
+    backlink: number
+- scope:
     path: doc_posts/_commands-object
-  values: 
+  values:
     parent: Objects
-    backlink: object   
-- scope: 
+    backlink: object
+- scope:
     path: doc_posts/_commands-obs-*
-  values: 
-    parent: OBS       
-- scope: 
+  values:
+    parent: OBS
+- scope:
     path: doc_posts/_commands-obs-filters
-  values: 
-    subparent: Filters  
-    backlink: obs-filters  
-- scope: 
+  values:
+    subparent: Filters
+    backlink: obs-filters
+- scope:
     path: doc_posts/_commands-obs-general
-  values: 
+  values:
     subparent: General
-    backlink: obs-general  
-- scope: 
+    backlink: obs-general
+- scope:
     path: doc_posts/_commands-obs-media
-  values:   
-    subparent: Media   
+  values:
+    subparent: Media
     backlink: obs-media
-- scope: 
+- scope:
     path: doc_posts/_commands-obs-motion
-  values: 
-    subparent: Motion  
-    backlink: obs-motion   
-- scope: 
+  values:
+    subparent: Motion
+    backlink: obs-motion
+- scope:
     path: doc_posts/_commands-obs-recording
-  values: 
-    subparent: Recording 
-    backlink: obs-recording  
-- scope: 
+  values:
+    subparent: Recording
+    backlink: obs-recording
+- scope:
     path: doc_posts/_commands-obs-scenes
-  values: 
-    subparent: Scenes 
-    backlink: obs-scenes  
-- scope: 
+  values:
+    subparent: Scenes
+    backlink: obs-scenes
+- scope:
     path: doc_posts/_commands-obs-sources
-  values: 
-    subparent: Sources  
-    backlink: obs-sources 
-- scope: 
+  values:
+    subparent: Sources
+    backlink: obs-sources
+- scope:
     path: doc_posts/_commands-obs-streaming
-  values:  
-    subparent: Streaming 
-    backlink: obs-streaming       
-- scope: 
+  values:
+    subparent: Streaming
+    backlink: obs-streaming
+- scope:
     path: doc_posts/_commands-sounds
-  values: 
-    parent: Sound Effects  
-    backlink: sounds 
-- scope: 
+  values:
+    parent: Sound Effects
+    backlink: sounds
+- scope:
     path: doc_posts/_commands-statements
-  values: 
-    parent: Statements & Loops  
+  values:
+    parent: Statements & Loops
     backlink: statements
-- scope: 
+- scope:
     path: doc_posts/_commands-string
-  values: 
-    parent: Strings   
+  values:
+    parent: Strings
     backlink: string
-- scope: 
+- scope:
     path: doc_posts/_commands-trigger
-  values: 
-    parent: Trigger methods  
+  values:
+    parent: Trigger methods
     backlink: trigger
-- scope: 
+- scope:
     path: doc_posts/_commands-twitch-*
-  values: 
-    parent: Twitch   
-- scope: 
+  values:
+    parent: Twitch
+- scope:
     path: doc_posts/_commands-twitch-chat
-  values:  
-    subparent: Chat and Messages   
-    backlink: twitch-chat   
-- scope: 
+  values:
+    subparent: Chat and Messages
+    backlink: twitch-chat
+- scope:
     path: doc_posts/_commands-twitch-chpr
-  values: 
-    subparent: Channel Point Rewards   
+  values:
+    subparent: Channel Point Rewards
     backlink: twitch-chpr
-- scope: 
+- scope:
     path: doc_posts/_commands-twitch-info
-  values: 
-    subparent: Information  
+  values:
+    subparent: Information
     backlink: twitch-info
-- scope: 
+- scope:
     path: doc_posts/_commands-twitch-misc
-  values: 
-    subparent: Miscellaneous   
+  values:
+    subparent: Miscellaneous
     backlink: twitch-misc
-- scope: 
+- scope:
     path: doc_posts/_commands-twitch-moderation
-  values: 
-    subparent: Moderation  
-    backlink: twitch-moderation 
-- scope: 
+  values:
+    subparent: Moderation
+    backlink: twitch-moderation
+- scope:
     path: doc_posts/_commands-twitch-polls
-  values: 
+  values:
     subparent: Polls and Predictions
-    backlink: twitch-polls  
-- scope: 
+    backlink: twitch-polls
+- scope:
     path: doc_posts/_commands-variable
-  values: 
-    parent: Variables   
+  values:
+    parent: Variables
     backlink: variable
-- scope: 
+- scope:
     path: doc_posts/_commands-wait
-  values: 
-    parent: Wait For/Until  
-    backlink: wait  
-- scope: 
+  values:
+    parent: Wait For/Until
+    backlink: wait
+- scope:
     path: doc_posts/_commands-youtube
-  values: 
-    parent: YouTube       
-    backlink: youtube         
-- scope: 
+  values:
+    parent: YouTube
+    backlink: youtube
+- scope:
     path: doc_posts/_commands-*
   values:
     layout: default_post
     permalink: commands/:name
     menu: Commands
-- scope: 
+- scope:
     path: docs/integrations
   values:
     menu: Integrations
-- scope: 
+- scope:
     path: docs/local api
   values:
-    menu: Local API      
-- scope: 
+    menu: Local API
+- scope:
     path: docs/faq
   values:
-    menu: FAQ    
-- scope: 
+    menu: FAQ
+- scope:
     path: docs/troubleshooting
   values:
-    menu: Troubleshooting   
-sass:
-    sass_dir: _sass
+    menu: Troubleshooting
 algolia:
-  application_id: 'I48YE43FLX'
-  index_name: 'lioranboard'
+  application_id: I48YE43FLX
+  index_name: lioranboard
 collections_dir: doc_posts
 collections:
   getting-started:
-      output: true
+    output: true
   about:
-      output: true
+    output: true
   components:
-      output: true
+    output: true
   integrations:
-      output: true
+    output: true
   integrations-obs:
-      output: true
+    output: true
   integrations-twitch:
-      output: true
+    output: true
   integrations-youtube:
-      output: true
+    output: true
   triggers:
-      output: true
+    output: true
   api-overview:
-      output: true
+    output: true
   api-reference:
-      output: true
+    output: true
   api-webhooks:
-      output: true            
-  faq-general: 
-      output: true
-  faq-receiver: 
-      output: true   
-  faq-commands: 
-      output: true    
+    output: true
+  faq-general:
+    output: true
+  faq-receiver:
+    output: true
+  faq-commands:
+    output: true
   troubleshooting-common:
-      output: true  
+    output: true
   troubleshooting-errors:
-      output: true  
+    output: true
   troubleshooting-bugs:
-      output: true 
+    output: true
   troubleshooting-buttons:
-      output: true 
+    output: true
   troubleshooting-outputs:
-      output: true 
-  commands-introduction: 
-      output: true  
-  commands-variable: 
-      output: true 
-  commands-number: 
-      output: true 
-  commands-string: 
-      output: true
-  commands-array: 
-      output: true 
-  commands-object: 
-      output: true 
-  commands-date-time: 
-      output: true 
+    output: true
+  commands-introduction:
+    output: true
+  commands-variable:
+    output: true
+  commands-number:
+    output: true
+  commands-string:
+    output: true
+  commands-array:
+    output: true
+  commands-object:
+    output: true
+  commands-date-time:
+    output: true
   commands-mouse-kb:
-      output: true
-  commands-statements: 
-      output: true 
-  commands-wait: 
-      output: true 
-  commands-trigger: 
-      output: true       
-  commands-file-general: 
-      output: true
-  commands-file-ini: 
-      output: true
-  commands-file-csv: 
-      output: true
-  commands-twitch-info: 
-      output: true
-  commands-twitch-chat: 
-      output: true 
-  commands-twitch-chpr: 
-      output: true
-  commands-twitch-polls: 
-      output: true
-  commands-twitch-moderation: 
-      output: true
-  commands-twitch-misc: 
-      output: true             
-  commands-youtube: 
-      output: true
-  commands-buffer: 
-      output: true
-  commands-sounds: 
-      output: true
-  commands-button: 
-      output: true
-  commands-misc: 
-      output: true
-  commands-obs-general: 
-      output: true 
-  commands-obs-filters: 
-      output: true 
-  commands-obs-media: 
-      output: true 
-  commands-obs-motion: 
-      output: true 
-  commands-obs-recording: 
-      output: true 
-  commands-obs-scenes: 
-      output: true 
-  commands-obs-sources: 
-      output: true 
-  commands-obs-streaming: 
-      output: true 
-  commands-obs-transitions: 
-      output: true 
+    output: true
+  commands-statements:
+    output: true
+  commands-wait:
+    output: true
+  commands-trigger:
+    output: true
+  commands-file-general:
+    output: true
+  commands-file-ini:
+    output: true
+  commands-file-csv:
+    output: true
+  commands-twitch-info:
+    output: true
+  commands-twitch-chat:
+    output: true
+  commands-twitch-chpr:
+    output: true
+  commands-twitch-polls:
+    output: true
+  commands-twitch-moderation:
+    output: true
+  commands-twitch-misc:
+    output: true
+  commands-youtube:
+    output: true
+  commands-buffer:
+    output: true
+  commands-sounds:
+    output: true
+  commands-button:
+    output: true
+  commands-misc:
+    output: true
+  commands-obs-general:
+    output: true
+  commands-obs-filters:
+    output: true
+  commands-obs-media:
+    output: true
+  commands-obs-motion:
+    output: true
+  commands-obs-recording:
+    output: true
+  commands-obs-scenes:
+    output: true
+  commands-obs-sources:
+    output: true
+  commands-obs-streaming:
+    output: true
+  commands-obs-transitions:
+    output: true
