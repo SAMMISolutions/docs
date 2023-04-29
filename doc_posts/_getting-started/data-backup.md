@@ -8,11 +8,22 @@ type: fullpage
 ---
 
 #### Auto Update SAMMI
-SAMMI comes with an auto-updater that allows you to update or verify SAMMI Core, SAMMI Deck and Bridge. While SAMMI is running, right-click on the SAMMI icon in your system tray and select `Check for Updates`. 
-
-If there are updates available, you will be able to update or verify the SAMMI components to make sure you are on the latest version. 
+**To check for new versions of SAMMI Core, follow these steps**:
+1. Open SAMMI Core and navigate to "SAMMI-Settings."
+2. Select "Check for Updates."
+3. If updates are available, a popup will appear asking if you would like to update now.
+4. Click "Yes" to initiate the SAMMI Updater, which will automatically update all components and restart SAMMI Core. The update process is now complete!
 
 {% include image.html w="75" src="updater.png" alt="SAMMI Updater" %}
+
+**If you wish to update or downgrade specific components, you can do so by manually launching the SAMMI Updater**:
+1. Go to the SAMMI folder on your computer and locate the "SAMMI Updater" subfolder.
+2. Double-click on "SAMMI Updater.exe" to open the updater.
+3. A menu will be displayed, allowing you to choose whether to update or downgrade a component.
+4. If you choose to downgrade a component, you will have the option to select the version to which you want to revert.
+
+{% include alert.html text="Please be aware that the SAMMI Updater should be run with administrative privileges. You may be prompted to run it as an administrator when updating from SAMMI Core.
+" type="warning" %} 
 
 #### Back up your data
 SAMMI is a self contained app in the SAMMI folder, you do not go through the process of installing it like with other apps.
