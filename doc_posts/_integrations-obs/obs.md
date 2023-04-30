@@ -39,7 +39,6 @@ To connect SAMMI to OBS Websocket, follow these steps in SAMMI:
    - `Password`: The password for OBS Websocket authorization. Leave empty unless "Enable Authorization" is checked in OBS > Tools > OBS Websocket Settings. Passwords must match.
    - `Auto Connect`: Check this option if you want SAMMI to automatically connect to OBS Websocket on launch.
    - `Non-Blocking`: Keep this option checked unless you have trouble connecting to OBS Websocket.
-
    {% include image.html w="75" src="obs_connection.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
 3. Click **Connect**. The `OBS Main` indicator should turn from red to green in SAMMI.
 
