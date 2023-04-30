@@ -21,13 +21,6 @@ You should be able to run SAMMI on Linux and MacOs using [Wine](https://www.wine
 
 Wish to have early-access to all our beta versions? You can become our [Patron](https://www.patreon.com/sammidevs)! 
 
-### Updating
-Updating SAMMI can be done via the in-app updater. Click 'Settings' and then 'Check for Updates'.  
-
-{% include image.html w="75" src="updater.png" alt="SAMMI Updater" %}
-
-Alternatively, you can download the latest version of the entire SAMMI package from our [SAMMI Itch Page](https://sammisolutions.itch.io/sammi) and replace both `SAMMI Core.exe` and `data.win` files in your SAMMI folder.
-
 ### Dependencies
 
 **OBS Studio**     
