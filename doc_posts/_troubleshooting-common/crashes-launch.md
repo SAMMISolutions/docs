@@ -1,5 +1,5 @@
 ---
-title: Crashes On Launch/SAMMI Core Doesn't Start
+title: "Launch Issues: SAMMI Core Fails to Start"
 num: 1
 ---
 
@@ -12,10 +12,6 @@ Make a backup of your `decks_data.json` file, then rename `decks_data_old.json` 
 
 **Faulty sound drivers**\
 You can try [reinstalling your sound drivers](https://support.microsoft.com/en-us/windows/fix-sound-problems-in-windows-10-73025246-b61c-40fb-671a-2535c7cd56c8).
-
-**Incompatible versions between SAMMI Core and SAMMI Deck**\
-You may have a newer version of the SAMMI Deck compared to SAMMI. Close all connections to SAMMI (OBS, SAMMI Deck) and restart SAMMI, then update it to the latest version.\
-If the crash persists, you can also save the 'json' folder in your SAMMI folder to a different location, then delete the folder. Restart (or download a new copy of) SAMMI, then update your SAMMI to the latest version. After doing so and verifying that it no longer crashes, copy the json back into your SAMMI folder. 
 
 **Run SAMMI Core in Compatibility Mode**\
 You can try right-clicking the `Sammi Core.exe` file and selecting 'Troubleshoot'. You can also select the option to run `SAMMI Core.exe` in Windows 8 Compatibilty mode. 

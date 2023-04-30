@@ -7,45 +7,33 @@ permalink: /download
 type: fullpage
 ---
 
-### SAMMI Core, Bridge and Deck
+### How to Download SAMMI
 
-When you download SAMMI, it comes with SAMMI Core, Bridge and SAMMI Deck for PC. You can download an Android Deck from [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck).
-{% include alert.html type="warning" text="Android Deck was not made by the SAMMI Devs, and is utilising program code written and developed by Lioran for LioranBoard." %} 
+When you download SAMMI, the package includes SAMMI Core, SAMMI Bridge, SAMMI Panel, and SAMMI Voice.
 
-SAMMI Core is only fully supported on Windows 10 and above, support for other platforms is coming!
+Please note that SAMMI Core is fully supported on Windows 10 and later versions.  
 
-You should be able to run SAMMI on Linux and MacOs using [Wine](https://www.winehq.org/), however we cannot guarantee its functionality and do not provide any technical support at this time. 
-*If you do use Wine, it will also need to be running Windows 10 and above*.
+While it may be possible to run SAMMI on Linux and macOS using [Wine](https://www.winehq.org/), we cannot guarantee full functionality and do not offer technical support for this setup. If you choose to use Wine, ensure that it is configured to emulate Windows 10 or later.
 
 <iframe frameborder="0" src="https://itch.io/embed/1701438?dark=true" width="552" height="167"><a href="https://sammisolutions.itch.io/sammi">SAMMI by SAMMI</a></iframe>
 
-Wish to have early-access to all our beta versions? You can become our [Patron](https://www.patreon.com/sammidevs)! 
+For early access to beta versions of SAMMI, consider becoming our [Patron](https://www.patreon.com/sammidevs)!
 
-### Updating
-Updating SAMMI can be done via the in-app updater. Click 'Settings' and then 'Check for Updates'.  
-
-{% include image.html w="75" src="updater.png" alt="SAMMI Updater" %}
-
-Alternatively, you can download the latest version of the entire SAMMI package from our [SAMMI Itch Page](https://sammisolutions.itch.io/sammi) and replace both `SAMMI Core.exe` and `data.win` files in your SAMMI folder.
-
-### Dependencies
+### Required Software
 
 **OBS Studio**     
-SAMMI Core is compatible with OBS Studio. Other streaming software, such as Streamlabs OBS, is not currently supported.  
+SAMMI Core is compatible with OBS Studio. Other streaming software, such as Streamlabs OBS, is not currently supported.
 
 <a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Download OBS Studio</button></a>
   
 **OBS Websocket**       
-This is how SAMMI Core communicates with OBS Studio. 
+OBS Websocket enables communication between SAMMI Core and OBS Studio. SAMMI is compatible with OBS Websocket versions 5.0 and 4.9. However, we highly recommend using OBS Websocket 5.0 with OBS Studio versions 28 and 29, as it is the latest version.  
 
-OBS version 28 has websocket 5.0 built in and SAMMI is fully compatible with it. However, please note that since websocket 5.0 is still very new, some extensions that formerly worked on OBS Websocket 4.9.1 will not work if you use 5.0. 
+OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is no need to install it separately.  
 
-If you are on OBS version 27, you can download OBS Websocket 5.0 **along with** the [OBS Websocket 4.9-compat](https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat) in order to preserve backwards compatibility. However, this means you will need to set up two instances of OBS in SAMMI, one using 5.0 and one using the 4.9-compat version. 
+While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the link below.
 
-For the time being, until you are sure your extensions have been fully updated to use OBS Websocket 5.0, we suggest staying on OBSws 4.9.1.
-
-<a href="https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket</button></a>
-
+<a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket 4.9.1 for OBS 28</button></a>
 
 ### Extensions
-Extensions can be found in our [Extensions](https://sammi.solutions/extensions) section or #releases channel in our **[Discord](https://discord.gg/dXez8Zh)** server!
+You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server!

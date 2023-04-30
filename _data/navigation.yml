@@ -144,13 +144,13 @@ main:
       collection: faq-commands
 - name: Troubleshooting
   submenus: 
-    - name: Buttons & Commands
-      link: troubleshooting/buttons
-      collection: troubleshooting-buttons
     - name: Common Issues
       link: troubleshooting/common
       collection: troubleshooting-common
-    - name: Error Messages on Crash
+    - name: Buttons & Commands
+      link: troubleshooting/buttons
+      collection: troubleshooting-buttons      
+    - name: Crash Errors
       link: troubleshooting/errors
       collection: troubleshooting-errors
     - name: Recording Outputs

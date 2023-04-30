@@ -8,32 +8,35 @@ notoc: true
 type: fullpage
 ---
 
-<p class="lb-lead">SAMMI is a fully customizable Streaming Assistant that lets your <b>Twitch</b> and <b>YouTube Live</b> audience control and interact with your stream. </p>
+<p class="lb-lead">SAMMI is a versatile Streaming Assistant designed to enhance interactivity between streamers and their <b>Twitch</b> and <b>YouTube Live</b> audiences.</p>
 
-It is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/) which can remotely control your [OBS Studio](https://obsproject.com/).
+SAMMI is fully compatible with [OBS Websocket](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/), allowing you to remotely control [OBS Studio](https://obsproject.com/).
 
-{% include alert.html text="OBS Websocket is natively integrated in OBS 28 or later versions" type="success" %} 
+{% include alert.html text="OBS Websocket is natively integrated in OBS 28 and later versions." type="success" %} 
 
-You can easily create buttons for the most basic things, such as automatic scene switching and custom alerts. However, once you get more familiar with the software, whole new possibilites will open up for you. 
+With SAMMI, you can create simple buttons for tasks like scene switching and custom alerts. As you become more proficient with the software, you'll discover a wealth of advanced possibilities.
 
-SAMMI Core itself works like a simple programming language. It has variables, operators, arrays, objects, string and number methods, If and Else statements, loops, async/await commands and much more.
+SAMMI Core functions like a programming language, offering variables, operators, arrays, objects, string and number methods, conditional statements, loops, async/await commands, and more.
 
-#### Connection to Twitch
+#### Twitch Integration
 
-SAMMI Core can listen to Twitch alerts and chat messages, send chat messages, edit your channel point rewards and fully control your Twitch Stream via Twitch API. 
+SAMMI Core integrates with Twitch, enabling you to listen to alerts and chat messages, send chat messages, manage channel point rewards, and control your Twitch stream via the Twitch API.
 
-#### Connection to YouTube Live
+#### YouTube Live Integration
 
-SAMMI Core can listen to YouTube Live events and control your live stream! Find out more in
-[Integrations - YouTube]({{ "integrations/youtube" | relative_url }})
+SAMMI Core integrates with YouTube Live, allowing you to listen to live events and manage your live stream. Learn more in [Integrations - YouTube]({{ "integrations/youtube" | relative_url }}).
 
-#### Connection to OBS Studio
+#### OBS Studio Integration
 
-SAMMI Core can directly connect to OBS Websocket to control your OBS Studio. You can start/stop streaming, switch scenes, change source settings, control media, animate your sources, toggle filters and much more. 
+SAMMI Core connects directly to OBS Websocket, giving you control over OBS Studio. Start/stop streaming, switch scenes, modify source settings, control media, animate sources, toggle filters, and more.
+
+#### Voice Control
+
+SAMMI Voice is a component that enables voice-activated control of SAMMI. Automate buttons with simple voice commands!
 
 #### Extensions
 
-If all of the above is not enough for your needs, SAMMI Core also supports community made JavaScript extensions through the SAMMI Bridge, which can greatly extend its functionality, such as controlling other apps and services directly from your stream. Some of our extensions allow for direct SAMMI interaction with:
+For even greater functionality, SAMMI Core supports community-created JavaScript extensions via SAMMI Bridge. These extensions allow you to interact with other apps and services, including:
 - Ko-Fi
 - Twitter
 - Spotify
@@ -42,6 +45,6 @@ If all of the above is not enough for your needs, SAMMI Core also supports commu
 - foobar
 - Discord
 - Heat Map Twitch extension
-- and many more! 
+- and more!
 
-A full list of SAMMI extensions can be found in [Extensions](https://sammi.solutions/extensions) and in our [Discord Server](https://discord.gg/dXez8Zh)! 
+Explore the full list of SAMMI extensions in [Extensions](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.gg/dXez8Zh)!

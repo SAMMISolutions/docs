@@ -22,8 +22,11 @@ type: fullpage
 3. A menu will be displayed, allowing you to choose whether to update or downgrade a component.
 4. If you choose to downgrade a component, you will have the option to select the version to which you want to revert.
 
-{% include alert.html text="Please be aware that the SAMMI Updater should be run with administrative privileges. You may be prompted to run it as an administrator when updating from SAMMI Core.
-" type="warning" %} 
+{% include alert.html text="You may be prompted to run SAMMI Updater as an administrator." type="warning" %} 
+
+**Missing SAMMI Updater in your SAMMI folder?**  
+You can download the newest SAMMI Updater from [SAMMI Github repository](https://github.com/SAMMISolutions/SAMMI-Official/raw/main/download/SAMMI%20Updater.zip).
+Place the whole SAMMI Updater folder in your SAMMI folder and run SAMMI Updater.exe to update SAMMI.
 
 #### Back up your data
 SAMMI is a self contained app in the SAMMI folder, you do not go through the process of installing it like with other apps.
