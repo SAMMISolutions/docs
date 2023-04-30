@@ -61,8 +61,10 @@ You can remotely control OBS Studio using [SAMMI OBS commands]({{ "commands/obs-
 3. Click on the <i class="fas fa-plus-circle"></i> icon and add your desired OBS command(s). Examples include:
   - Switch to previous scene
     {% include image.html w="75" src="obs-switch-scenes.png" alt="Switch to previous scene" %}
+    
   - Change text in your Text (GDI+) source in OBS
     {% include image.html w="75" src="obs-gdi-text.png" alt="Change text in your Text (GDI+) source" %}
+    
   - Change position of a source
     {% include image.html w="75" src="obs-source-position.png" alt="Change source position" %}
 
