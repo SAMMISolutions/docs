@@ -13,7 +13,7 @@ SAMMI interacts with OBS Studio through OBS Websocket (OBSWS), enabling remote c
 
 SAMMI is compatible with OBS Websocket versions 5.0 and 4.9. However, we highly recommend using OBS Websocket 5.0 with OBS Studio versions 28 and 29, as it is the latest version.   
 
-OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is no need to install it separately.  
+OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so **there is no need to install it separately**.  
 
 While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the link below.
 
