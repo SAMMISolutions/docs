@@ -13,7 +13,7 @@ SAMMI can listen to all OBS events provided by OBS Websocket.
 2. Click on the **+** button and select **OBS Trigger**.
 3. Choose the **Update Type**. This is important depending on which OBS websocket version you are using.
 4. Choose which OBS the trigger applies to (only if using multiple OBS)
-5. Optionally you can right click on a button - **Edit Settings** and check  `Add to Request Queue`, which acts as a button queue. If there is another trigger event while the button is still active, it will place is in the queue and reactivate the button as soon as it's ready again.
+5. Optionally you can right click on a button - **Edit Settings** and check  `Add to Request Queue`, which acts as a button queue. If there is another trigger event while the button is still active, it will place it in the queue and reactivate the button as soon as it's ready again.
 <br>
 
 #### Retrieve OBS trigger event values
