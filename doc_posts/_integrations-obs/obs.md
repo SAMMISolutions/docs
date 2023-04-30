@@ -31,6 +31,9 @@ If you are using OBS Studio version 28 or higher, you do not need to install OBS
 To connect SAMMI to OBS Websocket, follow these steps in SAMMI:
 
 1. Click on **OBS Connections** in the bottom menu.
+    {% include image.html w="75" src="obs_connection.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
+    
+{:start="2"}
 2. Enter the following information:
    - `Name`: The name of your OBS instance. The first OBS instance will always be named "Main" and cannot be changed.
    - `Protocol`: Select the protocol used by your OBS Websocket (OBSws4 or OBSws5).
@@ -39,8 +42,6 @@ To connect SAMMI to OBS Websocket, follow these steps in SAMMI:
    - `Password`: The password for OBS Websocket authorization. Leave empty unless "Enable Authorization" is checked in OBS > Tools > OBS Websocket Settings. Passwords must match.
    - `Auto Connect`: Check this option if you want SAMMI to automatically connect to OBS Websocket on launch.
    - `Non-Blocking`: Keep this option checked unless you have trouble connecting to OBS Websocket.
-
-   {% include image.html w="75" src="obs_connection.png" alt="OBSWS settings in SAMMI and OBS must match" type="image" %}
 3. Click **Connect**. The `OBS Main` indicator should turn from red to green in SAMMI.
 
 <hr>
@@ -59,15 +60,16 @@ You can remotely control OBS Studio using [SAMMI OBS commands]({{ "commands/obs-
 
 1. Go to an existing deck in SAMMI or click on `Add a new deck`.
 2. Right-click on an empty grid and select `Create Button`.
-3. Click on the <i class="fas fa-plus-circle"></i> icon and add your desired OBS command(s). Examples include:
-  - Switch to previous scene
-    {% include image.html w="75" src="obs-switch-scenes.png" alt="Switch to previous scene" %}
-  - Change text in your Text (GDI+) source in OBS
-    {% include image.html w="75" src="obs-gdi-text.png" alt="Change text in your Text (GDI+) source" %}
-  - Change position of a source
-    {% include image.html w="75" src="obs-source-position.png" alt="Change source position" %}
+3. Click on the <i class="fas fa-plus-circle"></i> icon and add your desired OBS command(s). Examples include:  
 
-    {% include alert.html text="You can combine OBS commands with other SAMMI commands to create complex logic." type="info" %} 
+  - Switch to previous scene
+      {% include image.html w="75" src="obs-switch-scenes.png" alt="Switch to previous scene" %}  
+  - Change text in your Text (GDI+) source in OBS
+      {% include image.html w="75" src="obs-gdi-text.png" alt="Change text in your Text (GDI+) source" %}  
+  - Change position of a source
+      {% include image.html w="75" src="obs-source-position.png" alt="Change source position" %}
+
+{:start="4"}
 4. Click "Save" in the edit button screen and then click "Save" again in your deck. This step is crucial to save your button.
 5. Press the button in your SAMMI Deck while connected to OBS to execute the command(s).
 
