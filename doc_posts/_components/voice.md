@@ -23,7 +23,7 @@ Once you have Microsoft Speech Recognition set up and trained, open up SAMMI Cor
 
 If SAMMI Voice is running on the same system as SAMMI Core, you will not need to change the default IP address of `127.0.0.1`. If it is on a different system, use the IP address of the PC where your SAMMI Core is running from.
 
-The port number should not be altered, except in some very small cases. SAMMI Voice uses the port for in your local API settings of 9450.
+The port number should not be altered, except in some very small cases. SAMMI Voice uses the port in your local API settings of 9450.
 
 The password for SAMMI Voice is optional. If you do want to set a password, ensure that you set it so it matches the `Password` field in your SAMMI Core settings for your local API. 
 
@@ -33,7 +33,7 @@ If you want SAMMI Voice to immediately start listening when you open SAMMI Voice
 
 If you want SAMMI Voice to minimise to the System Tray when you close the window, tick the 'Minimize only to SysTray checkbox. 
 
-If you want SAMMI Voice to show a confirmatin dialog box when you close the window, tick the 'Closing Confirmation' checkbox.
+If you want SAMMI Voice to show a confirmation dialog box when you close the window, tick the 'Closing Confirmation' checkbox.
 
 ### Triggers
 The Triggers tab for SAMMI Voice is where you list all the triggers you want to use to trigger your SAMMI buttons. Each line represents a different trigger that can be used on your buttons.
