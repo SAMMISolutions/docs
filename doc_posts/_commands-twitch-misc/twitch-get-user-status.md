@@ -16,6 +16,6 @@ Available status types:
 |-------|--------|--------
 |Channel|Dropdown|Twitch channel to get a user's status for. This can be left empty.
 |User Name|String|User Name of the user to get the status for.
-|Type|Dropdown|Name of the variable to save the response as.
+|Type|Dropdown|Use the dropdown menu to choose the status type.
 |Save Variable As|String|Name of the variable to save the response as.
 {:class='table table-primary'}
