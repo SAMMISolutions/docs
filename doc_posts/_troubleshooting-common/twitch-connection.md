@@ -1,6 +1,6 @@
 ---
 title: Twitch Connection
-num: 4
+num: 5
 ---
 
 #### Resolving ERR_BADAUTH Error

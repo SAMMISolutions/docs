@@ -1,6 +1,6 @@
 ---
 title: OBS Connection
-num: 3
+num: 4
 ---
 
 To connect and control OBS, SAMMI uses the OBS WebSocket add-on. If you encounter issues connecting SAMMI to OBS Websockets, try the following troubleshooting steps:

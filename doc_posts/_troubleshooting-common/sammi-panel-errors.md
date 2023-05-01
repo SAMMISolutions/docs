@@ -1,6 +1,6 @@
 ---
 title: SAMMI Panel Connection
-num: 5
+num: 6
 ---
 
 If you click 'Connect' in your SAMMI Panel and nothing happens, this indicates that a successful connection to SAMMI Core has not been established. The following are potential reasons for the lack of connection and their respective solutions:
