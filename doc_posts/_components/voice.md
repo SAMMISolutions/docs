@@ -35,6 +35,10 @@ If you want SAMMI Voice to minimise to the System Tray when you close the window
 
 If you want SAMMI Voice to show a confirmation dialog box when you close the window, tick the 'Closing Confirmation' checkbox.
 
+If you want SAMMI Voice to create a file to display the recognised results and their confidence level (accuracy), tick the 'Create Recognition Logfile' checkbox.
+
+You can adjust what confidence level (accuracy) that SAMMI Voice sends the trigger to SAMMI by changing the value in the 'Confidence Level' dropdown.
+
 ### Triggers
 The Triggers tab for SAMMI Voice is where you list all the triggers you want to use to trigger your SAMMI buttons. Each line represents a different trigger that can be used on your buttons.
 
