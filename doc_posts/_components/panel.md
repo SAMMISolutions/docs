@@ -11,7 +11,7 @@ The SAMMI Panel is where you load your decks containing buttons that you previou
 
 {% include image.html w="75" src="panel.png" alt="SAMMI Panel showing an example deck with buttons" %}
 
-SAMMI Panel now comes with with both a desktop app for use on your PC, as well as a web browser version that can be accessed here: INSERT URL.
+SAMMI Panel now comes with with both a desktop app for use on your PC, as well as a web browser version that can be accessed at [http://sammipanel.solutions](http://sammipanel.solutions)
 
 ### Panel Setup
 The desktop version of SAMMI Panel can be found in the `SAMMI/SAMMI Panel` folder. You can also open it by pressing SAMMI Panel button in the main menu in SAMMI. If you do not have SAMMI Panel for any reason, navigate to SAMMI Core - Settings - Check for Updates and press Download. You can manually download it from our Itch page as well: [https://sammisolutions.itch.io/sammi](https://sammisolutions.itch.io/sammi).
