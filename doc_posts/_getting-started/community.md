@@ -68,6 +68,3 @@ Have you made your own extension and would like to share it with the rest of the
 ### Report a bug
 Found a bug? The fastest way to report a bug is to let us know via Discord! If a bug is causing your SAMMI Core to crash, you can also send us a crash log by clicking 'Yes' and entering a comment in the crash log pop-up that appears after the crash.
 
-## Content Creators <span class="badge bg-warning text-dark">Under construction</span>
-Watch videos from members of the SAMMI community to give you tips and tricks on how to use SAMMI.
-
