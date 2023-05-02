@@ -62,27 +62,52 @@ Allows you to adjust general SAMMI settings.
 
 {% include image.html w="50" src="settings.png" alt="Settings" %}
 
-- **Deck and Bridge settings** - modify connection settings for Bridge
-- **Minimize to Tray** - when checked, SAMMI Core will minimize to tray instead of closing when you press X
-- **Remember window size and position** - when checked, SAMMI will automatically remember its window position and size between restarts (please note SAMMI has no control over your monitors and will always open on your default monitor)
-- **Auto restart SAMMI after crash** - when checked, SAMMI will re-open itself after a crash
-- **Automatically check for new updates** - when checked, SAMMI will let you know if there are updates available when you open SAMMI, with the option to not remind you for a few days
-- **Automatically send non crash error logs** - when checked, SAMMI will automatically submit any errors that occur while it is running that would normally lead to SAMMI crashing. Instead you get a yellow alert and can continue using SAMMI as normal. This is an experimental feature being currently used in some of SAMMI scripts. 
-- **Automatically close variable wrapping** - when checked, SAMMI will automatically write the `$/` when you type `/$` with nothing to the right of the cursor
-- **Enable enhanced protection mode** - when checked, SAMMI will not be allowed to modify or delete files outside of the main SAMMI directory, nor any critical files inside its own directory.
-- **Open Local API Server** - whether you wish to open SAMMI's [Local API server]({{ "api/overview" | relative_url }})
-- **FPS** - SAMMI Core is technically a game and runs at specific FPS, which, for example, affects Motion Commands for OBS. Should be the same as your stream FPS. 
-- **Language** - dropdown to change the language of SAMMI
-- **Interface Size** - change scaling if you're using a non standard resolution
-- **Reset SAMMI** - clears all running buttons and variables and reloads all decks
-- **Check for Updates** - checks for new updates, allows you to update SAMMI and view patch notes
+#### General Settings
+- **Minimize to Tray**: When enabled, SAMMI Core will be minimized to the system tray rather than closing when the "X" button is clicked.
+- **Remember window size and position**: When enabled, SAMMI will remember its window size and position between sessions (note that SAMMI cannot control monitor selection and will always open on the default monitor).
+- **Auto restart SAMMI after crash**: When enabled, SAMMI will automatically relaunch itself in the event of a crash.
+- **Automatically check for new updates**: When enabled, SAMMI will notify you of available updates upon launch, with an option to postpone reminders for a few days.
+- **Automatically send non-crash error logs**: When enabled, SAMMI will automatically report errors that would typically cause a crash. Instead, you will receive a yellow alert and can continue using SAMMI normally. This experimental feature is currently used in some SAMMI scripts.
+- **Automatically close variable wrapping**: When enabled, SAMMI will automatically insert `$/` when you type `/$` with no text to the right of the cursor.
+- **Enable enhanced protection mode**: When enabled, SAMMI will be restricted from modifying or deleting files outside the main SAMMI directory and critical files within its own directory.
+
+#### SAMMI Bridge and Deck Settings
+- **Port** (read-only): The current port used by SAMMI to connect to Bridge/SAMMI Deck. Modifying port numbers is strongly discouraged, but it can be done by editing the `streamdeck_port` key in the `settings.ini` file.
+- **Password**: The current password for connections from Bridge/SAMMI Deck. If you change the password here, update it in Bridge/SAMMI Deck as well.
+
+#### SAMMI Panel Settings
+- **Port** (read-only): The current port used by SAMMI to connect to SAMMI Panel. Modifying port numbers is strongly discouraged, but it can be done by editing the `panel_port` key in the `settings.ini` file.
+- **Password**: The current password for connections from SAMMI Panel. If you change the password here, update it in SAMMI Panel as well.
+
+#### SAMMI Local API Settings
+- **Open Local API Server**: Choose whether to open SAMMI's [Local API server]({{ "api/overview" | relative_url }}).
+- **Port** (read-only): The current port used by SAMMI for Local API, Webhooks, and SAMMI Voice. Modifying port numbers is strongly discouraged, but it can be done by editing the `api_server_port` key in the `settings.ini` file.
+- **Password**: The current password for API calls, Webhooks, or SAMMI Voice connections to SAMMI. If you change the password here, update it in any custom creations using Local API and SAMMI Voice as well.
+
+#### Language Settings
+- **Language**: Dropdown menu to select SAMMI's language.
+- **Download Languages**: Download updated language files (automatically done when updating SAMMI).
+
+#### UI Settings
+- **FPS**: SAMMI Core functions like a game and runs at a specific FPS, affecting features like OBS Motion Commands. Set this to match your stream FPS.
+- **Interface Size**: Adjust the scaling for non-standard resolutions.
+
+#### Other Settings
+- **Reset SAMMI**: Clears all active buttons and variables and reloads all decks.
+- **Check for Updates**: Checks for updates, allows you to update SAMMI, and view patch notes.
+
+#### Resetting SAMMI and Developer Mode
+Clicking the "Reset SAMMI" button will reset all active buttons and their variables. Clicking it 10 times will enable developer mode in SAMMI.
+
+#### Updates
+Clicking "Check for Updates" allows you to check for available updates for SAMMI components. Clicking "View Patch Notes" allows you to view the patch notes for the latest version.
+
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported.\
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 {% include image.html w="50" src="obs_connection.png" alt="OBS Connections" %}
-
 
 ### Twitch Connections
 Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.\
