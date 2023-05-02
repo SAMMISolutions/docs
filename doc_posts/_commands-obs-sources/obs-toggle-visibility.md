@@ -16,4 +16,4 @@ Toggles the visibility of a source. If the source is visible it's turn off and v
 |Source Name|	String|	Source name. Select from the menu or type manually. 
 {:class='table table-primary'}
 
-{% include example_public.html src="https://i.imgur.com/FV2rq3Z.png" size="100" title="Toggle source visibility" pastebin="bhbqhRuy" %}  
+{% include example_public.html src="/assets/images/commands-obs-sources/obsTogVis_Ex.png" size="100" title="Toggle source visibility" pastebin="bhbqhRuy" %}  

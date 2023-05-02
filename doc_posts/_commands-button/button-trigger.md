@@ -17,7 +17,7 @@ If the button ID does not exist, sends an extension trigger instead.
 |Queueable|	checkbox	| If checked and the button is already activated, it will wait for it to finish and trigger the button again. Will get queued as many times as you execute the command. <br/> If unchecked and the button is already activated, nothing will happen.
 {:class='table table-primary'}
 
-{% include example_public.html src="https://i.imgur.com/5DoZWxU.png" size="100" title="Auto-trigger a button to send messages in chat" pastebin="rJrMeWFs" %}
+{% include example_public.html src="/assets/images/commands-button/buttonTrig_Ex.png" size="100" title="Auto-trigger a button to send messages in chat" pastebin="rJrMeWFs" %}
 
 
 

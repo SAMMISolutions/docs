@@ -51,7 +51,7 @@ Save Variable As (optional)|	String	|Name of a variable to save the data under.
 |First source name in a specified scene|<code class="user-select-all">{"op":6,"d":{<br />"requestType":"GetSceneItemList",<br />"requestData":{"sceneName":"YOUR SCENE NAME"}<br />}}</code>|responseData.sceneItems[0].sourceName|
 {:class='table table-secondary w-auto table-responsive table-hover text-break' }
 
-{% include example_public.html src="https://i.imgur.com/IH9L1VE.png" size="100" title="Add 1 to Text GDI+ Source (OBSws 4)" pastebin="ccUwx1GE" %}
+{% include example_public.html src="/assets/images/commands-obs-general/obsReq_Ex.png" size="100" title="Add 1 to Text GDI+ Source (OBSws 4)" pastebin="ccUwx1GE" %}
 
 
 

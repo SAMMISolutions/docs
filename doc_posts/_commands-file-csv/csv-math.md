@@ -18,7 +18,7 @@ Execute math on columns/rows in your CSV.
 |Variable Name|String|Variable name to save the result.
 {:class='table table-primary'}
 
-{% include image.html w="100" src="cvs_math.png" alt="CSV example with 5 columns and 3 rows" %}
+{% include image.html w="100" src="csvMath.png" alt="CSV example with 5 columns and 3 rows" %}
 
 |Orientation|Column/Row Name/Number|Operator|Result|
 |-------|--------|--------|--------

@@ -11,4 +11,4 @@ permalink: templates/example-command-simple
 <!-- pastebin = the pastebin unique ID, NOT the whole url, i.e. https://pastebin.com/HVRnqeJx will be just HVRnqeJx -->
 <!-- If you're NOT including pastebin, delete the pastebin="X" key completely -->
 <!-- Do not change anything else -->
-{% include example_public.html src="https://i.imgur.com/zsxdHym.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" desc=description %} 
+{% include example_public.html src="/assets/images/templates/example_command_simple.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" desc=description %} 

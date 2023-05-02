@@ -18,7 +18,7 @@ Note that the file path uses a forward slash instead of the Windows default back
 |File Path|String|File path to save to. Accepts both relative and absolute path.
 {:class='table table-primary'}
 
-{% include example_public.html src="https://i.imgur.com/pqisayY.png" size="100" title="Save CSV file to default category" pastebin="mCDFXQJG" %}
+{% include example_public.html src="/assets/images/commands-file-csv/csvSave_Ex.png" size="100" title="Save CSV file to default category" pastebin="mCDFXQJG" %}
 
 
 

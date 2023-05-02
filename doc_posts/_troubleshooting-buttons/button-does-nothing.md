@@ -42,7 +42,7 @@ Your button not triggering at all could have three causes: either your button's 
 |OBS trigger | If you can’t connect or it disconnects every time, check Common Issues in Troubleshooting. |
 {:class='table table-primary' }
 
-{% include image.html w="100" src="https://i.imgur.com/X8pE68j.png" alt="Communication between Twitch and SAMMI" type="image" external="true" %}
+{% include image.html w="100" src="/assets/images/troubleshooting-buttons/btnDoNothing.png" alt="Communication between Twitch and SAMMI" type="image" external="true" %}
 
 *Check whether the button is being blocked*
 

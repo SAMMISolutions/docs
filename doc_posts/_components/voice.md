@@ -19,7 +19,7 @@ As SAMMI Voice uses Microsoft Speech Recognition, first you will have to ensure 
 Once you have Microsoft Speech Recognition set up and trained, open up SAMMI Core and click on SAMMI Voice on the left side of the window.
 
 ### SAMMI Connection and Settings
-{% include image.html w="75" src="https://i.imgur.com/dk6Uw1O.png" alt="Settings window for SAMMI Voice" external="true" %}
+{% include image.html w="75" src="voice.png" alt="Settings window for SAMMI Voice" external="true" %}
 
 If SAMMI Voice is running on the same system as SAMMI Core, you will not need to change the default IP address of `127.0.0.1`. If it is on a different system, use the IP address of the PC where your SAMMI Core is running from.
 
@@ -27,7 +27,7 @@ The port number should not be altered, except in some very small cases. SAMMI Vo
 
 The password for SAMMI Voice is optional. If you do want to set a password, ensure that you set it so it matches the `Password` field in your SAMMI Core settings for your local API. 
 
-{% include image.html w="75" src="https://i.imgur.com/c9gBzay.png" alt="Local API settings in SAMMI Core" external="true" %}
+{% include image.html w="75" src="voice2.png" alt="Local API settings in SAMMI Core" external="true" %}
 
 If you want SAMMI Voice to immediately start listening when you open SAMMI Voice, tick the 'Listen on Startup' checkbox.
 
@@ -47,7 +47,7 @@ Triggers can only be added when SAMMI Voice is not listening. If you are listeni
 
 Create a button in SAMMI Core, setting the trigger as a 'SAMMI Voice' trigger. Enter `Testing` as the trigger. 
 
-{% include image.html w="75" src="https://i.imgur.com/MEbWdic.png" alt="Creating a voice activated button" external="true" %}
+{% include image.html w="75" src="voice3.png" alt="Creating a voice activated button" external="true" %}
 
 This button will now be triggered when you say `Testing` and for this example, a pop up window will show up with the phrase 'Testing is a success!'
 

@@ -21,4 +21,4 @@ For example, if you set the start value to 10, final value to 0 and duration to 
 |Smooth|Dropdown|None = Normal, Out = Starts out fast and ends slow, In = Starts out slow and ends fast, In/Out= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary' }
 
-{% include example_public.html src="https://i.imgur.com/U4goxFg.png" size="100" title="Simple countdown for GDI+ Text Source in OBS" pastebin="Msgnudug" %}  
+{% include example_public.html src="/assets/images/commands-variable/varTrans_Ex.png" size="100" title="Simple countdown for GDI+ Text Source in OBS" pastebin="Msgnudug" %}  
