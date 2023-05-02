@@ -7,7 +7,7 @@ permalink: /getting-started/data-backup
 type: fullpage
 ---
 
-#### Auto Update SAMMI
+## Auto Update SAMMI
 **To check for new versions of SAMMI Core, follow these steps**:
 1. Open SAMMI Core and navigate to "SAMMI-Settings."
 2. Select "Check for Updates."
@@ -24,11 +24,12 @@ type: fullpage
 
 {% include alert.html text="You may be prompted to run SAMMI Updater as an administrator." type="warning" %} 
 
-**Missing SAMMI Updater in your SAMMI folder?**  
-You can download the newest SAMMI Updater from [SAMMI Github repository](https://github.com/SAMMISolutions/SAMMI-Official/raw/main/download/SAMMI%20Updater.zip).
-Place the whole SAMMI Updater folder in your SAMMI folder and run SAMMI Updater.exe to update SAMMI.
+### Download SAMMI Updater  
+If there is no SAMMI Updater in your SAMMI folder, you can download the newest SAMMI Updater from [SAMMI Github repository](https://github.com/SAMMISolutions/SAMMI-Official/raw/main/download/SAMMI%20Updater.zip).
+Place the whole SAMMI Updater folder in your SAMMI folder and run SAMMI Updater.exe to update SAMMI manually. 
 
-#### Back up your data
+
+## Back up your data
 SAMMI is a self contained app in the SAMMI folder, you do not go through the process of installing it like with other apps.
 This means you can freely copy the whole SAMMI folder to another computer and it will work just the same!
 
