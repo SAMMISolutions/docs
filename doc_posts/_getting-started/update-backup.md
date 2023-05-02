@@ -26,7 +26,7 @@ type: fullpage
 
 ### Download SAMMI Updater  
 If there is no SAMMI Updater in your SAMMI folder, you can download the newest SAMMI Updater from [SAMMI Github repository](https://github.com/SAMMISolutions/SAMMI-Official/raw/main/download/SAMMI%20Updater.zip).\
-Place the whole SAMMI Updater folder in your SAMMI folder and run SAMMI Updater.exe to update SAMMI manually. Read more about manual updates in [Troubleshooting Section](troubleshooting/common#updateproblemsmissingsammiupdater).
+Place the whole SAMMI Updater folder in your SAMMI folder and run SAMMI Updater.exe to update SAMMI manually. Read more about manual updates in [Troubleshooting Section](/troubleshooting/common#updateproblemsmissingsammiupdater).
 
 
 ## Back up your data
