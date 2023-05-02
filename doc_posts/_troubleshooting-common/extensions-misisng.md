@@ -4,7 +4,7 @@ num: 3
 ---
 
 **Bridge was not properly migrated from Transmitter**\
-In certain situations, you may find that some of your installed extensions remain in the `Transmitter/Extensions/installed` directory. However, when updating a bridge to a newer version, SAMMI only attempts to reinstall extensions located in the `Bridge/Extensions/installed` directory. To address this issue, please follow the steps outlined below:
+In certain situations, you may find that some of your installed extensions remain in the `transmitter/Extensions/installed` directory. However, when updating a bridge to a newer version, SAMMI only attempts to reinstall extensions located in the `bridge/Extensions/installed` directory. To address this issue, please follow the steps outlined below:
 
 1. Verify that your chosen bridge is no longer in the `transmitter` directory. To do this, navigate to SAMMI Core > Bridge > Select a Bridge. If the bridge is still in the `transmitter` directory, either select a different bridge file or copy `bridge.html` from the `transmitter` directory to the `bridge` directory and select that one.
 2. Transfer all extension files from the `transmitter/Extensions/installed` directory to the `bridge/Extensions/installed` directory.
