@@ -16,7 +16,7 @@ Similar to async/await in JavaScript. Very useful command to use together with [
 |Timeout After (ms)|Number {% include asterisk.html%}|How long to wait in milliseconds until resuming normal command flow (`0` will wait indefinitely)
 {:class='table table-primary' }
 
-{% include example_public.html src="/assets/images/commands-wait/waitIs_Ex.gif" size="100" title="Modify button when a variable is 0" pastebin="M9xtJJha" %}
+{% include example_public.html src="/docs/assets/images/commands-wait/waitIs_Ex.gif" size="100" title="Modify button when a variable is 0" pastebin="M9xtJJha" %}
 
 
 

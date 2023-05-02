@@ -9,7 +9,7 @@ Retrives a value from a box in an existing CSV file. When retrieving values usin
 
 When you use column/row numbers, keep in mind the numbers begin with 0,0. The left-most column in a CSV file is column 0. The first row below the row of column names is row 0.
 
-{% include image.html w="75" src="csvGetBox.png" alt="CSV columns and rows" external="true" %}
+{% include image.html w="75" src="csvGetBox.png" alt="CSV columns and rows" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

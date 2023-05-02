@@ -16,4 +16,4 @@ Login Name | Dropdown |The name of the channel to use for authentication in the 
 Color|Dropdown|List of the standard colours that Twitch offers for all users.
 {:class='table table-primary'}
 
-{% include example_public.html src="/assets/images/commands-twitch-moderation/twitchSetColor_Ex.png" size="100" title="Button to change Twitch username colour to a specified hex code" pastebin="jcbE1Zz5" %}
+{% include example_public.html src="/docs/assets/images/commands-twitch-moderation/twitchSetColor_Ex.png" size="100" title="Button to change Twitch username colour to a specified hex code" pastebin="jcbE1Zz5" %}

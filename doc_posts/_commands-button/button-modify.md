@@ -19,7 +19,7 @@ If you wish to reset the button back to its default appearance, set the values t
 |Color|color picker|Select new color for the button.
 {:class='table table-primary'}
 
-{% include example_public.html src="/assets/images/commands-button/buttonMod_Ex.gif" size="100" title="Modify colour and text of a button" pastebin="pRqfUXF8" %}
+{% include example_public.html src="/docs/assets/images/commands-button/buttonMod_Ex.gif" size="100" title="Modify colour and text of a button" pastebin="pRqfUXF8" %}
 
 
 

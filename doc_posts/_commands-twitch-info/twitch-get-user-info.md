@@ -38,7 +38,7 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 |created_at|	string|	Date when the user was created.
 {:class='table table-secondary w-auto table-hover' }
 
-{% include example_public.html src="/assets/images/commands-twitch-info/twitchUserInfo_Ex.png" size="100" title="Get a follower's profile picture" pastebin="FcaArEdc" %}
+{% include example_public.html src="/docs/assets/images/commands-twitch-info/twitchUserInfo_Ex.png" size="100" title="Get a follower's profile picture" pastebin="FcaArEdc" %}
 
 
 

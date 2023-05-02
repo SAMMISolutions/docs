@@ -17,4 +17,4 @@ With this command you can save the contents (raw data) of a buffer to a file, re
 
 Example File Path: `/$global.main_directory$/test.txt`
 
-{% include example_public.html src="/assets/images/commands-buffer/bufferSave_Ex.png" size="100" title="Example use of correct File Path in SAMMI folder" %}  
+{% include example_public.html src="/docs/assets/images/commands-buffer/bufferSave_Ex.png" size="100" title="Example use of correct File Path in SAMMI folder" %}  

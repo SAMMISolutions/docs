@@ -18,7 +18,7 @@ Use it together with [Wait For/Until]({{ "commands/wait" | relative_url }}) comm
 |Save Variable As (optional)|String|Variable name to save the result into
 {:class='table table-primary'}
 
-{% include example_public.html src="/assets/images/commands-misc/httpReq_Ex.png" size="100" title="Using HTTP Request to get dad jokes" pastebin="Sk1qXeV8" %}  
+{% include example_public.html src="/docs/assets/images/commands-misc/httpReq_Ex.png" size="100" title="Using HTTP Request to get dad jokes" pastebin="Sk1qXeV8" %}  
 
 
 

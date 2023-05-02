@@ -49,9 +49,9 @@ Want to **add your own button example** to any of the commands in the [Commands]
 1. First you will need a screenshot of the button uploaded to Imgur and [pastebin](https://pastebin.com/) with the button's [imported JSON]({{ "faq/commands#shareabutton" | relative_url }}).
 2. Click on {::nomarkdown}<a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://sammi.solutions/docs/commands/variables#variabletransition" title="Click the button to edit this page!" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>{:/} button for the command you want to add an example to. Maybe you would like to add one to [Variable Transition]({{ "commands/variables#variabletransition" | relative_url }}) command?
 3. If this is your first time editing this website, you must click on <button type="button" class="btn btn-success btn-sm">**Fork the repository**</button>
-4. Use this [very simple template](https://github.com/SAMMISolutions/docs/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="/assets/images/getting-started/community.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
+4. Use this [very simple template](https://github.com/SAMMISolutions/docs/edit/main/templates/example_command_simple.md) which will produce this particular button: {% include example_public.html src="/docs/assets/images/getting-started/community.jpeg" size="50" title="Simple button" pastebin="9HNbNCrN" %}
 {:start="5"}
-1. (optional) Like to experiment? Check out the [advanced template](https://github.com/SAMMISolutions/docs/edit/main/templates/example_command.md) instead which will produce this button:&nbsp;{% include example_public.html src="/assets/images/getting-started/community2.jpeg" size="50" title="Advanced button" pastebin="9HNbNCrN" desc=description %}
+1. (optional) Like to experiment? Check out the [advanced template](https://github.com/SAMMISolutions/docs/edit/main/templates/example_command.md) instead which will produce this button:&nbsp;{% include example_public.html src="/docs/assets/images/getting-started/community2.jpeg" size="50" title="Advanced button" pastebin="9HNbNCrN" desc=description %}
 
 {:start="6"}
 6. Add the code snippet from the template to the very end of the command you're editing on Github!
