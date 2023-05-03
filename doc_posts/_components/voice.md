@@ -14,6 +14,8 @@ SAMMI Voice is a component of SAMMI that allows you to trigger your SAMMI button
 ### Microsoft Speech Recognition
 As SAMMI Voice uses Microsoft Speech Recognition, first you will have to ensure that the Speech Recognition software has been properly set up on your system. For a step by step tutorial on how to set this up, please visit [Microsoft's Support Page](https://support.microsoft.com/en-us/windows/use-voice-recognition-in-windows-83ff75bd-63eb-0b6c-18d4-6fae94050571).
 
+{% include alert.html text="If you want in setup Speech Recognition to Spanish, you should choose 'Spanish (Spain)' as the language. Other options may not work (and it still recognises accents and words from other countries)" type="warning" %} 
+
 {% include alert.html text="It is highly recommended you go through the steps to 'Train your computer to better understand you' so that SAMMI Voice can properly detect your voice and accent when used to trigger buttons. This can be found in the Windows Speech Recognition settings." type="info" %}
 
 Once you have Microsoft Speech Recognition set up and trained, open up SAMMI Core and click on SAMMI Voice on the left side of the window.
