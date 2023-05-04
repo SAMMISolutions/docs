@@ -4,6 +4,7 @@ num: 1.2
 ---
 
 #### Main Window
+
 | Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
@@ -11,6 +12,7 @@ num: 1.2
 {:class='table table-primary table-hover' }
 
 #### Deck Editor Window
+
 | Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
@@ -23,7 +25,9 @@ num: 1.2
 {:class='table table-primary table-hover' }
 
 #### Command Editor Window
+
 As well as the keyboard shortcuts listed below, you can also hover your cursor over any existing command's name and press F1 to open the documentation to that command's info.
+
 | Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
