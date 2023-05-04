@@ -4,14 +4,14 @@ num: 1.2
 ---
 
 #### Main Window
-| Combination | Action
+| Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
 |Ctrl + N|Create a new deck
 {:class='table table-primary table-hover' }
 
 #### Deck Editor Window
-| Combination | Action
+| Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
 |Ctrl + S|Save and exit deck
@@ -23,7 +23,8 @@ num: 1.2
 {:class='table table-primary table-hover' }
 
 #### Command Editor Window
-| Combination | Action
+As well as the keyboard shortcuts listed below, you can also hover your cursor over any existing command's name and press F1 to open the documentation to that command's info.
+| Combination | Action |
 |-------|--------
 |Ctrl + Tab|Open/Close the variable window
 |Ctrl + R|Run the button
