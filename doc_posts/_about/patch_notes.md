@@ -6,6 +6,87 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2023.2.1
+
+====================================
+     SAMMI 2023.2.1 (May 2023)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+Improvements:
+- Updated translations:
+  - French [MisterK]
+  - English (UK) [wolbee]
+  - Spanish [Sebas]
+  - German [Chrizzz]
+- SAMMI now detects when it is running on Wine and displays a warning that non-Windows platforms are not supported [Christina]
+- The Local API server is now enabled by default in all new SAMMI versions to prevent confusion when using SAMMI Voice with the option previously disabled by default [Christina]
+
+Bug Fixes:
+- Variables inside [] brackets are now correctly treated as variables, not text [Chrizzz & Sebas]
+- Saving a variable with "undefined" is now allowed in some commands [Sebas]
+- Resolved a crash on SAMMI launch for Wine users [Christina]
+- The LAN IP is now correctly copied to the clipboard when using "Get LAN IP" on non-English Windows [Christina]
+- Resolved various OBS WebSocket crashes and error messages related to input volume or filter enabled status [Christina]
+- Resolved a bug that concatenated the previous command line result with the latest result (e.g., 'echo Hello' followed by 'echo World' occasionally resulted in 'HelloWorld') [Christina]
+- The Twitch Low Trust trigger now returns the correct trigger number [Christina]
+- Resolved other uncommon crashes, such as those occurring when navigating menus or using the "Get User Info" command [Christina]
+- Fixed GUI issues in the Variable and YouTube window [Silverlink]
+
+Known Bugs:
+- Special characters in SAMMI folder path (like “ö”) might cause some features to malfunction
+
+[SAMMI Voice]
+-------------------------------------
+New Features:
+- Added a new SAMMI Core command, "Voice: Toggle Status," to toggle the status of SAMMI Voice [Chrizzz]
+- Added the "Confidence Level" setting, allowing users to set a minimum accuracy threshold for voice recognition [Chrizzz]
+- Added the "Create Recognition Logfile" setting to display all recognized sentences with their confidence levels [Chrizzz]
+- Added the "Auto import Voice Triggers" setting for automatically importing voice triggers from SAMMI Core [Chrizzz]
+
+Improvements:
+- Added an error log file for improved debugging capabilities [Chrizzz]
+- Added support for Japanese characters [Chrizzz]
+- Implemented automatic filtering of duplicate entries [Chrizzz]
+- Improved trigger organization by implementing alphabetical auto-sorting on startup  [Chrizzz]
+- Updated the settings INI file format to ensure compatibility with SAMMI Core [Chrizzz]
+
+Bug Fixes:
+- Fixed an issue where an error would occur if the trigger lines contained only a space character [Chrizzz]
+
+[SAMMI Panel]
+-------------------------------------
+New Features:
+- Introduced Auto-Connection [Roadie]
+- Added new triggers "SAMMI Panel Connected" and "SAMMI Panel Disconnected" [Christina]
+- Added a new global variable "panel_connected" to check if SAMMI Core is connected to SAMMI Panel [Christina]
+
+Improvements:
+- Improved text fit for buttons [Roadie]
+- Improved button placement and spacing to take up full window [Roadie & Sebas]
+
+Bug Fixes:
+- "Release Press" now triggers when the button is dragged away, not just on finger release [Roadie]
+- "Disconnect Button" now properly closes the connection with SAMMI [Roadie & Christina]
+- Text now breaks only on line breaks saved within SAMMI, preventing inappropriate line breaks [Roadie]
+- The alert now displays 'SAMMI Panel Connected/Disconnected' when SAMMI Panel is connected or disconnected [Christina]
+
+[SAMMI Updater]
+-------------------------------------
+New Features:
+- When extension reinstallation
+fails during the SAMMI Bridge update, a popup message displays the failed extensions (not included in the updated bridge file), and a backup bridge file is created in the bridge/backup folder to prevent data loss [Christina]
+- Added a button to SAMMI Core Settings to manually open SAMMI Updater, allowing users to check for new versions of SAMMI components (SAMMI only checks for new SAMMI Core versions) [Christina]
+
+Improvements:
+- To accommodate users who have not migrated from the Transmitter folder, SAMMI Updater checks both the bridge and transmitter folders for extension files when SAMMI Bridge is being updated. If extensions are missing from the bridge folder but present in the transmitter folder, they are copied to the bridge folder [Christina]
+
+Bug Fixes:
+- Extension files using LF (line feed) are now correctly reinstalled [Christina]
+- The updater no longer silently ignores extensions that fail to reinstall [Christina]
+
+
 #### SAMMI 2023.2.0
 
 SAMMI 2023.2.0 (April 2023):
