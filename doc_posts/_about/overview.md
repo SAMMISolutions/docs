@@ -56,7 +56,7 @@ Thank you all so much for supporting us!
 
 **Contributors**
 
-- SAMMI Core:[SAMMI Dev Team](https://www.patreon.com/sammidevs)
+- SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/sammidevs)
 - SAMMI Panel: [RoadieGamer](https://twitter.com/roadiegamer)
 - SAMMI Voice: [Chrizzz](https://github.com/Chrizzz-1508)
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
