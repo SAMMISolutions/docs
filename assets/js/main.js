@@ -73,27 +73,8 @@ function initPopOver() {
   const popoverList = popoverTriggerList.map((popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl));
 }
 
-// toggle sidebar on mobile devices
-function sideBarToggle() {
-  document.querySelector('.sidebar-toggle').addEventListener('click', () => {
-    document.getElementById('sidebar').classList.remove('hidden-xs');
-    document.getElementById('sidebarwrap').classList.toggle('d-none');
-  });
-}
-
-// refresh scrollspy after loading page
-
-function refreshScrollSpy() {
-  const dataSpyList = [].slice.call(document.querySelectorAll('[data-bs-spy="scroll"]'));
-  dataSpyList.forEach((dataSpyEl) => {
-    bootstrap.ScrollSpy.getInstance(dataSpyEl)
-      .refresh();
-  });
-}
-
 // open all links in new tab
 function openLinksNewTab() {
-  
   const { links } = document;
   for (let i = 0; i < links.length; i++) {
     if (!links[i].href.includes('sammi.solutions')) links[i].target = '_blank';
@@ -109,22 +90,19 @@ function editPasteBin() {
   }
 }
 
-function initDarkModeSwitcher () {
-const e = document.getElementById('DarkModeSwitch');
+function initDarkModeSwitcher() {
+  const e = document.getElementById('DarkModeSwitch');
 
-e.addEventListener('click', () => {
-  document.getElementById('scheme').remove()
-  if (e.checked) {
-    document.head.insertAdjacentHTML('beforeend', '<style id="scheme">:root{color-scheme:dark}</style>');
-    document.documentElement.setAttribute('data-theme', 'dark')
-    window.localStorage.setItem('scheme', 'dark');
-   }
-   else {
-     document.head.insertAdjacentHTML('beforeend', '<style id="scheme">:root{color-scheme:light}</style>');
-     document.documentElement.setAttribute('data-theme', 'light')
-     window.localStorage.setItem('scheme', 'light');
-   }
-
-})
-
-} 
+  e.addEventListener('click', () => {
+    document.getElementById('scheme').remove();
+    if (e.checked) {
+      document.head.insertAdjacentHTML('beforeend', '<style id="scheme">:root{color-scheme:dark}</style>');
+      document.documentElement.setAttribute('data-theme', 'dark');
+      window.localStorage.setItem('scheme', 'dark');
+    } else {
+      document.head.insertAdjacentHTML('beforeend', '<style id="scheme">:root{color-scheme:light}</style>');
+      document.documentElement.setAttribute('data-theme', 'light');
+      window.localStorage.setItem('scheme', 'light');
+    }
+  });
+}

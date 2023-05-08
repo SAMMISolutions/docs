@@ -11,6 +11,9 @@
 <link href="{{ 'assets/css/main.css' | relative_url }}" rel="stylesheet">
 <link href="{{ 'assets/css/content.css' | relative_url }}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" /> 
+{% if page.css %}
+<link href="{{ 'assets/css/' | append: page.css | append: '.css' | relative_url }}" rel="stylesheet">
+{% endif %}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ 'assets/favicon/apple-touch-icon.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="32x32" href="{{ 'assets/favicon/favicon-32x32.png' | relative_url }}">
 <link rel="icon" type="image/png" sizes="16x16" href="{{ 'assets/favicon/favicon-16x16.png' | relative_url }}">
@@ -51,7 +54,7 @@
         <a class="nav-link p-2" target="_blank" href="https://feedback.sammi.solutions/" alt="We want your feedback and suggestions!">Feedback</a>
       </li>
       <li class="nav-item col-6 col-lg-auto">
-        <a class="nav-link p-2 {% if page.title == 'Donate' %} active {% endif %}" href="https://sammi.solutions/donate">Donate</a>
+        <a class="nav-link p-2 {% if page.title == 'Donate' %} active {% endif %}" href="https://sammi.solutions/donate">Support Us</a>
       </li>
     </ul>
     <!-- menu items end -->
@@ -160,7 +163,7 @@
         <li class="list-inline-item"><a href="https://sammi.solutions">Home</a></li>
         <li class="list-inline-item"><a href="https://sammi.solutions/docs">Documentation</a></li>
         <li class="list-inline-item"><a href="https://sammi.solutions/extensions">Extensions</a></li>
-        <li class="list-inline-item"><a href="https://sammi.solutions/donate">Donate</a></li>
+        <li class="list-inline-item"><a href="https://sammi.solutions/donate">Support Us</a></li>
     </ul>
     <p class="copyright">Made by <a href="https://twitter.com/christina_kral">Christina K</a> © 2021</p>
 </footer>
@@ -182,6 +185,9 @@
   debug: false // Set debug to true if you want to inspect the dropdown
   });
   </script> 
+{% if page.js %}
+<script src="{{ 'assets/js/' | append: page.js | append: '.js' | relative_url }}"></script>
+{% endif %}
 
 <div at-magnifier-wrapper=""><div class="at-theme-light"><div class="at-base notranslate" translate="no"><div class="Z1-AJ" style="top: 0px; left: 0px;"></div></div></div></div>
 </html>

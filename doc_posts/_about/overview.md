@@ -5,6 +5,8 @@ permalink: /about
 menu: About
 num: 0
 type: fullpage
+js: patrons
+css: patrons
 ---
 
 SAMMI is a proprietary application developed using GameMaker Studio 2 and has gained recognition as one of the most versatile and customizable OBS Stream Decks available. The foundation of SAMMI is built upon LioranBoard 2, a project originally developed by Lioran Waters.
@@ -26,14 +28,31 @@ By August 2022, the project underwent a rebranding and was officially renamed SA
 You can learn more about our team members and ways to support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
 
 **Patrons**
-
+<div id="patrons" markdown="1">
 We would like to acknowledge the wonderful support of our Patrons below:
-- Purple Emperor: AgentDave7, Liam Burge
-- Red Admirals: awsomelego123, Joseph Leybovich, Taw Echo, מצלמה בזמן אריאל פרומקין
-- Green Hairstreak: Bunni, Hjellith, Lilou Clary, LosPigeon, PepeWuhu - Patric, Tazzlyn, TheRealMcL0v1n, Youji
-- Brown Argus: Mystery Pinball Theater 3000
+
+<ol id="patronList">
+<li> 
+<b>Purple Emperor: </b> <span id="purpleEmperor"></span>
+</li>
+<li> 
+<b>Red Admirals: </b><span id="redAdmiral"></span>
+</li>
+<li> 
+<b>Marbled Whites: </b><span id="marbledWhite"></span>
+</li>
+<li> 
+<b>Green Hairstreak: </b><span id="greenHairstreak"></span>
+</li>
+<li> 
+<b>Brown Argus: </b> <span id="brownArgus"></span>
+</li>
+</ol>
+
+
 
 Thank you all so much for supporting us!
+</div>
 
 **Contributors**
 
