@@ -7,17 +7,16 @@ num: 0
 type: fullpage
 ---
 
-SAMMI is a closed source app made in GameMaker Studio 2 which has become one of the most popular and customizable OBS Stream Decks. The app is based on a build of LioranBoard 2, developed by Lioran Waters. 
+SAMMI is a proprietary application developed using GameMaker Studio 2 and has gained recognition as one of the most versatile and customizable OBS Stream Decks available. The foundation of SAMMI is built upon LioranBoard 2, a project originally developed by Lioran Waters.
 
-The Dev Team for LioranBoard 2 started building upon the original LioranBoard 2 code in June 2022, adding features and bug fixes that had been requested from the LioranBoard 2 for a long time. 
+In June 2022, the Development Team for LioranBoard 2 began expanding on the original LioranBoard 2 codebase, incorporating new features and addressing long-standing bug fixes that had been requested by the LioranBoard 2 community.
 
-In August 2022, it was rebranded and renamed to SAMMI. The team is continuing the upkeep and development of the software, including adding more features and keeping up to date with changes in the streamerverse.
+By August 2022, the project underwent a rebranding and was officially renamed SAMMI. The team remains dedicated to the ongoing maintenance and enhancement of the software, which includes the introduction of additional features and adaptations to the evolving landscape of live streaming.
 
 **SAMMI Dev Team** (in no particular order)
 
 - [Christina K](https://twitter.com/christina_kral)
 - [RoadieGamer](https://twitter.com/roadiegamer)
-- [wolbee](https://twitter.com/justwolb)
 - [cyanidesugar](https://twitter.com/cyanidesugar_)
 - [Sebas](https://twitter.com/SebasCoding) 
 - [Silverlink](https://github.com/XSilverlink)
@@ -30,15 +29,15 @@ You can read more about our team members and support us on our [Patreon](https:/
 
 We would like to acknowledge the wonderful support of our Patrons below:
 - Purple Emperor: AgentDave7, Liam Burge
-- Red Admirals: awsomelego123, Brady McKenna, Joseph Leybovich, Taw Echo, מצלמה בזמן אריאל פרומקין
+- Red Admirals: awsomelego123, Joseph Leybovich, Taw Echo, מצלמה בזמן אריאל פרומקין
 - Green Hairstreak: Bunni, Hjellith, Lilou Clary, LosPigeon, PepeWuhu - Patric, Tazzlyn, TheRealMcL0v1n, Youji
-- Brown Argus: MPthreeJ Sark, Mystery Pinball Theater 3000
+- Brown Argus: Mystery Pinball Theater 3000
 
 Thank you all so much for supporting us!
 
 **Contributors**
 
-- SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/sammidevs)
+- SAMMI Core:[SAMMI Dev Team](https://www.patreon.com/sammidevs)
 - SAMMI Panel: [RoadieGamer](https://twitter.com/roadiegamer)
 - SAMMI Voice: [Chrizzz](https://github.com/Chrizzz-1508)
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
@@ -58,10 +57,11 @@ Thank you all so much for supporting us!
 
 **License Information**
 
-All components of SAMMI are licensed under the terms of the Apache 2.0 license. 
+SAMMI and all its components are licensed under the Apache 2.0 license.
 
-For more details, and third party license information, please see [here](https://github.com/SAMMISolutions/SAMMI-Official/tree/main/Licenses).
+For further details, including information about third-party licenses, please visit [here](https://github.com/SAMMISolutions/SAMMI-Official/tree/main/Licenses).
 
-**SAMMI would not be where it is today without you!**
+**A Special Note of Gratitude**
 
+SAMMI would not be where it is today without your support!
   
