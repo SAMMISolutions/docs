@@ -10,7 +10,7 @@ permalink: /core
 SAMMI Core is the main SAMMI component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers and much more.
 {% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
-{% include image.html w="auto" src="SAMMI.png" alt="SAMMI Core" %}
+{% include image.html w="auto" src="Untitled.png" alt="SAMMI Core" %}
 
 ### Deck Menu 
 - **Edit Deck** - allows you to edit currently selected deck, same as double clicking on the deck
@@ -26,6 +26,15 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
 - **Open SAMMI Deck** - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
 - **Get LAN IP** (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
 - **Android Version** - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
+
+### SAMMI Panel Menu
+{% include image.html w="75" src="PanelMenu.PNG" alt="SAMMI Panel" %}
+- **Open Panel** - Opens your SAMMI Panel.
+- **Open Panel (Web)** - Opens up your browser to access the browser version of SAMMI Panel.
+- **Get LAN IP** - saves your Local Area Network IP to your clipboard, ready for you to paste into a text editor to retrieve your IP address.
+
+### SAMMI Voice
+Opens the SAMMI Voice component.
 
 ### Bridge Menu
 {% include image.html w="auto" src="bridge menu.png" alt="Bridge Menu" %}
