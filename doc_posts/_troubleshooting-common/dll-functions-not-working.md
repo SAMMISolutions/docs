@@ -1,5 +1,5 @@
 ---
-title: "DLL Fucntions Don't Work"
+title: "DLL Functions Don't Work"
 num: 6
 ---
 The SAMMI DLL relates to the following SAMMI functions:
