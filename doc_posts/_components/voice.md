@@ -27,6 +27,8 @@ If SAMMI Voice is running on the same system as SAMMI Core, you will not need to
 
 The port number should not be altered, except in some very small cases. SAMMI Voice uses the port in your local API settings of 9450.
 
+{% include alert.html text="In order for SAMMI Voice to work, you will need to go into your SAMMI Core settings and tick the box that enables the Local API Server." type="info" %}
+
 The password for SAMMI Voice is optional. If you do want to set a password, ensure that you set it so it matches the `Password` field in your SAMMI Core settings for your local API. 
 
 {% include image.html w="75" src="voice2.png" alt="Local API settings in SAMMI Core" %}
