@@ -6,11 +6,8 @@ menu: About
 num: 1
 type: fullpage
 ---
-#### SAMMI 2023.2.1
 
-====================================
-     SAMMI 2023.2.1 (May 2023)
-====================================
+#### SAMMI 2023.2.1
 
 [SAMMI Core]
 -------------------------------------
@@ -88,8 +85,6 @@ Bug Fixes:
 
 
 #### SAMMI 2023.2.0
-
-SAMMI 2023.2.0 (April 2023):
 
 New Features:
 - Revamped SAMMI.dll replaces DLLExtension.dll [Roadie]
