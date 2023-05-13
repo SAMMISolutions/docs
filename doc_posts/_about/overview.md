@@ -25,7 +25,7 @@ By August 2022, the project underwent a rebranding and was officially renamed SA
 - [Chrizzz](https://twitter.com/chrizzz1508)
 - [Landie](https://twitter.com/Landie__)
 
-You can learn more about our team members and ways to support us on our [Patreon](https://www.patreon.com/lb2devs?fan_landing=true).
+You can learn more about our team members and ways to support us on our [Patreon](https://www.patreon.com/sammidevs).
 
 **Patrons**
 <div id="patrons" markdown="1">
