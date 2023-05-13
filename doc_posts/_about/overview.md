@@ -11,7 +11,7 @@ css: patrons
 
 SAMMI is a proprietary application developed using GameMaker Studio 2 and has gained recognition as one of the most versatile and customizable OBS Stream Decks available. The foundation of SAMMI is built upon LioranBoard 2, a project originally developed by Lioran Waters.
 
-In June 2022, the Development Team for LioranBoard 2 began expanding on the original LioranBoard 2 codebase, incorporating new features and addressing long-standing bug fixes that had been requested by the LioranBoard 2 community.
+In June 2022, our SAMMI development team began expanding on the original LioranBoard 2 codebase, incorporating new features and addressing long-standing bug fixes that had been requested by the LioranBoard 2 community.
 
 By August 2022, the project underwent a rebranding and was officially renamed SAMMI. The team remains dedicated to the ongoing maintenance and enhancement of the software, which includes the introduction of additional features and adaptations to the evolving landscape of live streaming.
 
