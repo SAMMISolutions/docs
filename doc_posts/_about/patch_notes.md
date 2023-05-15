@@ -7,9 +7,9 @@ num: 1
 type: fullpage
 ---
 
-#### SAMMI 2023.2.1
+### SAMMI 2023.2.1
 
-[SAMMI Core]
+#### [SAMMI Core]
 -------------------------------------
 Improvements:
 - Updated translations:
@@ -34,7 +34,7 @@ Bug Fixes:
 Known Bugs:
 - Special characters in SAMMI folder path (like “ö”) might cause some features to malfunction
 
-[SAMMI Voice]
+#### [SAMMI Voice]
 -------------------------------------
 New Features:
 - Added a new SAMMI Core command, "Voice: Toggle Status," to toggle the status of SAMMI Voice [Chrizzz]
@@ -52,7 +52,7 @@ Improvements:
 Bug Fixes:
 - Fixed an issue where an error would occur if the trigger lines contained only a space character [Chrizzz]
 
-[SAMMI Panel]
+#### [SAMMI Panel]
 -------------------------------------
 New Features:
 - Introduced Auto-Connection [Roadie]
@@ -69,7 +69,7 @@ Bug Fixes:
 - Text now breaks only on line breaks saved within SAMMI, preventing inappropriate line breaks [Roadie]
 - The alert now displays 'SAMMI Panel Connected/Disconnected' when SAMMI Panel is connected or disconnected [Christina]
 
-[SAMMI Updater]
+#### [SAMMI Updater]
 -------------------------------------
 New Features:
 - When extension reinstallation
@@ -84,7 +84,7 @@ Bug Fixes:
 - The updater no longer silently ignores extensions that fail to reinstall [Christina]
 
 
-#### SAMMI 2023.2.0
+### SAMMI 2023.2.0
 
 New Features:
 - Revamped SAMMI.dll replaces DLLExtension.dll [Roadie]
@@ -187,7 +187,7 @@ Known Bugs:
 - Special characters in SAMMI folder path (like "ö") might cause some features to malfunction
 
 
-#### SAMMI 2023.1.1
+### SAMMI 2023.1.1
 
 New Features:
 - New Command: Source Toggle Visibility [Sebas]
@@ -227,7 +227,7 @@ Bug Fixes:
 Known Bugs:
 Having special characters in SAMMI folder path (such as "ö") may cause some features not correctly working
 
-#### SAMMI 2023.1.0
+### SAMMI 2023.1.0
 
 New Features:
 - Added new Twitch API commands (some of them will need you to relink your Twitch Account), they will automatically use your default chat account if the channel box name is left empty:
@@ -294,7 +294,7 @@ Bug Fixes:
 - Fixed a crash when you tried to copy a variable with null value from the variable viewer [Christina]
 
 
-#### SAMMI 2022.5.4
+### SAMMI 2022.5.4
 
 New Features:
 - Added new command: "Twitch: Run Ad (Commercial)" - lets you run an ad with a length of your choice, the response object provides info about the actual length and cooldown [Chrizzz]
@@ -345,7 +345,7 @@ Bug Fixes:
 
 Known Bugs:
 
-#### SAMMI 2022.5.3:
+### SAMMI 2022.5.3:
 
 New Features:
 - Added YouTube Ad Break command [Christina]
@@ -413,7 +413,7 @@ Known Bugs:
   - Meanwhile, please revoke your Bot token and use Streamer Scopes for all accounts.
 
 
-#### SAMMI 2022.5.1 
+### SAMMI 2022.5.1 
 
 New Features:
 - When creating an extension command from Bridge, extension boxes can now be also decks, passwords and other types. [Christina]
@@ -459,7 +459,7 @@ Known Bugs:
 
 
 
-#### SAMMI 2022.5.0
+### SAMMI 2022.5.0
 
 New Features:
 - Command: Deck: Change Status - allows you to enable, disable or toggle a deck status [Christina]
@@ -565,7 +565,7 @@ Bug Fixes:
 Known Bugs:
 - In certain countries in DST (aka Summer Time), Date/Time commands can add your current timezone to your current time. A workaround is to substract your timezone until we fix it.
 
-#### SAMMI 2022.4.4
+### SAMMI 2022.4.4
 
 New Features:
 - Added JSON checker for when Send OBS Request Command is executed. [Christina]
@@ -624,7 +624,7 @@ Bug Fixes:
 - Fixed a crash when a button was incorrectly saved in previous version [Sebas]
 - Fixed an About Window Tags bug [Silverlink]
 
-#### SAMMI 2022.4.3
+### SAMMI 2022.4.3
 
 New Features:
 - Added Reload Bridge button to the Bridge menu [Christina]
@@ -675,7 +675,7 @@ Bug Fixes:
 Known Bugs:
 - For Date/Time commands, using the X token for the input format doesn't take into account Daylight Savings Time
 
-#### SAMMI 2022.4.2
+### SAMMI 2022.4.2
 
 Improvements:
 - Made it so that Patrons are only loaded once at the start of SAMMI instead each time you opened the about page [Silverlink]
@@ -704,7 +704,7 @@ Bug Fixes:
 - Fixed a crash on start when SAMMI was already running [Sebas]
 - Fixed a visual bug that didn't update copy and delete button when running a button from edit button window [Sebas]
 
-#### SAMMI 2022.4.1
+### SAMMI 2022.4.1
 
 Important note for users who had Pubsub connection issues:
 - This update includes a temporary workaround until a "more elegant solution" can be found. If you had Pubsub connection issues, please make yourself known in the Discord, and one of the dev team will instruct you on how to fix it.
@@ -750,9 +750,9 @@ Known Bugs:
 
 
 
-#### SAMMI 2022.4.0
+### SAMMI 2022.4.0
 
-###### New Features
+#### New Features
 - Added automatic update checker (you can disable it in the Settings menu), will remind you again in 2 days 
   if there's a new version and you clicked no the last time [Christina]
 - Added case-insensitive checkbox in string commands: Replace, Replace All, Position and Count [Sebas]
@@ -818,7 +818,7 @@ Known Bugs:
 - Added new SAMMI Core icon [Silverlink]
 - Added Swap Rewards ID checkbox in the Channel Points Window to swap the ids in all the commands if you dupe a reward [Sebas]
 
-###### Improvements
+#### Improvements
 - Optimized how SAMMI detects double clicking in the first place [Christina]
 - Button Settings will no longer allow Queue and Overlap to be checked together. Functionally they conflict with each other [Roadie]
 - Create Reward for Twitch now has an option to have the reward enabled or disabled upon creation [Roadie]
@@ -860,12 +860,12 @@ Known Bugs:
 - Made by default that all scopes are selected when authorizing your Twitch account [Silverlink]
   - New Open Twitch Beta scopes are also added but are deselected by default, they may not function or not do anything yet. [Silverlink]
 
-###### UI Changes
+#### UI Changes
 
 - Added a white selected area when clicked on a grid with no buttons in it [Christina]
 - Lots of UI improvements for consistency and to allow translations [Sebas]
 
-###### Bug Fixes
+#### Bug Fixes
 - Fixed a bug where single tapping on a button/deck, moving the mouse and single tapping again on another button/deck would open the button/deck 
   if done in quick succession. Now it only opens it if double clicked on the same button/deck. [Christina]
 - Fixed a bug where pressing Run while leaving a Delay field empty caused a crash [wolbee]
@@ -881,15 +881,15 @@ Known Bugs:
 Known Bugs: 
 - Extension commands for filter boxes do not correctly show source filters
 
-#### LioranBoard 2 2022.3.2 CE
+### LioranBoard 2 2022.3.2 CE
 
-###### New Features
+#### New Features
 - Added the option to disable Enhanced Protection Mode, allowing LioranBoard to modify/delete any file. [Christina]
 
-###### Improvements
+#### Improvements
 - Removed the ability to see your Stream Deck password as plaintext if you disabled the Stream Deck. [Christina]
 
-###### UI Changes
+#### UI Changes
 - Updates to the Update Viewer Window [wolbee]
   - Download button now shows if a component is missing
   - Buttons now show "Revert", and Column header shows "Previous", if Latest Version is not ticked
@@ -898,23 +898,23 @@ Known Bugs:
 	- yellow means update/revert available
 	- red means missing
 
-###### Bug Fixes:
+#### Bug Fixes:
 - Fixed a bug where the Release Commands warning was cowering behind the Open Docs button. [wolbee]
 - Fixed a bug where Revoke Token needed to be clicked twice in order to work. [Christina]
 
-#### LioranBoard 2 2022.3.1 CE
+### LioranBoard 2 2022.3.1 CE
 
-###### Important Security Patch
+#### Important Security Patch
 - Disabled file saving/modification/deletion from folders outside of your main LB directory.
 	- The LB Dev team discovered that previous versions of LioranBoard 2 allowed any files on your computer
 	to be modified, even if they were outside of the main LB directory. This meant that previously, anyone
 	could delete/modify your decks, or any important files on your PC, with a single command.
 
-###### New Features
+#### New Features
 - Added new Trigger Pull Data value outcome_amount for predictions (returns the amount of outcomes) [Christina]
 - Added two new Twitch Moderation Triggers: deny unban request, approve unban request [Christina]
 
-###### Improvements
+#### Improvements
 - Ctrl + Left/Right navigate properly in text boxes [Roadie]
 - Updated the alert system to allow for multi-line alerts, including from the Alert Message command [wolbee]
 - Delete Key now works when held [Roadie]
@@ -928,10 +928,10 @@ Known Bugs:
 	- Note: Twitch test triggers will ONLY work if you're using this new Transmitter with LB version 2022.3.1 or higher
 - Changed how YouTube retrieves access tokens, and patched a potential security issue to prevent any other programs from accessing it and potentially depleting the project quota [Christina]
 
-###### UI Changes
+#### UI Changes
 - none
 
-###### Bug Fixes
+#### Bug Fixes
 - Fixed high CPU usage bug [Roadie]
 - Fixed new extension install bug when using Transmitter V6.X [Christina]
 - Get Variable Type now returns "button" if given a button ID instead of a variable [Christina]
@@ -946,15 +946,15 @@ whether you want LB to resize it and paste it anyway [Christina]
 
 <hr>
 
-#### LioranBoard 2 2022.3.0 CE
+### LioranBoard 2 2022.3.0 CE
 
-###### New Features
+#### New Features
 - Delete key works in text boxes [Roadie]
 - Added option to select a secondary Twitch Client ID [Silverlink] - this is an optional setting for now, but will be required in the future, which will require you to relink Twitch accounts and re-duplicate channel points made with LioranBoard
 - Transmitter updated to V6. You can keep using V5 if you do not use the new secondary Twitch Client ID [Christina]
 - Added the option to reveal Transmitter in File Explorer [Christina]
 
-###### Improvements
+#### Improvements
 - Automatic Updating works again and is safe to use (only for version 2022.3.0 and up). Huge thanks goes to [Roadie]
 - Changed Get HTTP Request to HTTP Request, since it supports other methods too [Christina]
 - Changed version formatting to 2022.X.X [LB2 dev team]
@@ -970,7 +970,7 @@ whether you want LB to resize it and paste it anyway [Christina]
 	Trigger Pull Data command can now retrieve Outcome 1-10 Info
 - Made commands that have default JSON code in text boxes taller so the code can be seen [wolbee]
 
-###### UI Changes
+#### UI Changes
 - Changed the LB2 icon [LB2 dev team]
 - Added default channel to the Channel label in the Twitch Chat Message command, to show which channel the message will be sent to if the channel name is left empty [Christina]
 - Text/Label modifications, including clearer descriptions, spelling checks etc. [Christina]
@@ -981,7 +981,7 @@ whether you want LB to resize it and paste it anyway [Christina]
 - Changed copy command icon to the regular copy icon (originally scissors) [Silverlink]
 - Changed move command icon to something more recognisable [wolbee]
 
-###### Bug Fixes
+#### Bug Fixes
 - Fixed a bug that stopped you from resizing the text box and changing extension box color when sending extension commands from Transmitter [Christina]
 - Fixed a bug with overlappable, non-persistent, non-queuable buttons not working if triggered with the Trigger Button command. [Christina] 
 - Fixed a bug where the Command Line command would not show under Windows commands [Christina]
