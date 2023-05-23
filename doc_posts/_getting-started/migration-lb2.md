@@ -69,4 +69,5 @@ Once you have made sure they are all in working order, you can delete the follow
 - Stream Deck folder
 - transmitter folder
 - Lioranboard 2.0.exe
+- DLLExtension.dll
 
