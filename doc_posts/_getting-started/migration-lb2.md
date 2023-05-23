@@ -12,7 +12,7 @@ type: fullpage
 #### Updating from Lioranboard 2 versions 2.08.6 and below
 1. Download the entire SAMMI package from our [itch.io page](https://sammisolutions.itch.io/sammi). In the `x64` folder, copy the following files:
 - SAMMI core.exe
-- DLLextension.dll
+- SAMMI.dll
 - settings.ini
 - data.win
 
