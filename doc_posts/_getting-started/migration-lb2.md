@@ -20,7 +20,7 @@ type: fullpage
 
 3. Run `SAMMI Core.exe` and you should see your existing decks and buttons from LioranBoard 2. Go to the settings page and click 'Check for Updates'. SAMMI Core should have been updated to the current version of SAMMI. SAMMI versions are identified by versions 2022.4.0 and above.
 
-4. Once you have successfully updated the LioranBoard 2 Receiver to SAMMI Core, you can proceed to updating the Transmitter (now called Bridge) and the Stream Deck (now called SAMMI Deck). Continue reading below for some important steps you need to take after updating to SAMMI.
+4. Once you have successfully updated the LioranBoard 2 Receiver to SAMMI Core, you can proceed to updating the Transmitter (now called Bridge) and the Stream Deck (now called SAMMI Panel). Continue reading below for some important steps you need to take after updating to SAMMI.
 
 #### Updating from Lioranboard 2 CE
 You can use the automatic built-in updater within SAMMI Core to update all components of SAMMI. You do not need to update your Bridge files if the button says 'Redownload'. Re-donwloading the Bridge files will download a fresh copy of your `bridge.html` file and reinstall all extensions. 
@@ -38,8 +38,8 @@ If you use an OBS dock for your Transmitter, you will have to replace that Trans
 
 {% include alert.html text="It is important to note that the LioranBoard Transmitter will not work with SAMMI and the SAMMI Bridge will not work with LioranBoard 2." type="warning" %} 
 
-##### SAMMI Deck
-Functionality of the SAMMI Deck remains exactly the same as the Stream Deck. The update for the Deck will update your taskbar icon. 
+##### SAMMI Panel
+Functionality of the SAMMI Panel remains exactly the same as the Stream Deck. The update for the Panel will update your taskbar icon. 
 
 ##### New Twitch Token
 When updating to SAMMI, the program uses a new Twitch Token to handle all Twitch integrations. This means that once you update to SAMMI you will need to revoke your existing Twitch credentials and relink them to Twitch. 
