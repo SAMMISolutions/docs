@@ -10,7 +10,7 @@ type: fullpage
 {% include alert.html text="Always back up your files and folders before running updates!" type="warning" %} 
 
 #### Updating from Lioranboard 2 versions 2.08.6 and below
-1. Download the entire SAMMI package from our [itch.io page](https://sammisolutions.itch.io/sammi). In the `x64` folder, copy the following files:
+1. Download and unpack the entire SAMMI package from our [itch.io page](https://sammisolutions.itch.io/sammi). Copy the following files:
 - SAMMI core.exe
 - SAMMI.dll
 - settings.ini
