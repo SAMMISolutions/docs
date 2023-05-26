@@ -1,7 +1,7 @@
 ---
 title: "Get Channel Info"
 num: 1.31
-version: 202321
+version: 202322
 redirect_from:
   - commands/312
 ---
