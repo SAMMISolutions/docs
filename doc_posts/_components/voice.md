@@ -55,7 +55,7 @@ Triggers can only be added when SAMMI Voice is not listening. If you are listeni
 
 Create a button in SAMMI Core, setting the trigger as a 'SAMMI Voice' trigger. Enter `Testing` as the trigger. 
 
-{% include image.html w="75" src="voice3.png" alt="Creating a voice activated button" external="true" %}
+{% include image.html w="75" src="voice3.png" alt="Creating a voice activated button" %}
 
 This button will now be triggered when you say `Testing` and for this example, a pop up window will show up with the phrase 'Testing is a success!'
 
