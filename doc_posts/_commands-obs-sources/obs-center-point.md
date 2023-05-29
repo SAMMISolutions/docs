@@ -5,7 +5,7 @@ redirect_from:
   - commands/75
 ---
 
-Changes the positional alignment of a source.\
+Changes the positional alignment of a source.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -14,12 +14,3 @@ Changes the positional alignment of a source.\
 |Source Name|	String|	Source name. Select from the menu or type manually. 
 |Type| Dropdown |Type of the alignment. Select from the dropdown.
 {:class='table table-primary'}
-
-
-
-
-
-
-
-
-
