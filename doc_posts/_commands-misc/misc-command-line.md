@@ -3,20 +3,22 @@ title: Command Line
 num: 5
 redirect_from:
   - commands/135
+  - commands/306
 ---
 
-Execute a command line command just like you do in Command Prompt. Only one line of code.\
-If SAMMI is running as admin, commands you perform will also run as admin.\
-If you want to execute more than one line of code or the command is not executed properly, convert it to a batch file and use Execute program command instead.
+Allows you to execute a single line of command, similar to how you would in a Command Prompt. The command will run with the same level of permissions as SAMMI, which means if SAMMI has administrative privileges, so will your command. 
 
-{% include alert.html text="You can use <code>|clip</code> at the end of your command to copy the result to your clipboard and then use Load Clipboard command to load it into SAMMI." type="info" %}
+If you need to execute more than one line of command or if your command does not execute properly, it is recommended to convert it into a batch file and use the [Execute program](#executeprogram) command instead. If you wish to run multiple commands within a single line, you can do so by using the '&&' symbol between each command.
 
+The command also provides an option to capture the output of the executed command. To do this, specify a variable name in the 'Save Variable As' field.
+
+{% include alert.html text="This command may take some time to execute. To ensure that the variable is populated before executing the next command, it's advised to use the <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Command|	String	|Command you wish to execute.
+|Command|	String	|The command you wish to execute. Multiple commands can be executed in one line by using '&&' between each command.
+|Save Variable As|String|Enter a variable name to save the output of the executed command.
 {:class='table table-primary'}
-
 
 
 
