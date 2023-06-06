@@ -8,7 +8,7 @@ redirect_from:
 
 Allows you to transfer a file to a server by utilizing FormData.
 
-{% include alert.html text="Requires additional knowledge on data formatting and is only visible in developer mode." type="warning" %} 
+{% include alert.html text="Requires additional knowledge on data formatting and is only visible in developer mode." type="info" %} 
 
 
 | Box Name | Type | Description | 
