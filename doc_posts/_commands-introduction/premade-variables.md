@@ -31,6 +31,7 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>api_pw_enabled</code>" %}| Boolean | Returns true if SAMMI Local API server has a password.
 {% include selectAll.html text="<code>api_server_opened</code>" %}| Boolean | Returns true if SAMMI Local API server is running.
 {% include selectAll.html text="<code>bridge_connected</code>" %}| Boolean | True if connected, false if not connected.
+{% include selectAll.html text="<code>extensions</code>" %}| Object | Contains all extensions and their versions installed in Bridge (only if Bridge is connected to SAMMI)
 {% include selectAll.html text="<code>browser_name</code>" %}| String | Browser name your Bridge connected to SAMMI is using.
 {% include selectAll.html text="<code>client_language</code>" %}| String | Language SAMMI is currently using.
 {% include selectAll.html text="<code>deck_connected</code>" %}| Boolean | Returns true if SAMMI deck is connected, false if not.

@@ -1,6 +1,6 @@
 ---
 title: "Unban User"
-num: 4.2
+num: 4.1
 version: 202310
 redirect_from:
   - commands/274

@@ -63,7 +63,7 @@ You can also initiliaze complex variables, such as arrays or objects:
 | Variable Type | Example | Color in variable window |
 |-------|--------|--------|
 |Real value (number) | `50` | green|
-|String (text) | `"My Cat"` or `'My Cat'` | blue|
+|String (text) | `"My Cat"` or `'My Cat'` | beige|
 |Boolean | 1 = true, 0 = false | cyan|
 |Array | `["cat","rabbit","dog"]` | yellow|
 |Object | `{"name": John, "age": 25, "country": Canada"}` | purple|
