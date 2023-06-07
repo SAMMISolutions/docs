@@ -14,4 +14,4 @@ You can change your language by going to Settings and selecting it from the Lang
 
 {% include image.html w="75" src="lang_dropdown.png" alt="Changing Languages in SAMMI" %}
 
-If you'd like to contribute to the localisation efforts, [please let us know!](mailto:sammi.solutions@gmail.com)
+If you'd like to contribute to the localisation efforts, please send us an email at info[at]sammi.solutions. 
