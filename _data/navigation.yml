@@ -4,16 +4,7 @@ main:
 - name: Components
   collection: components
 - name: Integrations
-  submenus: 
-    - name: OBS Studio
-      link: integrations/obs
-      collection: integrations-obs
-    - name: Twitch
-      link: integrations/twitch
-      collection: integrations-twitch
-    - name: YouTube Live
-      link: integrations/youtube
-      collection: integrations-youtube
+  collection: integrations
 - name: Commands
   submenus: 
     - name: Introduction

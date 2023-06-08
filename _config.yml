@@ -259,12 +259,6 @@ collections:
     output: true
   integrations:
     output: true
-  integrations-obs:
-    output: true
-  integrations-twitch:
-    output: true
-  integrations-youtube:
-    output: true
   triggers:
     output: true
   api-overview:
