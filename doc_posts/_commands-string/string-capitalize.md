@@ -1,7 +1,7 @@
 ---
 title: String Capitalize
 num: 7
-version: 202321
+version: 202322
 redirect_from:
   - commands/311
 ---
