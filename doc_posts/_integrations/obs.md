@@ -3,7 +3,7 @@ layout: default
 title: OBS Studio
 menu: Integrations
 num: 1
-permalink: /obs
+permalink:  /integrations/obs
 type: fullpage
 ---
 
