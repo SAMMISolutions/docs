@@ -22,7 +22,7 @@ Please consider [donating](https://sammi.solutions/donate) or supporting me on [
 
 You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow SAMMI access to your YouTube Live account and to retrieve your refresh token. 
 
-{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>revoke SAMMI's access</a> in your Google account and authorize it again." type="warning" %} 
+{% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can go to the <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>Google security settings page</a> to revoke user access to SAMMI in your Google account and authorize it again." type="warning" %}
 
 1. Retrieve your refresh token from the link provided above
 2. In your SAMMI, go to **YouTube Connection** and paste your Refresh Token in the Refresh Token box. 
@@ -82,8 +82,15 @@ The failure to exercise or enforce any right or provision of the Terms of Servic
 
 
 #### Privacy Policy
-SAMMI and its developer take your privacy very seriously. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) will be only used to generate your YouTube Live credentials via our secure AWS API acting as a middleman to access the integration.\
-SAMMI does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer in SAMMI in order to use the integration.\
-Any other information regarding your YouTube account is only ever accesssed and stored locally on your computer. Accessing any data via YouTube API is done via Bridge, which is a local HTML file that relays the data via a local websocket connection to SAMMI, which also only ever runs locally.\
-Please see [Google Privacy Policy](https://policies.google.com/privacy), which services SAMMI uses.
+
+SAMMI and its developer prioritize your privacy and treat all personal data with utmost care. Any information you provide to us during the [Authorization process](https://sammi.solutions/docs/integrations/youtube/auth) is exclusively used to generate your YouTube Live credentials via our secure AWS API. This API acts as an intermediary to access the YouTube API services.
+
+Please note that SAMMI does not store or share your YouTube Live credentials. Your credentials are only ever stored locally on your computer, allowing SAMMI to use the integration. Additionally, any other information regarding your YouTube account is only ever accessed and stored locally on your computer. 
+
+Accessing any data via YouTube API services is performed using Bridge, a local HTML file that relays the data via a local websocket connection to SAMMI. For your awareness, SAMMI only operates locally on your computer.
+
+We would also like to explicitly note that SAMMI uses YouTube API Services as a part of its functionality. For more information about how YouTube manages and protects your data, please see [Google Privacy Policy](https://policies.google.com/privacy), as it governs the use of YouTube API Services.
+
+Please be assured that we are committed to ensuring the privacy and security of your data at all times.
+
 
