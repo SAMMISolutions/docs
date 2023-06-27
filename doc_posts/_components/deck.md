@@ -6,6 +6,9 @@ num: 3
 type: fullpage
 permalink: /deck
 ---
+
+{% include alert.html text="SAMMI Deck is deprecated and no longer supported. Please use SAMMI Panel instead" type="warning" %} 
+
 SAMMI Deck is where you load your decks containing buttons that you previously created in SAMMI Core. With how much customization SAMMI offers, you can create extremely complex great looking decks!  
 
 {% include image.html w="75" src="streamdeck.png" alt="SAMMI Deck showing an example deck with buttons" %}

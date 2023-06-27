@@ -6,6 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
   openLinksNewTab();
   editPasteBin();
   initDarkModeSwitcher();
+  resizeImageMap();
 });
 
 /// maintain scroll position
@@ -105,4 +106,50 @@ function initDarkModeSwitcher() {
       window.localStorage.setItem('scheme', 'light');
     }
   });
+}
+
+// resize image clickable areas
+
+function resizeImageMap() {
+  const maps = Array.from(document.querySelectorAll('map'));
+
+  maps.forEach((map) => {
+    const img = document.querySelector(`img[usemap="#${map.name}"]`);
+
+    if (img.complete) {
+      setupMap(map, img);
+    } else {
+      img.addEventListener('load', () => setupMap(map, img));
+    }
+  });
+}
+
+function setupMap(map, img) {
+  const areas = Array.from(map.getElementsByTagName('area'));
+  const originalWidth = img.naturalWidth;
+  const coords = areas.map((area) => area.coords.split(',').map(Number));
+  const overlay = document.createElement('div');
+  overlay.style.position = 'absolute';
+  overlay.style.backgroundColor = 'rgba(255, 255, 255, 0.5)'; // Change color and transparency as needed
+  overlay.style.pointerEvents = 'none';
+  img.parentElement.style.position = 'relative';
+  img.parentElement.appendChild(overlay);
+
+  function resize() {
+    const ratio = img.offsetWidth / originalWidth;
+    areas.forEach((area, i) => {
+      area.coords = coords[i].map((coord) => Math.round(coord * ratio)).join(',');
+    });
+  }
+
+  // Get all modals
+  const modals = document.querySelectorAll('.modal');
+  modals.forEach((modal) => {
+    modal.addEventListener('shown.bs.modal', () => {
+      // Check if modal contains an image with usemap attribute
+      if (modal.querySelector('img[usemap]')) {
+        resize();
+      }
+    });
+  }); 
 }

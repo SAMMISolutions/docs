@@ -8,9 +8,37 @@ permalink: /core
 ---
 
 SAMMI Core is the main SAMMI component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers and much more.
-{% include alert.html text="SAMMI Core was previously known as the LioranBoard Receiver" type="primary" %} 
 
-{% include image.html w="auto" src="Untitled.png" alt="SAMMI Core" %}
+**Click on the image below and hover over an area of interest:** 
+{% include image.html w="auto" src="core.png" alt="SAMMI Core" map="core-map" %}
+ 
+<map name="core-map">
+    <area target="_blank" alt="A single enabled deck" title="A single enabled deck" href="#deck" coords="378,17,180,223" shape="rect">
+    <area target="_blank" alt="A single disabled deck" title="A single disabled deck" href="#disableadeck" coords="576,16,382,223,574,224,574,18,576,16" shape="rect">
+    <area target="_blank" alt="Enters Edit Deck screen." title="Enters Edit Deck screen." href="#deck" coords="2,48,161,19" shape="rect">
+    <area target="_blank" alt="Adds or deletes the selected deck" title="Adds or deletes the selected deck" href="#deck" coords="163,53,1,112" shape="rect">
+    <area target="_blank" alt="Changes the deck order" title="Changes the deck order" href="#deck" coords="162,117,0,169" shape="rect">
+    <area target="_blank" alt="Copies a deck to your clipboard, can be shared with others." title="Copies a deck to your clipboard, can be shared with others." href="#deck" coords="161,173,-1,201" shape="rect">
+    <area target="_blank" alt="Pastes deck data from your clipboard as a new deck." title="Pastes deck data from your clipboard as a new deck." href="#deck" coords="163,202,-1,232" shape="rect">
+    <area target="_blank" alt="Duplicates an existing deck, creating a unique copy." title="Duplicates an existing deck, creating a unique copy." href="#deck" coords="164,260,0,233" shape="rect">
+    <area target="_blank" alt="Opens SAMMI Panel dropdown which acts as your virtual Stream Deck." title="Opens SAMMI Panel dropdown which acts as your virtual Stream Deck." href="https://sammi.solutions/docs/panel" coords="165,283,0,314" shape="rect">
+    <area target="_blank" alt="Opens SAMMI Voice, which allows you to control SAMMI with voice commands." title="Opens SAMMI Voice, which allows you to control SAMMI with voice commands." href="https://sammi.solutions/docs/voice" coords="163,337,5,312" shape="rect">
+    <area target="_blank" alt="Opens SAMMI Bridge menu, to open Bridge or install/uninstall an extension." title="Opens SAMMI Bridge menu, to open Bridge or install/uninstall an extension." href="https://sammi.solutions/docs/core#bridgemenu" coords="164,365,5,337" shape="rect">
+    <area target="_blank" alt="Opens menu with all official SAMMI integrations." title="Opens menu with all official SAMMI integrations." href="" coords="161,388,2,368" shape="rect">
+    <area target="_blank" alt="Opens About page with information about developers and license." title="Opens About page with information about developers and license." href="https://sammi.solutions/docs/about" coords="161,416,0,390" shape="rect">
+    <area target="_blank" alt="Connection indicators for all major SAMMI components." title="Connection indicators for all major SAMMI components." href="https://sammi.solutions/docs/core#connectionstatusindicators" coords="160,810,5,725" shape="rect">
+    <area target="_blank" alt="Opens official SAMMI Discord invite link." title="Opens official SAMMI Discord invite link." href="https://discord.gg/dXez8Zh" coords="161,865,-1,811,-1,819" shape="rect">
+    <area target="_blank" alt="Opens official SAMMI Patreon. " title="Opens official SAMMI Patreon. " href="https://www.patreon.com/sammidevs" coords="162,870,0,917" shape="rect">
+    <area target="_blank" alt="Adds a new deck. " title="Adds a new deck. " href="#deck" coords="598,192,766,57" shape="rect">
+    <area target="_blank" alt="Current FPS indicator. FPS plays a role in executing some SAMMI commands." title="Current FPS indicator. FPS plays a role in executing some SAMMI commands." href="#uisettings" coords="1225,0,1279,28" shape="rect">
+    <area target="_blank" alt="Opens SAMMI Settings menu.  " title="Opens SAMMI Settings menu.  " href="#settings" coords="115,958,-1,924" shape="rect">
+    <area target="_blank" alt="Set up OBS connections to SAMMI here. " title="Set up OBS connections to SAMMI here. " href="#obsconnections" coords="300,958,117,924" shape="rect">
+    <area target="_blank" alt="Setup and link your Twitch accounts here. " title="Setup and link your Twitch accounts here. " href="#twitchconnections" coords="517,923,303,955" shape="rect">
+    <area target="_blank" alt="Setup and link your YouTube account here. " title="Setup and link your YouTube account here. " href="#youtubeconnection" coords="733,957,519,925" shape="rect">
+    <area target="_blank" alt="See all button and global variable here." title="See all button and global variable here." href="#variableviewer" coords="924,956,736,923" shape="rect">
+    <area target="_blank" alt="See and clear all currently running buttons here. " title="See and clear all currently running buttons here. " href="#activebuttons" coords="1101,959,925,923" shape="rect">
+    <area target="_blank" alt="Current SAMMI version. " title="Current SAMMI version. " href="" coords="1278,893,1137,926" shape="rect">
+</map>
 
 ### Deck Menu 
 - **Edit Deck** - allows you to edit currently selected deck, same as double clicking on the deck
@@ -48,10 +76,9 @@ Opens the SAMMI Voice component.
 - **Install all Extensions from folder** - installs all extensions in a selected folder to the Bridge at once, simply select the first file in the folder
 - **Reinstall all Extensions** - reinstalls all currently installed extensions in your default Bridge
 
-### Backup
-{% include image.html w="auto" src="backup.png" alt="Backup options" %}
-- **Save SAMMI Backup** - saves a backup of your SAMMI configuration
-- **Load SAMMI Backup** - loads a previously created backup
+### Integrations Menu
+{% include image.html w="auto" src="integrations.png" alt="Integrations Menu" %}
+All official SAMMI extensions and integrations. Click on one to download and [install it in your SAMMI](https://sammi.solutions/extensions/install).
 
 ### About
 {% include image.html w="auto" src="about.png" alt="About" %}
@@ -133,14 +160,17 @@ Find out more about Twitch connection in our [Integrations-Youtube]({{ "integrat
 ### Variable Viewer
 The variable viewer can be accessed from the Main Menu, Deck Editor, or the Commands Editor. You can also press `Ctrl+Tab` key as a shortcut.
 
-In this menu you can see all global variables (marked red) and all button IDs with persistent variables enabled. 
-{% include image.html w="75" src="var_viewer.gif" alt="Variable window showing button ID variables" %}
+In this menu you can view all global variables (marked red) and all button IDs with persistent variables enabled. 
 
-If you click on the eye icon, you can see all current variables for the selected button ID.
+{% include video.html w="75" src="var-window.mp4" alt="Variable window showing button and global variables" %}
 
-The variable viewer can be sorted alphabetically, or by type. 
-
-Use search function to search for a specific button ID.
+- Use search function to search for a specific button ID or variable
+- Click on the arrow icon next to the button ID to view all current variables for the selected button ID
+- Click on 'Sort by Type/Aphabetically' to sort the variable list
+- Click on dollar sign icon to copy the variable value
+- Click on path icon to copy the variable path
+- Click on the trash bin icon to delete the variable
+- Click on the home button to return to the main variable screen
 
 Learn more about variables in our [Commands-Variables](commands/variables#introduction) section.
 
@@ -148,7 +178,7 @@ Learn more about variables in our [Commands-Variables](commands/variables#introd
 All currently running buttons will be displayed in this window.\
 You can choose to interrupt (clear) all, ongoing or queued buttons. 
 
-{% include image.html w="75" src="active_buttons.gif" alt="Interrupting an active button" %}
+{% include video.html w="75" src="ongoing-buttons.mp4" alt="Interrupting an active button" %}
 
 ### Deck
 
