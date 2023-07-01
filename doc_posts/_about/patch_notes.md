@@ -6,11 +6,11 @@ menu: About
 num: 1
 type: fullpage
 ---
-#### SAMMI 2023.2.2
+### SAMMI 2023.2.2
 
-[SAMMI Core]
+#### SAMMI Core
 -------------------------------------
-New Features:
+**New Features:**
 - Introduced comment templates [Christina]
   - Allows for the generation of a custom comment template, settings its own name name and color
   - These custom comment templates can be seen by other users when they import your buttons/decks into their SAMMI, even without the template themselves (provided they're using the latest SAMMI version)
@@ -28,7 +28,7 @@ New Features:
 - New translation - Russian [Solo_mag]
 
 
-Improvements:
+**Improvements:**
 - Deprecated the old "Twitch: Get Channel Info" command (existing commands will still work) and added a new version of it which accepts the username instead of the userid [Chrizzz]
 - Added a new scope for managing blocked terms (please relink your Twitch account to use the new blocked term commands) [Chrizzz]
 - Added a check for duplicated Button IDs [Sebas]
@@ -40,14 +40,14 @@ Improvements:
      - English [Sebas]
      - Spanish [Sebas]
 
-UI Changes:
+**UI Changes:**
 - Added Integrations menu that lets you download all official SAMMI extensions [Christina]
 
-Removed Features:
+**Removed Features:**
 - The backup menu button is no longer available [Christina]
   - To create a backup of SAMMI, you can simply compress and copy the entire SAMMI folder
 
-Bug Fixes:
+**Bug Fixes:**
 - Resolved an issue where commands were not processed in the right order when a very small delay was set, e.g. 5 ms [Christina] 
 - Fixed a bug with false detection of mouse double clicks within deck editor [Christina]
 - Fixed a crash that would sometimes happen due to excessive Command Line command usage [Christina]
@@ -65,35 +65,33 @@ Bug Fixes:
 - Extension files are now properly removed from the `bridge/extensions/installed` folder and moved to `bridge/extensions/uninstalled` folder when an extension is uninstalled [Christina]
 - Deck: Get Status command now returns 0 if the deck does not exist in the first place [Christina]
 
-[SAMMI Bridge]
+#### SAMMI Bridge
 -------------------------------------
-New Features: [Christina]
+**New Features:** [Christina]
 - 'Extensions' tab has been introduced
   - This tab displays all installed extensions in a table format with their versions, including an option to download or update directly linked to the source of the download.
   - Extension developers can include their entries here: https://github.com/SAMMISolutions/SAMMI-Bridge/tree/main/extensions
 - Shoutout Twitch test trigger has been added
 - Added username fields for Twitch follower, subscriber, bits, and channel points. The user id is fetched if a name is provided, otherwise, a name is selected randomly.
 
-Improvements: [Christina]
+**Improvements:** [Christina]
 - The 'Status' tab has been rebranded to 'Settings' tab, and can no longer be moved or hidden
 - The current Bridge version is now visible in the Settings tab
 - All test trigger alerts from Bridge now carry the [test trigger] tag.
 - The Bridge code has undergone complete refactoring
   - The code is now minified and runs in strict mode (not mandated in extension code). An unminified bridge for extension development can be downloaded from SAMMI Bridge repository
 
-UI Changes: [Christina]
+**UI Changes:** [Christina]
 - Official tabs such as Settings, Extensions, Twitch, and YouTube Triggers now have a specific icon
 - Official SAMMI Extensions bear a check mark icon, indicating their development by the SAMMI team
 - A tab can be hidden now by dragging it up and dropping on an 'X' mark
 - Various visual elements have been refined for an enhanced user experience, including larger input fields in Twitch/YouTube triggers
 
-Removed Features: [Christina]
+**Removed Features:** [Christina]
 - Twitch Test Host Trigger has been removed
 
-Bug Fixes: [Christina]
+**Bug Fixes:** [Christina]
 - Twitch test subscriber trigger now correctly returns 'sub' context for 1 month subscribers and 'resub' context for 2 months+ subscribers
-
-
 
 
 ### SAMMI 2023.2.1
