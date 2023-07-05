@@ -9,8 +9,7 @@ If you click 'Connect' in your SAMMI Panel and nothing happens, this indicates t
 Ensure that you are using the most recent version of SAMMI Panel.  
 
 - **Incorrect IP/Port or Password**\
-The IP address should always be set to `127.0.0.1` unless you are using SAMMI Panel on a different device from where SAMMI Core is running. In such cases, navigate to SAMMI > SAMMI Panel > Get LAN IP to copy your local IP address to your clipboard, and use this IP address instead. It will be in the format `192.168.X.X`.  
-
+The IP address should always be set to `127.0.0.1` unless you are using SAMMI Panel on a different device from where SAMMI Core is running. In such cases, navigate to SAMMI > SAMMI Panel > Get LAN IP to copy your local IP address to your clipboard, and use this IP address instead. It will be in the format `192.168.X.X`.
 Verify that the Port and Password entered in SAMMI Panel match the Port and Password in your SAMMI Settings. The default port is `9470`. 
 
 - **Accessing SAMMI Panel (Web) over HTTPS**\
