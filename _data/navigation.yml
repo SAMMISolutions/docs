@@ -109,6 +109,9 @@ main:
     - name: Sound Effects
       link: commands/sounds
       collection: commands-sounds
+    - name: Integrations
+      link: commands/integrations
+      collection: commands-integrations
     - name: Miscellaneous
       link: commands/misc
       collection: commands-misc

@@ -351,3 +351,5 @@ collections:
     output: true
   commands-obs-transitions:
     output: true
+  commands-integrations:
+    output: true
