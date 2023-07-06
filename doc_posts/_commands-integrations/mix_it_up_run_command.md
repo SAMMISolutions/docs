@@ -18,4 +18,4 @@ You can optionally pass arguments to the command, please refer to the [Mix It Up
 |Arguments|String (optional)| Optional arguments to pass to the Mix It Up command
 {:class='table table-primary'} 
 
-{% include media_modal.html vid="mixitup_runcommand.mp4" img="mix_it_up_run_command.png" w="100" btn="1" alt="Running a Mix It Up command" pastebin="FJhMchSy" %} 
+{% include media_modal.html vid="mixitup_runcommand.mp4" img="mix_it_up_run_command.png" w="50" btn="1" alt="Running a Mix It Up command" pastebin="FJhMchSy" %} 
