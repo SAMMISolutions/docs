@@ -6,6 +6,94 @@ menu: About
 num: 1
 type: fullpage
 ---
+### SAMMI 2023.2.2
+
+#### SAMMI Core
+-------------------------------------
+**New Features:**
+- Introduced comment templates [Christina]
+  - Allows for the generation of a custom comment template, settings its own name name and color
+  - These custom comment templates can be seen by other users when they import your buttons/decks into their SAMMI, even without the template themselves (provided they're using the latest SAMMI version)
+- Added a new global variable - global.Extensions. This contains all extensions and their versions installed in Bridge (when Bridge is connected to SAMMI) [Christina]
+- Extension Development: Support for dynamic extension command dropdowns has been added [Christina]
+- Added two new official SAMMI extensions and their triggers: 
+  - Crowd Control [Chrizzz]
+  - Voicemod [Chrizzz]
+- Added Mix It Up integration with two new commands: "Mix It Up: Get All Commands" and "Mix It Up: Run Command" [Christina]
+- Added new Command: "String Capitalize" - Makes the first letter of a string uppercase [Chrizzz]
+- Added new Command: "Twitch: Get Blocked Terms" - Gets an array of blocked terms from a twitch channel [Chrizzz]
+- Added new Command: "Twitch: Add Blocked Term" - Adds a new blocked term [Chrizzz]
+- Added new Command: "Twitch: Remove Blocked Term" - Removes a blocked term [Chrizzz]
+- Added new Command: "Send JSON To Extension" - Allows you to send payload to Bridge without needing to use an Extension Command [Christina]
+- Added New Command: "String Substitute Variables" - Replaces variables in a template string with the supplied placeholder names in an object [Christina]
+- New translation - Russian [Solo_mag]
+
+
+**Improvements:**
+- Deprecated the old "Twitch: Get Channel Info" command (existing commands will still work) and added a new version of it which accepts the username instead of the userid [Chrizzz]
+- Added a new scope for managing blocked terms (please relink your Twitch account to use the new blocked term commands) [Chrizzz]
+- Added a check for duplicated Button IDs [Sebas]
+- Set Button Variable command now allows you to set the variable to an object or an array natively, without the need to stringify and parse it again [Christina]
+- When importing a button/deck, the original button ID is now preserved unless there's an existing one already [Christina]
+- When importing a button/deck, you now get an alert if SAMMI detects a command from a higher version of SAMMI [Christina]
+- Execute Program command newly accepts parameters and you can choose the display mode (e.g. show, hide, minimize, maximize) [Christina]
+- Updated translations:
+     - English [Sebas]
+     - Spanish [Sebas]
+
+**UI Changes:**
+- Added Integrations menu that lets you download all official SAMMI extensions [Christina]
+
+**Removed Features:**
+- The backup menu button is no longer available [Christina]
+  - To create a backup of SAMMI, you can simply compress and copy the entire SAMMI folder
+
+**Bug Fixes:**
+- Resolved an issue where commands were not processed in the right order when a very small delay was set, e.g. 5 ms [Christina] 
+- Fixed a bug with false detection of mouse double clicks within deck editor [Christina]
+- Fixed a crash that would sometimes happen due to excessive Command Line command usage [Christina]
+- Fixed several crashes associated with OBSWS, Twitch and general websocket connections [Christina]
+- A check has been introduced to verify if an image is correctly copied into the Image folder when setting it as button image [Christina]
+- Command 'String to Number' now supports numbers exceeding 32 bytes without causing a crash [Christina]
+- Disabled interaction with commands outside the commands surface [Sebas]
+- Date/Time commands: `twitch` is in UTC now [Sebas]
+- HTTP Upload File command no longer crashes if the file does not exist [Christina]
+- When importing corrupted decks/buttons, SAMMI automatically removes the corrupted portion now [Christina]
+- SAMMI no longer crashes when you run a button containing a command from a higher version of SAMMI [Christina]
+- Fixed a bug that would crash SAMMI when an empty menu was loaded + improved performance of menus [Sebas]
+- Fixed bugs that would break certain translations [Sebas]
+- Fixed an issue with the Twitch: Modify Channel Information and the Twitch: Get Game Info command when using special characters in the game name [Chrizzz]
+- Extension files are now properly removed from the `bridge/extensions/installed` folder and moved to `bridge/extensions/uninstalled` folder when an extension is uninstalled [Christina]
+- Deck: Get Status command now returns 0 if the deck does not exist in the first place [Christina]
+
+#### SAMMI Bridge
+-------------------------------------
+**New Features:** [Christina]
+- 'Extensions' tab has been introduced
+  - This tab displays all installed extensions in a table format with their versions, including an option to download or update directly linked to the source of the download.
+  - Extension developers can include their entries here: https://github.com/SAMMISolutions/SAMMI-Bridge/tree/main/extensions
+- Shoutout Twitch test trigger has been added
+- Added username fields for Twitch follower, subscriber, bits, and channel points. The user id is fetched if a name is provided, otherwise, a name is selected randomly.
+
+**Improvements:** [Christina]
+- The 'Status' tab has been rebranded to 'Settings' tab, and can no longer be moved or hidden
+- The current Bridge version is now visible in the Settings tab
+- All test trigger alerts from Bridge now carry the [test trigger] tag.
+- The Bridge code has undergone complete refactoring
+  - The code is now minified and runs in strict mode (not mandated in extension code). An unminified bridge for extension development can be downloaded from SAMMI Bridge repository
+
+**UI Changes:** [Christina]
+- Official tabs such as Settings, Extensions, Twitch, and YouTube Triggers now have a specific icon
+- Official SAMMI Extensions bear a check mark icon, indicating their development by the SAMMI team
+- A tab can be hidden now by dragging it up and dropping on an 'X' mark
+- Various visual elements have been refined for an enhanced user experience, including larger input fields in Twitch/YouTube triggers
+
+**Removed Features:** [Christina]
+- Twitch Test Host Trigger has been removed
+
+**Bug Fixes:** [Christina]
+- Twitch test subscriber trigger now correctly returns 'sub' context for 1 month subscribers and 'resub' context for 2 months+ subscribers
+
 
 ### SAMMI 2023.2.1
 

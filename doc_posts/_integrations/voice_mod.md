@@ -30,7 +30,7 @@ The Bridge Interface provides information on the current settings of the Voicemo
 | Hear My Voice     | Shows if you can hear your own transformed voice. |
 | Muted              | Indicates if your voice is muted.               |
 | License Type      | Displays the type of Voicemod license you have. |
-| Voice ID           | Shows the identifier for the current voice.       |\
+| Voice ID           | Shows the identifier for the current voice.       |
 {:class='table table-primary w-auto table-hover data-toggle='table'}
 
 #### Voicemod Commands
