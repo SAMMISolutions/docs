@@ -27,7 +27,7 @@ By August 2022, the project underwent a rebranding and was officially renamed SA
 
 You can learn more about our team members and ways to support us on our [Patreon](https://www.patreon.com/sammidevs).
 
-**Patrons**
+#### Patrons
 <div id="patrons" markdown="1">
 We would like to acknowledge the wonderful support of our Patrons below:
 
@@ -54,7 +54,7 @@ We would like to acknowledge the wonderful support of our Patrons below:
 Thank you all so much for supporting us!
 </div>
 
-**Contributors**
+#### Contributors
 
 - SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/sammidevs)
 - SAMMI Panel: [RoadieGamer](https://twitter.com/roadiegamer)
@@ -72,15 +72,16 @@ Thank you all so much for supporting us!
     - French - [MisterK](https://www.youtube.com/@Kamelot781)
     - Dutch - [Marble127](https://www.youtube.com/c/marble127nl)/[Silverlink](https://github.com/XSilverlink)
     - Italian - [Bucefalo](https://www.twitch.tv/bucefalo_rome)/[AlfaTelevision](https://www.twitch.tv/alfatelevision)
-    - English-UK -[wolbee](https://www.youtube.com/@wolbee)
+    - English-UK - [wolbee](https://www.youtube.com/@wolbee)
+    - Russian - [Solo_Mag](https://www.twitch.tv/solo_mag)
 
-**License Information**
+#### License Information
 
 SAMMI and all its components are licensed under the Apache 2.0 license.
 
 For further details, including information about third-party licenses, please visit [here](https://github.com/SAMMISolutions/SAMMI-Official/tree/main/Licenses).
 
-**A Special Note of Gratitude**
+#### A Special Note of Gratitude
 
 SAMMI would not be where it is today without your support!
   
