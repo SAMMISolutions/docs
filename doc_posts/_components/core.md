@@ -49,12 +49,6 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
 - **Paste Deck** - imports the entire deck from your clipboard, must be in JSON format
 - **Duplicate Deck** - creates a copy of the entire deck inside SAMMI
 
-### SAMMI Deck Menu
-{% include image.html w="75" src="deck_menu.png" alt="SAMMI Deck Icon" %}
-- **Open SAMMI Deck** - Press to open your [SAMMI Deck]({{ "streamdeck" | relative_url }}), that allows you to press buttons in your decks.
-- **Get LAN IP** (for other devices) - puts your Local Area Network IP address into your clipboard, for you to use the Deck on another device.
-- **Android Version** - links to the [Google Play Store](https://play.google.com/store/apps/details?id=lioranboard.ca.lioranboard.streamdeck) to download the Android version of the Deck
-
 ### SAMMI Panel Menu
 {% include image.html w="75" src="PanelMenu.PNG" alt="SAMMI Panel" %}
 - **Open Panel** - Opens your SAMMI Panel.
