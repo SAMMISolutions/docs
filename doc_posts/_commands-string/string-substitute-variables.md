@@ -19,7 +19,9 @@ Replaces substituted variable placeholders (ex: `/$username$/`) in a template st
 |username: "chrizzz"<br>months: 12|Thanks `/$username$/` for the `/$months$/` months!|Thanks chrizzz for the 12 months!|
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
+{% include media_modal.html img="string_sub_vars2.png" w="100" btn="1" alt="Parsing a template string grabbed from template.txt file" %} 
 
+{% include media_modal.html img="string_sub_vars.png" w="100" btn="1" alt="Parsing a template string grabbed from template.txt file 2" %} 
 
 
 
