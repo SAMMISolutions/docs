@@ -1,6 +1,8 @@
 ---
-title: "Change Redemption Status "
+title: "UpdateRedemption Status "
 num: 14
+redirect_from:
+  - commands/187
 ---
 
 Updates the status of custom reward redemption that has UNFULFILLED status.

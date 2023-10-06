@@ -2,7 +2,7 @@
 title: "Play Sound Effect"
 num: 1
 redirect_from:
-  - commands/22
+  - commands/2
 ---
 
 Plays a selected sound file. Only .ogg files are supported.

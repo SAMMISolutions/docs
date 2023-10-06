@@ -1,6 +1,8 @@
 ---
 title: "Edit Reward"
 num: 13.5
+redirect_from:
+  - commands/186
 ---
 
 Updates a Custom Channel Points Reward created on your channel. 

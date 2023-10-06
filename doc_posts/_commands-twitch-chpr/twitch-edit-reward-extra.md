@@ -1,6 +1,8 @@
 ---
 title: "Extra Edit Reward"
 num: 13.6
+redirect_from:
+  - commands/231
 ---
 
 Updates a Custom Channel Points Reward created on your channel, allowing you to change additional settings that are not accessible from the regular [Edit Reward](twitch#editreward) command.

@@ -1,6 +1,8 @@
 ---
 title: "Create Reward"
 num: 13.1
+redirect_from:
+  - commands/229
 ---
 
 Creates a Channel Point Reward on Twitch that will be owned by SAMMI. Only rewards owned by SAMMI can be further modified from within SAMMI.

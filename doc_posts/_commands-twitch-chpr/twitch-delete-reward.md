@@ -1,6 +1,8 @@
 ---
 title: "Delete Reward"
 num: 13.8
+redirect_from:
+  - commands/230
 ---
 
 Deletes your previously created reward.

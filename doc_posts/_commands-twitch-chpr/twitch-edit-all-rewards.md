@@ -1,6 +1,8 @@
 ---
 title: "Edit All Rewards"
 num: 13.7
+redirect_from:
+  - commands/265
 ---
 
 Updates *all* custom channel point rewards on your channel.
