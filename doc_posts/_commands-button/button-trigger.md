@@ -6,7 +6,8 @@ redirect_from:
 ---
 
 Triggers any button by its ID.\
-If the button ID does not exist, sends an extension trigger instead.
+If the button ID does not exist, sends an extension trigger instead.\
+Inside the button that was triggered by this command, you can use [Trigger Pull Data]({{ "commands/trigger#triggerpulldata" | relative_url }}) command to get the button and instance ID of the originating button, which can be used to set non persistent variables in the originating button.
 
 {% include alert.html text="You can right click on a button and left click on its ID to copy it into your clipboard." type="info" %} 
 
