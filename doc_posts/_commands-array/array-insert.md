@@ -23,7 +23,7 @@ Inserts a value into an array in a specific index (position), shifting other val
 
   {% include image.html w="75" src="array-insert.png" alt="Visual representation of inserting a value into an array by index" %}
 
-{% include alert.html text="You can insert other strings and numbers into an array, but not another array or object, unless it is stringified." type="warning" %} 
+{% include alert.html text="You can insert other strings and numbers into an array, but not another array or object, unless you use Set Button Variable command instead." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
