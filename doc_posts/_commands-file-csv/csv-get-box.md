@@ -2,7 +2,7 @@
 title: "CSV: Get Box"
 num: 17
 redirect_from:
-  - commands/209	
+  - commands/206
 ---
 
 Retrives a value from a box in an existing CSV file. When retrieving values using 'Column/Row Name', the name in the yellow boxes have to be wrapped in `""` as the names are strings. If you use Column/Row Number instead, the number you input into the yellow boxes does not have to be wrapped in `""`. 

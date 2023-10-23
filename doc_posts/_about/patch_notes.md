@@ -6,6 +6,51 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2023.3.0
+
+====================================
+     SAMMI 2023.3.0 (October 2023)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+New Features:
+- Added new Command: "Twitch: Reply to Message" - Reply to Twitch messages directly instead of just sending chat messages [Chrizzz]
+- New Integration: Pulsoid - This integration sends your heartrate to SAMMI as long as you use any pulsoid device (will be available soon) [Chrizzz]
+- Added new "Alert Log" function - You can activate it in the settings menu for SAMMI to document all yellow alerts in a logfile (alert.log) [Chrizzz]
+- Added the deck names to the variable viewer for all persistent buttons to easily find which deck your buttons belong to [Chrizzz & Silverlink]
+- Added a "RefreshBrowserSource" template to the "Send OBS Request" templates for OBSWS5 [Chrizzz]
+- Added "fullFPS" key you can set to "1" in settings.ini, to keep full FPS when SAMMI is not in focus [Christina]
+
+
+Improvements:
+- Rewrote the "Twitch: Get Latest Followers" and "Twitch: Get Follower Count" command to use the new API endpoint to make them work again [Chrizzz]
+- Renamed the "error_log.txt" file to "error.log" [Chrizzz]
+- Whenever SAMMI shuts down or crashes, all active socket connections (e.g. Bridge, Panel, Twitch) are now forcibly closed. This ensures SAMMI doesn't occupy ports unnecessarily, which sometimes needed a complete system reboot. [Christina]
+- When the "Trigger Button" command is used, the "Trigger Pull Data" command inside the button which got triggered can now fetch the Instance ID of the originating button. This allows you to set variables in the originating button even if it's not persistent. [Christina]
+
+UI Changes:
+- Removed beta tags in the settings menu [Chrizzz]
+
+Removed Features:
+
+
+Bug Fixes:
+- Fixed Local API Set Variable endpoint where setting a variable to a number did not properly work [Christina]
+- Fixed some command error alerts missing information [Christina]
+- Fixed various crashes related to sockets, checkboxes, closing Twitch connection window, Twitch API command errors, installing extensions and more [Christina]
+
+
+[SAMMI Bridge]
+-------------------------------------
+New Features: 
+- Added SAMMI.loadIni() function to load text/number from ini file directly from Bridge [Christina]
+- Added SAMMI.saveIni() function to save text/number to ini file directly from Bridge [Christina]
+- Added SAMMI.httpRequest() to make an API call directly from SAMMI (to avoid browser CORS errors) [Christina]
+- Added SAMMI.openURL() to open a URL in a default browser directly from SAMMI (rather than opening it in OBS if Bridge is docked) [Christina]
+- Added SAMMI.editButton() to quickly navigate to the selected button's edit commands screen window in SAMMI Core directly from Bridge. Highly experimental. [Christina]
+
+
 ### SAMMI 2023.2.2
 
 #### SAMMI Core

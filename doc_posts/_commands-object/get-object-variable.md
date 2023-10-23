@@ -5,7 +5,7 @@ redirect_from:
   - commands/164
 ---
 
-Retrievs a value associated with the specified object key.
+Retrieves a value associated with the specified object key.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
