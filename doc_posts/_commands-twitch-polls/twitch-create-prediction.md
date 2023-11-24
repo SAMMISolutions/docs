@@ -15,9 +15,7 @@ Creates a new prediction for your channel with 2-10 outcomes. Must be at least a
 |Dur.(s)|Number {% include asterisk.html%}|Total duration for the prediction in seconds.
 {:class='table table-primary'}
 
-{% include media_modal.html img="prediction_array.png" w="100" btn="1" alt="Usage Example" %} 
-
-
+{% include media_modal.html img="https://github.com/SAMMISolutions/docs/assets/32708964/437d6ca9-73d8-4880-95f2-be272796434a" w="100" btn="1" alt="Usage Example" %} 
 
 
 
