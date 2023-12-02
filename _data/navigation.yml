@@ -109,6 +109,9 @@ main:
     - name: Sound Effects
       link: commands/sounds
       collection: commands-sounds
+    - name: Panel
+      link: commands/panel
+      collection: commands-panel
     - name: Integrations
       link: commands/integrations
       collection: commands-integrations
@@ -150,8 +153,5 @@ main:
     - name: Recording Outputs
       link: troubleshooting/outputs
       collection: troubleshooting-outputs
-    - name: Known Bugs
-      link: troubleshooting/bugs
-      collection: troubleshooting-bugs
 - name: About
   collection: about

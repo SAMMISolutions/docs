@@ -277,8 +277,6 @@ collections:
     output: true
   troubleshooting-errors:
     output: true
-  troubleshooting-bugs:
-    output: true
   troubleshooting-buttons:
     output: true
   troubleshooting-outputs:
@@ -352,4 +350,6 @@ collections:
   commands-obs-transitions:
     output: true
   commands-integrations:
+    output: true
+  commands-panel:
     output: true

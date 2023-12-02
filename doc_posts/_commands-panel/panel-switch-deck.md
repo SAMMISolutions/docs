@@ -1,12 +1,12 @@
 ---
 title: "Panel: Switch Deck"
-num: 13.3
+num: 1
 version: 202320
 redirect_from:
   - commands/308
 ---
 
-Switches to a different deck in your SAMMI Panel. If Panel Name is left empty, the command is sent to all connected Panels. 
+Switches to a different deck in your SAMMI Panel. If Panel Name is left empty, the command is sent to all connected Panels.   
 
 | Box Name | Type | Description | 
 |-------|--------|--------
