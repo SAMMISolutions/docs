@@ -6,9 +6,10 @@ num: 0
 When troubleshooting problems, especially via the Discord server, you may be asked to record an output from SAMMI.\
 To do so, you need to close SAMMI if it's open, head to your main SAMMI folder, open `Settings.ini`, and add one of the following to the `[settings]` section (not the `[last_crash_data]` section):
 
-`record_pubsub="1"`\
 `record_bridge="1"`\
 `record_twitchchat="1"`\
+`record_pubsub="1"`\
+`record_eventsub="1"`\
 `record_http="1"`\
 `record_obs="1"`
 
@@ -20,6 +21,10 @@ After saving the settings.ini file, and relaunching SAMMI, a new text file will 
 
 The PubSub system allows Twitch to broadcast realtime messages to SAMMI (as well as other services, like StreamElements). Think of it like a radio station broadcast, and SAMMI is a radio that's tuned in to that frequency - it gets news, weather, and songs from the station. SAMMI then relays those to you in the form of triggers, such as Twitch Chat, New Follower, etc.\
 Enabling this records that information to `record_pubsub.txt`
+
+#### Record EventSub
+EventSub listens to follower alerts with future plans to fully replace PubSub.\
+Enabling `record_eventsub` will save all EventSub messages to `record_eventsub.txt`
 
 #### Record Bridge
 
