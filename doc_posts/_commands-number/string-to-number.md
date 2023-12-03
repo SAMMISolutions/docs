@@ -8,7 +8,7 @@ redirect_from:
 Turns a string value into a real value (number).     
 - returns `0` if the string does not start with a number or `.` 
 - stops the conversion if it encounters any non number in the string and returns the current converted value 
-- converting a value that's already real returns `0`
+- converting a value that's already real returns the same value
 - removes any leading zeroes and rounds the number to 2 decimal points
 - string X beginning with a `.` will be converted to `0.X`
 - accepts strings with scientific notation
@@ -30,7 +30,7 @@ Turns a string value into a real value (number).
 |"000010"|10|
 |"10e-2"|0,10|
 |"10e+2"|1000|
-|10|0|
+|10|10|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
 
