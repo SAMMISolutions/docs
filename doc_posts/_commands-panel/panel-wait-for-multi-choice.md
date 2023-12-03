@@ -1,7 +1,7 @@
 ---
 title: "Panel: Wait for Multi Choice"
 num: 4
-version: 202920
+version: 202331
 redirect_from:
   - commands/323
 ---

@@ -1,7 +1,7 @@
 ---
 title: "Panel: Wait for Choice"
 num: 3
-version: 202920
+version: 202331
 redirect_from:
   - commands/322
 ---
