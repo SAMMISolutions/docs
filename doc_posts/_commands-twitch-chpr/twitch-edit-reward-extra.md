@@ -11,7 +11,7 @@ Updates a Custom Channel Points Reward created on your channel, allowing you to 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Login Name|Dropdown|Your Twitch login name (all lowercase characters)
+|Login Name|Dropdown|Your Twitch login name (all lowercase characters). Leave empty for your default streamer account.
 |Reward (ID required)|Dropdown|ID of the custom reward to update. 
 |Description|String|Description of the reward.
 |Color|Color Picker|Display colour of the reward on Twitch.
