@@ -6,6 +6,121 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2023.3.1
+
+====================================
+     SAMMI 2023.3.1 (December 2023)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+New Features:
+- Added new Command: "Get Button Color" - Fetches the button color [Chrizzz]
+- Added new Command: "Get Button Text" - Fetches the text of a button  [Chrizzz]
+- Added new DEV mode command: "Get Instance ID" - Fetches the instance ID of the current button execution [Chrizzz]
+- For hotkey button triggers, Trigger Pull Data command now returns the hotkey and its modifiers that triggered the button [Christina]
+- Added Pulsoid Extension Triggers which let you filter the Heartrate directly inside the trigger [Chrizzz]
+- Added instance_id and button_id to extension trigger pull values [Chrizzz]
+- Added 'Edit' button in the Variable Viewer (when inside a button). This enables opening the Edit Commands Window for that specific button [Christina]
+- Local API now accepts `all` as variable name for `getVariable` request, allowing you to grab the whole button object [Christina]
+
+Improvements:
+- Updated the "Send OBS Request" command to add all missing requests as templates. There are now some templates for commands already in SAMMI Core. This gives the ability to recieve more verbose information for already existing OBS commands. [Landie]
+- If the default Bridge port is not available (e.g. SAMMI crashed and Windows assumes the port is still in use), SAMMI will use a backup port instead (no user action required) [Christina]
+- Optimized Panel protocol; connect and disconnect messages now accurately display the Panel Name [Christina]
+- "Twitch Extra Edit Reward" Login name can be left empty and it will default to your Streamer Account [Chrizzz]
+- The following commands have been upgraded to natively handle objects/arrays (eliminating the need for the Stringify Object/Array command): [Christina]
+  - Set Local Variable, Set Button Variable, Set Button instance Variable, Set Global Variable
+  - Set Object Variable
+  - Array Insert, Array Replace
+  - Note: This implementation was intricate; please report any inconsistencies
+  - IMPORTANT: The Bridge and Local API commands are not yet upgraded to support this feature
+- Improved OBS protocol to account for changes introduced in OBS 30.0, such as correctly setting `connected` variable when OBS is ready to accept requests, or retrying requests when OBS is too busy to respond [Christina]
+- Changed how Deck thumbnails are created - they should now be automatically created by simply entering the deck [Christina]
+
+UI Changes:
+
+Removed Features:
+- Removed support for outdated SAMMI Deck and LioranBoard 2 Stream Deck (including the APK) [Christina]
+  - Please proceed to use SAMMI Panel, or one of the other 3rd party alternatives (Deck Hopper, DeckMate)
+- Removed SAMMI Deck Connected/Disconnected trigger [Christina]
+- Removed global variables `deck_connected` and `deck_version` [Christina]
+
+Bug Fixes:
+- Fixed follower alerts not triggering by adding Eventsub [Christina]
+  - Due to SAMMI using Eventsub for Follower Alerts now, you can only have one Twitch account listening to Follower Alerts 
+    - Navigate to SAMMI Core > Twitch Accounts > Check "New Follows" under "Listen For" section only for one account > Disconnect and Connect to Twitch again
+- Button IDs now get properly duplicated when using Duplicate Deck, with correct payload being sent to SAMMI Panel [Christina]
+- Resolved an issue in Mix It Up: Get Commands command, where now all commands are returned (increased limit to 1000) [Christina]
+- Addressed a minor memory leak when saving a button [Christina]
+- Fixed a memory leak during Panel connection [Christina]
+- Fixed a bug with "Twitch Extra Edit Reward" where Cooldowns and Limits weren't updating correctly [Chrizzz]
+- Resolved a critical issue in the "Array: Pull" and "Array: Remove" commands, which previously led to the destruction of internal structures when used on arrays that had already been deleted. This might have also been a factor in deck/button corruption [Christina].
+  - IMPORTANT: Users who have been utilizing arrays by reference (displayed as numbers in variable viewers) will experience a significant change, as such usage was not originally intended.
+- Fixed a bug where an extension file would be deleted from bridge/extensions/installed folder if it was selected to be installed again [Christina]
+
+
+Known Bugs:
+
+[SAMMI Bridge]
+-------------------------------------
+New Features:
+
+Improvements:
+- If connection to SAMMI fails, Bridge attempts to use a backup port instead (e.g. SAMMI was not able to establish a websocket server on the default port, and is using a backup port) [Christina]
+- SAMMI.getVariable now accepts `all` as variable name, allowing you to grab the whole button object [Christina]
+
+UI Changes:
+
+Removed Features:
+
+Bug Fixes:
+
+Known Bugs:
+
+[SAMMI Voice]
+-------------------------------------
+New Features:
+
+Improvements:
+
+UI Changes:
+
+Removed Features:
+
+Bug Fixes:
+
+Known Bugs:
+
+[SAMMI Panel]
+-------------------------------------
+New Features:
+
+Improvements:
+
+UI Changes:
+
+Removed Features:
+
+Bug Fixes:
+
+Known Bugs:
+
+[SAMMI Updater]
+-------------------------------------
+New Features:
+
+Improvements:
+
+UI Changes:
+
+Removed Features:
+
+Bug Fixes:
+
+Known Bugs:
+
+
 #### SAMMI 2023.3.0
 
 [SAMMI Core]
