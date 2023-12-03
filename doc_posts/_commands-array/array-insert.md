@@ -5,7 +5,8 @@ redirect_from:
   - commands/96
 ---
 
-Inserts a value into an array in a specific index (position), shifting other values to the right.
+Inserts a value into an array in a specific index (position), shifting other values to the right.  
+Supports setting the array value directly to objects/arrays without having to parse and stringify them.
 
 
 

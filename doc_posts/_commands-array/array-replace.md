@@ -5,7 +5,8 @@ redirect_from:
   - commands/99
 ---
 
-Replaces a value inside an array, overriding the previous one. Position of all values remains the same.
+Replaces a value inside an array, overriding the previous one. Position of all values remains the same.  
+Supports setting the array value directly to objects/arrays without having to parse and stringify them.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

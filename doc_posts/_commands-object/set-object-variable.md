@@ -6,6 +6,7 @@ redirect_from:
 ---
 
 Create a new object key or change a value inside an existing key.\
+Supports setting the values to objects/arrays without having to parse and stringify them.
 
 {% include alert.html text="You cannot set other objects or arrays as object keys, unless you use Set Button Variable command instead." type="warning" %} 
 

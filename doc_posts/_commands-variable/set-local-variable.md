@@ -7,6 +7,7 @@ redirect_from:
 ---
 
 Creates a new local variable or modifies an existing one.\
+Supports setting button variables directly to objects/arrays without having to parse and stringify them. This includes setting array values to other objects, too.\
 Local variables are contained in the button that created them. They can be accessed from other buttons by using Set/Get Button Variable (as long as the button has persistent variables enabled).
 
 {% include alert.html text="Variable names can contain numbers, letters and _, but cannot start with a number itself." type="warning" %}
