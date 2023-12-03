@@ -30,7 +30,7 @@ You can select a key and attach a modifier (or multiple modifier).
 | Shift (optional) | Checkbox | Whether you want to attach Shift modifier, i.e. press Shift+K.
 {:class='table table-primary' }
 
-{% include alert.html text="Trigger Pull Data command doesn't let you check which key press triggered the button" type="warning" %}
+{% include alert.html text="Trigger Pull Data command lets you check which key press triggered the button" type="info" %}
 
 <hr>
 
