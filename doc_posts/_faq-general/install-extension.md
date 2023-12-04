@@ -33,7 +33,4 @@ Extensions are meant to add new functionality to SAMMI. They're made by the SAMM
 Extension developers can choose to protect their extension decks and their buttons. If the particular button is protected, you cannot copy the button, its commands or see what's inside nested commands (if they're closed). You may still add new commands, modify or delete them.
 
 #### Create an extension
-SAMMI communicates with all its extensions via bridge.html and its own websocket.\
-Information about how to make your own extension can be found in `SAMMI/bridge/how to make extensions.txt` file.\
-Knowledge of JavaScript programming and SAMMI variable handling is a requirement to program extensions.  We encourage you to go over some existing extensions to understand the process.\
-Once you have an extension working, you can submit it in *#development* channel in the official [SAMMI Discord server](https://discord.gg/dXez8Zh). You will need one of the mods to approve it before it can be officially released. Use our [Extension Submission Form](https://sammi.solutions/extensions/submit) if you want your extension to be posted on the official SAMMI website. 
+All information about how to build your own extension can be found in the [Extension Guide](https://sammi.solutions/extensions/build). You can also reference [Bridge documentation](https://github.com/SAMMISolutions/SAMMI-Bridge#extension-command) and download an [Extension Example File](https://sammi.solutions/extensions/extension_example.sef).
