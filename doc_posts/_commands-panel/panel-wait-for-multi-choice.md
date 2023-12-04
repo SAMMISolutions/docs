@@ -16,6 +16,8 @@ Pauses a button execution for the specified amount of time, and a pop up message
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Message| String | Popup message to show the user
-|Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution
+|Default Choice | String | Default choice value, must be the exact match of one of the choices in the choice array
+|Choice Array name | String | Name of the array of choices to select from
+|Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution, leave empty to wait indefinitely
 |Save Variable As | String | Variable name to save the result
 {:class='table table-primary'}

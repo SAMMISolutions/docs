@@ -18,6 +18,6 @@ Pauses a button execution for the specified amount of time, and a pop up message
 |-------|--------|--------
 |Message| String | Popup message to show the user
 |Default Text | String | Default value prefilled in the input field 
-|Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution
+|Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution, leave empty to wait indefinitely
 |Save Variable As | String | Variable name to save the result
 {:class='table table-primary'}
