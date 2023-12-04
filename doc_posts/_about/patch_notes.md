@@ -6,8 +6,6 @@ menu: About
 num: 1
 type: fullpage
 ---
-#### SAMMI 2023.3.1
-
 
 #### SAMMI 2023.3.1 (December 2023)
 
