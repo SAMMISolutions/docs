@@ -7,11 +7,11 @@ num: 1
 type: fullpage
 ---
 
-#### SAMMI 2023.3.1 (December 2023)
+### SAMMI 2023.3.1 (December 2023)
 
-[SAMMI Core]
+#### SAMMI Core
 -------------------------------------
-New Features:
+**New Features:**
 - Added new Command: "Get Button Color" - Fetches the button color [Chrizzz]
 - Added new Command: "Get Button Text" - Fetches the text of a button  [Chrizzz]
 - Added new DEV mode command: "Get Instance ID" - Fetches the instance ID of the current button execution [Chrizzz]
@@ -21,7 +21,7 @@ New Features:
 - Added 'Edit' button in the Variable Viewer (when inside a button). This enables opening the Edit Commands Window for that specific button [Christina]
 - Local API now accepts `all` as variable name for `getVariable` request, allowing you to grab the whole button object [Christina]
 
-Improvements:
+**Improvements:**
 - Updated the "Send OBS Request" command to add all missing requests as templates. There are now some templates for commands already in SAMMI Core. This gives the ability to recieve more verbose information for already existing OBS commands. [Landie]
 - If the default Bridge port is not available (e.g. SAMMI crashed and Windows assumes the port is still in use), SAMMI will use a backup port instead (no user action required) [Christina]
 - Optimized Panel protocol; connect and disconnect messages now accurately display the Panel Name [Christina]
@@ -35,15 +35,13 @@ Improvements:
 - Improved OBS protocol to account for changes introduced in OBS 30.0, such as correctly setting `connected` variable when OBS is ready to accept requests, or retrying requests when OBS is too busy to respond [Christina]
 - Changed how Deck thumbnails are created - they should now be automatically created by simply entering the deck [Christina]
 
-UI Changes:
-
-Removed Features:
+**Removed Features:**
 - Removed support for outdated SAMMI Deck and LioranBoard 2 Stream Deck (including the APK) [Christina]
   - Please proceed to use SAMMI Panel, or one of the other 3rd party alternatives (Deck Hopper, DeckMate)
 - Removed SAMMI Deck Connected/Disconnected trigger [Christina]
 - Removed global variables `deck_connected` and `deck_version` [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed follower alerts not triggering by adding Eventsub [Christina]
   - Due to SAMMI using Eventsub for Follower Alerts now, you can only have one Twitch account listening to Follower Alerts 
     - Navigate to SAMMI Core > Twitch Accounts > Check "New Follows" under "Listen For" section only for one account > Disconnect and Connect to Twitch again
@@ -57,72 +55,17 @@ Bug Fixes:
 - Fixed a bug where an extension file would be deleted from bridge/extensions/installed folder if it was selected to be installed again [Christina]
 
 
-Known Bugs:
-
-[SAMMI Bridge]
+#### SAMMI Bridge
 -------------------------------------
-New Features:
-
-Improvements:
+**Improvements:**
 - If connection to SAMMI fails, Bridge attempts to use a backup port instead (e.g. SAMMI was not able to establish a websocket server on the default port, and is using a backup port) [Christina]
 - SAMMI.getVariable now accepts `all` as variable name, allowing you to grab the whole button object [Christina]
 
-UI Changes:
+### SAMMI 2023.3.0
 
-Removed Features:
-
-Bug Fixes:
-
-Known Bugs:
-
-[SAMMI Voice]
+#### SAMMI Core
 -------------------------------------
-New Features:
-
-Improvements:
-
-UI Changes:
-
-Removed Features:
-
-Bug Fixes:
-
-Known Bugs:
-
-[SAMMI Panel]
--------------------------------------
-New Features:
-
-Improvements:
-
-UI Changes:
-
-Removed Features:
-
-Bug Fixes:
-
-Known Bugs:
-
-[SAMMI Updater]
--------------------------------------
-New Features:
-
-Improvements:
-
-UI Changes:
-
-Removed Features:
-
-Bug Fixes:
-
-Known Bugs:
-
-
-#### SAMMI 2023.3.0
-
-[SAMMI Core]
--------------------------------------
-New Features:
+**New Features:**
 - Added new Command: "Twitch: Reply to Message" - Reply to Twitch messages directly instead of just sending chat messages [Chrizzz]
 - New Integration: Pulsoid - This integration sends your heartrate to SAMMI as long as you use any pulsoid device (will be available soon) [Chrizzz]
 - Added new "Alert Log" function - You can activate it in the settings menu for SAMMI to document all yellow alerts in a logfile (alert.log) [Chrizzz]
@@ -131,27 +74,24 @@ New Features:
 - Added "fullFPS" key you can set to "1" in settings.ini, to keep full FPS when SAMMI is not in focus [Christina]
 
 
-Improvements:
+**Improvements:**
 - Rewrote the "Twitch: Get Latest Followers" and "Twitch: Get Follower Count" command to use the new API endpoint to make them work again [Chrizzz]
 - Renamed the "error_log.txt" file to "error.log" [Chrizzz]
 - Whenever SAMMI shuts down or crashes, all active socket connections (e.g. Bridge, Panel, Twitch) are now forcibly closed. This ensures SAMMI doesn't occupy ports unnecessarily, which sometimes needed a complete system reboot. [Christina]
 - When the "Trigger Button" command is used, the "Trigger Pull Data" command inside the button which got triggered can now fetch the Instance ID of the originating button. This allows you to set variables in the originating button even if it's not persistent. [Christina]
 
-UI Changes:
+**UI Changes:**
 - Removed beta tags in the settings menu [Chrizzz]
 
-Removed Features:
-
-
-Bug Fixes:
+**Bug Fixes:**
 - Fixed Local API Set Variable endpoint where setting a variable to a number did not properly work [Christina]
 - Fixed some command error alerts missing information [Christina]
 - Fixed various crashes related to sockets, checkboxes, closing Twitch connection window, Twitch API command errors, installing extensions and more [Christina]
 
 
-[SAMMI Bridge]
+#### SAMMI Bridge
 -------------------------------------
-New Features: 
+**New Features:**
 - Added SAMMI.loadIni() function to load text/number from ini file directly from Bridge [Christina]
 - Added SAMMI.saveIni() function to save text/number to ini file directly from Bridge [Christina]
 - Added SAMMI.httpRequest() to make an API call directly from SAMMI (to avoid browser CORS errors) [Christina]
@@ -250,9 +190,9 @@ New Features:
 
 ### SAMMI 2023.2.1
 
-#### [SAMMI Core]
+#### SAMMI Core
 -------------------------------------
-Improvements:
+**Improvements:**
 - Updated translations:
   - French [MisterK]
   - English (UK) [wolbee]
@@ -261,7 +201,7 @@ Improvements:
 - SAMMI now detects when it is running on Wine and displays a warning that non-Windows platforms are not supported [Christina]
 - The Local API server is now enabled by default in all new SAMMI versions to prevent confusion when using SAMMI Voice with the option previously disabled by default [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - Variables inside [] brackets are now correctly treated as variables, not text [Chrizzz & Sebas]
 - Saving a variable with "undefined" is now allowed in some commands [Sebas]
 - Resolved a crash on SAMMI launch for Wine users [Christina]
@@ -272,62 +212,62 @@ Bug Fixes:
 - Resolved other uncommon crashes, such as those occurring when navigating menus or using the "Get User Info" command [Christina]
 - Fixed GUI issues in the Variable and YouTube window [Silverlink]
 
-Known Bugs:
+**Known Bugs:**
 - Special characters in SAMMI folder path (like “ö”) might cause some features to malfunction
 
-#### [SAMMI Voice]
+#### SAMMI Voice
 -------------------------------------
-New Features:
+**New Features:**
 - Added a new SAMMI Core command, "Voice: Toggle Status," to toggle the status of SAMMI Voice [Chrizzz]
 - Added the "Confidence Level" setting, allowing users to set a minimum accuracy threshold for voice recognition [Chrizzz]
 - Added the "Create Recognition Logfile" setting to display all recognized sentences with their confidence levels [Chrizzz]
 - Added the "Auto import Voice Triggers" setting for automatically importing voice triggers from SAMMI Core [Chrizzz]
 
-Improvements:
+**Improvements:**
 - Added an error log file for improved debugging capabilities [Chrizzz]
 - Added support for Japanese characters [Chrizzz]
 - Implemented automatic filtering of duplicate entries [Chrizzz]
 - Improved trigger organization by implementing alphabetical auto-sorting on startup  [Chrizzz]
 - Updated the settings INI file format to ensure compatibility with SAMMI Core [Chrizzz]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed an issue where an error would occur if the trigger lines contained only a space character [Chrizzz]
 
-#### [SAMMI Panel]
+#### SAMMI Panel
 -------------------------------------
-New Features:
+**New Features:**
 - Introduced Auto-Connection [Roadie]
 - Added new triggers "SAMMI Panel Connected" and "SAMMI Panel Disconnected" [Christina]
 - Added a new global variable "panel_connected" to check if SAMMI Core is connected to SAMMI Panel [Christina]
 
-Improvements:
+**Improvements:**
 - Improved text fit for buttons [Roadie]
 - Improved button placement and spacing to take up full window [Roadie & Sebas]
 
-Bug Fixes:
+**Bug Fixes:**
 - "Release Press" now triggers when the button is dragged away, not just on finger release [Roadie]
 - "Disconnect Button" now properly closes the connection with SAMMI [Roadie & Christina]
 - Text now breaks only on line breaks saved within SAMMI, preventing inappropriate line breaks [Roadie]
 - The alert now displays 'SAMMI Panel Connected/Disconnected' when SAMMI Panel is connected or disconnected [Christina]
 
-#### [SAMMI Updater]
+#### SAMMI Updater
 -------------------------------------
-New Features:
+**New Features:**
 - When extension reinstallation
 fails during the SAMMI Bridge update, a popup message displays the failed extensions (not included in the updated bridge file), and a backup bridge file is created in the bridge/backup folder to prevent data loss [Christina]
 - Added a button to SAMMI Core Settings to manually open SAMMI Updater, allowing users to check for new versions of SAMMI components (SAMMI only checks for new SAMMI Core versions) [Christina]
 
-Improvements:
+**Improvements:**
 - To accommodate users who have not migrated from the Transmitter folder, SAMMI Updater checks both the bridge and transmitter folders for extension files when SAMMI Bridge is being updated. If extensions are missing from the bridge folder but present in the transmitter folder, they are copied to the bridge folder [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - Extension files using LF (line feed) are now correctly reinstalled [Christina]
 - The updater no longer silently ignores extensions that fail to reinstall [Christina]
 
 
 ### SAMMI 2023.2.0
 
-New Features:
+**New Features:**
 - Revamped SAMMI.dll replaces DLLExtension.dll [Roadie]
   - This helps us add even more features later on
   - DLLExtension.dll can be safely removed from SAMMI folder (SAMMI will automatically delete the file)
@@ -372,7 +312,7 @@ New Features:
   - English (UK) [wolbee]
   - Dutch [Silverlink]
 
-Improvements:
+**Improvements:**
 - Better error message when SAMMI can't install extension due to lack of permissions [Christina]
 - Error message now shows the deck name where the button is placed when a button crashes [Christina]
 - HTTP Upload File command now supports extra FormData fields (needed for some APIs, only in developer mode) [Christina]
@@ -386,7 +326,7 @@ Improvements:
 - Missing text in translations default file now returns the key name instead of "Missing Text". [Sebas]
 - String Split to Array now creates a new array if it doesn't exists [Sebas] 
 
-UI Changes: 
+**UI Changes:**
 - Variable Window has been updated to the new style [Silverlink]
   - New Colors for variable types.
   - Added Legend Window for variable types
@@ -398,7 +338,7 @@ UI Changes:
 - Settings window has been reworked [Christina]
 - Added SAMMI Voice to Sidebar [Silverlink]
 
-Removed Features:
+**Removed Features:**
 - Twitch host and unhost triggers removed since Twitch ditched them [Christina]
 - Bits option in Twitch: Create Poll command taken out as Twitch no longer supports it [Christina]
 - Ports (Bridge & Deck, Panel) are no longer editable within Settings window to avoid confusion. Only advanced users should modify them - the values can still be manually changed in the settings.ini file. [Christina]
@@ -406,7 +346,7 @@ Removed Features:
 - No Updater Window within SAMMI anymore, updating is now handled SAMMMI Updater.exe [Christina]
 - Old Get Chatters command (replaced by the new Get Chatters command) has been fully deprecated and displays an alert now if you try to execute it [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - trigger_name pull value now present for all Extension Triggers from Bridge [Christina]
 - Twitch Chat /timeout command doesn't need reason anymore (fix for old slash commands, use Twitch: Timeout User for future needs) [Christina]
 - Set Button/Object Variable command fixed - it wouldn't set the variable or it would crash SAMMI if /$$/ was used in some cases [Christina]
@@ -424,13 +364,13 @@ Bug Fixes:
 - Date/Time Diff now rounds the result if the unit is seconds [Sebas]
 - Fixed a bug that would hang SAMMI when leaving empty the separator in String Split to Array. [Sebas]
 
-Known Bugs:
+**Known Bugs:**
 - Special characters in SAMMI folder path (like "ö") might cause some features to malfunction
 
 
 ### SAMMI 2023.1.1
 
-New Features:
+**New Features:**
 - New Command: Source Toggle Visibility [Sebas]
 - New Command: Filter Toggle Visibility [Sebas]
 - New Command: Discord: Send Message [Chrizzz]
@@ -442,17 +382,17 @@ New Features:
 - Updated Translation:
   - Italian [AlfaTelevision]
 
-Improvements:
+**Improvements:**
 - Moved the Twitch commands above the YouTube commands in the command list / search [Chrizzz]
 - Moved the Twitch: Send Chat Message command to the top of the Twitch commands [Chrizzz]
 - SAMMI now checks for any empty Variable/Array/Object/Buffer name boxes in your commands and does not allow you to save the button if these values are mandatory [Christina]
 - Stringify Object command now stringifies your whole button if you leave the Object Name box empty or set it to 'local' for the current button, or put in the button ID you want to stringify. This allows you to save all the button variables with a single command. [Christina]
 
-UI Changes:
+**UI Changes:**
 - SAMMI can now remember its last window position and size between restarts. You can enable the beta feature in the Settings. (It does not remember which monitor you run SAMMI on as that's something Windows needs to do) [Christina (majority) + Silverlink]
 - If you hover over a command name in a command box within the Edit Commands window, it will now show its full name. While hovering, you can also press F1 to automatically open documentation for the selected command. [Christina] 
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a bug in Twitch: Modify Channel Information where using special characters like ? in the title would make the command fail [Chrizzz]
 - The following commands no longer save their responses into an empty named variable if the optional Save Variable As box name is not filled out: Send OBS Request, Twitch: API Call, Create Clip, HTTP Request, HTTP Upload File. [Christina]
 - OBSWS5 related bug fixes, such as when source filter is removed or source name is changed in OBS [Christina]
@@ -465,12 +405,12 @@ Bug Fixes:
 - Fixed Twitch: API Call command not saving the response in the correct button in some cases [Christina] 
 - Fixed Bridge not correctly mimicking Twitch payload when testing Twitch triggers. It now sends channel and from_channel_id as a string, name_color without #, user_id as a string and first_time as "1" or "0". [Christina]
 
-Known Bugs:
+**Known Bugs:**
 Having special characters in SAMMI folder path (such as "ö") may cause some features not correctly working
 
 ### SAMMI 2023.1.0
 
-New Features:
+**New Features:**
 - Added new Twitch API commands (some of them will need you to relink your Twitch Account), they will automatically use your default chat account if the channel box name is left empty:
 	- Twitch: Add Moderator - Adds a new moderator to the channel [Chrizzz]
 	- Twitch: Add VIP - Adds a new VIP to the channel [Chrizzz]
@@ -501,7 +441,7 @@ New Features:
 	- You don't have to change your existing Twitch Chat commands that use them inside SAMMI, as they will still work even after Twitch officially deprecates them. If you're using any other slash commands in your Twitch Chat commands NOT listed above, you need to migrate them to use the new Twitch API commands before February 18, 2023. 
 - Added a new command Reinitialize Button Variables, which works the same as right clicking on the button - Edit Init Variables and pressing Reinitialize button. [Christina]
 
-Improvements:
+**Improvements:**
 - Added 3 new Twitch scopes (Manage Raids, Manage Bans and Manage Shoutouts) [Chrizzz]
 - Twitch: Send Chat Message will now automatically split messages that are longer than 500 characters into multiple messages (if possible it will split it on a space character after 480 characters) [Chrizzz]
 - Modified the following commands:
@@ -518,12 +458,10 @@ Improvements:
 	- Dutch [Marble127]
 	- German [Chrizzz]
 
-UI Changes:
+**UI Changes:**
 - Scope Window has now 3 columns instead of 2 [Chrizzz]
 
-Removed Features:
-
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a bug where the Twitch: Send Whisper command would not work correctly [Chrizzz]
 - Fixed a bug where the File: Read command would stop reading a file after encountering an empty line [Chrizzz]
 - Twitch Shoutout trigger now correctly pulls the user picture URL [Christina]
@@ -537,7 +475,7 @@ Bug Fixes:
 
 ### SAMMI 2022.5.4
 
-New Features:
+**New Features:**
 - Added new command: "Twitch: Run Ad (Commercial)" - lets you run an ad with a length of your choice, the response object provides info about the actual length and cooldown [Chrizzz]
 - Added new command: "Twitch: Create API Header" - simple command to create a header for an Twitch API Call [Chrizzz]
 - Added new command: "Twitch: Create API Call" - easy command that lets you create Twitch API calls even easier [Chrizzz]
@@ -549,7 +487,7 @@ New Features:
    - Brodcast ID = your current broadcast ID
    - Live Chat URL = your current live chat URL (so you can use it as OBS Browser Source)
 
-Improvements:
+**Improvements:**
 - String: Trim default height has been adjusted. [Sebas]
 - Reworked "Twitch: Send Announcement" command (now works with different announcement colors) [Chrizzz]
 - Reworked "Twitch: Send Whisper" now uses the new promises in the source code [Chrizzz]
@@ -560,11 +498,7 @@ Improvements:
 - Updated English Template [Sebas]
 - Added new scope for shieldmode [Chrizzz]
 
-UI Changes:
-
-Removed Features:
-
-Bug Fixes:
+**Bug Fixes:**
 - Fixed the message box warning if SAMMI is in a program files or system location [Chrizzz]
 - Fixed more OBSws 5 related bugs [Christina]
 - OBSWS 5 should now rarely crash your SAMMI anymore, instead you will get a yellow notification message 
@@ -584,11 +518,9 @@ Bug Fixes:
 - Fixed Date/Time commands for DLS (aka Summer Time) [Sebas]
 - Fixed wrong requestType on SetSceneItemIndex template [Sebas]
 
-Known Bugs:
-
 ### SAMMI 2022.5.3:
 
-New Features:
+**New Features:**
 - Added YouTube Ad Break command [Christina]
   - allows you to insert a cuepoint into a live broadcast which might trigger an ad break
 - Added Username to Twitch Chat and Twitch Channel Points triggers [Christina]
@@ -598,7 +530,7 @@ New Features:
   - Does not accept partial names with wildcards, such as w* for any names beginning with w
 - New Language: Dutch [Marble127]
 
-Improvements:
+**Improvements:**
 - Added more characters for the Nunito font to SAMMI, including Cyrillic. [Silverlink]
 - Added Triggering Button ID to "Trigger Pull Data" when triggering a button from another button. [Silverlink]
 - Added Extra information when linking twitch account depending on what button you have pressed. [Silverlink]
@@ -607,38 +539,30 @@ Improvements:
   - Special symbols are not shown in the dropdown until they are used the first time, but they still work if you press the key in your keyboard.
   - These keys shouldn't be used if you plan to share your button, as they can change in a different keyboard.
  
-UI Changes:
+**UI Changes:**
 - Re-enabled Bot scopes buttons for when linking your twitch account(s)
   - For now they have the same scopes as streamer scopes (This will be changed in the future)
 
-Removed Features:
-
-Bug Fixes:
+**Bug Fixes:**
 - Buffer: Hash SHA1 command now functions properly [Christina]
 - Send OBS request now parses true/false correctly [Roadie]
 - Improper usage of buffer commands no longer causes SAMMI to crash [Christina]
   - instead you will get a yellow alert (i.e. "Buffer does not exist", "Trying to read outside the buffer", etc.)
 
-Known Bugs:
+**Known Bugs:**
 - DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until it's fixed.
 
 
 #### SAMMI 2022.5.2 
 
-New Features:
-
-Improvements:
+**Improvements:**
 - Added alerts in Object to INI command when it fails. [Sebas]
 - The settings.ini file is now protected and can't be edited with commands to avoid malicious commands in shared buttons/decks. [Sebas]
 - Improved how the erros are detected whenever your decks in SAMMI are loaded [Christina]
   - If SAMMI detects your deck file has been corrupted, it will now create a new 'decks_data_corrupted.json' file to prevent it
-    from being overridden, and allows you to manually repair it or share it with our dev team, while continuing to work in SAMMI. 
- 
-UI Changes:
+    from being overridden, and allows you to manually repair it or share it with our dev team, while continuing to work in SAMMI.
 
-Removed Features:
-
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a crash when using INI to Object in an empty INI file. [Sebas]
 - Fixed a bug that won't delete keys and sections when using Object to INI. [Sebas]
 - General WS5 stability [Roadie]
@@ -648,7 +572,7 @@ Bug Fixes:
 - Fixed a crash when a custom Bridge code supplies an incorrect extension type when communicating with SAMMI [Christina]
 - Fixed a crash when a local API request tries to access a variable in a non existing object or array [Christina]
 
-Known Bugs:
+**Known Bugs:**
 - DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until it's fixed.
 - Some Twitch commands are using Bot Scopes instead of Streamer Scopes, so we've disabled Bot Scopes temporarily.
   - Meanwhile, please revoke your Bot token and use Streamer Scopes for all accounts.
@@ -656,11 +580,11 @@ Known Bugs:
 
 ### SAMMI 2022.5.1 
 
-New Features:
+**New Features:**
 - When creating an extension command from Bridge, extension boxes can now be also decks, passwords and other types. [Christina]
 - Added the "sqrt" operation to commands like Set Local Variable to get the square root of a number [wolbee]
 
-Improvements:
+**Improvements:**
 - When creating an extension command from Bridge, you can now choose whether you want it to send its data to Bridge (which is how it normally works) 
 or send it as an extension trigger within SAMMI instead (without going through Bridge) when the user uses the Extension command.  [Christina]
   - Extremely helpful if you have one central button acting as a function and want to provide your users with a friendly interface to trigger it from within SAMMI.   
@@ -668,17 +592,17 @@ or send it as an extension trigger within SAMMI instead (without going through B
 - When checking for updates, you will no longer get a yellow alert that your Bridge file doesn't match its cloud counterpart, 
 as this is expected as soon as any extensions are installed. [Christina]
  
-UI Changes:
+**UI Changes:**
 - "Search" label is not shown anymore in Hotkey Trigger dropdown. [Sebas]
 - Send OBS Request command now has a button to open the OBS websocket docs page [wolbee]
   - it works off the protocol for the OBS Connection specified in the command.
   - if the OBS Connection box contains a variable, it will default to ws5 docs.
 
-Removed Features:
+**Removed Features:**
 - Removed some more unnecessary alerts for regular non error disconnections for Bridge, SAMMI Deck etc. [Christina]
 - Removed a check for email scope when a Twitch: Get User Info command is run. [Silverlink]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a crash when you pressed Add New Deck menu button [Christina]
 - Fixed a crash that sometimes happened on save/run button [Christina]
 - Fixed a crash that sometimes happened when saving a deck while the button was already running [Christina]
@@ -693,7 +617,7 @@ Bug Fixes:
 - Fixed a visual bug that will shown incorrect hotkeys in Hotkey Triggers [Sebas]
 - Fixed a bug where using sin/cos/tan/log10 on an array would overwrite the array [wolbee]
 
-Known Bugs:
+**Known Bugs:**
 - DST (aka Summer Time) is not taken into account in Date/Time. A workaround is to substract 1 until we fix it.
 - Some Twitch commands are using Bot Scopes instead of Streamer Scopes, so we've disabled Bot Scopes temporarily.
   - Meanwhile, please revoke your Bot token and use Streamer Scopes for all accounts.
@@ -702,7 +626,7 @@ Known Bugs:
 
 ### SAMMI 2022.5.0
 
-New Features:
+**New Features:**
 - Command: Deck: Change Status - allows you to enable, disable or toggle a deck status [Christina]
 - Command: Deck: Get Status - allows you to get the current status of a deck (enabled/disabled) [Christina]
 - Command: Twitch: Delete Chat Message - allows you to delete a chat messages by its ID (retrieved from Trigger Pull Data command) [Christina]
@@ -732,7 +656,7 @@ New Features:
   - added new Webhook button trigger
   - please consult the API Reference on SAMMI Website
 
-Improvements:
+**Improvements:**
 - Lots of internal source code improvements for better readability, efficiency and hopefully less bugs [Dev team]
 - If downloading new languages fails, you are now prompted to open a direct download link instead and manually replace them [Christina]
 - You can now pull message ID for Twitch Chat messages (required for deleting them) [Christina]
@@ -759,14 +683,14 @@ Improvements:
   - Added OBSWS5 library to Bridge, you can now use `OBSWebSocket` variable to connect to OBSWS 4 or `OBSWebSocket5` variable to connect to OBSWS 5, both are supported 
   - Added 2 new functions to control deck enable/disable status: getDeckStatus(deckID) and changeDeckStatus(deckID, status = 0, 1, or 2 for toggle)
  
-UI Changes:
+**UI Changes:**
 - Reworked OBS Connections, Twitch Connections, YouTube Connection and Settings tab [Silverlink]
 
-Removed Features:
+**Removed Features:**
 - Unnecessary Connection alerts for OBS, Twitch, Bridge (there will be only error alerts now) [Christina]
 - Deprecated Command: OBS Custom Packet - please do not use this command anymore as it will not properly function [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a bug where a second SAMMI would not automatically reconnect to Bridge/SAMMI Deck if you closed the first SAMMI currently connected to it without completely restarting the second SAMMI first [Christina]
 - Fixed a memory leak when saving/running buttons [Christina]
 - Fixed a bug where you could not select the last row in a new deck [Christina]
@@ -803,12 +727,12 @@ Bug Fixes:
 - Fixed a crash when using ALT+TAB while moving a deck [Chrizzz]
 - Twitch Connections window now doesnt stick to your mouse pointer if you click no to the confirm close window [Roadie]
 
-Known Bugs:
+**Known Bugs:**
 - In certain countries in DST (aka Summer Time), Date/Time commands can add your current timezone to your current time. A workaround is to substract your timezone until we fix it.
 
 ### SAMMI 2022.4.4
 
-New Features:
+**New Features:**
 - Added JSON checker for when Send OBS Request Command is executed. [Christina]
   - If the JSON is not formatted correctly, you now get an alert, and the request is not sent.
 - Added more variables to OBS global variables.
@@ -816,7 +740,7 @@ New Features:
   - ip [Chrizzz]
 - Added client_language as a global variable [Chrizzz]
 
-Improvements:
+**Improvements:**
 - Added 2 new Twitch Scopes (No commands yet, but can be done via HTTP Requests) [Silverlink]
   - Charity Scope
   - Goals Scope
@@ -825,14 +749,12 @@ Improvements:
 - SAMMI now automatically fetches data for all OBS connections. [Christinna]
   - the Fetch OBS Data checkbox has been removed from OBS Connections, which should fix several OBS-related crashes.
 
-Removed Features:
+**Removed Features:**
 - Removed 2 Twitch Scopes [Silverlink]
   - Twitch Stream Key (SAMMI does not need the Twitch Stream Key to operate so we removed this)
   - Edit Follows (This is deprecated by Twitch and does nothing anymore)
 
-UI Changes:
-
-Bug Fixes:
+**Bug Fixes:**
 - AM and PM now work correctly in Date/Time commands [Sebas]
 - MMM and MMMM tokens now work again [Sebas]
 - Daylight Savings Time is now correctly calculated in Date/Time commands [Sebas]
@@ -867,24 +789,24 @@ Bug Fixes:
 
 ### SAMMI 2022.4.3
 
-New Features:
+**New Features:**
 - Added Reload Bridge button to the Bridge menu [Christina]
 - Added a super secret early-access feature - our Patrons can request access [Christina]
 - New Language: French [MisterK]
 
-Improvements:
+**Improvements:**
 - Significantly improved how error logs are sent to us and processed - please fill out the comment describing what you were doing when SAMMI crashed as it really helps us narrow it down [Christina]
 - Bridge Verify button label in the Update Window changed to Reinstall if Bridge versions match, since in this case it just downloads a clean version of Bridge and reinstalls all extensions [Christina]
 - New translations added [Sebas + translators]
 
-Removed Features:
+**Removed Features:**
 - Twitch Connected/Disconnected Triggers [Christina]
 
-UI Changes:
+**UI Changes:**
 - Fixed YouTube Connections layout [Sebas]
 - Remade many buttons and text layout to allow French translation [Sebas]
 
-Bug Fixes:
+**Bug Fixes:**
 - lots of ws5-related bugs have been fixed in this update [various]
   - SceneItemRemoved crash
   - SceneItemCreated crash
@@ -913,24 +835,24 @@ Bug Fixes:
 - Fixed OBSWS connection freeze [Christina]
 - Fixed a high ping crash for Pubsub [Christina] 
 
-Known Bugs:
+**Known Bugs:**
 - For Date/Time commands, using the X token for the input format doesn't take into account Daylight Savings Time
 
 ### SAMMI 2022.4.2
 
-Improvements:
+**Improvements:**
 - Made it so that Patrons are only loaded once at the start of SAMMI instead each time you opened the about page [Silverlink]
 - Made the requests section of HTTP Request have a dropdown for the most common types of request [wolbee]
   - Other request types can be manually written in, if needed, and all previous commands should still work without any changes needed.
 - Change default timeout to 1000 in wait commands [Sebas]
 
-UI Changes:
+**UI Changes:**
 - Fixed the weird background on the copy / delete buttons in the variable viewer [Silverlink]
 - Changed SAMMI Core font in about page to Nunito [Silverlink]
 - Gave some buttons some more room for text [Sebas]
 - Added translations to the about window [Sebas + translators]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed Right-Click -> Delete button not working [Sebas]
 - Rewrote obsws5_event to address a multitude of crashes [Roadie]
 - Fixed visibility toggle crash on data_behavior [Roadie]
@@ -950,21 +872,21 @@ Bug Fixes:
 Important note for users who had Pubsub connection issues:
 - This update includes a temporary workaround until a "more elegant solution" can be found. If you had Pubsub connection issues, please make yourself known in the Discord, and one of the dev team will instruct you on how to fix it.
 
-New Features
+**New Features:**
 - About page, featuring information on the developers, Patrons, and more. [Dev team]
 
-Improvements:
+**Improvements:**
 - Error logs now contain an identifier to help distinguish between repeated reports from the same person or from different people. [Christinna]
   - No personally identifiable information is sent in the report, so reports cannot be linked back to a specific user.
 - Shortened the version matching alert. [Sebas]
 - Updates to language files. [Translators]
 
-UI Changes:
+**UI Changes:**
 - Changed SAMMI Background color to #122c52 matching the rest. [Silverlink]
 - Changed Bridge Icon. [Christinna]
 - The copy buttons in the Variable Viewer now share a background. [wolbee]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed a double pop-up when updating languages for SAMMI Core. [Christinna]
 - Fixed a bug that reloaded decks from within the edit button screen. [Christinna]
 - Array Filter and CSV Math should no longer crash when used with strings. [Sebas]
@@ -985,7 +907,7 @@ Bug Fixes:
 - Fixed Pubsub connection issue (see note at top). [Christinna]
 - Fixed a crash when deck size was left blank. [Christinna]
 
-Known Bugs: 
+**Known Bugs:**
 - Button menu option to 'Delete Button' doesn't work currently. Use the keyboard 'Delete' key instead.
 - Extension commands for filter boxes do not correctly show source filters.
 
