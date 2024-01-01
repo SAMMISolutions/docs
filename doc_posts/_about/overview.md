@@ -9,19 +9,33 @@ js: patrons
 css: patrons
 ---
 
-SAMMI is a proprietary application developed using GameMaker Studio 2 and has gained recognition as one of the most versatile and customizable OBS Stream Decks available. The foundation of SAMMI is built upon LioranBoard 2, a project originally developed by Lioran Waters.
+SAMMI is a proprietary application developed using GameMaker Studio 2 and has gained recognition as one of the most versatile and customizable Stream Assistant available. The foundation of SAMMI is built upon LioranBoard 2, a project originally developed by Lioran Waters.
 
-In June 2022, our SAMMI development team began expanding on the original LioranBoard 2 codebase, incorporating new features and addressing long-standing bug fixes that had been requested by the LioranBoard 2 community.
+In June 2022, the SAMMI Founder team embarked on expanding the original LioranBoard 2 codebase. This effort focused on adding new features and fixing long-standing bugs, responding to the needs of the LioranBoard 2 community.
 
-By August 2022, the project underwent a rebranding and was officially renamed SAMMI. The team remains dedicated to the ongoing maintenance and enhancement of the software, which includes the introduction of additional features and adaptations to the evolving landscape of live streaming.
+By August 2022, this evolution led to a significant milestone: the project was rebranded and officially became known as SAMMI.
 
-**SAMMI Dev Team** (in no particular order)
+**SAMMI Founders**
+
+The foundations of SAMMI were laid by a group of passionate individuals who are recognized as its Founders:
 
 - [Christina K](https://twitter.com/christina_kral)
 - [RoadieGamer](https://twitter.com/roadiegamer)
 - [cyanidesugar](https://twitter.com/cyanidesugar_)
 - [Sebas](https://twitter.com/SebasCoding) 
 - [Silverlink](https://github.com/XSilverlink)
+- [wolbee](https://twitter.com/justwolb)
+
+These Founders played a pivotal role in shaping SAMMI's early development and transition from LioranBoard 2.
+
+**Current SAMMI Team**
+
+Today, the SAMMI Team continues to drive the software forward. The team is dedicated to maintaining and enhancing SAMMI, ensuring it stays ahead in the dynamic world of live streaming.
+
+Current SAMMI Team Members (Listed by Joining Date)
+
+- [Christina K](https://twitter.com/christina_kral)
+- [cyanidesugar](https://twitter.com/cyanidesugar_)
 - [Chrizzz](https://twitter.com/chrizzz1508)
 - [Landie](https://twitter.com/Landie__)
 
@@ -55,8 +69,7 @@ Thank you all so much for supporting us!
 </div>
 
 #### Contributors
-
-- SAMMI Core: [SAMMI Dev Team](https://www.patreon.com/sammidevs)
+- SAMMI Core: [SAMMI Team](https://www.patreon.com/sammidevs)
 - SAMMI Panel: [RoadieGamer](https://twitter.com/roadiegamer)
 - SAMMI Voice: [Chrizzz](https://github.com/Chrizzz-1508)
 - SAMMI Bridge: [Christina K](https://github.com/christinna9031)
