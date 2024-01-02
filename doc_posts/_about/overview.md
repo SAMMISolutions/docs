@@ -25,6 +25,7 @@ The foundations of SAMMI were laid by a group of passionate individuals who are 
 - [Sebas](https://twitter.com/SebasCoding) 
 - [Silverlink](https://github.com/XSilverlink)
 - [wolbee](https://twitter.com/justwolb)
+- [Chrizzz](https://twitter.com/chrizzz1508)
 
 These Founders played a pivotal role in shaping SAMMI's early development and transition from LioranBoard 2.
 
