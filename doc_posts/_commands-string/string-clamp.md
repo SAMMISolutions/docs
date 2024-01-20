@@ -15,13 +15,13 @@ You need to specify the index of the first character and the amount of character
 |-------|--------|--------|
 |Save Variable As|	String|	Variable name to save the clamped string.
 |String (text)| String| String (text) to clamp
-|Start Position|	Int {% include asterisk.html%}|	Where to start the clamp
+|Start Position|	Int {% include asterisk.html%}|	Where to start the clamp (first character = 0)
 |Amount of Characters|	Int {% include asterisk.html%}|	Amount of characters to include in the clamp
 {:class='table table-primary ' }
 
 | Original string | Start| Amount| Result| 
 |-------|--------|--------|--------
-|Hello World!|0|5|Hello
+|Hello World!|1|5|Hello
 |This is cool!|9|4|cool
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
