@@ -42,6 +42,7 @@ Tick this option for mobile devices to allow the device's screen to remain turne
 Check this if you wish to load the Panel in fullscreen.
 
 **Alternative Applications**
+
 [Deck Hopper](https://christinak.ca/deckhopper/) is the recommended alternative to SAMMI Panel and is fully maintained by ChristinaK. The desktop version is free, with the option for a PRO version for expanded and enhanced features. 
 
 [Deck Mate Control](https://play.google.com/store/apps/details?id=com.flipstream.android.deckmatecontrol&pli=1) is an Android-only alternative to SAMMI Panel developed by SAMMI Community member Flipstream. 
