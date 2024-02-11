@@ -1,5 +1,5 @@
 ---
-title: "Panel: Wait for Choice"
+title: "Deck App: Wait for Choice"
 num: 3
 version: 202331
 redirect_from:
@@ -15,6 +15,7 @@ Pauses a button execution for the specified amount of time, and a pop up message
 
 | Box Name | Type | Description | 
 |-------|--------|--------
+|Client Name| String | Name of your Deck App
 |Message| String | Popup message to show the user
 |Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution, leave empty to wait indefinitely
 |Save Variable As | String | Variable name to save the result
