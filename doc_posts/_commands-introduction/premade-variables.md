@@ -14,7 +14,6 @@ You can access them by using the `Get Global Variable` command, or reference the
 | Variable | Type | Explanation|
 |-------|--------|--------
 {% include selectAll.html text="<code>administrator_mode</code>" %}| Boolean | True if running in Administrator mode.
-{% include selectAll.html text="<code>Architecture</code>" %}| String | Type of architecture you're on. x64 or x86.
 {% include selectAll.html text="<code>elapsed_time</code>" %}| Number | Time in seconds since you started SAMMI.
 {% include selectAll.html text="<code>main_directory</code>" %}| String | Main directory where SAMMI folder resides, using forward slashes (<code>/</code>). Useful for extension makers to be able to easily copy files.
 {% include selectAll.html text="<code>main_directory_slash</code>" %}| String | Main directory where SAMMI folder resides, using backslashes (<code>\\</code>). Useful for sending file paths to OBS.
@@ -35,13 +34,13 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>browser_name</code>" %}| String | Browser name your Bridge connected to SAMMI is using.
 {% include selectAll.html text="<code>client_language</code>" %}| String | Language SAMMI is currently using.
 {% include selectAll.html text="<code>deck_connected</code>" %}| Boolean | Returns true if SAMMI deck is connected, false if not.
-{% include selectAll.html text="<code>panel_connected</code>" %}| Boolean | True if connected, false if not connected.
-{% include selectAll.html text="<code>panel_port</code>" %}| Number | The port number for SAMMI Panel.
+{% include selectAll.html text="<code>deck_app_connected</code>" %}| Boolean | True if connected, false if not connected. Lists the connected deck apps.
+{% include selectAll.html text="<code>deck_app_port</code>" %}| Number | The port number for SAMMI Panel.
 {% include selectAll.html text="<code>SAMMI</code>" %}| Object | Contains information about your current SAMMI versions.
 {% include selectAll.html text="<code>SAMMI.bridge_version</code>" %}| String | Your current SAMMI Bridge version.
 {% include selectAll.html text="<code>SAMMI.deck_version</code>" %}| String | Your current SAMMI Deck version.
 {% include selectAll.html text="<code>SAMMI.sammi_version</code>" %}| String | Your current SAMMI Core version.
-{% include selectAll.html text="<code>streamdeck_port</code>" %}| Number | The port number for SAMMI Deck.
+{% include selectAll.html text="<code>bridge_port</code>" %}| Number | The port number for SAMMI Bridge connections.
 {% include selectAll.html text="<code>trigger_type</code>" %}| Array | All available trigger types.
 {% include selectAll.html text="<code>Extensions</code>" %}| Object | Shows all currently installed extensions in Bridge connected to SAMMI. 
 {:class='table table-secondary w-auto table-hover text-break' }
@@ -53,7 +52,6 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>twitch_accounts</code>" %}| Array | All linked Twitch account login names.
 {% include selectAll.html text="<code>twitch_chat_connected</code>" %}| Boolean | Twitch chat connection status. True if connected, false if not connected.
 {% include selectAll.html text="<code>twitch_client_id</code>" %}| String | SAMMI Twitch Client ID, used in Twitch API calls.
-{% include selectAll.html text="<code>twitch_pubsub_connected</code>" %}| Boolean | Twitch Pubsub (for Twitch alerts) connection status. True if connected, false if not connected.
 {:class='table table-secondary w-auto table-hover text-break' }
 
 **OBS Variables**
