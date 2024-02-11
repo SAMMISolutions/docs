@@ -71,7 +71,8 @@ If you've linked more than more Twitch account to SAMMI, you must specify the ch
 
 #### Listen to Twitch Events
 
-Once you link your account(s), SAMMI automatically connects to Twitch PubSub, Twitch EventSub and Twitch Chat (if you pressed Connect Twitch button) to listen to all selected Twitch events and Twitch chat.\
+Once you link your account(s), SAMMI automatically connects to Twitch EventSub and Twitch Chat.\
+Select which Twitch account you wish to listen to Twich events by checking 'Listen to Twitch events' in Twitch Connections window. Al levents are now automatically subscribed to and listened for. 
 Learn more about all Twitch event triggers in our [Triggers-Twitch]({{ "triggers/twitch" | relative_url }}) section.
 
 
