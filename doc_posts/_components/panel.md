@@ -7,11 +7,13 @@ type: fullpage
 permalink: /panel
 version: 202320
 ---
+{% include alert.html text="Due to unforeseen circumstances, development on SAMMI Panel has ceased. We understand that this is not ideal however there are alternative applications available. Please see the 'Alternative Apps' section below." type="warning" %} 
+
 SAMMI Panel is where you load your decks containing buttons that you previously created in SAMMI Core. With how much customization SAMMI offers, you can create extremely complex great looking decks!  
 
 {% include image.html w="75" src="panel.png" alt="SAMMI Panel showing an example deck with buttons" %}
 
-SAMMI Panel comes with both a desktop app for use on your PC, as well as a web browser version that can be accessed at [http://sammipanel.solutions](http://sammipanel.solutions)
+SAMMI Panel is available as a web browser version that can be accessed at [http://sammipanel.solutions](http://sammipanel.solutions) SAMMI Panel also exists as a legacy desktop .exe, however it is no longer being maintained or developed and might still have bugs.
 
 ### Panel Setup
 The desktop version of SAMMI Panel can be found in the `SAMMI/SAMMI Panel` folder. You can also open it by pressing SAMMI Panel button in the main menu in SAMMI. If you do not have SAMMI Panel for any reason, navigate to SAMMI Core - Settings - Check for Updates and press Download. You can manually download it from our Itch page as well: [https://sammisolutions.itch.io/sammi](https://sammisolutions.itch.io/sammi).
@@ -38,6 +40,11 @@ Tick this option for mobile devices to allow the device's screen to remain turne
 **Fullscreen**  
 
 Check this if you wish to load the Panel in fullscreen.
+
+**Alternative Applications**
+[Deck Hopper](https://christinak.ca/deckhopper/) is the recommended alternative to SAMMI Panel and is fully maintained by ChristinaK. The desktop version is free, with the option for a PRO version for expanded and enhanced features. 
+
+[Deck Mate Control](https://play.google.com/store/apps/details?id=com.flipstream.android.deckmatecontrol&pli=1) is an Android-only alternative to SAMMI Panel developed by SAMMI Community member Flipstream. 
 
 
 
