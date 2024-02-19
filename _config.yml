@@ -351,5 +351,5 @@ collections:
     output: true
   commands-integrations:
     output: true
-  commands-panel:
+  commands-deck-app:
     output: true

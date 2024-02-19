@@ -6,7 +6,7 @@ redirect_from:
   - commands/321
 ---
 
-{% include alert.html text="Currently only supported in Deck Hopper." type="warning" %} 
+{% include alert.html text="Available in Deck Hopper Pro." type="info" %} 
 
 Similar to Wait for User Input command, but the prompt will originate from the Deck App instead.  
 Command is available in [Developer Mode](https://sammi.solutions/docs/faq/general#developermode).
@@ -16,7 +16,7 @@ Pauses a button execution for the specified amount of time, and a pop up message
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Client Name| String | Name of your Deck App
+|Client Name| String | Name of your Deck App (set in the Deck App's connection settings).
 |Message| String | Popup message to show the user
 |Default Text | String | Default value prefilled in the input field 
 |Timeout After | Number | Time in milliseconds before SAMMI resumes the button execution, leave empty to wait indefinitely

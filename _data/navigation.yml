@@ -109,9 +109,9 @@ main:
     - name: Sound Effects
       link: commands/sounds
       collection: commands-sounds
-    - name: Panel
-      link: commands/panel
-      collection: commands-panel
+    - name: Deck App
+      link: commands/deck-app
+      collection: commands-deck-app
     - name: Integrations
       link: commands/integrations
       collection: commands-integrations

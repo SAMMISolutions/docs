@@ -38,7 +38,7 @@ If you use an OBS dock for your Transmitter, you will have to replace that Trans
 
 {% include alert.html text="It is important to note that the LioranBoard Transmitter will not work with SAMMI and the SAMMI Bridge will not work with LioranBoard 2." type="warning" %} 
 
-##### SAMMI Panel
+##### SAMMI Panel and other Deck Apps
 Functionality of the SAMMI Panel remains exactly the same as the Stream Deck. The update for the Panel will update your taskbar icon. 
 
 ##### New Twitch Token

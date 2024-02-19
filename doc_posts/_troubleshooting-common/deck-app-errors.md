@@ -1,8 +1,12 @@
 ---
-title: SAMMI Panel Connection
+title: Deck App Connection
 num: 6
 ---
 
+### Deck Hopper
+Please see Troubleshooting section on [Deck Hopper's official website](https://christinak.ca/deckhopper/troubleshooting). 
+
+### SAMMI Panel
 If you click 'Connect' in your SAMMI Panel and nothing happens, this indicates that a successful connection to SAMMI Core has not been established. The following are potential reasons for the lack of connection and their respective solutions:
 
 - **Outdated SAMMI Panel**\
