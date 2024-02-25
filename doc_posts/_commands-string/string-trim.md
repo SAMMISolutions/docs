@@ -8,7 +8,7 @@ redirect_from:
 
 Trims blank spaces or specific characters from your string.  
 
-{% include alert.html text='Trimming a backwards slash <code>\\</code> must be escaped by another slash: <code>\\\\</code>' type="warning" %} 
+{% include alert.html text='Trimming a backwards slash <code>\</code> must be escaped by another slash: <code>\\</code>' type="warning" %} 
 
 
 | Box Name | Type | Description | 

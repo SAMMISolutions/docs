@@ -8,7 +8,7 @@ permalink: /deck-app
 version: 202320
 ---
 
-A Deck App is a separate application used to interact with your decks and buttons you created in SAMMI Core. It's a great way to control SAMMI from a different device, such as a tablet or a phone.
+A Deck App is a type of application designed to interact with decks and buttons created in SAMMI Core. It's a great way to control SAMMI from a different device, such as a tablet or a phone. 
 
 {% include image.html w="75" src="deckapp.png" alt="Spotify Deck in Deck Hopper" %}
 
