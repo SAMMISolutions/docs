@@ -219,7 +219,7 @@ There are several keyboard shortcuts you can use:
 
 #### Edit Appearance
 You can right click on a button or press `SHIFT + double click` to edit its appearance.
-Edit your button text, color, image and border size.\
+Edit your button text, color, image, transparency and border size.\
 All button images will be automatically resized and copied to `SAMMI/image` folder.\
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
@@ -248,7 +248,6 @@ You can right on a button or press `CTRL + double click` to edit settings.
 - **Local Variable Persist**
    - checked - button variables will be accessible even after the button has finished. If Allow Button Overlap is enabled, all button executions will share the same variables.   
    - unchecked - button variables will be accessible only when the button is running and only inside their own button. Other buttons cannot access them even if the button is currently running. If Allow Button Overlap is enabled, unique variables will be created for each button execution and will never be shared.
-- **Switch Deck** - whether you want the button to also switch your deck when activated
 - **Press type** 
    - Normal Press - single button press
    - Drag Press - the button will trigger if dragged over. You can add either a single or multiple drag press (activates if it's dragged over again). Useful for creating your own volume buttons! 
