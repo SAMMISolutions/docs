@@ -1,11 +1,14 @@
 ---
 title: "Change Stream Status"
 num: 8.1
+version: 20999999
 redirect_from:
   - commands/172
 ---
 
 Modifies your channel information.
+
+<div class="alert alert-warning mt-2" role="alert">This command is deprecated. Please use <a href="#modifychannelinformation">Modify Channel Information</a> command instead.</div>
 
 | Box Name | Type | Description | 
 |-------|--------|--------
