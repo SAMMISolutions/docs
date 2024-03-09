@@ -89,6 +89,7 @@ Thank you all so much for supporting us!
     - Italian - [Bucefalo](https://www.twitch.tv/bucefalo_rome)/[AlfaTelevision](https://www.twitch.tv/alfatelevision)
     - English-UK - [wolbee](https://www.youtube.com/@wolbee)
     - Russian - [Solo_Mag](https://www.twitch.tv/solo_mag)
+    - Portuguese - [JzTurrini](https://www.twitch.tv/jzturrini)
 
 #### License Information
 
