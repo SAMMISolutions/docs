@@ -40,7 +40,8 @@ type: fullpage
     - Twitch Moderation - moderator add, moderator remove
   - The following triggers are not currently available:
     - Twitch Moderation - timeout, untimeout, emote only, emote only off, followers only, followers only off, subscribers only, subscribers only off, slow mode, slow mode off, low trust users
-  - The following triggers have changed: 
+  - The following triggers have changed:
+    - Twitch Moderation Outgoing Raid - now triggers on Raid execution, rather than creation
     - Twitch Subscriber - new pull values: name_color, badge_list, system_message, emote_list
     - Twitch Community Sub - new pull values: id, cumulative_total
     - Twitch Hype Train - the only available events are Started, Progressed, Ended. New pull values: last_contribution, top_bits_contribution, top_subscription_contribution, top_other_contribution
