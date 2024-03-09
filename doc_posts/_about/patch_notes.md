@@ -7,11 +7,11 @@ num: 1
 type: fullpage
 ---
 
-#### SAMMI 2024.1.0
+### SAMMI 2024.1.0 (March 2024)
 
-[SAMMI Core]
+#### SAMMI Core
 -------------------------------------
-New Features:
+**New Features:**
 - New command: "Twitch: Get Ad Schedule" - Retrieves your current Ad Schedule [Chrizzz]
 - New command: "Twitch: Snooze Next Ad" - Delays the next automatic mid-roll ad by 5 minutes if available [Chrizzz]
 - New command: "Twitch: Block User (beta)" - Blocks a user completely from viewing your channel and removes their follow [Chrizzz]
@@ -25,7 +25,7 @@ New Features:
 - Default value for "Wait for Timeout" command can now be changed in settings.ini: waitTimeout="2000" (2000 is the default time, needs SAMMI restart) [Chrizzz]
 - New user information on Analytics and Data Collection with an opt-out option in Settings [Christina]
 
-Improvements:
+**Improvements:**
 - SAMMI Panel removed; Deck Hopper now recommended and included in all new SAMMI downloads. Web SAMMI Panel still accessible, but not maintained [Christina]
 - Renamed Panel commands to Deck App commands, now in a separate section in commands dropdown [Christina]
 - Renamed SAMMI Panel Connected/Disconnected triggers to Deck App Connected/Disconnected (existing triggers don't need changes) [Christina]
@@ -72,20 +72,20 @@ Improvements:
 - Updated settings.ini keys: streamdeck_port -> bridge_port, panel_port -> deck_app_port [Christina]
 - LAN IP now shown in yellow alert when copied via SAMMI-Bridge-Copy LAN IP [Christina]
 
-UI Changes:
+**UI Changes:**
 - Reworked Twitch Connections window, showing follower and subscriber counts [Digi_Bunny & Christina]
 - Added "Former Team Members" section in SAMMI Core about Page [Chrizzz]
 - Reworked About Page [Digi_Bunny]
 - Renamed Side menu and Settings menu in SAMMI Panel to Deck App [Christina]
 - Changed helper popup message background in Settings for better visual appeal [Christina]
 
-Removed Features:
+**Removed Features:**
 - Removed global variable: Architecture [Christina]
 - Discontinued Pubsub connection, its global variable, and indicator light [Christina]
 - Removed Twitch: Open Whisper command (ineffective, no changes required) [Christina]
 - Removed obsolete Switch Deck button function and deck navigation menu in the button settings. Please use "Deck App: Switch Deck" command instead [Chrizzz]
 
-Bug Fixes:
+**Bug Fixes:**
 - Various OBS issues resolved [Christina]
 - Various minor memory leaks resolved [Christina]
 - Fixed crash on closing Twitch Connections window [Christina]
@@ -99,19 +99,18 @@ Bug Fixes:
 - 'Copy Variable Value' button in Variable Viewer now correctly copies arrays [Christina]
 - Modify Button command now correctly handles group modifications [Christina]
 
-[SAMMI Bridge]
+#### SAMMI Bridge
 -------------------------------------
-New Features:
+**New Features:**
 - Added the following Twitch test triggers: Whisper (checkbox under Chat), Shoutout Received, Ad Break, Stream Started/Ended, Charity [Christina]
 
-Improvements:
+**Improvements:**
 - Adjusted all existing Twitch test triggers to their new Eventsub ones [Christina]
 
-Bug Fixes:
+**Bug Fixes:**
 - Fixed SAMMI.httpRequest command sometimes not working when empty body was sent [Christina]
-- Test Twitch Polls and Prediction now returns correct amount of votes and percentage [Christina]
 
-[SAMMI Panel]
+#### SAMMI Panel
 -------------------------------------
 - SAMMI Panel.exe has been removed from all new installs as it's no longer maintained. SAMMI Panel for Web remains available.
 
