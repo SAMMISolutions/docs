@@ -6,7 +6,7 @@ redirect_from:
   - commands/308
 ---
 
-Switches to a different deck in your SAMMI Panel. If Client Name is left empty, the command is sent to all connected Deck Apps.   
+Switches to a different deck in your Deck App. If Client Name is left empty, the command is sent to all connected Deck Apps.   
 
 | Box Name | Type | Description | 
 |-------|--------|--------
