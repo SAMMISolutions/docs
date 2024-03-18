@@ -7,6 +7,25 @@ num: 1
 type: fullpage
 ---
 
+### SAMMI 2024.1.1 (March 2024)
+
+#### SAMMI Core
+-------------------------------------
+Bug Fixes:
+- Resolved Twitch linking issues (Twitch bug) causing 502 errors by removing unnecessary scopes. [Christina]
+- Addressed SAMMI crashes when launched with invalid JSON variables. A popup now alerts you to correct the issue. [Christina]
+- Fixed Eventsub failing to reconnect in certain scenarios. [Christina]
+- Made links in the About Page clickable and fixed user profile images turning black on hover. [Christina]
+- Implemented several Eventsub event parsing improvements. [Christina]
+- Resolved occasional crashes when saving decks or buttons. [Christina]
+- Fixed a rare crash when minimizing and then maximizing SAMMI. [Christina]
+- Addressed crashes happening when attempting to connect to Twitch Chat without a linked Twitch account. [Christina]
+- Addressed a potential crash when an active button's action queue was empty. [Christina]
+- Fixed the issue where a Deck App Client Name was not displayed following authentication failure. [Christina]
+- Resolved crashes related to joining a Twitch Chat channel before establishing a connection. [Christina]
+- Fixed crashes occurring when using the Get Latest Poll/Prediction ID command with an undefined array or attempting to access a non-existent prediction outcome. [Christina]
+- Other optimizations and minor bug fixes. [Christina]
+
 ### SAMMI 2024.1.0 (March 2024)
 
 #### SAMMI Core
