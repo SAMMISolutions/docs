@@ -66,7 +66,7 @@ You can also initiliaze complex variables, such as arrays or objects:
 |String (text) | `"My Cat"` or `'My Cat'` | beige|
 |Boolean | 1 = true, 0 = false | cyan|
 |Array | `["cat","rabbit","dog"]` | yellow|
-|Object | `{"name": John, "age": 25, "country": Canada"}` | purple|
+|Object | `{"name": "John", "age": 25, "country": "Canada"}` | purple|
 |Undefined | Variable does not exist/is set to empty value| red |
 |Null | Variable with empty or non existent reference | red|
 {:class='table table-secondary w-auto table-responsive table-hover'}
