@@ -22,7 +22,7 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 |JSON String|Description|
 |-------|--------|--------|
 |{% include selectAll.html text='{"url":"http://twitch.tv"}' %}|Change URL of a browser source|
-|{% include selectAll.html text='{"local_file":"E:/Stream/hello.html"}' %}|Change local file path of a browser source|
+|{% include selectAll.html text='{"url":"file:///E:/Stream/hello.html"}' %}|Change local file path of a browser source|
 |{% include selectAll.html text='{"file":"E:/Stream/image.png"}' %}|Change local file path of an image source|
 |{% include selectAll.html text='{"playlist": [{"value": "E:/videos/video1.mp4"},{"value": "E:/videos/video2.mkv"}]}' %}|Change local file paths for your VLC source. Each `{"value":"X"}` represents one file.|
 |{% include selectAll.html text='{"font": {"face": "Arial","flags": 8,"size": 48,"style": "Regular"}}' %}|Change font settings of your GDI+ text source. Needs to include all values.|
