@@ -210,10 +210,10 @@ defaults:
     subparent: Polls and Predictions
     backlink: twitch-polls
 - scope:
-    path: doc_posts/_commands-variable
+    path: doc_posts/_commands-variables
   values:
     parent: Variables
-    backlink: variable
+    backlink: variables
 - scope:
     path: doc_posts/_commands-wait
   values:
@@ -283,7 +283,7 @@ collections:
     output: true
   commands-introduction:
     output: true
-  commands-variable:
+  commands-variables:
     output: true
   commands-number:
     output: true

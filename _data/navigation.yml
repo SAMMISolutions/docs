@@ -12,7 +12,7 @@ main:
       collection: commands-introduction
     - name: Variables
       link: commands/variables
-      collection: commands-variable
+      collection: commands-variables
     - name: Numbers
       link: commands/number
       collection: commands-number
