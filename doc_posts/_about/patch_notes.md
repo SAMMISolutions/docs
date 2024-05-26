@@ -6,6 +6,31 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2024.2.1
+
+====================================
+     SAMMI 2024.2.1 (May 2024)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+
+
+Improvements:
+
+
+
+Bug Fixes:
+
+- Fixed various click through issues [Digi]
+- Attempted to fix an issue where decks could get duplicated when the button or deck id got lost (now only shows a popup and does not save the button / deck) [Chrizzz]
+- Fixed a bug with CSV: Math not finding the CSV [Chrizzz]
+- Fixed an EventSub bug where it would not automatically reconnect [Chrizzz]
+
+
 #### SAMMI 2024.2.0
 
 ====================================
