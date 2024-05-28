@@ -10,6 +10,6 @@ Optionally you can choose a password which every call to the API will need to pa
 
 {% include image.html w="75" src="settings.png" alt="SAMMI API Settings" %}
 
-The default port SAMMI API uses is `9450`. While we strongly encourage you to not change it, you can change it in the `SAMMI/settings.ini` file by setting the `server_port` value under `[Settings]` section to your own desired port. 
+The default port SAMMI API uses is `9450`. While we strongly encourage you to not change it, you can change it in the `SAMMI/settings.ini` file by setting the `api_server_port` value under `[Settings]` section to your own desired port. 
 
 {% include alert.html text="SAMMI API only runs locally. Unless you expose your localhost, you cannot make calls to the API or post webhooks if a public address is required." type="warning" %} 
