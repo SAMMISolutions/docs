@@ -6,6 +6,31 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2024.2.2
+
+====================================
+     SAMMI 2024.2.2 (June 2024)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Implemented a message of the day (motd) system to communicate important, or critical messages in different languages on startup [Landie]
+
+
+Improvements:
+
+- Updated YouTube endpoints to point towards new server [Landie]
+
+
+Bug Fixes:
+
+- Fixed a click through issue with the settings [Digi]
+- Fixed a bug that would rename all filter boxes in active command editor to the one that was renamed (ws5) [Landie]
+- Fixed a bug where GET requests would send an empty body [Chrizzz & Landie]
+
 #### SAMMI 2024.2.1
 
 ====================================
