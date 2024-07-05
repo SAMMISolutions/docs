@@ -5,7 +5,7 @@ redirect_from:
   - commands/2
 ---
 
-Plays a selected sound file. Only .ogg files are supported.
+Plays a selected sound file. Files must be in Vorbis codec in an .ogg container.
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
