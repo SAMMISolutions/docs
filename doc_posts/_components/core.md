@@ -102,7 +102,7 @@ Allows you to adjust general SAMMI settings.
 - **Enable enhanced protection mode**: When enabled, SAMMI will be restricted from modifying or deleting files outside the main SAMMI directory and critical files within its own directory.
 
 #### SAMMI Bridge and Deck Settings
-- **Port** (read-only): The current port used by SAMMI to connect to Bridge/SAMMI Deck. Modifying port numbers is strongly discouraged, but it can be done by editing the `streamdeck_port` key in the `settings.ini` file.
+- **Port** (read-only): The current port used by SAMMI to connect to Bridge/SAMMI Deck. Modifying port numbers is strongly discouraged, but it can be done by editing the `bridge_port` key in the `settings.ini` file.
 - **Password**: The current password for connections from Bridge/SAMMI Deck. If you change the password here, update it in Bridge/SAMMI Deck as well.
 
 #### SAMMI Panel Settings
