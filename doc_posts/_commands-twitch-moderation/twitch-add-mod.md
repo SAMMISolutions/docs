@@ -6,7 +6,7 @@ redirect_from:
   - commands/282
 ---
 
-Promotes a user to a moderator. To demote a moderator, use the [Remove Moderator]({{ "commands/twitch-moderation#remove-mod" | relative_url }}) command.
+Promotes a user to a moderator. To demote a moderator, use the Remove Moderator command below.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
