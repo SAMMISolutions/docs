@@ -67,7 +67,7 @@ Enabling **custom scopes** for your Streamer account is possible while you're in
 All changes to scopes require you to revoke your token, relinking and reauthorising your Twitch account. 
 
 **Remember to specify channel name when using Twitch: Chat message command**\
-If you've linked more than more Twitch account to SAMMI, you must specify the channel name in your [Twitch: Send Message]({{ "commands/twitch#sendchatmessage" | relative_url }}) command. Otherwise the message will be sent to your primary SAMMI account's channel (the one with `Join chat under this name` selected). NOTE: The channel name must be in all lowercase. Otherwise the message will not appear in chat until user refreshes their chat.
+If you've linked more than more Twitch account to SAMMI, you must specify the channel name in your [Twitch: Send Chat Message](https://sammi.solutions/docs/commands/twitch-chat#sendchatmessage) command. Otherwise the message will be sent to your primary SAMMI account's channel (the one with `Join chat under this name` selected). NOTE: The channel name must be in all lowercase. Otherwise the message will not appear in chat until user refreshes their chat.
 
 #### Listen to Twitch Events
 
@@ -78,9 +78,6 @@ Learn more about all Twitch event triggers in our [Triggers-Twitch]({{ "triggers
 
 #### Send Twitch chat messages
 
-SAMMI can natively send Twitch chat messages, whispers and moderation commands (if the linked account has the permissions) to any Twitch chat channel by using [Twitch: Send Message]({{ "commands/twitch#sendchatmessage" | relative_url }}) command.
+SAMMI can natively send Twitch chat messages, whispers and moderation commands (if the linked account has the permissions) to any Twitch chat channel by using [Twitch: Send Chat Message](https://sammi.solutions/docs/commands/twitch-chat#sendchatmessage) command.
 
 See a list of all possible [Twitch chat mod commands](https://help.twitch.tv/s/article/chat-commands?language=en_US#AllMods).
-
-#### Other Twitch Commands
-Navigate to our [Commands-Twitch]({{ "commands/twitch" | relative_url }}) section to see all possible Twitch commands.
