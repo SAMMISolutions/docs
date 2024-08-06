@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 Times out a user from participating in the specified broadcaster's chat room for the specified amount of time.
-To remove the timeout, use the [Unban User]({{ "commands/twitch-moderation#unban-user" | relative_url }}) command.
+To remove the timeout, use the Unban User command above.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
