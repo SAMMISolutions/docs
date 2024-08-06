@@ -6,7 +6,7 @@ redirect_from:
   - commands/284
 ---
 
-Promotes a user to VIP. To demote a VIP, use the [Remove VIP]({{ "commands/twitch-moderation#remove-vip" | relative_url }}) command.
+Promotes a user to VIP. To demote a VIP, use the Remove VIP command below.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
