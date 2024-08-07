@@ -14,7 +14,7 @@ version: 202330
 
 
 #### Install
-Coming soon. 
+Please refer to the installation instructions per the [Pulsoid for SAMMI](https://sammisolutions.itch.io/pulsoid) page on Itch.io.
 
 
 
