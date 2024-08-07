@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 Bans a user from participating in the specified broadcaster's chat room.
-To remove the ban, use the [Unban User]({{ "commands/twitch-moderation#unban-user" | relative_url }}) command.
+To remove the ban, use the Unban User command below.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
