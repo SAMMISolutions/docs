@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 This command will send a whisper over the Twitch API. The whisper will be sent via the account that is connected to chat.
-This feature also has some limitations as imposed by Twitch, detailed [here](https://dev.twitch.tv/docs/api/refrence#send-whisper)
+This feature also has some limitations as imposed by Twitch, detailed [here](https://dev.twitch.tv/docs/api/reference#send-whisper)
 
 | Box Name | Type | Description | 
 |-------|--------|--------
