@@ -165,4 +165,4 @@ Do you still remember the Twitch chat trigger you configured for your button? If
 
 Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation. 
 
-{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge or Twitch chat? Please refer to our <a href="https://sammi.solutions/docs/troubleshooting/common">Troubleshooting</a> section!" type="info" %}
+{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge or Twitch chat? Please refer to our <a href="/troubleshooting/common">Troubleshooting</a> section!" type="info" %}
