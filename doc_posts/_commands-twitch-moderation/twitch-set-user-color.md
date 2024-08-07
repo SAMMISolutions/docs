@@ -8,7 +8,7 @@ redirect_from:
 
 Sets the colour of your username in all chat rooms to one of the 15 default colours.
 For Turbo/Prime members who can set any colour, use the button at the bottom of the section.
-<br>To get a user's current color, use [Get User Color]({{ "commands/twitch-info#get-user-color" | relative_url }})
+<br>To get a user's current color, use [Get User Color]({{ "commands/twitch-info#getusercolor" | relative_url }})
 
 | Box Name | Type | Description | 
 |-------|--------|--------
