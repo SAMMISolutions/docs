@@ -12,7 +12,7 @@ This command should be followed by a `Wait until Variable Exists` command with a
 
 <a href="https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"><button type="button" class="btn btn-outline-secondary">OBS Websocket 5.0 Protocol</button></a>
 
-The requested value will always be inside an object called `responseData` (for OBSws 5), but may be inside a second object. You can access it with [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/).\
+The requested value will always be inside an object called `responseData` (for OBSws 5), but may be inside a second object. You can access it with [object dot notation](https://docs.oracle.com/en/database/oracle/oracle-database/19/adjsn/simple-dot-notation-access-to-json-data.html).\
 For example, if you want to retrieve the Brightness value from a Colour Correction filter, you will notice that it is inside an object called filterSettings. `{ "filterEnabled": true, "filterKind": "color_filter_v2", "filterSettings": { "brightness": 0.078 }, "filterIndex": 0.0 }`. In this case, the Fetch Value will be `responseData.filterSettings.brightness`.
 
 Use [JSON string validator](https://jsonlint.com/) if you want to make sure your formatting is correct.    
@@ -32,7 +32,7 @@ Be mindful of any trailing commas in your request that will cause OBS to disconn
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS connections).|
 |OBS Command (JSON)|	JSON String|	JSON String to send to OBS Websocket. You can use the dropdown to select a JSON template for each request (OBSws 5 only).
-|Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://grasshopper.app/glossary/data-types/object-dot-notation/). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
+|Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://docs.oracle.com/en/database/oracle/oracle-database/19/adjsn/simple-dot-notation-access-to-json-data.html). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
 Save Variable As (optional)|	String	|Name of a variable to save the data under.
 {:class='table table-primary'}
 
