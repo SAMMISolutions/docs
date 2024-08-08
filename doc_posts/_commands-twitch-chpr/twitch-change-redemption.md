@@ -1,5 +1,5 @@
 ---
-title: "UpdateRedemption Status "
+title: "Update Redemption Status"
 num: 14
 redirect_from:
   - commands/187
