@@ -8,10 +8,6 @@ Variable names are case sensitive, meaning that "Variable" and "variable" are no
 
 {% include alert.html text="You can view all existing variables by pressing Variable Viewer at the bottom menu of SAMMI or using CTRL + Tab on your keyboard" type="info" %}
 
-#### Watch a detailed video explaining how to use variables in SAMMI
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/2hZJ9U6HuKQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 #### Global Variables
 All global variables are stored inside `global` variables object and are accessible from any button at all times. Some of these variables are permanent.\
 Use **Get Global Variable** command to get a global variable.\

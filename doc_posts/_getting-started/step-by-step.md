@@ -11,14 +11,6 @@ Welcome to SAMMI and the world of endless possibilities!
 
 On this page, we will walk you through a step by step tutorial on how to set up SAMMI, and connect it to OBS and your Twitch account. You will also learn how to create your first button, add a command and trigger it via Twitch chat.
 
-You can watch our full setup video walkthrough or follow the written guide below.
-
-{% include alert.html text="SAMMI is a closed source application currently supported only on Windows." type="warning" %} 
-
-#### Watch Full Setup Video
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/_l3otboV_c8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
 #### 1. Install all dependencies
 - Download and install **[OBS Studio](https://obsproject.com/)**. As of now, SAMMI does not support other streaming software.
 - As of OBS Studio v28, there is no need to download a separate OBS Websocket plugin as it already has OBS Websocket 5.0 built into it. This is how SAMMI communicates with OBS Studio. If you are running OBS Studio version 27, you will need to download and install **[OBS Websocket 4.9.1](https://obsproject.com/forum/resources/obs-websocket-remote-control-obs-studio-from-websockets.466/)**
