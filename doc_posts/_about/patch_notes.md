@@ -6,6 +6,40 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2024.3.0
+
+====================================
+     SAMMI 2024.3.0 (August 2024)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Added a new moderation trigger for warnings [Chrizzz]
+- Added a new "Twitch: Warn Chat User" command [Chrizzz]
+- Added a new "File: Start Download" command [Chrizzz]
+- Added a new "Twitch: Get Random Viewer" command [Chrizzz]
+- Added compatibility for the new Elgato Streamdeck Integration [Landie]
+- Added a new Hotkey section in the settings menu [Digi]
+- Added a button to hide icons in the deck editor (only for the current session) [Digi]
+- Added 'Hide Icons' Switch on Deck Editor [Digi]
+- Added Hotkey/Shortcut Menu in settings (or Ctrl+H) [Digi]
+
+Improvements:
+- Updated the design of the button settings menu [Digi]
+- Updated the slider design [Digi]
+- Internal Window Subsystem overhaul [Digi]
+- Modernized Button Settings Menu [Digi]
+- Changed [?] boxes [Digi]
+
+Bug Fixes:
+
+- Made create source compatible with OBS 30.2 for text_gdi and slideshow sources [Chrizzz]
+- Fixed the message of the day function [Landie]
+- Clickthrough Fix [Digi]
+
 #### SAMMI 2024.2.2
 
 ====================================
