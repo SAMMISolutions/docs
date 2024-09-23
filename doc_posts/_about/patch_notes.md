@@ -6,6 +6,25 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2024.3.1
+
+====================================
+     SAMMI 2024.3.1 (September 2024)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+Bug Fixes:
+
+- Fixed Crash when changing Channel Point colour in Twitch Menu [Digi]
+- Fixed a bug with "Twitch: Modify Channel Information [Chrizzz]
+
+[SAMMI Local API]
+-------------------------------------
+New Features:
+
+- Added "editButton" endpoint [Landie]
+
 #### SAMMI 2024.3.0
 
 ====================================
