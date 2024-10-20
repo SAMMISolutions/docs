@@ -12,8 +12,7 @@ Here lies our current planned roadmap of features we are currently working on/to
 Please note that any of these are subject to change at any time.
 
 ## Roadmap
-- Elgato StreamDeck (Finished in DEV)
-- mtion studio (Queued) **Deadline:** September 20th 2024
+- mtion studio (Delayed) **Deadline:** Janurary 20th 2025
 
 ## Actively Maintained Services
 - OBS Websocket

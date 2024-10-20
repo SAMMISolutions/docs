@@ -15,6 +15,7 @@ Going against this policy will mark your extension as "restricted" and cannot be
 
 - If your extension is only accessible via payment *and* the extension intends to complete a feature on our [roadmap](/roadmap). The roadmap will also contain a list of actively maintained services (example: Twitch). These services are always adding new things, which we intend on adding in a timely manner when released/in beta. as active services are already covered by the roadmap, you may not see each individual feature present on the roadmap immediately after release
   - For both things on, and off the roadmap that are a part of actively maintained services, there is a default deadline of (at least) 60 days in order to get it implemented into SAMMI internally. If listed on the roadmap with a set deadline, that overwrites the default 60 days. If we allow a unimplemented feature to pass the deadline, an extension that otherwise would be marked as restricted, would become unrestricted.
+- If your extension, by direct use, poses a potential risk of physical harm or other hazardous condition to yourself or others
 
 And that's it!
 
