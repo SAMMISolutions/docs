@@ -5,16 +5,16 @@ redirect_from:
   - commands/170
 ---
 
-Swaps red and blue value for a color in HEX/DEC format and returns its DEC value.
+Swaps red and blue value for a color in DEC format and returns its DEC value.
 Useful for converting HTML colors to SAMMI or OBS colors.\
-Both SAMMI and OBS uses BGR colors instead of RGB colors.
+SAMMI uses BGR colors while OBS uses ABGR colors, instead of RGB colors.
 
 | Box Name | Type | Description |
 |-------|--------|--------
 | Variable Name | String | Name of the variable containing the color value to swap red and blue. |
 {:class='table table-primary' }
 
-
+{% include example_public.html src="https://imgur.com/a/ANCuhT3" size="100" title="Converting a hex string to an OBS Color" pastebin="5vSMfiKr" %} 
 
 
 
