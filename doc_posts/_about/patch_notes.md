@@ -6,6 +6,36 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2024.4.0
+
+====================================
+     SAMMI 2024.4.0 (October 2024)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Set up a new Eventsub Subscription for automatic reward redemptions like powerups and default channel point rewards. [Chrizzz]
+- Handle Whispers with a new Eventsub Subscription: You can now receive Whispers on your Streamer account. [Chrizzz]
+- Added a new command: "Twitch: Get Channel Teams" [Chrizzz]
+- Keep track with new global variables: "global.twitch_default_chat_account" & "global.twitch_default_channel" [Chrizzz]
+- Introduced a new command: "Twitch: Get Shared Chat Session" [Chrizzz]
+- Retrieve team data with new command: "Twitch: Get Team Information" [Chrizzz]
+- Added even more Trigger Pull values for Twitch Chat Messages (e.g., "Is Mod," "Room ID," "Reply Parent Display Name," etc.) [Chrizzz]
+
+Improvements:
+
+- Added the version info to the title of SAMMI [Landie]
+- Increased the YouTube icon size by 4 pixels!!! [Digi]
+- Updated Init Variables Window [Digi]
+- Updated the info boxes [Digi]
+
+Bug Fixes:
+- Fixed Hide Icon Crash and Modified Button Visual Bug [Digi]
+- Fixed Command Editor moving to mouse when closing using X button [Digi]
+
 #### SAMMI 2024.3.1
 
 ====================================
