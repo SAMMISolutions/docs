@@ -10,7 +10,7 @@ Very useful for displaying a random image or playing a random sound.\
 The randomization will happen with an equal chance for each value.
 
 {% include alert.html text="Need to add weights? Create a second array with the same name +<code>_weight</code> added to its name and add values that will act as weights (chances to happen) to add to the randomization." type="info" %} 
-
+{% include alert.html text="Array Random does not support retrieving objects/arrays as values. You can use <code>Save Variable As (position)</code> in conjunction with <code>Get Button Variable</code> instead." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -20,6 +20,7 @@ The randomization will happen with an equal chance for each value.
 {:class='table table-primary'}
 
 {% include example_public.html src="/docs/assets/images/commands-array/arrRand_Ex.png" size="100" title="Getting random array value based on different chances" pastebin="nR5kphiF" %} 
+{% include example_public.html src="https://imgur.com/a/pkOzHry.png" size="100" title="Getting random Object/Array value from an array." pastebin="gxB26pWd" %} 
 
 
 
