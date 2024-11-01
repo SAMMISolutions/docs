@@ -3,7 +3,7 @@ title: "Get Channel Teams"
 num: ?????
 version: 202440
 redirect_from:
-  - ?????
+  - commands/340
 ---
 
 Gets a list of Twitch Teams for the requested user
