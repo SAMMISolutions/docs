@@ -1,0 +1,36 @@
+---
+title: "Get Channel Teams"
+num: ?????
+version: 202440
+redirect_from:
+  - ?????
+---
+
+Gets a list of Twitch Teams for the requested user
+
+{% include alert.html text="This command needs some time to execute, use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+
+| Box Name | Type | Description | 
+|-------|--------|--------
+Channel|String|Channel name to get teams of
+Save Variable As|String|Variable to save the result
+{:class='table table-primary'}
+
+| Variable Name | Type | Description |
+|---------------|------|-------------|
+total|number|The total number of users
+default|Array|Array of objects representing each team.
+default[`0-?`]|Object|contains info about the team.
+default[`0-?`].background_image_url|String|The background image the team page uses.
+default[`0-?`].banner|String|The banner image the team page uses.
+default[`0-?`].thumbnail_url|String|The thumbnail image the team page uses.
+default[`0-?`].broadcaster_login|String|The Login of the requested user.
+default[`0-?`].broadcaster_name|String|The Display Name of the requested user.
+default[`0-?`].broadcaster_id|String|The User ID of the requested user.
+default[`0-?`].id|String|The ID of the team.
+default[`0-?`].name|String|The internal name of the team.
+default[`0-?`].team_display_name|String|The Display Name of the team.
+default[`0-?`].info|String|The Description on the team.
+default[`0-?`].updated_at|String|The time in twitch format that the team was last updated.
+default[`0-?`].created_at|String|The time in twitch format that the team was created.
+{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
