@@ -3,7 +3,7 @@ title: "Get Team Information"
 num: ?????
 version: 202440
 redirect_from:
-  - ?????
+  - commands/341
 ---
 
 Gets information about a requested team..
