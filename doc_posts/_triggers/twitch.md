@@ -326,3 +326,30 @@ Triggers when the /shoutout command is used. The channel must be live and stream
 |Recent Categories|Recent categories streamed by the person being shouted out.
 |From Channel ID|Channel ID of the channel making the shoutout.
 {:class='table table-secondary table-hover' }
+
+<hr>
+
+##### Twitch Automatic Reward Redemption
+Triggers when any automatic reward is redeemed, for example "Gigantify an Emote" or "Unlock a Random Sub Emote".
+
+{% include alert.html text="Cost <strong>does not</strong> show Bit cost. It only shows the amount of channel points something cost." type="warning" %}
+{% include alert.html text="If user redeems <code>Gigantify Emote</code> the emote the user Gigantified will be the last index in the array." type="info" %}
+
+| Pull Data Value | Explanation |
+|-------|--------|
+|User Name|Viewers username.
+|Display Name|Viewer's display name.
+|User ID|Viewer's user ID.
+|Cost|Reward cost.
+|Message|Viewer's message if required.
+|Emotes|Array of objects with the Emote IDs within the message.
+|Type|Redemption Type. Returns <code>message_effect</code>, <code>gigantify_an_emote</code>, <code>celebration</code>, <code>send_highlighted_message</code>, <code>random_sub_emote_unlock</code>, <code>single_message_bypass_sub_mode</code>, <code>chosen_sub_emote_unlock</code> or <code>chosen_modified_sub_emote_unlock</code>
+|Unlocked Emote|Returns an Object with the ID and Name of the unlocked emote
+|Redeemed At|The time in twitch format, that the item was redeemed
+|Reward ID|Reward's general ID.
+|Redeem ID|Redeem's specific ID.  
+|Channel ID|Which channel the trigger came from.
+|From Channel ID|Which channel the trigger came from.
+{:class='table table-secondary table-hover' }
+
+
