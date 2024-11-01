@@ -51,7 +51,7 @@ Message | Chat message to listen to. Must be an exact match. Can include **[Wild
 | Badge List | Basic format: `FirstBadgeName/version,SecondBadgeName/version` <br/> For example: `broadcaster/1, subscriber/0` <br/> [Global Badges List](https://badges.twitch.tv/v1/badges/global/display), [Channel Badges List](https://badges.twitch.tv/v1/badges/channels/CHANNEL_ID/display) <br/> To find the badge ID in the JSON, look for BadgeList.badge_sets[`BADGENAME`].versions[`VERSION`].image_url_1x. The last part 1x can be changed to 2x, 3x or 4x for bigger size. |
 | Channel | Channel Name where the message originated from. Will return `w` if it's a whisper. |
 | Name Color | Chat name color in hexadecimal format. |
-| Bits | The amount of bits cheered. |
+| Bits | The amount of bits cheered. (<strong>Does not include PowerUps</strong>)|
 | Custom Reward ID | ID of the Reward that was redeemed. |
 
 | Reply Parent User Login | User login of the sender of the parent message. |
