@@ -49,7 +49,6 @@ Message | Chat message to listen to. Must be an exact match. Can include **[Wild
 | Message ID | ID of the viewer's message |
 | Emote List | Viewer's available emotes. <br/> Basic format: `FirstEmoteID:FirstIndex-LastIndex/ SecondEmoteID:FirstIndex-LastIndex` <br/> Message containing multiple emotes will be formatted such as: `FirstEmoteID:FirstIndex(1)-LastIndex(1),FirstIndex(2)-LastIndex(2),FirstIndex(3)-LastIndex(3)` <br/>{% include image_collapse_table.html name="chat_emotes" src="chat_emotes.png" alt="Chat Emotes List" btn="Emotes Example" %}|
 | Badge List | Basic format: `FirstBadgeName/version,SecondBadgeName/version` <br/> For example: `broadcaster/1, subscriber/0` <br/> [Global Badges List](https://badges.twitch.tv/v1/badges/global/display), [Channel Badges List](https://badges.twitch.tv/v1/badges/channels/CHANNEL_ID/display) <br/> To find the badge ID in the JSON, look for BadgeList.badge_sets[`BADGENAME`].versions[`VERSION`].image_url_1x. The last part 1x can be changed to 2x, 3x or 4x for bigger size. |
-| Is Sub | Whether the chatter is a vip. 0 = not vip, 1 = vip |
 | Channel | Channel Name where the message originated from. Will return `w` if it's a whisper. |
 | Name Color | Chat name color in hexadecimal format. |
 | Bits | The amount of bits cheered. |
