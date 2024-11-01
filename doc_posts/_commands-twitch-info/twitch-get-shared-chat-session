@@ -3,7 +3,7 @@ title: "Get Shared Chat Session"
 num: ?????
 version: 202440
 redirect_from:
-  - ?????
+  - commands/339
 ---
 
 Retrieves the active shared chat session for a channel.
