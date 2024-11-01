@@ -18,7 +18,6 @@ Save Variable As|String|Variable to save the result
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|
-total|number|The total number of users
 default|Array|Array of objects representing each team.
 default[`0-?`]|Object|contains info about the team.
 default[`0-?`].background_image_url|String|The background image the team page uses.
