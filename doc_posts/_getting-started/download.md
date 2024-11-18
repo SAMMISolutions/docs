@@ -31,9 +31,7 @@ OBS Websocket enables communication between SAMMI Core and OBS Studio. SAMMI is 
 
 OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is no need to install it separately.  
 
-While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the link below.
-
-<a href="https://github.com/obsproject/obs-websocket/releases/tag/4.9.1-compat"><button type="button" class="btn btn-outline-secondary">Download OBS Websocket 4.9.1 for OBS 28</button></a>
+While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 and above supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the OBS Websocket GitHub.
 
 ### Extensions
 You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server!
