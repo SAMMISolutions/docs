@@ -9,7 +9,7 @@ Swaps red and blue value for a color in DEC format and returns its DEC value.
 Useful for converting HTML colors to SAMMI or OBS colors.\
 SAMMI uses BGR colors while OBS uses ABGR colors, instead of RGB colors.
 
-{% include alert.html text="If you have a Hex string (like #1f9250) use [Hex String To Number]({{ "commands/hex-to-number" | relative_url }}) to get a decimal number which you can use to swap red and blue values" type="warning" %}
+{% include alert.html text="If you have a Hex string (like #1f9250) use [Hex String To Number]({{ "commands/number#hexstringtonumber" | relative_url }}) to get a decimal number which you can use to swap red and blue values" type="warning" %}
 
 | Box Name | Type | Description |
 |-------|--------|--------
