@@ -18,4 +18,4 @@ SAMMI uses BGR colors while OBS uses ABGR colors, instead of RGB colors.
 | Variable Name | String | Name of the variable containing the color value to swap red and blue. |
 {:class='table table-primary' }
 
-{% include example_public.html src="https://i.imgur.com/a/8CTbOa3.png" size="100" title="Converting a hex string to an OBS Color" pastebin="8BfSVAC4" %} 
+{% include example_public.html src="https://i.imgur.com/lV14JhI.png" size="100" title="Converting a hex string to an OBS Color" pastebin="8BfSVAC4" %} 
