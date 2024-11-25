@@ -105,4 +105,4 @@ If you send too many messages in a short period of time, Twitch might temporaril
 
 **Using `/w username` in a Send Chat Message command**\
 This method for sending whispers is unreliable, as Twitch can prevent accounts from sending whispers using this method without warning or any visible indication it has.\
-Instead, try the [Send Whispers]({{ "commands/twitch#sendwhispers" | relative_url }}) command.
+Instead, try the [Send Whispers]({{ "commands/twitch-chat#sendwhisper" | relative_url }}) command.
