@@ -22,9 +22,9 @@ SAMMI Deck is now outdated and incompatible with the latest SAMMI Core versions.
 ### Deck Hopper
 We highly recommend using [Deck Hopper](https://christinak.ca/deckhopper/), a solution officially endorsed by the SAMMI team. 
 
-{% include alert.html text="Deck Hopper, created and maintained solely by Christina K, a SAMMI developer, is a personal project and not officially part of SAMMI Solutions." type="info" %} 
+{% include alert.html text="Deck Hopper, created and maintained solely by Christina Kral, a SAMMI founder, is a personal project and not officially part of SAMMI Solutions." type="info" %} 
 
-Deck Hopper is available for [Windows](https://christinak.itch.io/deck-hopper) and [Android](https://play.google.com/store/apps/details?id=ca.christinak.DeckHopper). 
+Deck Hopper is available for [Desktop](https://christinak.itch.io/deck-hopper) (Windows, macOS, Linux) and [Android](https://play.google.com/store/apps/details?id=ca.christinak.DeckHopper). 
 
 It's completely free, with a [PRO version](https://christinak.ca/deckhopper/upgrade) available that removes ads and includes extra PRO features. 
 
