@@ -247,8 +247,8 @@ defaults:
   values:
     menu: Troubleshooting
 algolia:
-  application_id: I48YE43FLX
-  index_name: lioranboard
+  application_id: RL52QQ5HZ9
+  index_name: sammi
 collections_dir: doc_posts
 collections:
   getting-started:
