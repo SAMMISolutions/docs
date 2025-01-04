@@ -5,7 +5,7 @@ redirect_from:
   - commands/235
 ---
 
-Checks to see if a CSV file exists, and returns `true` or `false`.
+Checks to see if a CSV file has been loaded into SAMMI, and returns `true` or `false`.
 
 | Box Name | Type | Description |
 |-------|--------|--------|
