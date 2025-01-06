@@ -7,6 +7,8 @@ redirect_from:
 
 Creates a Channel Point Reward on Twitch that will be owned by SAMMI. Only rewards owned by SAMMI can be further modified from within SAMMI.
 
+{% include async.html %}
+
 | Box Name | Type | Description |
 |-------|--------|--------
 |Login Name | Dropdown |Your Twitch login name (all lowercase characters)

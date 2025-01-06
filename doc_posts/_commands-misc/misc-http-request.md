@@ -5,9 +5,9 @@ redirect_from:
   - commands/169
 ---
 
-This command lets you send a web request, i.e. call an API and receive its response.\
-Use it together with [Wait For/Until]({{ "commands/wait" | relative_url }}) commands, as you can pause button execution until you get a response back.
+This command lets you send a web request, i.e. call an API and receive its response.
 
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

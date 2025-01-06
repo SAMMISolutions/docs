@@ -6,9 +6,7 @@ redirect_from:
 ---
 Allows you to request data from OBS websocket and save it in a variable.
 
-This command should be followed by a `Wait until Variable Exists` command with an adequate timeout to allow for the OBS Websocket to respond.
-
-<a href="https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#events"><button type="button" class="btn btn-outline-secondary">OBS Websocket 4.9.1 Protocol</button></a>
+<!-- <a href="https://github.com/obsproject/obs-websocket/blob/4.x-compat/docs/generated/protocol.md#events"><button type="button" class="btn btn-outline-secondary">OBS Websocket 4.9.1 Protocol</button></a> -->
 
 <a href="https://github.com/obsproject/obs-websocket/blob/master/docs/generated/protocol.md"><button type="button" class="btn btn-outline-secondary">OBS Websocket 5.0 Protocol</button></a>
 
@@ -25,6 +23,10 @@ Be mindful of any trailing commas in your request that will cause OBS to disconn
   }
 }
 ```
+
+Use the dropdown arrow next to the OBS Command (JSON) box to make use of the premade templates to assist you (OBSws 5 only).
+
+{% include async.html %}
 
 {% include alert.html text="If the name of the fetched value contains dots, it needs to be wrapped in parentheses like this: <code>(Filter.Transform.Rotation.X)</code>." type="warning" %}
 

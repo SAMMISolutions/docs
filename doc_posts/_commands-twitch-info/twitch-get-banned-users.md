@@ -8,7 +8,7 @@ redirect_from:
 
 Gets a list of all users that are banned/timed out in the specified channel.
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

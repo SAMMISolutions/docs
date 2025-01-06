@@ -8,6 +8,8 @@ redirect_from:
 
 Allows you to transfer a file to a server by utilizing FormData.
 
+{% include async.html %}
+
 {% include alert.html text="Requires additional knowledge on data formatting and is only visible in Developer Mode." type="info" %} 
 
 
