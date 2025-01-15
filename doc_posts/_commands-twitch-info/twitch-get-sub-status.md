@@ -5,7 +5,7 @@ redirect_from:
   - commands/176
 ---
 
-{% include alert.html text="Are you looking to <strong>only</strong> get if a user is subscribed or not? [Get User Status]({{ "commands/twitch-misc#getuserstatus" | relative_url }}) is what you are looking for, not this!" type="warning" %}
+{% include alert.html text="Are you looking to <strong>only</strong> get if a user is subscribed or not? [Get User Status]({{ 'commands/twitch-misc#getuserstatus' | relative_url }}) is what you are looking for, not this!" type="warning" %}
 
 Returns an object containing context behind a specified user's subscription.\
 Returns an empty object if the user is not subscribed.
