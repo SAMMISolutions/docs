@@ -7,7 +7,7 @@ You might notice that some commands are coloured purple - these commands are one
 
 The variable name listed in the Save Variable box of these commands (if present) will not be returned immediately, meaning commands ahead run before it's returned. As such, you must [Wait until the variable exists](wait#waituntilvariableexists) to halt your button until the response is recieved. Please note that this variable must not be a variable that already exists, otherwise the `Wait Until Variable Exists` command will not run.
 
-{% include alert.html text='It is common to add a `Delete Variable` command to delete the variable you are waiting for *before* the async command to ensure fresh data is waited for.' type="warning" %}
+{% include alert.html text='It is common to add a <code>Delete Variable</code> command to delete the variable you are waiting for <i>before</i> the async command to ensure fresh data is waited for.' type="warning" %}
 
 {% include image.html w="75" src="purple-commands.png" alt="SAMMI Purple Commands" %}
 
