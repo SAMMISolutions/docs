@@ -17,6 +17,10 @@ Channel|String|Channel name to get shared chat info from.
 Save Variable As|String|Variable to save the result.
 {:class='table table-primary'}
 
+**Response Data:**
+
+<div style="height: 40vh; overflow-y: auto" markdown="1">
+
 | Variable Name | Type | Description |
 |---------------|------|-------------|
 data|Array|Array of objects representing each shared chat session.
@@ -28,3 +32,5 @@ data[`0-?`].participants[`0-?`].broadcaster_id|String|The User ID of the partici
 data[`0-?`].updated_at|String|The time in twitch format, that the shared chat session was lasted updated.
 data[`0-?`].created_at|String|The time in twitch format, that the shared chat session was created.
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+
+</div>
