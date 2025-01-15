@@ -12,7 +12,7 @@ Retrieves the active shared chat session for a channel.
 {% include alert.html text="This command returns <strong>nothing</strong> if there isnt an active shared chat, leaving your variable with the result of `undefined`!" type="info" %}
 
 | Box Name | Type | Description | 
-|-------|--------|--------
+|-------|--------|--------|
 Channel|String|Channel name to get shared chat info from.
 Save Variable As|String|Variable to save the result.
 {:class='table table-primary'}
