@@ -6,7 +6,7 @@ redirect_from:
   - commands/256
 ---
 
-Reads every line from a file and saves them into a variable.
+Reads every line from a file and saves them into a variable either as a string, or an array.
 
 | Box Name | Type | Description |
 |-------|--------|--------
