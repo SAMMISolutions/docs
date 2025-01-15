@@ -9,7 +9,7 @@ redirect_from:
 Gets information about a requested team.
 
 {% include async.html %}
-{% include alert.html text="The team name can be found in the URL of the team's page. You can also use [Twitch: Get Channel Teams](#getchannelteams) to get the team name." type="info" %}
+{% include alert.html text="The team name can be found in the URL of the team's page. You can also use <a href='#getchannelteams>Twitch: Get Channel Teams</a> to get the team name." type="info" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
