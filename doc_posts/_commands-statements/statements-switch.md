@@ -11,7 +11,7 @@ Add one Switch statement and then nest Case Statement commands inside for each c
 
 Use the **+** button in the Case Statement command to add more than one condition to the same Switch Statement.  
 
-Use 'default' as a Case Statement text if you want to execute an action when no other cases meet the conditions.
+Use `default` as the value in a Case Statement if you want to execute an action when no other cases meet the conditions.
 
 {% include alert.html text="If you have a lot of different conditions to check for, it is faster and more readable to use Switch Statement instead of multiple nested If Statements." type="info" %} 
 
@@ -27,7 +27,7 @@ Use 'default' as a Case Statement text if you want to execute an action when no 
 *For example, add a Case Statement for wolbee, Melonax, Sebas and Cyanidesugar.*
 3. Under each Case Statement, decide what commands you want to execute.\
 *For example, under Case Statement for wolbee, you want to play a specific sound effect. And under the Case Statement for Melonax, you want to play a different sound effect.*
-4. (Optional) Add a default case to execute a block of commands if no Case Statement matches the expression.\
+4. (Optional) Add a `default` case to execute a block of commands if no Case Statement matches the expression.\
 *For example, if the viewer's name isn't wolbee, Melonax, Sebas or Cyanidesugar, play a default sound effect.*
 5. Now every time the button is pressed, it will check the name of the viewer and execute one Case Statement command block matching their name (or execute the default block).  
 
