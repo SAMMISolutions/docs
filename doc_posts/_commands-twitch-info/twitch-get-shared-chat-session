@@ -9,7 +9,7 @@ redirect_from:
 Retrieves the active shared chat session for a channel.
 
 {% include async.html %}
-{% include alert.html text="This command returns <strong>nothing</strong> if there isnt an active shared chat, leaving your variable with the result of `undefined`!" type="info" %}
+{% include alert.html text="This command returns <strong>nothing</strong> if there isnt an active shared chat, leaving your variable with the result of <code>undefined</code>!" type="info" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
