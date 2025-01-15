@@ -1,6 +1,6 @@
 ---
 title: "Get Shared Chat Session"
-num: ?????
+num: 1.21
 version: 202440
 redirect_from:
   - commands/339
@@ -8,8 +8,8 @@ redirect_from:
 
 Retrieves the active shared chat session for a channel.
 
-{% include alert.html text="This command needs some time to execute, use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
-{% include alert.html text="This command returns <strong>nothing</strong> if there isnt an active shared chat." type="info" %}
+{% include async.html %}
+{% include alert.html text="This command returns <strong>nothing</strong> if there isnt an active shared chat, leaving your variable with the result of `undefined`!" type="info" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -24,7 +24,7 @@ data[`0-?`]|Object|Contains info for the shared chat session.
 data[`0-?`].session_id|String|The ID for the shared chat session.
 data[`0-?`].host_broadcaster_id|String|The User ID of the host channel.
 data[`0-?`].participants|Array|Array of objects for each participant of the shared chat session.
-data[`0-?`].participants[`0-1`].broadcaster_id|String|The User ID of the participant.
+data[`0-?`].participants[`0-?`].broadcaster_id|String|The User ID of the participant.
 data[`0-?`].updated_at|String|The time in twitch format, that the shared chat session was lasted updated.
 data[`0-?`].created_at|String|The time in twitch format, that the shared chat session was created.
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
