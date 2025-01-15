@@ -1,21 +1,23 @@
 ---
 title: "Get Team Information"
-num: ?????
+num: 1.32
 version: 202440
 redirect_from:
   - commands/341
 ---
 
-Gets information about a requested team..
+Gets information about a requested team.
 
-{% include alert.html text="This command needs some time to execute, use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
-{% include alert.html text="The team name is the name of the team found in the URL of the team page. You can also use <a href='#'>Twitch: Get Channel Teams</a> to get the team name." type="info" %}
+{% include async.html %}
+{% include alert.html text="The team name can be found in the URL of the team's page. You can also use [Twitch: Get Channel Teams](#getchannelteams) to get the team name." type="info" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
 Team Name|String|The internal name of a Team to get info of
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
+
+**Response Data:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|
