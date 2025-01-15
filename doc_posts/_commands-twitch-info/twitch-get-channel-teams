@@ -1,20 +1,22 @@
 ---
 title: "Get Channel Teams"
-num: ?????
+num: 1.31
 version: 202440
 redirect_from:
   - commands/340
 ---
 
-Gets a list of Twitch Teams for the requested user
+Gets a user's list of Twitch teams.
 
-{% include alert.html text="This command needs some time to execute, use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
 Channel|String|Channel name to get teams of
-Save Variable As|String|Variable to save the result
+Save Variable As|String|Variable name to save the result
 {:class='table table-primary'}
+
+**Response Data:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|
