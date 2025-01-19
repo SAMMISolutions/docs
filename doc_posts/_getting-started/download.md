@@ -27,7 +27,7 @@ SAMMI Core is compatible with OBS Studio. Other streaming software, such as Stre
 <a href="https://obsproject.com/"><button type="button" class="btn btn-outline-secondary">Download OBS Studio</button></a>
   
 **OBS Websocket**       
-OBS Websocket enables communication between SAMMI Core and OBS Studio. SAMMI is compatible with OBS Websocket versions 5.0 and 4.9. However, we highly recommend using OBS Websocket 5.0 with OBS Studio versions 28 and 29, as it is the latest version.  
+OBS Websocket enables communication between SAMMI Core and OBS Studio. SAMMI is compatible with OBS Websocket versions 5.0 and 4.9. However, we highly recommend using OBS Websocket 5.0 with OBS Studio versions 28 and above.
 
 OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is no need to install it separately.  
 
