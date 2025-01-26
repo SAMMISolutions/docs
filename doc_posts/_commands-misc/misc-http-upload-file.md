@@ -1,6 +1,6 @@
 ---
 title: HTTP Upload File
-num: 9.1
+num: 9.2
 redirect_from:
   - commands/901
   - commands/309
