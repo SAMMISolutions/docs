@@ -5,7 +5,7 @@ redirect_from:
   - commands/248
 ---
 
-Returns a Date/Time, in the format specified, after adding or subtracting an amount of time.
+Returns a Date/Time, in the format specified, after adding or subtracting an amount of time. Includes your computer's timezone in the calculation.
 
 |Box Name|Type|Description|
 |--------|--------|--------
@@ -19,3 +19,5 @@ Returns a Date/Time, in the format specified, after adding or subtracting an amo
 {:class="table table-primary"}
 
 {% include alert.html text="TIP: You can use this command with an empty Number/Variable to just change the format of a date/time." type="info" %}
+{% include alert.html text="TIP: Use the {Z} Format to make your code aware of your timezone, otherwise it might cause slight issues!" type="info" %}
+
