@@ -26,10 +26,10 @@ If you check the box, it means the variables will be accessible even after the b
 If you uncheck the box, the variables will be accessible only when the button is running and only inside their own button. Other buttons cannot access them even if the button is currently running. If `Allow Button Overlap` is enabled, unique variables will be created for each button execution and will never be shared.
 
 
-#### Init Variables
-If you right click on a button, you can edit its initial variables.\
-These exist to prevent crashes if you have enabled persistent variables.\
-The window uses a simple JSON format to initialize your variables.\
+#### Default Variables
+If you right click on a button, you can edit its default variables.\
+These exist to help prevent crashes if you have enabled persistent variables.\
+The window uses a simple JSON format to set your default variables.\
 For example, if you want your variable `name` to have a value of `SAMMI` and your variable `age` to have a value of 18 on initilization, you can do:
 ```
 {
