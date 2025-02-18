@@ -49,6 +49,7 @@
 	--bs-info: #0dcaf0;
 	--bs-warning: #ffc107;
 	--bs-danger: #dc3545;
+	--bs-async: #7d13ae;
 	--bs-light: #f8f9fa;
 	--bs-dark: #212529;
 	--bs-primary-rgb: 13, 110, 253;
@@ -57,6 +58,7 @@
 	--bs-info-rgb: 13, 202, 240;
 	--bs-warning-rgb: 255, 193, 7;
 	--bs-danger-rgb: 220, 53, 69;
+	--bs-async-rgb: 125, 19, 174;
 	--bs-light-rgb: 248, 249, 250;
 	--bs-dark-rgb: 33, 37, 41;
 	--bs-white-rgb: 255, 255, 255;
@@ -5382,6 +5384,17 @@ fieldset:disabled .btn {
 .alert-danger .alert-link {
 	color: #6a1a21
 }
+
+.alert-async {
+    color: #4e145a;
+    background-color: #edd5f0;
+    border-color: #e3b8e8;
+}
+
+.alert-async .alert-link {
+    color: #3b0f43;
+}
+
 
 .alert-light {
 	color: #636464;
@@ -12493,6 +12506,17 @@ fieldset:disabled .btn {
 	.alert-danger .alert-link {
 		color: #be685f
 	}
+
+	.alert-async {
+		color: #d1b3e0;
+		background-color: #5a276f;
+		border-color: #702c8b;
+	}
+	
+	.alert-async .alert-link {
+		color: #e3c8ff;
+	}
+	
 	.alert-light {
 		color: #bbb;
 		background-color: #4f4f4f;

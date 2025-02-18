@@ -9,7 +9,7 @@ redirect_from:
 Gets a list of the custom Channel Point Rewards for the specified channel. Will not return info on standard Rewards, like "Highlight This Message".
 For more information on what the response contains, check out the Response Body table in the [Twitch API Reference Guide for Get Custom Reward](https://dev.twitch.tv/docs/api/reference/#get-custom-reward)
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

@@ -9,7 +9,7 @@ redirect_from:
 Gets the chat settings for the specified channel.
 For more information on what the response contains, check out the Response Body table in the [Twitch API Reference Guide for Get Chat Settings](https://dev.twitch.tv/docs/api/reference/#get-chat-settings)
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

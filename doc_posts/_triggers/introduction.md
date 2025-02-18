@@ -30,7 +30,7 @@ If you right click on a button - **Edit Settings** and check `Allow Button Overl
 This is not something you want to enable for certain triggers attached to buttons controlling your OBS animations (for example, you probably don't want two subscriber animations to happen at the same time on your screen), but it can be useful for other events (for example for `!enter giveaway` chat trigger where a lot of users enter at the same time and you want to collect their names as quickly as possible without any queue).
 
 ##### Wild Cards
-**Some trigger fields (such as Twitch chat messags trigger) accept wild cards.**\
+**Some trigger fields (such as a Twitch Chat Message trigger) accept wild cards.**\
 For example, you want your user to type a color in your chat. Instead of creating separate triggers for ALL possible colors, you can create one trigger that will accept a wild card in place of the specific color.
 
 

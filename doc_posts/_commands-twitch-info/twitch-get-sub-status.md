@@ -5,10 +5,12 @@ redirect_from:
   - commands/176
 ---
 
-Checks if a specific user is subscribed to your channel.\
+{% include alert.html text="Are you looking to <strong>only</strong> get if a user is subscribed or not? <a href='/docs/commands/twitch-misc#getuserstatus'>Get User Status</a> is what you are looking for, not this!" type="warning" %}
+
+Returns an object containing context behind a specified user's subscription.\
 Returns an empty object if the user is not subscribed.
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include async.html %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -18,7 +20,6 @@ Returns an empty object if the user is not subscribed.
 {:class='table table-primary'}
 
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
-
 
 **Response Data:**
 

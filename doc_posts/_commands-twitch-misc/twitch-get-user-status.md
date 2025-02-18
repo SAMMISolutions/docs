@@ -12,6 +12,8 @@ Available status types:
 - Check VIP
 - Check Follower
 
+{% include async.html %}
+
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Channel|Dropdown|Twitch channel to get a user's status for. This can be left empty.

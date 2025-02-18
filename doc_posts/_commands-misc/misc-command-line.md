@@ -12,7 +12,7 @@ If you need to execute more than one line of command or if your command does not
 
 The command also provides an option to capture the output of the executed command. To do this, specify a variable name in the 'Save Variable As' field.
 
-{% include alert.html text="This command may take some time to execute. To ensure that the variable is populated before executing the next command, it's advised to use the <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %}
+{% include async.html %}
 
 | Box Name | Type | Description |
 |-------|--------|--------

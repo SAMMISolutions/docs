@@ -1,0 +1,37 @@
+---
+title: "Get Team Information"
+num: 1.32
+version: 202440
+redirect_from:
+  - commands/341
+---
+
+Gets information about a requested team.
+
+{% include async.html %}
+{% include alert.html text="The team name can be found in the URL of the team's page. You can also use <a href='#getchannelteams'>Twitch: Get Channel Teams</a> to get the team name." type="info" %}
+
+| Box Name | Type | Description | 
+|-------|--------|--------
+Team Name|String|The internal name of a Team to get info of
+Save Variable As|String|Variable to save the result
+{:class='table table-primary'}
+
+**Response Data:**
+
+| Variable Name | Type | Description |
+|---------------|------|-------------|
+team_display_name|String|The Display Name of the team.
+name|String|The internal name of the team.
+id|String|The ID of the team.
+info|String|The Description on the team.
+users|Array|Array of objects for each user in the team.
+users[`0-?`].user_id|String|User ID of that team member.
+users[`0-?`].user_login|String|User Login of that team member.
+users[`0-?`].user_name|String|User Display Name of that team member.
+background_image_url|String|The background image the team page uses.
+banner|String|The banner image the team page uses.
+thumbnail_url|String|The thumbnail image the team page uses.
+updated_at|String|The time in twitch format that the team was last updated.
+created_at|String|The time in twitch format that the team was created.
+{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }

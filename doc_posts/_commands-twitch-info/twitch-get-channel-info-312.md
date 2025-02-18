@@ -1,6 +1,6 @@
 ---
 title: "Get Channel Info"
-num: 1.31
+num: 1.3
 version: 202322
 redirect_from:
   - commands/312
@@ -8,9 +8,9 @@ redirect_from:
 
 Gets specified channel information.
 
-{% include alert.html text="This command needs some time to execute, either delay your next commands by 1-2 seconds or use <a href='/docs/commands/wait#waituntilvariableexists'>Wait Until Variable Exists</a> command." type="warning" %} 
+{% include async.html %}
 
-{% include alert.html text="This command is exactly the same as the old Get Channel Info command, but updated to use the channel name, rather than the channel ID - if you try to use a channel ID, it will fail (which can be verified by the response object not being created in the Variable Viewer). Please make sure to check the first box's label to see whether you need to enter the name or the ID" type="warning" %} 
+<!-- {% include alert.html text="This command is exactly the same as the old Get Channel Info command, but updated to use the channel name, rather than the channel ID - if you try to use a channel ID, it will fail (which can be verified by the response object not being created in the Variable Viewer). Please make sure to check the first box's label to see whether you need to enter the name or the ID" type="warning" %}  -->
 
 | Box Name | Type | Description | 
 |-------|--------|--------
