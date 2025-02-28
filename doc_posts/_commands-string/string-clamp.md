@@ -15,7 +15,7 @@ You need to specify the index of the first character and the amount of character
 |-------|--------|--------|
 |Save Variable As|	String|	Variable name to save the clamped string.
 |String (text)| String| String (text) to clamp
-|Start Position|	Int {% include asterisk.html%}|	Where to start the clamp (first character = 0)
+|Start Position|	Int {% include asterisk.html%}|	Where to start the clamp (first character = 1)
 |Amount of Characters|	Int {% include asterisk.html%}|	Amount of characters to include in the clamp
 {:class='table table-primary ' }
 
