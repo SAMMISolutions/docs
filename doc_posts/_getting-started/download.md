@@ -7,8 +7,6 @@ permalink: /download
 type: fullpage
 ---
 
-Video Available! 📺 [Download & First-Time Setup | SAMMI School [2]](https://youtu.be/_MQyWodtoLg?si=-U6BRoA7ksoXVgfj)
-
 ### Prerequisites
 
 **OBS Studio**     

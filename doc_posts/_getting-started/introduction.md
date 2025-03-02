@@ -25,11 +25,11 @@ Out of the box, SAMMI is compatible with the following services:
   - Grab, and run commands from MixItUp. Learn more in [Integrations - MixItUp]({{ "integrations/mix-it-up" | relative_url }}).
 - And more!
 
-SAMMI is modular by design! we have plenty of official, separate, downloadable integrations:
+SAMMI is modular by design! we have plenty of official, separately downloadable integrations:
 - Elgato Stream Deck
   - Bind Elgato Stream Deck Actions to SAMMI buttons, and influence Action graphics and data. Learn more in [Integrations - Elgato Stream Deck]({{ "integrations/elgato-stream-deck" | relative_url }}).
 - Crowd Control
-  - Listen to ran effects, grab list of effects for current game, and much more. Learn more in [Integrations - Crowd Controlk]({{ "integrations/crowd-control" | relative_url }}).
+  - Listen to ran effects, grab list of effects for current game, and much more. Learn more in [Integrations - Crowd Control]({{ "integrations/crowd-control" | relative_url }}).
 - And much more!
 
 Developers in the community can make their own integrations with the power of [Extensions](#extensions) too, which keeps SAMMI on the cutting edge!
@@ -94,4 +94,7 @@ For even greater functionality, SAMMI Core supports community-created JavaScript
 - Heat Map Twitch extension
 - and more!
 
-Explore the full list of SAMMI extensions in [Extensions](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.gg/dXez8Zh)!
+Explore the full list of SAMMI extensions in [our officially curated Extension list](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.gg/dXez8Zh)!
+
+<!-- Are you a developer wanting to make an extension of your own? Check out the page How To Build an extension! -->
+
