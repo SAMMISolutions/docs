@@ -2,7 +2,7 @@
 layout: default
 title: Update and Backup
 menu: Getting Started
-num: 4
+num: 4.1
 permalink: /getting-started/data-backup
 type: fullpage
 ---

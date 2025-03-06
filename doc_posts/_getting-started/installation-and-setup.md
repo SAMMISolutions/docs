@@ -7,9 +7,9 @@ permalink: /getting-started/installation-and-setup
 type: fullpage
 ---
 
-This page will walk you through step by step on how to both install, set up SAMMI, and connect it to OBS and your Twitch account to start.
+This page will walk you through step by step on how to both install, set up SAMMI, and connect it to OBS and your Twitch and/or YouTube account to start.
 
-{% include alert.html text="This assumes you've already gone through the <a href='/download'>Download</a> section and installed all prerequisites, have a .zip package of SAMMI, and have a Twitch account. If you haven't, now is the time to do so!" type="warning" %}
+{% include alert.html text="This assumes you've already gone through the <a href='/download'>Download</a> section and installed all prerequisites, have a .zip package of SAMMI, and have a Twitch or YouTube account. If you haven't, now is the time to do so!" type="warning" %}
 
 <!-- {% include alert.html text="You will see a lot of concepts that you might not understand. " type="info" %}  -->
 
@@ -43,39 +43,40 @@ Once you get past those prompts, you'll be greeted with the Dashboard.
 
 {% include alert.html text="This setup assumes you are using OBS versions 28 or above." type="info" %}
 
-1. In OBS, along the top options bar, go to Tools > Websocket Server Settings. Make sure `Enable Websockets Server` is checked.\
-We recommend __unchecking__ `Enable Authentication` for easy setup. You only need to worry about setting a password if others in (or have access to) your home network intend on interrupting your setup.\
-If you wish to use a password for your OBS connection, is is strongly recommended you let OBS randomly create a password for you via hitting the `Generate Password` button, then copying the password from clicking the `Show Connect Info` button below and hitting `Copy` next to password. you must also configure it in SAMMI under OBS Connections settings mentioned in the next step.
+1. In OBS, along the top options bar, go to Tools > Websocket Server Settings. Make sure **Enable Websockets Server** is checked.\
+We recommend __unchecking__ **Enable Authentication** for easy setup. You only need to worry about setting a password if others in (or have access to) your home network intend on interrupting your setup.\
+If you wish to use a password for your OBS connection, is is strongly recommended you let OBS randomly create a password for you via hitting the **Generate Password** button, then copying the password from clicking the **Show Connect Info** button below and hitting **Copy** next to password. you must also configure it in SAMMI under OBS Connections settings mentioned in the next step.
 
 {% include alert.html text="Make sure you hit the Apply button to ensure changes go through!" type="warning" %}
 	  
-{% include image.html w="100" external="true" src="https://i.imgur.com/QMGorB7.png" alt="OBS Websocket Settings" type="image" %}
+{% include image.html w="75" external="true" src="https://i.imgur.com/QMGorB7.png" alt="OBS Websocket Settings" type="image" %}
 
 {:start="2"}
-1. Now, in SAMMI Core, click on **OBS Connections** at the bottom menu banner to open a window. You should see a default "Main" connection with some preconfigured settings.
+2. Now, in SAMMI Core, click on **OBS Connections** at the bottom menu banner to open a window. You should see a default "Main" connection with some preconfigured settings.
 If you used a password for OBS in the step above, make sure the passwords match. 
-1. Click `Connect` on the left. You should see the status indicator for `Main OBS` in the bottom left corner change from red to green. 
-2. Enable `Auto-Connect` by checking the checkbox on the left to true so you don't have to come to this menu everytime to connect.
-3. Hit `Save and Close`. 
+3. Click **Connect** on the left. You should see the status indicator for **Main OBS** in the bottom left corner change from red to green. 
+4. Enable **Auto-Connect** by checking the checkbox on the left to true so you don't have to come to this menu everytime to connect.
+5. Hit **Save and Close**.
   {% include image.html w="75" external="true" src="https://i.imgur.com/FhKVx8T.png" alt="Verifying connection to OBS" %}
 
 ### 4. Add and connect the Bridge to OBS
 
 The bridge is essential for important features of SAMMI, including but not limited to extension usage.
 
-We are going to be creating a new OBS Custom Browser Dock to load our Bridge.
+We are going to be creating a new OBS Custom Browser Dock to load our Bridge, but first we are going to need the filepath for it.
 
-In OBS, along the top options bar, go to to Docks > Custom Browser Docks...
+1. In SAMMI Core, from the dashboard, click **SAMMI Bridge** on the sidebar and click **Copy Full Path**.
+2. In OBS, along the top options bar, go to to **Docks** > **Custom Browser Docks...**
+3. Fill the Dock Name with whatever you'd like (We recommend "Bridge"!)
+4. Paste your bridge path copied from earlier, into the URL field of the Custom Browser Docks window in OBS.
+5. Press **Apply** and you should see your new dock pop up.
+   
+{% include alert.html text="If it does not pop up for some reason, you can always go to your top options bar and click View > Docks > (Your Bridge Dock Name Here) to enable it." type="info" %}
 
-Your new Dock Name can be whatever you'd like (We recommend "Bridge"!) and the URL will be the path to the `bridge.html` file located in your `SAMMI/bridge` folder. You can retrieve that path easily by going to your SAMMI Core's Dashboard, clicking `SAMMI Bridge` on the left menu, and clicking `Copy Full Path` to then paste into the URL field of the Custom Browser Docks window in OBS.
+{:start="6"}
+6. Fit your new dock somewhere in your OBS screen that makes sense for your workflow! The bridge should have already connected to SAMMI Core on it's own, which can be indicated by the green light in the bridge itself on the top, or, in SAMMI Core, you should see the status indicator for `Bridge` in the bottom left corner change from red to green. If not, Navigate to the "Settings" tab of the bridge if not already visible. Here, you can view your connection settings and click connect.
 
-Press `Apply` and you should see your new dock pop up. If it does not pop up for some reason, you can always go to your top options bar and click View > Docks > (Your Bridge Dock Name Here) to enable it.
-
-Fit your new dock somewhere in your OBS screen that makes sense for your workflow! It is recommended to drag the window over another OBS dock until the dock glows, and drop, merging two docks together, allowing you to toggle between viewing the two with some newly created tabs. Even while the bridge is not visible in tab form, it is still active, so you don't have to stare at the bridge all the time!
-
-Now with our newly docked bridge, we can connect our bridge to SAMMI Core.\
-The bridge should have already connected to SAMMI Core on it's own, which can be indicated by the green light in the bridge itself on the top, or, in SAMMI Core, you should see the status indicator for `Bridge` in the bottom left corner change from red to green.\
-If not, Navigate to the "Settings" tab of the bridge if not already visible. Here, you can view your connection settings and click connect.
+{% include alert.html text="It is recommended to drag the window over another OBS dock until the dock glows, and drop, merging two docks together, allowing you to toggle between viewing the two with some newly created tabs. Even while the bridge is not visible in tab form, it is still active, so you don't have to stare at the bridge all the time!" type="info" %}
 
 If you wish to learn anything else about the bridge, such as setting a password, features, and more, please refer to [this page!](/docs/bridge)
 
@@ -83,9 +84,7 @@ If you wish to learn anything else about the bridge, such as setting a password,
 
 {% include video.html w="75" src="connect_and_dock_bridge.mp4" alt="Docking a Bridge in OBS" %}
 
-
-
-### 5. Link your Twitch account
+### 5a. Link your Twitch account
 
 Linking your Twitch account to SAMMI is a necessary step if you want to be able to listen to events and control your channel via SAMMI.
 
@@ -101,81 +100,30 @@ Linking your Twitch account to SAMMI is a necessary step if you want to be able 
 {% include video.html w="75" src="link-twitch.mp4" alt="Linking a Twitch account" %}
 
 If you wish to learn anything else about our Twitch integration such as adding extra bots, managing rewards in-app, and more, please refer to [this page!](/integrations/twitch)
-  
-<!-- #### 8. Create your first button
 
-In this part of the tutorial we will learn how to create a button with a simple command and add a Twitch chat trigger to it.
-You can follow the text instructions or watch a short video for each step. 
+### 5b. Link your YouTube account
 
-{% include alert.html text="Pressing Save <b>twice</b> (once in your edit button screen and once in your edit deck screen) is essential to permanently saving any changes you make to a button." type="warning" %}
+Linking your YouTube account to SAMMI is a necessary step if you want to be able to listen to events and control your channel via SAMMI.
 
-1. In your SAMMI, click on **Add New Deck** button. You should see a newly created blank deck named Deck 1. Double click on it.  
+{% include alert.html text="You can link multiple YouTube accounts, however, in this tutorial we will focus on connecting just your main account." type="info" %}
 
-   {% include video.html w="75" src="create_deck.mp4" alt="Create a new deck" %}
-2. This empty grid is your deck where you can create new buttons. Right click anywhere in the empty area and select **Create Button** or simply double click (video example shows both options, you can delete the extra button). A new empty button will be created.  
+1. In SAMMI Core, navigate to your dashboard and click **YouTube Connections** located along the bottom banner menu.
+2. Click on the **Obtain a Token** button to open a web page for YouTube connection authentication.
+3. Click the **Sign in with Google** button.
+4. Choose the Google account containing the YouTube channel you wish to link.
 
-   {% include video.html w="75" src="create_button.mp4" alt="Create a new button" %}
-3. Right click on the empty button you just created - **Add Commands** or double click on it.  
+{% include alert.html text="The application in the authentication screen will say Lioranboard. This can be safely disregarded, we are in the process of getting a name change for it and is entirely safe!" type="warning" %}
 
-   {% include video.html w="75" src="add_command.mp4" alt="Add Commands" %}
-4. Click on the **+** symbol. A dropdown menu will appear. Click on Twitch Commands and select **Twitch: Send Chat Message** (you can also just start typing message in the search box).  
+{:start="5"}
+5. Click **Continue** on the trust screen.
+6. Click **Copy to Clipboard** to copy the refresh token to your clipboard.
+7. Back in SAMMI Core in the YouTube Connections window, paste the refresh token in the **Refresh Token** text field and click **Link**
+8. If everything worked out, you should see your account pop up in the list displayed at the top of the window with your profile picture. You can click **Done**.
 
-   {% include video.html w="75" src="create_command.mp4" alt="Create a new command" %}
-5. Populate the command's fields. 
-   - Message - Put a random text in there. For example `Hello World!`.
-   - Channel Name - Leave empty (will use your default Twitch channel)  
+{% include video.html w="75" src="link-youtube.mp4" alt="Linking a YouTube account" %}
 
-   Press **Save and Close** once finished.  
+### 6. Done! Get to building!
 
-   {% include video.html w="75" src="populate_command.mp4" alt="Populate a command" %}
-6. Back in our deck, right click on the new button - **Edit Triggers**. This is where you can attach any event to trigger your button. 
-  - Click on the **+** sign and select Twitch Chat from the dropdown menu. 
-  - Remove the `*` in the Message field and populate it with `!test` instead.
-  
-   Press **Save**   
+This concludes the installation and basic setup to get started using SAMMI with some services!
 
-   {% include video.html w="75" src="add_trigger.mp4" alt="Add a new trigger" %}
-7. Optionally change button's text or appearance by right clicking on the button and selecting **Edit Appearance**.  
-
-   {% include video.html w="75" src="edit_appearance.mp4" alt="Edit appearance" %}
-8. Back in your deck, press **Save**  
-
-   {% include video.html w="75" src="save_deck.mp4" alt="Save the deck" %}
-
-
-We have now created a button that will send a chat message `Hello World` anytime it's pressed. We have also created a Twitch chat trigger which will execute the button automatically any time someone types `!test` in your Twitch chat.
-
-##### Trigger the new button manually from SAMMI Deck
-There are several ways how you can trigger a button. One of them is triggering it from your **SAMMI Deck**. 
-
-1. Open **SAMMI Deck** by navigating to SAMMI - SAMMI Deck - Open SAMMI Deck.
-2. Once it launches, you will see connection settings. As we are just keeping everything at default in this tutorial, you can simply press **Connect**. Selected deck should be `Deck 1`. Press Load Deck and you should see your newly created button.  
-
-   {% include video.html w="75" src="open-streamdeck.mp4" alt="Open SAMMI Deck" %}
-3. While looking at your Twitch chat of the Twitch account you just linked in SAMMI in the previous steps, click on the button in your **SAMMI Deck**. It should send a `Hello World!` message to your chat!  
-
-   {% include video.html w="75" src="trigger_button.mp4" alt="Trigger Button from SAMMI Deck" %}
-
-{% include alert.html text="Your SAMMI must be connected to Twitch Chat to be able to send chat messages." type="warning" %} 
-
-##### Trigger the new button manually from Edit Command Window
-If you're just putting together a new button, it's often easier to trigger it directly from your SAMMI, as this allows you to keep modifying the button commands without all the extra steps of saving the button and then pressing it in your SAMMI Deck. 
-
-1. Navigate to your button's commands inside SAMMI. 
-2. Press **Run Button**. You should see the same `Hello World` message in your Twitch Chat. 
-
-   {% include video.html w="75" src="trigger_button2.mp4" alt="Trigger button from Edit Command screen" %}
-
-##### Trigger the new button automatically via your Twitch Chat
-Do you still remember the Twitch chat trigger you configured for your button? If you followed the tutorial, it should be `!test`. This means that everytime anyone types `!test` in your Twitch Chat, the button should get automatically triggered. 
-
-1. Type `!test` in your Twitch Chat while looking both at your chat and SAMMI Deck. Two things should then happen: 
-   - You will see the button in your SAMMI Deck blink, just like when you manually pressed it with your mouse earlier. 
-   - SAMMI will respond back with `Hello World` message in your Twitch Chat.   
-
-
-{% include video.html w="75" src="trigger_button_chat.mp4" alt="Trigger button via chat" %}
-
-Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation. 
-
-{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge or Twitch chat? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %} -->
+{% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge, Twitch, or YouTube? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %}

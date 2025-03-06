@@ -13,24 +13,40 @@ type: fullpage
 ### What services are supported?
 
 Out of the box, SAMMI is compatible with the following services:
-- Twitch
-  - Listen to alerts and chat messages, send chat messages, manage channel point rewards, control your Twitch stream, and much more via Twitch APIs such as EventSub, Helix, and IRC. Learn more in [Integrations - Twitch]({{ "integrations/twitch" | relative_url }}).
-- YouTube Live
-  - Listen to live events and manage your live stream. Learn more in [Integrations - YouTube]({{ "integrations/youtube" | relative_url }}).
-- OBS
-  - Full control over your streaming setup via it's websocket. Learn more in [Integrations - OBS]({{ "integrations/obs" | relative_url }}).
-- Discord
-  - Send basic webhook messages.
-- MixItUp
-  - Grab, and run commands from MixItUp. Learn more in [Integrations - MixItUp]({{ "integrations/mix-it-up" | relative_url }}).
-- And more!
+
+#### Twitch
+
+Listen to alerts and chat messages, send chat messages, manage channel point rewards, control your Twitch stream, and much more via Twitch APIs such as EventSub, Helix, and IRC. Learn more in [Integrations - Twitch]({{ "integrations/twitch" | relative_url }}).
+
+#### YouTube Live
+
+Listen to live events and manage your live stream. Learn more in [Integrations - YouTube]({{ "integrations/youtube" | relative_url }}).
+
+#### OBS
+
+Full control over your streaming setup via it's websocket. Learn more in [Integrations - OBS]({{ "integrations/obs" | relative_url }}).
+
+#### Discord
+
+Send basic webhook messages.
+
+#### MixItUp
+
+Grab, and run commands from MixItUp. Learn more in [Integrations - MixItUp]({{ "integrations/mix-it-up" | relative_url }}).
+
+And more!
 
 SAMMI is modular by design! we have plenty of official, separately downloadable integrations:
-- Elgato Stream Deck
-  - Bind Elgato Stream Deck Actions to SAMMI buttons, and influence Action graphics and data. Learn more in [Integrations - Elgato Stream Deck]({{ "integrations/elgato-stream-deck" | relative_url }}).
-- Crowd Control
-  - Listen to ran effects, grab list of effects for current game, and much more. Learn more in [Integrations - Crowd Control]({{ "integrations/crowd-control" | relative_url }}).
-- And much more!
+
+#### Elgato Stream Deck
+
+Bind Elgato Stream Deck Actions to SAMMI buttons, and influence Action graphics and data. Learn more in [Integrations - Elgato Stream Deck]({{ "integrations/elgato-stream-deck" | relative_url }}).
+
+#### Crowd Control
+
+Listen to ran effects, grab list of effects for current game, and much more. Learn more in [Integrations - Crowd Control]({{ "integrations/crowd-control" | relative_url }}).
+
+And much more!
 
 Developers in the community can make their own integrations with the power of [Extensions](#extensions) too, which keeps SAMMI on the cutting edge!
 

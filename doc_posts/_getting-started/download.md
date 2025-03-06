@@ -39,5 +39,5 @@ SAMMI Core is officially supported on Windows 10 and above.
 
 For early access to beta versions of SAMMI, consider becoming our [Patron](https://www.patreon.com/sammidevs)!
 
-### Extensions
-You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server!
+<!-- ### Extensions
+You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server! -->
