@@ -16,10 +16,11 @@ Going against this policy will mark your extension as "restricted" and cannot be
 - If your extension is only accessible via payment *and* the extension intends to complete a feature on our [roadmap](/roadmap). The roadmap will also contain a list of actively maintained services (example: Twitch). These services are always adding new things, which we intend on adding in a timely manner when released/in beta. as active services are already covered by the roadmap, you may not see each individual feature present on the roadmap immediately after release
   - For both things on, and off the roadmap that are a part of actively maintained services, there is a default deadline of (at least) 60 days in order to get it implemented into SAMMI internally. If listed on the roadmap with a set deadline, that overwrites the default 60 days. If we allow a unimplemented feature to pass the deadline, an extension that otherwise would be marked as restricted, would become unrestricted.
 - If your extension, by direct use, poses a potential risk of physical harm or other hazardous condition to yourself or others
+- If your extension contains any generative AI imagery in it's presentation, such as in it's thumbnail, or preview imagery. Note, this does not account for the content or purpose of your extension.
 
 And that's it!
 
 ## FAQ
 
-- Why even do this?
+- Why does the first rule exist?
   - We understand the community's desire to want things ahead of time and to provide awesome features before we can get them out, however, when we are actively developing this desired feature and someone decides to release an extension that will be coming for free in SAMMI, as a __paid__ extension (while we only make money from those who give us charity) it really discourages the developers working on those features they've already been working on and we wanted to make sure our developers felt like they aren't getting screwed over, and we also don't want to set a prescedent that we aren't doing things fast enough and users feel the need to pay a premium for planned integrated services.
