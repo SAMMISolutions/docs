@@ -9,6 +9,8 @@ permalink: /core
 
 SAMMI Core is the main SAMMI component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers and much more.
 
+When you first open the program, you will be greeted with the **Dashboard**.
+
 **Click on the image below and hover over an area of interest:** 
 {% include image.html w="auto" src="core.png" alt="SAMMI Core" map="core-map" %}
  
@@ -49,89 +51,119 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
 - **Paste Deck** - imports the entire deck from your clipboard, must be in JSON format
 - **Duplicate Deck** - creates a copy of the entire deck inside SAMMI
 
-### SAMMI Panel Menu
-{% include image.html w="75" src="PanelMenu.PNG" alt="SAMMI Panel" %}
-- **Open Panel** - Opens your SAMMI Panel.
-- **Open Panel (Web)** - Opens up your browser to access the browser version of SAMMI Panel.
-- **Get LAN IP** - saves your Local Area Network IP to your clipboard, ready for you to paste into a text editor to retrieve your IP address.
+### Deck App Menu
+{% include image.html w="75" src="deck_app_menu.png" alt="Deck App Menu listing all options available" %}
+- **Open SAMMI Panel (Web)** - Opens your browser to access our official deck app, SAMMI Panel.
+- **Open Deck Hopper (Recommended!)** - Opens Deck Hopper, a third party deck application we recommend for users.
+- **Get Deck Hopper for Android** - Links to the download of Deck Hopper for android devices.
+- **Get DeckMate Control for Android** - Links to the download of DeckMate Control for android, an alternative third party deck app.
+- **Get LAN IP (for other devices)** - saves your Local Area Network IP to your clipboard, ready for you to paste into a text editor to retrieve your IP address for use within deck apps loaded on devices other than your local computer.
 
 ### SAMMI Voice
 Opens the SAMMI Voice component.
 
-### Bridge Menu
-{% include image.html w="auto" src="bridge menu.png" alt="Bridge Menu" %}
-- **Select a Bridge** - allows you to select your default Bridge file where all your extensions will be installed/uninstalled from
+### SAMMI Bridge Menu
+{% include image.html w="auto" src="bridge_menu.png" alt="SAMMI Bridge Menu listing all options available" %}
+- **Select a Bridge** - allows you to select your default `bridge.html` file where all your extensions will be installed/uninstalled from. *You shouldn't have to do this unless you're a power user.*
 - **Reload a Bridge** - refreshes your Bridge, same as you going into your Bridge file and pressing reload manually
+- **Send ping to a Bridge** - sends a ping to a bridge, prompting it to respond back with a pong to ensure connectivity.
 - **Open in a browser** - opens your default Bridge in a browser
 - **Reveal in File Explorer** - opens your Bridge file's location in File Explorer
 - **Copy Full Path** - places the file path to the Bridge in your clipboard
 - **Install an Extension** - installs an extension from `.sef` or `.lb2` file to your default Bridge file
-- **Uninstall an Extension** - uninstalls a selected extension from your default Bridge file
+- **Uninstall an Extension** - opens a menu listing all installed extensions in your default bridge file. selecting one uninstalls that extension from your default Bridge file
 - **Install all Extensions from folder** - installs all extensions in a selected folder to the Bridge at once, simply select the first file in the folder
 - **Reinstall all Extensions** - reinstalls all currently installed extensions in your default Bridge
+- **Official Extension Site** - opens your browser to our official [extensions site](https://sammi.solutions/extensions), home of official, and primarily community made extensions!
+- **Christina's Extensions** - opens your browser to former team member and founder Christina's personal extensions page.
+- **Chrizzz's Extensions** - opens your browser to team member Chrizzz's personal extensions page.
+- **Landie's Extensions** - opens your browser to team member Landie's personal extensions page.
+- **wolbee's Extensions** - opens your browser to former team member and founder wolbee's personal extensions page.
 
 ### Integrations Menu
 {% include image.html w="auto" src="integrations.png" alt="Integrations Menu" %}
-All official SAMMI extensions and integrations. Click on one to download and [install it in your SAMMI](https://sammi.solutions/extensions/install).
+All official SAMMI extensions and integrations. Click on one to download and [install it](https://sammi.solutions/extensions/install)!
 
 ### About
-{% include image.html w="auto" src="about.png" alt="About" %}
-Press to open the About page, with info about the developers, and Patreon supporters.
+{% include image.html w="auto" src="about.png" alt="About button" %}
+Press to open the About page, with info about the developers, past developers, founders, and Patreon supporters.
 
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
-- **Main OBS** - indicates whether SAMMI Core is connected to your main OBSWS 
-- **Twitch Pubsub** - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as new followers, subscribers, channel point redeems etc.
+- **Main OBS** - indicates whether SAMMI Core is connected to your main OBS via the websocket. 
+- **Twitch Eventsub** - indicated whether SAMMI Core is connected to Twitch Eventsub for listening to events such as new followers, subscribers, channel point redeems etc.
 - **Twitch Chat** - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new Twitch Chat messages
-- **Bridge** - indicates whether SAMMI Core is connected to Bridge, required for some extensions and for testing Twitch/YouTube triggers
+- **Bridge** - indicates whether SAMMI Core is connected to the Bridge, required for some extensions and for testing Twitch/YouTube triggers
 
 ### Settings
-Allows you to adjust general SAMMI settings. 
+Allows you to adjust various SAMMI settings. 
 
-{% include image.html w="50" src="settings.png" alt="Settings" %}
+#### General
 
-#### General Settings
+{% include image.html w="50" src="settings_general.png" alt="General settings tab" %}
+
 - **Minimize to Tray**: When enabled, SAMMI Core will be minimized to the system tray rather than closing when the "X" button is clicked.
 - **Remember window size and position**: When enabled, SAMMI will remember its window size and position between sessions (note that SAMMI cannot control monitor selection and will always open on the default monitor).
 - **Auto restart SAMMI after crash**: When enabled, SAMMI will automatically relaunch itself in the event of a crash.
 - **Automatically check for new updates**: When enabled, SAMMI will notify you of available updates upon launch, with an option to postpone reminders for a few days.
-- **Automatically send non-crash error logs**: When enabled, SAMMI will automatically report errors that would typically cause a crash. Instead, you will receive a yellow alert and can continue using SAMMI normally. This experimental feature is currently used in some SAMMI scripts.
+- **Opt out of Analytics and Data Collection**: Disables analytics and data collection. Find out more about what that entails in our [Privacy Policy](/privacy-policy)
+<!-- - **Automatically send non-crash error logs**: When enabled, SAMMI will automatically report errors that would typically cause a crash. Instead, you will receive a yellow alert and can continue using SAMMI normally. This experimental feature is currently used in some SAMMI scripts. -->
 - **Automatically close variable wrapping**: When enabled, SAMMI will automatically insert `$/` when you type `/$` with no text to the right of the cursor.
 - **Enable enhanced protection mode**: When enabled, SAMMI will be restricted from modifying or deleting files outside the main SAMMI directory and critical files within its own directory.
+- **Enable alert logging**: When enabled, creates a log file containing all yellow alerts displayed. **Please make sure to not leave this on, as it has performance implications**.
+- **Prevent full crash (BETA)**: When enabled, in case of a button crash, SAMMI will not close completely but stay open instead so you can debug what went wrong. Please only use this for debugging. This does not account for internal crashes.
+- **Timeout Default**: The default milliseconds in any "Timeout After" fields applied on newly created commands. Default is 3000.
+- **Disable Gamepads**: When enabled, disables background gamepad processing, which can help performance related issues in niche circumstances.
 
-#### SAMMI Bridge and Deck Settings
-- **Port** (read-only): The current port used by SAMMI to connect to Bridge/SAMMI Deck. Modifying port numbers is strongly discouraged, but it can be done by editing the `bridge_port` key in the `settings.ini` file.
-- **Password**: The current password for connections from Bridge/SAMMI Deck. If you change the password here, update it in Bridge/SAMMI Deck as well.
+#### Connections
 
-#### SAMMI Panel Settings
-- **Port** (read-only): The current port used by SAMMI to connect to SAMMI Panel. Modifying port numbers is strongly discouraged, but it can be done by editing the `panel_port` key in the `settings.ini` file.
-- **Password**: The current password for connections from SAMMI Panel. If you change the password here, update it in SAMMI Panel as well.
+{% include image.html w="50" src="settings_connections.png" alt="Connections settings tab" %}
 
-#### SAMMI Local API Settings
-- **Open Local API Server**: Choose whether to open SAMMI's [Local API server]({{ "api/overview" | relative_url }}).
-- **Port** (read-only): The current port used by SAMMI for Local API, Webhooks, and SAMMI Voice. Modifying port numbers is strongly discouraged, but it can be done by editing the `api_server_port` key in the `settings.ini` file.
-- **Password**: The current password for API calls, Webhooks, or SAMMI Voice connections to SAMMI. If you change the password here, update it in any custom creations using Local API and SAMMI Voice as well.
+- SAMMI Bridge Connection settings
+  - **Port** (read-only): The current port used by SAMMI to connect to the Bridge. Modifying port numbers is strongly discouraged, but it can be done by editing the `bridge_port` key in the `(SAMMI Directory)\settings.ini` file.
+  - **Password**: The current password for connections from Bridge. If you change the password here, update it in Bridge as well.
 
-#### Language Settings
-- **Language**: Dropdown menu to select SAMMI's language.
-- **Download Languages**: Download updated language files (automatically done when updating SAMMI).
+- Deck App Connection Settings
+  - **Port** (read-only): The current port used by SAMMI to connect any Deck Apps. Modifying port numbers is strongly discouraged, but it can be done by editing the `panel_port` key in the `(SAMMI Directory)\settings.ini` file.
+  - **Password**: The current password for connections from any Deck Apps. If you change the password here, update it in your Deck App as well.
 
-#### UI Settings
+- SAMMI Local API Settings
+  - **Open Local API Server**: Choose whether to open SAMMI's [Local API server]({{ "api/overview" | relative_url }}).
+  - **Port** (read-only): The current port used by SAMMI for Local API, Webhooks, and SAMMI Voice. Modifying port numbers is strongly discouraged, but it can be done by editing the `api_server_port` key in the `(SAMMI Directory)\settings.ini` file.
+  - **Password**: The current password for API calls, Webhooks, or SAMMI Voice connections to SAMMI. If you change the password here, update it in any custom creations using the Local API and SAMMI Voice as well.
+
+#### Interface
+
+{% include image.html w="50" src="settings_interface.png" alt="Interface settings tab" %}
+
 - **FPS**: SAMMI Core functions like a game and runs at a specific FPS, affecting features like OBS Motion Commands. Set this to match your stream FPS.
 - **Interface Size**: Adjust the scaling for non-standard resolutions.
+- **Hide Help Boxes**: Hides explaination boxes and (?) indicator in various parts of SAMMI.
 
-#### Other Settings
-- **Reset SAMMI**: Clears all active buttons and variables and reloads all decks.
-- **Check for Updates**: Checks for updates, allows you to update SAMMI, and view patch notes.
+#### Language
 
-#### Resetting SAMMI and Developer Mode
-Clicking the "Reset SAMMI" button will reset all active buttons and their variables. Clicking it 10 times will enable developer mode in SAMMI.
+{% include image.html w="50" src="settings_language.png" alt="Language settings tab" %}
+
+- **Language**: Dropdown menu to select SAMMI's language.
+- **Download Languages**: Download updated language files (automatically runs when updating SAMMI).
 
 #### Updates
-Clicking "Check for Updates" allows you to check for available updates for SAMMI components. Clicking "View Patch Notes" allows you to view the patch notes for the latest version.
 
+{% include image.html w="50" src="settings_updates.png" alt="Updates settings tab" %}
+
+- **Check for Updates**: Checks for updates, allows you to update SAMMI, and view patch notes.
+- **Open Updater**: Opens the SAMMI Updater component, allowing you to manage updates and downgrades for various other SAMMI components on your own terms.
+- **View Patch Notes**: Allows you to view the patch notes for the latest version.
+
+#### Other Settings
+
+{% include image.html w="50" src="settings_other.png" alt="Other settings along bottom of window" %}
+
+- **Reset SAMMI**: Clears all active buttons and variables and reloads all decks.
+  - Clicking on this button 10 times will enable developer mode within SAMMI.
+- **Hotkeys**: Shows all hotkeys and shortcuts present within SAMMI Core.
 
 ### OBS Connections
 Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported.\

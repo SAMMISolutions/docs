@@ -97,7 +97,7 @@ Linking your Twitch account to SAMMI is a necessary step if you want to be able 
 5. Back in the Twitch Connections window, you should now see your Twitch account in the list!
 6. Click "Done" when finished. You should see the status indicator for `Twitch Eventsub` and `Twitch Chat` in the bottom left corner change from red to green to verify a successful connection.
 
-{% include video.html w="75" src="link-twitch.mp4" alt="Linking a Twitch account" %}
+{% include video.html w="75" src="link_twitch.mp4" alt="Linking a Twitch account" %}
 
 If you wish to learn anything else about our Twitch integration such as adding extra bots, managing rewards in-app, and more, please refer to [this page!](/integrations/twitch)
 
@@ -120,10 +120,10 @@ Linking your YouTube account to SAMMI is a necessary step if you want to be able
 7. Back in SAMMI Core in the YouTube Connections window, paste the refresh token in the **Refresh Token** text field and click **Link**
 8. If everything worked out, you should see your account pop up in the list displayed at the top of the window with your profile picture. You can click **Done**.
 
-{% include video.html w="75" src="link-youtube.mp4" alt="Linking a YouTube account" %}
+{% include video.html w="75" src="link_youtube.mp4" alt="Linking a YouTube account" %}
 
 ### 6. Done! Get to building!
 
-This concludes the installation and basic setup to get started using SAMMI with some services!
+This concludes the installation and basic setup to get started using SAMMI with some services! You can now check out [creating your first button!](/getting-started/your-first-button) to get used to the workflow of SAMMI!
 
 {% include alert.html text="Didn't work as expected? Cannot connect to OBS, Bridge, Twitch, or YouTube? Please refer to our <a href='/troubleshooting/common'>Troubleshooting</a> section!" type="info" %}

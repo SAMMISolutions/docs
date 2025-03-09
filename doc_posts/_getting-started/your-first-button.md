@@ -40,6 +40,8 @@ Click and drag your button to change it's placement in the deck. Drag the sides 
 
 This can help you stay organized, and improve your experience in an upcoming step.
 
+{% include video.html w="75" src="edit_appearance.mp4" alt="Editing the appearance of our button" %}
+
 ### 3. Add a Command
 
 Double click on the empty button you just created.
@@ -57,7 +59,7 @@ Fill in the boxes within the command's fields.
 
 Press **Save** and click **Ok** once finished.
 
-{% include video.html w="75" src="populate_command.mp4" alt="Filling the input boxes in the fields of a command" %}
+{% include video.html w="75" src="create_command_fill_fields.mp4" alt="Filling the input boxes in the fields of a command" %}
 
 ### 5. Add a Trigger
 
@@ -74,11 +76,11 @@ Press **Save**
 
 Back in your deck, press **Save**
 
-{% include alert.html text="Pressing Save <b>twice</b> (once in your edit button screen and once in your edit deck screen) is essential to permanently saving any changes you make to a button." type="warning" %}
+
 
 {% include video.html w="75" src="save_deck.mp4" alt="Save the deck" %}
 
-We have now created a button that will send a chat message `Hello World` anytime it's ran. We have also created a Twitch chat trigger which will execute the button automatically any time someone types `!test` in your Twitch chat.
+We have now created a button that will send a chat message `Hello World` anytime it's ran. Let's explore all the ways this button is currently set up to be ran!
 
 ### Trigger your button manually from a Deck App
 
@@ -86,13 +88,15 @@ There are several ways to trigger a button. One of them is triggering it from a 
 
 1. Open **SAMMI Panel** by going to the dashboard, clicking **Deck App**, and clicking **Open SAMMI Panel (Web)** from the context menu that appears.
 
+{% include alert.html text="For SAMMI Panel, please make sure the URL in the browser is http, not https, otherwise it won't connect." type="warning" %}
+
 2. Once it launches, you will see connection settings. As we are just keeping everything at default in this tutorial, you can simply press **Connect**. Selected deck should be `Deck 1`. Press Load Deck and you should see your created button.  
 
-{% include video.html w="75" src="open-streamdeck.mp4" alt="Open SAMMI Deck" %}
+{% include video.html w="75" src="open_deck_in_deck_app.mp4" alt="Open Deck App 'SAMMI Panel', connect to SAMMI Core, and load our deck" %}
 
-3. While looking at your Twitch chat of the Twitch account you just linked in SAMMI in the previous steps, click on the button in your **SAMMI Deck**. It should send a `Hello World!` message to your chat!  
+1. While looking at your Twitch chat of the Twitch account you just linked in SAMMI in the previous steps, click on the button! It should send a `Hello World!` message to your chat!  
 
-{% include video.html w="75" src="trigger_button.mp4" alt="Trigger Button from SAMMI Deck" %}
+{% include video.html w="75" src="trigger_button_deck_app.mp4" alt="Trigger Button from SAMMI Panel" %}
 
 ### Trigger your button manually from it's Commands Editor
 
@@ -102,7 +106,7 @@ If you're just putting together a new button, it's often easier to trigger it di
 
 2. Press **Run**. You should see the same `Hello World` message in your Twitch Chat. 
 
-   {% include video.html w="75" src="trigger_button2.mp4" alt="Trigger button from Edit Command screen" %}
+   {% include video.html w="75" src="trigger_button_testing.mp4" alt="Trigger button from it;s Commands editor screen" %}
 
 ### Trigger your button automatically via Twitch Chat
 
@@ -112,10 +116,6 @@ Do you remember the Twitch chat trigger you added to your button? If you followe
    - You will see the button in SAMMI Panel blink, just like when you manually pressed it with your mouse earlier. 
    - SAMMI will respond back with `Hello World` message in your Twitch Chat.   
 
+{% include video.html w="75" src="trigger_button_event_trigger.mp4" alt="Trigger button via a set Twitch Chat Trigger with SAMMI Panel on the side showing it's been pressed automatically" %}
 
-{% include video.html w="75" src="trigger_button_chat.mp4" alt="Trigger button via chat" %}
-
-WIP vvv
-
-Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation. 
-
+Now you have learned how to create a button, add a command and trigger it via Twitch chat! You can find more information about the individual components, commands and triggers in the next sections of the documentation.

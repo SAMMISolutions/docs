@@ -2,7 +2,7 @@
 layout: default
 title: Migrating from LB2
 menu: Getting Started
-num: 6
+num: 8
 permalink: /getting-started/migrating-lb2
 type: fullpage
 ---
