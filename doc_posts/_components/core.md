@@ -166,7 +166,7 @@ Allows you to adjust various SAMMI settings.
 - **Hotkeys**: Shows all hotkeys and shortcuts present within SAMMI Core.
 
 ### OBS Connections
-Allows you to set up your OBS connection. Multiple connections and multiple OBSWS protocols are supported.\
+Allows you to set up and manage OBS Connections to SAMMI Core.
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
 {% include image.html w="50" src="obs_connection.png" alt="OBS Connections" %}
