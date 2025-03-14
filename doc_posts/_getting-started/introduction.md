@@ -52,7 +52,7 @@ Developers in the community can make their own integrations with the power of [E
 
 ### How is it used?
 
-With SAMMI Core (the main component of SAMMI), you create "buttons" which contain instructions known as "commands" for the program to execute via a super easy drag-and-drop block based programming system. Buttons can be customized with colors, graphics, and more, which are then placed freely in a "Deck", which houses multiple buttons.
+With SAMMI Core (the main component of SAMMI), you create `Buttons` which contain instructions known as `Commands` for the program to execute via a super easy drag-and-drop block based programming system. Buttons can be customized with colors, graphics, and more, which are then placed freely in a `Deck`, which houses multiple buttons.
 
 Buttons can then be ran **manually** using hotkeys, and pressed through what is known as a Deck App which loads a Deck into an application on your mobile device, web browser, and even [smart fridge...?](https://x.com/sammisolutions/status/1650203870545563657)
 
@@ -113,4 +113,3 @@ For even greater functionality, SAMMI Core supports community-created JavaScript
 Explore the full list of SAMMI extensions in [our officially curated Extension list](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.gg/dXez8Zh)!
 
 <!-- Are you a developer wanting to make an extension of your own? Check out the page How To Build an extension! -->
-

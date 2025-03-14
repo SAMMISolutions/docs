@@ -2,84 +2,84 @@
 ---
 
 @keyframes glowing {
-    0% {
-      text-shadow: 0 0 5px #9b59b6, 0 0 10px #9b59b6, 0 0 15px #9b59b6, 0 0 20px #9b59b6;
-    }
-    50% {
-      text-shadow: 0 0 10px #9b59b6, 0 0 20px #9b59b6, 0 0 30px #9b59b6, 0 0 40px #9b59b6;
-    }
-    100% {
-      text-shadow: 0 0 5px #9b59b6, 0 0 10px #9b59b6, 0 0 15px #9b59b6, 0 0 20px #9b59b6;
-    }
+  0% {
+    text-shadow: 0 0 5px #9b59b6, 0 0 10px #9b59b6, 0 0 15px #9b59b6,
+      0 0 20px #9b59b6;
   }
-  
-  @keyframes colorChangingLight {
-    0% {
-      color: red;
-    }
-    50% {
-      color: orange;
-    }
-    100% {
-      color: red;
-    }
+  50% {
+    text-shadow: 0 0 10px #9b59b6, 0 0 20px #9b59b6, 0 0 30px #9b59b6,
+      0 0 40px #9b59b6;
   }
-  
-  @keyframes colorChangingDark {
-    0% {
-      color: #ff6666;
-    }
-    50% {
-      color: #ffcc66;
-    }
-    100% {
-      color: #ff6666;
-    }
+  100% {
+    text-shadow: 0 0 5px #9b59b6, 0 0 10px #9b59b6, 0 0 15px #9b59b6,
+      0 0 20px #9b59b6;
   }
-  
-  .purpleEmperor {
-    animation: glowing 1s infinite alternate;
-    font-size: 1.5em;
+}
+
+@keyframes colorChangingLight {
+  0% {
+    color: red;
   }
-  
+  50% {
+    color: orange;
+  }
+  100% {
+    color: red;
+  }
+}
+
+@keyframes colorChangingDark {
+  0% {
+    color: #ff6666;
+  }
+  50% {
+    color: #ffcc66;
+  }
+  100% {
+    color: #ff6666;
+  }
+}
+
+.purpleEmperor {
+  animation: glowing 1s infinite alternate;
+  font-size: 1.5em;
+}
+
+.redAdmiral {
+  animation: colorChangingLight 2s infinite alternate;
+  font-size: 1.3em;
+}
+
+.marbledWhite {
+  color: gray;
+  font-size: 1.2em;
+}
+
+.greenHairstreak {
+  color: green;
+  font-size: 1.1em;
+}
+
+.brownArgus {
+  color: brown;
+  font-size: 1em;
+}
+
+// Styles for dark mode
+[data-theme="dark"] {
   .redAdmiral {
-    animation: colorChangingLight 2s infinite alternate;
-    font-size: 1.3em;
+    animation: colorChangingDark 2s infinite alternate;
+  }
+
+  .greenHairstreak {
+    color: #66ff66;
+  }
+
+  .brownArgus {
+    color: #cc9966;
   }
 
   .marbledWhite {
-    color: gray;
-    font-size: 1.2em;
+    color: #dadada;
   }
-  
-  
-  .greenHairstreak {
-    color: green;
-    font-size: 1.1em;
-  }
-  
-  .brownArgus {
-    color: brown;
-    font-size: 1em;
-  }
-  
-
-  // Styles for dark mode
-  [data-theme="dark"] {
-    .redAdmiral {
-      animation: colorChangingDark 2s infinite alternate;
-    }
-  
-    .greenHairstreak {
-      color: #66ff66;
-    }
-  
-    .brownArgus {
-      color: #cc9966;
-    }
-  
-    .marbledWhite {
-      color: #dadada;
-    }
-  }
-  
+}

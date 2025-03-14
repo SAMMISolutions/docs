@@ -169,36 +169,34 @@ Allows you to adjust various SAMMI settings.
 Allows you to set up and manage OBS Connections to SAMMI Core.
 Learn more about setting up an OBS connection in our [Integrations-OBS]({{ "integrations/obs" | relative_url }}) section.
 
-{% include image.html w="50" src="obs_connection.png" alt="OBS Connections" %}
+{% include image.html w="50" src="obs_connections.png" alt="OBS Connections" %}
 
 ### Twitch Connections
-Allows you to connect SAMMI Core to your Twitch account (or multiple accounts) to listen for new events, send chat messages, and use other Twitch commands.\
-Find out more about Twitch connection in our [Integrations-Twitch]({{ "integrations/twitch" | relative_url }}) section.
-{% include image.html w="75" src="twitch_connection.png" alt="Twitch Connections" %}
+Allows you to connect SAMMI Core to your Twitch account(s) to listen for new events, send chat messages, and use other Twitch commands.\
+Find out more about connecting Twitch in our [Integrations-Twitch]({{ "integrations/twitch" | relative_url }}) section.
 
+{% include image.html w="75" src="twitch_connections.png" alt="Twitch Connections" %}
 
 ### YouTube Connection
-Allows you to connect SAMMI Core to your YouTube account to listen for new events, send chat messages, and use other YouTube commands.\
-Find out more about Twitch connection in our [Integrations-Youtube]({{ "integrations/youtube" | relative_url }}) section.
+Allows you to connect SAMMI Core to your YouTube account(s) to listen for new events, send chat messages, and use other YouTube commands.\
+Find out more about YouTube connection in our [Integrations-Youtube]({{ "integrations/youtube" | relative_url }}) section.
 
 {% include image.html w="50" src="youtube_connection.png" alt="YouTube Connection" %}
 
 ### Variable Viewer
-The variable viewer can be accessed from the Main Menu, Deck Editor, or the Commands Editor. You can also press `Ctrl+Tab` key as a shortcut.
+In this menu, you can view all variables present within SAMMI.
 
-In this menu you can view all global variables (marked red) and all button IDs with persistent variables enabled. 
+The Variable Viewer can be accessed from the Dashboard's bottom banner menu, Deck Editor, or any button's Commands Editor. You can also press `Ctrl+Tab` key as a shortcut.
 
-{% include video.html w="75" src="var-window.mp4" alt="Variable window showing button and global variables" %}
-
-- Use search function to search for a specific button ID or variable
+<!-- - Use search function to search for a specific button ID or variable
 - Click on the arrow icon next to the button ID to view all current variables for the selected button ID
 - Click on 'Sort by Type/Aphabetically' to sort the variable list
 - Click on dollar sign icon to copy the variable value
 - Click on path icon to copy the variable path
 - Click on the trash bin icon to delete the variable
-- Click on the home button to return to the main variable screen
+- Click on the home button to return to the main variable screen -->
 
-Learn more about variables in our [Commands-Variables](commands/variables#introduction) section.
+Learn more about variables and the variable viewer in our [Commands-Variables](commands/variables#introduction) section.
 
 ### Active Buttons
 All currently running buttons will be displayed in this window.\
@@ -208,14 +206,18 @@ You can choose to interrupt (clear) all, ongoing or queued buttons.
 
 ### Deck
 
-If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core. Double click on the deck to open it.\
-Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
+Decks are like customizable folders for your buttons, which you place freely around inside.
+
+If you press **Add new Deck** button, a new empty deck will be added to SAMMI Core. Double click on any deck to open the `Deck Editor`.\
+Every deck is active at all times (unless disabled) in SAMMI Core.
+
+{% include alert.html text="It does not matter if a Deck App is currently connected to a different deck." type="info" %}
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
 
-{% include alert.html text="If you want to back up your decks or share them with others, you can press <b>Copy Deck</b> in your main menu, which will copy it to your clipboard, and paste it into a text file." type="info" %}     
+{% include alert.html text="If you want to back up your decks or share them with others; from the dashboard, you can right click a deck in the deck menu then click 'Copy Deck', which will copy it to your clipboard to be pasted in a message to a friend, or saved in a text file." type="info" %}     
 
-Inside your deck you will see an empty canvas grid, where you can add and modify your buttons.
+In the deck editor you will see an empty canvas grid, where you can add and modify your buttons.
 - Name - change the name of your deck
 - Grid Snapping - if unchecked, you can freely resize and position your buttons not dependent on the grid
 - X & Y - the size of your grid
