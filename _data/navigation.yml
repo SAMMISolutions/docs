@@ -5,6 +5,11 @@ main:
   collection: components
 - name: Integrations
   collection: integrations
+- name: Decks And Buttons
+  submenus:
+    - name: Introduction
+      link: decks-and-buttons/introduction
+      collection: decks-and-buttons-introduction
 - name: Commands
   submenus: 
     - name: Introduction

@@ -7,49 +7,63 @@ type: fullpage
 permalink: /core
 ---
 
-SAMMI Core is the main SAMMI component. You can change all the settings, add and modify your decks, program new buttons, add and edit triggers and much more.
+SAMMI Core is the main SAMMI component. Open it by going to where your SAMMI installation is located, and open `SAMMI Core.exe`.
 
-When you first open the program, you will be greeted with the **Dashboard**.
+You can change all the settings, manage connections, manage your Decks, program new Buttons, and much more.
 
-**Click on the image below and hover over an area of interest:** 
-{% include image.html w="auto" src="core.png" alt="SAMMI Core" map="core-map" %}
- 
-<map name="core-map">
-    <area target="_blank" alt="A single enabled deck" title="A single enabled deck" href="#deck" coords="378,17,180,223" shape="rect">
-    <area target="_blank" alt="A single disabled deck" title="A single disabled deck" href="#disableadeck" coords="576,16,382,223,574,224,574,18,576,16" shape="rect">
-    <area target="_blank" alt="Enters Edit Deck screen." title="Enters Edit Deck screen." href="#deck" coords="2,48,161,19" shape="rect">
-    <area target="_blank" alt="Adds or deletes the selected deck" title="Adds or deletes the selected deck" href="#deck" coords="163,53,1,112" shape="rect">
-    <area target="_blank" alt="Changes the deck order" title="Changes the deck order" href="#deck" coords="162,117,0,169" shape="rect">
-    <area target="_blank" alt="Copies a deck to your clipboard, can be shared with others." title="Copies a deck to your clipboard, can be shared with others." href="#deck" coords="161,173,-1,201" shape="rect">
-    <area target="_blank" alt="Pastes deck data from your clipboard as a new deck." title="Pastes deck data from your clipboard as a new deck." href="#deck" coords="163,202,-1,232" shape="rect">
-    <area target="_blank" alt="Duplicates an existing deck, creating a unique copy." title="Duplicates an existing deck, creating a unique copy." href="#deck" coords="164,260,0,233" shape="rect">
-    <area target="_blank" alt="Opens SAMMI Panel dropdown which acts as your virtual Stream Deck." title="Opens SAMMI Panel dropdown which acts as your virtual Stream Deck." href="https://sammi.solutions/docs/panel" coords="165,283,0,314" shape="rect">
-    <area target="_blank" alt="Opens SAMMI Voice, which allows you to control SAMMI with voice commands." title="Opens SAMMI Voice, which allows you to control SAMMI with voice commands." href="https://sammi.solutions/docs/voice" coords="163,337,5,312" shape="rect">
-    <area target="_blank" alt="Opens SAMMI Bridge menu, to open Bridge or install/uninstall an extension." title="Opens SAMMI Bridge menu, to open Bridge or install/uninstall an extension." href="https://sammi.solutions/docs/core#bridgemenu" coords="164,365,5,337" shape="rect">
-    <area target="_blank" alt="Opens menu with all official SAMMI integrations." title="Opens menu with all official SAMMI integrations." href="" coords="161,388,2,368" shape="rect">
-    <area target="_blank" alt="Opens About page with information about developers and license." title="Opens About page with information about developers and license." href="https://sammi.solutions/docs/about" coords="161,416,0,390" shape="rect">
-    <area target="_blank" alt="Connection indicators for all major SAMMI components." title="Connection indicators for all major SAMMI components." href="https://sammi.solutions/docs/core#connectionstatusindicators" coords="160,810,5,725" shape="rect">
-    <area target="_blank" alt="Opens official SAMMI Discord invite link." title="Opens official SAMMI Discord invite link." href="https://discord.gg/dXez8Zh" coords="161,865,-1,811,-1,819" shape="rect">
-    <area target="_blank" alt="Opens official SAMMI Patreon. " title="Opens official SAMMI Patreon. " href="https://www.patreon.com/sammidevs" coords="162,870,0,917" shape="rect">
-    <area target="_blank" alt="Adds a new deck. " title="Adds a new deck. " href="#deck" coords="598,192,766,57" shape="rect">
-    <area target="_blank" alt="Current FPS indicator. FPS plays a role in executing some SAMMI commands." title="Current FPS indicator. FPS plays a role in executing some SAMMI commands." href="#uisettings" coords="1225,0,1279,28" shape="rect">
-    <area target="_blank" alt="Opens SAMMI Settings menu.  " title="Opens SAMMI Settings menu.  " href="#settings" coords="115,958,-1,924" shape="rect">
-    <area target="_blank" alt="Set up OBS connections to SAMMI here. " title="Set up OBS connections to SAMMI here. " href="#obsconnections" coords="300,958,117,924" shape="rect">
-    <area target="_blank" alt="Setup and link your Twitch accounts here. " title="Setup and link your Twitch accounts here. " href="#twitchconnections" coords="517,923,303,955" shape="rect">
-    <area target="_blank" alt="Setup and link your YouTube account here. " title="Setup and link your YouTube account here. " href="#youtubeconnection" coords="733,957,519,925" shape="rect">
-    <area target="_blank" alt="See all button and global variable here." title="See all button and global variable here." href="#variableviewer" coords="924,956,736,923" shape="rect">
-    <area target="_blank" alt="See and clear all currently running buttons here. " title="See and clear all currently running buttons here. " href="#activebuttons" coords="1101,959,925,923" shape="rect">
-    <area target="_blank" alt="Current SAMMI version. " title="Current SAMMI version. " href="" coords="1278,893,1137,926" shape="rect">
-</map>
+*This is where you will spend 90% of your time while using SAMMI.*
 
-### Deck Menu 
-- **Edit Deck** - allows you to edit currently selected deck, same as double clicking on the deck
-- **Add New Deck** - adds a new empty deck, you can also use `CTRL+N` keyboard shortcut
-- **Delete Deck** - delete the currently selected deck, cannot be undone
-- **Move Left/Right** - repositions the deck
-- **Copy Deck** - exports the entire deck to your clipboard in JSON format to share with other users, you can include all deck button images as well
-- **Paste Deck** - imports the entire deck from your clipboard, must be in JSON format
-- **Duplicate Deck** - creates a copy of the entire deck inside SAMMI
+Each part of the SAMMI Core will be introduced from most relevant, to least relevant, to help guide where you should be searching if you are starting out SAMMI for the first time.
+
+When you first open the program, you will be greeted with the...
+
+### Dashboard
+
+{% include image.html w="75" src="core_dashboard.png" alt="A screenshot of SAMMI Core's Dashboard (Also known as Home), which is the first screen you see upon opening the application from SAMMI Core.exe" %}
+
+Also known as Home, the SAMMI Core "Dashboard" contains many menus that lead to various segments of this primary component.
+
+### Deck Menu
+
+{% include image.html w="75" src="core_deck_menu.png" alt="A screenshot of SAMMI Core's Deck Menu. There are decks present within the menu, as well as a big plus button at the end of it." %}
+
+Allows you to manage your Decks. Visit the [Decks and Buttons](/decks-and-buttons/introduction) section to learn more.
+
+{% include alert.html text="It is vital that you are familiar with Decks and Buttons, as they are crucial concepts to creating anything in the program." type="warning" %}
+
+Clicking on the big plus icon will open a context menu related to creating new Decks.
+
+- **Add New Deck** - Adds a new empty Deck. You can also use <kbd>CTRL</kbd> + <kbd>N</kbd> from the Dashboard.
+- **Paste Deck** - Imports an entire Deck from your clipboard. Must be in JSON format.
+
+Once you have at least one Deck made, you can do the following:
+
+- Clicking on a Deck will select it.
+- Clicking and *holding* on a Deck will allow you to drag it freely. If other Decks are present in your Deck Menu, you may rearrange the order by dragging it inbetween other Decks, then letting go.
+- Double-clicking on a Deck will open it in your Deck Editor.
+- Right-clicking on a Deck will open a context menu for extra options for that Deck.
+  - **Edit Deck** - Same as double-clicking. Will open Deck in your Deck Editor
+  - **Delete Deck** - Deletes the Deck, Cannot be undone.
+  - **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users. Will prompt if you want to include images with it aswell.
+  - **Duplicate** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
+  - **Copy ID** - Copies the ID of a Deck to your clipboard. Useful for Deck related command usage.
+- Clicking on the **Disable** checkbox will allow you to disable that Deck, and all buttons within that Deck, when attempted to be ran, will cease to do so. Buttons already running, as well as queued buttons, will run.
+
+[Decks Introduction](/docs/decks-and-buttons/introduction)
+
+### Deck Management Menu
+
+Allows you to manage your Decks located in your Deck Menu.
+
+{% include alert.html text="This menu is considered legacy, as you can do all of these actions in the Deck Menu itself, including some that aren't present here." type="warning" %}     
+
+- **Edit Deck** - Allows you to edit currently selected deck, same as double clicking on the deck
+- **Add New Deck** - Adds a new empty Deck. You can also use <kbd>CTRL</kbd> + <kbd>N</kbd> from the Dashboard.
+- **Delete Deck** - Delete the currently selected deck, cannot be undone
+- **Move Left/Right** - Repositions the deck
+- **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users. Will prompt if you want to include images with it aswell.
+- **Paste Deck** - Imports an entire Deck from your clipboard. Must be in JSON format.
+- **Duplicate Deck** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
 
 ### Deck App Menu
 {% include image.html w="75" src="deck_app_menu.png" alt="Deck App Menu listing all options available" %}
@@ -203,140 +217,3 @@ All currently running buttons will be displayed in this window.\
 You can choose to interrupt (clear) all, ongoing or queued buttons. 
 
 {% include video.html w="75" src="ongoing-buttons.mp4" alt="Interrupting an active button" %}
-
-### Deck
-
-Decks are like customizable folders for your buttons, which you place freely around inside.
-
-If you press **Add new Deck** button, a new empty deck will be added to SAMMI Core. Double click on any deck to open the `Deck Editor`.\
-Every deck is active at all times (unless disabled) in SAMMI Core.
-
-{% include alert.html text="It does not matter if a Deck App is currently connected to a different deck." type="info" %}
-
-{% include image.html w="50" src="deck.png" alt="Deck with a button" %}
-
-{% include alert.html text="If you want to back up your decks or share them with others; from the dashboard, you can right click a deck in the deck menu then click 'Copy Deck', which will copy it to your clipboard to be pasted in a message to a friend, or saved in a text file." type="info" %}     
-
-In the deck editor you will see an empty canvas grid, where you can add and modify your buttons.
-- Name - change the name of your deck
-- Grid Snapping - if unchecked, you can freely resize and position your buttons not dependent on the grid
-- X & Y - the size of your grid
-- Adaptive Resizing - whether you want to also resize your buttons when you change the grid size
-- Background Image - choose either a color or background image for your deck
-- Undo & Redo - allows you to undo/redo any deck action
-
-#### Disable a deck
-You can disable a deck by either checking the `Disable` checkbox in SAMMI or by using [Deck: Change Status]({{ "commands/misc#deckchangestatus" | relative_url }}) command. This allows you to have only specific decks active during your stream.  
-Buttons in disabled decks do not trigger and their variables are not accsesible.
-
-{% include video.html w="75" src="disable_decks.mp4" alt="Disabling and enabling decks" %}
-
-
-### Button
-You can create a new button inside a deck by either right clicking on your empty canvas and selecting **Create Button** or by just simply double clicking on any empty space. You can change its appearance, move it around, resize it etc. 
-
-{% include video.html w="75" src="create-button.mp4" alt="Create a new button" %}
-
-There are several keyboard shortcuts you can use:
-
-| Shortcut | Function |
-| ----- | ----- |
-| Ctrl+C | Copies a selected button.|
-| Ctrl+V | Pastes a copied button in the selected empty slot.|
-| Delete | Deletes a selected button.|
-| Ctrl+Z | Undoes the last action.|
-| Ctrl+Y<br/>Ctrl+Shift+Z | Redoes a previous undone action.|
-| Ctrl+S | Saves the deck and closes the Deck view.|
-{:class='table table-secondary w-auto table-responsive table-hover'}
-
-{% include alert.html text="Use Export JSON (by right clicking on a button) and Import from JSON (by right clicking on your empty canvas) to easily share your buttons with others!" type="info" %}  
-
-#### Edit Appearance
-You can right click on a button or press `SHIFT + double click` to edit its appearance.
-Edit your button text, color, image, transparency and border size.\
-All button images will be automatically resized and copied to `SAMMI/image` folder.\
-
-{% include image.html w="50" src="appearance.png" alt="Button Appearance" %}
-
-#### Edit Settings
-You can right on a button or press `CTRL + double click` to edit settings.
-
-<div>
-
-<table class="table">
-
-<tr style="border:none">
-
-<td class="w-25" style="border:none" markdown="1">
-
-{% include image.html w="auto" src="button_settings.png" alt="Button Settings" %} 
-
-</td>
-
-<td style="border:none" markdown="1">
-
-- **Button ID** - your unique Button ID, used in various commands (such as Trigger button) and to store all your button variables. It's encouraged to give all your buttons unique IDs. 
-- **Group ID** - you can group up your buttons by assigning them the same group ID. This will automatically create a queue for your buttons and prevent them from triggering at the same time.
-- **Allow Queue** - if there is another trigger event while the button is still active (for example if you get two subscribers at the same time), it will place it in the queue and reactivate the button as soon as it's ready again. Does not apply if Button Overlap option is on.
-- **Allow Button Overlap** - allow multiple instances of the same button to happen at the same time
-- **Local Variable Persist**
-   - checked - button variables will be accessible even after the button has finished. If Allow Button Overlap is enabled, all button executions will share the same variables.   
-   - unchecked - button variables will be accessible only when the button is running and only inside their own button. Other buttons cannot access them even if the button is currently running. If Allow Button Overlap is enabled, unique variables will be created for each button execution and will never be shared.
-- **Press type** 
-   - Normal Press - single button press
-   - Drag Press - the button will trigger if dragged over. You can add either a single or multiple drag press (activates if it's dragged over again). Useful for creating your own volume buttons! 
-
-</td>
-</tr>  
-</table>  
-
-<div markdown="1">
-
-#### Edit Triggers
-You can right click on a button or press `CTRL + double click` to add a trigger.
-Add various triggers to your button to get automatically executed when a specific event happens. For example, you can trigger your button every time you get a new follower or someone types `!hello` in your chat.  
-
-Learn more about specific triggers in our [**Triggers**]({{ "triggers/introduction" | relative_url }}) section.
-
-#### Edit Commands
-When you right click-Edit commands or double click on your button and press **+**, you can start adding commands to execute when the button is pressed.  
-
-Button commands have their own specific rules that you need to follow, read more about them in our [Commands-Introduction]({{ "commands/introduction" | relative_url }})  section. 
-   
-Once you're done with adding commands, you can now run the button directly from the commands window - no more having to save back to the main screen and testing via a chat command or pressing the button on the deck!
-{% include alert.html text="Please be aware that any commands that involve wildcards or pulling info from the trigger may not work as intended if tested this way - for best results, test the same way you intend for it to be used." type="info" %} 
-
-See the list of all available commands in the **Commands** section.  
-
-#### Edit Release Commands
-Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your SAMMI Deck or hotkey**. You can add as many commands as you want.
-
-#### Edit Init Variables
-Initial variables the button will have when initiated. It prevents persistent buttons from crashing. Must be in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).
-
-#### Copy Button
-Copy a button and insert it elsewhere in your decks. All buttons have unique IDs. A new copied button will have a different ID from the original one. Can also be done by selecting the button and pressing Ctrl+C, with Ctrl+V to paste it in a selected empty spot.
-
-{% include video.html w="75" src="copy-button.mp4" alt="Copying and pasting a button" %}
-
-
-#### Delete Button
-Delete a whole button. Can also be done by selecting a button and pressing the Delete key.
-
-#### Export Button JSON
-Exports a button by copying its contents to your clipboard. 
-
-{% include video.html w="75" src="export-json.mp4" alt="Exporting a button" %}
-
-#### Group ID
-Displays Group ID (if any exists), click on it to copy it to your clipboard
-
-#### Button ID
-Displays button ID, click on it to copy it to your clipboard
-
-#### Import Button JSON
-You can import a button by right clicking anywhere on an empty space in your deck and selecting Import from JSON.
-
-{% include video.html w="75" src="import-json.mp4" alt="Importing a button" %}
-
-</div>

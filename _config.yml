@@ -11,21 +11,21 @@ logo: /assets/favicon/favicon-32x32.png
 social:
   name: SAMMI
   links:
-  - https://twitter.com/SAMMISolutions
-  - https://github.com/SAMMISolutions
+    - https://twitter.com/SAMMISolutions
+    - https://github.com/SAMMISolutions
 timezone: US/Pacific
 google_analytics: G-Q3ZGBDKL0V
 twitter:
   username: SAMMISolutions
   card: summary
 plugins:
-- jekyll-feed
-- jekyll-sitemap
-- jekyll-seo-tag
-- jekyll-toc
-- jekyll-mentions
-- jekyll-relative-links
-- jekyll-redirect-from
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-toc
+  - jekyll-mentions
+  - jekyll-relative-links
+  - jekyll-redirect-from
 sass:
   sass_dir: _sass
 relative_links:
@@ -40,212 +40,222 @@ toc:
   no_toc_section_class: no_toc_section
   list_id: toc
   list_class: section-nav
-  sublist_class: ''
+  sublist_class: ""
   item_class: nav-link d-flex flex-row
   item_prefix: toc-
 defaults:
-- scope:
-    path: docs
-    type: pages
-  values:
-    layout: post
-- scope:
-    path: docs/commands
-  values:
-    menu: Commands
-- scope:
-    path: doc_posts/_commands-array
-  values:
-    parent: Arrays
-    backlink: array
-- scope:
-    path: doc_posts/_commands-buffer
-  values:
-    parent: Buffers
-    backlink: buffer
-- scope:
-    path: doc_posts/_commands-button
-  values:
-    parent: Buttons
-    backlink: button
-- scope:
-    path: doc_posts/_commands-date-time
-  values:
-    parent: Date and Time
-    backlink: date-time
-- scope:
-    path: doc_posts/_commands-file-csv
-  values:
-    parent: Files
-    subparent: CSV Files
-    backlink: file-csv
-- scope:
-    path: doc_posts/_commands-file-general
-  values:
-    parent: Files
-    subparent: General
-    backlink: file-general
-- scope:
-    path: doc_posts/_commands-file-ini
-  values:
-    parent: Files
-    subparent: INI Files
-    backlink: file-ini
-- scope:
-    path: doc_posts/_commands-misc
-  values:
-    parent: Miscellaneous
-    backlink: misc
-- scope:
-    path: doc_posts/_commands-mouse-kb
-  values:
-    parent: Mouse & Keyboard
-    backlink: mouse-kb
-- scope:
-    path: doc_posts/_commands-number
-  values:
-    parent: Numbers
-    backlink: number
-- scope:
-    path: doc_posts/_commands-object
-  values:
-    parent: Objects
-    backlink: object
-- scope:
-    path: doc_posts/_commands-obs-*
-  values:
-    parent: OBS
-- scope:
-    path: doc_posts/_commands-obs-filters
-  values:
-    subparent: Filters
-    backlink: obs-filters
-- scope:
-    path: doc_posts/_commands-obs-general
-  values:
-    subparent: General
-    backlink: obs-general
-- scope:
-    path: doc_posts/_commands-obs-media
-  values:
-    subparent: Media
-    backlink: obs-media
-- scope:
-    path: doc_posts/_commands-obs-motion
-  values:
-    subparent: Motion
-    backlink: obs-motion
-- scope:
-    path: doc_posts/_commands-obs-recording
-  values:
-    subparent: Recording
-    backlink: obs-recording
-- scope:
-    path: doc_posts/_commands-obs-scenes
-  values:
-    subparent: Scenes
-    backlink: obs-scenes
-- scope:
-    path: doc_posts/_commands-obs-sources
-  values:
-    subparent: Sources
-    backlink: obs-sources
-- scope:
-    path: doc_posts/_commands-obs-streaming
-  values:
-    subparent: Streaming
-    backlink: obs-streaming
-- scope:
-    path: doc_posts/_commands-sounds
-  values:
-    parent: Sound Effects
-    backlink: sounds
-- scope:
-    path: doc_posts/_commands-statements
-  values:
-    parent: Statements & Loops
-    backlink: statements
-- scope:
-    path: doc_posts/_commands-string
-  values:
-    parent: Strings
-    backlink: string
-- scope:
-    path: doc_posts/_commands-trigger
-  values:
-    parent: Trigger methods
-    backlink: trigger
-- scope:
-    path: doc_posts/_commands-twitch-*
-  values:
-    parent: Twitch
-- scope:
-    path: doc_posts/_commands-twitch-chat
-  values:
-    subparent: Chat and Messages
-    backlink: twitch-chat
-- scope:
-    path: doc_posts/_commands-twitch-chpr
-  values:
-    subparent: Channel Point Rewards
-    backlink: twitch-chpr
-- scope:
-    path: doc_posts/_commands-twitch-info
-  values:
-    subparent: Information
-    backlink: twitch-info
-- scope:
-    path: doc_posts/_commands-twitch-misc
-  values:
-    subparent: Miscellaneous
-    backlink: twitch-misc
-- scope:
-    path: doc_posts/_commands-twitch-moderation
-  values:
-    subparent: Moderation
-    backlink: twitch-moderation
-- scope:
-    path: doc_posts/_commands-twitch-polls
-  values:
-    subparent: Polls and Predictions
-    backlink: twitch-polls
-- scope:
-    path: doc_posts/_commands-variables
-  values:
-    parent: Variables
-    backlink: variables
-- scope:
-    path: doc_posts/_commands-wait
-  values:
-    parent: Wait For/Until
-    backlink: wait
-- scope:
-    path: doc_posts/_commands-youtube
-  values:
-    parent: YouTube
-    backlink: youtube
-- scope:
-    path: doc_posts/_commands-*
-  values:
-    layout: default_post
-    permalink: commands/:name
-    menu: Commands
-- scope:
-    path: docs/integrations
-  values:
-    menu: Integrations
-- scope:
-    path: docs/local api
-  values:
-    menu: Local API
-- scope:
-    path: docs/faq
-  values:
-    menu: FAQ
-- scope:
-    path: docs/troubleshooting
-  values:
-    menu: Troubleshooting
+  - scope:
+      path: docs
+      type: pages
+    values:
+      layout: post
+  - scope:
+      path: docs/commands
+    values:
+      menu: Commands
+  - scope:
+      path: doc_posts/_commands-array
+    values:
+      parent: Arrays
+      backlink: array
+  - scope:
+      path: doc_posts/_commands-buffer
+    values:
+      parent: Buffers
+      backlink: buffer
+  - scope:
+      path: doc_posts/_commands-button
+    values:
+      parent: Buttons
+      backlink: button
+  - scope:
+      path: doc_posts/_commands-date-time
+    values:
+      parent: Date and Time
+      backlink: date-time
+  - scope:
+      path: doc_posts/_commands-file-csv
+    values:
+      parent: Files
+      subparent: CSV Files
+      backlink: file-csv
+  - scope:
+      path: doc_posts/_commands-file-general
+    values:
+      parent: Files
+      subparent: General
+      backlink: file-general
+  - scope:
+      path: doc_posts/_commands-file-ini
+    values:
+      parent: Files
+      subparent: INI Files
+      backlink: file-ini
+  - scope:
+      path: doc_posts/_commands-misc
+    values:
+      parent: Miscellaneous
+      backlink: misc
+  - scope:
+      path: doc_posts/_commands-mouse-kb
+    values:
+      parent: Mouse & Keyboard
+      backlink: mouse-kb
+  - scope:
+      path: doc_posts/_commands-number
+    values:
+      parent: Numbers
+      backlink: number
+  - scope:
+      path: doc_posts/_commands-object
+    values:
+      parent: Objects
+      backlink: object
+  - scope:
+      path: doc_posts/_commands-obs-*
+    values:
+      parent: OBS
+  - scope:
+      path: doc_posts/_commands-obs-filters
+    values:
+      subparent: Filters
+      backlink: obs-filters
+  - scope:
+      path: doc_posts/_commands-obs-general
+    values:
+      subparent: General
+      backlink: obs-general
+  - scope:
+      path: doc_posts/_commands-obs-media
+    values:
+      subparent: Media
+      backlink: obs-media
+  - scope:
+      path: doc_posts/_commands-obs-motion
+    values:
+      subparent: Motion
+      backlink: obs-motion
+  - scope:
+      path: doc_posts/_commands-obs-recording
+    values:
+      subparent: Recording
+      backlink: obs-recording
+  - scope:
+      path: doc_posts/_commands-obs-scenes
+    values:
+      subparent: Scenes
+      backlink: obs-scenes
+  - scope:
+      path: doc_posts/_commands-obs-sources
+    values:
+      subparent: Sources
+      backlink: obs-sources
+  - scope:
+      path: doc_posts/_commands-obs-streaming
+    values:
+      subparent: Streaming
+      backlink: obs-streaming
+  - scope:
+      path: doc_posts/_commands-sounds
+    values:
+      parent: Sound Effects
+      backlink: sounds
+  - scope:
+      path: doc_posts/_commands-statements
+    values:
+      parent: Statements & Loops
+      backlink: statements
+  - scope:
+      path: doc_posts/_commands-string
+    values:
+      parent: Strings
+      backlink: string
+  - scope:
+      path: doc_posts/_commands-trigger
+    values:
+      parent: Trigger methods
+      backlink: trigger
+  - scope:
+      path: doc_posts/_commands-twitch-*
+    values:
+      parent: Twitch
+  - scope:
+      path: doc_posts/_commands-twitch-chat
+    values:
+      subparent: Chat and Messages
+      backlink: twitch-chat
+  - scope:
+      path: doc_posts/_commands-twitch-chpr
+    values:
+      subparent: Channel Point Rewards
+      backlink: twitch-chpr
+  - scope:
+      path: doc_posts/_commands-twitch-info
+    values:
+      subparent: Information
+      backlink: twitch-info
+  - scope:
+      path: doc_posts/_commands-twitch-misc
+    values:
+      subparent: Miscellaneous
+      backlink: twitch-misc
+  - scope:
+      path: doc_posts/_commands-twitch-moderation
+    values:
+      subparent: Moderation
+      backlink: twitch-moderation
+  - scope:
+      path: doc_posts/_commands-twitch-polls
+    values:
+      subparent: Polls and Predictions
+      backlink: twitch-polls
+  - scope:
+      path: doc_posts/_commands-variables
+    values:
+      parent: Variables
+      backlink: variables
+  - scope:
+      path: doc_posts/_commands-wait
+    values:
+      parent: Wait For/Until
+      backlink: wait
+  - scope:
+      path: doc_posts/_commands-youtube
+    values:
+      parent: YouTube
+      backlink: youtube
+  - scope:
+      path: doc_posts/_commands-*
+    values:
+      layout: default_post
+      permalink: commands/:name
+      menu: Commands
+  - scope:
+      path: doc_posts/_decks-and-buttons-*
+    values:
+      layout: default_post
+      permalink: decks-and-buttons/:name
+      menu: Decks And Buttons
+  - scope:
+      path: docs/decks_and_buttons
+    values:
+      menu: Decks And Buttons
+  - scope:
+      path: docs/integrations
+    values:
+      menu: Integrations
+  - scope:
+      path: docs/local api
+    values:
+      menu: Local API
+  - scope:
+      path: docs/faq
+    values:
+      menu: FAQ
+  - scope:
+      path: docs/troubleshooting
+    values:
+      menu: Troubleshooting
 algolia:
   application_id: RL52QQ5HZ9
   index_name: sammi
@@ -260,6 +270,8 @@ collections:
   integrations:
     output: true
   triggers:
+    output: true
+  decks-and-buttons-introduction:
     output: true
   api-overview:
     output: true
