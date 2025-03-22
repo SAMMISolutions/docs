@@ -13,6 +13,3 @@ num: 1
 {% include image.html w="75" src="delay_example.png" alt="Example showing how command delays work" %}
 
 You cannot use variables in command delays, but you can use [Wait for Timeout](wait#waitfortimeout) command instead.
-
-
-

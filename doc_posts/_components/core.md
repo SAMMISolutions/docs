@@ -31,26 +31,6 @@ Allows you to manage your Decks. Visit the [Decks and Buttons](/decks-and-button
 
 {% include alert.html text="It is vital that you are familiar with Decks and Buttons, as they are crucial concepts to creating anything in the program." type="warning" %}
 
-Clicking on the big plus icon will open a context menu related to creating new Decks.
-
-- **Add New Deck** - Adds a new empty Deck. You can also use <kbd>CTRL</kbd> + <kbd>N</kbd> from the Dashboard.
-- **Paste Deck** - Imports an entire Deck from your clipboard. Must be in JSON format.
-
-Once you have at least one Deck made, you can do the following:
-
-- Clicking on a Deck will select it.
-- Clicking and *holding* on a Deck will allow you to drag it freely. If other Decks are present in your Deck Menu, you may rearrange the order by dragging it inbetween other Decks, then letting go.
-- Double-clicking on a Deck will open it in your Deck Editor.
-- Right-clicking on a Deck will open a context menu for extra options for that Deck.
-  - **Edit Deck** - Same as double-clicking. Will open Deck in your Deck Editor
-  - **Delete Deck** - Deletes the Deck, Cannot be undone.
-  - **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users. Will prompt if you want to include images with it aswell.
-  - **Duplicate** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
-  - **Copy ID** - Copies the ID of a Deck to your clipboard. Useful for Deck related command usage.
-- Clicking on the **Disable** checkbox will allow you to disable that Deck, and all buttons within that Deck, when attempted to be ran, will cease to do so. Buttons already running, as well as queued buttons, will run.
-
-[Decks Introduction](/docs/decks-and-buttons/introduction)
-
 ### Deck Management Menu
 
 Allows you to manage your Decks located in your Deck Menu.
@@ -66,7 +46,9 @@ Allows you to manage your Decks located in your Deck Menu.
 - **Duplicate Deck** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
 
 ### Deck App Menu
+
 {% include image.html w="75" src="deck_app_menu.png" alt="Deck App Menu listing all options available" %}
+
 - **Open SAMMI Panel (Web)** - Opens your browser to access our official deck app, SAMMI Panel.
 - **Open Deck Hopper (Recommended!)** - Opens Deck Hopper, a third party deck application we recommend for users.
 - **Get Deck Hopper for Android** - Links to the download of Deck Hopper for android devices.
