@@ -33,17 +33,9 @@ Allows you to manage your Decks. Visit the [Decks and Buttons](/decks-and-button
 
 ### Deck Management Menu
 
-Allows you to manage your Decks located in your Deck Menu.
-
 {% include alert.html text="This menu is considered legacy, as you can do all of these actions in the Deck Menu itself, including some that aren't present here." type="warning" %}     
 
-- **Edit Deck** - Allows you to edit currently selected deck, same as double clicking on the deck
-- **Add New Deck** - Adds a new empty Deck. You can also use <kbd>CTRL</kbd> + <kbd>N</kbd> from the Dashboard.
-- **Delete Deck** - Delete the currently selected deck, cannot be undone
-- **Move Left/Right** - Repositions the deck
-- **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users. Will prompt if you want to include images with it aswell.
-- **Paste Deck** - Imports an entire Deck from your clipboard. Must be in JSON format.
-- **Duplicate Deck** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
+Allows you to manage your Decks located in your Deck Menu. Visit the [Decks and Buttons](/decks-and-buttons/introduction) section to learn more.
 
 ### Deck App Menu
 

@@ -11,4 +11,4 @@ That is the most straightforward premise of how SAMMI operates! You can see that
 
 You can think of Decks like folders to contain your Buttons.
 
-And you can think of Buttons, like bundles of instructions to carry out a task, filled with commands that tell it what to do.
+And you can think of Buttons, like bundles of instructions to carry out a task, filled with Commands that tell it what to do.

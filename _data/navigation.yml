@@ -10,6 +10,9 @@ main:
     - name: Introduction
       link: decks-and-buttons/introduction
       collection: decks-and-buttons-introduction
+    - name: Decks
+      link: decks-and-buttons/decks
+      collection: decks-and-buttons-decks
 - name: Commands
   submenus: 
     - name: Introduction
