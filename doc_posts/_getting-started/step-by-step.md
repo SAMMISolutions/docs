@@ -22,9 +22,10 @@ We recommend selecting **64bits release**. SAMMI 2022.5.0 is the final release t
 
 <a href="https://sammisolutions.itch.io/sammi"><button type="button" class="btn btn-primary mt-1">Download SAMMI</button></a>
 
-Unpack the zip file and unpack it to a folder on your PC.
+Extract the zip folder and unpack the files to a location on your PC. Windows 11 should let you right click and extract all from zip files without 3rd party tools, otherwise you can use trusted software like WinRar or 7Zip to extract the files.
 
-{% include alert.html text="Do not place SAMMI folder in your Program Files or any network drives (Google Drive, OneDrive, Dropbox), as it sometimes can cause issues. Do not put SAMMI in your OBS folder, or your obs-plugins folder." type="danger" %} 
+{% include alert.html text="Do not run SAMMI directly out of the zip folder. Make sure you extract the zipped files to a location on your PC. You will inevtiably lose all your decks if you do not extract SAMMI first." type="danger" %} 
+{% include alert.html text="Do not place the SAMMI folder in your Program Files or any network drives (Google Drive, OneDrive, Dropbox), as it can sometimes cause issues. Do not put SAMMI in your OBS folder, or your obs-plugins folder." type="danger" %} 
 
 #### 3. Launch SAMMI
 
