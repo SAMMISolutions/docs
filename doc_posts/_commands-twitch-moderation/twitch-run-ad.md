@@ -18,7 +18,7 @@ Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
 Returns an object with the following variables:
-| Variable name | Type | Description
+| Variable name | Type | Description |
 |-------|--------|--------
 length|number|Duration of the commercial, in seconds
 message|string|A message that indicates whether Twitch was able to serve an ad
