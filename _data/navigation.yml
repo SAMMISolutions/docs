@@ -13,6 +13,9 @@ main:
     - name: Decks
       link: decks-and-buttons/decks
       collection: decks-and-buttons-decks
+    - name: Buttons
+      link: decks-and-buttons/buttons
+      collection: decks-and-buttons-buttons
 - name: Commands
   submenus: 
     - name: Introduction

@@ -275,6 +275,8 @@ collections:
     output: true
   decks-and-buttons-decks:
     output: true
+  decks-and-buttons-buttons:
+    output: true
   api-overview:
     output: true
   api-reference:

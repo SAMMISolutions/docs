@@ -54,6 +54,8 @@ Developers in the community can make their own integrations with the power of [E
 
 With SAMMI Core (the main component of SAMMI), you create `Buttons` which contain instructions known as `Commands` for the program to execute via a super easy drag-and-drop block based programming system. Buttons can be customized with colors, graphics, and more, which are then placed freely in a `Deck`, which houses multiple buttons.
 
+{% include image.html w="100" src="decks_buttons_commands_flow.png" alt="A diagram explaining that Decks contain Buttons, and Buttons contain commands." %}
+
 Buttons can then be ran **manually** using hotkeys, and pressed through what is known as a Deck App which loads a Deck into an application on your mobile device, web browser, and even [smart fridge...?](https://x.com/sammisolutions/status/1650203870545563657)
 
 Buttons can also be ran **automatically** using events from connected services like whenever someone follows on Twitch, subscribes on YouTube, and, *much more*.

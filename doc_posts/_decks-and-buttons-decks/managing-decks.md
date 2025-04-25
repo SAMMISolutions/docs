@@ -25,7 +25,7 @@ Once you have at least one Deck made, you can do the following:
 - Right-clicking on a Deck will open a context menu for extra options for that Deck.
   - **Edit Deck** - Same as double-clicking. Will open Deck in your Deck Editor
   - **Delete Deck** - Deletes the Deck, Cannot be undone.
-  - **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users. Will prompt if you want to include images with it aswell.
+  - **Copy Deck** - Exports the entire deck to your clipboard in JSON format to store, or share with other users! Will prompt if you want to include images with it aswell.
   - **Duplicate** - Makes a clone of the Deck, and appends it to the end of the Deck Menu. Assigns a new ID upon duplication.
   - **Copy ID** - Copies the ID of a Deck to your clipboard. Useful for Deck related command usage.
 - Clicking on the **Disable** checkbox will allow you to disable that Deck, and all buttons within that Deck, when attempted to be ran, will cease to do so. Buttons already running, as well as queued buttons, will run.
