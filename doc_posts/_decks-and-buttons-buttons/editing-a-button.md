@@ -1,12 +1,12 @@
 ---
 title: Editing a Button
-num: 0
+num: 1
 ---
 
 Right-clicking on a button will open a context-menu giving you options related to that button. For the options that have further context, click on the menu option to jump to that portion. 
 
 - **Edit Appearance** Customize the way your button looks! Check [Appearance Options](#appearance-options) for more details.
-- **Edit Settings** Configure the way your button behaves! Check [Settings Options](#settings-options) for more details.
+- **Edit Settings** Configure the way your button behaves! Check [Settings](#settings) for more details.
 - **Edit Triggers** Configure the triggers attatched to a button, which determine different ways the button can be fired other than pressing it with a Deck App. Check the [Triggers Introduction] Section to learn about how they operate and how to navigate this window!
 
 ### Appearance Options
@@ -34,3 +34,8 @@ Checking the box **Stretch to Size** will stretch the image to fit within the bo
 Checking **Transparent Button** will remove the background of the image, but maintain the border.
 
 **Border Size** allows you to adjust the size of the border on the button, with the very left being no border, and very right being most border.
+
+### Settings
+
+Clicking on **Edit Settings** from a button's context menu will open a window showcasing all the different options you can configure to change the way your button behaves in different scenarios.
+
