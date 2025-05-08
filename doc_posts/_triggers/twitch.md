@@ -46,11 +46,33 @@ Message | Chat message to listen to. Must be an exact match. Can include **[Wild
 | Display Name | Viewer's display name (can contain uppercase characters). |
 | User ID | Viewer's user ID. |
 | Message | Viewer's message. |
+| Message ID | ID of the viewer's message |
 | Emote List | Viewer's available emotes. <br/> Basic format: `FirstEmoteID:FirstIndex-LastIndex/ SecondEmoteID:FirstIndex-LastIndex` <br/> Message containing multiple emotes will be formatted such as: `FirstEmoteID:FirstIndex(1)-LastIndex(1),FirstIndex(2)-LastIndex(2),FirstIndex(3)-LastIndex(3)` <br/>{% include image_collapse_table.html name="chat_emotes" src="chat_emotes.png" alt="Chat Emotes List" btn="Emotes Example" %}|
 | Badge List | Basic format: `FirstBadgeName/version,SecondBadgeName/version` <br/> For example: `broadcaster/1, subscriber/0` <br/> [Global Badges List](https://badges.twitch.tv/v1/badges/global/display), [Channel Badges List](https://badges.twitch.tv/v1/badges/channels/CHANNEL_ID/display) <br/> To find the badge ID in the JSON, look for BadgeList.badge_sets[`BADGENAME`].versions[`VERSION`].image_url_1x. The last part 1x can be changed to 2x, 3x or 4x for bigger size. |
 | Channel | Channel Name where the message originated from. Will return `w` if it's a whisper. |
 | Name Color | Chat name color in hexadecimal format. |
+| Bits | The amount of bits cheered. (<strong>Does not include PowerUps</strong>) |
+| Custom Reward ID | ID of the Reward that was redeemed. |
+| Reply Parent User Login | User login of the sender of the parent message. |
+| Reply Parent Display Name | User name of the sender of the parent message. |
+| Reply Parent User ID | User ID of the sender of the parent message. | 
+| Reply Parent Message Body | The message body of the parent message. |
+| Reply Parent Message Id | An ID that uniquely identifies the parent message that this message is replying to. |
+| Reply Thread Parent Message ID | An ID that identifies the parent message of the reply thread. |
+| Reply Thread Parent User Login | User ID of the sender of the thread’s parent message. |
+| Room ID | An ID that identifies the chat room (channel). |
+| Source ID | A UUID that identifies the source message from the channel the message was sent from. |
+| Source Room ID | An ID that identifies the chat room (channel) the message was sent from. |
+| Source Badges | Comma-seperated list of chat badges for the chatter in the room the message was sent from. This uses the same format as the <code>badges</code> list. |
+| Source Badge Info | Contains metadata related to the chat badges in the source-badges tag. |
+| Is Broadcaster | Whether the chatter is the broadcaster. 0 = not broadcaster, 1 = broadcaster |
+| Is Mod | Whether the chatter is a mod. 0 = not mod, 1 = mod |
+| Is VIP | Whether the chatter is a vip. 0 = not vip, 1 = vip |
+| Is Founder | Whether the chatter is a Founder. 0 = not founder, 1 = founder |
+| Is Subscriber | Whether the chatter is a subscriber. 0 = not subscriber, 1 = subscriber |
+| Is Turbo | Whether the chatter is a turbo user. 0 = no turbo, 1 = has turbo |
 | First Time | Whether it's user's first chat message. 0 = not first, 1 = first |
+| Unix Timestamp | The timestamp when the message was sent, in Unix format. |
 | From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
@@ -211,10 +233,10 @@ In order for SAMMI to listen to Channel Point triggers, make sure the scope to l
 |-------|--------|
 | Redemption Name | Select the name of the redemption from the list or type in manually. A single `*` allows all redeems to trigger the button (does not act as a wildcard). |
 | Username | Triggers only if the viewer's username who redeemed it matches the one in the box. Must be an exact match. Does NOT accept wild cards. Case insensitive. |
-| User Input Required | Whether the particular redemption requires viewers to enter text when redeemed
-| Case Sensitive | If the user message trigger should be case sensitive
-|User Input | User input if the redemption requires requires viewers to enter text when redeemed (use `*` to accept all user messages). Can include **[Wild Cards](introduction#wildcards)**.
-| Allow Empty Wildcard | Check to allow empty strings as valid results
+| User Input Required | Whether the particular redemption requires viewers to enter text when redeemed |
+| Case Sensitive | If the user message trigger should be case sensitive |
+| User Input | User input if the redemption requires requires viewers to enter text when redeemed (use `*` to accept all user messages). Can include **[Wild Cards](introduction#wildcards)**. |
+| Allow Empty Wildcard | Check to allow empty strings as valid results |
 {:class='table table-primary' }
 
 | Pull Data Value | Explanation |
@@ -243,15 +265,15 @@ Triggers for all prediction events.
 
 | Pull Data Value | Explanation |
 |-------|--------|
-|Duration|Duration of the prediction
-|Event|
-|Prediction Name|Name of the prediction
-|Prediction ID|Prediction unique ID
-|Vote Total|Total prediction votes
-|Outcome 1 Info|An object containing prediction's outcome 1 information
-|Outcome 2 Info|An object containing prediction's outcome 2 information
-|Outcome x Info| An object containing prediction's outcome x information, up to 10
-|Winning Outcome|Winning outcome
+| Duration | Duration of the prediction |
+| Event | |
+| Prediction Name | Name of the prediction |
+| Prediction ID | Prediction unique ID |
+| Vote Total | Total prediction votes |
+| Outcome 1 Info | An object containing prediction's outcome 1 information |
+| Outcome 2 Info | An object containing prediction's outcome 2 information |
+| Outcome x Info | An object containing prediction's outcome x information, up to 10 |
+| Winning Outcome | Winning outcome |
 | From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
@@ -262,25 +284,25 @@ Triggers for all poll events.
 
 | Condition | Explanation |
 |-------|--------|
-|Type | Type of the poll event to trigger the button <br/> **Created** = when a new poll is created <br/>  **Voted** = when a current poll receives a new vote, <br/> **Ended** = when a current poll ends and no more votes are accepted, <br/> **Archived** - when a current poll is archived (and disappears from Twitch chat)
+| Type | Type of the poll event to trigger the button <br/> **Created** = when a new poll is created <br/>  **Voted** = when a current poll receives a new vote, <br/> **Ended** = when a current poll ends and no more votes are accepted, <br/> **Archived** - when a current poll is archived (and disappears from Twitch chat) |
 {:class='table table-primary' }
 
 | Pull Data Value | Explanation |
 |-------|--------|
-|Choice Amount|Number of poll choices
-|Duration|Duration of the poll
-|Poll Name|Name of the poll
-|Poll ID|Poll unique ID
-|Vote Total|Total poll votes
-|Vote Total Base|Total base poll votes (no bits or points used)
-|Vote Total Bits|Total bits poll votes
-|Vote Total Points|Total channel points poll votes
-|Top Vote List|Array of the poll's current choice rankings
-|Choice 1 Info|An object containing poll's Choice 1 information
-|Choice 2 Info|An object containing poll's Choice 2 information
-|Choice 3 Info|An object containing poll's Choice 3 information
-|Choice 4 Info|An object containing poll's Choice 4 information
-|Choice 5 Info|An object containing poll's Choice 5 information
+| Choice Amount | Number of poll choices |
+| Duration | Duration of the poll |
+| Poll Name | Name of the poll |
+| Poll ID | Poll unique ID |
+| Vote Total | Total poll votes |
+| Vote Total Base | Total base poll votes (no bits or points used) |
+| Vote Total Bits | Total bits poll votes |
+| Vote Total Points | Total channel points poll votes |
+| Top Vote List | Array of the poll's current choice rankings |
+| Choice 1 Info | An object containing poll's Choice 1 information |
+| Choice 2 Info | An object containing poll's Choice 2 information |
+| Choice 3 Info | An object containing poll's Choice 3 information |
+| Choice 4 Info | An object containing poll's Choice 4 information |
+| Choice 5 Info | An object containing poll's Choice 5 information |
 | From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
@@ -291,13 +313,13 @@ Triggers for all new hype train events.
 
 | Condition | Explanation |
 |-------|--------|
-|Approaching| Triggers when a hype train is approaching
-|Started| Triggers when a hype train has started
-|Conductor Update|Triggers when a hype train conductor is assigned
-|Level Up|Triggers when the hype train levels up
-|Ended|Triggers when a hype train has ended
-|Cooldown expired| Triggers when a previous hype train's cooldown has expired
-|Progressed| Triggers when an event progresses the hype train level|
+| Started | Triggers when a hype train has started |
+| Progressed | Triggers when an event progresses the hype train level |
+| Ended | Triggers when a hype train has ended |
+| Approaching `DEPRECATED` | Triggers when a hype train is approaching |
+| Conductor Update `DEPRECATED` | Triggers when a hype train conductor is assigned |
+| Level Up `DEPRECATED` | Triggers when the hype train levels up |
+| Cooldown expired `DEPRECATED` | Triggers when a previous hype train's cooldown has expired |
 {:class='table table-primary' }
 
 <hr>
@@ -317,12 +339,39 @@ Triggers when the /shoutout command is used. The channel must be live and stream
 
 | Pull Data Value | Explanation |
 |-------|--------|
-|User Name|User name of the person being shouted out.
-|Display Name|Display name of the person being shouted out.
-|User ID|User ID of the person being shouted out.
-|Picture URL|URL of the profile picture of the person being shouted out.
-|ID|Shoutout ID
-|Name Color|Hex code colour of the name of the person being shouted out.
-|Recent Categories|Recent categories streamed by the person being shouted out.
-|From Channel ID|Channel ID of the channel making the shoutout.
+| User Name | User name of the person being shouted out. |
+| Display Name | Display name of the person being shouted out. |
+| User ID | User ID of the person being shouted out. |
+| Picture URL | URL of the profile picture of the person being shouted out. |
+| ID | Shoutout ID |
+| Name Color | Hex code colour of the name of the person being shouted out. |
+| Recent Categories | Recent categories streamed by the person being shouted out. |
+| From Channel ID | Channel ID of the channel making the shoutout. |
 {:class='table table-secondary table-hover' }
+
+<hr>
+
+##### Twitch Automatic Reward Redemption
+Triggers when any automatic reward is redeemed, for example "Gigantify an Emote" or "Unlock a Random Sub Emote".
+
+{% include alert.html text="Cost <strong>does not</strong> show Bit cost. It only shows the amount of channel points something cost." type="warning" %}
+{% include alert.html text="If user redeems <code>Gigantify Emote</code> the emote the user Gigantified will be the last index in the array." type="info" %}
+
+| Pull Data Value | Explanation |
+|-------|--------|
+| User Name | Viewers username. |
+| Display Name | Viewer's display name. |
+| User ID | Viewer's user ID. |
+| Cost | Reward cost. |
+| Message | Viewer's message if required. |
+| Emotes | Array of objects with the Emote IDs within the message. |
+| Type | Redemption Type. Returns <code>message_effect</code>, <code>gigantify_an_emote</code>, <code>celebration</code>, <code>send_highlighted_message</code>, <code>random_sub_emote_unlock</code>, <code>single_message_bypass_sub_mode</code>, <code>chosen_sub_emote_unlock</code> or <code>chosen_modified_sub_emote_unlock</code> |
+| Unlocked Emote | Returns an Object with the ID and Name of the unlocked emote |
+| Redeemed At | The time in twitch format, that the item was redeemed |
+| Reward ID | Reward's general ID. |
+| Redeem ID | Redeem's specific ID. | 
+| Channel ID | Which channel the trigger came from. |
+| From Channel ID | Which channel the trigger came from. |
+{:class='table table-secondary table-hover' }
+
+
