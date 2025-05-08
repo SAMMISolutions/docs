@@ -8,6 +8,8 @@ redirect_from:
 Gets information about an active stream.
 
 {% include async.html %}
+{% include alert.html text="This command returns <strong>nothing</strong> if the channel isn't live, leaving your variable with the result of <code>undefined</code>!" type="info" %}
+{% include alert.html text="This command returns <strong>nothing</strong> if your <a href='https://i.imgur.com/PLpkLyb.png'>content display preferences</a> hide certain labels!" type="warning" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------
