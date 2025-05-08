@@ -12,7 +12,7 @@ Janurary 2025
 
 ### SAMMI Core
 
-#### New Features: {2025-1-1_Core_New}
+#### New Features: {#2025-1-1_Core_New}
 
 - Added partial gamepad support (currently only XInput) [Landie]
 - Added "Gamepad" trigger [Landie]
@@ -27,7 +27,7 @@ Janurary 2025
 - Added "Timeout Default" to settings, allowing you to change the default timeout on various commands upon creation [Landie]
 - Added "Disable Gamepads" to settings, allowing you to disable the processing of any connected gamepads if desired [Landie]
 
-#### Improvements: {2025-1-1_Core_Improvements}
+#### Improvements: {#2025-1-1_Core_Improvements}
 
 - Twitch channel point redeems are now automatically refreshed when the trigger menu for a button contains at least one redeem trigger [Landie]
 - Rewrote how popup menus are interacted with in the trigger menu internally [Landie]
@@ -40,15 +40,15 @@ Janurary 2025
 - Improve deck install error handling consistency [Landie]
 - Settings Menu has scroll functionality! [Digi]
 
-#### UI Changes: {2025-1-1_Core_UI}
+#### UI Changes: {#2025-1-1_Core_UI}
 
 - Language Button in settings now matches current Aesthetics [Digi]
 
-#### Removed Features: {2025-1-1_Core_Removed}
+#### Removed Features: {#2025-1-1_Core_Removed}
 
 - Deprecated "File: Start Download" in favor of new "HTTP Download File" command [Landie]
 
-#### Bug Fixes: {2025-1-1_Core_Fixes}
+#### Bug Fixes: {#2025-1-1_Core_Fixes}
 
 - Fixed a critical issue which allowed Twitch chat to impersonate other User IDs [Landie]
 - Fixed an issue where buttons set with legacy switch deck settings were still being sent to deck apps [Landie]
@@ -77,7 +77,7 @@ Janurary 2025
 
 ### SAMMI Core
 
-#### New Features: {2025-1-0_Core_New}
+#### New Features: {#2025-1-0_Core_New}
 
 - Added partial gamepad support (currently only XInput) [Landie]
 - Added "Gamepad" trigger [Landie]
@@ -140,7 +140,7 @@ October 2024
 
 ### SAMMI Core
 
-#### New Features: {2024-4-0_Core_New}
+#### New Features: {#2024-4-0_Core_New}
 
 - Set up a new Eventsub Subscription for automatic reward redemptions like powerups and default channel point rewards. [Chrizzz]
 - Handle Whispers with a new Eventsub Subscription: You can now receive Whispers on your Streamer account. [Chrizzz]
