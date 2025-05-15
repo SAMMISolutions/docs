@@ -18,6 +18,7 @@ Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
 Returns an object with the following variables:
+
 | Variable name | Type | Description
 |-------|--------|--------
 length|number|Duration of the commercial, in seconds
