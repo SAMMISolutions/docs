@@ -3,11 +3,19 @@ title: Editing a Button
 num: 1
 ---
 
-Right-clicking on a button will open a context-menu giving you options related to that button. For the options that have further context, click on the menu option to jump to that portion. 
+Right-clicking on a button while editing a Deck via the Deck Editor will open a context-menu giving you options related to that button. For the options that have further context, click on the menu option to jump to that portion. 
 
 - **Edit Appearance** Customize the way your button looks! Check [Appearance Options](#appearance-options) for more details.
 - **Edit Settings** Configure the way your button behaves! Check [Settings](#settings) for more details.
-- **Edit Triggers** Configure the triggers attatched to a button, which determine different ways the button can be fired other than pressing it with a Deck App. Check the [Triggers Introduction] Section to learn about how they operate and how to navigate this window!
+- **Edit Triggers** Configure the triggers attatched to a button, which determine different ways the button can be fired other than pressing it with a Deck App. Check the [Triggers Introduction](#placeholder) Section to learn about how they operate and how to navigate this window!
+- **Edit Commands** Configure the commands inside your button, which are the instructions the button carries out when triggered. Check the [Commands Introduction](#placeholder) Section to learn about how they operate and how to navigate this window!
+- **Edit Release Commands** The same as Edit Commands, but for when a button is released.
+- **Edit Default Variables** Configure default variables to be initialized for your button upon starting up SAMMI. Learn more in the [Variables - Default Variables](#placeholder) section.
+- **Copy Button** Copies a button's contents, as well as it's transformations on a deck, to memory, so you can paste a duplicate in a blank space.
+- **Delete Button** Deletes a button from the deck it resides in.
+- **Export JSON** Exports a button's contents to your computer's clipboard as a JSON string, fit for sharing with others and importing.
+- **Group ID: XXX** Clicking this copies the button's current Group ID to your computer's clipboard.
+- **Button ID: XXX** Clicking this copies the button's current ID to your computer's clipboard.
 
 ### Appearance Options
 
