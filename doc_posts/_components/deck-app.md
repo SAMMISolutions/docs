@@ -26,7 +26,7 @@ We highly recommend using [Deck Hopper](https://christinak.ca/deckhopper/), a so
 
 Deck Hopper is available for [Desktop](https://christinak.itch.io/deck-hopper) (Windows, macOS, Linux) and [Android](https://play.google.com/store/apps/details?id=ca.christinak.DeckHopper). 
 
-It's completely free, with a [PRO version](https://christinak.ca/deckhopper/upgrade) available that removes ads and includes extra PRO features. 
+It comes with a [free trial](https://christinak.ca/deckhopper/download), and a [PRO version](https://christinak.ca/deckhopper/upgrade) that removes ads and includes all advanced features. 
 
 ### Setup 
 
