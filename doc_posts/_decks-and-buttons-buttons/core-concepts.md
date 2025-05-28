@@ -62,7 +62,7 @@ It is also recommended to name the Group ID the *prefix* of your Button ID if yo
 
 If buttons `AlertsFollow` and `AlertsBits` are a part of the `Alerts` group, only one may be active at a time. Attempting to run `AlertsBits` while `AlertsFollow` is running will result in that trigger being dropped. This use case is relatively niche, however, where it shines the most is when you combine it with [Queueing](#Queueing), as combining queueing with grouped buttons, will group them the same, but **will not** drop the trigger and instead queue them until no buttons from the group are running. 
 
-### Press Behavior (For Deck Apps)
+### Press Type
 
 While using a [Deck App](#placeholder), you have the option to change the press type of your buttons via it's [Settings menu](#placeholder). The press type determines how your button behaves based on certain gestures done to the button on whichever device runs your Deck App. The following press types are:
 

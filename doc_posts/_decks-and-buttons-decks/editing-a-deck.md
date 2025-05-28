@@ -11,7 +11,7 @@ You will be greeted with the...
 
 {% include image.html external="true" src="https://fakeimg.pl/600x400" alt="placeholder"%}
 
-After double-clicking on a Deck from the Deck Menu, you will be brought to the Deck Editor, which is where you manage how Buttons are laid out across your Deck, Button details such as their commands, appearance, settings... as well as some extra details about your Deck!
+This is where you manage how Buttons are laid out across your Deck, Button details such as their commands, appearance, settings... as well as some extra details about your Deck!
 
 Starting with the big blank area!
 
