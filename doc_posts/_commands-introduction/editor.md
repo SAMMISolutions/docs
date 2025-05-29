@@ -33,7 +33,7 @@ Now, lets look at interacting with commands when placed inside the editor.
 
 {% include image.html w="100" external="true" src="https://i.imgur.com/CTQGpbU.png" alt="Command with parts sectioned off" %}
 
-#### Configuration
+#### 1. Configuration
 
 | Button Icon | Description |
 |-------------|-------------|
@@ -55,7 +55,7 @@ The black box contains the command's name. Hovering over it expands the box to s
 Clicking this box allows you to change the type of command it represents.\
 Pressing <kbd>F1</kbd> while hovering over this box navigates to the documentation for the command using your default web browser. Extremely handy to quickly reference how a command works, or practical use cases!
 
-#### Parameters
+#### 2. Parameters
 
 The next section of a command is it's parameters.
 
@@ -64,7 +64,13 @@ On average, a command typically has two to three parameters to fill.\
 Some parameters are optional, but isn't indicated in the app itself. Please make sure to check the command's documentation.\
 
 Each parameter has a *label* giving context as to what filling the parameter does.\
-Each parameter also has a *type* it can be. Here is a full list explaining them all:
+Each parameter also has a *type*, which can be used in many different ways in commands. Please consult each individual command's documentation to get further context on what is expected from the user!
+
+The most common types of parameters you see will involve <u>Text Boxes (White, Green, Blue, Red, Black)</u>, and <u>Expression Boxes (Yellow)</u>.
+
+{% include alert.html text="Expression boxes have extremely different rules when filling them out compared to Text Boxes, and it is critical to be aware of them. You can learn more in <a href='#placeholder'>Parameter Boxes</a>" type="info" %}
+
+Here is a full list of all available parameter types:
 
 | Type ID | Title | Image | Description |
 ---|----|----|---
@@ -73,22 +79,62 @@ Each parameter also has a *type* it can be. Here is a full list explaining them 
 4 | OBS Scenes Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS scene from a searchable context menu
 5 | OBS Sources Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS source from a searchable context menu
 6 | OBS Filters Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS Filter from a searchable context menu
-7 | Keyboard Key Box | Clicking pops up a context menu of all supported keys. Additionally, With this menu open, clicking a key on your keyboard will automatically fill the box with the pressed key.
+7 | Keyboard Key Box | {% include image_table.html w="50" external="true" src="https://i.imgur.com/H0CkqPi.gif" alt="a gif file showing a user typing into a text box" %} | Clicking pops up a context menu of all supported keys. Additionally, With this menu open, clicking a key on your keyboard will automatically fill the box with the pressed key.
 8 | Compare Box | | Clicking pops up a searchable context menu of all supported compare types. Used commonly in conditional commands. To learn what each compare type does and how to use it, visit [Commands - Conditionals](#placeholder)
 9 | Math Box | | Clicking pops up a searchable context menu of all supported math operators. Used commonly in variable manipulation commands. To learn what each operator does and how to use it, visit [Commands - Variables](#placeholder)
-10 | Sound path box, defaultValue should be `""`, returns its path
-11 | Slider 0 to 100%, defaultValue should be 0-1, returns a float 0 to 1
-14 | Normal white box, defaultValue can be anything
-15 | Variable box (yellow box), defaultValue should be a string, returns whatever variable is in the yellow box
-17 | Color box, defaultValue should be a number, returns the selected color
-18 | Select box value, defaultValue should be `0`, shows a list of all the options you provided when clicked and returns a numeric value of the selected option
-19 | Select box string, defaultValue should be a string, returns a string the user selected
-20 | Select box string typeable, defaultValue should be a string, returns a string the user selected or typed in the box
-22 | File path, defaultValue should be a string, returns the selected file path
-23 | Image path, defaultValue should be a string, returns the selected image path
-24 | Twitch reward redeem ID, defaultValue should be a number, returns the selected reward ID
-30 | No box at all, only label is present
-32 | OBS Pull Box 
-33 | Select Deck Box, defaultValue should be a number
-34 | Password Box, same as 14, except the string is displayed as *****
-35 | Twitch Account Box, select box with all linked Twitch accounts, returns the selected option
+10 | Sound Path Box | | Text box, but additionally contains a folder button which lets you easily use a system dialog to pick a sound file. Only .ogg files are excepted.
+11 | Slider |  | A slider that maps between a range of values.
+14 | Text Box (White Box) | | A basic text box. very common in command usage, and the baseline for a lot of other parameter types. 
+15 | Expression Box (Yellow Box) | | A special box that accepts an [Expression](#placeholder). Not to be confused with a text box.
+17 | Color Picker | Clicking opens a color picker window with various color related options.
+19 | Dropdown |  | Clicking pops up a searchable context menu of options defined by the command.
+20 | Text Box (Dropdown) | |  Text box, but has a drop down arrow that opens a searchable context menu of options defined by the command.
+22 | File Path Box | | Text box, but additionally contains a folder button which lets you easily use a system dialog to pick any file, or files specified only compatible with whatever command it's attatched to.
+23 | Image Path Box | | Text box, but additionally contains a folder button which lets you easily use a system dialog to pick any supported image file.
+24 | Text Box (Twitch Redeem Dropdown) | | Text box, but has a drop down arrow that opens a searchable context menu of all channel point redeems for the main connected twitch account. Upon selecting, the box visually will show the name, but focusing inside of it shows the reward id.
+30 | Label | | Only label is present.
+32 | OBS Pull Box | | Text box, but has a dropdown arrow to select any linked OBS connections for the command to accept. "Main" by default. 
+33 | Select Deck Box | | Clicking pops up a searchable context menu of all decks loaded in SAMMI.
+34 | Text Box (Password) | | Text box, except the string is displayed using asterisks (*) to visually hide sensitive data.
+35 | Text Box (Twitch Account Dropdown) | | Text box, but has a drop down arrow that opens a searchable context menu of all linked Twitch accounts, used commonly in Twitch related commands. Depending on the command, leaving blank will default to the account listening to events.
+
+#### 3. Configuration (Continued)
+
+Delays are a method of delaying the execution of commands. You can learn more in the [Delays](#placeholder) section, however, **this is considered legacy and heavily recommended to not use. The alternative is to use the [Wait For Timeout](#placeholder) command.** 
+
+The checkbox labelled **Off** allows you to disable the processing and execution of a command, great for:
+- Fixing issues
+- Test other functionality and temporarily disable existing logic
+- Introduce reworked functionality but keep existing logic incase you need to roll back
+
+If a command that encapsulates other commands is turned off, all commands inside will also be turned off.
+
+## Options Header
+
+Along the top of the commands editor is some extra options.
+
+A **Check All** check box sits aligned with where the select checkbox is on commands. This lets you quickly select all commands inside the commands list to either move around, copy, or delete.
+
+You can quickly edit the Button's [Label](#placeholder) and [ID](#placeholder) using the labelled input fields along the top.
+
+You can undo, and redo actions made within your Commands List using the buttons provided at the top. Hotkeys currently are not supported at this time.
+
+A "Open Documentation" button is at the top right, allowing you to quickly open it for future reference of topics. Convenient!
+
+Another **Check All** check box sits aligned with where the **Off** checkbox is on commands. This lets you quickly turn off all commands inside the commands list.
+
+## Options Footer
+
+Along the bottom of the commands editor exists some more crucial functions in the form of buttons.
+
+- **Delete Selected** allows you to delete any selected commands from the commands list. Will dynamically update a count in the text to indicate how many commands are selected.
+- **Copy Selected** Same as Delete Selected, but for copying commands to memory. You can use any of the paste button icons in the commands list to paste at a desired position.
+- **Open Variable Window** opens the [Variable Viewer](#placeholder) and will automatically navigate to this button's variables. <kbd>CTRL</kbd> + <kbd>Tab</kbd> does this aswell.
+
+- **Save** Saves the deck, saving the button in the process. <kbd>CTRL</kbd> + <kbd>S</kbd> does this aswell.
+- **Run** Saves the deck (including the button) then triggers the button. <kbd>CTRL</kbd> + <kbd>R</kbd> does this aswell.
+
+{% include alert.html text="If your button relies on data provided from a trigger defined in the trigger menu, please note that testing the button this way will not include that information. Use the method directly and/or use <a href='#placeholder'>Test Triggers from SAMMI Bridge</a>" type="warning" %}
+
+- **Ok** exits the commands editor without saving the deck or button, but will be saved whenever the deck is saved at a later time.
+- **Cancel** exits the commands editor without saving the deck or button, and discards any changes that were made, reverting the button to what it was the last time it was saved. <kbd>Esc</kbd> does this aswell.

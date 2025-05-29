@@ -1,7 +1,9 @@
 ---
 title: Command delays
-num: 1
+num: 3
 ---
+
+{% include alert.html text="This is considered legacy, and <b>heavily recommended to not use!</b> A future update will visually hide them by default to prevent newer users and discourage existing users from continuing their usage. Please use the <a href="#placeholder">Wait For Timeout</a> command instead." type="warning" %}
 
 **Command delays are absolute and not related to each other.** You can think of them as a timeline, they do not affect each other in any way.  
 
@@ -12,4 +14,4 @@ num: 1
 
 {% include image.html w="75" src="delay_example.png" alt="Example showing how command delays work" %}
 
-You cannot use variables in command delays, but you can use [Wait for Timeout](wait#waitfortimeout) command instead.
+You cannot use variables in command delays, but you can use the [Wait for Timeout](wait#waitfortimeout) command instead, which is preferred to use overall instead of delays, as delays are confusing and can introduce hard to solve issues.
