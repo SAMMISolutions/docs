@@ -14,4 +14,4 @@ num: 3
 
 {% include image.html w="75" src="delay_example.png" alt="Example showing how command delays work" %}
 
-You cannot use variables in command delays, but you can use the [Wait for Timeout](wait#waitfortimeout) command instead, which is preferred to use overall instead of delays, as delays are confusing and can introduce hard to solve issues.
+You cannot use expressions in command delays, but you can use the [Wait for Timeout](wait#waitfortimeout) command instead, which is preferred to use overall instead of delays, as delays are confusing and can introduce hard to solve issues.
