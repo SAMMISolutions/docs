@@ -74,12 +74,12 @@ Here is a full list of all available parameter types:
 
 | Type ID | Title | Image | Description |
 ---|----|----|---
-0 | Text Box (Resizable) | {% include image_table.html w="50" external="true" src="https://i.imgur.com/LjwqXsq.gif" alt="a gif file showing a user typing into a text box" %} | Resizable text box that allows for newline by clicking <kbd>Enter</kbd>
-2 | Check Box | {% include image_table.html w="50" external="true" src="https://i.imgur.com/g0aNHOB.png" alt="a checked check box" %} | Checked is true, unchecked is false
-4 | OBS Scenes Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS scene from a searchable context menu
-5 | OBS Sources Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS source from a searchable context menu
+0 | Text Box (Resizable) | {% include image_table.html style="width: 20rem;" external="true" src="https://i.imgur.com/LjwqXsq.gif" alt="a gif file showing a user typing into a text box" %} | Resizable text box that allows for newline by clicking <kbd>Enter</kbd>
+2 | Check Box | {% include image_table.html w="10" external="true" src="https://i.imgur.com/g0aNHOB.png" alt="a checked check box" %} | Checked is true, unchecked is false
+4 | OBS Scenes Box | {% include image_table.html style="width: 20rem;" external="true" src="https://i.imgur.com/4OOWImi.gif" alt="a gif file showing a user typing into a text box, and also shows the user clicking through a context menu full of all available obs scenes with an optional search bar" %} | Text box, but has a drop down arrow that lets you easily pick an OBS scene from a searchable context menu
+5 | OBS Sources Box | {% include image_table.html style="width: 20rem;" external="true" src="https://i.imgur.com/7poU0hw.gif" alt="" %} | Text box, but has a drop down arrow that lets you easily pick an OBS source from a searchable context menu. If the command this parameter exists on already has a scene box parameter with a set scene, it will only show sources from that selected scene. Otherwise, it will first prompt you to choose a scene to look inside. You can also search for the name of the source directly and skip needing to pick a scene altogether. Additionally, there is an option to pick a source's scene item ID, which you should only pick if you know what you're doing.
 6 | OBS Filters Box |  | Text box, but has a drop down arrow that lets you easily pick an OBS Filter from a searchable context menu
-7 | Keyboard Key Box | {% include image_table.html w="50" external="true" src="https://i.imgur.com/H0CkqPi.gif" alt="a gif file showing a user typing into a text box" %} | Clicking pops up a context menu of all supported keys. Additionally, With this menu open, clicking a key on your keyboard will automatically fill the box with the pressed key.
+7 | Keyboard Key Box | {% include image_table.html style="width: 20rem;" external="true" src="https://i.imgur.com/H0CkqPi.gif" alt="a gif file showing a user typing into a text box" %} | Clicking pops up a context menu of all supported keys. Additionally, With this menu open, clicking a key on your keyboard will automatically fill the box with the pressed key.
 8 | Compare Box | | Clicking pops up a searchable context menu of all supported compare types. Used commonly in conditional commands. To learn what each compare type does and how to use it, visit [Commands - Conditionals](#placeholder)
 9 | Math Box | | Clicking pops up a searchable context menu of all supported math operators. Used commonly in variable manipulation commands. To learn what each operator does and how to use it, visit [Commands - Variables](#placeholder)
 10 | Sound Path Box | | Text box, but additionally contains a folder button which lets you easily use a system dialog to pick a sound file. Only .ogg files are excepted.
@@ -97,6 +97,7 @@ Here is a full list of all available parameter types:
 33 | Select Deck Box | | Clicking pops up a searchable context menu of all decks loaded in SAMMI.
 34 | Text Box (Password) | | Text box, except the string is displayed using asterisks (*) to visually hide sensitive data.
 35 | Text Box (Twitch Account Dropdown) | | Text box, but has a drop down arrow that opens a searchable context menu of all linked Twitch accounts, used commonly in Twitch related commands. Depending on the command, leaving blank will default to the account listening to events.
+{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 
 #### 3. Configuration (Continued)
 

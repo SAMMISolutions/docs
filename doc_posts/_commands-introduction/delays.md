@@ -3,7 +3,7 @@ title: Command delays
 num: 3
 ---
 
-{% include alert.html text="This is considered legacy, and <b>heavily recommended to not use!</b> A future update will visually hide them by default to prevent newer users and discourage existing users from continuing their usage. Please use the <a href="#placeholder">Wait For Timeout</a> command instead." type="warning" %}
+{% include alert.html text="This is considered legacy, and <b>heavily recommended to not use!</b> A future update will visually hide them by default to prevent newer users and discourage existing users from continuing their usage. Please use the <a href='#placeholder'>Wait For Timeout</a> command instead." type="warning" %}
 
 **Command delays are absolute and not related to each other.** You can think of them as a timeline, they do not affect each other in any way.  
 
