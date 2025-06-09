@@ -24,9 +24,9 @@ We highly recommend using [Deck Hopper](https://christinak.ca/deckhopper/), a so
 
 {% include alert.html text="Deck Hopper, created and maintained solely by Christina Kral, a SAMMI founder, is a personal project and not officially part of SAMMI Solutions." type="info" %} 
 
-Deck Hopper is available for [Desktop](https://christinak.itch.io/deck-hopper) (Windows, macOS, Linux) and [Android](https://play.google.com/store/apps/details?id=ca.christinak.DeckHopper). 
+Deck Hopper is available for [Desktop](https://christinak.itch.io/deck-hopper) (Windows, macOS, Linux), [Android](https://play.google.com/store/apps/details?id=ca.christinak.DeckHopper) and [iOS](https://apps.apple.com/us/app/deck-hopper/id6746429701).
 
-It comes with a [free trial](https://christinak.ca/deckhopper/download), and a [PRO version](https://christinak.ca/deckhopper/upgrade) that removes ads and includes all advanced features. 
+It comes with a [free trial](https://christinak.ca/deckhopper/download), and a [PRO version](https://christinak.ca/deckhopper/upgrade) that removes ads and includes all advanced features. (not applicable to the iOS version, which is Pro by default)
 
 ### Setup 
 
