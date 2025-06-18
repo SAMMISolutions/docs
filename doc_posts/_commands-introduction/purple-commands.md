@@ -3,7 +3,7 @@ title: Async (Purple) Commands
 num: 1.5
 ---
 
-You might notice that some commands are coloured purple - these commands are ones that are not instantaneous. otherwise known as asynchronous.
+You might notice that some commands are coloured purple, and/or have an option to toggle on "Async" - these commands are ones that are not instantaneous. otherwise known as asynchronous.
 
 The variable name listed in the Save Variable box of these commands (if present) will not be returned immediately, meaning commands ahead run before it's returned. As such, you must [Wait until the variable exists](wait#waituntilvariableexists) to halt your button until the response is recieved. Please note that this variable must not be a variable that already exists, otherwise the `Wait Until Variable Exists` command will not run.
 
