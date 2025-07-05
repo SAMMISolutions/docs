@@ -17,6 +17,7 @@ Going against this policy will mark your extension as "restricted" and cannot be
   - For both things on, and off the roadmap that are a part of actively maintained services, there is a default deadline of (at least) 60 days in order to get it implemented into SAMMI internally. If listed on the roadmap with a set deadline, that overwrites the default 60 days. If we allow a unimplemented feature to pass the deadline, an extension that otherwise would be marked as restricted, would become unrestricted.
 - If your extension, by direct use, poses a potential risk of physical harm or other hazardous condition to yourself or others
 - If your extension contains any generative AI imagery in it's presentation, such as in it's thumbnail, or preview imagery. Note, this does not account for the content or purpose of your extension.
+- Extensions that replicate existing functionality from another extension—particularly commands or features that are already provided in the same or a very similar way—are not allowed to be released in official spaces. This helps prevent unnecessary duplication and confusion for users. If you wish to create an extension that overlaps with an existing one, you must first communicate with the original extension developer and obtain their explicit permission. With their approval, sharing may be permitted. Otherwise, duplicated content will result in your extension being marked as restricted.
 
 And that's it!
 
