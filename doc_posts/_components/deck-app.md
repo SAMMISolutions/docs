@@ -35,7 +35,7 @@ Deck Hopper setup file is included in all SAMMI 2024.1.0 or newer downloads by d
 
 Go to SAMMI Core - Deck App and select **Open Deck Hopper**. If Deck Hopper isn't installed, you'll be prompted to install it. After installation, you can launch it from the same menu. 
 
-Follow the setup instructions on the [Deck Hopper Setup Page](https://christinak.ca/deckhopper/setup) to connect it with your SAMMI Core. 
+Follow the setup instructions on the [Deck Hopper Setup Page](https://christinak.ca/deckhopper/setup#initialSetup) to connect it with your SAMMI Core. 
 
 {% include image.html w="75" src="deckhopper.png" alt="Deck Hopper" %}
 
