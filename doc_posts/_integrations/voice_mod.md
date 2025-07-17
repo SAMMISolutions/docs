@@ -8,6 +8,8 @@ type: fullpage
 version: 202322
 ---
 
+{% include alert.html text="This integration no longer exists, and is here for legacy purposes to those already using it." type="warning" %}
+
 SAMMI integrates with Voicemod, a popular voice-changing software. This allows you to transform your voice during live streams, adding an element of surprise and fun for your viewers.
 
 #### Download 

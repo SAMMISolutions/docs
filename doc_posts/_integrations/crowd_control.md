@@ -8,6 +8,8 @@ type: fullpage
 version: 202322
 ---
 
+{% include alert.html text="This integration no longer exists, and is here for legacy purposes to those already using it." type="warning" %}
+
 Our integration connects SAMMI with Crowd Control, providing an interactive gaming experience where viewers on platforms like Twitch and YouTube can directly impact your games.
 
 #### Download 
