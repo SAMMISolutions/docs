@@ -1,5 +1,5 @@
 ---
 permalink: /extension-policy
-redirect: https://sammi.solutions/extensions/policy
-layout: redirect
+redirect_sammi: https://sammi.solutions/extensions/policy
+layout: redirect_sammi
 ---
