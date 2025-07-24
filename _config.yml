@@ -35,7 +35,7 @@ kramdown:
   auto_ids: false
 toc:
   min_level: 1
-  max_level: 6
+  max_level: 7
   ordered_list: false
   no_toc_section_class: no_toc_section
   list_id: toc

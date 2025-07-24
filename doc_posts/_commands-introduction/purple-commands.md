@@ -11,6 +11,6 @@ The variable name listed in the Save Variable box of these commands (if present)
 
 {% include image.html w="75" src="purple-commands.png" alt="SAMMI Purple Commands" %}
 
-If the async command does not contain a Save Variable box, you may choose an arbitrary amount of time using the [Wait](wait) command.
+Some async commands don't have a Save Variable box because they don't return a variable to indicate when they are finished. If you need to wait you may choose an arbitrary amount of time using the [Wait For Timeout](wait#waitfortimeout) command.
 
 You may also choose to let it continue without waiting if you don't need to know when it resolves.

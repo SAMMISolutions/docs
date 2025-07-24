@@ -6,17 +6,17 @@ redirect_from:
   - commands/15
 ---
 
-Creates a new local variable or modifies an existing one.\
-Supports setting button variables directly to objects/arrays without having to parse and stringify them. This includes setting array values to other objects, too.\
-Local variables are contained in the button that created them. They can be accessed from other buttons by using Set/Get Button Variable (as long as the button has persistent variables enabled).
+Creates a new local variable or modifies an existing one via an expression.
 
-{% include alert.html text="Variable names can contain numbers, letters and _, but cannot start with a number itself." type="warning" %}
+Also supports setting button variables directly to objects/arrays without having to parse and stringify them. This includes setting array values to other objects, too.\
 
-| Box Name | Type | Description |
-|-------|--------|--------
-| Variable Name | String | Name of the variable. |
-| Operator | Dropdown | Operator you wish to use on the value.|
-| Variable/Number/String | {% include asterisk.html%} | Whatever you want to set the variable value to. Can contain complex math.
+#### Parameters:
+
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Variable Name | Text Box | string | Name of the variable. |
+| Operator | {% include cmd_param.html param="Operator Box" %} | string | Operator you wish to use on the value.|
+| Variable/Number/String | | {% include asterisk.html%} | Whatever you want to set the variable value to. Can contain complex math.
 {:class='table table-primary'}
 
 **Advanced Users**\

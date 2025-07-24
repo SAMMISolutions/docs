@@ -9,7 +9,7 @@ You will be greeted with the...
 
 ### Deck Editor
 
-{% include image.html external="true" src="https://fakeimg.pl/600x400" alt="placeholder"%}
+{% include image.html external="true" src="https://placehold.co/600x400" alt="placeholder"%}
 
 This is where you manage how Buttons are laid out across your Deck, Button details such as their commands, appearance, settings... as well as some extra details about your Deck!
 
@@ -17,7 +17,7 @@ Starting with the big blank area!
 
 #### Button Grid
 
-{% include image.html external="true" src="https://fakeimg.pl/600x400" alt="placeholder"%}
+{% include image.html external="true" src="https://placehold.co/600x400" alt="placeholder"%}
 
 Each blank grid space represents where a Button may be created.
 
@@ -37,6 +37,8 @@ Right-clicking on a button will open a context menu with all options related to 
 
 #### Deck and Grid Options
 
+{% include image.html external="true" src="https://placehold.co/600x400" alt="placeholder"%}
+
 Along the top of the Deck Editor is a options banner full of Deck, as well as Editor related options.
 
 - **Name** - The name of your Deck.
@@ -50,6 +52,8 @@ Along the top of the Deck Editor is a options banner full of Deck, as well as Ed
 - **Hide Button Icons** - Hides any [Button Icons](#placeholder) visible on your Buttons.
 
 #### Saving your Deck
+
+{% include image.html external="true" src="https://placehold.co/600x400" alt="placeholder"%}
 
 The top right of the Deck Editor has a **Cancel**, and **Save** button.
 

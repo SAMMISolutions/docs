@@ -9,7 +9,7 @@ layout: default
  {% if post.version <= site.stableVersion or post.version == nil %}
  <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
     <a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/SAMMISolutions/docs/edit/main/doc_posts/{{ post.path }}" title="View and edit page on GitHub" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>
-    <h3 class="bd-title">{{ post.title }}</h3>
+    <h2 class="bd-title">{{ post.title }}</h2>
   </div>
   <p>{{ post.content | markdownify }}</p> 
   {% if forloop.last == false %}
