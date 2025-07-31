@@ -36,9 +36,6 @@ main:
     - name: Objects
       link: commands/object
       collection: commands-object
-    - name: Date and Time
-      link: commands/date-time 
-      collection: commands-date-time
     - name: Statements & Loops
       link: commands/statements 
       collection: commands-statements
@@ -48,6 +45,9 @@ main:
     - name: Trigger methods
       link: commands/trigger
       collection: commands-trigger 
+    - name: Date and Time
+      link: commands/date-time 
+      collection: commands-date-time
     - name: OBS
       subitems:
           - name: General

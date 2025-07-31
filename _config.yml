@@ -309,11 +309,11 @@ collections:
     output: true
   commands-object:
     output: true
-  commands-date-time:
-    output: true
   commands-mouse-kb:
     output: true
   commands-statements:
+    output: true
+  commands-date-time:
     output: true
   commands-wait:
     output: true

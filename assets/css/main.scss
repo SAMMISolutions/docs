@@ -527,3 +527,12 @@ a.tooltip {
     color: var(--bs-red);
   }
 }
+
+/*command parameter table extra styling*/
+.table-cmd-params {
+  & th {
+    &:nth-child(3) {
+      width: 7rem;
+    }
+  }
+}

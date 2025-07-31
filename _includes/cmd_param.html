@@ -1,1 +1,7 @@
-<a href="#placeholder">{{ include.param }}</a>
+{% if include.param == "Expression Box" %}
+    <a href='/commands/introduction#expressionboxyellowbox'>{{ include.param }}</a>
+{% elsif include.param == "Text Box" %}
+    <a href='/commands/introduction#textboxwhitebox'>{{ include.param }}</a>
+{% else %}
+    <a href='/commands/introduction#{{include.param | slugify | remove: "-"}}'>{{ include.param }}</a>
+{% endif %}
