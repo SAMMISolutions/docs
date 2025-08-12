@@ -1,4 +1,4 @@
----
+https://discord.sammi.solutions---
 title: Connecting to other apps
 num: 7
 ---
