@@ -1,4 +1,4 @@
-https://discord.sammi.solutions---
+---
 layout: default
 title: Introduction
 menu: Getting Started
