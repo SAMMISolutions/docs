@@ -37,7 +37,7 @@ Written purely in `markdown`, *yay*!
 ### Where to Get Support
 If you need support for SAMMI, you have several options available:
 1. Read this documentation. Use the search bar to find topics relevant to your question.
-2. Join the official [SAMMI Discord server](https://discord.gg/dXez8Zh). Our knowledgeable members are ready to assist you!
+2. Join the official [SAMMI Discord server](https://discord.sammi.solutions). Our knowledgeable members are ready to assist you!
 3. Become a member of our [subreddit](http://reddit.com/r/SAMMI). It's a new community, and we'd appreciate your help in growing it!
 
 {:class='mt-2 anchor-header'}

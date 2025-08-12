@@ -5,5 +5,5 @@ num: 7
 
 SAMMI can connect to any app or service that has public API or websocket access.\
 It is done via custom made extensions.
-All available and approved extensions are listed in the #Releases channel in our [Discord server](https://discord.gg/dXez8Zh).\
+All available and approved extensions are listed in the #Releases channel in our [Discord server](https://discord.sammi.solutions).\
 If none of them suits your needs, feel free ask in the #Suggestions channel or request a commission!

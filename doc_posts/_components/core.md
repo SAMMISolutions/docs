@@ -27,7 +27,7 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
     <area target="_blank" alt="Opens menu with all official SAMMI integrations." title="Opens menu with all official SAMMI integrations." href="" coords="161,388,2,368" shape="rect">
     <area target="_blank" alt="Opens About page with information about developers and license." title="Opens About page with information about developers and license." href="https://sammi.solutions/docs/about" coords="161,416,0,390" shape="rect">
     <area target="_blank" alt="Connection indicators for all major SAMMI components." title="Connection indicators for all major SAMMI components." href="https://sammi.solutions/docs/core#connectionstatusindicators" coords="160,810,5,725" shape="rect">
-    <area target="_blank" alt="Opens official SAMMI Discord invite link." title="Opens official SAMMI Discord invite link." href="https://discord.gg/dXez8Zh" coords="161,865,-1,811,-1,819" shape="rect">
+    <area target="_blank" alt="Opens official SAMMI Discord invite link." title="Opens official SAMMI Discord invite link." href="https://discord.sammi.solutions" coords="161,865,-1,811,-1,819" shape="rect">
     <area target="_blank" alt="Opens official SAMMI Patreon. " title="Opens official SAMMI Patreon. " href="https://www.patreon.com/sammidevs" coords="162,870,0,917" shape="rect">
     <area target="_blank" alt="Adds a new deck. " title="Adds a new deck. " href="#deck" coords="598,192,766,57" shape="rect">
     <area target="_blank" alt="Current FPS indicator. FPS plays a role in executing some SAMMI commands." title="Current FPS indicator. FPS plays a role in executing some SAMMI commands." href="#uisettings" coords="1225,0,1279,28" shape="rect">

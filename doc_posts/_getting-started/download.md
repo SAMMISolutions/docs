@@ -34,4 +34,4 @@ OBS Studio 28 and higher come with OBS Websocket 5.0 pre-installed, so there is 
 While OBS Websocket 5.0 is preferred, there may be specific cases where OBS Websocket 4.9 is still needed, such as when using certain outdated plugins that have not yet been updated for compatibility with OBS Websocket 5.0. For users who need to maintain compatibility with OBS Websocket 4.9, OBS Studio 28 and above supports the installation of the OBS Websocket 4.9.1-compat plugin, which can be downloaded from the OBS Websocket GitHub.
 
 ### Extensions
-You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.gg/dXez8Zh)** server!
+You can find additional extensions in our [Extensions](https://sammi.solutions/extensions) section or in the #releases channel on our **[Discord](https://discord.sammi.solutions)** server!

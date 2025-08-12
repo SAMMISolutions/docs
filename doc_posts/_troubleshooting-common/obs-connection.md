@@ -24,4 +24,4 @@ However, there may be specific cases where OBS Websocket 4.9 is still required, 
 
 Remember to check the OBS Websocket server settings in OBS Studio (Tools > Websocket Server Settings) to ensure that the server is enabled and running with the correct ports.
 
-If you continue to experience issues connecting SAMMI to OBS Websocket, please reach out to us via the official [SAMMI Discord server](https://discord.gg/dXez8Zh).
+If you continue to experience issues connecting SAMMI to OBS Websocket, please reach out to us via the official [SAMMI Discord server](https://discord.sammi.solutions).

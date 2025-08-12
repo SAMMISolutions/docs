@@ -47,4 +47,4 @@ For even greater functionality, SAMMI Core supports community-created JavaScript
 - Heat Map Twitch extension
 - and more!
 
-Explore the full list of SAMMI extensions in [Extensions](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.gg/dXez8Zh)!
+Explore the full list of SAMMI extensions in [Extensions](https://sammi.solutions/extensions) and on our [Discord Server](https://discord.sammi.solutions)!
