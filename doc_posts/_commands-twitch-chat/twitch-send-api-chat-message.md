@@ -2,6 +2,7 @@
 title: "Send API Chat Message"
 num: 
 version: 202410
+redirect_from:
   - commands/333
 ---
 
