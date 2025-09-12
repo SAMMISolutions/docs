@@ -16,13 +16,3 @@ You can use dot notation for saving button variables (`buttonID.myVariable`), gl
 | Variable Name | String | Name of the variable you want to save. |
 | String (text) | String | The obfuscated text you want to set.
 {:class='table table-primary' }
-
-
-
-
-
-
-
-
-
-
