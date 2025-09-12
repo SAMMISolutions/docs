@@ -17,6 +17,6 @@ This lets you subscribe to any Twitch EventSub event, that way you don't have to
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-|Subscription Type|String|The Event to subscribe to. Must be dot notation, for example `automod.message.hold`|
+|Subscription Type|String|The Event to subscribe to. Must be dot notation, for example <code>automod.message.hold</code>|
 |Version|Number|The version of the Event you wish to Subscribe, this is found next to the event name in the Twitch Documentation|
 {:class='table table-primary'}
