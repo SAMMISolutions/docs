@@ -374,4 +374,16 @@ Triggers when any automatic reward is redeemed, for example "Gigantify an Emote"
 | From Channel ID | Which channel the trigger came from. |
 {:class='table table-secondary table-hover' }
 
+<hr>
 
+##### Twitch Custom EventSub Subscription
+Triggers when any custom EventSub subscription event is fired.
+
+{% include alert.html text="You need to use the <a href='/docs/commands/twitch-misc#createeventsubsubscription'>Twtich: Create EventSub Subscription</a> command in order to subscribe to custom events." type="warning" %}
+
+| Pull Data Value | Explanation |
+|-------|--------|
+| All | The raw parsed payload from Twitch. This will be different per EventSub subscription, so please check the Twitch documentation for the payload structure. |
+| Subscription Type | The name of the subscription that triggered the button. |
+| Trigger Type | The SAMMI trigger type. |
+{:class='table table-secondary table-hover' }
