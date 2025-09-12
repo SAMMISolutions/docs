@@ -1,6 +1,6 @@
 ---
 title: "Get Active EventSub Subscriptions"
-num: 
+num: 20
 version: 202520
 redirect_from:
   - commands/346

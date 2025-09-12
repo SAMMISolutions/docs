@@ -1,6 +1,6 @@
 ---
 title: "Set Hidden Variable"
-num: 
+num: 10
 version: 202410
 redirect_from:
   - commands/334

@@ -1,6 +1,6 @@
 ---
 title: "Delete EventSub Subscription"
-num: 
+num: 22
 version: 202520
 redirect_from:
   - commands/347

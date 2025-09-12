@@ -1,6 +1,6 @@
 ---
 title: "Create EventSub Subscription"
-num: 
+num: 21
 version: 202520
 redirect_from:
   - commands/345

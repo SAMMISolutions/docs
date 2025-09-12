@@ -1,6 +1,6 @@
 ---
 title: "Warn User"
-num:
+num: 10
 version: 202430
 redirect_from:
   - commands/336

@@ -1,6 +1,6 @@
 ---
 title: "Get Random Viewer"
-num:
+num: 6
 version: 202430
 redirect_from:
   - commands/338
