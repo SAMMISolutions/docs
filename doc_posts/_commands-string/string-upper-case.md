@@ -7,20 +7,17 @@ redirect_from:
 
 Converts a string to uppercase letters.
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-|Save Variable As|	String	|Variable name to save the converted string.
-|String (text)| String | String to convert to upper case letters.
-{:class='table table-primary' }
+Parameters:
+
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the transformed string. Can use an [Accessor Path](/commands/variables#accessors). |
+| String (text) | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String to convert to upper case letters |
+{:class='table table-primary table-cmd-params'}
+
+Example Outputs:
 
 | Original String | Returned String| 
 |-------|--------
 |hello world|HELLO WORLD|
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
-
-
-
-
-
-
-

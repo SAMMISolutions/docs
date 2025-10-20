@@ -6,23 +6,17 @@ redirect_from:
   - commands/160
 ---
 
-Creates a new button variable or modifies an existing one.\
-Button variables are other buttons local variables.\
-Supports setting button variables directly to objects/arrays without having to parse and stringify them. This includes setting array values to other objects, too.
-If you need to set a button variable in non persisten button, please use [Set Button Instance Variable](#setbuttoninstancevariable) command instead.
+Creates a new, or modifies an existing button variable.\
+Button variables are other buttons' local variables.
 
-{% include alert.html text="Variable names can contain numbers, letters and _, but cannot start with a number itself." type="warning" %}
+If you need to set a button variable in non persistent button, please use the [Set Button Instance Variable](#setbuttoninstancevariable) command instead.
 
-| Box Name | Type | Description |
-|-------|--------|--------
-|Button ID | String | The button you want to set the variable for.
-| Variable Name | String | Name of the variable. |
-| Operator | Dropdown | Operator you wish to use on the value.|
-| Variable/Number/String | {% include asterisk.html%} | Whatever you want to set the variable value to, including arrays and objects (2023.2.2 and up). Can contain complex math. 
-{:class='table table-primary'}
+Parameters:
 
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Button ID | {% include cmd_param.html param="Text Box" %} | string | The ID of the button you want to set the variable for. |
+| Variable Name | {% include cmd_param.html param="Text Box" %} | string | Name of the variable. Can use an [Accessor Path](/commands/variables#accessors), but cannot access other scopes. |
+| Operator | {% include cmd_param.html param="Operator Box" %} | string | Operator you wish to use on the value.|
+| Variable/Number/String | {% include cmd_param.html param="Expression Box" %} | {% include asterisk.html%} | Whatever you want to set the variable value to, including arrays and objects (2023.2.2 and up).|
+{:class='table table-primary table-cmd-params'}

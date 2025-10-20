@@ -1,7 +1,1 @@
-{% if include.param == "Expression Box" %}
-    <a href='/commands/introduction#expressionboxyellowbox'>{{ include.param }}</a>
-{% elsif include.param == "Text Box" %}
-    <a href='/commands/introduction#textboxwhitebox'>{{ include.param }}</a>
-{% else %}
-    <a href='/commands/introduction#{{include.param | slugify | remove: "-"}}'>{{ include.param }}</a>
-{% endif %}
+{% if include.param == "Expression Box" %}[{{ include.param }}](/commands/introduction#expressionboxyellowbox){% elsif  include.param == "Text Box" %}[{{ include.param }}](/commands/introduction#textboxwhitebox){% else %}[{{ include.param }}](/commands/introduction#{{include.param | slugify | remove: "-"}}){% endif %}

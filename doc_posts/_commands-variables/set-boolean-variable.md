@@ -6,19 +6,12 @@ redirect_from:
   - commands/82
 ---
 
-Allows you to set a boolean variable.\
-In SAMMI, boolean is a number that is either 0 (false) or 1 (true).
+Creates a new, or modifies an existing local variable with a boolean.
 
-{% include alert.html text="In some languages comparing 2 or non empty string returns true, however in SAMMI it will always return false. The only value that returns true is 1." type="warning" %}
+Parameters:
 
-| Box Name | Type | Description |
-|-------|--------|--------
-| Save Variable As | String | Name of the variable to save the boolean value. |
-|Boolean Value|Boolean {% include asterisk.html%}|Boolean value you want to set the variable to. Will be converted to `true` or `false`.
-{:class='table table-primary'}
-
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | New, or existing variable name to save the boolean. Can use an [Accessor Path](/commands/variables#accessors).|
+| Boolean Value | {% include cmd_param.html param="Expression Box" %} | boolean | Boolean value to set. `true`, or `false`|
+{:class='table table-primary table-cmd-params'}

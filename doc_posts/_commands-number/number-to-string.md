@@ -5,19 +5,12 @@ redirect_from:
   - commands/95
 ---
 
-Turns a real value (number) into a string value.
+Turns a number into a string value.
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-| Save Variable As | String | Name of a variable to save the string value. |
-| Number/Variable | Number {% include asterisk.html%} | Number to convert. |
-{:class='table table-primary ' }
+Parameters:
 
-
-
-
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the string value. Can use an [Accessor Path](/commands/variables#accessors).|
+| Number/Variable | {% include cmd_param.html param="Expression Box" %} | number | Number to convert. |
+{:class='table table-primary table-cmd-params'}

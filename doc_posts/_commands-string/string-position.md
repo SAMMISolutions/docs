@@ -6,17 +6,20 @@ redirect_from:
 ---
 
 Returns the position of the **first** occurrence of a specified value in a string.\
-Returns 0 if it doesn't find any match.
+Returns `0` if it doesn't find any match.
 
+Parameters:
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-|Save Variable As|	String|	Variable name to save the position
-| String (text) |	String|	String to search inside of
-|String To Search For|	String|	Value to search for
-|Search From Position|number|What position in the string to start the search at, default is 0
-|Case Insensitive | Checkbox | If this is checked, it will return the first matching value, regardless of case.
-{:class='table table-primary' }
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the position. Can use an [Accessor Path](/commands/variables#accessors). |
+| String (text) | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String to search inside of |
+| String To Search For | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String value to search for in given string |
+| Search From Position | {% include cmd_param.html param="Expression Box" %} | number | Position in the given string to start the search at.<br>default is `0` |
+| Case Insensitive | {% include cmd_param.html param="Checkbox" %} | boolean | Checked: Ignores casing when using search string.<br>Unchecked: Search string is case sensitive. Example: `Hello` will not match `hello`|
+{:class='table table-primary table-cmd-params'}
+
+Example Outputs:
 
 | Value to search for | String| From Location| Case Insensitive| Position returned| 
 |-------|--------|--------|--------|--------
@@ -27,12 +30,3 @@ Returns 0 if it doesn't find any match.
 |hello | Hello and Hello world |0|Checked| 1
 |hello | hello and hello world |5|Unchecked| 11 (finds the second `hello` since we're searching from the 5th letter in the string)
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,7 @@ title: "Introduction"
 num: 0
 ---
 
-#### What's an array?
+## What's an array?
 Array is a special variable which can hold more than one value at a time.\
 If you have a list of items (for example viewer names), storing them in single variables would look like this:
 - var name1 = "wolbee"
@@ -14,7 +14,7 @@ This seems quite inefficient if you happen to have a lot of names to store. The 
 
 {% include image.html w="75" src="array.png" alt="Representation of an array" %}
 
-#### Array manipulation
+## Array manipulation
 If you want to retrieve a specific value (element) from an array, you can use the following formatting:\
 `arrayName[position]`\
 If we have an array `names = ["wolbee", "Silverlink", "Sebas"]`, typing `names[1]` would retrieve `'Silverlink'` (the first value of an array has position of 0).\
@@ -25,7 +25,7 @@ Some command boxes allow you to use not only position, but also **top** for retr
 
 Array is cleared every time you close or reset SAMMI. If you wish to save it in a file, you can use [Stringify Array]({{ "commands/array#stringifyarray" | relative_url }}) and [INI: Save Text]({{ "commands/file-ini#inisavetext" | relative_url }}) commands.
 
-#### Convert stacks saved in .ini files from LB1 to arrays in SAMMI
+## Convert stacks saved in .ini files from LB1 to arrays in SAMMI
 If you're using the same .ini files from LioranBoard 1, you will notice that your stringified stacks don't get properly parsed when loaded back into SAMMI (they end up being objects instead of arrays).  
 
 **Use this Stack to Array converter button:**

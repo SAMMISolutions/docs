@@ -6,18 +6,13 @@ redirect_from:
   - commands/162
 ---
 
-Gets another button's variable. The button must have persistent variables enabled, else no other button can access them even if the button is running.
+Gets another button's variable. Said button must have persistent variables enabled, else no other button can access them even if the button is running.
 
+Parameters:
 
-| Box Name | Type | Description | 
-|-------|--------|--------
-|Button ID | String | The button you want to set the variable for.
-| Get Variable | String | Name of the variable to get. |
-| Save Variable As | String | New local variable name to save the button variable.|
-{:class='table table-primary'}
-
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Button ID | {% include cmd_param.html param="Text Box" %} | string | The ID of the button you want to get the variable from. |
+| Get Variable | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to get. Can use an [Accessor Path](/commands/variables#accessors), but cannot access other scopes. |
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | New, or existing variable name to save the button variable. Can use an [Accessor Path](/commands/variables#accessors).|
+{:class='table table-primary table-cmd-params'}

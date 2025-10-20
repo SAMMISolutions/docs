@@ -49,7 +49,7 @@ Examples: `50`, `1.25`, `-15`, `10e+2`
 ### string (text)
 
 Value that contains not just numbers, but also other characters (possibly mixed with numbers).\
-A variable containing a number value will be beige in the variable viewer.\
+A variable containing a string value will be beige in the variable viewer.\
 you must wrap it in double or single quotes if using in an expresion.\
 Examples: `"Hello world!"`, `'This is cool'`, `"The tickets cost $50"`, `'50'` (still regarded as a string!)
 
@@ -58,7 +58,7 @@ Examples: `"Hello world!"`, `'This is cool'`, `"The tickets cost $50"`, `'50'` (
 ### boolean
 
 A value that is either `false` or `true`. In SAMMI, booleans are actually just numbers `0` (false) or `1` (true). Keep this in mind when working with them!\
-A variable containing a number value will be cyan in the variable viewer.\
+A variable containing a boolean value will be cyan in the variable viewer.\
 Can be typed as-is in an expression.\
 Examples: `true`, `false`
 
@@ -66,20 +66,23 @@ Examples: `true`, `false`
 
 ### undefined
 A value representing missing data. Commonly returned when accessing a variable that doesn't exist, or a command has nothing to return to the user. It is not recommended to set this manually, and to use null instead.\
-A variable containing a number value will be red in the variable viewer.\
+A variable containing a undefined value will be red in the variable viewer.\
 Can be typed as-is in an expression.\
 Example: `undefined`
 
 ### null
 A value representing nothing, or empty. At first, this seems the same as undefined, but null is to be used by users to intentionally indicate empty, and isn't the result of an error like undefined is.\
-A variable containing a number value will be red in the variable viewer.\
-Can be typed as-is in an expression.\
-Example: `null`
+A variable containing a null value will be red in the variable viewer.\
+
+null cannot be manually created at this time.
+
+<!-- Can be typed as-is in an expression.\
+Example: `null` -->
 
 ### Array
 
 An Array is a special type known as a Data Structure, which can hold more than one value at a time. Learn more about arrays in our [Array Introduction section]({{ "commands/array#introduction" | relative_url }}).\
-A variable containing a number value will be yellow in the variable viewer.\
+A variable containing an Array will be yellow in the variable viewer.\
 Cannot be defined in an expression, and must be defined in a variable ahead of time. Can access values from within, inside an expression by using [Bracket Notation](#placeholder).\
 Example: `myArray[0]`, `myArray[someNumber]`
 
@@ -87,7 +90,7 @@ Example: `myArray[0]`, `myArray[someNumber]`
 
 An Object is another special type known as a Data Structure which can hold more than one value at a time.\
 Unlike Arrays, Objects can contained named values, which are just variables! Learn more about objects in our [Object Introduction section]({{ "commands/object#introduction" | relative_url }}).\
-A variable containing a number value will be purple in the variable viewer.\
+A variable containing an Object will be purple in the variable viewer.\
 Cannot be defined in an expression, and must be defined in a variable ahead of time. Can access variables from within, inside in an expression by using [Dot Notation](#placeholder).\
 Examples: `myObject.someVariable`, `global.main_directory`
 
@@ -228,8 +231,10 @@ Example: `true`, `false`
 To input undefined, write it as-is.\
 Example: `undefined`
 
-To input null, write it as-is.\
-Example: `null`
+null cannot be manually created at this time.
+
+<!-- To input null, write it as-is.\
+Example: `null` -->
 
 Awesome! Let's look at some examples of using literals in expressions to set some values in variables.
 
@@ -263,6 +268,9 @@ An accessor is special syntax (set of rules) used in expressions and most text b
 A valid accessor "path" allows you to get, *and* set values at said path.
 
 There are only two types of accessors, [Dot Notation](#placeholder) for Objects, and [Bracket Notation](#placeholder) for Arrays, which you can learn more about in their respective sections.
+
+Global Variables are stored in an Object called `global`
+Button Variables are stored in an Object named after your button's ID. Example: `ID10`
 
 You can combine multiple accessors together to form a longer accessor path if you have a deeply nested combination of data structures.
 
@@ -315,6 +323,6 @@ Here are some examples:
 
 | Expression | Description | Output |
 |------------|-------------|--------|
-|(counter + 1)| A `counter` variable set to number value `3` plus `1`. | `4` |
-|("Hello " + " World!")| Two literals being concatinated together | `"Hello World!"` |
+|`(counter + 1)`| A `counter` variable set to number value `3` plus `1`. | `4` |
+|`("Hello " + " World!")`| Two literals being concatinated together | `"Hello World!"` |
 {:class='table table-primary table-hover' }

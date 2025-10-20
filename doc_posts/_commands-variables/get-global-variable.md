@@ -6,18 +6,14 @@ redirect_from:
   - commands/163
 ---
 
-Gets global variable. 
+Gets a global variable. 
 
-| Box Name | Type | Description | 
-|-------|--------|--------
-| Get Variable | String | Name of the global variable to get. |
-| Save Variable As | String | New local variable name to save the global variable.|
-{:class='table table-primary'}
+{% include alert.html text="See a list of all premade <a href='/commands/variables#global'>Global Variables</a>" type="info" %}
 
-See a list of [all premade global variables]({{ "commands/introduction#premadevariables" | relative_url }}). 
+Parameters:
 
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Get Variable | {% include cmd_param.html param="Text Box" %} | string | Name of the global variable to get. Can use an [Accessor Path](/commands/variables#accessors), but cannot access other scopes. |
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | New, or existing variable name to save the global variable. Can use an [Accessor Path](/commands/variables#accessors).|
+{:class='table table-primary table-cmd-params'}

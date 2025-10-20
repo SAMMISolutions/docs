@@ -8,8 +8,6 @@ redirect_from:
 Inserts a value into an array in a specific index (position), shifting other values to the right.  
 Supports setting the array value directly to objects/arrays without having to parse and stringify them.
 
-
-
 **The position you can insert the value to can be:**
 
 - top - adds a value to the end of the array (same as `Array push` in Javascript)

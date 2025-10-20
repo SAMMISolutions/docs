@@ -8,20 +8,17 @@ redirect_from:
 
 Converts the first character in a string to uppercase.
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-|Save Variable As|	String	|Variable name to save the converted string.
-|String (text)| String | String to convert first character to uppercase.
-{:class='table table-primary' }
+Parameters:
+
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the transformed string. Can use an [Accessor Path](/commands/variables#accessors). |
+| String (text) | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String to convert it's first character to uppercase. |
+{:class='table table-primary table-cmd-params'}
+
+Example Outputs:
 
 | Original String | Returned String| 
 |-------|--------
 |hello world|Hello world|
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
-
-
-
-
-
-
-

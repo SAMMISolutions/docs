@@ -6,17 +6,20 @@ redirect_from:
   - commands/253
 ---
 
-Trims blank spaces or specific characters from your string.  
+Trims blank spaces or specific characters/strings from provided string.  
 
 {% include alert.html text='Trimming a backwards slash <code>\</code> must be escaped by another slash: <code>\\</code>' type="warning" %} 
 
+Parameters:
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-|Save Variable As|String|Variable name to save the trimmed string.|
-|String (text)|String|String to be trimmed. This is case sensitive|
-|Strings to Delete|String|If left blank, will delete all spaces before and after the string. If specific characters like `@, #` or `!` are to be trimmed, use the \| delimiter. 
-{:class='table table-primary ' }
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the trimmed string. Can use an [Accessor Path](/commands/variables#accessors). |
+| String (text) | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String to be trimmed. |
+| Strings to Delete | {% include cmd_param.html param="Text Box" %} | string | If left blank, will delete all spaces before and after the string.<br>Entering a value will delete all instances of provided value.<br>If multiple values are to be deleted, (such as `@, #` or `!` ), use the \| delimiter.|
+{:class='table table-primary table-cmd-params'}
+
+Example Outputs:
 
 | Original string |String to delete|Result| 
 |-------|--------|--------|

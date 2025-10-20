@@ -5,19 +5,21 @@ redirect_from:
   - commands/80
 ---
 
-Converts a hexadecimal string into a real (decimal) number. 
+Converts a hexadecimal string into a (decimal) number. 
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-| Save Variable As | String | Name of a variable to save the converted value. |
-| Hex String Variable | {% include asterisk.html%} | Hex string variable to convert. |
-{:class='table table-primary ' }
+Parameters:
 
-| Hex string value | Returned real value | 
-|-------|--------|--------|
-|A|10|
-|1d|29|
-|1F4|500|
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Save Variable As | {% include cmd_param.html param="Text Box" %} | string | Variable name to save the converted variable. Can use an [Accessor Path](/commands/variables#accessors).|
+| Hex String Variable | {% include cmd_param.html param="Expression Box" %} | string | Hex string to convert |
+{:class='table table-primary table-cmd-params'}
+
+| Hex string value | Returned number | 
+|-------|--------|
+|`"A"`|`10`|
+|`"1d"`|`29`|
+|`"1F4"`|`500`|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
 

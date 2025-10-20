@@ -7,21 +7,11 @@ redirect_from:
   - commands/78
 ---
 
-Deletes an existing variable.\
-You can use dot notation for deleting button variables (`buttonID.myVariable`), global variables (`global.myVariable`), object keys (`myObject.key`). 
+Deletes an existing variable.
 
+Parameters:
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-| Variable | String | Name of the variable to delete. Leave empty or `all` to delete all button variables. |
-{:class='table table-primary' }
-
-
-
-
-
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| Variable Name | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to delete. Can use an [Accessor Path](/commands/variables#accessors).<br><br>Leave empty, or use keyword `all` to delete all button variables. |
+{:class='table table-primary table-cmd-params'}

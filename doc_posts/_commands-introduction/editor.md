@@ -39,7 +39,7 @@ Now, lets look at interacting with commands when placed inside the editor.
 
 {% include image.html w="100" external="true" src="https://i.imgur.com/CTQGpbU.png" alt="Command with parts sectioned off" %}
 
-#### 1. Configuration
+#### Configuration
 
 | Button Icon | Description |
 |-------------|-------------|
@@ -62,7 +62,7 @@ Clicking this box allows you to change the type of command it represents.
 
 Pressing <kbd>F1</kbd> while hovering over this box navigates to the documentation for the command using your default web browser. Extremely handy to quickly reference how a command works, or practical use cases!
 
-#### 2. Parameters
+#### Parameters
 
 {% include image.html w="100" external="true" src="https://i.imgur.com/TodhbHF.gif" alt="Various different commands with different parameters" %}
 
@@ -226,7 +226,7 @@ Type ID: `22`
 
 {% include image.html external="true" src="https://i.imgur.com/wsfENxF.png" alt="" %}
 
-[Text Box](#placeholder), but additionally contains a folder button which lets you easily use a system dialog to pick any supported image file the command expects.\  
+[Text Box](#placeholder), but additionally contains a folder button which lets you easily use a system dialog to pick any supported image file the command expects.\
 Type ID: `23`
 
 <hr>
@@ -321,7 +321,7 @@ Type ID: `7`
 35 | Text Box (Twitch Account Dropdown) | {% include image_table.html style="width: 20rem;" external="true" src="https://i.imgur.com/nQuOhns.gif" alt="" %} | Text box, but has a drop down arrow that opens a searchable context menu of all linked Twitch accounts, used commonly in Twitch related commands. Leaving blank will default to the account listening to events.
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break } -->
 
-#### 3. Configuration (Continued)
+#### Configuration (Continued)
 
 Delays are a method of delaying the execution of commands. You can learn more in the [Delays](#placeholder) section, however, **this is considered legacy and heavily recommended to not use. The alternative is to use the [Wait For Timeout](#placeholder) command.** 
 

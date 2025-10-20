@@ -7,16 +7,11 @@ redirect_from:
 
 Splits a string value into an array. If an array does not already exist, a new array will be created.
 
-| Box Name | Type | Description | 
-|-------|--------|--------|
-| String (text) | String | The string you want to be split into an array. |
-| Separator | Symbol | Separating symbol for the array. Defaults to ','. |
-| Array Name | String | Name of the array to save the split values to. |
-{:class='table table-primary' }
+Parameters:
 
-
-
-
-
-
-
+| Name | Type | Value Type | Description |
+|-------|--------|--------|----------|
+| String (text) | {% include cmd_param.html param="Text Box (Resizable)" %} | string | String to split into an array. |
+| Separator | {% include cmd_param.html param="Text Box (Resizable)" %} | string | Symbol that determines when to split the string into a new element in Array. Defaults to `,`|
+| Array Name | {% include cmd_param.html param="Text Box" %} | string | Name of the variable to save the resulting array to. Can use an [Accessor Path](/commands/variables#accessors). |
+{:class='table table-primary table-cmd-params'}
