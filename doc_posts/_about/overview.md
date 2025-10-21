@@ -35,10 +35,7 @@ Today, the SAMMI Team continues to drive the software forward. The team is dedic
 
 Current SAMMI Team Members (Listed by Joining Date)
 
-- [cyanidesugar](https://twitter.com/cyanidesugar_)
 - [Chrizzz](https://twitter.com/chrizzz1508)
-- [Landie](https://twitter.com/Landie__)
-- [Digi](https://twitter.com/Digi_Bunny)
 
 You can learn more about our team members and ways to support us on our [Patreon](https://www.patreon.com/sammidevs).
 
