@@ -6,6 +6,39 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2025.4.0
+
+====================================
+   SAMMI 2025.4.0 (December 2025)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- New possibility to have a Twitch Chat Message trigger for "Lead Moderators" only
+- New Trigger Pull value "is_lead_moderator" for Twitch Chat Messages to see if a user is a "Lead Moderator"
+- Reworked the Twitch: Create Clip command (you now can set the clip title and duration)
+
+Improvements:
+
+UI Changes:
+
+- Reorganized the boxes in the Twitch Chat Message trigger
+
+Bug Fixes:
+
+- Fixed an issue where Moderators would no longer be able to trigger buttons when they only have the "Lead Moderator" role
+- Fixed the wrong Icon for Ko-Fi in the About Page
+
+Known Issues:
+
+- Button border sliders not working as intended
+- Language keys missing for some languages
+- Twitch Connection window UI not displaying more than 3 accounts
+- Gamepad Trigger can't trigger right analog stick
+
 #### SAMMI 2025.2.0
 
 ====================================
