@@ -6,6 +6,50 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2026.1.1
+
+====================================
+   SAMMI 2026.1.0 (January 2026)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Moved Hype Train Event Subscriptions to V2 (this change heavily effects the available payload and was necessary due to the deprecation of the old version on the 15th january. Please check out the removed and new values below:
+   
+  Hype Train Begin:
+  =================
+  Removed: Current Goal, Current Level, From Channel Id, Goal Progress, Is Golden Kappa Train, Last Contribution, Top Bits Contribution, Top Other Contribution, Top Subscription Contribution, Total Progress
+  
+  Added: All Time High Level, All Time High Total, Broadcaster Display Name, Broadcaster User ID, Broadcaster User Login, Goal, Is Shared Train, Level, Progress, Shared Train Participants, Top Contributions, Total
+  
+  Hype Train Progressed:
+  ======================
+  Removed: Current Goal, Current Level, From Channel Id, Goal Progress, Is Golden Kappa Train, Last Contribution, Top Bits Contribution, Top Other Contribution, Top Subscription Contribution, Total Progress
+
+  Added: Broadcaster Display Name, Broadcaster User ID, Broadcaster User Login, Goal, Is Shared Train, Level, Progress, Shared Train Participants, Top Contributions, Total
+  
+  Hype Train Ended:
+  =================
+  Removed: Current Level, From Channel Id, Is Golden Kappa Train, Last Contribution, Top Bits Contribution, Top Other Contribution, Top Subscription Contribution, Total Progress
+  
+  Added: Broadcaster Display Name, Broadcaster User ID, Broadcaster User Login, Is Shared Train, Level, Shared Train Participants, Top Contributions, Total
+  
+Improvements:
+
+UI Changes:
+
+Bug Fixes:
+
+Known Issues:
+
+- Button border sliders not working as intended
+- Language keys missing for some languages
+- Twitch Connection window UI not displaying more than 3 accounts
+- Gamepad Trigger can't trigger right analog stick
+
 #### SAMMI 2025.4.0
 
 ====================================
