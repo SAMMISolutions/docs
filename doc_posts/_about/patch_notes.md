@@ -6,6 +6,52 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2026.2.1
+
+====================================
+   SAMMI 2026.2.1 (February 2026)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Added a new "Stop" button that stops the current execution of the button as well as all queued up instances of it
+- Added a new command "Twitch: Get Hype Train Status" which provides information about the broadcasters Hype Train
+- Added a new command "Twitch: Add Suspicious Users" which lets you flag users with the "Active Monitoring" or "Restricted" flag
+- Added a new command "Twitch: Remove Suspicious Users" which lets you remove the suspicious flag from users
+- Added Twitch Combo and Powerup Test Triggers to the bridge
+- Added more people to the test payloads in the bridge
+- Added the new "moderator:manage:suspicious_users" scope
+  
+Improvements:
+
+- Reworked the Hype Train Test Triggers in the bridge to reflect the new Payload
+- Updated the SAMMI Updater to reinstall extensions successfully when using a bridge with Version 8.00 or higher
+
+UI Changes:
+
+- Reworked the Button Editor to have the same horizontal distance between the buttons
+
+Bug Fixes:
+
+- Fixed the Trigger Pull Values for "Hype Train - Ended" and "Hype Train - Progressed"
+- Fixed the Hype Train Test Menu in the Bridge ("Progressed" now fires "Progressed" correctly instead of "End" and "End" fires "End" instead of "Progressed")
+- Fixed a bug where Hype Train Progressed Events couldn't be processed correctly in 2026.1.0
+- Fixed a bug where Gamepad Trigger couldn't trigger with the right analog stick
+- Added a lot of the missing language keys with the help of the translators:
+  DE - Chrizzz
+  EN - Chrizzz
+  SP - KevinPorKevin
+  FR - MisterK
+  PT - JzTurrini
+
+Known Issues:
+
+- Button border sliders not working as intended
+- Twitch Connection window UI not displaying more than 3 accounts
+
 #### SAMMI 2026.2.0
 
 ====================================
