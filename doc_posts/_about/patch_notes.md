@@ -6,6 +6,35 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2026.3.0
+
+====================================
+   SAMMI 2026.3.0 (March 2026)
+====================================
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Added a new command "Send Aitum Request" that allows you to control the Aitum plugin with 31 different premade request templates (huge shoutout to TheBurge for providing and testing the requests)
+- Added the option "Only Trigger in own chat" to the "Twitch Chat Messages" trigger
+  This checkbox is automatically enabled for all triggers and will automatically ignore chat messages received from other chats in a Shared Chat session
+- Added a new setting in the settings menu to disable the new "Only Trigger in own chat" option
+- Added a new global variable "twitch_default_channel_id" which will contain the channel id of the channel that is listening to events
+- Added a mandatory version check after beeing contacted by Twitch about users still running the deprecated V1 Hype Train EventSub endpoint
+  This was added to help keep SAMMI compatible with future Twitch EventSub updates and avoid disruptions for the users and will only used when major changes need to be applied to SAMMI.  
+  
+Improvements:
+
+- Added the "followed_at" to the Trigger Pull values for the Twitch Follow Trigger
+- Added the "is_own_chat" to the Trigger Pull values for the Twitch Chat Message Trigger
+- Prepared the Source Code to swap Twitch Chat messages from IRC to EventSub if necessary (applying this change will be postponed due to a lot of missing values in the EventSub endpoint until it is necessary)
+
+UI Changes:
+
+Bug Fixes:
+
 #### SAMMI 2026.2.1
 
 ====================================
