@@ -11,7 +11,9 @@ Simulates a keyboard button press.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Button | Dropdown | Keyboard button to press
-|Ctrl/Alt/Shift | Checkbox | Whether you want to add any modifiers, i.e. press `Ctrl + K`
+|Ctrl | Checkbox | Whether to hold `Ctrl` while pressing the selected button, i.e. press `Ctrl + K`
+|Alt | Checkbox | Whether to hold `Alt` while pressing the selected button
+|Shift | Checkbox | Whether to hold `Shift` while pressing the selected button
 |Hold Duration (ms) | Number {% include asterisk.html%} | For how long to hold the button in milliseconds
 {:class='table table-primary'}
 

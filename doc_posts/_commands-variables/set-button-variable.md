@@ -9,7 +9,7 @@ redirect_from:
 Creates a new button variable or modifies an existing one.\
 Button variables are other buttons local variables.\
 Supports setting button variables directly to objects/arrays without having to parse and stringify them. This includes setting array values to other objects, too.
-If you need to set a button variable in non persisten button, please use [Set Button Instance Variable](#setbuttoninstancevariable) command instead.
+If you need to set a button variable in a non persistent button, please use the [Set Button Instance Variable](#setbuttoninstancevariable) command instead.
 
 {% include alert.html text="Variable names can contain numbers, letters and _, but cannot start with a number itself." type="warning" %}
 

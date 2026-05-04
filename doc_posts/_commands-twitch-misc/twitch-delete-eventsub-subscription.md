@@ -9,7 +9,7 @@ redirect_from:
 Deletes a custom Twitch EventSub subscription.
 This lets you unsubscribe from any Twitch EventSub event.
 
-{% include alert.html text="You will need to use <a href='/docs/commands/twitch-misc#getactiveeventsubsubscriptions'>Get Active Event Sub Subscriptions</a> in order to get the internal reference Id for the subscription." type="warning" %}
+{% include alert.html text="You will need to use <a href='/docs/commands/twitch-misc#getactiveeventsubsubscriptions'>Get Active EventSub Subscriptions</a> in order to get the internal reference ID for the subscription." type="warning" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

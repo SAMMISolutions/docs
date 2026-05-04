@@ -13,7 +13,7 @@ Available types of videos:
 - Uploads
 - Clips
 
-If 'All Videos' is selected, the response will not contain 'Clips'. The response received, depending on the size of the request will require some time to load, so please ensure you use a 'Wait until Variablle Exists' command with this one.
+If 'All Videos' is selected, the response will not contain 'Clips'. The response received, depending on the size of the request, will require some time to load, so please ensure you use a 'Wait Until Variable Exists' command with this one.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

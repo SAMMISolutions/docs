@@ -7,7 +7,7 @@ redirect_from:
 ---
 
 Warns a user with a specified message.
-Warnings force users to acknolwedge the message you warn them with.
+Warnings force users to acknowledge the message you warn them with.
 
 | Box Name | Type | Description | 
 |-------|--------|--------

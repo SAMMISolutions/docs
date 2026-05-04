@@ -15,6 +15,7 @@ Both arrays must already exist.
 |-------|--------|--------
 Array Name | String | The array to append to|
 Array To Transfer | String| The array to append at the end of the first array|
+Delete Array | Checkbox | Whether to delete the transferred array after appending it. If checked, the array is moved instead of copied.
 {:class='table table-primary'}
 
 
