@@ -398,8 +398,10 @@ div.highlight {
 .lb-content table {
   width: 100%;
   overflow: hidden;
-  border: 1px solid var(--sammi-border);
+  border: 0;
   border-radius: 8px;
+  border-collapse: separate;
+  border-spacing: 0;
 }
 
 .lb-content blockquote,
@@ -549,14 +551,18 @@ div.highlight {
 
 .table {
   color: var(--sammi-muted);
-  border-color: var(--sammi-border);
+  border-color: transparent;
+}
+
+.table > :not(caption) > * > * {
+  border-color: rgba(191, 219, 254, 0.1);
 }
 
 .table-primary,
 .table-primary > :not(caption) > * > * {
   color: var(--sammi-muted);
   background-color: rgba(28, 48, 76, 0.72);
-  border-color: var(--sammi-border);
+  border-color: rgba(191, 219, 254, 0.1);
 }
 
 .table thead th {
@@ -738,17 +744,19 @@ div.highlight {
 
   .lb-sidebar {
     align-self: start;
-    width: 100%;
-    overflow: visible;
-  }
-
-  .lb-sidebar-stack {
     position: sticky;
     top: var(--sammi-sticky-top);
+    width: 100%;
+    height: fit-content;
+    min-height: 0;
     max-height: calc(100vh - var(--sammi-sticky-top) - 1rem);
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
+  }
+
+  .lb-sidebar-stack {
+    overflow: visible;
   }
 
   .lb-main {
@@ -822,6 +830,12 @@ div.highlight {
   }
 
   .lb-sidebar-stack {
+    position: static;
+    max-height: none;
+    overflow: visible;
+  }
+
+  .lb-sidebar {
     position: static;
     max-height: none;
     overflow: visible;
