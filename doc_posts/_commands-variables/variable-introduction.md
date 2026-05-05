@@ -49,7 +49,6 @@ You can also initiliaze complex variables, such as arrays or objects:
 		"Melonax": "purple",
 		"Cyanidesugar": "red "
 	}
-
 }
 ```
 
