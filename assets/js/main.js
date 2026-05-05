@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDrag();
   initTooltip();
   initPopOver();
+  initDocsNavAccordion();
   openLinksNewTab();
   editPasteBin();
   initDarkModeSwitcher();
@@ -74,6 +75,25 @@ function initTooltip() {
 function initPopOver() {
   const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
   const popoverList = popoverTriggerList.map((popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl));
+}
+
+function initDocsNavAccordion() {
+  const nav = document.getElementById('lb-docs-nav');
+  if (!nav || typeof bootstrap === 'undefined') return;
+
+  const getTopLevelPanels = () => Array.from(nav.querySelectorAll(':scope > ul > li > .collapse'));
+
+  nav.addEventListener('show.bs.collapse', (event) => {
+    const topLevelPanels = getTopLevelPanels();
+    const openedPanel = event.target;
+
+    if (!topLevelPanels.includes(openedPanel)) return;
+
+    topLevelPanels.forEach((panel) => {
+      if (panel === openedPanel) return;
+      bootstrap.Collapse.getOrCreateInstance(panel, { toggle: false }).hide();
+    });
+  });
 }
 
 // open all links in new tab
