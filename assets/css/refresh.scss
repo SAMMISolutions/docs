@@ -17,6 +17,7 @@
   --sammi-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
   --sammi-shell: min(1640px, calc(100% - clamp(1rem, 4vw, 4rem)));
   --sammi-gap: clamp(1rem, 1.6vw, 2rem);
+  --sammi-sticky-top: 5.75rem;
 }
 
 html {
@@ -522,9 +523,11 @@ div.highlight {
   .lb-toc {
     align-self: start;
     position: sticky;
-    top: 88px;
-    max-height: calc(100vh - 104px);
-    overflow-y: auto;
+    top: var(--sammi-sticky-top);
+    height: fit-content;
+    min-height: 0;
+    max-height: none;
+    overflow-y: visible;
     scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
   }
 }
@@ -735,17 +738,17 @@ div.highlight {
 
   .lb-sidebar {
     align-self: start;
-    position: sticky;
-    top: 88px;
     width: 100%;
-    max-height: calc(100vh - 104px);
-    overflow-x: hidden;
-    overflow-y: auto;
-    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
+    overflow: visible;
   }
 
   .lb-sidebar-stack {
-    overflow: visible;
+    position: sticky;
+    top: var(--sammi-sticky-top);
+    max-height: calc(100vh - var(--sammi-sticky-top) - 1rem);
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
   }
 
   .lb-main {
@@ -787,12 +790,13 @@ div.highlight {
   .lb-toc {
     display: block;
     grid-area: toc;
-    align-self: start;
+    align-self: start !important;
     position: sticky;
-    top: 88px;
-    max-height: calc(100vh - 104px);
-    overflow-y: auto;
-    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
+    top: var(--sammi-sticky-top);
+    height: fit-content;
+    min-height: 0;
+    max-height: none;
+    overflow-y: visible;
     width: 100%;
   }
 }
