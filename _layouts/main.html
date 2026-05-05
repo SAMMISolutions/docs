@@ -74,7 +74,12 @@
       darkSwitch.setAttribute('class', 'form-check-input');
       darkSwitch.setAttribute('id', 'DarkModeSwitch');
       darkSwitch.setAttribute('type', 'checkbox');
-      if (window.schemeChecked) darkSwitch.checked = true;
+      darkSwitch.checked = true;
+      document.documentElement.setAttribute('data-theme', 'dark');
+      document.body?.setAttribute('data-theme', 'dark');
+      const schemeStyle = document.getElementById('scheme');
+      if (schemeStyle) schemeStyle.textContent = ':root{color-scheme:dark}';
+      try { localStorage.setItem('scheme', 'dark'); } catch (error) {}
       if (darkSwitchDiv) darkSwitchDiv.prepend(darkSwitch);
     </script>
     <a class="btn btn-lb-download d-lg-inline-block my-2 my-lg-0 ms-lg-3" href="https://discord.sammi.solutions">Join Discord</a>
@@ -86,49 +91,25 @@
 </header>
 
 
-<nav class="lb-subnavbar py-2" aria-label="Secondary navigation">
-  <div class="container-xxl d-flex align-items-center justify-content-center mb-1">
-
-
-    <!-- search bar -->
-    <button class="btn lb-sidebar-toggle d-md-none px-1 me-auto collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lb-docs-nav" aria-controls="lb-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
-      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
-        <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
-       </svg>
-    </button>
-    <div id="docsearch"></div>
-    <form class="lb-search position-relative me-auto">
-      <span class="algolia-autocomplete" style="position: relative; display: inline-block; direction: ltr;"><input type="search" class="form-control ds-input" id="search-input" placeholder="Search Docs" aria-label="Search docs..." autocomplete="off" data-lb-docs-version="5.0" spellcheck="false" role="combobox" aria-autocomplete="list" aria-expanded="false" aria-owns="algolia-autocomplete-listbox-0" dir="auto" style="position: relative; vertical-align: top;"><pre aria-hidden="true" style="position: absolute; visibility: hidden; white-space: pre; font-family: system-ui, -apple-system, &quot;Segoe UI&quot;, Roboto, &quot;Helvetica Neue&quot;, Arial, &quot;Noto Sans&quot;, &quot;Liberation Sans&quot;, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;, &quot;Segoe UI Symbol&quot;, &quot;Noto Color Emoji&quot;; font-size: 16px; font-style: normal; font-variant: normal; font-weight: 400; word-spacing: 0px; letter-spacing: normal; text-indent: 0px; text-rendering: auto; text-transform: none;"></pre><span class="ds-dropdown-menu" role="listbox" id="algolia-autocomplete-listbox-0" style="position: absolute; top: 100%; z-index: 100; left: 0px; right: auto; display: none;"><div class="ds-dataset-1"></div></span></span>
-    </form>
-  <!-- search bar end -->
-  <!-- version dropdown -->
-  <!-- 
-  <div class="dropdown ms-3 order-2">
-    <button class="btn btn-bd-light dropdown-toggle" id="lb-versions" data-bs-toggle="dropdown" aria-expanded="true" data-bs-display="static">
-      <span class="d-none d-lg-inline">SAMMI</span> Latest 2023.2
-    </button>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="lb-versions" data-bs-popper="static">
-      <li><a class="dropdown-item current" aria-current="true" href="https://sammi.solutions/docs/">2023.2</a></li>
-      <li><hr class="dropdown-divider"></li>
-    </ul>
-  </div>
-   -->
-  <!-- version dropdown end -->
-  </div>
-</nav>
-
-
 <!-- main container start -->
 <div class="container-xxl lb-layout my-md-4">
 
 
 <!-- sidebar  -->
 <aside class="lb-sidebar">
-  <nav class="lb-links collapse" id="lb-docs-nav" aria-label="LB Docs Navigation">
-    <ul class="list-unstyled mb-0 py-3 pt-md-1">
+  <div class="lb-sidebar-stack">
+    <form class="lb-search lb-sidebar-search position-relative">
+      <input type="search" class="form-control ds-input" id="search-input" placeholder="Search Docs" aria-label="Search docs..." autocomplete="off" data-lb-docs-version="5.0" spellcheck="false">
+    </form>
+    <button class="btn lb-sidebar-toggle d-md-none collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#lb-docs-nav" aria-controls="lb-docs-nav" aria-expanded="false" aria-label="Toggle docs navigation">
+      Documentation Menu
+    </button>
+    <nav class="lb-links collapse" id="lb-docs-nav" aria-label="LB Docs Navigation">
+      <ul class="list-unstyled mb-0 py-3 pt-md-1">
 {% include navigation.html %}
-    </ul>
-  </nav>
+      </ul>
+    </nav>
+  </div>
 </aside>
 
 <!-- main div -->
