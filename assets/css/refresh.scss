@@ -17,6 +17,8 @@
   --sammi-shadow: 0 24px 80px rgba(0, 0, 0, 0.26);
   --sammi-shell: min(1640px, calc(100% - clamp(1rem, 4vw, 4rem)));
   --sammi-gap: clamp(1rem, 1.6vw, 2rem);
+  --sammi-sidebar-fixed-width: clamp(220px, 17vw, 280px);
+  --sammi-toc-fixed-width: clamp(220px, 16vw, 300px);
 }
 
 html {
@@ -740,8 +742,10 @@ div.highlight {
   }
 
   .lb-sidebar-stack {
-    position: sticky;
+    position: fixed;
     top: 88px;
+    left: calc((100vw - var(--sammi-shell)) / 2);
+    width: var(--sammi-sidebar-fixed-width);
     max-height: calc(100vh - 104px);
     overflow-x: hidden;
     overflow-y: auto;
@@ -774,6 +778,7 @@ div.highlight {
 
 @media (min-width: 1200px) {
   .lb-layout {
+    --sammi-sidebar-fixed-width: clamp(230px, 17vw, 300px);
     grid-template-columns: clamp(230px, 17vw, 300px) minmax(0, 1fr);
   }
 
@@ -788,17 +793,20 @@ div.highlight {
     display: block;
     grid-area: toc;
     align-self: start;
-    position: sticky;
+    position: fixed;
     top: 88px;
+    right: calc((100vw - var(--sammi-shell)) / 2);
+    width: var(--sammi-toc-fixed-width);
     max-height: calc(100vh - 104px);
     overflow-y: auto;
     scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
-    width: 100%;
   }
 }
 
 @media (min-width: 1600px) {
   .lb-layout {
+    --sammi-sidebar-fixed-width: 310px;
+    --sammi-toc-fixed-width: 320px;
     grid-template-columns: 310px minmax(0, 1fr);
   }
 
