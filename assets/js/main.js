@@ -3,6 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
   initDrag();
   initTooltip();
   initPopOver();
+  initDocsModals();
   initDocsNavAccordion();
   openLinksNewTab();
   editPasteBin();
@@ -75,6 +76,16 @@ function initTooltip() {
 function initPopOver() {
   const popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'));
   const popoverList = popoverTriggerList.map((popoverTriggerEl) => new bootstrap.Popover(popoverTriggerEl));
+}
+
+function initDocsModals() {
+  const modals = Array.from(document.querySelectorAll('.modal'));
+
+  modals.forEach((modal) => {
+    if (modal.parentElement !== document.body) {
+      document.body.appendChild(modal);
+    }
+  });
 }
 
 function initDocsNavAccordion() {
