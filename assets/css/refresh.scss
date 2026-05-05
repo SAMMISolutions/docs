@@ -65,6 +65,15 @@ div.highlight {
   border-radius: 8px;
 }
 
+pre code,
+div.highlight code,
+.highlight code {
+  background: transparent !important;
+  border: 0;
+  border-radius: 0;
+  padding: 0;
+}
+
 .lb-navbar {
   position: sticky;
   top: 14px;
@@ -226,6 +235,7 @@ div.highlight {
 }
 
 .lb-links {
+  min-height: 0;
   overflow-x: hidden;
   scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
 }
@@ -750,13 +760,27 @@ div.highlight {
     height: fit-content;
     min-height: 0;
     max-height: calc(100vh - var(--sammi-sticky-top) - 1rem);
-    overflow-x: hidden;
-    overflow-y: auto;
-    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
+    overflow: visible;
   }
 
   .lb-sidebar-stack {
+    display: flex;
+    flex-direction: column;
+    max-height: calc(100vh - var(--sammi-sticky-top) - 1rem);
     overflow: visible;
+  }
+
+  .lb-sidebar-search,
+  .lb-sidebar-toggle {
+    flex: 0 0 auto;
+  }
+
+  .lb-links {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
   }
 
   .lb-main {
