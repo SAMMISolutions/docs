@@ -16,6 +16,20 @@
                 {% for subitem in submenu.subitems %}
                 <li class="nav-item">
                   <a href="{{ subitem.link | relative_url }}" class="nav-link sidebar-innerbutton fs-7 {% if subitem.name == page.title or subitem.name == page.subparent %} active {% endif %}">{{ subitem.name }}</a>
+                  {% if submenu.name == "Twitch" and site[subitem.collection] %}
+                  <ul class="list-unstyled fw-normal pb-1 small mx-3">
+                    {% assign posts = site[subitem.collection] | sort: "num" %}
+                    {% for post in posts %}
+                      {% if post.ignore != true %}
+                        {% if post.version <= site.stableVersion or post.version == nil %}
+                        <li>
+                          <a href="{{ post.url | relative_url }}" class="d-inline-flex align-items-center rounded sidebar-innerbutton fs-7 {% if page.title == post.title %} active {% endif %}">{{ post.title }}</a>
+                        </li>
+                        {% endif %}
+                      {% endif %}
+                    {% endfor %}
+                  </ul>
+                  {% endif %}
                 </li>
                 {% endfor %}
               </ul>
