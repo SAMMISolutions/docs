@@ -522,8 +522,8 @@ div.highlight {
   .lb-toc {
     align-self: start;
     position: sticky;
-    top: 96px;
-    max-height: calc(100vh - 112px);
+    top: 88px;
+    max-height: calc(100vh - 104px);
     overflow-y: auto;
     scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
   }
@@ -735,10 +735,14 @@ div.highlight {
 
   .lb-sidebar {
     align-self: start;
-    position: sticky;
-    top: 96px;
     width: 100%;
-    max-height: calc(100vh - 112px);
+    overflow: visible;
+  }
+
+  .lb-sidebar-stack {
+    position: sticky;
+    top: 88px;
+    max-height: calc(100vh - 104px);
     overflow-x: hidden;
     overflow-y: auto;
     scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
@@ -783,6 +787,12 @@ div.highlight {
   .lb-toc {
     display: block;
     grid-area: toc;
+    align-self: start;
+    position: sticky;
+    top: 88px;
+    max-height: calc(100vh - 104px);
+    overflow-y: auto;
+    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
     width: 100%;
   }
 }
