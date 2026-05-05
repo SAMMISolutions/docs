@@ -407,11 +407,27 @@ div.highlight code,
 
 .lb-content table {
   width: 100%;
+  table-layout: fixed;
   overflow: hidden;
   border: 0;
   border-radius: 8px;
   border-collapse: separate;
   border-spacing: 0;
+}
+
+.lb-content th,
+.lb-content td {
+  min-width: 0;
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+}
+
+.lb-content td code,
+.lb-content th code {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: break-word;
 }
 
 .lb-content blockquote,
