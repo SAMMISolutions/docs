@@ -5,6 +5,9 @@ permalink: /roadmap
 menu: About
 num: 1
 type: fullpage
+ignore: true
+published: false
+sitemap: false
 ---
 
 Here lies our current planned roadmap of features we are currently working on/towards, as well as a list of actively maintained services which we are always interating upon.
