@@ -87,6 +87,8 @@ div.highlight {
 }
 
 .lb-navbar > .container-xxl {
+  max-width: 1180px;
+  margin-inline: auto;
   padding-inline: clamp(0.75rem, 1.5vw, 1.5rem);
 }
 
@@ -202,11 +204,7 @@ div.highlight {
 }
 
 .lb-sidebar-stack {
-  position: sticky;
-  top: 96px;
-  max-height: calc(100vh - 112px);
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow: visible;
   scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
 }
 
@@ -335,9 +333,12 @@ div.highlight {
   padding: clamp(1.3rem, 3vw, 2rem) !important;
 }
 
-.lb-intro.ps-lg-4,
 .lb-content.ps-lg-4 {
   padding-left: 0 !important;
+}
+
+.lb-intro.ps-lg-4 {
+  padding-left: clamp(1.25rem, 3vw, 2rem) !important;
 }
 
 .lb-intro .display-4 {
@@ -519,6 +520,7 @@ div.highlight {
 
 @media (min-width: 1200px) {
   .lb-toc {
+    align-self: start;
     position: sticky;
     top: 96px;
     max-height: calc(100vh - 112px);
@@ -732,7 +734,14 @@ div.highlight {
   }
 
   .lb-sidebar {
+    align-self: start;
+    position: sticky;
+    top: 96px;
     width: 100%;
+    max-height: calc(100vh - 112px);
+    overflow-x: hidden;
+    overflow-y: auto;
+    scrollbar-color: rgba(147, 197, 253, 0.28) transparent;
   }
 
   .lb-main {
@@ -742,6 +751,7 @@ div.highlight {
       "content";
     grid-template-columns: minmax(0, 1fr);
     gap: var(--sammi-gap);
+    align-items: start;
   }
 
   .lb-intro {
@@ -800,7 +810,7 @@ div.highlight {
   .lb-sidebar-stack {
     position: static;
     max-height: none;
-    overflow-y: visible;
+    overflow: visible;
   }
 
   .lb-links {
