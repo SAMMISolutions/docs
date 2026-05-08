@@ -1,21 +1,21 @@
 ---
-title: "File: Folder Read Files"
+title: "File: Folder Get Files"
 num: 2.3
 version: 202640
 redirect_from:
   - commands/360
 ---
 
-Reads file paths from a folder and saves them as an array.
+Gets file paths from a folder and saves them as an array.
 
 {% include alert.html text="Available in SAMMI Pro." type="info" %}
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Folder Path|Folder Select|Folder to read files from.
+|Folder Path|Folder Select|Folder to get files from.
 |File Extensions|String|Optional comma-separated list of file extensions to include, for example `txt,png,jpg`. Leave empty to include all files.
 |Save Variable As|String|Variable name to save the resulting array.
-|Include Subfolders|Checkbox|If checked, SAMMI also reads files from subfolders.
+|Include Subfolders|Checkbox|If checked, SAMMI also get files from subfolders.
 {:class='table table-primary'}
 
 Examples:
