@@ -11,6 +11,7 @@
 <link href="{{ 'assets/css/main.css' | relative_url }}" rel="stylesheet">
 <link href="{{ 'assets/css/content.css' | relative_url }}" rel="stylesheet">
 <link href="{{ 'assets/css/refresh.css' | relative_url }}" rel="stylesheet">
+<link href="{{ 'assets/css/shared-header.css' | relative_url }}" rel="stylesheet">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsearch.js@2/dist/cdn/docsearch.min.css" /> 
 {% if page.css %}
 <link href="{{ 'assets/css/' | append: page.css | append: '.css' | relative_url }}" rel="stylesheet">
@@ -26,7 +27,7 @@
 {% seo %}
 </head>
 <body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="100">
-<header class="navbar navbar-expand-lg navbar-dark lb-navbar">
+<header class="navbar navbar-expand-lg navbar-dark lb-navbar sammi-header">
   <nav class="container-xxl flex-wrap flex-lb-nowrap" aria-label="Top Navigation">
     <a class="navbar-brand p-0 me-2" href="/" aria-label="SAMMI">
       <img src="{{ 'assets/favicon/sammi.png' | relative_url }}" width="35" height="35">
