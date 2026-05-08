@@ -90,7 +90,7 @@ main:
       subitems:
           - name: General
             link: commands/file-general
-            collection: commands-file
+            collection: commands-file-general
           - name: CSV Files
             link: commands/file-csv
             collection: commands-file-csv
