@@ -4,6 +4,6 @@ title: Getting Started
 menu: Getting Started
 ---
 
-{%- assign index = site.getting-started | sort: "num" | first -%}
+{%- assign index = site.getting-started | where: 'title', 'Step by step tutorial' | first -%}
 
   <p>{{ index.content | markdownify }}</p> 
