@@ -7,117 +7,117 @@ main:
   collection: integrations
 - name: Commands
   submenus: 
-    - name: Introduction
-      link: commands/introduction
-      collection: commands-introduction
-    - name: Variables
-      link: commands/variables
-      collection: commands-variables
-    - name: Numbers
-      link: commands/number
-      collection: commands-number
-    - name: Strings
-      link: commands/string
-      collection: commands-string
     - name: Arrays
       link: commands/array
       collection: commands-stack
-    - name: Objects
-      link: commands/object
-      collection: commands-object
-    - name: Date and Time
-      link: commands/date-time 
-      collection: commands-date-time
-    - name: Statements & Loops
-      link: commands/statements 
-      collection: commands-statements
-    - name: Wait For/Until
-      link: commands/wait
-      collection: commands-wait 
-    - name: Trigger methods
-      link: commands/trigger
-      collection: commands-trigger 
-    - name: OBS
-      subitems:
-          - name: General
-            link: commands/obs-general
-            collection: commands-obs-general
-          - name: Scenes
-            link: commands/obs-scenes
-            collection: commands-obs-scenes
-          - name: Sources
-            link: commands/obs-sources
-            collection: commands-obs-sources
-          - name: Motion
-            link: commands/obs-motion
-            collection: commands-obs-motion
-          - name: Filters
-            link: commands/obs-filters
-            collection: commands-obs-filters
-          - name: Streaming
-            link: commands/obs-streaming
-            collection: commands-obs-streaming
-          - name: Recording
-            link: commands/obs-recording
-            collection: commands-obs-recording
-          - name: Media
-            link: commands/obs-media
-            collection: commands-obs-media
-    - name: Twitch
-      subitems:
-          - name: Information
-            link: commands/twitch-info
-            collection: commands-twitch-info   
-          - name: Chat and Messages
-            link: commands/twitch-chat
-            collection: commands-twitch-chat 
-          - name: Channel Point Rewards
-            link: commands/twitch-chpr
-            collection: commands-twitch-chpr
-          - name: Polls and Predictions
-            link: commands/twitch-polls
-            collection: commands-twitch-polls 
-          - name: Moderation
-            link: commands/twitch-moderation
-            collection: commands-twitch-moderation    
-          - name: Miscellaneous
-            link: commands/twitch-misc
-            collection: commands-twitch-misc                                                            
-    - name: YouTube
-      link: commands/youtube
-      collection: commands-youtube
-    - name: Files
-      subitems:
-          - name: General
-            link: commands/file-general
-            collection: commands-file-general
-          - name: CSV Files
-            link: commands/file-csv
-            collection: commands-file-csv
-          - name: INI Files
-            link: commands/file-ini
-            collection: commands-file-ini
     - name: Buffers
       link: commands/buffer
       collection: commands-buffer
     - name: Buttons
       link: commands/button
       collection: commands-button
-    - name: Mouse & Keyboard
-      link: commands/mouse-kb
-      collection: commands-mouse-kb
-    - name: Sound Effects
-      link: commands/sounds
-      collection: commands-sounds
+    - name: Date and Time
+      link: commands/date-time 
+      collection: commands-date-time
     - name: Deck App
       link: commands/deck-app
       collection: commands-deck-app
+    - name: Files
+      subitems:
+          - name: CSV Files
+            link: commands/file-csv
+            collection: commands-file-csv
+          - name: General
+            link: commands/file-general
+            collection: commands-file-general
+          - name: INI Files
+            link: commands/file-ini
+            collection: commands-file-ini
     - name: Integrations
       link: commands/integrations
       collection: commands-integrations
+    - name: Introduction
+      link: commands/introduction
+      collection: commands-introduction
     - name: Miscellaneous
       link: commands/misc
       collection: commands-misc
+    - name: Mouse & Keyboard
+      link: commands/mouse-kb
+      collection: commands-mouse-kb
+    - name: Numbers
+      link: commands/number
+      collection: commands-number
+    - name: OBS
+      subitems:
+          - name: Filters
+            link: commands/obs-filters
+            collection: commands-obs-filters
+          - name: General
+            link: commands/obs-general
+            collection: commands-obs-general
+          - name: Media
+            link: commands/obs-media
+            collection: commands-obs-media
+          - name: Motion
+            link: commands/obs-motion
+            collection: commands-obs-motion
+          - name: Recording
+            link: commands/obs-recording
+            collection: commands-obs-recording
+          - name: Scenes
+            link: commands/obs-scenes
+            collection: commands-obs-scenes
+          - name: Sources
+            link: commands/obs-sources
+            collection: commands-obs-sources
+          - name: Streaming
+            link: commands/obs-streaming
+            collection: commands-obs-streaming
+    - name: Objects
+      link: commands/object
+      collection: commands-object
+    - name: Sound Effects
+      link: commands/sounds
+      collection: commands-sounds
+    - name: Statements & Loops
+      link: commands/statements 
+      collection: commands-statements
+    - name: Strings
+      link: commands/string
+      collection: commands-string
+    - name: Trigger methods
+      link: commands/trigger
+      collection: commands-trigger 
+    - name: Twitch
+      subitems:
+          - name: Channel Point Rewards
+            link: commands/twitch-chpr
+            collection: commands-twitch-chpr
+          - name: Chat and Messages
+            link: commands/twitch-chat
+            collection: commands-twitch-chat 
+          - name: Information
+            link: commands/twitch-info
+            collection: commands-twitch-info   
+          - name: Miscellaneous
+            link: commands/twitch-misc
+            collection: commands-twitch-misc 
+          - name: Moderation
+            link: commands/twitch-moderation
+            collection: commands-twitch-moderation    
+          - name: Polls and Predictions
+            link: commands/twitch-polls
+            collection: commands-twitch-polls 
+    - name: Variables
+      link: commands/variables
+      collection: commands-variables
+    - name: Wait For/Until
+      link: commands/wait
+      collection: commands-wait 
+    - name: YouTube
+      link: commands/youtube
+      collection: commands-youtube
 - name: Triggers
   collection: triggers
 - name: Local API
