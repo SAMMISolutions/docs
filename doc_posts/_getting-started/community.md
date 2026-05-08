@@ -38,7 +38,6 @@ Written purely in `markdown`, *yay*!
 If you need support for SAMMI, you have several options available:
 1. Read this documentation. Use the search bar to find topics relevant to your question.
 2. Join the official [SAMMI Discord server](https://discord.sammi.solutions). Our knowledgeable members are ready to assist you!
-3. Become a member of our [subreddit](http://reddit.com/r/SAMMI). It's a new community, and we'd appreciate your help in growing it!
 
 {:class='mt-2 anchor-header'}
 ### Ways to Contribute
@@ -69,11 +68,6 @@ To add your own button example to a command in the [Commands]({{ "commands/varia
 6. Scroll down, provide a meaningful title (and optional description), and click "Propose changes."
 7. After the page reloads, click "Create pull request."
 8. Wait for approval for your example to appear live on the website.
-
-
-{:class='mt-2 anchor-header'}
-#### Submit Your Own Extension
-If you've created your own extension and want to share it with the community, you can [submit it](https://sammi.solutions/extensions/submit) directly from this website.
 
 #### Report a Bug
 To report a bug, the quickest way is to contact us via Discord. If a bug causes SAMMI Core to crash, you can also send us a crash log by clicking "Yes" and providing a comment in the crash log pop-up that appears after the crash.

@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Introduction
+title: Getting Started
 menu: Getting Started
 ---
 
-{%- assign index = site.getting-started | where: 'title', 'Introduction' | first-%}
+{%- assign index = site.getting-started | sort: "num" | first -%}
 
   <p>{{ index.content | markdownify }}</p> 
