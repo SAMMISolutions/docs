@@ -27,63 +27,37 @@
 </head>
 <body class="d-flex flex-column min-vh-100" data-bs-spy="scroll" data-bs-target="#TableOfContents" data-bs-offset="100">
 <header class="navbar navbar-expand-lg navbar-dark lb-navbar">
-  <nav class="container-xxl flex-wrap flex-lb-nowrap me-10" aria-label="Top Navigation">
-    <!-- brand -->
+  <nav class="container-xxl flex-wrap flex-lb-nowrap" aria-label="Top Navigation">
     <a class="navbar-brand p-0 me-2" href="/" aria-label="SAMMI">
-    <img src="{{ 'assets/favicon/sammi.png' | relative_url }}" width="35" height="35">
+      <img src="{{ 'assets/favicon/sammi.png' | relative_url }}" width="35" height="35">
     </a>
-    <!-- navbar toggler -->
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#lbNavbar" aria-controls="lbNavbar" aria-expanded="false" aria-label="Toggle navigation">
      <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" class="bi" fill="currentColor" viewBox="0 0 16 16">
      <path fill-rule="evenodd" d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"></path>
     </svg>
     </button>
-    <!-- navbar content start -->
     <div class="navbar-collapse collapse" id="lbNavbar">
-    <!-- menu items start -->
-    <ul class="navbar-nav flex-row flex-wrap pt-2 py-lg-0">
-      <li class="nav-item col-6 col-lg-auto">
-        <a class="nav-link p-2 {% if page.title == 'SAMMI Home' %} active {% endif %}" href="https://sammi.solutions">Home</a>
-      </li>
-      <li class="nav-item col-6 col-lg-auto">
-        <a class="nav-link p-2 active" href="https://sammi.solutions/docs" >Documentation</a>
-      </li>
-      <li class="nav-item col-6 col-lg-auto">
-        <a class="nav-link p-2 {% if page.title == 'Extensions' or page.nav == 'Extensions' %} active {% endif %}" href="https://sammi.solutions/extensions">Extensions</a>
-      </li>
-      <li class="nav-item col-6 col-lg-auto">
-        <a class="nav-link p-2 {% if page.title == 'Donate' %} active {% endif %}" href="https://sammi.solutions/donate">Support Us</a>
-      </li>
-    </ul>
-    <!-- menu items end -->
-      <hr class="d-lg-none text-white-50">
-      <!-- social media start-->
-      <ul class="navbar-nav flex-row flex-wrap ms-lg-auto">
+      <ul class="navbar-nav flex-row flex-wrap pt-2 py-lg-0">
+        <li class="nav-item col-6 col-lg-auto">
+          <a class="nav-link p-2 {% if page.title == 'SAMMI Home' %} active {% endif %}" href="https://sammi.solutions">Home</a>
+        </li>
+        <li class="nav-item col-6 col-lg-auto">
+          <a class="nav-link p-2 active" href="https://sammi.solutions/docs">Documentation</a>
+        </li>
+        <li class="nav-item col-6 col-lg-auto">
+          <a class="nav-link p-2 {% if page.title == 'Extensions' or page.nav == 'Extensions' %} active {% endif %}" href="https://sammi.solutions/extensions">Extensions</a>
+        </li>
+        <li class="nav-item col-6 col-lg-auto">
+          <a class="nav-link p-2 {% if page.title == 'Donate' %} active {% endif %}" href="https://sammi.solutions/donate">Support Us</a>
+        </li>
       </ul>
-      <!-- social media end --> 
-    <!-- dark mode switch and download button --> 
-    <div class="form-check form-switch" id="darkSwitchDiv">
-      <label class="form-check-label" for="DarkModeSwitch"></label>
-    </div>
-    <!-- create dark mode switch checkbox --> 
-    <script>
-      const darkSwitch = document.createElement('input');
-      darkSwitch.setAttribute('class', 'form-check-input');
-      darkSwitch.setAttribute('id', 'DarkModeSwitch');
-      darkSwitch.setAttribute('type', 'checkbox');
-      darkSwitch.checked = true;
-      document.documentElement.setAttribute('data-theme', 'dark');
-      document.body?.setAttribute('data-theme', 'dark');
-      const schemeStyle = document.getElementById('scheme');
-      if (schemeStyle) schemeStyle.textContent = ':root{color-scheme:dark}';
-      try { localStorage.setItem('scheme', 'dark'); } catch (error) {}
-      if (darkSwitchDiv) darkSwitchDiv.prepend(darkSwitch);
-    </script>
-    <a class="btn btn-lb-download d-lg-inline-block my-2 my-lg-0 ms-lg-3" href="https://discord.gg/dXez8Zh">Join Discord</a>
-    <a class="btn btn-lb-download d-lg-inline-block my-2 my-lg-0 ms-lg-2" href="https://sammi.solutions/docs/download">Download</a>
+      <hr class="d-lg-none text-white-50">
+      <div class="navbar-actions d-flex flex-column flex-lg-row align-items-stretch align-items-lg-center gap-2 ms-lg-auto">
+        <a class="btn btn-lb-download d-lg-inline-block my-1 my-lg-0" href="https://discord.gg/dXez8Zh">Join Discord</a>
+        <a class="btn btn-lb-download d-lg-inline-block my-1 my-lg-0" href="https://sammi.solutions/docs/download">Download</a>
+      </div>
     </div>
    </nav>
-   <!-- navbar content end -->
 
 </header>
 
