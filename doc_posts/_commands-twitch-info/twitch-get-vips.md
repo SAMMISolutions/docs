@@ -24,4 +24,4 @@ data[`0-?`]|Object|contains info for a VIP
 data[`0-?`].user_id|String|The user's ID
 data[`0-?`].user_login|String|The user's login name
 data[`0-?`].user_name|String|The user's display name
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}

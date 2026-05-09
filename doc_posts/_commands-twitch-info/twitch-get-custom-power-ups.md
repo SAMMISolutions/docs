@@ -6,13 +6,26 @@ redirect_from:
   - commands/355
 ---
 
-Gets the custom Power-ups available for a Twitch channel and saves the result returned by Twitch.
+Gets the custom Power-ups available for a Twitch channel and saves the full response object returned by Twitch.
+
+If **Channel Name** is empty, SAMMI uses the default Twitch account. If Twitch is not connected, the channel cannot be resolved, or the request fails, the saved variable is set to `undefined`.
+
+{% include async.html %}
 
 | Box Name | Type | Description |
 |-------|--------|--------
-|Channel Name|Twitch Account|Twitch channel to fetch custom Power-ups from.
-|Save Variable As|String|Variable name to save the result.
+|Channel Name|Twitch Account|Twitch channel to fetch custom Power-ups from. Leave empty to use the default Twitch account.
+|Save Variable As|String|Variable name to save the response object.
 {:class='table table-primary'}
+
+**Response Data:**
+
+| Variable Name | Type | Description |
+|---------------|------|-------------|
+data|Array|Array of custom Power-up objects returned by Twitch.
+data[`0-?`]|Object|A single custom Power-up object.
+pagination|Object|Pagination information returned by Twitch, if available.
+{:class='table table-secondary w-auto table-hover text-break'}
 
 Example:
 
@@ -23,4 +36,4 @@ Example:
 
 After running the command, you can use other object/array commands to inspect the returned data, such as reading the first Power-up name or ID from the saved result.
 
-{% include alert.html text="This command requires a Twitch account with the required permissions connected to SAMMI." type="info" %}
+{% include alert.html text="Requires the <code>bits:read</code> and <code>user:read:email</code> Twitch scopes for the selected channel/account." type="info" %}

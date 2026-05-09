@@ -6,8 +6,10 @@ redirect_from:
   - commands/293
 ---
 
-Updates a channel's information, such as title, language, tags.
+Updates a channel's information, such as category, title, language, and tags.
 Leave a box blank to not update that information. Requires at least 1 field to update.
+
+If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
@@ -17,3 +19,5 @@ Language|Dropdown|The [ISO 639-1 2 letter language code](https://en.wikipedia.or
 Title|String|Title of the stream
 Tags|Stringified array|Tags to apply to the channel, as a stringified array (`["Tag1", "Tag2"]`)
 {:class='table table-primary'}
+
+{% include alert.html text="Requires the <code>channel:manage:broadcast</code> Twitch scope." type="info" %}

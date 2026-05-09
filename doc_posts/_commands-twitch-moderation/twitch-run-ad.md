@@ -24,4 +24,6 @@ Returns an object with the following variables:
 length|number|Duration of the commercial, in seconds
 message|string|A message that indicates whether Twitch was able to serve an ad
 retry_after|number|The number of seconds you must wait before running another ad.
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}
+
+{% include alert.html text="If <strong>Channel Name</strong> is empty, SAMMI uses the default Twitch account. The saved result is set to <code>undefined</code> if Twitch rejects the ad request." type="info" %}

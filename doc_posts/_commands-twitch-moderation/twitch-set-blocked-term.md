@@ -6,10 +6,14 @@ redirect_from:
   - commands/315
 ---
 
-Sets a new term to be blocked.
+Adds a new blocked term to the specified Twitch channel.
+
+If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
 Channel|String|Channel name to add new blocked term
 Term|String|New term to be blocked
 {:class='table table-primary'}
+
+{% include alert.html text="Requires the <code>moderator:manage:blocked_terms</code> Twitch scope." type="info" %}

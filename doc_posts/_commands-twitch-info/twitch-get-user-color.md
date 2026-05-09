@@ -22,4 +22,4 @@ color|string|Hex code for the colour of the specified user's name
 user_id|String|The user's ID
 user_login|String|The user's login name
 user_name|String|The user's display name
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}

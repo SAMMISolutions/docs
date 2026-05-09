@@ -9,8 +9,12 @@ redirect_from:
 Enabling this setting prevents users from posting non-unique messages to the channel.\
 It can be used to combat spam so that users cannot send the same things in chat multiple times.
 
+If **Channel** is empty, SAMMI uses the default Twitch account.
+
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Channel | Dropdown |The Twitch channel the command will be used for.
 |Enabled|Choice|Enabled: Turns the setting on. Disabled: Turns the setting off.
 {:class='table table-primary'}
+
+{% include alert.html text="Requires the <code>moderator:manage:chat_settings</code> Twitch scope." type="info" %}

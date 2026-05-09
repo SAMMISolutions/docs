@@ -32,4 +32,4 @@ data[`0-?`].moderator_login|String|The moderator's login name
 data[`0-?`].moderator_name|String|The moderator's display name
 pagination|Object|Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.
 pagination.cursor|String|The cursor used to get the next page of results. Use the cursor to set the request’s after query parameter using Twitch API Call. 
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}

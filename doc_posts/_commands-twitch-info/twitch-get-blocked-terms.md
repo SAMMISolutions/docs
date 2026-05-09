@@ -28,4 +28,4 @@ default[`0-?`].id|String|The blocked term's unique identifier
 default[`0-?`].moderator_id|String|The ID of the moderator who added the blocked term
 default[`0-?`].text|String|The blocked term itself!
 default[`0-?`].updated_at|String|The UTC date and time, in RFC3339 format, of when the blocked term was updated.
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}

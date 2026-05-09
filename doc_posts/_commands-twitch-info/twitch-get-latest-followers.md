@@ -27,4 +27,4 @@ data[`0-?`].user_id|String|The user's ID
 data[`0-?`].user_login|String|The user's login name
 data[`0-?`].user_name|String|The user's display name
 data[`0-?`].followed_at|String|The UTC date and time, in RFC3339 format, of when the user followed
-{:class='table table-secondary table-hover data-toggle='table' text-break }
+{:class='table table-secondary table-hover text-break'}

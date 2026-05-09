@@ -6,8 +6,8 @@ redirect_from:
   - commands/292
 ---
 
-Sets the colour of your username in all chat rooms to one of the 15 default colours.
-For Turbo/Prime members who can set any colour, use the button at the bottom of the section.
+Sets the color of your username in all chat rooms to one of the default Twitch colors.
+For Turbo/Prime members who can set any color, use the button at the bottom of the section.
 <br>To get a user's current color, use [Get User Color]({{ "commands/twitch-info#getusercolor" | relative_url }})
 
 | Box Name | Type | Description | 
@@ -15,5 +15,7 @@ For Turbo/Prime members who can set any colour, use the button at the bottom of 
 Login Name | Dropdown |The name of the channel to use for authentication in the API Header
 Color|Dropdown|List of the standard colours that Twitch offers for all users.
 {:class='table table-primary'}
+
+{% include alert.html text="Requires the <code>user:manage:chat_color</code> Twitch scope." type="info" %}
 
 {% include example_public.html src="/docs/assets/images/commands-twitch-moderation/twitchSetColor_Ex.png" size="100" title="Button to change Twitch username colour to a specified hex code" pastebin="jcbE1Zz5" %}

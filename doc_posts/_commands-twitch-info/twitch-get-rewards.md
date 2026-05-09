@@ -20,4 +20,4 @@ Save Variable As|String|Variable to save the result
 | Chat Message Example | Description |
 |-------|--------|--------
 data|Object array|Array of objects containing A LOT of info
-{:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+{:class='table table-secondary w-auto table-hover text-break'}

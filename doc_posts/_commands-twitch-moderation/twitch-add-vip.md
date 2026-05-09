@@ -6,10 +6,14 @@ redirect_from:
   - commands/284
 ---
 
-Promotes a user to VIP. To demote a VIP, use the Remove VIP command below.
+Promotes a user to VIP in the specified Twitch channel. To remove VIP status, use [Remove VIP]({{ "commands/twitch-remove-vip" | relative_url }}).
+
+If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
 Channel|String|The channel to promote the specified user in
 User Name|String|The username of the person to be promoted
 {:class='table table-primary'}
+
+{% include alert.html text="Requires the <code>channel:manage:vips</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
