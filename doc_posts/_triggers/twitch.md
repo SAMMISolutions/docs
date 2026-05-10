@@ -34,7 +34,8 @@ The message field comes with a prefilled `*`, which means it will allow ALL chat
 | Founder | Triggers only if the viewer has founders badge. |
 Message | Chat message to listen to. Must be an exact match. Can include **[Wild Cards](introduction#wildcards)**. |
 | Username | Triggers only if the viewer's username who sent the chat message matches the one in the box. Must be an exact match. Does NOT accept wild cards. Case insensitive. |
-| Case Sensitive | If the user message trigger should be case sensitive
+| Case Sensitive | If the user message trigger should be case sensitive.
+| Only Trigger in own Chat | If the user message should only be triggered in your own chat and not in the shared chat.
 {:class='table table-primary' }
 
 {% include alert.html text="If two or more conditions are checked (such as Mod and Sub), <b>all</b> conditions must be met (user must be a mod and a subscriber). Create separate chat triggers for multiple conditions." type="warning" %}
