@@ -36,7 +36,7 @@ There is an array that lists all Trigger Types in the Global Variables section o
 |11|Twitch Moderation|
 |12|Extension Trigger|
 |13|Twitch Whispers|
-|14|Twitch Host|
+|14|Twitch Host `DEPRECATED`|
 |15|Twitch Prediction|
 |16|Twitch Poll|
 |17|Twitch Hype Train|
@@ -51,4 +51,25 @@ There is an array that lists all Trigger Types in the Global Variables section o
 |26|Webhook Trigger|
 |27|Twitch Low Trust Users|
 |28|Twitch Shoutout|
+|29|SAMMI Voice|
+|30|Crowd Control|
+|31|Voicemod|
+|32|Pulsoid|
+|33|Ad Break|
+|34|Twitch Charity|
+|35|Twitch Announcement|
+|36|Twitch Guest Star|
+|37|Twitch Shoutout Received|
+|38|Twitch Stream|
+|39|Elgato Stream Deck|
+|40|Twitch Automatic Reward Redemption|
+|41|Twitch Channel Update|
+|42|Gamepad|
+|43|Twitch Watch Streak|
+|44|Twitch Default PowerUp|
+|45|Twitch Custom EventSub Subscription|
+|46|Twitch EventSub Status|
+|47|Twitch Combo|
+|48|Twitch Extension|
+|49|Twitch Custom PowerUp|
 {:class='table table-secondary w-auto table-hover text-break' }
