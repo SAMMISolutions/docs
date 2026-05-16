@@ -27,6 +27,7 @@ Example using `C:/SAMMI/files/example.txt`:
 |File Size|fileSize|1428
 |Created Date|createdDate|2026-05-08 13:42:10
 |Modified Date|modifiedDate|2026-05-08 14:05:31
+|Duration|fileDuration|Duration returned by the SAMMI_V2.dll helper, if the file type supports it.
 {:class='table table-secondary w-auto table-hover text-break'}
 
-Returned date formats may depend on the system and the SAMMI_V2.dll helper used by the command.
+Returned date and duration formats may depend on the system and the SAMMI_V2.dll helper used by the command.

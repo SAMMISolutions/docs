@@ -18,18 +18,20 @@ Generates a leaderboard from a section inside an INI file and saves the result a
 |Save Variable As|String|Variable name to save the result into.
 |Output As Array|Checkbox|If checked, the leaderboard is saved as an array (list) instead of a single string.
 |Sort Ascending|Checkbox|If checked, entries are sorted ascending; otherwise descending.
+|Max|Number|Optional maximum amount of leaderboard entries to return. Leave empty to return all entries.
 {:class='table table-primary'}
 
 Behavior:
 - SAMMI reads the specified INI section and builds a list of key/value pairs.
 - Values that parse as numbers are ranked numerically; non-numeric values are ranked lexicographically (case-insensitive).
 - If multiple entries share the same value they share the higher rank. For example, if two entries tie for first place they both receive rank `1`; the next entry receives rank `3`.
+- If `Max` is set, only the top amount of entries are returned after sorting and ranking.
 - If `Output As Array` is enabled the command saves a list of formatted lines; otherwise it saves a single newline-separated string.
 
 Format placeholders:
-- `{Rank}` — the rank number
-- `{Key}` — the INI key name
-- `{Value}` — the value string from the INI
+- `{Rank}` - the rank number
+- `{Key}` - the INI key name
+- `{Value}` - the value string from the INI
 
 Examples:
 

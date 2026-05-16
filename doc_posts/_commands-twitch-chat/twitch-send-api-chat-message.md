@@ -17,7 +17,12 @@ Sends a message to your Twitch chat from your default account that is connected 
 |Chat Message|String | The message to be sent over the chat.|
 |From|String|The channel you want to send messages from.
 |Channel Name |String| Channel Name (all lowercase) to send the message to. Leave blank unless you have multiple accounts connected to SAMMI.
+|Pin Message|Checkbox|If checked, the message is sent and pinned for 20 minutes.
 {:class='table table-primary'}
+
+{% include alert.html text="Pin Message requires the <code>moderator:manage:chat_messages</code> Twitch scope. If Twitch cannot pin the message, the message will not be sent." type="info" %}
+
+For more information, see the [Twitch API Reference Guide for Send Chat Message](https://dev.twitch.tv/docs/api/reference/#send-chat-message).
 
 
 

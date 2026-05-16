@@ -18,6 +18,7 @@ Use `default` as the value in a Case Statement if you want to execute an action 
 | Box Name | Type | Description | 
 |-------|--------|--------|
 | Value| {% include asterisk.html%}	 | Expression to evaluate. Its result will be matched against each case you add.
+|Case Insensitive|Checkbox|If checked, string case values ignore uppercase/lowercase differences. Numbers and booleans are not affected.
 {:class='table table-primary' }
 
 1. Add a new Switch Statement command
