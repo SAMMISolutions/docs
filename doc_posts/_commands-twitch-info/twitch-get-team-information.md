@@ -17,7 +17,7 @@ Team Name|String|The internal Twitch team name to get information for.
 Save Variable As|String|Variable name to save the team info object.
 {:class='table table-primary'}
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

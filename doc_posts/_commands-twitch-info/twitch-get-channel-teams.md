@@ -18,7 +18,7 @@ Channel|Twitch Account|Channel name to get teams for. Leave empty to use the def
 Save Variable As|String|Variable name to save the teams array.
 {:class='table table-primary'}
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

@@ -21,7 +21,7 @@ If your SAMMI crashes with an error log relating to this command, make sure you 
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |-------|--------|--------

@@ -17,4 +17,12 @@ If **Login Name** is empty, SAMMI uses the default Twitch account. If Twitch is 
 |Save Variable As|String|Variable name to save the subscriber count.
 {:class='table table-primary'}
 
+**Saved Value:**
+
+| Value | Type | Description |
+|-------|------|-------------|
+|savedVariable|Number|Total subscriber count returned by Twitch (`total`).|
+|undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, the required scope is missing, or the request fails.|
+{:class='table table-secondary w-auto table-hover text-break'}
+
 {% include alert.html text="Requires the <code>channel:read:subscriptions</code> Twitch scope." type="info" %}

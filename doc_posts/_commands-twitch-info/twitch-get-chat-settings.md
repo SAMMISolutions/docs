@@ -17,7 +17,21 @@ Channel|String|Channel name to get the chat settings for
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
-| Chat Message Example | Description |
-|-------|--------|--------
-data|Object array|Array of objects containing A LOT of info
+**Saved Payload:**
+
+SAMMI saves the first chat settings object returned by Twitch (`data[0]`).
+
+| Variable Name | Type | Description |
+|-------|--------|--------|
+broadcaster_id|String|Twitch User ID of the broadcaster.
+moderator_id|String|Twitch User ID of the moderator account used for the request.
+emote_mode|Boolean|Whether emote-only mode is enabled.
+follower_mode|Boolean|Whether follower-only mode is enabled.
+follower_mode_duration|Number|Minimum follow duration in minutes, if follower-only mode is enabled.
+slow_mode|Boolean|Whether slow mode is enabled.
+slow_mode_wait_time|Number|Slow mode wait time in seconds, if slow mode is enabled.
+subscriber_mode|Boolean|Whether subscriber-only mode is enabled.
+unique_chat_mode|Boolean|Whether unique chat mode is enabled.
+non_moderator_chat_delay|Boolean|Whether non-moderator chat delay is enabled.
+non_moderator_chat_delay_duration|Number|Chat delay duration in seconds, if enabled.
 {:class='table table-secondary w-auto table-hover text-break'}

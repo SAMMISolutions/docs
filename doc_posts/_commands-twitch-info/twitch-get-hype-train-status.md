@@ -18,7 +18,7 @@ For more information on what the response contains, check out the Response Body 
 |Save Variable As|String|Variable name to save the response as.
 {:class='table table-primary'}
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

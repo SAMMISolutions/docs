@@ -19,7 +19,7 @@ Channel|Twitch Account|Channel name to get shared chat info from. Leave empty to
 Save Variable As|String|Variable name to save the shared chat session object.
 {:class='table table-primary'}
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

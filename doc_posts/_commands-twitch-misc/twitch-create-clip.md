@@ -18,6 +18,14 @@ For more information on creating clips, check out the [Twitch API Reference Guid
 |Save Variable As (optional)|String|Variable to save your newly created clip ID.
 {:class='table table-primary'}
 
+**Saved Value:**
+
+| Value | Type | Description |
+|-------|------|-------------|
+|savedVariable|String|ID of the newly created clip (`data[0].id`).|
+|undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, required scopes are missing, Twitch returns an empty response, or the request fails.|
+{:class='table table-secondary w-auto table-hover text-break'}
+
 {% include alert.html text="Requires the <code>clips:edit</code> Twitch scope." type="info" %}
 
 

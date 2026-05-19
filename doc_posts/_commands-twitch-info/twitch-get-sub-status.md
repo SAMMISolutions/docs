@@ -21,7 +21,7 @@ Returns an empty object if the user is not subscribed.
 
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description | 
 |-------|--------|--------

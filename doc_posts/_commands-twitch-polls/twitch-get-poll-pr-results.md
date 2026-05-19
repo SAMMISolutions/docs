@@ -20,7 +20,7 @@ Gets the result of a poll or prediction. Must provide its ID which can be retrie
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
 
-**Response fields for polls:**
+**Saved Poll Payload:**
 
 <div style="height: 40vh; overflow-y: auto" markdown="1">
 
@@ -49,7 +49,7 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 
 </div>
  <br/>
-**Response fields for predictions:**
+**Saved Prediction Payload:**
 
 <div style="height: 40vh; overflow-y: auto" markdown="1">
 

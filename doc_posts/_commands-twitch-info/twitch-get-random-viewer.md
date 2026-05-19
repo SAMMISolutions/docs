@@ -18,4 +18,12 @@ Channel|Twitch Account|Channel name to get a random chatter from. Leave empty to
 Save Variable As|String|Variable name to save the viewer display name.
 {:class='table table-primary'}
 
+**Saved Value:**
+
+| Value | Type | Description |
+|-------|------|-------------|
+|savedVariable|String|Display name (`user_name`) of one randomly selected chatter from the first 1000 chatters returned by Twitch.|
+|undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, no chatters are returned, required scopes are missing, or the request fails.|
+{:class='table table-secondary w-auto table-hover text-break'}
+
 {% include alert.html text="Requires the <code>moderator:read:chatters</code> and <code>user:read:email</code> Twitch scopes for the selected channel/account." type="info" %}

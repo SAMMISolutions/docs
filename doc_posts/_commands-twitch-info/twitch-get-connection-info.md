@@ -16,7 +16,15 @@ Save Variable As| String | Variable to save the result
 Type | Dropdown |  Value to get. User ID, OAuth token, Login Name or Display Name
 {:class='table table-primary'}
 
+**Saved Value:**
 
+| Type Selection | Saved Type | Description |
+|-------|------|-------------|
+|User ID|String|The connected Twitch account's user ID.|
+|OAuth Token|String|The connected Twitch account's OAuth token.|
+|Login Name|String|The connected Twitch account's login name.|
+|Display Name|String|The connected Twitch account's display name.|
+{:class='table table-secondary w-auto table-hover text-break'}
 
 
 

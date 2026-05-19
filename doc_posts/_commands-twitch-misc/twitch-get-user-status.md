@@ -21,3 +21,12 @@ Available status types:
 |Type|Dropdown|Use the dropdown menu to choose the status type.
 |Save Variable As|String|Name of the variable to save the response as.
 {:class='table table-primary'}
+
+**Saved Value:**
+
+| Value | Type | Description |
+|-------|------|-------------|
+|true|Boolean|The selected user has the requested status for the selected channel.|
+|false|Boolean|The selected user does not have the requested status for the selected channel.|
+|undefined|Undefined|Saved if Twitch is not connected, the channel/user cannot be resolved, required scopes are missing, or the request fails.|
+{:class='table table-secondary w-auto table-hover text-break'}

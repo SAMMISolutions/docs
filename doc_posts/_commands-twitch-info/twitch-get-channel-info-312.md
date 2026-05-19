@@ -21,7 +21,7 @@ Gets specified channel information.
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command.
 
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description | 
 |-------|--------|--------

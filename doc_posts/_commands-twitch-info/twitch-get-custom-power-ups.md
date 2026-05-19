@@ -18,7 +18,7 @@ If **Channel Name** is empty, SAMMI uses the default Twitch account. If Twitch i
 |Save Variable As|String|Variable name to save the response object.
 {:class='table table-primary'}
 
-**Response Data:**
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

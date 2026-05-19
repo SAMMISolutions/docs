@@ -7,6 +7,8 @@ redirect_from:
 
 Changes speed of your currently playing sound effect. Provide its ID that you set up in Play Sound Effect command.
 
+This works the same for sound effects played on a specific Audio Device. SAMMI adjusts the playback speed while keeping the original pitch as stable as possible.
+
 | Box Name | Type | Description | 
 |-------|--------|--------|
 |Sound ID|String|Sound Effect ID

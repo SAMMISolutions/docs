@@ -21,7 +21,7 @@ Gets information about an active stream.
 You can access the response object's data by using [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command. 
 
 
-**Response Data:**
+**Saved Payload:**
 
 <div style="height: 40vh; overflow-y: auto" markdown="1">
 

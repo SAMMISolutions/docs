@@ -17,4 +17,17 @@ For more information on the response object, see the [Twitch API Reference Guide
 |Save Variable As|String|Variable name to save the pinned message object. Saves `undefined` if no pinned message exists.
 {:class='table table-primary'}
 
+**Saved Payload:**
+
+SAMMI saves the first pinned message object returned by Twitch (`data[0]`).
+
+| Variable Name | Type | Description |
+|-------|--------|--------|
+message_id|String|ID of the pinned chat message.
+created_at|String|Time in Twitch format when the message was pinned.
+updated_at|String|Time in Twitch format when the pinned message was last updated.
+expires_at|String|Time in Twitch format when the pin expires, if Twitch returns one.
+duration_seconds|Number|Pin duration in seconds, if Twitch returns one.
+{:class='table table-secondary w-auto table-hover text-break'}
+
 {% include alert.html text="Requires the <code>moderator:read:chat_messages</code> or <code>moderator:manage:chat_messages</code> Twitch scope." type="info" %}

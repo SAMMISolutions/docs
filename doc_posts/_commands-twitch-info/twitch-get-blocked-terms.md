@@ -16,6 +16,7 @@ Channel|String|Channel name to get blocked terms of
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
+**Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|

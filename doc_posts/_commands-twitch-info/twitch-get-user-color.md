@@ -16,8 +16,10 @@ Login Name | Dropdown |The name of the channel to use for authentication in the 
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
-| Chat Message Example | Description |
-|-------|--------|--------
+**Saved Payload:**
+
+| Variable Name | Type | Description |
+|-------|--------|--------|
 color|string|Hex code for the colour of the specified user's name
 user_id|String|The user's ID
 user_login|String|The user's login name

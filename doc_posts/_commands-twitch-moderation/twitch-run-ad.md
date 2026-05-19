@@ -17,7 +17,7 @@ Duration|number|Requested length of commercial, in seconds. May result in a diff
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
-Returns an object with the following variables:
+**Saved Payload:**
 
 | Variable name | Type | Description |
 |-------|--------|--------

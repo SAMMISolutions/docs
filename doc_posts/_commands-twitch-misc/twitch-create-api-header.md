@@ -16,7 +16,7 @@ Login Name | Dropdown |The name of the channel to use for authentication in the 
 Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
-Returned object contains the following variables:
+**Saved Payload:**
 
 | Variable | Type | Contents |
 |-------|--------|--------
