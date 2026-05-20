@@ -17,3 +17,6 @@ Pauses a button execution and shows a dialog with custom options. Once the user 
 |Save Variable As|String|Variable name to save the selected option.
 {:class='table table-primary'}
 
+{% include image.html w="100" src="wait-for-dialog-command.png" alt="Wait for Dialog command setup" %}
+
+{% include image.html w="75" src="wait-for-dialog-popup.png" alt="Wait for Dialog popup with selectable options" %}
