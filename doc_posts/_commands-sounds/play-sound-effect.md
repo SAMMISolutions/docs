@@ -3,6 +3,7 @@ title: "Play Sound Effect"
 num: 1
 redirect_from:
   - commands/2
+  - commands/obs-sound-play
 ---
 
 Plays a selected audio file using SAMMI's sound effect system.
