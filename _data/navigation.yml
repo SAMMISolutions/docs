@@ -39,6 +39,9 @@ main:
     - name: Introduction
       link: commands/introduction
       collection: commands-introduction
+    - name: Meld
+      link: commands/meld
+      collection: commands-meld
     - name: Miscellaneous
       link: commands/misc
       collection: commands-misc

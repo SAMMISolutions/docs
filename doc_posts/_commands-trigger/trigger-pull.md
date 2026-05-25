@@ -72,4 +72,7 @@ There is an array that lists all Trigger Types in the Global Variables section o
 |47|Twitch Combo|
 |48|Twitch Extension|
 |49|Twitch Custom PowerUp|
+|50|Meld Trigger|
 {:class='table table-secondary w-auto table-hover text-break' }
+
+For Meld Trigger payload values, use [Meld: Event Pull]({{ "commands/meld#meldeventpull" | relative_url }}). Meld Trigger still exposes `trigger_type` through this command, and the numerical value is `50`.

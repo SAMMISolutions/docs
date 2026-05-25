@@ -43,6 +43,36 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>Extensions</code>" %}| Object | Shows all currently installed extensions in Bridge connected to SAMMI. 
 {:class='table table-secondary w-auto table-hover text-break' }
 
+**Meld Variables**
+
+These variables are updated by the Meld Studio connection. SAMMI stores Meld state in the `Meld` object.
+
+| Variable | Type | Explanation|
+|-------|--------|--------|
+{% include selectAll.html text="<code>Meld</code>" %}| Object | Contains the current Meld Studio connection and session status. |
+{% include selectAll.html text="<code>Meld.connected</code>" %}| Boolean | True if SAMMI is connected to Meld Studio. |
+{% include selectAll.html text="<code>Meld.webchannelReady</code>" %}| Boolean | True if Meld's WebChannel API has finished initializing. |
+{% include selectAll.html text="<code>Meld.ip</code>" %}| String | IP address used by the Meld connection. |
+{% include selectAll.html text="<code>Meld.port</code>" %}| Number | Port used by the Meld WebChannel connection. |
+{% include selectAll.html text="<code>Meld.isStreaming</code>" %}| Boolean | True if Meld is currently streaming. |
+{% include selectAll.html text="<code>Meld.isRecording</code>" %}| Boolean | True if Meld is currently recording. |
+{% include selectAll.html text="<code>Meld.isReplayBufferActive</code>" %}| Boolean | True if Meld's replay buffer is currently active. |
+{% include selectAll.html text="<code>Meld.streamTime</code>" %}| String | Meld stream timer value, if provided by Meld. |
+{% include selectAll.html text="<code>Meld.recordingTime</code>" %}| String | Meld recording timer value, if provided by Meld. |
+{% include selectAll.html text="<code>Meld.version</code>" %}| String | Meld version, if provided by Meld. |
+{% include selectAll.html text="<code>Meld.currentScene</code>" %}| String | Name of the current Meld scene. |
+{% include selectAll.html text="<code>Meld.currentSceneId</code>" %}| String | ID of the current Meld scene. |
+{% include selectAll.html text="<code>Meld.stagedScene</code>" %}| String | Name of the currently staged Meld scene. |
+{% include selectAll.html text="<code>Meld.stagedSceneId</code>" %}| String | ID of the currently staged Meld scene. |
+{% include selectAll.html text="<code>Meld.previousScene</code>" %}| String | Previous Meld scene name. Empty until SAMMI has observed a scene change. |
+{% include selectAll.html text="<code>Meld.previousSceneId</code>" %}| String | Previous Meld scene ID. Empty until SAMMI has observed a scene change. |
+{% include selectAll.html text="<code>Meld.sceneCount</code>" %}| Number | Number of scenes reported by the current Meld session. |
+{% include selectAll.html text="<code>Meld.layerCount</code>" %}| Number | Number of layers reported by the current Meld session. |
+{% include selectAll.html text="<code>Meld.trackCount</code>" %}| Number | Number of tracks reported by the current Meld session. |
+{% include selectAll.html text="<code>Meld.effectCount</code>" %}| Number | Number of effects reported by the current Meld session. |
+{% include selectAll.html text="<code>Meld.lastSignal</code>" %}| String | Last Meld WebChannel signal received by SAMMI. |
+{:class='table table-secondary w-auto table-hover text-break' }
+
 **Twitch Variables**
 
 | Variable | Type | Explanation|

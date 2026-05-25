@@ -97,6 +97,11 @@ defaults:
     parent: Miscellaneous
     backlink: misc
 - scope:
+    path: doc_posts/_commands-meld
+  values:
+    parent: Meld
+    backlink: meld
+- scope:
     path: doc_posts/_commands-mouse-kb
   values:
     parent: Mouse & Keyboard
@@ -330,6 +335,8 @@ collections:
   commands-button:
     output: true
   commands-misc:
+    output: true
+  commands-meld:
     output: true
   commands-obs-general:
     output: true

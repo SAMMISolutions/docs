@@ -48,6 +48,8 @@ SAMMI Core is the main SAMMI component. You can change all the settings, add and
 - **Copy Deck** - exports the entire deck to your clipboard in JSON format to share with other users, you can include all deck button images as well
 - **Paste Deck** - imports the entire deck from your clipboard, must be in JSON format
 - **Duplicate Deck** - creates a copy of the entire deck inside SAMMI
+- **Deck Folders** - drag one deck onto another to create a folder, or drag decks/folders to reorder them. Folders are stored separately from deck JSON files, so they do not modify the decks themselves.
+- **Deck Search** - SAMMI Pro users can filter decks and folders from the main screen search bar.
 
 ### SAMMI Panel Menu
 {% include image.html w="75" src="PanelMenu.PNG" alt="SAMMI Panel" %}
@@ -83,9 +85,11 @@ Press to open the About page, with info about the developers, and Patreon suppor
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
 
 - **Main OBS** - indicates whether SAMMI Core is connected to your main OBSWS 
-- **Twitch Pubsub** - indicated whether SAMMI Core is connected to Twitch Pubsub for listening to events such as new followers, subscribers, channel point redeems etc.
+- **Meld Studio** - indicates whether SAMMI Core is connected to Meld Studio's WebChannel API
+- **Twitch Eventsub** - indicates whether SAMMI Core is connected to Twitch EventSub for listening to Twitch events
 - **Twitch Chat** - indicates whether SAMMI Core is connected to Twitch Chat for listening to and sending new Twitch Chat messages
 - **Bridge** - indicates whether SAMMI Core is connected to Bridge, required for some extensions and for testing Twitch/YouTube triggers
+- **SAMMI Pro** - indicates whether SAMMI Pro features are active for the current account
 
 ### Settings
 Allows you to adjust general SAMMI settings. 
@@ -121,6 +125,7 @@ Allows you to adjust general SAMMI settings.
 #### UI Settings
 - **FPS**: SAMMI Core functions like a game and runs at a specific FPS, affecting features like OBS Motion Commands. Set this to match your stream FPS.
 - **Interface Size**: Adjust the scaling for non-standard resolutions.
+- **Show Button Borders**: Shows configured button borders inside the SAMMI Core UI. Deck Apps still receive and display the actual button border values even if this is turned off.
 
 #### Other Settings
 - **Reset SAMMI**: Clears all active buttons and variables and reloads all decks.
@@ -180,6 +185,8 @@ If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core
 Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
+
+You can organize large deck lists with deck folders. Drag a deck onto another deck to create a folder, drag more decks into an existing folder, and open the folder to view only the decks inside it. Use the Back tile or press `Esc` on the main screen to return to the full deck list.
 
 {% include alert.html text="If you want to back up your decks or share them with others, you can press <b>Copy Deck</b> in your main menu, which will copy it to your clipboard, and paste it into a text file." type="info" %}     
 
@@ -248,6 +255,7 @@ You can right on a button or press `CTRL + double click` to edit settings.
 - **Local Variable Persist**
    - checked - button variables will be accessible even after the button has finished. If Allow Button Overlap is enabled, all button executions will share the same variables.   
    - unchecked - button variables will be accessible only when the button is running and only inside their own button. Other buttons cannot access them even if the button is currently running. If Allow Button Overlap is enabled, unique variables will be created for each button execution and will never be shared.
+- **Expose Payload** - saves the trigger payload into a local `payload` object while the button is running. New buttons have this enabled by default; old buttons keep it disabled for compatibility.
 - **Press type** 
    - Normal Press - single button press
    - Drag Press - the button will trigger if dragged over. You can add either a single or multiple drag press (activates if it's dragged over again). Useful for creating your own volume buttons! 
@@ -271,6 +279,8 @@ Button commands have their own specific rules that you need to follow, read more
    
 Once you're done with adding commands, you can now run the button directly from the commands window - no more having to save back to the main screen and testing via a chat command or pressing the button on the deck!
 {% include alert.html text="Please be aware that any commands that involve wildcards or pulling info from the trigger may not work as intended if tested this way - for best results, test the same way you intend for it to be used." type="info" %} 
+
+SAMMI Pro users can select multiple command blocks, save them as command templates, and insert those templates later from the quickbar.
 
 See the list of all available commands in the **Commands** section.  
 

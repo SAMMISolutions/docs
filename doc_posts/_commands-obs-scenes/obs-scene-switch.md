@@ -7,7 +7,7 @@ redirect_from:
 
 Switches to the selected scene with normal transition.
 
-{% include alert.html text="Use premade <b>global.Main.current_scene</b> or <b>global.Main.previous_scene</b> variables to switch to your current or previous scene." type="info" %} 
+{% include alert.html text="The Scene dropdown includes <b>Current Scene</b> and <b>Previous Scene</b>. SAMMI resolves those at runtime from the selected OBS connection's <code>current_scene</code> and <code>previous_scene</code> values. You can still type a scene name manually." type="info" %}
 
 | Box Name | Type | Description | 
 |-------|--------|--------

@@ -17,6 +17,7 @@ When you use column/row numbers, keep in mind the numbers begin with 0,0. The le
 |Column Name/Number|{% include asterisk.html %}|Name or number of the column
 |Row Name/Number|{% include asterisk.html %}|Name or number of the row
 |Save Variable As|String|The variable to save the box value as
+|Save as Number|Checkbox|If checked, SAMMI tries to convert the returned CSV value into a number before saving it. If conversion fails, it saves the original value.
 {:class='table table-primary'}
 
 
