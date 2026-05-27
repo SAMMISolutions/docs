@@ -11,8 +11,7 @@ Returns a string indicating the type of the variable:
 - `"object"` for objects
 - `"array"` for arrays
 - `"boolean"` for boolean values
-- `"undefined"` for variables that aren't defined (do not exist)
-- `"null"` for null variables (sometimes retrieved from HTTP requests, cannot be manually created)
+- `"undefined"` for variables that aren't defined (do not exist) or for null values retrieved from HTTP requests
 
 | Box Name | Type | Description | 
 |-------|--------|--------|

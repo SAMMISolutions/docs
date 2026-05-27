@@ -33,3 +33,10 @@ SAMMI saves the full enabled EventSub subscriptions response returned by Twitch.
 |max_total_cost|Number|Maximum total subscription cost allowed by Twitch.
 |pagination|Object|Pagination data, if Twitch returns more pages.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/eventsub/subscriptions`
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| status | string | SAMMI filters by `enabled` to retrieve only active subscriptions. |
+{:class='table table-secondary w-auto table-hover text-break'}

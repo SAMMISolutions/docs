@@ -24,6 +24,10 @@ If you want to move a source from its current position, you can use the command 
 |Smooth|	Dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform` (called repeatedly each SAMMI frame)
+
+Sends `{"positionX": x, "positionY": y}` as `sceneItemTransform` on every frame. The position values follow a curved arc computed from the start/end coordinates and the **Curve %** parameter.
+
 
 
 

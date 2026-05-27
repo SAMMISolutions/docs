@@ -28,6 +28,22 @@ For more information on creating clips, check out the [Twitch API Reference Guid
 
 {% include alert.html text="Requires the <code>clips:edit</code> Twitch scope." type="info" %}
 
+**Twitch API Endpoint:** `POST /helix/clips`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster whose stream you want to create a clip from. |
+| has_delay | boolean | When `true`, adds a delay before the clip is captured (accounts for the typical stream delay). Default: `false`. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+**Response Fields:**
+
+| Response Field | Type | Description |
+|-------|--------|--------
+| data[0].id | string | The ID of the clip that was created. Saved as the command's output variable. |
+| data[0].edit_url | string | The URL of the Twitch webpage where the user can edit the clip. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -23,6 +23,18 @@ For more information on creating polls, check out the [Twitch API Reference Guid
 
 {% include alert.html text="Requires the <code>channel:manage:polls</code> Twitch scope." type="info" %}
 
+**Twitch API Endpoint:** `POST /helix/polls`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster creating the poll. |
+| title | string | Question displayed for the poll. Maximum: 60 characters. |
+| choices | array | Array of choice objects. Each must contain a `title` field (max 25 characters). Minimum 2, maximum 5 choices. |
+| duration | integer | Total duration for the poll in seconds. Minimum: 15, Maximum: 1800. |
+| channel_points_voting_enabled | boolean | Whether viewers can cast additional votes using Channel Points. |
+| channel_points_per_vote | integer | Number of Channel Points required to cast one additional vote. Minimum: 0, Maximum: 1,000,000. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

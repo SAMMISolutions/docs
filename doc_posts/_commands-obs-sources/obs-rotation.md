@@ -17,6 +17,15 @@ The center point of the rotation is based on the Positional Alignment option (so
 |Rotation Angle|Number  {% include asterisk.html%}	|Rotation angle to change the source to. `0` is normal, `180` is upside down, `360` is back normal
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Scene containing the source. |
+| sceneItemId | Number | Scene item ID resolved internally by SAMMI from the source name. |
+| sceneItemTransform | Object | `{"rotation": 90}` — rotation in degrees (0–360). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

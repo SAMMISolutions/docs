@@ -82,6 +82,18 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 
 </div>
 
+**Twitch API Endpoints:**
+
+`GET /helix/polls` — used when retrieving poll results.
+
+`GET /helix/predictions` — used when retrieving prediction results.
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster whose poll or prediction to look up. |
+| id | string | The ID of the specific poll or prediction to retrieve. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

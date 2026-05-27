@@ -30,8 +30,6 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>api_pw_enabled</code>" %}| Boolean | Returns true if SAMMI Local API server has a password.
 {% include selectAll.html text="<code>api_server_opened</code>" %}| Boolean | Returns true if SAMMI Local API server is running.
 {% include selectAll.html text="<code>bridge_connected</code>" %}| Boolean | True if connected, false if not connected.
-{% include selectAll.html text="<code>extensions</code>" %}| Object | Contains all extensions and their versions installed in Bridge (only if Bridge is connected to SAMMI)
-{% include selectAll.html text="<code>browser_name</code>" %}| String | Browser name your Bridge connected to SAMMI is using.
 {% include selectAll.html text="<code>client_language</code>" %}| String | Language SAMMI is currently using.
 {% include selectAll.html text="<code>deck_app_connections</code>" %}| Array | Contains string names of all connected Deck Apps.
 {% include selectAll.html text="<code>deck_app_port</code>" %}| Number | The port number for the Deck App.
@@ -40,7 +38,7 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>SAMMI.sammi_version</code>" %}| String | Your current SAMMI Core version.
 {% include selectAll.html text="<code>bridge_port</code>" %}| Number | The port number for SAMMI Bridge connections.
 {% include selectAll.html text="<code>trigger_type</code>" %}| Array | All available trigger types.
-{% include selectAll.html text="<code>Extensions</code>" %}| Object | Shows all currently installed extensions in Bridge connected to SAMMI. 
+{% include selectAll.html text="<code>sammi_pro</code>" %}| Boolean | Returns true if the user has an active SAMMI Pro subscription.
 {:class='table table-secondary w-auto table-hover text-break' }
 
 **Meld Variables**
@@ -83,6 +81,9 @@ These variables are updated by the Meld Studio connection. SAMMI stores Meld sta
 {% include selectAll.html text="<code>twitch_default_channel</code>" %}| String | The Twitch account SAMMI recieves events from.
 {% include selectAll.html text="<code>twitch_default_chat_account</code>" %}| String | The Twitch account SAMMI sends messages from.
 {% include selectAll.html text="<code>twitch_eventsub_connected</code>" %}| Boolean | Returns true if SAMMI is connected to Twitch's eventsub.
+{% include selectAll.html text="<code>twitch_default_channel_id</code>" %}| String | The ID of the Twitch channel SAMMI receives events from.
+{% include selectAll.html text="<code>twitch_default_chat_id</code>" %}| String | The ID of the default Twitch account SAMMI sends chat messages from.
+{% include selectAll.html text="<code>auto_connect_twitch_extension</code>" %}| Boolean | Whether SAMMI Bridge should automatically connect to the SAMMI Twitch Extension backend.
 {:class='table table-secondary w-auto table-hover text-break' }
 
 **YouTube Variables**

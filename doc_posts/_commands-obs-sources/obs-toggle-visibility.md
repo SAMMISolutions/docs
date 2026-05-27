@@ -16,4 +16,15 @@ Toggles the visibility of a source. If the source is visible it's turn off and v
 |Source Name|	String|	Source name. Select from the menu or type manually. 
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemEnabled`
+
+SAMMI reads the current visibility state from its internal cache and then calls `SetSceneItemEnabled` with the inverted value.
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Name of the scene the source is in. |
+| sceneItemId | Number | Scene item ID resolved internally by SAMMI from the source name. |
+| sceneItemEnabled | Boolean | The toggled visibility state (opposite of current). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 {% include example_public.html src="/docs/assets/images/commands-obs-sources/obsTogVis_Ex.png" size="100" title="Toggle source visibility" pastebin="bhbqhRuy" %}  

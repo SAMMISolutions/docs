@@ -19,3 +19,13 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:warnings</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/moderation/warnings`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose chat room the warning applies to |
+| moderator_id | String | The ID of the moderator or broadcaster issuing the warning |
+| data.user_id | String | The ID of the user to warn |
+| data.reason | String | The reason the user is being warned |
+{:class='table table-secondary w-auto table-hover text-break'}

@@ -36,4 +36,25 @@ Gets information about a Twitch team.
 |created_at|String|The time in Twitch format that the team was created.
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/teams`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "id": "6b0AsbInuLay",
+  "name": "exampleteam",
+  "team_display_name": "Example Team",
+  "info": "A friendly community of streamers.",
+  "thumbnail_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-thumbnail.png",
+  "background_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-bg.png",
+  "banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-banner.png",
+  "users": [
+    { "user_id": "98765432", "user_login": "examplestreamer", "user_name": "ExampleStreamer" },
+    { "user_id": "11111111", "user_login": "teammate2", "user_name": "Teammate2" }
+  ],
+  "created_at": "2020-06-01T00:00:00Z",
+  "updated_at": "2023-11-01T00:00:00Z"
+}
+```
+
 {% include alert.html text="If the team name is empty or Twitch cannot find the team, the saved variable is set to <code>undefined</code>." type="info" %}

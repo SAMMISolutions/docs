@@ -16,6 +16,16 @@ If you wish to change the text to a value saved in a variable, you need to wrap 
 |New Text	|String	| The new text
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetInputSettings`
+
+Sends `SetInputSettings` with `inputSettings: { "text": "your text here" }`.
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the Text (Freetype 2) source. |
+| inputSettings | Object | `{"text": "..."}` — the new text content. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

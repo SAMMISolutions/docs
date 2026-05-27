@@ -36,4 +36,33 @@ Example:
 
 After running the command, you can use other object/array commands to inspect the returned data, such as reading the first Power-up name or ID from the saved result.
 
+**Twitch API Endpoint:** `GET /helix/bits/custom_power_ups`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "broadcaster_id": "98765432",
+      "type": "gigantify_an_emote",
+      "is_enabled": true,
+      "last_updated": "2024-01-10T00:00:00Z",
+      "redemption_settings": {
+        "bits_cost": 250
+      }
+    },
+    {
+      "broadcaster_id": "98765432",
+      "type": "celebration",
+      "is_enabled": true,
+      "last_updated": "2024-01-10T00:00:00Z",
+      "redemption_settings": {
+        "bits_cost": 300
+      }
+    }
+  ],
+  "pagination": {}
+}
+```
+
 {% include alert.html text="Requires the <code>bits:read</code> and <code>user:read:email</code> Twitch scopes for the selected channel/account." type="info" %}

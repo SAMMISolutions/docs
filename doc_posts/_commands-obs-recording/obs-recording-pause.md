@@ -16,10 +16,6 @@ Use this when OBS is currently recording and you want to pause the recording wit
 
 {% include alert.html text="OBS must be connected to SAMMI before this command can run. This only works when OBS supports recording pause and a recording is currently active." type="info" %}
 
+**OBS WebSocket 5 Request:** `PauseRecord`
 
-
-
-
-
-
-
+No request fields — pauses the active recording. Use `Resume Recording` to continue.

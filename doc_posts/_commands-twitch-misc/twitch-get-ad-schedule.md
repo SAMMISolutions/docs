@@ -32,3 +32,10 @@ SAMMI saves the first ad schedule object returned by Twitch (`data[0]`).
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>channel:read:ads</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `GET /helix/channels/ads`
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster whose ad schedule to retrieve. |
+{:class='table table-secondary w-auto table-hover text-break'}

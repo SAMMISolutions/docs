@@ -17,3 +17,12 @@ For more information, check out the [Twitch API Reference Guide for Block User](
 
 {% include alert.html text="Requires the <code>user:manage:blocked_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
 
+**Twitch API Endpoint:** `PUT /helix/users/blocks`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| target_user_id | String | The ID of the user to block |
+| source_context | String | Optional. Context for blocking the user: `chat`, `whisper` |
+| reason | String | Optional. Reason for blocking: `harassment`, `spam`, `other` |
+{:class='table table-secondary w-auto table-hover text-break'}
+

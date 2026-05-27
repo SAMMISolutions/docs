@@ -13,8 +13,8 @@ If you encounter an ERR_BADAUTH error, your authentication token may have expire
 
 If Twitch Alerts are not working as expected, consider the following troubleshooting steps:
 
-**Verify Your Twitch Pubsub/Chat Connection**\
-Ensure that both your Twitch Pubsub and Chat are connected (indicated by green light indicators) and that you are listening to the correct topics (which can be verified under Twitch Connections).
+**Verify Your Twitch EventSub/Chat Connection**\
+Ensure that both your Twitch EventSub and Chat are connected (indicated by green light indicators) and that you are listening to the correct events (which can be verified under Twitch Connections).
 
 {% include image.html w="75" src="twitch_connected.png" alt="Twitch Connected" %}
 
@@ -63,7 +63,7 @@ See below which SAMMI command corresponds to which chat slash command.
 |/unraid|Twitch: Cancel Raid|
 |/slow and /slowoff|Twitch: Set Slow Mode|
 |/subscribers and /subscribersoff|Twitch: Set Subscriber Mode|
-|/uniquechat and /uniquechatoff|Twitch: API Call|
+|/uniquechat and /uniquechatoff|Twitch: Set Unique Chat|
 |/vip|Twitch: Add VIP|
 |/unvip|Twitch: Remove VIP|
 |/vips |Twitch: Get VIPs|

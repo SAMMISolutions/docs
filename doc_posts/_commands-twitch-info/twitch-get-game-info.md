@@ -28,6 +28,17 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 |name |	String	| Game name.
 {:class='table table-secondary w-auto table-hover' }
 
+**Twitch API Endpoint:** `GET /helix/games`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "id": "509658",
+  "name": "Just Chatting",
+  "box_art_url": "https://static-cdn.jtvnw.net/ttv-boxart/509658-{width}x{height}.jpg"
+}
+```
+
 
 
 

@@ -25,3 +25,15 @@ Gets the colour of the specified user's name in chat rooms.
 |user_login|String|The user's login name
 |user_name|String|The user's display name
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/chat/color`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "user_id": "77777777",
+  "user_login": "colorfulviewer",
+  "user_name": "ColorfulViewer",
+  "color": "#FF4500"
+}
+```

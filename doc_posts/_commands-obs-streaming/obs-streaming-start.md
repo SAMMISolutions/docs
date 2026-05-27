@@ -16,6 +16,10 @@ Use this when you explicitly want the stream to go live. If OBS is already strea
 
 {% include alert.html text="OBS must be connected to SAMMI before this command can run. If you use multiple OBS connections, choose the target OBS instance in the OBS dropdown." type="info" %}
 
+**OBS WebSocket 5 Request:** `StartStream`
+
+No request fields — starts the configured stream output immediately. Returns an error if already streaming.
+
 
 
 

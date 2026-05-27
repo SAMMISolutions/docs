@@ -8,7 +8,6 @@ To do so, you need to close SAMMI if it's open, head to your main SAMMI folder, 
 
 `record_bridge="1"`\
 `record_twitchchat="1"`\
-`record_pubsub="1"`\
 `record_eventsub="1"`\
 `record_http="1"`\
 `record_obs="1"`
@@ -17,13 +16,8 @@ After saving the settings.ini file, and relaunching SAMMI, a new text file will 
 
 {% include alert.html text='Leaving any of these settings on may cause SAMMI to lag. Once you have finished your troubleshooting, remember to turn them off (by changing `"1"` to `"0"`, or by deleting that line, then saving the file).' type="warning" %} 
 
-#### Record PubSub
-
-The PubSub system allows Twitch to broadcast realtime messages to SAMMI (as well as other services, like StreamElements). Think of it like a radio station broadcast, and SAMMI is a radio that's tuned in to that frequency - it gets news, weather, and songs from the station. SAMMI then relays those to you in the form of triggers, such as Twitch Chat, New Follower, etc.\
-Enabling this records that information to `record_pubsub.txt`
-
 #### Record EventSub
-EventSub listens to follower alerts with future plans to fully replace PubSub.\
+EventSub is the Twitch system SAMMI uses to receive realtime events such as subscriptions, channel points, follows, and more.\
 Enabling `record_eventsub` will save all EventSub messages to `record_eventsub.txt`
 
 #### Record Bridge
@@ -33,7 +27,7 @@ Enabling this records that information to `record_bridge.txt`
 
 #### Record Twitch Chat
 
-Not only does this include all chat messages sent in your Twitch chat (except messages sent by the main account linked in SAMMI), it also includes extra information, such as raid and host info (at least until they remove them... RIP hosts).\
+Not only does this include all chat messages sent in your Twitch chat (except messages sent by the main account linked in SAMMI), it also includes extra information from the Twitch IRC connection.\
 Enabling this records that information to `record_twitchchat.txt`
 
 #### Record HTTP

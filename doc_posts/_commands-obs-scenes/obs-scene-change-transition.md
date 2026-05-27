@@ -15,6 +15,15 @@ Temporarily changes the transition of a scene. Lasts until you use Remove Scene 
 |Duration (ms)	|Int {% include asterisk.html%}|	Duration of the transition in milliseconds
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneSceneTransitionOverride`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | The name of the scene to set the transition for. |
+| transitionName | String | Name of the transition to use for this scene. |
+| transitionDuration | Number | Duration of the transition in milliseconds. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

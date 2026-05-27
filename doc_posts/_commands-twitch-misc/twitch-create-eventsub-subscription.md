@@ -20,3 +20,13 @@ This lets you subscribe to any Twitch EventSub event, that way you don't have to
 |Subscription Type|String|The Event to subscribe to. Must be dot notation, for example <code>automod.message.hold</code>|
 |Version|Number|The version of the Event you wish to Subscribe, this is found next to the event name in the Twitch Documentation|
 {:class='table table-primary'}
+
+**Twitch API Endpoint:** `POST /helix/eventsub/subscriptions`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| type | string | The subscription type in dot notation (e.g. `automod.message.hold`). |
+| version | string | The version of the subscription type. |
+| condition | object | An object containing the subscription-specific conditions (e.g. `broadcaster_user_id`). Required fields vary by subscription type. |
+| transport | object | The transport method. SAMMI uses WebSocket transport with the active session ID. |
+{:class='table table-secondary w-auto table-hover text-break'}

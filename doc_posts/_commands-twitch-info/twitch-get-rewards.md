@@ -45,3 +45,39 @@ SAMMI saves the full response object returned by Twitch.
 |data[`0-?`].redemptions_redeemed_current_stream|Number|Redemptions in the current stream, if available.
 |data[`0-?`].cooldown_expires_at|String|When the global cooldown expires, if active.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/channel_points/custom_rewards`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "id": "afaa7e34-6b17-49f0-a19a-d1e76eaaf673",
+      "broadcaster_id": "98765432",
+      "broadcaster_login": "examplestreamer",
+      "broadcaster_name": "ExampleStreamer",
+      "title": "Hydrate!",
+      "prompt": "Make the streamer drink some water",
+      "cost": 500,
+      "background_color": "#00E5CB",
+      "is_enabled": true,
+      "is_user_input_required": false,
+      "is_paused": false,
+      "is_in_stock": true,
+      "image": null,
+      "default_image": {
+        "url_1x": "https://static-cdn.jtvnw.net/custom-reward-images/default-1.png",
+        "url_2x": "https://static-cdn.jtvnw.net/custom-reward-images/default-2.png",
+        "url_4x": "https://static-cdn.jtvnw.net/custom-reward-images/default-4.png"
+      },
+      "max_per_stream_setting": { "is_enabled": false, "max_per_stream": 0 },
+      "max_per_user_per_stream_setting": { "is_enabled": false, "max_per_user_per_stream": 0 },
+      "global_cooldown_setting": { "is_enabled": false, "global_cooldown_seconds": 0 },
+      "should_redemptions_skip_request_queue": false,
+      "redemptions_redeemed_current_stream": null,
+      "cooldown_expires_at": null
+    }
+  ]
+}
+```

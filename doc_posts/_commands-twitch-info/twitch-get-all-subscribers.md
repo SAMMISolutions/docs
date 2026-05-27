@@ -41,4 +41,31 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command requ
 |points|Number|Subscriber points returned by Twitch.
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/subscriptions`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "broadcaster_id": "98765432",
+      "broadcaster_login": "examplestreamer",
+      "broadcaster_name": "ExampleStreamer",
+      "gifter_id": "",
+      "gifter_login": "",
+      "gifter_name": "",
+      "is_gift": false,
+      "tier": "1000",
+      "plan_name": "Channel Subscription (ExampleStreamer)",
+      "user_id": "11111111",
+      "user_name": "RecentFollower",
+      "user_login": "recentfollower"
+    }
+  ],
+  "pagination": { "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MTAwfX0" },
+  "total": 3842,
+  "points": 3842
+}
+```
+
 {% include alert.html text="Requires the <code>channel:read:subscriptions</code> Twitch scope." type="info" %}

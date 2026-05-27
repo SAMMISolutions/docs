@@ -19,6 +19,10 @@ You can use OBS Pull Source Value command to get the current volume of a source 
 |Use dB| Checkbox | Whether you wish to use decibels for your values instead of percentage
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetInputVolume` (called repeatedly each SAMMI frame)
+
+Sends `{"inputVolumeMul": value}` or `{"inputVolumeDb": value}` on every frame until the duration is complete, depending on the **Use dB** checkbox.
+
 
 
 

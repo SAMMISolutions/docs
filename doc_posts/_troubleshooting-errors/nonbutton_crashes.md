@@ -4,7 +4,7 @@ num: 2
 ---
 
 
-These crashes may and may not be a user error, and are more complex to debug. The error can be anything from `Unknown Error`, `Twitch Pubsub Error` to `HTTP Error`. 
+These crashes may and may not be a user error, and are more complex to debug. The error can be anything from `Unknown Error`, `Twitch Eventsub Error` to `HTTP Error`. 
 
 Generally you will not be able to tell why the crash occured, however you will be asked whether you want to send the error log directly to SAMMI Developers.   
 

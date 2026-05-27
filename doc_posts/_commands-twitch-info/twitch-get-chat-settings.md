@@ -35,3 +35,22 @@ SAMMI saves the first chat settings object returned by Twitch (`data[0]`).
 |non_moderator_chat_delay|Boolean|Whether non-moderator chat delay is enabled.
 |non_moderator_chat_delay_duration|Number|Chat delay duration in seconds, if enabled.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/chat/settings`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "broadcaster_id": "98765432",
+  "moderator_id": "98765432",
+  "emote_mode": false,
+  "follower_mode": true,
+  "follower_mode_duration": 10,
+  "slow_mode": false,
+  "slow_mode_wait_time": null,
+  "subscriber_mode": false,
+  "unique_chat_mode": false,
+  "non_moderator_chat_delay": false,
+  "non_moderator_chat_delay_duration": null
+}
+```

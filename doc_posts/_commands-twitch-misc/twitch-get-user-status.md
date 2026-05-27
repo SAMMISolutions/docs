@@ -30,3 +30,19 @@ Available status types:
 |false|Boolean|The selected user does not have the requested status for the selected channel.|
 |undefined|Undefined|Saved if Twitch is not connected, the channel/user cannot be resolved, required scopes are missing, or the request fails.|
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoints:**
+
+| Status Type | Endpoint | Description |
+|-------|--------|--------
+| Check Subscriber | `GET /helix/subscriptions/user` | Checks whether a specified user is subscribed to the broadcaster's channel. |
+| Check Mod | `GET /helix/moderation/moderators` | Checks whether a specified user is a moderator in the broadcaster's channel. |
+| Check VIP | `GET /helix/channels/vips` | Checks whether a specified user has VIP status in the broadcaster's channel. |
+| Check Follower | `GET /helix/channels/followers` | Checks whether a specified user is following the broadcaster's channel. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster's channel to check against. |
+| user_id | string | The ID of the user to check. |
+{:class='table table-secondary w-auto table-hover text-break'}

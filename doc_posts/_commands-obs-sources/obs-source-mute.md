@@ -16,6 +16,14 @@ Mutes the sound of a source.
 |Mute |	Checkbox	| Checked = mute, Unchecked = unmute
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetInputMute`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the source to mute or unmute. |
+| inputMuted | Boolean | `true` to mute, `false` to unmute. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

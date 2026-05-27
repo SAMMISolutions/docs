@@ -15,6 +15,13 @@ Creates a new scene in OBS.
 | Scene Name | String | Unique name of the scene to create. |
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `CreateScene`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | The unique name of the new scene. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -15,6 +15,18 @@ Inverts the mute status of a specified source. If the source was muted, it will 
 | Source Name | String | Source name to be muted or unmuted. Can be a scene name as well. Select from dropdown or input manually. |
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `ToggleInputMute`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the source to toggle mute for. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+| Response Field | Type | Description |
+|-------|--------|--------
+| inputMuted | Boolean | The new mute state after toggling (`true` = muted, `false` = unmuted). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -17,6 +17,14 @@ Once you open the file, look for `HOTKEYS` under each source which should have a
 |Hotkey Name|String|	Unique name of the hotkey
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `TriggerHotkeyByName`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| hotkeyName | String | The internal OBS hotkey name (e.g. `libobs.mute`). |
+| contextName | String (optional) | The name of the input/scene context to trigger the hotkey for (required for source-specific hotkeys). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

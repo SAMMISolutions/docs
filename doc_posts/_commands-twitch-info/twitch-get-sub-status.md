@@ -34,6 +34,21 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 |tier	|string|	Subscription tier. 1000 is tier 1, 2000 is tier 2, and 3000 is tier 3.
 {:class='table table-secondary w-auto table-hover' }
 
+**Twitch API Endpoint:** `GET /helix/subscriptions`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "broadcaster_id": "98765432",
+  "broadcaster_login": "examplestreamer",
+  "broadcaster_name": "ExampleStreamer",
+  "is_gift": false,
+  "gifter_login": "",
+  "gifter_name": "",
+  "tier": "1000"
+}
+```
+
 
 
 

@@ -42,3 +42,16 @@ SAMMI saves the full response object returned by Twitch. For **Clips**, `data` c
 |data[`0-?`].type|String|Video type for video responses.
 |pagination|Object|Pagination data, if Twitch returns more pages.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoints:**
+
+`GET /helix/videos` — used for All Videos, Archives, Highlights, and Uploads types.
+
+`GET /helix/clips` — used for the Clips type.
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| user_id | string | The ID of the broadcaster whose videos or clips to retrieve. |
+| type | string | Filters video results by type. Possible values: `all`, `archive`, `highlight`, `upload`. Not applicable for clips. |
+| first | integer | Maximum number of items to return per page. |
+{:class='table table-secondary w-auto table-hover text-break'}

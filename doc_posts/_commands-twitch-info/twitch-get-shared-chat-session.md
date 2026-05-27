@@ -31,4 +31,21 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command save
 |created_at|String|The time in Twitch format that the shared chat session was created.
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/shared_chat/session`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "session_id": "2b0AsbInuLayXYDB",
+  "host_broadcaster_id": "98765432",
+  "participants": [
+    { "broadcaster_id": "98765432" },
+    { "broadcaster_id": "11111111" },
+    { "broadcaster_id": "22222222" }
+  ],
+  "created_at": "2024-01-15T20:00:00Z",
+  "updated_at": "2024-01-15T20:00:00Z"
+}
+```
+
 {% include alert.html text="Requires the <code>user:read:email</code> Twitch scope for the selected channel/account." type="info" %}

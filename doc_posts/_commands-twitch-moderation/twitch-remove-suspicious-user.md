@@ -17,3 +17,12 @@ For more information, check out the [Twitch API Reference Guide for Remove Suspi
 
 {% include alert.html text="Requires the <code>moderator:manage:suspicious_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
 
+**Twitch API Endpoint:** `DELETE /helix/moderation/suspicious_users`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster's channel to remove the suspicious status in |
+| moderator_id | String | The ID of the moderator removing the status |
+| user_id | String | The ID of the user to remove the suspicious status from |
+{:class='table table-secondary w-auto table-hover text-break'}
+

@@ -17,3 +17,12 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:blocked_terms</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `DELETE /helix/moderation/blocked_terms`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose blocked terms list to remove from |
+| moderator_id | String | The ID of the moderator or broadcaster removing the term |
+| id | String | The ID of the blocked term to remove |
+{:class='table table-secondary w-auto table-hover text-break'}

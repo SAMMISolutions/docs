@@ -26,6 +26,17 @@ Get connection information for the selected Twitch account, such as your User ID
 |Display Name|String|The connected Twitch account's display name.|
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Source:** SAMMI's internal `twitch_connection` map (local data — no Twitch API call is made).
+
+**Example SAMMI Response:**
+```
+98765432           (User ID)
+oauth:abc123xyz    (OAuth Token)
+examplestreamer    (Login Name)
+ExampleStreamer    (Display Name)
+```
+Each Type selection returns a single string value.
+
 
 
 

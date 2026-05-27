@@ -16,9 +16,11 @@ Use this when the same button should start the stream if OBS is offline, or stop
 
 {% include alert.html text="OBS must be connected to SAMMI before this command can run. If you need predictable one-way behavior, use Start Streaming or Stop Streaming instead." type="info" %}
 
+**OBS WebSocket 5 Request:** `ToggleStream`
 
+No request fields — starts the stream if inactive, stops it if active.
 
-
-
-
-
+| Response Field | Type | Description |
+|-------|--------|--------
+| outputActive | Boolean | `true` if the stream is now active, `false` if it was stopped. |
+{:class='table table-secondary w-auto table-hover text-break'}

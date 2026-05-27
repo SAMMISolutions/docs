@@ -25,4 +25,12 @@ If **Login Name** is empty, SAMMI uses the default Twitch account. If Twitch is 
 |undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, the required scope is missing, or the request fails.|
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/subscriptions`
+
+**Example SAMMI Response:**
+```
+3842
+```
+SAMMI saves only the `total` field from the API response as a plain number.
+
 {% include alert.html text="Requires the <code>channel:read:subscriptions</code> Twitch scope." type="info" %}

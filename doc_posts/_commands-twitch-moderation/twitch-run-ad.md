@@ -27,3 +27,11 @@ Can only be started by the broadcaster's account (will fail if sent as another a
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="If <strong>Channel Name</strong> is empty, SAMMI uses the default Twitch account. The saved result is set to <code>undefined</code> if Twitch rejects the ad request." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/channels/commercial`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the partner or affiliate broadcaster that wants to run a commercial |
+| length | Integer | Desired duration of the commercial in seconds. Valid values: 30, 60, 90, 120, 150, 180 |
+{:class='table table-secondary w-auto table-hover text-break'}

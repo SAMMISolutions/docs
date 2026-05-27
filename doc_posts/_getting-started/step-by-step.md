@@ -125,21 +125,21 @@ You can follow the text instructions or watch a short video for each step.
 
 We have now created a button that will send a chat message `Hello World` anytime it's pressed. We have also created a Twitch chat trigger which will execute the button automatically any time someone types `!test` in your Twitch chat.
 
-##### Trigger the new button manually from SAMMI Deck
-There are several ways how you can trigger a button. One of them is triggering it from your **SAMMI Deck**. 
+##### Trigger the new button manually from SAMMI Panel
+There are several ways how you can trigger a button. One of them is triggering it from your **SAMMI Panel**. 
 
-1. Open **SAMMI Deck** by navigating to SAMMI - SAMMI Deck - Open SAMMI Deck.
+1. Open **SAMMI Panel** by navigating to SAMMI - SAMMI Panel - Open Panel (or Open Panel (Web) for the browser version).
 2. Once it launches, you will see connection settings. As we are just keeping everything at default in this tutorial, you can simply press **Connect**. Selected deck should be `Deck 1`. Press Load Deck and you should see your newly created button.  
 
-   {% include video.html w="75" src="open-streamdeck.mp4" alt="Open SAMMI Deck" %}
-3. While looking at your Twitch chat of the Twitch account you just linked in SAMMI in the previous steps, click on the button in your **SAMMI Deck**. It should send a `Hello World!` message to your chat!  
+   {% include video.html w="75" src="open-streamdeck.mp4" alt="Open SAMMI Panel" %}
+3. While looking at your Twitch chat of the Twitch account you just linked in SAMMI in the previous steps, click on the button in your **SAMMI Panel**. It should send a `Hello World!` message to your chat!  
 
-   {% include video.html w="75" src="trigger_button.mp4" alt="Trigger Button from SAMMI Deck" %}
+   {% include video.html w="75" src="trigger_button.mp4" alt="Trigger Button from SAMMI Panel" %}
 
 {% include alert.html text="Your SAMMI must be connected to Twitch Chat to be able to send chat messages." type="warning" %} 
 
 ##### Trigger the new button manually from Edit Command Window
-If you're just putting together a new button, it's often easier to trigger it directly from your SAMMI, as this allows you to keep modifying the button commands without all the extra steps of saving the button and then pressing it in your SAMMI Deck. 
+If you're just putting together a new button, it's often easier to trigger it directly from your SAMMI, as this allows you to keep modifying the button commands without all the extra steps of saving the button and then pressing it in your SAMMI Panel. 
 
 1. Navigate to your button's commands inside SAMMI. 
 2. Press **Run Button**. You should see the same `Hello World` message in your Twitch Chat. 
@@ -149,8 +149,8 @@ If you're just putting together a new button, it's often easier to trigger it di
 ##### Trigger the new button automatically via your Twitch Chat
 Do you still remember the Twitch chat trigger you configured for your button? If you followed the tutorial, it should be `!test`. This means that everytime anyone types `!test` in your Twitch Chat, the button should get automatically triggered. 
 
-1. Type `!test` in your Twitch Chat while looking both at your chat and SAMMI Deck. Two things should then happen: 
-   - You will see the button in your SAMMI Deck blink, just like when you manually pressed it with your mouse earlier. 
+1. Type `!test` in your Twitch Chat while looking both at your chat and SAMMI Panel. Two things should then happen: 
+   - You will see the button in your SAMMI Panel blink, just like when you manually pressed it with your mouse earlier. 
    - SAMMI will respond back with `Hello World` message in your Twitch Chat.   
 
 

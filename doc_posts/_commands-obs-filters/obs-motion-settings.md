@@ -18,6 +18,10 @@ Transitions specified filter settings over a set duration.
 |Smooth|	Dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSourceFilterSettings` (called repeatedly each SAMMI frame)
+
+Sends `{"<filterSetting>": value}` as `filterSettings` on every frame until the duration is complete. Use **Check Settings** in the Filter Change Settings command to discover the correct setting name for your filter.
+
 
 
 

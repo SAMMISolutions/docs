@@ -91,11 +91,14 @@ These triggers allows you to listen to SAMMI state and connection changes.
 |OBS Disconnected|Every time SAMMI disconnects from OBS.
 |SAMMI Bridge Connected| Every time SAMMI Bridge connects to SAMMI.
 |SAMMI Bridge Disconnected| Every time SAMMI Bridge disconnects from SAMMI.
-|SAMMI Panel Connected| Every time SAMMI Panel connects to SAMMI.
-|SAMMI Panel Disconnected| Every time SAMMI Panel disconnects from SAMMI.
-|Deck Enabled/Disabled|Triggers every time a deck is enabled/disabled.
+|Deck App Connected| Every time a Deck App connects to SAMMI.
+|Deck App Disconnected| Every time a Deck App disconnects from SAMMI.
+|Meld Connected| Every time SAMMI connects to Meld Studio.
+|Meld Disconnected| Every time SAMMI disconnects from Meld Studio.
+|SAMMI Deck Enabled| Triggers every time a deck is enabled.
+|SAMMI Deck Disabled| Triggers every time a deck is disabled.
 |Third Party Connected| Third party application connects to SAMMI.
-|Third Party Disonnected| Third party application disconnects from SAMMI.
+|Third Party Disconnected| Third party application disconnects from SAMMI.
 {:class='table table-secondary table-hover' }
 
 <hr>

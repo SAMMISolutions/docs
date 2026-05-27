@@ -24,3 +24,12 @@ Can be used in conjunction with the [HTTP Request]({{ "commands/misc#httprequest
 |client-id|String|SAMMI's unique identifier
 |Content-Type|String|"application/json"
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+
+**Twitch API:** The header object produced by this command is compatible with any Twitch Helix API endpoint. Pass it as the `Header` parameter in the [HTTP Request]({{ "commands/misc#httprequest" | relative_url }}) command.
+
+| Header Field | Type | Description |
+|-------|--------|--------
+| Authorization | string | `Bearer <token>` — the OAuth token for the selected login, used to authenticate all Twitch API requests. |
+| client-id | string | SAMMI's registered Twitch application client ID, required by all Twitch API requests. |
+| Content-Type | string | `application/json` — tells the Twitch API to expect a JSON body on POST/PATCH requests. |
+{:class='table table-secondary w-auto table-hover text-break'}

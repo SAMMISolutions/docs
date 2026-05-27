@@ -14,6 +14,15 @@ Ends a poll that is currently active.
 |Poll ID| String|	ID of the poll.|
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `PATCH /helix/polls`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that's running the poll. |
+| id | string | The ID of the poll to update. |
+| status | string | The status to set the poll to. Possible values: `TERMINATED`, `ARCHIVED`. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

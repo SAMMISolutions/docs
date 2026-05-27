@@ -15,3 +15,10 @@ This lets you unsubscribe from any Twitch EventSub event.
 |-------|--------|--------
 |EventSub Subscription Id|String|The internal Id referencing this subscription.|
 {:class='table table-primary'}
+
+**Twitch API Endpoint:** `DELETE /helix/eventsub/subscriptions`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| id | string | The ID of the EventSub subscription to delete. Retrieve this using the [Get Active EventSub Subscriptions]({{ '/docs/commands/twitch-misc#getactiveeventsubsubscriptions' | relative_url }}) command. |
+{:class='table table-secondary w-auto table-hover text-break'}

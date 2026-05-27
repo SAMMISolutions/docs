@@ -38,6 +38,25 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 |created_at|	string|	Date when the user was created.
 {:class='table table-secondary w-auto table-hover' }
 
+**Twitch API Endpoint:** `GET /helix/users`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "id": "98765432",
+  "login": "examplestreamer",
+  "display_name": "ExampleStreamer",
+  "type": "",
+  "broadcaster_type": "affiliate",
+  "description": "Just a streamer who loves gaming!",
+  "profile_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/examplestreamer-profile_image-abc123.png",
+  "offline_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/examplestreamer-channel_offline_image-abc123.png",
+  "view_count": 56789,
+  "email": "user@example.com",
+  "created_at": "2018-04-20T12:00:00Z"
+}
+```
+
 {% include example_public.html src="/docs/assets/images/commands-twitch-info/twitchUserInfo_Ex.png" size="100" title="Get a follower's profile picture" pastebin="FcaArEdc" %}
 
 

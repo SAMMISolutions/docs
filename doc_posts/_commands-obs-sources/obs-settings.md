@@ -28,6 +28,17 @@ Use [JSON string validator](https://jsonlint.com/) if you want to make sure your
 |{% include selectAll.html text='{"font": {"face": "Arial","flags": 8,"size": 48,"style": "Regular"}}' %}|Change font settings of your GDI+ text source. Needs to include all values.|
 {:class='table table-secondary w-auto table-responsive table-hover' }
 
+**OBS WebSocket 5 Request:** `SetInputSettings`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the source to update settings for. |
+| inputSettings | Object | JSON object of the settings to apply (merged with existing settings by default). |
+| overlay | Boolean (optional) | If `true` (default), merges with existing settings. If `false`, replaces all settings completely. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+The setting keys depend on the source type. Use the **Check Settings** button in SAMMI or `Send OBS Request` with `GetInputSettings` to see available keys for your source.
+
 
 
 

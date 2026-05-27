@@ -24,6 +24,26 @@ Sends a message to your Twitch chat from your default account that is connected 
 
 For more information, see the [Twitch API Reference Guide for Send Chat Message](https://dev.twitch.tv/docs/api/reference/#send-chat-message).
 
+**Twitch API Endpoint:** `POST /helix/chat/messages`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster's channel the message is sent to |
+| sender_id | String | The ID of the user sending the message |
+| message | String | The message to send (max 500 characters) |
+| reply_parent_message_id | String | Optional. ID of the chat message to reply to |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+**Response Fields:**
+
+| Variable Name | Type | Description |
+|-------|--------|--------
+| message_id | String | The ID assigned to the message sent |
+| is_sent | Boolean | Whether the message was sent |
+| drop_reason.code | String | Reason code if the message was dropped (e.g. `channel_settings_block`) |
+| drop_reason.message | String | Human-readable explanation if the message was dropped |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

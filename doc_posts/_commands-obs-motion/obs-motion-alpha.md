@@ -21,6 +21,10 @@ This way you can gradually fade out a source before turning its visibility compl
 |Smooth|	Dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSourceFilterSettings` (called repeatedly each SAMMI frame)
+
+Sends `{"opacity": value}` as `filterSettings` every frame, targeting the specified Color Correction filter. Older Color Correction filters use the `opacity` key with a 0–100 range; newer ones use 0–1.
+
 
 
 

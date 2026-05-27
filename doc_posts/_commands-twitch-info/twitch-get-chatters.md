@@ -29,3 +29,27 @@ Gets a list of users that are connected to the broadcaster's chat session.
 |pagination|Object|Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.
 |pagination.cursor|String|The cursor used to get the next page of results with Twitch API Call.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/chat/chatters`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "total": 523,
+  "data": [
+    {
+      "user_id": "55555555",
+      "user_login": "activechatter",
+      "user_name": "ActiveChatter"
+    },
+    {
+      "user_id": "66666666",
+      "user_login": "lurker42",
+      "user_name": "Lurker42"
+    }
+  ],
+  "pagination": {
+    "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MTAwMH19"
+  }
+}
+```

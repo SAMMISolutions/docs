@@ -15,6 +15,21 @@ Same option as in OBS-Audio Mixer-Cogwheel-Advanced Audio Properties.
 |Monitor Type|	dropdown |	Type of monitoring to use
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetInputAudioMonitorType`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the audio source. |
+| monitorType | String | Monitor type to set. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+| Monitor Type Value | Description |
+|-------|--------|
+| `none` | No monitoring — audio is not sent to the monitoring device. |
+| `monitorOnly` | Monitor only — audio is sent to the monitoring device but not to the stream/recording. |
+| `monitorAndOutput` | Monitor and output — audio is sent to both the monitoring device and the stream/recording. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -18,3 +18,13 @@ For more information, check out the [Twitch API Reference Guide for Add Suspicio
 
 {% include alert.html text="Requires the <code>moderator:manage:suspicious_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
 
+**Twitch API Endpoint:** `POST /helix/moderation/suspicious_users`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster's channel to flag the user in |
+| moderator_id | String | The ID of the moderator flagging the user |
+| user_id | String | The ID of the user to flag as suspicious |
+| status | String | Suspicious status to apply: `active_monitoring` or `restricted` |
+{:class='table table-secondary w-auto table-hover text-break'}
+

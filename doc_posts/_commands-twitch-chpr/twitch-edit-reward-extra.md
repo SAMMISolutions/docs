@@ -22,6 +22,21 @@ Updates a Custom Channel Points Reward created on your channel, allowing you to 
 |Max/Stream|Number {% include asterisk.html%}|Number of allowed redemptions per stream.
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `PATCH /helix/channel_points/custom_rewards`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that owns the custom reward. |
+| id | string | The ID of the reward to update. |
+| prompt | string | The prompt shown to the viewer when they redeem the reward. |
+| background_color | string | The background color to use for the reward (in Hex color code format, e.g. `#9147FF`). |
+| is_user_input_required | boolean | Whether the user needs to enter information when redeeming the reward. |
+| should_redemptions_skip_request_queue | boolean | Whether redemptions should be immediately fulfilled. |
+| global_cooldown_seconds | integer | The cooldown period in seconds between redemptions. |
+| max_per_user_per_stream | integer | Maximum number of redemptions allowed per user per stream. |
+| max_per_stream | integer | Maximum number of redemptions allowed per stream. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

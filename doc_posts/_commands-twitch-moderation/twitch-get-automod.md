@@ -36,3 +36,11 @@ SAMMI saves the first AutoMod settings object returned by Twitch (`data[0]`).
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>moderator:read:automod_settings</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
+
+**Twitch API Endpoint:** `GET /helix/moderation/automod/settings`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose AutoMod settings to get |
+| moderator_id | String | The ID of the moderator or broadcaster making the request |
+{:class='table table-secondary w-auto table-hover text-break'}

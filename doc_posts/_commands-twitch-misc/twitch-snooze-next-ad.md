@@ -29,3 +29,10 @@ SAMMI saves the first snooze result object returned by Twitch (`data[0]`).
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>channel:read:ads</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/channels/ads/schedule/snooze`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster whose next scheduled ad to snooze. |
+{:class='table table-secondary w-auto table-hover text-break'}

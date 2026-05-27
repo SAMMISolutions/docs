@@ -37,4 +37,28 @@ For more information on what the response contains, check out the Response Body 
 |cooldown_ends_at|String|Time in Twitch format when the cooldown ends.
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/hypetrain/status`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "id": "1b0AsbInuLayXYDB",
+  "event_type": "hypetrain.progression",
+  "event_timestamp": "2024-01-15T21:00:00Z",
+  "version": "1.0",
+  "total": 2600,
+  "progress": 600,
+  "goal": 1800,
+  "level": 2,
+  "top_contributions": [
+    { "user": "11111111", "type": "BITS", "total": 1000 },
+    { "user": "22222222", "type": "SUBS", "total": 500 }
+  ],
+  "last_contribution": { "user": "33333333", "type": "BITS", "total": 100 },
+  "expires_at": "2024-01-15T21:05:00Z",
+  "started_at": "2024-01-15T21:00:00Z",
+  "cooldown_ends_at": "2024-01-15T22:00:00Z"
+}
+```
+
 {% include alert.html text="Requires the <code>channel:read:hype_train</code> Twitch scope." type="info" %}

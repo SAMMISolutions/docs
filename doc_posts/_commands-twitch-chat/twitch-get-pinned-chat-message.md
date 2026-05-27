@@ -31,3 +31,11 @@ SAMMI saves the first pinned message object returned by Twitch (`data[0]`).
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>moderator:read:chat_messages</code> or <code>moderator:manage:chat_messages</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `GET /helix/chat/pins`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose channel to get the pinned message from |
+| moderator_id | String | The ID of the moderator or broadcaster making the request |
+{:class='table table-secondary w-auto table-hover text-break'}

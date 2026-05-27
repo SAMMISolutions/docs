@@ -101,9 +101,22 @@ Allows you to adjust general SAMMI settings.
 - **Remember window size and position**: When enabled, SAMMI will remember its window size and position between sessions (note that SAMMI cannot control monitor selection and will always open on the default monitor).
 - **Auto restart SAMMI after crash**: When enabled, SAMMI will automatically relaunch itself in the event of a crash.
 - **Automatically check for new updates**: When enabled, SAMMI will notify you of available updates upon launch, with an option to postpone reminders for a few days.
-- **Automatically send non-crash error logs**: When enabled, SAMMI will automatically report errors that would typically cause a crash. Instead, you will receive a yellow alert and can continue using SAMMI normally. This experimental feature is currently used in some SAMMI scripts.
+- **Opt out of Analytics and Data Collection**: When enabled, SAMMI will not collect anonymous usage data. By default, SAMMI collects non-identifiable, anonymous analytical data to help improve the product.
 - **Automatically close variable wrapping**: When enabled, SAMMI will automatically insert `$/` when you type `/$` with no text to the right of the cursor.
 - **Enable enhanced protection mode**: When enabled, SAMMI will be restricted from modifying or deleting files outside the main SAMMI directory and critical files within its own directory.
+- **Enable alert logging**: When enabled, SAMMI creates a log file for all alerts shown inside SAMMI in your SAMMI root folder. Keep an eye on the file size as it can grow large over time.
+- **Prevent Full Crash**: When enabled, SAMMI will not close completely in the event of a button crash and will stay open so you can inspect variables. Use only for debugging purposes; this does not prevent internal SAMMI crashes.
+- **Deactivate Event Log**: When enabled, stops SAMMI from storing incoming events and hides the Log button from the main screen.
+- **Disable Own Chat Option**: When enabled, hides the "Only Trigger in own Chat" option from Twitch chat triggers.
+- **Timeout Default**: The default timeout value in milliseconds applied to newly created commands that have a "Timeout After" field. Default is `3000`.
+- **Disable Gamepads**: When enabled, disables processing of all gamepad input, which can help performance in some edge cases.
+- **Async is Sync**: When enabled, newly created async commands default to synchronous (blocking) mode instead of asynchronous.
+- **Wait For User Choice: Block All Buttons**: When enabled, the Wait For User Choice command freezes all running buttons until the dialog is closed (legacy behavior). When disabled (default), only the button that triggered the dialog is paused.
+- **Wait For User Input: Block All Buttons**: When enabled, the Wait For User Input command freezes all running buttons until the dialog is closed (legacy behavior). When disabled (default), only the button that triggered the dialog is paused.
+- **Wait For Dialog: Block All Buttons**: When enabled, the Wait For Dialog command freezes all running buttons until the dialog is closed (legacy behavior). When disabled (default), only the button that triggered the dialog is paused.
+- **Popup Message: Block All Buttons**: When enabled, the Popup Message command (with Pause Button Execution checked) freezes all running buttons until the popup is dismissed (legacy behavior). When disabled (default), only the button that triggered the popup is paused.
+- **Onboarded Streamer Support**: When enabled, allows SAMMI to subscribe to Twitch EventSub topics for Predictions, Polls, Hype Trains, Bits, Subs, and Charity. Enable this only if you are an onboarded Twitch partner/affiliate. Requires a SAMMI restart after changing.
+- **EventSub Subscription Delay**: The delay in milliseconds between individual Twitch EventSub subscription requests. Only adjust this if you experience issues with EventSub subscriptions. Default is `50`.
 
 #### SAMMI Bridge and Deck Settings
 - **Port** (read-only): The current port used by SAMMI to connect to Bridge/SAMMI Deck. Modifying port numbers is strongly discouraged, but it can be done by editing the `bridge_port` key in the `settings.ini` file.
@@ -125,6 +138,7 @@ Allows you to adjust general SAMMI settings.
 #### UI Settings
 - **FPS**: SAMMI Core functions like a game and runs at a specific FPS, affecting features like OBS Motion Commands. Set this to match your stream FPS.
 - **Interface Size**: Adjust the scaling for non-standard resolutions.
+- **Hide Help Boxes**: When enabled, hides the explanation boxes and (?) help indicators throughout the SAMMI UI.
 - **Show Button Borders**: Shows configured button borders inside the SAMMI Core UI. Deck Apps still receive and display the actual button border values even if this is turned off.
 
 #### Other Settings
@@ -182,7 +196,7 @@ You can choose to interrupt (clear) all, ongoing or queued buttons.
 ### Deck
 
 If you press `Add new Deck` button, a new empty deck will be added to SAMMI Core. Double click on the deck to open it.\
-Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Deck is currently connected to a different deck.\
+Every deck is active at all times (unless disabled) in SAMMI Core. It does not matter if your SAMMI Panel is currently connected to a different deck.\
 
 {% include image.html w="50" src="deck.png" alt="Deck with a button" %}
 
@@ -285,7 +299,7 @@ SAMMI Pro users can select multiple command blocks, save them as command templat
 See the list of all available commands in the **Commands** section.  
 
 #### Edit Release Commands
-Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your SAMMI Deck or hotkey**. You can add as many commands as you want.
+Program your button to perform specific actions when released. **The release action only happens if the button is pressed from your SAMMI Panel or hotkey**. You can add as many commands as you want.
 
 #### Edit Init Variables
 Initial variables the button will have when initiated. It prevents persistent buttons from crashing. Must be in [JSON format](https://www.w3schools.com/js/js_json_intro.asp).

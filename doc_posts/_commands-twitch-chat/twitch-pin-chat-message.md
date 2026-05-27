@@ -17,3 +17,13 @@ For more information, see the [Twitch API Reference Guide for Pin Chat Message](
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:chat_messages</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/chat/pins`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster's channel in which to pin the message |
+| moderator_id | String | The ID of a moderator or the broadcaster who is pinning the message |
+| message_id | String | The ID of the message to pin |
+| duration_seconds | Integer | Optional. Duration in seconds to pin the message (30–1800). Omit to pin until stream ends |
+{:class='table table-secondary w-auto table-hover text-break'}

@@ -24,6 +24,10 @@ Gradually changes the crop settings of a source over a set duration.
 |Smooth|	Dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform` (called repeatedly each SAMMI frame)
+
+Sends `{"cropLeft": l, "cropTop": t, "cropRight": r, "cropBottom": b}` as `sceneItemTransform` on every frame until the duration is complete.
+
 {% include example_public.html src="/docs/assets/images/commands-obs-motion/obsMotionCrop_Ex.png" size="100" title="Change source cropping on a bits trigger" pastebin="Adg3hZpj" %}  
 
 

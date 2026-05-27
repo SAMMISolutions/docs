@@ -15,6 +15,14 @@ The marker is created at the current timestamp in the live broadcast when the re
 |Description|String|Description of or comments on the marker. Max length is 140 characters.
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `POST /helix/streams/markers`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| user_id | string | The ID of the broadcaster in whose live stream the marker is created. |
+| description | string | A short description of the marker to help you remember why you created it. Maximum: 140 characters. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

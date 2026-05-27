@@ -18,6 +18,16 @@ Does not actually perform the key presses, it simply activates any hotkey action
 |Shift|	Checkbox	|Whether to include Shift key
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `TriggerHotkeyByKeySequence`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| keyId | String | OBS key identifier (e.g. `OBS_KEY_A`, `OBS_KEY_F1`). Full list at [obs-hotkeys.h](https://github.com/obsproject/obs-studio/blob/master/libobs/obs-hotkeys.h). |
+| keyModifiers | Object | `{"shift": false, "control": false, "alt": false, "command": false}` — modifier key state. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+Example: `keyId = "OBS_KEY_F5"` with `keyModifiers = {"shift": true}` triggers Shift+F5.
+
 
 
 

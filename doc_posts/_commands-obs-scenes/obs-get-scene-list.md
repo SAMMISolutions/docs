@@ -26,3 +26,14 @@ Example:
 {:class='table table-secondary w-auto table-hover text-break'}
 
 You can combine this command with `Array Get Size`, `Array Get Value`, or `Repeat` to loop through all OBS scenes.
+
+**OBS WebSocket 5 Request:** `GetSceneList`
+
+| Response Field | Type | Description |
+|-------|--------|--------
+| currentProgramSceneName | String | The name of the currently active scene. |
+| currentPreviewSceneName | String | The name of the current preview scene (Studio Mode). |
+| scenes | Array | Array of scene objects, each with `sceneName` and `sceneIndex`. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+SAMMI extracts the `sceneName` from each scene object and returns them as a plain string array.

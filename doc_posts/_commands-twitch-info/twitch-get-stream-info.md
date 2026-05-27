@@ -39,11 +39,33 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 |started_at|	string|	UTC timestamp.
 |language	|string|	Stream language. A language value is either the ISO 639-1 two-letter code for a supported stream language or “other”.
 |thumbnail_url|	string|	Thumbnail URL of the stream. All image URLs have variable width and height. You can replace {width} and {height} with any values to get that size image
-|tag_ids|	string|	Shows tag IDs that apply to the stream.
+|tags|	array|	Tags that apply to the stream (array of strings).
 |is_mature	|boolean|	Indicates if the broadcaster has specified their channel contains mature content that may be inappropriate for younger audiences.
 {:class='table table-secondary w-auto table-hover' }
 
 </div>
+
+**Twitch API Endpoint:** `GET /helix/streams`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "id": "123456789",
+  "user_id": "98765432",
+  "user_login": "examplestreamer",
+  "user_name": "ExampleStreamer",
+  "game_id": "509658",
+  "game_name": "Just Chatting",
+  "type": "live",
+  "title": "Playing games with chat!",
+  "viewer_count": 1234,
+  "started_at": "2024-01-15T18:30:00Z",
+  "language": "en",
+  "thumbnail_url": "https://static-cdn.jtvnw.net/previews-ttv/live_user_examplestreamer-{width}x{height}.jpg",
+  "tags": ["English", "Gaming"],
+  "is_mature": false
+}
+```
 
 
 

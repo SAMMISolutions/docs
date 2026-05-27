@@ -15,6 +15,16 @@ Ends a currently running prediction.
 |Result ID (resolved only)|String|Result ID, wrapped in /$$/ if a variable is being used.
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `PATCH /helix/predictions`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that's running the prediction. |
+| id | string | The ID of the prediction to update. |
+| status | string | The status to set the prediction to. Possible values: `RESOLVED`, `CANCELED`, `LOCKED`. |
+| winning_outcome_id | string | The ID of the winning outcome. Required only if `status` is `RESOLVED`. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

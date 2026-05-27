@@ -30,3 +30,21 @@ Gets an array of blocked terms from a Twitch channel.
 |default[`0-?`].text|String|The blocked term itself!
 |default[`0-?`].updated_at|String|The UTC date and time, in RFC3339 format, of when the blocked term was updated.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/moderation/blocked_terms`
+
+**Example SAMMI Response Object:**
+```json
+[
+  {
+    "broadcaster_id": "98765432",
+    "moderator_id": "33333333",
+    "id": "520e4d16-5379-4bbe-a824-8d5a847e05c4",
+    "text": "badword",
+    "created_at": "2022-01-01T00:00:00Z",
+    "updated_at": "2022-01-01T00:00:00Z",
+    "expires_at": null
+  }
+]
+```
+Note: SAMMI saves the raw `data` array directly (as `struct_to_map(data)`), so the variable stores an array-as-map where the key `default` holds the array of blocked term objects.

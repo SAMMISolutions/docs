@@ -26,6 +26,18 @@ Gets the latest poll ID, prediction ID, or outcome ID to use with [Get Poll/Pred
 |undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, required scopes are missing, Twitch returns an empty response, or the request fails.|
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoints:**
+
+`GET /helix/polls` — used when fetching the latest Poll ID.
+
+`GET /helix/predictions` — used when fetching the latest Prediction ID or Prediction Outcome ID.
+
+| Query Parameter | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster whose polls or predictions to get. |
+| first | integer | Maximum number of items to return per page (set to 1 to retrieve the latest). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -19,6 +19,15 @@ The way the source resized is based on source's positional alignment in OBS (sou
 |Y Scale |Real (optional) {% include asterisk.html%}|	Y Scaling to set the source at. Leave blank to not modify it. `1.0` is 100%.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Scene containing the source. |
+| sceneItemId | Number | Scene item ID resolved internally by SAMMI from the source name. |
+| sceneItemTransform | Object | `{"scaleX": 1.5, "scaleY": 1.5}` — scale multipliers. `1.0` = 100%, `0.5` = 50%, `-1.0` = flipped. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

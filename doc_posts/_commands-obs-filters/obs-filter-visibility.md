@@ -16,6 +16,15 @@ Changes visibility of a filter in a given source.\
 |Visible|checkbox| checked = visible, unchecked = not visible
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSourceFilterEnabled`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sourceName | String | Name of the source the filter is applied to. |
+| filterName | String | Name of the filter to enable or disable. |
+| filterEnabled | Boolean | `true` to enable (show), `false` to disable (hide) the filter. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

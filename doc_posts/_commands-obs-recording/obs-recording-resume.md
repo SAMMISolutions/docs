@@ -16,9 +16,6 @@ Use this after Pause Recording to continue recording into the same recording ses
 
 {% include alert.html text="OBS must be connected to SAMMI before this command can run. This only has an effect when a recording is currently paused." type="info" %}
 
+**OBS WebSocket 5 Request:** `ResumeRecord`
 
-
-
-
-
-
+No request fields — resumes a paused recording.

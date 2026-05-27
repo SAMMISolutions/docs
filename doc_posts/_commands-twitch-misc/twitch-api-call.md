@@ -30,3 +30,13 @@ SAMMI saves the parsed JSON response returned by the Twitch API endpoint you cal
 |savedVariable|Object|Full JSON response object returned by Twitch for the requested endpoint.|
 |undefined|Undefined|Saved if Twitch is not connected, the URL/method/account is invalid, Twitch returns an error, or the response cannot be parsed as JSON.|
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API:** This command can target any Twitch Helix API endpoint. Specify the full URL (e.g. `https://api.twitch.tv/helix/streams`) and the appropriate HTTP method. Authentication headers are added automatically using the selected login's OAuth token and SAMMI's client ID.
+
+| Request Component | Type | Description |
+|-------|--------|--------
+| URL | string | Full Twitch Helix API URL including any query parameters (e.g. `https://api.twitch.tv/helix/streams?user_login=username`). |
+| Method | string | HTTP method for the request: `GET`, `POST`, `PATCH`, `DELETE`, etc. |
+| Authorization | string | Bearer token — added automatically from the selected login's OAuth token. |
+| client-id | string | SAMMI's client ID — added automatically to the request header. |
+{:class='table table-secondary w-auto table-hover text-break'}

@@ -17,7 +17,19 @@ Updates a Custom Channel Points Reward created on your channel.
 |Cost|Number {% include asterisk.html%}|The cost of the reward
 |Enabled|Checkbox|If the reward is currently enabled or not. If not enabled, the reward won’t show up to viewers.
 |Pause|Checkbox|If the reward is currently paused. If paused, viewers cannot redeem it.
-{:class='table table-primary'}
+{:class=’table table-primary’}
+
+**Twitch API Endpoint:** `PATCH /helix/channel_points/custom_rewards`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that owns the custom reward. |
+| id | string | The ID of the reward to update. |
+| title | string | The reward’s title. |
+| cost | integer | The cost of the reward, in channel points. |
+| is_enabled | boolean | Whether the reward is enabled. |
+| is_paused | boolean | Whether the reward is currently paused. |
+{:class=’table table-secondary w-auto table-hover text-break’}
 
 
 

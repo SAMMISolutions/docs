@@ -33,4 +33,39 @@ Gets a list of all users that are banned/timed out in the specified channel.
 |data[`0-?`].moderator_name|String|The moderator’s display name
 |pagination|Object|Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.
 |pagination.cursor|String|The cursor used to get the next page of results. Use the cursor to set the request’s after query parameter using Twitch API Call. 
-{:class='table table-secondary w-auto table-hover text-break'}
+{:class=’table table-secondary w-auto table-hover text-break’}
+
+**Twitch API Endpoint:** `GET /helix/moderation/banned`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "user_id": "88888888",
+      "user_login": "rulebreaker",
+      "user_name": "RuleBreaker",
+      "expires_at": "",
+      "created_at": "2024-01-10T15:00:00Z",
+      "reason": "Repeated violations",
+      "moderator_id": "33333333",
+      "moderator_login": "trustedmod",
+      "moderator_name": "TrustedMod"
+    },
+    {
+      "user_id": "99999999",
+      "user_login": "timeoutuser",
+      "user_name": "TimeoutUser",
+      "expires_at": "2024-01-15T22:00:00Z",
+      "created_at": "2024-01-15T21:00:00Z",
+      "reason": "Spam",
+      "moderator_id": "33333333",
+      "moderator_login": "trustedmod",
+      "moderator_name": "TrustedMod"
+    }
+  ],
+  "pagination": {
+    "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MTAwfX0"
+  }
+}
+```

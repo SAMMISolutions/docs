@@ -39,12 +39,22 @@ See below which SAMMI command corresponds to which chat slash command.
 |/unraid|Twitch: Cancel Raid|
 |/slow and /slowoff|Twitch: Set Slow Mode|
 |/subscribers and /subscribersoff|Twitch: Set Subscriber Mode|
-|/uniquechat and /uniquechatoff|Twitch: API Call|
+|/uniquechat and /uniquechatoff|Twitch: Set Unique Chat|
 |/vip|Twitch: Add VIP|
 |/unvip|Twitch: Remove VIP|
 |/vips |Twitch: Get VIPs|
 |/w |Twitch: Send Whisper|
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
+
+**Twitch API Endpoint:** `IRC PRIVMSG`
+
+This command sends messages via the IRC protocol, not the Twitch Helix API. SAMMI connects to Twitch IRC and sends a `PRIVMSG` to the target channel.
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| channel | String | IRC channel name prefixed with `#` (e.g. `#channelname`) |
+| message | String | The chat message text to send |
+{:class='table table-secondary w-auto table-hover text-break'}
 
 
 

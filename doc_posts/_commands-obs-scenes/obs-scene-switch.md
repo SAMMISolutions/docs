@@ -15,6 +15,13 @@ Switches to the selected scene with normal transition.
 |Scene Name |	String	|Scene name you want to switch to. Select from the menu or type manually.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetCurrentProgramScene`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | The name of the scene to switch to. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

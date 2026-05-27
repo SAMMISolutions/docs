@@ -17,6 +17,16 @@ Updates the status of custom reward redemption that has UNFULFILLED status.
 |Status|Dropdown|The new status to set redemptions to. Can be either FULFILLED or CANCELED. Updating to CANCELED will refund the user their channel points.
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `PATCH /helix/channel_points/custom_rewards/redemptions`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that owns the custom reward. |
+| reward_id | string | The ID of the custom reward the redemption belongs to. |
+| id | string | The ID of the redemption to update. |
+| status | string | The status to set the redemption to. Possible values: `FULFILLED`, `CANCELED`. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

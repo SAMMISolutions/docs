@@ -38,4 +38,27 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command save
 |savedVariable[`0-?`].created_at|String|The time in Twitch format that the team was created.
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/teams/channel`
+
+**Example SAMMI Response Object:**
+```json
+[
+  {
+    "broadcaster_id": "98765432",
+    "broadcaster_login": "examplestreamer",
+    "broadcaster_name": "ExampleStreamer",
+    "background_image_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-bg.png",
+    "banner": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-banner.png",
+    "thumbnail_url": "https://static-cdn.jtvnw.net/jtv_user_pictures/team-thumbnail.png",
+    "id": "6b0AsbInuLay",
+    "name": "exampleteam",
+    "team_display_name": "Example Team",
+    "info": "A friendly community of streamers.",
+    "updated_at": "2023-11-01T00:00:00Z",
+    "created_at": "2020-06-01T00:00:00Z"
+  }
+]
+```
+Note: SAMMI saves the raw `data` array directly (as `struct_to_map(data)`), so the variable stores an array-as-map where the key `default` holds the array of team objects.
+
 {% include alert.html text="Requires the <code>user:read:email</code> Twitch scope for the selected channel/account." type="info" %}

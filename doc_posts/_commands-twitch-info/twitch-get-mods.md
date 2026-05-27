@@ -28,3 +28,26 @@ Gets a list of users that are moderators for the specified broadcaster.
 |pagination|Object|Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.
 |pagination.cursor|String|The cursor used to get the next page of results with Twitch API Call.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/moderation/moderators`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "user_id": "33333333",
+      "user_login": "trustedmod",
+      "user_name": "TrustedMod"
+    },
+    {
+      "user_id": "44444444",
+      "user_login": "helpermod",
+      "user_name": "HelperMod"
+    }
+  ],
+  "pagination": {
+    "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MTAwfX0"
+  }
+}
+```

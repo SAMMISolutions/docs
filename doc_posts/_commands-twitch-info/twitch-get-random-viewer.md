@@ -26,4 +26,12 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command read
 |undefined|Undefined|Saved if Twitch is not connected, the channel cannot be resolved, no chatters are returned, required scopes are missing, or the request fails.|
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `GET /helix/chat/chatters` (SAMMI picks one random `user_name` from the returned list)
+
+**Example SAMMI Response:**
+```
+ActiveChatter
+```
+SAMMI saves only the `user_name` field of a randomly selected chatter as a plain string.
+
 {% include alert.html text="Requires the <code>moderator:read:chatters</code> and <code>user:read:email</code> Twitch scopes for the selected channel/account." type="info" %}

@@ -13,3 +13,11 @@ Seek to position in a currently playing source. Can be a media or VLC source.
 |Source Name|	String	|Name of the source. Select from dropdown or input manually.|
 |Time (ms)|	Int {% include asterisk.html%}	|Time in milliseconds|
 {:class='table table-primary'}
+
+**OBS WebSocket 5 Request:** `SetMediaInputCursor`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the media source. |
+| mediaCursor | Number | Position to seek to in milliseconds (e.g. `5000` = 5 seconds in). |
+{:class='table table-secondary w-auto table-hover text-break'}

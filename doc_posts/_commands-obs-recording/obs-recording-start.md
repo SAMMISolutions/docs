@@ -16,11 +16,6 @@ Use this when you explicitly want OBS to begin a recording. If OBS is already re
 
 {% include alert.html text="OBS must be connected to SAMMI before this command can run. Recording output settings are handled by OBS, not by SAMMI." type="info" %}
 
+**OBS WebSocket 5 Request:** `StartRecord`
 
-
-
-
-
-
-
-
+No request fields — starts the configured recording output immediately.

@@ -17,6 +17,17 @@ Changes the volume of a source.
 |Use dB| Checkbox | Whether you wish to use decibels for your values instead of percentage
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetInputVolume`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| inputName | String | Name of the source to change volume for. |
+| inputVolumeMul | Number | Volume in multiplier (0.0–1.0, where 1.0 = 100%). Used when **Use dB** is unchecked. |
+| inputVolumeDb | Number | Volume in decibels (−100 to +26 dB). Used when **Use dB** is checked. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+Only one of `inputVolumeMul` or `inputVolumeDb` is sent per request depending on the **Use dB** checkbox.
+
 
 
 

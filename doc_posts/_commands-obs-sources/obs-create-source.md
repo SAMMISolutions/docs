@@ -21,6 +21,25 @@ The source will be added at the top of the list. To reorder it, use a Send OBS R
 |Visible|	Checkbox	|Whether the source should be set visible upon creation. Checked = visible, Unchecked = not visible|
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `CreateInput`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Scene to add the source to. |
+| inputName | String | Name of the new source. |
+| inputKind | String | Source type ID (e.g. `browser_source`, `image_source`, `text_gdiplus_v2`). |
+| inputSettings | Object (optional) | JSON object with source-specific settings (same keys as used in `SetInputSettings`). |
+| sceneItemEnabled | Boolean (optional) | Whether the source is visible after creation. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+| Response Field | Type | Description |
+|-------|--------|--------
+| inputUuid | String | The UUID of the newly created source. |
+| sceneItemId | Number | The scene item ID of the source in the specified scene. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+Common `inputKind` values: `browser_source`, `image_source`, `ffmpeg_source`, `vlc_source`, `text_gdiplus_v2`, `text_ft2_source_v2`, `color_source_v3`, `wasapi_input_capture`, `wasapi_output_capture`, `monitor_capture`, `window_capture`, `game_capture`, `dshow_input`.
+
 
 
 

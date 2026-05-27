@@ -14,3 +14,12 @@ A shoutout can only be sent once every 2 minutes, and the same user cannot be sh
 |Channel|String|The channel to shoutout the specified user in
 |User Name|String|The username of the person to be shouted out
 {:class='table table-primary'}
+
+**Twitch API Endpoint:** `POST /helix/chat/shoutouts`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| from_broadcaster_id | String | The ID of the broadcaster giving the shoutout |
+| to_broadcaster_id | String | The ID of the broadcaster receiving the shoutout |
+| moderator_id | String | The ID of the moderator or broadcaster sending the shoutout request |
+{:class='table table-secondary w-auto table-hover text-break'}

@@ -30,6 +30,19 @@ Creates a Channel Point Reward on Twitch that will be owned by SAMMI. Only rewar
 |undefined|Undefined|Saved if the Twitch account cannot be resolved or the required scope is missing.|
 {:class='table table-secondary w-auto table-hover text-break'}
 
+**Twitch API Endpoint:** `POST /helix/channel_points/custom_rewards`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster to add the custom reward to. |
+| title | string | The custom reward's title. |
+| cost | integer | The cost of the reward, in channel points. |
+| is_enabled | boolean | Whether the reward is enabled. |
+| background_color | string | The background color to use for the reward (in Hex color code format, e.g. `#9147FF`). |
+| is_user_input_required | boolean | Whether the user needs to enter information when redeeming the reward. |
+| prompt | string | The prompt shown to the viewer when they redeem the reward. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

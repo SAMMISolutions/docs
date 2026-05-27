@@ -28,3 +28,26 @@ Gets a list of users that are VIPs in the specified broadcaster's chat room.
 |pagination|Object|Contains the information used to page through the list of results. The object is empty if there are no more pages left to page through.
 |pagination.cursor|String|The cursor used to get the next page of results with Twitch API Call.
 {:class='table table-secondary w-auto table-hover text-break'}
+
+**Twitch API Endpoint:** `GET /helix/channels/vips`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "data": [
+    {
+      "user_id": "11111111",
+      "user_login": "coolviewer",
+      "user_name": "CoolViewer"
+    },
+    {
+      "user_id": "22222222",
+      "user_login": "loyalfan",
+      "user_name": "LoyalFan"
+    }
+  ],
+  "pagination": {
+    "cursor": "eyJiIjpudWxsLCJhIjp7Ik9mZnNldCI6MTAwfX0"
+  }
+}
+```

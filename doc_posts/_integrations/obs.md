@@ -71,7 +71,7 @@ You can remotely control OBS Studio using [SAMMI OBS commands]({{ "commands/obs-
 
 {:start="4"}
 4. Click "Save" in the edit button screen and then click "Save" again in your deck. This step is crucial to save your button.
-5. Press the button in your SAMMI Deck while connected to OBS to execute the command(s).
+5. Press the button in your SAMMI Panel while connected to OBS to execute the command(s).
 
 {% include video.html w="75" src="obs-control.mp4" alt="Controlling OBS remotely from SAMMI" %}
 

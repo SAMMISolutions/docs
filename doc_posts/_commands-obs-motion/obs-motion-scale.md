@@ -26,6 +26,10 @@ You can use OBS Pull Source Value command to find current source's X and Y size 
 |Smooth|	dropdown |	Type of transition.<br/> **None** = Normal, **Out** = Starts out fast and ends slow, **In** = Starts out slow and ends fast,  <br/> **In/Out**= Starts out slow, gets faster and then slows down at the end again.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform` (called repeatedly each SAMMI frame)
+
+Sends `{"scaleX": x, "scaleY": y}` as `sceneItemTransform` on every frame until the duration is complete. `1.0` = 100%, `0.5` = 50%, negative values flip the source.
+
 
 
 

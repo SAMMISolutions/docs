@@ -62,8 +62,7 @@ You can also initiliaze complex variables, such as arrays or objects:
 |Boolean | 1 = true, 0 = false | cyan|
 |Array | `["cat","rabbit","dog"]` | yellow|
 |Object | `{"name": "John", "age": 25, "country": "Canada"}` | purple|
-|Undefined | Variable does not exist/is set to empty value| red |
-|Null | Variable with empty or non existent reference | red|
+|Undefined | Variable does not exist, is set to empty value, or contains a JSON null | red |
 {:class='table table-secondary w-auto table-responsive table-hover'}
 
 **Real value (number)**

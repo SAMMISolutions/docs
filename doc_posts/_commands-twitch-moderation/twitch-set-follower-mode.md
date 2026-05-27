@@ -20,3 +20,13 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:chat_settings</code> Twitch scope." type="info" %}
+
+**Twitch API Endpoint:** `PATCH /helix/chat/settings`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose chat settings are being updated |
+| moderator_id | String | The ID of a moderator or the broadcaster |
+| follower_mode | Boolean | Set to `true` to enable Follower-Only Mode, `false` to disable |
+| follower_mode_duration | Integer | Optional. Minimum follow duration in minutes required to chat (0–129600). Omit or set to 0 for any follower |
+{:class='table table-secondary w-auto table-hover text-break'}

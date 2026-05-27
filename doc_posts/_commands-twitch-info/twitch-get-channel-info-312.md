@@ -26,13 +26,32 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 | Variable Name | Type | Description | 
 |-------|--------|--------
 |broadcaster_id|	string	|Twitch User ID of this channel owner
+|broadcaster_login|	string|	Twitch login name of this channel owner (lowercase)
 |broadcaster_name|	string|	Twitch user display name of this channel owner
 |game_name|	string|	Name of the game being played on the channel
 |game_id|	string|	Current game ID being played on the channel
 |broadcaster_language|	string|	Language of the channel. A language value is either the ISO 639-1 two-letter code for a supported stream language or "other".
 |title|	string|	Title of the stream
 |delay	|number|	Stream delay in seconds
+|tags|	array|	Tags applied to the channel (array of strings)
 {:class='table table-secondary table-hover' }
+
+**Twitch API Endpoint:** `GET /helix/channels`
+
+**Example SAMMI Response Object:**
+```json
+{
+  "broadcaster_id": "98765432",
+  "broadcaster_login": "examplestreamer",
+  "broadcaster_name": "ExampleStreamer",
+  "broadcaster_language": "en",
+  "game_id": "509658",
+  "game_name": "Just Chatting",
+  "title": "Hanging out with chat!",
+  "delay": 0,
+  "tags": ["English", "Chill"]
+}
+```
 
 
 

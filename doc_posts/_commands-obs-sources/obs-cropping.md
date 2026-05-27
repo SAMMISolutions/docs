@@ -20,6 +20,15 @@ Changes the crop settings of a source.
 |Bottom|Number {% include asterisk.html%}|Bottom crop settings.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetSceneItemTransform`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Scene containing the source. |
+| sceneItemId | Number | Scene item ID resolved internally by SAMMI from the source name. |
+| sceneItemTransform | Object | `{"cropLeft": 50, "cropTop": 0, "cropRight": 50, "cropBottom": 0}` — crop values in pixels. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

@@ -15,6 +15,14 @@ Deletes your previously created reward.
 |Reward (ID required)|Dropdown|ID of the custom reward to delete.
 {:class='table table-primary'}
 
+**Twitch API Endpoint:** `DELETE /helix/channel_points/custom_rewards`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | string | The ID of the broadcaster that owns the custom reward. |
+| id | string | The ID of the custom reward to delete. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

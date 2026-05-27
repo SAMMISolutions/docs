@@ -39,3 +39,42 @@ Typical values can include:
 {:class='table table-secondary w-auto table-hover text-break'}
 
 The exact keys depend on what OBS returns for the selected source and OBS WebSocket version.
+
+**OBS WebSocket 5 Request:** `GetSceneItemTransform`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sceneName | String | Scene the source is in. |
+| sceneItemId | Number | Scene item ID resolved internally by SAMMI from the source name. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+| Response Field (saved to variable) | Type | Description |
+|-------|--------|--------
+| positionX / positionY | Number | Source position on the canvas in pixels. |
+| width / height | Number | Rendered width/height after scaling. |
+| scaleX / scaleY | Number | Scale multiplier (`1.0` = 100%). |
+| sourceWidth / sourceHeight | Number | Original source dimensions in pixels. |
+| rotation | Number | Rotation in degrees (0–360). |
+| cropLeft / cropTop / cropRight / cropBottom | Number | Crop values in pixels. |
+| boundsWidth / boundsHeight | Number | Bounding box dimensions if bounds are set. |
+| alignment | Number | Positional alignment bitmask. |
+{:class='table table-secondary w-auto table-hover text-break'}
+
+**Example saved object:**
+```json
+{
+  "positionX": 960,
+  "positionY": 540,
+  "width": 1920,
+  "height": 1080,
+  "scaleX": 1.0,
+  "scaleY": 1.0,
+  "rotation": 0,
+  "cropLeft": 0,
+  "cropTop": 0,
+  "cropRight": 0,
+  "cropBottom": 0,
+  "sourceWidth": 1920,
+  "sourceHeight": 1080
+}
+```

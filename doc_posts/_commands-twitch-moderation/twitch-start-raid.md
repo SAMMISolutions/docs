@@ -17,3 +17,11 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>channel:manage:raids</code> Twitch scope. The broadcaster can still cancel the raid before the countdown finishes." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/raids`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| from_broadcaster_id | String | The ID of the broadcaster initiating the raid |
+| to_broadcaster_id | String | The ID of the broadcaster to raid |
+{:class='table table-secondary w-auto table-hover text-break'}

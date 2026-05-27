@@ -17,3 +17,10 @@ For more information, check out the [Twitch API Reference Guide for Unblock User
 
 {% include alert.html text="Requires the <code>user:manage:blocked_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
 
+**Twitch API Endpoint:** `DELETE /helix/users/blocks`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| target_user_id | String | The ID of the user to unblock |
+{:class='table table-secondary w-auto table-hover text-break'}
+

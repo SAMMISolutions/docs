@@ -20,3 +20,14 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:banned_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
+
+**Twitch API Endpoint:** `POST /helix/moderation/bans`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| broadcaster_id | String | The ID of the broadcaster whose chat room the user is timed out from |
+| moderator_id | String | The ID of the moderator or broadcaster applying the timeout |
+| data.user_id | String | The ID of the user to time out |
+| data.duration | Integer | The duration of the timeout in seconds (max 1,209,600 — 2 weeks) |
+| data.reason | String | Optional. The reason for the timeout |
+{:class='table table-secondary w-auto table-hover text-break'}

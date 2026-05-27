@@ -14,6 +14,13 @@ Changes the duration of a specified transition.
 |Duration (ms)|Number	{% include asterisk.html%}|New duration in milliseconds|
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SetCurrentSceneTransitionDuration`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| transitionDuration | Number | Duration of the transition in milliseconds (e.g. `300`). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
 
 
 

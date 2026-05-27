@@ -18,3 +18,12 @@ Saves a screenshot of an OBS source or scene to a local PNG file.
 |File Path|File Select|Local path to save the screenshot to.
 {:class='table table-primary'}
 
+**OBS WebSocket 5 Request:** `SaveSourceScreenshot`
+
+| Request Field | Type | Description |
+|-------|--------|--------
+| sourceName | String | Name of the source or scene to capture. |
+| imageFormat | String | Always `png` for this command. |
+| imageFilePath | String | Full local file path to save the PNG image to (e.g. `C:/Screenshots/capture.png`). |
+{:class='table table-secondary w-auto table-hover text-break'}
+
