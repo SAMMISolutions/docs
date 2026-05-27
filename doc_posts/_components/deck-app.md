@@ -106,6 +106,7 @@ Every message is a JSON object with a top-level `op` field that identifies the m
 | 5 | Response | Server → Client | SAMMI's reply to a Request |
 | 6 | Event | Server → Client | Unsolicited event broadcast by SAMMI (button state changes, deck updates, etc.) |
 | 7 | Close | Both | Signals that the connection is being closed |
+{:class='table table-primary'}
 
 ### Authentication
 
