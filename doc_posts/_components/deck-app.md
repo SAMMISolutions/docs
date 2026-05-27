@@ -98,7 +98,7 @@ The easiest way to implement a JavaScript/browser-based Deck App is to use the [
 Every message is a JSON object with a top-level `op` field that identifies the message type.
 
 | OP | Name | Direction | Purpose |
-|---:|---|---|---|
+|---|---|---|---|
 | 1 | Heartbeat | Both | Keep-alive ping — send periodically to maintain the connection |
 | 2 | Identify | Client → Server | Authentication request sent immediately after connecting |
 | 3 | Identified | Server → Client | Confirms successful authentication |
