@@ -98,14 +98,14 @@ The easiest way to implement a JavaScript/browser-based Deck App is to use the [
 Every message is a JSON object with a top-level `op` field that identifies the message type.
 
 | OP | Name | Direction | Purpose |
-|---|---|---|---|
-| 1 | Heartbeat | Both | Keep-alive ping — send periodically to maintain the connection |
-| 2 | Identify | Client → Server | Authentication request sent immediately after connecting |
-| 3 | Identified | Server → Client | Confirms successful authentication |
-| 4 | Request | Client → Server | A request to SAMMI (fetch data, trigger a button, etc.) |
-| 5 | Response | Server → Client | SAMMI's reply to a Request |
-| 6 | Event | Server → Client | Unsolicited event broadcast by SAMMI (button state changes, deck updates, etc.) |
-| 7 | Close | Both | Signals that the connection is being closed |
+|-------|--------|--------|--------
+| 1 | Heartbeat | Both | Keep-alive ping — send periodically to maintain the connection
+| 2 | Identify | Client → Server | Authentication request sent immediately after connecting
+| 3 | Identified | Server → Client | Confirms successful authentication
+| 4 | Request | Client → Server | A request to SAMMI (fetch data, trigger a button, etc.)
+| 5 | Response | Server → Client | SAMMI's reply to a Request
+| 6 | Event | Server → Client | Unsolicited event broadcast by SAMMI (button state changes, deck updates, etc.)
+| 7 | Close | Both | Signals that the connection is being closed
 {:class='table table-primary'}
 
 ### Authentication
@@ -181,7 +181,7 @@ Returns a flat list of all decks and their current status.
 
 #### GetDeck
 
-Returns the full data for a single deck including all button properties.
+Returns the full data for a single deck including all button properties. Accepts either `deckId` or `deckName`.
 
 ```json
 {
@@ -190,7 +190,63 @@ Returns the full data for a single deck including all button properties.
 }
 ```
 
-`responseData.deckData` contains the full deck structure: deck dimensions, background image CRC, per-button image CRCs, and a `button_list` array with each button's position, size, color, text, image, border, and group information.
+`responseData`:
+```json
+{
+  "deckData": {
+    "deckId": "20230101120000000000001",
+    "deckName": "Main Deck",
+    "crc": "abc123",
+    "status": true,
+    "background_color": 4210752,
+    "background_image": "my_bg.png",
+    "background_image_crc": "xyz789",
+    "grid_x": 10,
+    "grid_y": 10,
+    "snap_grid": true,
+    "adaptive_resizing": true,
+    "stretch": false,
+    "sammi_version": "2024.1.0",
+    "button_image_crcs": {
+      "MyButton": "def456"
+    },
+    "button_list": [
+      {
+        "button_id": "MyButton",
+        "text": "Play",
+        "color": 3093194,
+        "font_color": 16777215,
+        "font_shadow": true,
+        "border_color": 0,
+        "border": 2,
+        "x": 0.05,
+        "y": 0.1,
+        "width": 0.15,
+        "height": 0.2,
+        "image": "play.png",
+        "stretch": false,
+        "is_transparent": false,
+        "overlappable": false,
+        "persistent": true,
+        "queueable": false,
+        "payload": true,
+        "press_type": 0,
+        "group_id": "",
+        "init_variable": "",
+        "button_duration": 0,
+        "release_duration": 0,
+        "functions": 64,
+        "triggers": []
+      }
+    ]
+  }
+}
+```
+
+- Colors (`color`, `font_color`, `border_color`, `background_color`) are BGR decimal integers.
+- `x`, `y`, `width`, `height` are fractions of the deck's display area (0.0–1.0). Multiply by the device's screen size to get pixel coordinates.
+- `command_list` and `release_list` are stripped and never sent to Deck Apps.
+- `background_image` and button `image` are filenames only (no path). Fetch the actual image data with `GetImage`.
 
 #### GetImage
 
@@ -215,7 +271,24 @@ Returns all currently active button modifications (temporary appearance override
 { "requestName": "GetModifications" }
 ```
 
-`responseData`: `{ "modifications": { "<buttonId>": { "text": "...", "image": "...", ... } } }`
+`responseData`:
+```json
+{
+  "modifications": {
+    "MyButton": {
+      "text": "LIVE",
+      "color": 255,
+      "font_color": 16777215,
+      "border_color": 0,
+      "border": 3,
+      "font_shadow": true,
+      "image": "live.png"
+    }
+  }
+}
+```
+
+Only the fields that were actually overridden are present — unmodified properties are omitted.
 
 #### GetOngoingButtons
 
@@ -225,7 +298,25 @@ Returns all buttons that are currently executing (held down / still running thei
 { "requestName": "GetOngoingButtons" }
 ```
 
-`responseData.buttons` is an array of `{ buttonId, groupId, overlappable, releaseType, duration, elapsedTime }` objects.
+`responseData`:
+```json
+{
+  "buttons": [
+    {
+      "buttonId": "MyButton",
+      "groupId": "",
+      "overlappable": false,
+      "releaseType": false,
+      "duration": 0,
+      "elapsedTime": 1240
+    }
+  ]
+}
+```
+
+- `releaseType: true` means this is a release-command execution (not the main press).
+- `duration` is the configured button duration in ms (`0` = no fixed duration).
+- `elapsedTime` is milliseconds since the button started executing.
 
 #### TriggerButton
 
@@ -417,12 +508,20 @@ Fired when a button's visual appearance is temporarily overridden (e.g. by a "Mo
   "eventType": "ButtonModified",
   "eventData": {
     "buttonId": "MyButton",
-    "modifications": { "text": "New Label", "image": "new.png", "color": 255 }
+    "modifications": {
+      "text": "LIVE",
+      "color": 255,
+      "font_color": 16777215,
+      "border_color": 0,
+      "border": 3,
+      "font_shadow": true,
+      "image": "live.png"
+    }
   }
 }
 ```
 
-An empty `modifications` object means all overrides have been cleared for that button.
+Only the fields that were actually overridden are present. An empty `modifications` object means all overrides have been cleared for that button.
 
 #### DeckStatusChanged
 
@@ -442,9 +541,13 @@ Fired when a deck's configuration changes (e.g. after editing a button in SAMMI 
 ```json
 {
   "eventType": "DeckUpdated",
-  "eventData": { "deckData": { } }
+  "eventData": {
+    "deckData": { }
+  }
 }
 ```
+
+`eventData.deckData` has the same full structure as `responseData.deckData` from `GetDeck`.
 
 #### SwitchDeck
 
