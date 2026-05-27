@@ -78,10 +78,6 @@ Improvements:
 - Improved the update check so SAMMI can still run offline when no internet connection is available, as long as you've been online in the last 7 days
 - Turned the message box in the "Discord: Send Message" command into a multiline box, allowing line breaks
 - Copying a variable value from the Variable Viewer now includes the Button ID
-- Wait For User Choice, Wait For User Input, Wait For Dialog, and Popup Message no longer freeze all running buttons
-  - Only the current button is paused while the dialog is open
-  - All other buttons continue running normally in the background
-  - The old behavior (freezing all buttons) can be restored individually per command in SAMMI Settings
 - Updated the SAMMI Panel URL: https://panel.sammi.solutions/
 - Reworked the save logic:
   - SAMMI now only saves the affected deck instead of all decks every time you change something
@@ -131,11 +127,6 @@ New Features:
 
 - SAMMI Pro users can now replay logged events directly from the Event Log
 - SAMMI Pro users can create unlimited viewer buttons without Power requirements in the official SAMMI Twitch Extension
-- Added a new Command Editor accessible from the SAMMI Settings menu
-  - Allows you to enable or disable individual commands or entire command categories
-  - Disabled commands are hidden from the command list to keep it clean and focused
-  - Commands can be marked as favorites and will appear at the top of the command list for quick access
-  - Supports subcategory-level filtering for fine-grained control
 
 
 New Commands:
