@@ -11,6 +11,6 @@ This feature also has some limitations as imposed by Twitch, detailed [here](htt
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Chat Message|String|Message you want to send.
-User Name|String|User who shall receive the message.
+|Chat Message|String|Message you want to send.
+|User Name|String|User who shall receive the message.
 {:class='table table-primary'}

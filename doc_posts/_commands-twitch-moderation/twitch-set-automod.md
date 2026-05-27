@@ -16,8 +16,8 @@ Moderation levels available: as provided by Twitch:
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|Channel name to get AutoMod settings for. This can be left empty.
-Level|Dropdown|Dropdown selection of AutoMod levels available.
+|Channel|String|Channel name to get AutoMod settings for. This can be left empty.
+|Level|Dropdown|Dropdown selection of AutoMod levels available.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:automod_settings</code> Twitch scope." type="info" %}

@@ -11,11 +11,11 @@ Adds a column to a pre-existing CSV file.
 |-------|--------|--------
 |CSV Name|String|Name of your CSV
 |New Column Name|String|Name of new column
-|Default Value|String|Value to be filled in the first box in the column 
-|New Column Name|String|Name of another new column
-|Default Value|String|Value to be filled in the first box in the column 
-|New Column Name|String|Name of another new column
-|Default Value|String|Value to be filled in the first box in the column 
+|Default Value|String|Default value to fill into every existing row in this column when it is created
+|New Column Name|String|Name of another new column (optional)
+|Default Value|String|Default value to fill into every existing row in this column when it is created
+|New Column Name|String|Name of another new column (optional)
+|Default Value|String|Default value to fill into every existing row in this column when it is created
 {:class='table table-primary'}
 
 

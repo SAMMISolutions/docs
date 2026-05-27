@@ -11,7 +11,7 @@ Reading data from a buffer will advance the position of the head by however many
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer
-|Type	|Drodown	| Type of the buffer you want to read from
+|Type	|Dropdown	| Type of the buffer you want to read from
 |Variable	|String	| Variable to save the read data into
 {:class='table table-primary'}
 

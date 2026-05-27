@@ -11,6 +11,6 @@ A shoutout can only be sent once every 2 minutes, and the same user cannot be sh
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|The channel to shoutout the specified user in
-User Name|String|The username of the person to be shouted out
+|Channel|String|The channel to shoutout the specified user in
+|User Name|String|The username of the person to be shouted out
 {:class='table table-primary'}

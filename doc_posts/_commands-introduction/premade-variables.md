@@ -34,7 +34,7 @@ You can access them by using the `Get Global Variable` command, or reference the
 {% include selectAll.html text="<code>browser_name</code>" %}| String | Browser name your Bridge connected to SAMMI is using.
 {% include selectAll.html text="<code>client_language</code>" %}| String | Language SAMMI is currently using.
 {% include selectAll.html text="<code>deck_app_connections</code>" %}| Array | Contains string names of all connected Deck Apps.
-{% include selectAll.html text="<code>deck_app_port</code>" %}| Number | The port number for SAMMI Panel.
+{% include selectAll.html text="<code>deck_app_port</code>" %}| Number | The port number for the Deck App.
 {% include selectAll.html text="<code>SAMMI</code>" %}| Object | Contains information about your current SAMMI versions.
 {% include selectAll.html text="<code>SAMMI.bridge_version</code>" %}| String | Your current SAMMI Bridge version.
 {% include selectAll.html text="<code>SAMMI.sammi_version</code>" %}| String | Your current SAMMI Core version.

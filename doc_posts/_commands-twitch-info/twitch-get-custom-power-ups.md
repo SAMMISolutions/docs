@@ -22,9 +22,9 @@ If **Channel Name** is empty, SAMMI uses the default Twitch account. If Twitch i
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|
-data|Array|Array of custom Power-up objects returned by Twitch.
-data[`0-?`]|Object|A single custom Power-up object.
-pagination|Object|Pagination information returned by Twitch, if available.
+|data|Array|Array of custom Power-up objects returned by Twitch.
+|data[`0-?`]|Object|A single custom Power-up object.
+|pagination|Object|Pagination information returned by Twitch, if available.
 {:class='table table-secondary w-auto table-hover text-break'}
 
 Example:

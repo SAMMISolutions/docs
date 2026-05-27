@@ -12,18 +12,18 @@ Can only be started by the broadcaster's account (will fail if sent as another a
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel Name|String|Channel to play the ad on. Leave blank to use default account
-Duration|number|Requested length of commercial, in seconds. May result in a different duration to request. Should not be more than 180 seconds.
-Save Variable As|String|Variable to save the result
+|Channel Name|String|Channel to play the ad on. Leave blank to use default account
+|Duration|Number|Requested length of commercial, in seconds. May result in a different duration to request. Should not be more than 180 seconds.
+|Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
 **Saved Payload:**
 
 | Variable name | Type | Description |
 |-------|--------|--------
-length|number|Duration of the commercial, in seconds
-message|string|A message that indicates whether Twitch was able to serve an ad
-retry_after|number|The number of seconds you must wait before running another ad.
+|length|Number|Duration of the commercial, in seconds
+|message|String|A message that indicates whether Twitch was able to serve an ad
+|retry_after|Number|The number of seconds you must wait before running another ad.
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="If <strong>Channel Name</strong> is empty, SAMMI uses the default Twitch account. The saved result is set to <code>undefined</code> if Twitch rejects the ad request." type="info" %}

@@ -23,8 +23,8 @@ When creating a buffer, you should always try to create it to a size that is app
 | Box Name | Type | Description |
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer to create
-|Byte Size | Size of the buffer in bytes. Default is 64. |
-|Type |dropdown menu| Fixed, Expand With Grow or Wrap
+|Byte Size | Number | Size of the buffer in bytes. Default is 64.
+|Type |Dropdown | Fixed, Expand With Grow or Wrap
 {:class='table table-primary'}
 
 

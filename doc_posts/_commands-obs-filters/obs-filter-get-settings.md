@@ -10,6 +10,8 @@ Gets the current settings of an OBS filter and saves them as an object.
 
 {% include alert.html text="Available in SAMMI Pro." type="info" %}
 
+{% include async.html %}
+
 | Box Name | Type | Description |
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to, if using multiple OBS connections.

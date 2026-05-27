@@ -15,20 +15,20 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command save
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-Channel|Twitch Account|Channel name to get shared chat info from. Leave empty to use the default Twitch account.
-Save Variable As|String|Variable name to save the shared chat session object.
+|Channel|Twitch Account|Channel name to get shared chat info from. Leave empty to use the default Twitch account.
+|Save Variable As|String|Variable name to save the shared chat session object.
 {:class='table table-primary'}
 
 **Saved Payload:**
 
 | Variable Name | Type | Description |
 |---------------|------|-------------|
-session_id|String|The ID for the shared chat session.
-host_broadcaster_id|String|The User ID of the host channel.
-participants|Array|Array of objects for each participant of the shared chat session.
-participants[`0-?`].broadcaster_id|String|The User ID of the participant.
-updated_at|String|The time in Twitch format that the shared chat session was last updated.
-created_at|String|The time in Twitch format that the shared chat session was created.
+|session_id|String|The ID for the shared chat session.
+|host_broadcaster_id|String|The User ID of the host channel.
+|participants|Array|Array of objects for each participant of the shared chat session.
+|participants[`0-?`].broadcaster_id|String|The User ID of the participant.
+|updated_at|String|The time in Twitch format that the shared chat session was last updated.
+|created_at|String|The time in Twitch format that the shared chat session was created.
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>user:read:email</code> Twitch scope for the selected channel/account." type="info" %}

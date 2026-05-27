@@ -7,7 +7,7 @@ redirect_from:
 
 Changes the visibility of a source.
 
-{% include alert.html text="Changing visiblity of sources residing in groups has inconsistent results. It is advised to use nested scenes instead." type="warning" %} 
+{% include alert.html text="Changing visibility of sources residing in groups has inconsistent results. It is advised to use nested scenes instead." type="warning" %} 
 
 | Box Name | Type | Description | 
 |-------|--------|--------

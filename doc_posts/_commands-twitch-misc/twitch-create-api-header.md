@@ -12,15 +12,15 @@ Can be used in conjunction with the [HTTP Request]({{ "commands/misc#httprequest
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Login Name | Dropdown |The name of the channel to use for authentication in the API Header
-Save Variable As|String|Variable to save the result
+|Login Name | Dropdown |The name of the channel to use for authentication in the API Header
+|Save Variable As|String|Variable to save the result
 {:class='table table-primary'}
 
 **Saved Payload:**
 
 | Variable | Type | Contents |
 |-------|--------|--------
-Authorization|String|"Bearer (your OAuth token)"
-client-id|String|SAMMI's unique identifier
-Content-Type|String|"application/json"
+|Authorization|String|"Bearer (your OAuth token)"
+|client-id|String|SAMMI's unique identifier
+|Content-Type|String|"application/json"
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }

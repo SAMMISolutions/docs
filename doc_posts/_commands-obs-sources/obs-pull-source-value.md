@@ -15,7 +15,7 @@ Very useful command to use together with Motion commands. For example, you can p
 |Scene Name|	String|	Scene name containing the source. Select from dropdown or input manually.
 |Source Name|	String|	Source name to pull the value. Select from dropdown or input manually.
 |Save Variable As	|String|	Variable name to save the pulled value into
-|Pull Value|Dropdown menu| Type of the value you wish to pull
+|Pull Value|Dropdown| Type of the value you wish to pull
 {:class='table table-primary'}
 
 
@@ -29,7 +29,7 @@ Very useful command to use together with Motion commands. For example, you can p
 |Crop Left/Top/Right/Bottom | Returns current crop values of the source | For example 50
 |Rotation | Returns the degree of rotation of the source | 0-360
 |Volume | Returns the volume of the source in percentage | 0-1
-|Volume dB| Returns the volume of the source in deceibels | For example 50
+|Volume dB| Returns the volume of the source in decibels | For example 50
 |Muted | Returns boolean value whether the source is muted or not | 0 for unmuted and 1 for muted
 {:class='table table-secondary w-auto table-hover data-toggle='table' text-break }
 

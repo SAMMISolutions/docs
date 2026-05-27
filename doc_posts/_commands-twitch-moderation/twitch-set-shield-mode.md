@@ -13,8 +13,8 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|Channel to toggle Shield Mode for
-Enabled|Dropdown|Enable/Disable
+|Channel|String|Channel to toggle Shield Mode for
+|Enabled|Dropdown|Enable/Disable
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:shield_mode</code> Twitch scope." type="info" %}

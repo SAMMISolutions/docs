@@ -14,8 +14,8 @@ If **Channel** is empty, SAMMI uses the default Twitch account. The command read
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|Twitch Account|Channel name to get a random chatter from. Leave empty to use the default Twitch account.
-Save Variable As|String|Variable name to save the viewer display name.
+|Channel|Twitch Account|Channel name to get a random chatter from. Leave empty to use the default Twitch account.
+|Save Variable As|String|Variable name to save the viewer display name.
 {:class='table table-primary'}
 
 **Saved Value:**

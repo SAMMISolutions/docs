@@ -9,7 +9,7 @@ Clears all the contents of an array, leaving it empty. Does not delete the array
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Array Name | String | Array name you wish to clear
+|Array Name | String | Array name you wish to clear
 {:class='table table-primary'}
 
 

@@ -10,6 +10,8 @@ Gets the current OBS scene list and saves the scene names as an array.
 
 {% include alert.html text="Available in SAMMI Pro." type="info" %}
 
+{% include async.html %}
+
 | Box Name | Type | Description |
 |-------|--------|--------
 |OBS|Dropdown|OBS to get the scene list from, if using multiple OBS connections.

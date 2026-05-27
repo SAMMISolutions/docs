@@ -15,10 +15,10 @@ Works like the HTTP Request command, but automatically creates a header for Twit
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-URL|String|The URL to make the API Call to
-Method|Dropdown|The Method used for the API Call
-Login Name | Dropdown |The name of the channel to use for authentication for the API Call
-Save Variable As (optional)|String|Variable to save the result
+|URL|String|The URL to make the API Call to
+|Method|Dropdown|The Method used for the API Call
+|Login Name | Dropdown |The name of the channel to use for authentication for the API Call
+|Save Variable As (optional)|String|Variable to save the result
 {:class='table table-primary'}
 
 **Saved Payload:**

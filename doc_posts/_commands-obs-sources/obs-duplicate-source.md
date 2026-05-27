@@ -12,6 +12,7 @@ Duplicates a source, copying all transform and crop info.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
+|OBS|Dropdown|OBS to send this command to (if using multiple OBS)|
 |Scene Name|String|Name of the scene where the source resides. Select from dropdown or input manually.|
 |Source Name|String|Name of the source to duplicate. Select from dropdown or input manually.
 |Insertion Scene Name|String|Name of the scene to add the duplicated source to. Select from dropdown or input manually.

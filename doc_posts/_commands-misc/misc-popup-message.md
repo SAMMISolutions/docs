@@ -13,7 +13,7 @@ Useful for extension creators to be able to easily notify the user of important 
 | Box Name | Type | Description |
 |-------|--------|--------
 |Message|	String|	The message you want to display. Can be multiline.
-|Pause Button Execution| Checkbox |Choose whether you want to temporarily freeze SAMMI (i.e. pause all commands and SAMMI itself) while showing the popup. 
+|Pause Button Execution| Checkbox |When checked, pauses only the current button's execution until the user dismisses the popup. All other buttons continue running normally. When unchecked, the popup appears without pausing anything. Enable **Popup Message: Block All Buttons** in SAMMI Settings to restore the legacy behavior of freezing all buttons.
 {:class='table table-primary'}
 
 

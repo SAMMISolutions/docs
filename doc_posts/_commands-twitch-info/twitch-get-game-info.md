@@ -23,9 +23,9 @@ You can access the response object's data by using [Get Object Variable]({{ "com
 
 | Variable Name | Type | Description | 
 |-------|--------|--------
-box_art_url | Object	| Template URL for the game’s box art.
-id	| string |	Game ID.
-name |	string	| Game name.
+|box_art_url | String	| Template URL for the game’s box art.
+|id	| String |	Game ID.
+|name |	String	| Game name.
 {:class='table table-secondary w-auto table-hover' }
 
 

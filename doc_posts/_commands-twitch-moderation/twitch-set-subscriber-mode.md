@@ -14,8 +14,8 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|Channel name to set Subscriber-Only Mode for
-Enabled|Dropdown|Enable/Disable
+|Channel|String|Channel name to set Subscriber-Only Mode for
+|Enabled|Dropdown|Enable/Disable
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:chat_settings</code> Twitch scope." type="info" %}

@@ -9,10 +9,10 @@ Saves in an array the result of doing math with every value of the original arra
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-New Array Name | String | Name of the array to save the returned array.
-Array Name | String | Name of the array to do math.
-Operator | Dropdown menu | Operator you wish to use on the array values.
-Value | {% include asterisk.html%} | Value to do Math.
+|New Array Name | String | Name of the array to save the returned array.
+|Array Name | String | Name of the array to do math.
+|Operator | Dropdown | Operator you wish to use on the array values.
+|Value | {% include asterisk.html%} | Value to do math with.
 {:class='table table-primary'}
 
 {% include alert.html text="Value box can only contain a string if you are using the concat operator. All the other operators need numbers (the command will skip any string in the array)." type="warning" %}

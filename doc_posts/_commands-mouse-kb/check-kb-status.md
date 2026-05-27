@@ -11,7 +11,7 @@ Checks if a specific button is currently pressed.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Save Variable As|String|Variable to save the result into. 0 = not pressed, 1 = pressed
-|Button|Dropdown Menu|Keyboard button to check
+|Button|Dropdown|Keyboard button to check
 {:class='table table-primary'}
 
 

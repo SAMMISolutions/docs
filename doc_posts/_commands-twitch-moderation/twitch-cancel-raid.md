@@ -12,7 +12,7 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|The channel to cancel the ongoing raid in
+|Channel|String|The channel to cancel the ongoing raid in
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>channel:manage:raids</code> Twitch scope." type="info" %}

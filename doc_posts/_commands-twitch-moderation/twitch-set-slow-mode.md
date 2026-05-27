@@ -14,9 +14,9 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Channel|String|Channel name to set Slow Mode for
-Enabled|Dropdown|Enable/Disable
-Time|Number {% include asterisk.html%}|Amount of time, in seconds, that users must wait before they can chat again
+|Channel|String|Channel name to set Slow Mode for
+|Enabled|Dropdown|Enable/Disable
+|Time|Number {% include asterisk.html%}|Amount of time, in seconds, that users must wait before they can chat again
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>moderator:manage:chat_settings</code> Twitch scope." type="info" %}

@@ -17,11 +17,11 @@ Generates a random color value and saves it to a variable.
 
 Example:
 
-| Save Variable As | Saved Value Example | Usage Example |
+| Save Variable As | Saved Value Example | Notes |
 |-------|--------|--------
-|randomColor|16711935|Use with button color commands, OBS color values, or other commands that expect a SAMMI color value.
+|randomColor|`FF0080`|A 6-character uppercase hex string in `RRGGBB` format, e.g. `FF0080` for a pink color.
 {:class='table table-secondary w-auto table-hover text-break'}
 
-The value is randomized each time the command runs.
+The value is randomized each time the command runs. The string contains no `#` prefix.
 
-{% include alert.html text="The returned value can be used with SAMMI commands that expect a color value." type="info" %}
+{% include alert.html text="The returned value is a hex string such as `FF0080`. Convert it or prepend `#` if needed for use in contexts that require CSS-style colors." type="info" %}

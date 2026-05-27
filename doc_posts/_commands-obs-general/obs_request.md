@@ -35,7 +35,7 @@ Use the dropdown arrow next to the OBS Command (JSON) box to make use of the pre
 |OBS|Dropdown|OBS to send this command to (if using multiple OBS connections).|
 |OBS Command (JSON)|	JSON String|	JSON String to send to OBS Websocket. You can use the dropdown to select a JSON template for each request (OBSws 5 only).
 |Fetch Value|	String or object|	Name of a value you wish to get. Leave blank to fetch the whole object.<br/> For values inside another object use [object dot notation](https://docs.oracle.com/en/database/oracle/oracle-database/19/adjsn/simple-dot-notation-access-to-json-data.html). For values inside an array use [index position](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array).
-Save Variable As (optional)|	String	|Name of a variable to save the data under.
+|Save Variable As (optional)|	String	|Name of a variable to save the data under.
 {:class='table table-primary'}
 
 {% include video.html w="100" src="json_templates.mp4" alt="Selecting different JSON templates for OBS Request command" %}

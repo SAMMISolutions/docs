@@ -15,7 +15,7 @@ You can read more about hashing in this [article](https://www.csoonline.com/arti
 |-------|--------|--------|
 | Text | String | String to hash|
 |Save Variable As|String|Variable to save the result
-|Type|Dropdown menu|Select which algorithm to use to hash
+|Type|Dropdown|Select which algorithm to use to hash
 {:class='table table-primary ' }
 
 

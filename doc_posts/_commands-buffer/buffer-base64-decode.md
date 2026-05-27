@@ -12,7 +12,7 @@ Creates a new buffer from a base64 string.
 | Box Name | Type | Description | 
 |-------|--------|--------
 |Buffer Name	|String	| Name of the buffer
-String (text) | String | A base64 string to decode and turn into a buffer. |
+|String (text) | String | A base64 string to decode and turn into a buffer.
 {:class='table table-primary'}
 
 

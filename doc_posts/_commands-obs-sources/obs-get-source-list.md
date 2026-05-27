@@ -10,6 +10,8 @@ Gets OBS source names and saves them as an array. If a scene is selected, only s
 
 {% include alert.html text="Available in SAMMI Pro." type="info" %}
 
+{% include async.html %}
+
 | Box Name | Type | Description |
 |-------|--------|--------
 |OBS|Dropdown|OBS to get the source list from, if using multiple OBS connections.

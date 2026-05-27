@@ -23,9 +23,9 @@ SAMMI saves the first snooze result object returned by Twitch (`data[0]`).
 
 | Variable Name | Type | Description |
 |-------|--------|--------|
-snooze_count|Number|Number of available snoozes after this command.
-snooze_refresh_at|String|Time in Twitch format when a snooze becomes available again.
-next_ad_at|String|Time in Twitch format when the next scheduled ad starts after the snooze.
+|snooze_count|Number|Number of available snoozes after this command.
+|snooze_refresh_at|String|Time in Twitch format when a snooze becomes available again.
+|next_ad_at|String|Time in Twitch format when the next scheduled ad starts after the snooze.
 {:class='table table-secondary w-auto table-hover text-break'}
 
 {% include alert.html text="Requires the <code>channel:read:ads</code> Twitch scope." type="info" %}

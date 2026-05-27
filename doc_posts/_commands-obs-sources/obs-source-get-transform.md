@@ -10,6 +10,8 @@ Gets transform data for an OBS source in a scene and saves it as an object.
 
 {% include alert.html text="Available in SAMMI Pro." type="info" %}
 
+{% include async.html %}
+
 | Box Name | Type | Description |
 |-------|--------|--------
 |OBS|Dropdown|OBS to send this command to, if using multiple OBS connections.

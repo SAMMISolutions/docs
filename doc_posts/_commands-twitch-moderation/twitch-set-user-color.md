@@ -12,8 +12,8 @@ For Turbo/Prime members who can set any color, use the button at the bottom of t
 
 | Box Name | Type | Description | 
 |-------|--------|--------
-Login Name | Dropdown |The name of the channel to use for authentication in the API Header
-Color|Dropdown|List of the standard colours that Twitch offers for all users.
+|Login Name | Dropdown |The name of the channel to use for authentication in the API Header
+|Color|Dropdown|List of the standard colours that Twitch offers for all users.
 {:class='table table-primary'}
 
 {% include alert.html text="Requires the <code>user:manage:chat_color</code> Twitch scope." type="info" %}

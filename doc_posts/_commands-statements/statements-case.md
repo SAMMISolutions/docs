@@ -11,7 +11,7 @@ Use `default` value if you want to execute an action when no other cases meet th
 
 | Box Name | Type | Description | 
 |-------|--------|--------|
-| Text	 | The case value. Must be a string. Does not allow variables.
+| Text	| String | The case value to match against the Switch Statement expression. Must be a literal string. Does not allow variables. Use `default` to execute when no other case matches.
 {:class='table table-primary' }
 
 
