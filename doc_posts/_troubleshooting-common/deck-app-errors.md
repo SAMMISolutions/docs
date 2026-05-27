@@ -16,8 +16,8 @@ Ensure that you are using the most recent version of SAMMI Panel.
 The IP address should always be set to `127.0.0.1` unless you are using SAMMI Panel on a different device from where SAMMI Core is running. In such cases, navigate to SAMMI > SAMMI Panel > Get LAN IP to copy your local IP address to your clipboard, and use this IP address instead. It will be in the format `192.168.X.X`.
 Verify that the Port and Password entered in SAMMI Panel match the Port and Password in your SAMMI Settings. The default port is `9470`. 
 
-- **Accessing SAMMI Panel (Web) over HTTPS**\
-SAMMI Panel will not connect to SAMMI Core if you access `http://sammipanel.solutions/` over HTTPS and the IP address you are attempting to connect with is not `127.0.0.1` (e.g., if you are using SAMMI Panel on a different device over a local network).
+- **Connecting from a different device via SAMMI Panel**\
+SAMMI Panel is served over HTTPS at `https://panel.sammi.solutions/`. When connecting from a different device on your local network (i.e. using a LAN IP such as `192.168.x.x` instead of `127.0.0.1`), some browsers may block the WebSocket connection as mixed content. If this happens, try using SAMMI Panel from the same PC that runs SAMMI Core, or use a native Deck App such as Deck Hopper instead.
 
 - **Firewall Interference**\
 Check that your firewall is not preventing SAMMI Panel from connecting.\

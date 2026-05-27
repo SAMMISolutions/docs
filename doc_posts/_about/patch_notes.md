@@ -82,7 +82,7 @@ Improvements:
   - Only the current button is paused while the dialog is open
   - All other buttons continue running normally in the background
   - The old behavior (freezing all buttons) can be restored individually per command in SAMMI Settings
-- Updated the SAMMI Panel URL: http://panel.sammi.solutions/
+- Updated the SAMMI Panel URL: https://panel.sammi.solutions/
 - Reworked the save logic:
   - SAMMI now only saves the affected deck instead of all decks every time you change something
   - This makes the save process up to 10 times faster in tests when saving or running buttons from SAMMI Core directly
@@ -1348,7 +1348,7 @@ fails during the SAMMI Bridge update, a popup message displays the failed extens
   - This helps us add even more features later on
   - DLLExtension.dll can be safely removed from SAMMI folder (SAMMI will automatically delete the file)
 - New SAMMI Panel to replace SAMMI Deck, web and app version both available (currently in beta) [Roadie]
-  - Wep app can be found at http://sammipanel.solutions and requires connection over http for non localhost clients
+  - Web app can be found at https://panel.sammi.solutions/
 - New SAMMI Panel protocol has been added, Bridge will be updated for the same, more efficient protocol as well (no action required) [Christina]
 - New application SAMMI Voice which lets you control SAMMI with voice commands [Chrizzz]
 - SAMMI Voice button trigger added [Christina]
