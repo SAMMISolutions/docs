@@ -16,9 +16,11 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 |Channel|String|Channel name to change the information for
 |Category|String|Category of the stream (game name, "Just Chatting", etc.)
 |Language|Dropdown|The [ISO 639-1 2 letter language code](https://en.wikipedia.org/wiki/List_of_ISO_639-1_codes). Select from dropdown menu or manually input
-|Title|String|Title of the stream
-|Tags|Stringified array|Tags to apply to the channel, as a stringified array (`["Tag1", "Tag2"]`)
+|Title|String|Title of the stream (max 140 characters)
+|Tags|Stringified array|Tags to apply to the channel, as a stringified array (`["Tag1", "Tag2"]`). Max 10 tags, max 25 characters each.
 {:class='table table-primary'}
+
+{% include alert.html text="If the Title or any Tag exceeds the character limit, SAMMI will show a warning and automatically truncate the value before sending the request." type="warning" %}
 
 {% include alert.html text="Requires the <code>channel:manage:broadcast</code> Twitch scope." type="info" %}
 

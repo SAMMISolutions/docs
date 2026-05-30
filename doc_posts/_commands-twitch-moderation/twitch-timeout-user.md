@@ -16,8 +16,10 @@ If **Channel** is empty, SAMMI uses the default Twitch account.
 |Channel|String|The channel to timeout the specified user in
 |User Name|String|The username of the person to be timed out
 |Duration|Number{% include asterisk.html%}|How long to timeout the user, in seconds. If left blank, defaults to 5 minutes (300 seconds).
-|Reason|String|(optional) The reason why you are timing them out
+|Reason|String|(optional) The reason why you are timing them out (max 500 characters)
 {:class='table table-primary'}
+
+{% include alert.html text="If the reason exceeds 500 characters, SAMMI will show a warning and automatically truncate it before sending the request." type="warning" %}
 
 {% include alert.html text="Requires the <code>moderator:manage:banned_users</code> and <code>user:read:email</code> Twitch scopes." type="info" %}
 

@@ -29,6 +29,7 @@ When you right click-Edit commands or double click on your button in your deck, 
 - When typing in an input box, you can press **CTRL+Z** to undo what you typed last
 - You can temporarily [block a button](button#blockbuttongroup) from executing 
 - You can use comments to organize your buttons. Simply create a new [Comment](misc#comment) command, give it some relevant description and place all relevant commands inside of it! 
+- Some commands (for example **Comment**) have an expandable text box. You can drag the **↕ handle** at the bottom of the box to give it more vertical space for longer content.
 
    {% include video.html w="75" src="comment-organize.mp4" alt="Organizing commands inside comments" %}
 

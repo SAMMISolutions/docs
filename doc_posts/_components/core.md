@@ -106,6 +106,7 @@ Allows you to adjust general SAMMI settings.
 - **Enable enhanced protection mode**: When enabled, SAMMI will be restricted from modifying or deleting files outside the main SAMMI directory and critical files within its own directory.
 - **Enable alert logging**: When enabled, SAMMI creates a log file for all alerts shown inside SAMMI in your SAMMI root folder. Keep an eye on the file size as it can grow large over time.
 - **Prevent Full Crash**: When enabled, SAMMI will not close completely in the event of a button crash and will stay open so you can inspect variables. Use only for debugging purposes; this does not prevent internal SAMMI crashes.
+- **Verify Commands on Save**: When enabled (default), SAMMI checks for empty required boxes and duplicate Case statements when saving a button. Disable this if you want to save buttons without these validation checks.
 - **Deactivate Event Log**: When enabled, stops SAMMI from storing incoming events and hides the Log button from the main screen.
 - **Disable Own Chat Option**: When enabled, hides the "Only Trigger in own Chat" option from Twitch chat triggers.
 - **Timeout Default**: The default timeout value in milliseconds applied to newly created commands that have a "Timeout After" field. Default is `3000`.
@@ -140,6 +141,7 @@ Allows you to adjust general SAMMI settings.
 - **Interface Size**: Adjust the scaling for non-standard resolutions.
 - **Hide Help Boxes**: When enabled, hides the explanation boxes and (?) help indicators throughout the SAMMI UI.
 - **Show Button Borders**: Shows configured button borders inside the SAMMI Core UI. Deck Apps still receive and display the actual button border values even if this is turned off.
+- **Sidebar Min Columns**: Controls the minimum number of deck columns at which the left sidebar expands from compact to full mode. Default is `3`. Lower this value if you want the full sidebar to appear even at narrower window sizes.
 
 #### Other Settings
 - **Reset SAMMI**: Clears all active buttons and variables and reloads all decks.
