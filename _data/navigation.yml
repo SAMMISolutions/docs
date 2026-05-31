@@ -118,6 +118,9 @@ main:
     - name: Wait For/Until
       link: commands/wait
       collection: commands-wait 
+    - name: Windows Commands
+      link: commands/windows
+      collection: commands-windows
     - name: YouTube
       link: commands/youtube
       collection: commands-youtube

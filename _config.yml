@@ -2,7 +2,7 @@ title: SAMMI
 tagline: SAMMI | Stream Automation, Management, Monitoring and Innovation | Works with Twitch, YouTube, OBS
 description: Transform your ordinary stream into interactive experience for your viewers with SAMMI
 name: SAMMI • Free Streamer Tool
-stableVersion: 202642
+stableVersion: 202650
 url: https://sammi.solutions
 author:
   twitter: SAMMISolutions
@@ -235,6 +235,11 @@ defaults:
     parent: Wait For/Until
     backlink: wait
 - scope:
+    path: doc_posts/_commands-windows
+  values:
+    parent: Windows Commands
+    backlink: windows
+- scope:
     path: doc_posts/_commands-youtube
   values:
     parent: YouTube
@@ -315,6 +320,8 @@ collections:
   commands-statements:
     output: true
   commands-wait:
+    output: true
+  commands-windows:
     output: true
   commands-trigger:
     output: true
