@@ -36,6 +36,41 @@ redirect_from:
   - commands/409
   - commands/410
   - commands/411
+redirect_anchors:
+  "/commands/377": meldconnect
+  "/commands/378": melddisconnect
+  "/commands/379": meldsendcommand
+  "/commands/380": meldstreaming
+  "/commands/381": meldrecording
+  "/commands/382": meldshowscene
+  "/commands/383": meldsetstagedscene
+  "/commands/384": meldshowstagedscene
+  "/commands/385": meldchangetrackmute
+  "/commands/386": meldchangetrackmonitoring
+  "/commands/387": meldsettrackvolume
+  "/commands/388": meldlayertogglevisibility
+  "/commands/389": meldtoggleeffect
+  "/commands/390": meldsetproperties
+  "/commands/391": meldcontrolwidget
+  "/commands/392": meldcallfunction
+  "/commands/394": meldgetstatus
+  "/commands/395": meldsettrackposition
+  "/commands/396": meldtakescreenshot
+  "/commands/397": meldlayerchangevisibility
+  "/commands/398": meldeventpull
+  "/commands/399": meldreplay
+  "/commands/400": meldrecordclip
+  "/commands/401": meldtogglevirtualcamera
+  "/commands/402": meldcontrolmedia
+  "/commands/403": meldsetsize
+  "/commands/404": meldsetposition
+  "/commands/405": meldsetvisibility
+  "/commands/406": meldsetrotation
+  "/commands/407": meldsettext
+  "/commands/408": meldseturl
+  "/commands/409": meldsetsource
+  "/commands/410": meldsetmediasource
+  "/commands/411": meldsetlayername
 ---
 
 Meld commands let SAMMI control Meld Studio through Meld's local WebChannel API.

@@ -4,8 +4,11 @@
     {% for command in collection.docs %}
       {% assign command_url = command.url | absolute_url %}
       {% if command_url == page.redirect.to and command.backlink %}
-        {% assign command_anchor = command.title | slugify %}
-        {% assign command_anchor = command_anchor | remove: ' ' | remove: '-' | remove: ':' | remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | remove: '0' %}
+        {% assign command_anchor = command.redirect_anchors[page.redirect.from] %}
+        {% unless command_anchor %}
+          {% assign command_anchor = command.title | slugify %}
+          {% assign command_anchor = command_anchor | remove: ' ' | remove: '-' | remove: ':' | remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | remove: '0' %}
+        {% endunless %}
         {% assign command_path = '/commands/' | append: command.backlink | append: '#' | append: command_anchor %}
         {% assign redirect_target = command_path | absolute_url %}
       {% endif %}
