@@ -74,6 +74,11 @@ defaults:
     parent: Date and Time
     backlink: date-time
 - scope:
+    path: doc_posts/_commands-deck-app
+  values:
+    parent: Deck App
+    backlink: deck-app
+- scope:
     path: doc_posts/_commands-file-csv
   values:
     parent: Files
@@ -91,6 +96,11 @@ defaults:
     parent: Files
     subparent: INI Files
     backlink: file-ini
+- scope:
+    path: doc_posts/_commands-integrations
+  values:
+    parent: Integrations
+    backlink: integrations
 - scope:
     path: doc_posts/_commands-misc
   values:

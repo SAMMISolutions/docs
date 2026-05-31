@@ -1,0 +1,25 @@
+{% assign redirect_target = page.redirect.to %}
+{% if page.redirect.from contains '/commands/' %}
+  {% for collection in site.collections %}
+    {% for command in collection.docs %}
+      {% assign command_url = command.url | absolute_url %}
+      {% if command_url == page.redirect.to and command.backlink %}
+        {% assign command_anchor = command.title | slugify %}
+        {% assign command_anchor = command_anchor | remove: ' ' | remove: '-' | remove: ':' | remove: '.' | remove: '1' | remove: '2' | remove: '3' | remove: '4' | remove: '5' | remove: '6' | remove: '7' | remove: '8' | remove: '9' | remove: '0' %}
+        {% assign command_path = '/commands/' | append: command.backlink | append: '#' | append: command_anchor %}
+        {% assign redirect_target = command_path | absolute_url %}
+      {% endif %}
+    {% endfor %}
+  {% endfor %}
+{% endif %}
+<!DOCTYPE html>
+<html lang="en-US">
+  <meta charset="utf-8">
+  <title>Redirecting&hellip;</title>
+  <link rel="canonical" href="{{ redirect_target }}">
+  <script>location="{{ redirect_target }}"</script>
+  <meta http-equiv="refresh" content="0; url={{ redirect_target }}">
+  <meta name="robots" content="noindex">
+  <h1>Redirecting&hellip;</h1>
+  <a href="{{ redirect_target }}">Click here if you are not redirected.</a>
+</html>
