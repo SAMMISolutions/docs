@@ -80,6 +80,15 @@ All official SAMMI extensions and integrations. Click on one to download and [in
 {% include image.html w="auto" src="about.png" alt="About" %}
 Press to open the About page, with info about the developers, and Patreon supporters.
 
+### SAMMI Pro Tools
+
+SAMMI Pro adds optional tools for customizing and organizing your SAMMI workflow:
+
+- **UI Color Menu** - Customize the colors used by SAMMI windows and UI elements. Open it from the side menu or press `Ctrl+U` from anywhere. Your configuration is saved to `json/ui.json`, and you can export, import, or reset the full color configuration. If you close the menu with unsaved changes, SAMMI asks before discarding them. The UI Color Menu cannot be open at the same time as the Variable Viewer or Event Log.
+- **Command Editor** - Open it from SAMMI Settings to enable or disable individual commands or entire categories, mark commands as favorites, and filter subcategories.
+- **Deck Search** - Search decks and folders from the main screen. The available modes include decks and folders, button labels, button IDs, trigger names, commands, and text stored inside commands.
+- **Command Templates** - Select multiple command blocks, save them permanently, and insert them later from the quickbar.
+
 ### Connection Status Indicators
 
 {% include image.html w="auto" src="status.png" alt="Connection Status Indicators" %}
@@ -213,6 +222,13 @@ Inside your deck you will see an empty canvas grid, where you can add and modify
 - Adaptive Resizing - whether you want to also resize your buttons when you change the grid size
 - Background Image - choose either a color or background image for your deck
 - Undo & Redo - allows you to undo/redo any deck action
+
+You can select and move multiple buttons at once:
+- Hold `Ctrl` and click buttons to add or remove them from the current selection.
+- Drag any selected button to move the full selection while preserving its layout.
+- Press `Ctrl+C` to copy the selected buttons, then paste them into an empty area to preserve their relative positions.
+- Press `Delete` to remove all selected buttons.
+- Undo and Redo work with multi-button operations.
 
 #### Disable a deck
 You can disable a deck by either checking the `Disable` checkbox in SAMMI or by using [Deck: Change Status]({{ "commands/misc#deckchangestatus" | relative_url }}) command. This allows you to have only specific decks active during your stream.  

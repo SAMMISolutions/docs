@@ -67,7 +67,7 @@ For accessing SAMMI Panel from a different device, use the IP address of the PC 
 
 Choose a deck from the dropdown and click **Select Deck**. You can now interact with it by pressing its buttons.
 
-{% include alert.html text="Press Backspace to return to the deck selection screen at any time." type="info" %}
+{% include alert.html text="Use the visible Back button overlay or press Backspace to return to the deck selection screen at any time." type="info" %}
 
 **What's supported in SAMMI Panel:**
 - Full button control (trigger, release, stop, block/unblock)
