@@ -55,7 +55,7 @@ In the button's Command Editor, add:
 
 {% include image.html w="75" src="meld-swap-scene-commands.png" alt="SAMMI commands for the Swap Scene button: Pull Wildcard followed by Meld Show Scene" %}
 
-When a viewer (or you) types `!swapscene Gaming` in chat, SAMMI pulls `Gaming` from the wildcard and tells Meld Studio to switch to that scene immediately.
+When a moderator (or you) types `!swapscene Gaming` in chat, SAMMI pulls `Gaming` from the wildcard and tells Meld Studio to switch to that scene immediately.
 
 <hr>
 
