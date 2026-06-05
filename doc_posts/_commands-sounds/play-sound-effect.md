@@ -14,8 +14,10 @@ Supported file types:
 - .mp3
 - .wav
 - .m4a
-- .ogg
+- .ogg (Vorbis and Opus)
 - .mp4 (audio-only playback)
+
+{% include alert.html text="Starting with SAMMI 2026.5.0, .ogg files have full support on par with MP3 and WAV: OGG Opus files can now be played (previously only OGG Vorbis), OGG plays on any selected output device, and OGG fully supports stop, volume (including fades), and playback speed." type="info" %}
 
 {% include alert.html text="You no longer need to convert files to a specific container — SAMMI supports common audio formats directly." type="info" %}
 
@@ -38,7 +40,7 @@ Examples:
 
 Notes:
 - If the selected file contains video (e.g., a full .mp4), only the audio track will be played.
-- Audio Device routing uses SAMMI's DLL playback path. For .ogg/Vorbis files, leave Audio Device empty.
+- As of SAMMI 2026.5.0, every supported format — including .ogg (Vorbis and Opus) — can be routed to a specific Audio Device and supports stop, volume (including fades), and playback speed.
 - Use a unique `Save Sound ID` to reference this sound for volume/stop/speed commands.
 
 

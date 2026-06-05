@@ -258,7 +258,7 @@ There are several keyboard shortcuts you can use:
 
 #### Edit Appearance
 You can right click on a button or press `SHIFT + double click` to edit its appearance.
-Edit your button text, color, image, transparency and border size.\
+Edit your button text, color, image, transparency and border. The reworked appearance menu also lets you set the **text font color**, **border color**, and toggle the **font shadow**.\
 All button images will be automatically resized and copied to `SAMMI/image` folder.\
 
 {% include image.html w="50" src="appearance.png" alt="Button Appearance" %}

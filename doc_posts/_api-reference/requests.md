@@ -215,6 +215,9 @@ Request: `modifyButton`
 | color | no | Int | Decimal button color (BGR)
 | image | no | String | Button image file name
 | border | no | Int | 0-7 border size
+| border_color | no | Int | Decimal border color (BGR)
+| font_color | no | Int | Decimal text/font color (BGR)
+| font_shadow | no | Bool | Whether the button text shows a shadow
 {:class='table table-primary' }
 
 **Example**\
@@ -227,7 +230,10 @@ Request Body:
     "text": "Hello World",
     "color": 16744576 ,
     "image": "myimage.png",
-    "border": 2
+    "border": 2,
+    "border_color": 0,
+    "font_color": 16777215,
+    "font_shadow": true
 }
 ```
 

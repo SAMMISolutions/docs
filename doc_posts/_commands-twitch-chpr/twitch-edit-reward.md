@@ -3,7 +3,6 @@ title: "Edit Reward"
 num: 13.5
 redirect_from:
   - commands/186
-  - commands/231
   - commands/448
 ---
 
@@ -27,9 +26,12 @@ Updates a Custom Channel Points Reward created on your channel. All fields are o
 | Max/User | Number | Maximum redemptions per user per stream. Set to 0 to disable. Leave empty for no change. |
 | Max/Stream | Number | Maximum redemptions per stream. Set to 0 to disable. Leave empty for no change. |
 | Description | String | The prompt shown to viewers when redeeming. Leave empty for no change. (max 200 characters) |
+| Save Variable As | String | Optional. Variable name to save the updated reward object returned by Twitch. Leave empty to skip saving. |
 {:class='table table-primary'}
 
 {% include alert.html text="If the Name or Description exceeds the character limit, SAMMI will show a warning and automatically truncate it before sending the request." type="warning" %}
+
+The optional **Save Variable As** output stores the full updated reward object returned by Twitch (the same fields listed below, such as `id`, `title`, `cost`, `is_enabled`, and `background_color`). Use the [Get Object Variable]({{ "commands/object#getobjectvariable" | relative_url }}) command to read individual fields.
 
 **Twitch API Endpoint:** `PATCH /helix/channel_points/custom_rewards`
 
