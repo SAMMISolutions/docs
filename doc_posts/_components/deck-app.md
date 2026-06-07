@@ -466,6 +466,173 @@ All events use `op: 6`:
 }
 ```
 
+#### Events Sent by SAMMI Commands
+
+These SAMMI Core commands send events to Deck App clients. If the command's Client Name field is empty, SAMMI sends the event to every connected Deck App client; otherwise it sends only to the client whose Identify `clientName` matches.
+
+| SAMMI command | Event type | Event data |
+|-------|--------|--------|
+| `Deck App: Switch Deck` | `SwitchDeck` | `panelName`, `deckID` |
+| `Deck App: Switch Deck` with `Next Deck` selected | `SwitchDeckNext` | `panelName` |
+| `Deck App: Switch Deck` with `Previous Deck` selected | `SwitchDeckPrevious` | `panelName` |
+| `Deck App: Wait for Input` | `WaitForInput` | `commandName: "waitForInput"`, `requestId`, `instanceId`, `buttonId`, `variableName`, `timeoutAfter`, `message`, `choices: "[]"`, `defaultInput` |
+| `Deck App: Wait for Choice` | `WaitForInput` | `commandName: "waitForChoice"`, `requestId`, `instanceId`, `buttonId`, `variableName`, `timeoutAfter`, `message`, `choices: "[]"`, `defaultInput: ""` |
+| `Deck App: Wait for Multi Choice` | `WaitForInput` | `commandName: "waitForMultiChoice"`, `requestId`, `instanceId`, `buttonId`, `variableName`, `timeoutAfter`, `message`, `choices`, `defaultInput` |
+| `Deck App: Send JSON` | `SendJSON` | `event`, `json` |
+{:class='table table-primary'}
+
+For wait commands, target a single Client Name when possible. If a wait command is sent to all clients, every client receives the same `requestId`, but SAMMI only needs one `InputRequestReply`.
+
+##### Deck App: Switch Deck
+
+Sent when the command targets a specific deck:
+
+```json
+{
+  "eventType": "SwitchDeck",
+  "eventData": {
+    "panelName": "My Deck App",
+    "deckID": "20230101120000000000001"
+  }
+}
+```
+
+Sent when the command targets the next or previous deck:
+
+```json
+{ "eventType": "SwitchDeckNext", "eventData": { "panelName": "My Deck App" } }
+{ "eventType": "SwitchDeckPrevious", "eventData": { "panelName": "My Deck App" } }
+```
+
+Expected from the Deck App: navigate to the requested deck, or to the next/previous enabled deck. No reply is expected. If the command's Enable Deck option is checked, SAMMI Core may enable the deck before sending `SwitchDeck`.
+
+##### Deck App: Wait for Input
+
+Sent to the Deck App:
+
+```json
+{
+  "eventType": "WaitForInput",
+  "eventData": {
+    "commandName": "waitForInput",
+    "requestId": 42,
+    "instanceId": 100123,
+    "buttonId": "MyButton",
+    "variableName": "inputResult",
+    "message": "Enter a value",
+    "choices": "[]",
+    "defaultInput": "default text",
+    "timeoutAfter": 15000
+  }
+}
+```
+
+Expected from the Deck App: show a text input prompt, then reply with the entered string. On cancel or timeout, the built-in Deck App replies with `defaultInput`.
+
+```json
+{
+  "op": 4,
+  "data": {
+    "requestName": "InputRequestReply",
+    "requestData": {
+      "requestId": 42,
+      "input": "user typed value",
+      "type": "waitForInput"
+    }
+  }
+}
+```
+
+##### Deck App: Wait for Choice
+
+Sent to the Deck App:
+
+```json
+{
+  "eventType": "WaitForInput",
+  "eventData": {
+    "commandName": "waitForChoice",
+    "requestId": 42,
+    "instanceId": 100123,
+    "buttonId": "MyButton",
+    "variableName": "choiceResult",
+    "message": "Continue?",
+    "choices": "[]",
+    "defaultInput": "",
+    "timeoutAfter": 15000
+  }
+}
+```
+
+Expected from the Deck App: show a single-choice prompt. The built-in Deck App treats empty `choices` as `Yes` / `No`. Reply with the zero-based selected index as a number. On cancel or timeout, the built-in Deck App replies with `0`.
+
+```json
+{
+  "op": 4,
+  "data": {
+    "requestName": "InputRequestReply",
+    "requestData": {
+      "requestId": 42,
+      "input": 0,
+      "type": "waitForChoice"
+    }
+  }
+}
+```
+
+##### Deck App: Wait for Multi Choice
+
+Sent to the Deck App:
+
+```json
+{
+  "eventType": "WaitForInput",
+  "eventData": {
+    "commandName": "waitForMultiChoice",
+    "requestId": 42,
+    "instanceId": 100123,
+    "buttonId": "MyButton",
+    "variableName": "choicesResult",
+    "message": "Pick one or more colors",
+    "choices": "[\"Red\",\"Green\",\"Blue\"]",
+    "defaultInput": "Green",
+    "timeoutAfter": 15000
+  }
+}
+```
+
+Expected from the Deck App: parse `choices` as a JSON array, show a multi-select prompt, and preselect `defaultInput` if it matches one of the choices. Reply with the selected values as a comma-separated string. On cancel or timeout, the built-in Deck App replies with an empty string.
+
+```json
+{
+  "op": 4,
+  "data": {
+    "requestName": "InputRequestReply",
+    "requestData": {
+      "requestId": 42,
+      "input": "Red,Blue",
+      "type": "waitForMultiChoice"
+    }
+  }
+}
+```
+
+##### Deck App: Send JSON
+
+Sent to the Deck App:
+
+```json
+{
+  "eventType": "SendJSON",
+  "eventData": {
+    "event": "score_update",
+    "json": "{\"score\":42}"
+  }
+}
+```
+
+Expected from the Deck App: handle the custom event. No reply is expected. `event` is the Event Name box value, and `json` is the JSON Payload box value as a string. Parse `json` on the client if you need an object. The built-in Deck App also dispatches this as a `SAMMISendJSON` DOM `CustomEvent` on `document`, with this same `eventData` as `event.detail`.
+
 #### ButtonTriggered
 
 Fired when a button starts executing.
@@ -551,7 +718,7 @@ Fired when a deck's configuration changes (e.g. after editing a button in SAMMI 
 
 #### SwitchDeck
 
-SAMMI Core is instructing this Deck App to navigate to a different deck. The `panelName` field is set to the target client name; if it doesn't match the connected client name the event can be ignored.
+SAMMI Core is instructing this Deck App to navigate to a different deck. This is sent by the `Deck App: Switch Deck` command when a specific deck is selected. `panelName` is the command's Client Name value and `deckID` is the selected deck's unique ID.
 
 ```json
 {
@@ -562,7 +729,7 @@ SAMMI Core is instructing this Deck App to navigate to a different deck. The `pa
 
 #### SwitchDeckNext / SwitchDeckPrevious
 
-SAMMI Core is instructing the Deck App to navigate to the next or previous deck in the enabled deck list.
+SAMMI Core is instructing the Deck App to navigate to the next or previous deck in the enabled deck list. These are sent by the `Deck App: Switch Deck` command when `Next Deck` or `Previous Deck` is selected.
 
 ```json
 { "eventType": "SwitchDeckNext",     "eventData": { "panelName": "My Deck App" } }
@@ -587,7 +754,9 @@ Fired by the **Deck App: Wait for Input**, **Wait for Choice**, or **Wait for Mu
   "eventData": {
     "commandName": "waitForChoice",
     "requestId": 42,
+    "instanceId": 100123,
     "buttonId": "MyButton",
+    "variableName": "choiceResult",
     "message": "Pick a colour",
     "choices": "[\"Red\",\"Green\",\"Blue\"]",
     "defaultInput": "",
@@ -598,20 +767,24 @@ Fired by the **Deck App: Wait for Input**, **Wait for Choice**, or **Wait for Mu
 
 - `commandName` — `"waitForInput"`, `"waitForChoice"`, or `"waitForMultiChoice"`
 - `requestId` — echo this back in `InputRequestReply`
-- `choices` — JSON-encoded array of strings; only present for choice variants
+- `instanceId` — the running button instance that is waiting for the reply
+- `buttonId` — the button that issued the wait command
+- `variableName` — the Save Variable As target in SAMMI
+- `choices` — JSON-encoded array of strings; sent as `"[]"` when no choice array is supplied
+- `defaultInput` — Default Text for `waitForInput`, Default Choice for `waitForMultiChoice`, or an empty string for `waitForChoice`
 - `timeoutAfter` — milliseconds before SAMMI times out and uses the default value (`0` = no timeout)
 
-If the user cancels or the timeout fires without a reply, the Deck App should still send `InputRequestReply` with the `defaultInput` value so the button can continue.
+If the user cancels or the timeout fires without a reply, the Deck App should still send `InputRequestReply` so the button can continue. The built-in Deck App replies with `defaultInput` for `waitForInput`, `0` for `waitForChoice`, and an empty string for `waitForMultiChoice`.
 
 #### SendJSON
 
-Fired by the **Deck App: Send JSON** command. Delivers an arbitrary payload to the Deck App.
+Fired by the **Deck App: Send JSON** command. Delivers the JSON Payload box content to the Deck App.
 
 ```json
 {
   "eventType": "SendJSON",
-  "eventData": { "event": "score_update", "json": { "score": 42 } }
+  "eventData": { "event": "score_update", "json": "{\"score\":42}" }
 }
 ```
 
-SAMMI Panel dispatches this as a `SAMMISendJSON` DOM `CustomEvent` on `document` so third-party scripts embedded in the panel can react to it.
+`json` is sent as a string. SAMMI Panel dispatches this as a `SAMMISendJSON` DOM `CustomEvent` on `document` so third-party scripts embedded in the panel can react to it.
