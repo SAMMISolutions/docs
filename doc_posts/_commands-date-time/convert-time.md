@@ -24,12 +24,15 @@ Months are treated as 30 days for duration conversion.
 | Token | Description | Example |
 |-------|--------|--------|
 |`{ss}`|Second part with leading zero.|`04`|
+|`{#s}`|Second part without leading zero.|`4`|
 |`{s}`|Total seconds.|`100`|
 |`{mm}`|Minute part with leading zero.|`01`|
+|`{#m}`|Minute part without leading zero.|`1`|
 |`{m}`|Total minutes.|`1`|
 |`{HH}`|Total hours with leading zero.|`25`|
 |`{H}`|Total hours.|`25`|
 |`{hh}`|Hour part inside the current day with leading zero.|`01`|
+|`{#h}`|Hour part inside the current day without leading zero.|`1`|
 |`{h}`|Total hours.|`25`|
 |`{DD}`|Total days with leading zero.|`01`|
 |`{D}`|Total days.|`1`|
@@ -42,4 +45,6 @@ Examples:
 |`100`|`Seconds`|`{m}:{ss}`|`1:40`|
 |`3661`|`Seconds`|`{HH}:{mm}:{ss}`|`01:01:01`|
 |`90061`|`Seconds`|`{D}d {hh}:{mm}:{ss}`|`1d 01:01:01`|
+|`605`|`Seconds`|`{m} minutes and {#s} seconds`|`10 minutes and 5 seconds`|
+|`3905`|`Seconds`|`{#h}h {#m}m {#s}s`|`1h 5m 5s`|
 {:class='table table-secondary table-hover text-break'}

@@ -10,6 +10,13 @@ version: 202650
 
 SAMMI interacts with Meld Studio through its **WebChannel API**, enabling remote control of scenes, layers, tracks and more — and listening to Meld events to trigger buttons in SAMMI.
 
+<div class="my-3">
+  <a href="https://meldstudio.co/" target="_blank" rel="noopener noreferrer" class="d-inline-flex align-items-center gap-2 text-decoration-none">
+    <img src="{{ '/assets/images/integrations/meld-logo.png' | relative_url }}" alt="Meld Studio logo" width="48" height="48" class="rounded">
+    <span>Meld Studio website</span>
+  </a>
+</div>
+
 #### Connect SAMMI to Meld Studio
 
 1. In SAMMI, click **Connections** in the bottom menu and select **Meld Studio**.

@@ -421,8 +421,9 @@ Responds to a `WaitForInput` event (see Events below). The button that issued th
 }
 ```
 
-`type` must be one of `"waitForInput"`, `"waitForChoice"`, or `"waitForMultiChoice"`.  
-For `waitForChoice`, send the zero-based index of the selected choice as `input`.  
+`type` must be one of `"waitForInput"`, `"waitForChoice"`, or `"waitForMultiChoice"`.
+Echo `requestId` exactly as received. It may arrive as a string or number depending on the client JSON parser.
+For `waitForChoice`, send the zero-based index of the selected choice as `input`, not `true` or `false`.
 For `waitForMultiChoice`, send a comma-separated string of selected values as `input`.
 
 #### CustomMessage
@@ -468,7 +469,7 @@ All events use `op: 6`:
 
 #### Events Sent by SAMMI Commands
 
-These SAMMI Core commands send events to Deck App clients. If the command's Client Name field is empty, SAMMI sends the event to every connected Deck App client; otherwise it sends only to the client whose Identify `clientName` matches.
+These SAMMI Core commands send events to Deck App clients. If the command's Client Name field is empty, SAMMI sends the event to every connected Deck App client; otherwise it sends only to the client whose Identify `clientName` matches. For broadcast `SwitchDeck` events, `eventData.panelName` is also an empty string; treat that as "for all clients" instead of filtering it out.
 
 | SAMMI command | Event type | Event data |
 |-------|--------|--------|
@@ -482,6 +483,8 @@ These SAMMI Core commands send events to Deck App clients. If the command's Clie
 {:class='table table-primary'}
 
 For wait commands, target a single Client Name when possible. If a wait command is sent to all clients, every client receives the same `requestId`, but SAMMI only needs one `InputRequestReply`.
+
+`timeoutAfter` is always intended to be a number of milliseconds. Use `0` for no timeout. A `TriggerButton` response with `requestSuccess: true` only confirms that SAMMI accepted the trigger request; the Deck App should still wait for the separate `op: 6` event before showing a prompt.
 
 ##### Deck App: Switch Deck
 
@@ -564,7 +567,7 @@ Sent to the Deck App:
 }
 ```
 
-Expected from the Deck App: show a single-choice prompt. The built-in Deck App treats empty `choices` as `Yes` / `No`. Reply with the zero-based selected index as a number. On cancel or timeout, the built-in Deck App replies with `0`.
+Expected from the Deck App: show a single-choice prompt. The built-in Deck App treats empty `choices` as `Yes` / `No`. Reply with the zero-based selected index as a number (`0` for the first choice, `1` for the second), not a boolean. On cancel or timeout, the built-in Deck App replies with `0`.
 
 ```json
 {
@@ -602,6 +605,8 @@ Sent to the Deck App:
 ```
 
 Expected from the Deck App: parse `choices` as a JSON array, show a multi-select prompt, and preselect `defaultInput` if it matches one of the choices. Reply with the selected values as a comma-separated string. On cancel or timeout, the built-in Deck App replies with an empty string.
+
+SAMMI Core only sends this event after the command's Choice Array Name resolves to a valid SAMMI array/list. If the array is missing or invalid, the command errors in SAMMI and no `WaitForInput` event is sent.
 
 ```json
 {
