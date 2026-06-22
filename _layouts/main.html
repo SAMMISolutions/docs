@@ -89,8 +89,20 @@
 
   <div class="lb-intro ps-lg-4">
     {% if page.type == "fullpage" %}   
-      <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between">
-        <a class="btn btn-sm btn-edit-light mb-2 mb-md-0" href="https://github.com/SAMMISolutions/docs/edit/main/doc_posts/{{ page.path }}" title="View and edit page on GitHub" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>
+      <div class="d-md-flex flex-md-row-reverse align-items-center justify-content-between gap-3">
+        <div class="lb-page-actions d-flex flex-wrap align-items-center gap-2 mb-2 mb-md-0">
+          {% if page.website_url %}
+          {% assign website_label = page.website_label | default: "Website" %}
+          <a class="btn btn-sm btn-official-site" href="{{ page.website_url }}" title="{{ website_label }}" target="_blank" rel="noopener noreferrer">
+            {% if page.website_logo %}
+            <img src="{{ page.website_logo | relative_url }}" alt="{{ page.website_logo_alt | default: website_label }}" width="28" height="28">
+            {% endif %}
+            <span>{{ website_label }}</span>
+            <i class="fas fa-external-link-alt" aria-hidden="true"></i>
+          </a>
+          {% endif %}
+          <a class="btn btn-sm btn-edit-light" href="https://github.com/SAMMISolutions/docs/edit/main/doc_posts/{{ page.path }}" title="View and edit page on GitHub" target="_blank" rel="noopener"><i class="fas fa-pen"></i> Edit</a>
+        </div>
         <h1 class="bd-title display-4" id="content">{{ page.title }}</h1>
       </div>
       {% else %}

@@ -7,7 +7,7 @@ Buttons can display small icons in their top-left corner. These icons provide a 
 
 Multiple icons can be displayed on the same button. If there is not enough horizontal space, SAMMI continues on the next line. You can hide all of these icons with the **Hide Button Icons** option.
 
-| Icon | Meaning | When it is shown |
+| Icon | Meaning | When it is shown |t
 |------|---------|------------------|
 | <img src="{{ '/assets/images/commands-introduction/button-indicator-icons/commands.png' | relative_url }}" width="32" height="32" style="image-rendering: pixelated;" alt="Commands indicator icon"> | Commands | The button contains one or more commands that run when the button is pressed. |
 | <img src="{{ '/assets/images/commands-introduction/button-indicator-icons/play-sound.png' | relative_url }}" width="32" height="32" style="image-rendering: pixelated;" alt="Play Sound Effect indicator icon"> | Play Sound Effect | The button contains a **Play Sound Effect** command in its press or release commands. |

@@ -6,16 +6,13 @@ num: 9
 permalink: /integrations/meld-studio
 type: fullpage
 version: 202650
+website_url: https://meldstudio.co/
+website_label: Meld Website
+website_logo: /assets/images/integrations/meld-logo.png
+website_logo_alt: Meld Studio logo
 ---
 
 SAMMI interacts with Meld Studio through its **WebChannel API**, enabling remote control of scenes, layers, tracks and more — and listening to Meld events to trigger buttons in SAMMI.
-
-<div class="my-3">
-  <a href="https://meldstudio.co/" target="_blank" rel="noopener noreferrer" class="d-inline-flex align-items-center gap-2 text-decoration-none">
-    <img src="{{ '/assets/images/integrations/meld-logo.png' | relative_url }}" alt="Meld Studio logo" width="48" height="48" class="rounded">
-    <span>Meld Studio website</span>
-  </a>
-</div>
 
 #### Connect SAMMI to Meld Studio
 
