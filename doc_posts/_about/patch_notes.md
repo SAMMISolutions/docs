@@ -6,6 +6,88 @@ menu: About
 num: 1
 type: fullpage
 ---
+#### SAMMI 2026.6.0
+
+====================================
+   SAMMI 2026.6.0 (September 2026)
+====================================
+
+
+[SAMMI Core]
+-------------------------------------
+
+New Features:
+
+- Added GIF Keyboard support to Twitch Chat Message triggers
+  - The new "GIF List" pull value contains GIF positions, IDs, and the unmodified full URL provided by Twitch
+  - "Message No Emotes" now also removes GIFs from chat messages
+
+
+New Commands:
+
+- "YouTube: Get Member List" - Retrieves all current active channel members and saves their channel and membership details as an array of objects (Currently not working yet, still waiting for additional permissions from YouTube)
+- Added the old "Play Sound Effect" command as "Play Sound Effect (Deprecated)" to replicate the exact old behaviour from before the rework for users wanting to use the old limited functionality (only available in Dev Mode)
+
+
+New Triggers:
+
+- "YouTube Jewels" - Runs when a viewer redeems Jewels for a YouTube Live gift
+- "YouTube Membership Gift Sent" - Runs when a viewer gifts YouTube channel memberships
+- "YouTube Membership Gift Received" - Runs for every viewer who receives a gifted YouTube channel membership
+- "YouTube Members-only Chat" - Runs when YouTube enables or disables members-only chat; filter by Started or Ended
+- "YouTube User Banned" - Runs when a moderator bans a YouTube Live chat user
+- "YouTube Poll" - Runs when a YouTube Live poll opens or closes; filter by Started or Closed
+
+
+Improvements:
+
+- "Wait For Dialog" can now display its choices in a dropdown list.
+- Color boxes now accept RGB hex values and variable values, for example `/$myColor$/` resolving to `FF00FF`.
+- "Modify Button/Group" now edits the currently executing button when Button/Group ID is empty.
+- "Play Sound Effect" now resolves relative sound paths from the SAMMI folder, for example `music/test.mp3`.
+
+
+Bug Fixes:
+
+- Fixed a memory leak where every matching Channel Point Redemption and Custom Power-Up trigger left an object behind that was never freed
+- "Deactivate Event Log" in the SAMMI Settings is now enabled by default, since stored events keep using memory until the log is cleared - uncheck it to get the Log button back
+
+
+[SAMMI Pro]
+-------------------------------------
+
+New Commands:
+
+- "Delete Scene" - Deletes an OBS scene
+
+
+[SAMMI Bridge]
+-------------------------------------
+
+Improvements:
+
+- Added test triggers for all new YouTube events: Jewels, Membership Gift Sent and Received, Members-only Chat, User Banned and Poll
+- Added a test trigger for Twitch Mod Anniversary
+- Twitch Chat Message test triggers can now include an EventSub GIF fragment and its matching IRC-compatible GIF List entry
+
+
+[Special Thanks]
+-------------------------------------
+
+Legendary Supporter:
+
+- Zen Sherpa
+- Anonymous Supporter
+
+Prime Supporter:
+
+- LosPigeon
+- Youji
+- krackatoa
+- peacedubz
+- pepewuhu
+- pumpkinpetty
+
 #### SAMMI 2026.5.0
 
 ====================================
