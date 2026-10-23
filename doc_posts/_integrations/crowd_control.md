@@ -2,7 +2,7 @@
 layout: default
 title: Crowd Control
 menu: Integrations
-num: 5
+num: 6
 permalink: /integrations/crowd-control
 type: fullpage
 version: 202322

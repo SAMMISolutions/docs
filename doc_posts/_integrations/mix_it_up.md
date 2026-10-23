@@ -2,7 +2,7 @@
 layout: default
 title: Mix It Up
 menu: Integrations
-num: 6
+num: 7
 permalink: /integrations/mix-it-up
 type: fullpage
 version: 202322

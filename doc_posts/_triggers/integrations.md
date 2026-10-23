@@ -61,3 +61,31 @@ Triggers based on the viewer's heart rate data from Pulsoid. Requires the Pulsoi
 |-------|--------|
 | Heart Rate | The current heart rate in BPM. |
 {:class='table table-secondary table-hover' }
+
+<hr>
+
+#### Twitch Extension
+
+Triggers when a viewer presses one of your buttons in the official [SAMMI Twitch Extension]({{ "integrations/twitch-extension" | relative_url }}). Requires the SAMMI Bridge to be connected to the extension.
+
+| Condition | Explanation |
+|-------|--------|
+| Message | The **Trigger Name** you gave the button in the extension configuration. Must be an exact match. Can include **[Wild Cards](introduction#wildcards)**. |
+| Case Sensitive | Whether the trigger name has to match upper and lower case exactly. |
+| Allow empty Wildcard | Whether a wildcard is allowed to match an empty value. |
+{:class='table table-primary' }
+
+| Pull Data Value | Explanation |
+|-------|--------|
+| trigger_name | The Trigger Name of the button that was pressed. |
+| redemption_name | The button label the viewer saw. |
+| amount | How much Power the button required. |
+| display_name | The viewer's Twitch display name, or `Anonymous User` if it could not be resolved. |
+| real_user_id | The viewer's Twitch user ID. Only present if the viewer shared their identity with the extension. |
+| extension_user_id | The viewer's extension ID. Always present, and the same viewer always gets the same one on your channel. Use this one if you want to recognise a returning viewer. |
+| broadcaster_user_id | Your Twitch channel ID. |
+| redeemed_at | When the button was pressed, in ISO 8601 format. |
+| event_id | The ID of this redemption, matching the entry in your redemption log. |
+{:class='table table-secondary table-hover' }
+
+{% include alert.html text="The test trigger in the SAMMI Bridge sends exactly these values, so a button you build against the test keeps working once real viewers press it." type="info" %}

@@ -9,6 +9,8 @@ type: fullpage
 
 SAMMI can connect to your Twitch account, remotely control it and listen to events in your stream.
 
+{% include alert.html text="Looking for the panel that lets your viewers trigger your buttons themselves? That is the <a href='/integrations/twitch-extension'>SAMMI Twitch Extension</a>." type="info" %}
+
 #### Link a single Twitch account
 We need to authorize SAMMI to interact with your Twitch account.
 

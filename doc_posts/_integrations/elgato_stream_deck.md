@@ -2,7 +2,7 @@
 layout: default
 title: Elgato Stream Deck
 menu: Integrations
-num: 8
+num: 9
 permalink: /integrations/elgato-stream-deck
 type: fullpage
 version: 202430

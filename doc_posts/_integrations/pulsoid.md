@@ -2,7 +2,7 @@
 layout: default
 title: Pulsoid
 menu: Integrations
-num: 7
+num: 8
 permalink: /integrations/pulsoid
 type: fullpage
 version: 202330

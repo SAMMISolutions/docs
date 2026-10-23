@@ -2,7 +2,7 @@
 layout: default
 title: YouTube Live
 menu: Integrations
-num: 3
+num: 4
 type: fullpage
 permalink: /integrations/youtube
 ---

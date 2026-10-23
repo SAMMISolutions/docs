@@ -2,7 +2,7 @@
 layout: default
 title: Meld Studio
 menu: Integrations
-num: 9
+num: 10
 permalink: /integrations/meld-studio
 type: fullpage
 version: 202650
