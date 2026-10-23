@@ -20,7 +20,7 @@ Please consider [donating](https://sammi.solutions/donate) or supporting me on [
 
 #### Link your account
 
-You must [Authorize the integration]({{ "integrations/youtube/auth" | relative_url }}) to allow SAMMI access to your YouTube Live account and to retrieve your refresh token. 
+You must [Authorize the integration]({{ "integrations/youtube/auth-memberships" | relative_url }}) to allow SAMMI access to your YouTube Live account and to retrieve your refresh token. The authorization includes access to the active members of your own channel for the **YouTube: Get Member List** command.
 
 {% include alert.html text="Keep your refresh token safe! If you accidentally share it with someone, you can go to the <a href='https://myaccount.google.com/permissions?continue=https%3A%2F%2Fmyaccount.google.com%2Fsecurity'>Google security settings page</a> to revoke user access to SAMMI in your Google account and authorize it again." type="warning" %}
 
