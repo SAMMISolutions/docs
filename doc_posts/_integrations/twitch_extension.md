@@ -9,13 +9,13 @@ permalink: /integrations/twitch-extension
 
 #### Introduction
 
-The official **SAMMI Twitch Extension** puts a panel on your Twitch channel that lets your viewers trigger your SAMMI buttons themselves.
+The official **SAMMI Twitch Extension** adds a component to your Twitch channel that lets your viewers trigger your SAMMI buttons themselves.
 
 You decide which buttons exist, what they are called, what they look like and how much **Power** each one requires. When a viewer presses one, SAMMI receives a trigger and runs whatever you built behind it - a sound, an overlay, a scene change, a whole automation chain.
 
 Viewers can only press the buttons you configured. They cannot type anything, create their own buttons or send any other data to your SAMMI.
 
-{% include image.html w="75" src="twitchext_viewer_panel.png" alt="The extension panel as viewers see it" %}
+{% include image.html w="75" src="twitchext_viewer_panel.png" alt="The extension as viewers see it" %}
 
 
 #### Requirements
@@ -25,6 +25,17 @@ Viewers can only press the buttons you configured. They cannot type anything, cr
 - The extension installed and activated on your Twitch channel
 
 Bits unlocks are only available to channels that are eligible for Bits. Everything else works without them.
+
+
+#### Install and activate
+
+1. Open the [extension's page on Twitch](https://dashboard.twitch.tv/extensions/8c4yn5m3gp6e4w2jy0106cy8k0htki-0.0.1) and press **Install**.
+2. Go to **Creator Dashboard** - **Extensions** - **My Extensions**.
+3. On the SAMMI tile press **Activate** and choose **Set as Component 1** or **Set as Component 2**.
+
+{% include image.html w="75" src="twitchext_activate.png" alt="Activating the extension on your channel" %}
+
+{% include alert.html text="Installing on its own is not enough. Until you activate it in one of the two component slots, the extension does not appear on your channel page at all." type="warning" %}
 
 
 #### Connect SAMMI to the extension
@@ -84,6 +95,13 @@ The base rate is **2.5 Power per Bit**. Larger unlocks come with a bonus on top:
 Bits spent in the extension are split by Twitch: **80% goes to you**, 20% to the extension developer. Twitch sets that split for every Bits-enabled extension - it is the same for all of them and not something SAMMI chooses. The developer share covers the running costs behind all of this - servers, code signing certificates, domains - as well as SAMMI's ongoing development.
 
 
+**Give yourself Power for testing**
+
+You do not have to spend Bits to try out your own buttons. Open the Power menu on the **Configure** page and pick any amount - it is added to your balance right away, with no Bits transaction.
+
+{% include alert.html text="This works only for you, only on your own channel and only on the Configure page. In the live view the same menu starts the normal Bits flow." type="info" %}
+
+
 #### Rules for your buttons
 
 {% include alert.html text="Read this before you design your buttons. Because viewers can use Bits to unlock Power, everything your buttons do falls under Twitch's Bits rules - and breaking them has real consequences for your channel." type="danger" %}
@@ -124,7 +142,7 @@ Violations are reported to Twitch.
 #### Create your buttons
 
 1. On Twitch, go to **Creator Dashboard** - **Extensions** - **My Extensions** and open the extension's **Configure** page.
-2. Stay on the **Twitch View** tab. This is the panel exactly as your viewers see it, with editing controls added.
+2. Stay on the **Twitch View** tab. This is the extension exactly as your viewers see it, with editing controls added.
 3. Press the **+** tile to add a button.
 4. Press the pencil icon on a button to edit it.
 5. Use the arrows on a button to move it left or right.
@@ -157,7 +175,7 @@ The **JSON Editor** tab shows your whole configuration as text. It is useful for
 
 It checks your JSON while you type and will tell you if something is wrong. Press **Save Config** when you are done.
 
-The `settings` block holds the defaults for the whole panel:
+The `settings` block holds the defaults for the whole extension:
 
 ```json
 {
@@ -218,6 +236,8 @@ You do not need a real viewer to build your buttons. The SAMMI Bridge can send a
 
 No Power is taken from anyone and nothing is written to your redemption log - the test only sends the trigger to SAMMI.
 
+To test the whole path instead - a real press in the extension, Power deducted, SAMMI reacting - give yourself Power on the Configure page as described above.
+
 
 #### Redemption Log
 
@@ -250,6 +270,7 @@ A button set to 0 Power can be pressed without any Power at all, which is handy 
 
 | Problem | What to check |
 |---------|---------------|
+| The extension does not show up on my channel | It is installed but not activated. Set it as Component 1 or 2 under **My Extensions**. |
 | Nothing happens when a button is pressed | Is SAMMI running and is the Bridge connected? The extension tells the viewer when it is not, and gives the Power back. |
 | The trigger does not fire | The **Trigger Name** in the extension and the **Message** in the SAMMI trigger must match exactly, including spaces and capitalisation if Case Sensitive is on. |
 | A button disappeared after saving | It was either removed for a rule violation, or it shared a Trigger Name with another button. The extension tells you which. |
