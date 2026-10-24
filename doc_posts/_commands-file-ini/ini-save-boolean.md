@@ -1,6 +1,7 @@
 ---
 title: "INI: Save Boolean"
 num: 2.1
+version: 202670
 redirect_from:
   - commands/454
 ---

@@ -1,6 +1,7 @@
 ---
 title: "Array Slice"
 num: 8.6
+version: 202670
 redirect_from:
   - commands/458
 ---

@@ -1,6 +1,7 @@
 ---
 title: "INI: Load Boolean"
 num: 4.5
+version: 202670
 redirect_from:
   - commands/455
 ---

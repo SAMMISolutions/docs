@@ -1,6 +1,7 @@
 ---
 title: "Array Reverse"
 num: 7.1
+version: 202670
 redirect_from:
   - commands/456
 ---

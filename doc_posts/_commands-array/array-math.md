@@ -1,6 +1,7 @@
 ---
 title: "Array Math"
 num: 13.2
+version: 202670
 redirect_from:
   - commands/459
 ---

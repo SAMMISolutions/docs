@@ -1,6 +1,7 @@
 ---
 title: "Array Unique"
 num: 7.2
+version: 202670
 redirect_from:
   - commands/457
 ---
